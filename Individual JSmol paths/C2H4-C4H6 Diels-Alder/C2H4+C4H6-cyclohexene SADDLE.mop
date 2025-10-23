@@ -1,0 +1,4 @@
+geo_dat="C2H4 plus C4H6.arc" ++
+geo_ref="Cyclohexene.arc" ++
+SADDLE
+Diels-Alder reaction of ethylene and cyclohexene

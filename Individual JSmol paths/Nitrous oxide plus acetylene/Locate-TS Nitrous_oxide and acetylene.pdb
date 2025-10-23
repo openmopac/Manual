@@ -1,0 +1,12 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Nitrous oxide p
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  5 2021 15:34
+REMARK  Heat of Formation = 204.640 Kcal/mol
+HETATM    1  C1  HET A   1       0.085  -0.281  -0.000  1.00 -0.15      PROT C 
+HETATM    2  C2  HET A   1       1.356  -0.436  -0.000  1.00 -0.06      PROT C 
+HETATM    3  N1  HET B   2      -0.413   1.520  -0.000  1.00 -0.15      PROT N 
+HETATM    4  N2  HET B   2       0.629   2.077   0.000  1.00  0.00      PROT N 
+HETATM    5  O   HET B   2       1.762   1.877   0.000  1.00 -0.05      PROT O 
+HETATM    6  H1  HET A   1      -0.810  -0.576  -0.000  1.00  0.20      PROT H 
+HETATM    7  H2  HET A   1       2.236  -0.937  -0.000  1.00  0.20      PROT H 
+END

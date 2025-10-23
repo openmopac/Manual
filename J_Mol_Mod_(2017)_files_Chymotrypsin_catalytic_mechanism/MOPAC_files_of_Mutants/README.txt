@@ -1,0 +1,3 @@
+One worked example, "Step 1 Oxyanion 193," is provided.  Opening the HTML file "Step 1 Oxyanion 193.html" and run "Common Script".  That will show the mutation.  Click on "M 192" (in the left panel) to see that the amide bond has been mutated to an ester.
+
+Note: These files are now out-of-date.  After the article was published, edits were made to MOPAC that caused small changes to be made in the various properties.  These changes are not significant, and the results obtained with the current MOPAC should be regarded as being more correct.

@@ -1,0 +1,559 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Test of DRC--verification of trajectory path</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION0012199000000000000000">Test of DRC--verification of trajectory path</a> </h2>
+<p>Introduction: Unlike a single-geometry calculation or even a geometry optimization, verification of a DRC trajectory is not a simple task. In this section a rigorous proof of the DRC trajectory is presented; it can be used both as a test of the DRC algorithm and as a teaching exercise. Users of the DRC are asked to follow through this proof in order to convince themselves that the DRC works as it should. </p>
+<h2><a name="SECTION00121910000000000000000">The nitrogen molecule</a> </h2>
+<p>For the nitrogen molecule (using MNDO) the equilibrium distance is 1.103816&Aring;, the heat of formation is 8.25741 kcal/mol and the vibrational frequency is 2738.8 cm<sup>-1</sup>. For small displacements, the energy curve versus distance is parabolic and the gradient curve is approximately linear, as is shown in the&nbsp;Table. A nitrogen molecule is thus a good approximation to a harmonic oscillator. </p>
+<p><br/>
+</p><div align="CENTER"><div align="CENTER"><a name="BM22800">&nbsp;</a>
+<p></p>
+<strong><p>Table:</p></strong> Stretching Curve for Nitrogen Molecule
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p align="CENTER"> N-N DIST</p></td>
+<td valign="MIDDLE">
+<p align="CENTER"> <img alt="$Delta H_f$" height="29" src="img1681.gif" width="32"/></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">GRADIENT</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">(&Aring;ngstroms)</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">(kcal/mol)</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">(kcal/mol/&Aring;ngstrom)</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11800</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.69441</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">60.84599</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11700</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.63563</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">56.70706</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11600</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.58100</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">52.54555</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11500</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.53054</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">48.36138</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11400</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.48428</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">44.15447</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11300</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.44224</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">39.92475</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11200</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.40444</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">35.67214</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11100</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.37091</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">31.39656</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.11000</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.34166</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">27.09794</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10900</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.31672</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">22.77620</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10800</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.29611</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">18.43125</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10700</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.27986</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">14.06303</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10600</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.26799</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">9.67146</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10500</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.26053</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">5.25645</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10400</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.25749</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">0.81794</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10300</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.25890</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-3.64427</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10200</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.26479</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-8.12993</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10100</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.27517</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-12.63945</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.10000</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.29007</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-17.17278</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09900</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.30952</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-21.73002</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09800</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.33354</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-26.31123</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09700</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.36215</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-30.91650</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09600</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.39538</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-35.54591</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09500</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.43325</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-40.19953</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09400</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.47579</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-44.87745</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09300</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.52301</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-49.57974</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09200</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.57496</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-54.30648</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09100</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.63164</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-59.05775</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="RIGHT">1.09000</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.69308</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-63.83363</p></td>
+</tr>
+</table>
+</div></div>
+<p>
+<br/>
+<br/>
+<br/>
+</p>
+<h3><a name="SECTION00121910100000000000000">
+Period of vibration</a>
+</h3>
+<p>The period of vibration (time taken for the oscillator to undertake one
+complete vibration, returning to its original position and velocity) can be
+calculated in three ways.  Most direct is  the  calculation  from the  energy
+curve; using the gradient constitutes a faster, albeit less direct, method,
+while calculating it from the vibrational  frequency  is very  fast  but
+assumes  that the vibrational spectrum has already been calculated. </p>
+<p>
+</p><dl compact="">
+<dd><p>
+</p></dd><dt>1.
+</dt><dd>From the energy curve. For a simple harmonic oscillator the period <i>r</i> is
+given by: <br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}r = 2 \pi \sqrt{\frac{\mu}{k}} \end{displaymath}" height="45" src="img1682.gif" width="72"/>
+</div>
+<p>
+<br clear="ALL"/>
+</p>
+<p></p>
+<p>where <i>k</i> is the force
+constant. The  reduced  mass, <i>&mu;</i>,
+(in amu)   of   a   nitrogen  molecule  is
+14.0067/2  =  7.00335,
+and  the force-constant, <i>k</i>, can be calculated from:
+<br/></p>
+<p></p>
+<div align="CENTER">
+<i>E</i>-<i>c</i> = (1/2) <i>k</i>(<i>R</i>-<i>R</i><sub><i>o</i></sub>)<sup>2</sup>.
+</div>
+<p>
+<br clear="ALL"/>
+</p>
+<p></p>
+<p>Given
+<i>R</i><sub><i>o</i></sub> = 1.1038, <i>R</i> = 1.092,
+<i>c</i> = 8.25741 and
+<i>E</i> = 8.57496&nbsp;kcal/mol
+then:
+<br/></p>
+<p></p>
+<div align="CENTER">
+<i>k</i> = 2x0.31755/(0.0118)<sup>2</sup> (per mole)<p></p>
+<p>
+<i>k</i> = 4561.2 kcal/mol/A<sup>2</sup> (per mole)</p>
+<p></p>
+<p>
+<i>k</i> = 1.9084x10<sup>30</sup> ergs/cm<sup>2</sup> (per mole)</p>
+<p></p>
+<p>
+<i>k</i> = 31.69x10<sup>5</sup> dynes/cm (per molecule)</p>
+<p></p>
+<p>(Experimentally, for N<sub>2</sub>, <i>k</i> = 23x10<sup>5</sup> dynes/cm )</p>
+<p></p>
+</div><p></p>
+<p>
+<br clear="ALL"/>Therefore:
+<br/></p>
+<p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}r = 2 \times 3.14159 \times \sqrt{\frac{7.0035}{1.9084\times ...
+...seconds} = 12.037 \times 10^{-15}\;{\rm s} = 12.037\;{\rm fs}. \end{displaymath}" height="45" src="img1685.gif" width="464"/>
+</div>
+<p>
+<br clear="ALL"/>
+</p>
+<p></p>
+<p>If the frequency is calculated using the other half of the curve (
+<i>R</i>=1.118,
+<i>E</i>=8.69441), then <i>k</i>=12.333 fs, or <i>k</i>, average, = 12.185 fs.
+</p>
+<p>
+</p></dd><dt>2.
+</dt><dd>From the gradient curve. The force  constant  is  the  derivative  of
+the  gradient  wrt distance:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}k = \frac{dG}{dx}. \end{displaymath}" height="39" src="img1686.gif" width="52"/>
+</div>
+<p>
+<br clear="ALL"/>
+</p>
+<p></p>
+<p>Since we are using discrete points,  the  force  constant  is  best
+obtained from finite differences:
+<br/></p>
+<p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}k = \frac{(G_2-G_1)}{(x_2-x_1)}. \end{displaymath}" height="45" src="img1687.gif" width="96"/>
+</div>
+<p>
+<br clear="ALL"/>
+</p>
+<p></p>
+<p>For
+<i>x</i><sub>2</sub> = 1.1100,
+<i>G</i><sub>2</sub> = 27.098 and for
+<i>x</i><sub>1</sub> =  1.0980,
+<i>G</i><sub>1</sub>  =  -26.311,
+giving rise to
+<i>k</i> = 4450.75 kcal/mol/&Aring;<sup>2</sup> and a period of 12.185&nbsp;fs.
+</p>
+<p>
+</p></dd><dt>3.
+</dt><dd>From the vibrational frequency. Given a "frequency" (wavenumber) of
+vibration of N<sub>2</sub> of <i>&nu;</i> =
+2738.8
+cm<sup>-1</sup>,  the period of
+oscillation, in seconds, is given directly by:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}r = \frac{1}{c\bar{\nu}} = \frac{1}{2738.8 \times 2.998 \times 10^{10}} ,\end{displaymath}" height="40" src="img1689.gif" width="208"/>
+</div>
+<p>
+<br clear="ALL"/>
+</p>
+<p></p>
+<p>or as 12.179 fs.
+</p><p>
+Summarizing, by three different methods the period  of  oscillation of N<sub>2</sub>
+is calculated to be 12.1851, 12.185 and 12.179&nbsp;fs, average 12.183&nbsp;fs.
+</p><p>
+<br/>
+</p>
+<h3><a name="SECTION00121910200000000000000">
+Initial dynamics of N<sub>2</sub> with N-N distance = 1.094 &Aring;</a>
+</h3>
+<p>A useful check on the dynamics of N<sub>2</sub> is to  calculate  the  initial
+acceleration  of  the  two  nitrogen  atoms  after releasing them from a
+starting interatomic separation of 1.094 &Aring;. </p>
+<p>
+At R(N-N) = 1.094 &Aring;,
+<i>G</i> = -44.877&nbsp;kcal/mol/&Aring; or
+<img align="MIDDLE" alt="$-18.777 \times
+10^{19}$" border="0" height="35" src="img1690.gif" width="104"/>&nbsp;erg/cm. Therefore acceleration,
+<img align="MIDDLE" alt="$f = -18.777 \times 10^{19}
+/14.0067$" border="0" height="35" src="img1691.gif" width="190"/>&nbsp;cm/sec/sec, or
+<img align="MIDDLE" alt="$-13.405 \times 10^{18}$" border="0" height="35" src="img1692.gif" width="104"/>&nbsp;cm/s<sup>2</sup>, which is
+<img align="MIDDLE" alt="$ -13.405
+\times 10^{15} \times$" border="0" height="35" src="img1693.gif" width="116"/>
+Earth surface gravity.
+</p><p>
+Distance from equilibrium  = 0.00980 &Aring;. After 0.1 fs, velocity is
+<img align="MIDDLE" alt="$0.1\times 10^{-15} (-13.405 \times 10^{18})$" border="0" height="35" src="img1694.gif" width="188"/>
+cm/sec or 1340.5 cm/s.
+</p><p>
+In the  DRC  the  time-interval  between  points  calculated  is  a complicated
+function of the curvature of the local surface.  By default, the first
+time-interval is 0.105fs, so the calculated velocity  at  this time should be
+<img align="MIDDLE" alt="$0.105/0.100 \times 1340.5 = 1407.6$" border="0" height="31" src="img1695.gif" width="204"/>
+cm/s, in the DRC calculation the predicted
+velocity is 1407.6 cm/s.
+</p><p>
+The option is provided to allow sampling of the system at  constant
+time-intervals,  the  default being 0.1&nbsp;fs.  For the first few points the
+calculated velocities are given in Table 1.
+</p><p>
+<br/>
+</p><div align="CENTER">
+<div align="CENTER">
+<a name="BM22806">&nbsp;</a>
+<caption><strong><a name="tdrc"></a>Table 1:</strong>
+ Velocities in DRC for N<sub>2</sub> Molecule</caption>
+<table border="1" cellpadding="3">
+<tr valign="BASELINE"><td align="RIGHT">Time</td>
+<td align="RIGHT">Calculated</td>
+<td align="RIGHT">Linear</td>
+<td align="RIGHT">Diff. in</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">Velocity</td>
+<td align="RIGHT">Velocity</td>
+<td align="RIGHT">Velocity</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.000</td>
+<td align="RIGHT">0.0</td>
+<td align="RIGHT">0.0</td>
+<td align="RIGHT">0.0</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.100</td>
+<td align="RIGHT">1340.6</td>
+<td align="RIGHT">1340.5</td>
+<td align="RIGHT">-0.1</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.200</td>
+<td align="RIGHT">2678.0</td>
+<td align="RIGHT">2681.0</td>
+<td align="RIGHT">-3.0</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.300</td>
+<td align="RIGHT">4007.0</td>
+<td align="RIGHT">4021.5</td>
+<td align="RIGHT">-14.5</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.400</td>
+<td align="RIGHT">5325.3</td>
+<td align="RIGHT">5362.0</td>
+<td align="RIGHT">-36.7</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.500</td>
+<td align="RIGHT">6628.4</td>
+<td align="RIGHT">6702.5</td>
+<td align="RIGHT">-74.1</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.600</td>
+<td align="RIGHT">7912.7</td>
+<td align="RIGHT">8043.0</td>
+<td align="RIGHT">-130.3</td>
+</tr>
+</table></div>
+</div>
+<p>
+<br/>
+</p>
+<p>
+As the calculated velocity is  a  fourth-order  polynomial  of  the
+acceleration,   and  the  acceleration,  its  first,  second  and  third
+derivatives, are all changing, the predicted velocity rapidly becomes  a poor
+guide to future velocities.
+</p><p>
+For simple harmonic motion the velocity at any time is given by:
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}v = v_0 \sin(2\pi t/r). \end{displaymath}" height="29" src="img1696.gif" width="110"/>
+</div>
+<p>
+<br clear="ALL"/>
+</p>
+<p></p>
+<p>By fitting the computed velocities to simple harmonic motion, a much better fit
+is obtained (Table 2). </p>
+<p>
+<br/>
+</p><div align="CENTER">
+<a name="BM22807">&nbsp;</a>
+<caption><strong><a name="tdrc2"></a>Table 2:</strong>
+ Modified  Velocities in DRC for N<sub>2</sub> Molecule</caption>
+<table border="1" cellpadding="3">
+<tr valign="BASELINE"><td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">Calculated</td>
+<td align="RIGHT">Simple Harmonic</td>
+<td align="RIGHT">Diff.</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">Time</td>
+<td align="RIGHT">Velocity</td>
+<td align="RIGHT">25325.Sin(0.5296t)</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.000</td>
+<td align="RIGHT">0.0</td>
+<td align="RIGHT">0.0</td>
+<td align="RIGHT">0.0</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.100</td>
+<td align="RIGHT">1340.6</td>
+<td align="RIGHT">1340.6</td>
+<td align="RIGHT">0.0</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.200</td>
+<td align="RIGHT">2678.0</td>
+<td align="RIGHT">2677.4</td>
+<td align="RIGHT">+0.6</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.300</td>
+<td align="RIGHT">4007.0</td>
+<td align="RIGHT">4006.7</td>
+<td align="RIGHT">+0.3</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.400</td>
+<td align="RIGHT">5325.3</td>
+<td align="RIGHT">5324.8</td>
+<td align="RIGHT">+0.5</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.500</td>
+<td align="RIGHT">6628.4</td>
+<td align="RIGHT">6628.0</td>
+<td align="RIGHT">+0.4</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">0.600</td>
+<td align="RIGHT">7912.7</td>
+<td align="RIGHT">7912.5</td>
+<td align="RIGHT">0.0</td>
+</tr>
+</table></div>
+<p>
+<br/>
+</p>
+<p>
+The repeat-time required for this  motion  is  11.86&nbsp;fs,  in  good agreement
+with  the  three  values calculated using static models.  The repeat time
+should not be calculated from the time required to go from a minimum  to  a
+maximum and then back to a minimum--only half a cycle. For all real systems
+the potential energy is a skewed parabola, so  that the  potential energy
+slopes are different for both sides; a compression (as in this case) normally
+leads to a higher force-constant, and shorter apparent  repeat  time  (as in
+this case).  Only the addition of the two half-cycles is meaningful.
+<br/>
+</p><p>
+<br/>
+</p><p>&nbsp;</p>
+</dd></dl></body>
+</html>

@@ -1,0 +1,40 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Algorithmic validation</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h3><a name="SECTION00541100000000000000">Algorithmic validation</a> </h3>
+<p>A powerful device to validate a program is by examination of the computer code involved. Reading the program is not practical: MOPAC2016 is over 120,000 lines long. Instead various software validation tools can be used. The more important of these are: </p>
+<ul>
+<li>FORCHECK: Checks conformance with the ANSI FORTRAN 90 Standard. MOPAC has known exceptions to the standard, but all of these have been independently checked.
+<br/>
+&nbsp;</li>
+<li>IEEE: Some machines support testing for conformance with the Institute of Electrical and Electronics Engineering standards (IEEE standard 754), for validity of arithmetic operations. Again, with a few known and tested exceptions, MOPAC conforms with this standard.
+<br/>
+&nbsp;</li>
+<li>Some machines allow the initial state of otherwise undefined numbers to be defined. By setting all undefined numbers to NaNs (Not a Number), any assumption of initial values is easily detected.
+<br/>
+&nbsp;</li>
+<li>The validation tests were carried out with array bounds checking. Of course, any errors detected during this test were corrected.
+<br/>
+&nbsp;</li>
+<li>Only one top copy of MOPAC exists. This copy is designed to run on many different platforms. Because of this, any errors detected on one platform can be corrected, and the correction is then automatically propagated to all platforms. </li></ul>
+</body>
+</html>

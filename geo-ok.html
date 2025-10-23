@@ -1,0 +1,38 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>GEO-OK </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<tt><h1 align="center" dir="ltr">GEO-OK</h1></tt>
+<p>Normally the program will stop if certain errors occur.&nbsp; If <tt>GEO-OK</tt> is present, the job will continue, but there is an increased probability that the results will not be meaningful.&nbsp; The errors that are affected are:</p>
+<p>If two atoms are within 0.1 &Aring;ngstroms of each other.<br/>
+In practice, most jobs that terminate due to these checks contain errors in data, so caution should be exercised if <tt>GEO-OK</tt> is used. </p>
+<p>In <tt><a href="mozyme.html">MOZYME</a></tt> calculations, if the supplied charge is incorrect and <tt>GEO-OK</tt> 
+is present, it will be replaced by the correct charge, and the calculation 
+allowed to continue. In general, this is not a good idea: if a charge is 
+supplied, and MOZYME predicts a different charge, examine the system to find out 
+which is correct; don't simply assume MOZYME is right!</p>
+<p>When <a href="Protein_structure_comparison.html">comparing protein structures</a>, 
+a special keyword, <tt>GEO-OK+</tt>, is provided to allow tautomeric hydrogen atoms, 
+i.e., hydrogen atoms that are on different atoms in the two structures, to be 
+used in the comparison.&nbsp; This is a special case, and should not be used 
+routinely. </p>
+</body>
+</html>

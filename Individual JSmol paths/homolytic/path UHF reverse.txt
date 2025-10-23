@@ -1,0 +1,4 @@
+reset;center {0.9733736666666668 -4.877891333333333 -0.566573}; rotate z 104.93; rotate y 123.04; rotate z -39.66; zoom 323.54; set rotationRadius 13.83;
+measure all (C57) (C54)
+measure all (S60) (H103)
+measure all (O61) (H35)

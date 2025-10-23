@@ -1,0 +1,81 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>PMEPR </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>PMEPR</tt> </h1>
+<p>The Parametric Molecular Electrostatic Potential of Wang and Ford&nbsp;[<a href="references.html#pmep1">45</a>,<a href="references.html#pmep2">46</a>] is generated. When <tt>PMEPR</tt> is used, extra data must follow the Z-matrix and symmetry data. This extra data defines the plane in which the electrostatic potential is plotted, and is summarized in the&nbsp;Table. Other keywords, e.g., <tt>
+<a href="minmep.html">MINMEP</a></tt>(to print the minima) or <tt>
+<a href="prtmep.html">PRTMEP</a></tt>(to write data for <tt>esplot</tt> to use) <em>must</em> be present. </p>
+<p><br/>
+</p><div align="CENTER"><div align="CENTER"><a name="BM3795">&nbsp;</a>
+<strong><p>Table:</p></strong> Data Required by PMEPR
+<table border="" cellpadding="3" cellspacing="1" width="270">
+<tr><td valign="MIDDLE" width="33%">
+<p>Name of</p></td>
+<td valign="MIDDLE" width="67%">
+<p>Allowed Values</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="33%">
+<p>Datum</p></td>
+<td valign="MIDDLE" width="67%">
+<p>&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="33%">
+<p>ICASE</p></td>
+<td valign="MIDDLE" width="67%">
+<p>1, 2, 3</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="33%">
+<p>N1</p></td>
+<td valign="MIDDLE" width="67%">
+<p>1-NUMAT</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="33%">
+<p>N2</p></td>
+<td valign="MIDDLE" width="67%">
+<p>1-NUMAT, not N1</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="33%">
+<p>N3</p></td>
+<td valign="MIDDLE" width="67%">
+<p>1-NUMAT, not N1 or N2</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="33%">
+<p>X0</p></td>
+<td valign="MIDDLE" width="67%">
+<p>Any real number</p></td>
+</tr>
+</table>
+<p></p></div></div><br/>
+The various planes which can be drawn through the system are identified by the datum ICASE: 
+<tt><dl>
+<dd>ICASE=1</dd></dl></tt> If <tt>X0</tt> is zero, then the plane generated passes through atoms <tt>N1</tt>, <tt>N2</tt> and <tt>N3</tt>. Obviously, these atoms should not lie on a straight line. If <tt>X0</tt> is non-zero, then the plane is parallel to the plane of atoms <tt>N1</tt>, <tt>N2</tt> and <tt>N3</tt>, but <tt>X0</tt> &Aring;ngstroms above it. 
+<tt><dd>ICASE=2</dd></tt> If <tt>X0</tt> is zero, then the plane generated is perpendicular to the plane of <tt>N1</tt>, <tt>N2</tt> and <tt>N3</tt>, and includes the line from atom <tt>N1</tt> to <tt>N2</tt>. If <tt>X0</tt> is non-zero, then the plane is perpendicular to the plane of <tt>N1</tt>, <tt>N2</tt> and <tt>N3</tt>, and is <tt>X0</tt> &Aring;ngstroms above, and parallel to, the line from atom <tt>N1</tt> to <tt>N2</tt>. 
+<tt><dd>ICASE=3</dd></tt> The plane used is that which bisects the angle <tt>N2</tt>-<tt>N1</tt>-<tt>N3</tt>. <tt>X0</tt> is meaningless in this context, and should be set to zero. 
+
+<p>Examples of extra data:</p>
+<p>To generate data for the plane through atoms 10, 11, and 20, use as extra 
+data: "1 10 11 20 0" (do not include the quotation marks.)&nbsp; 
+Alternatively, every datum can be expressed in keyword style, as "icase=1 n1=10 
+n2=11 n3=20 z0=0"</p>
+</body>
+</html>

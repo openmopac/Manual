@@ -1,0 +1,27 @@
+#
+# Script for use with the HTML file "Make a covalent bond.html"
+#
+#  First hide all atoms, then display the residues of interest
+#
+HIDE *
+display 1, 37, 38
+zoom 0
+delay 2
+#
+#   The 
+#
+#   Create a bond between the hydrogen and the ortho carbon,
+#   and delete the bond from the hydrogen to the oxygen
+#
+connect (atomno=6) (atomno=530) single
+connect (atomno=12) (atomno=528) single
+connect (atomno=12) (atomno=6) delete
+delay 2
+minimize SELECT (1, 38) 
+select (1, 38)
+#
+#  Run the command "write PDB" in the JSmol console after the minimize has finished
+#
+#  The coordinates of the selected atoms will appear in the console.
+#  Copy them to the appropriate location.
+#

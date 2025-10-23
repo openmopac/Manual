@@ -1,0 +1,55 @@
+<HTML>
+<HEAD>
+<TITLE>Notes on homolytic fission </TITLE>
+<style type="text/css">
+.auto-style1 {
+	text-align: left;
+}
+</style>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">Notes on homolytic fission</h1>
+<p class="auto-style1">All files used here can be downloaded from
+<a href="homolytic.zip">homolytic.zip</a>.&nbsp; Due to small changes in 
+precision and operating systems, a duplication of the following sequence might 
+not be possible, however if the method used in generating the sequence is 
+followed, similar results can be expected. </p>
+<p class="auto-style1">Files of type: &quot;path UHF&quot; - <a href="path%20UHF.html">
+Stretching C57 - C54 bond</a> until is breaks. <br>Click on &quot;Script&quot; to 
+orientate system and display distances.<br>Model 10 is the highest energy 
+system. In going to Model 11, the hydrogen on HOCO changes from being <em>cis</em> 
+to being <em>trans</em>. At Model 23, the hydrogen on HOCO forms a hydrogen-bond 
+with S60.<br>The geometry in the data-set is all Cartesian, except for C57, 
+which is in internal coordinates.</p>
+<p class="auto-style1">Files of type: &quot;path UHF reverse&quot; -
+<a href="path%20UHF%20reverse.html">Compressing C57 - C54.</a><br>Click on 
+&quot;Script&quot; to orientate system and display distances.<br>This system starts at the 
+geometry in Model 13 in &quot;path UHF&quot; The &Delta;H<sub>f</sub> of Model 13 is -433.194 kcal mol<sup>-1</sup>. 
+As the C - C distance is reduced, the energy drops steadily until Model 13.&nbsp; 
+Because the hydrogen on HOCO is now <i>trans</i>, the starting energy is 
+-472.581 kcal mol<sup>-1</sup>, instead of -475.152 at the start of the &quot;path 
+UHF&quot; trajectory.&nbsp; Model 4, at -436.721 looks like a good candidate for a 
+transition state calculation.</p>
+<p class="auto-style1">Files of type &quot;path UHF TS&quot; -
+<a href="path%20UHF%20TS.html">refine the transition state</a>.<br>Click on 
+&quot;Specific Script&quot; to orientate system and display distances.<br>Now the C54 - 
+C57 bond is at the transition-state geometry, and two hydrogen bonds are made 
+between the HOCO and the rest of the system.</p>
+<p class="auto-style1">Files of type &quot;UHF FORCE&quot; - verify the transition state 
+geometry.<br>This works out the vibrational frequencies of the transition state.&nbsp; 
+One &quot;negative&quot; vibration is expected, two, at&nbsp; -139.1 and -83.6 cm<sup>-1</sup> 
+are found.<br>By adding keyword &quot;ISOTOPE&quot; a restart file is made.&nbsp; This 
+will save time in the next two calculations.</p>
+<p class="auto-style1">Files of type &quot;IRC path 1&quot; -
+<a href="IRC%20path%201.html">Map the IRC from reactants to products for 
+imaginary vibration 1</a>.<br>Files of type &quot;IRC path 2&quot; -
+<a href="IRC%20path%201.html">Map the IRC from reactants to products for 
+imaginary vibration 2</a>.<br>Both IRC's, from vibrations 1 and 2, produce 
+more-or-less the same plot.&nbsp; The starting point for the IRC is the 
+separated HOCO, and the ending point is the similar to that in &quot;path UHF 
+reverse&quot; i.e., the C-C bond is intact.</p>
+<p class="auto-style1"><br></p>
+<p class="auto-style1"><br></p>
+
+</BODY>
+</HTML>

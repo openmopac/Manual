@@ -1,0 +1,90 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>MEP=1 </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>MEP=1</tt> </h1>
+<p>The Orozco-Luque molecular electrostatic potential map&nbsp;[<a href="references.html#lo3">40</a>] for a cross-section through a system is calculated and printed. The output is written to <tt>&lt;filename&gt;.mep</tt> and <tt>&lt;filename&gt;.tab</tt> </p>
+<p>In order to use <tt>MEP=1</tt>, extra data are needed at the end of the normal data-set. The extra data consist of four lines of numbers, as defined in the Table. </p>
+<p></p><div align="CENTER">&nbsp;
+<strong><p><a name="mep1"></a>Table:</p></strong> Extra Data Required by <tt>MEP=1</tt>
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p align="CENTER">Extra Line</p></td>
+<td valign="MIDDLE">
+<p>Description</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE">
+<p>Bottom left-hand corner of cross-section (three numbers)<br/>
+(All coordinates are Cartesian and are in &Aring;ngstroms)</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE">
+<p>Top left-hand corner of cross-section (three numbers)</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE">
+<p>Bottom right-hand corner of cross-section (three numbers)</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE">
+<p>Step-size in &Aring;ngstroms for points from (1) to (2)</p></td>
+</tr>
+</table>
+<p></p></div>
+<p>An example of a <tt>MEP=1</tt> data set is given in Figure 1; the corresponding plot is shown in Figure 2. This plot can be compared with the
+<a href="pmep_description.html"><tt><font color="#0000ff"><u>PMEP</u></font></tt> plot</a>. </p>
+<p><br/>
+</p><div align="CENTER">&nbsp;<a name="BM3739"></a>&nbsp; <br/>
+<div align="CENTER"><a name="mep1data">&nbsp;</a><a name="BM3736"></a>&nbsp; 
+<strong><p>Figure 1:</p></strong> Calculation of ESP Cross-Section in Formaldehyde using the Orozco-Luque Model
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<pre>Line
+  *      1scf  AM1 mep=1
+  *  Formaldehyde (Cross-section in plane of molecule)
+  *  Generate a 2-D grid of MEP potentials for 'meplot' to use
+  *   O    0.00000000  0    0.0000000  0    0.0000000  0    0 0 0
+  *   C    1.22732374  1    0.0000000  0    0.0000000  0    1 0 0
+  *   H    1.11047287  1  122.2253516  1    0.0000000  0    2 1 0
+  *   H    1.11048351  1  122.2158646  1  179.9998136  1    2 1 3
+  *
+  1  -2.3  2.7 0  (Note: For 'meplot' to work, the first coordinate of line 2
+  2  -2.3 -2.7 0   here must be the same as the first coordinate of line 1)
+  3   4.1  2.7 0
+  4   0.2</pre></td>
+</tr>
+</table>
+<p></p></div>
+<strong><p>Figure 2:</p></strong> <a name="mep"></a>Molecular Electrostatic Potential around Formaldehyde
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<p></p><div align="CENTER"> <img alt="includegraphics{ch2o-tom}" height="653" src="img125.gif" width="575"/></div></td>
+</tr>
+</table>
+</div><a name="mep1plot"></a>
+</body>
+</html>

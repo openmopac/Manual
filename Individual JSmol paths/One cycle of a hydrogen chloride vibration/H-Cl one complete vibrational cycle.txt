@@ -1,0 +1,2 @@
+measure all (@1) (@2)
+measure "2:%0.4VALUE//A"

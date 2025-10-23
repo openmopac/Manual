@@ -1,0 +1,2 @@
+geo-ok geo_ref="bicyclo[2,2,1]heptene.arc" geo_dat="Cyclopentadiene_plus_ethylene.arc" locate-ts(C:20) opt  
+Move one step from fully-optimized reactant and product towards the transition state 

@@ -1,0 +1,69 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Constraints</title>
+<style type="text/css">
+.auto-style2 {
+	margin-top: 6px;
+}
+.auto-style3 {
+	margin-left: 40px;
+	margin-top: 6px;
+}
+</style>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION00743100000000000000">
+ Constraints</a> on geometric parameters in Z-matrices</h2>
+<p class="auto-style2">1.
+Interatomic distances must be greater than zero.  Zero &Aring;ngstroms
+is  acceptable  only  if  the  parameter  is symmetry-related to
+    another atom, and is the dependent function.
+</p>
+<p class="auto-style2">2.
+Angles must be in the  range  0.0  to  180.0,  inclusive.   This
+    constraint  is for the benefit of the user only; negative angles
+    are the result of errors in the construction  of  the  geometry,
+    and  angles  greater  than  180  degrees can easily give rise to
+    errors in the dihedral angles. </p>
+<p class="auto-style2">3.
+Dihedral angles must be definable.  If atom <i>i</i> makes a  dihedral with
+    atoms <i>j</i>, <i>k</i>, and <i>l</i>, and the three atoms <i>j</i>, <i>k</i>, and <i>l</i> are in a
+    straight line, then the dihedral has no definable angle.  During the
+    calculation this constraint is checked continuously, and if atoms <i>j</i>, <i>k</i>,
+    and <i>l</i> lie within 0.02 &Aring;ngstroms of a straight  line, an attempt will
+    be made to re-number the connectivity.  If this fails, the calculation will
+    output an error message and then stop. The exceptions to this constraint
+    are:
+</p>
+<p class="auto-style3">(a)
+if the angle is 0 or 180 degrees, in which case the dihedral
+is not used.
+</p>
+<p class="auto-style3">(b)
+if atoms <i>j</i>, <i>k</i>, and <i>l</i> lie in an  exactly  straight  line
+    (usually  the result of a symmetry constraint), as in acetylene,
+    acetonitrile, but-2-yne, etc.
+</p>
+<p class="auto-style2">If the exceptions are used, care must be taken to  ensure  that  the
+program  does  not  violate these constraints during any optimizations or
+during any calculations of derivatives--see also <tt><a href="force.html">FORCE</a></tt>.
+</p>
+</body>
+</html>

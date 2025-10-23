@@ -1,0 +1,3 @@
+measure all @1 @3
+measure all @3 @2
+anim fps 20; anim mode palindrome; anim on;

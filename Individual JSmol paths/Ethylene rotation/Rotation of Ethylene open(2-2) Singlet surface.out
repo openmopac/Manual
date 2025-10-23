@@ -1,0 +1,2416 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.178W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.178W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 365**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jun 27 15:45:55 2021  *
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *  SYMMETRY   - SYMMETRY CONDITIONS TO BE IMPOSED
+ *  OPEN(N,N)  - THERE ARE 2 ELECTRONS IN 2 LEVELS
+ *  STEP       - STEP-SIZE IN PATH =   0.200
+ *  POINT      - NUMBER OF POINTS IN PATH =100
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *******************************************************************************
+
+
+
+                    PARAMETER DEPENDENCE DATA
+
+        REFERENCE ATOM      FUNCTION NO.    DEPENDENT ATOM(S)
+            3                  1               4    5    6
+            3                  2               4    5    6
+
+             DESCRIPTIONS OF THE FUNCTIONS USED
+   1      BOND LENGTH    IS SET EQUAL TO THE REFERENCE BOND LENGTH   
+   2      BOND ANGLE     IS SET EQUAL TO THE REFERENCE BOND ANGLE    
+ 
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  ATOM               CHEMICAL                 BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER               SYMBOL                  (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                                           NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C(HETATM    1  C1  HET A   1)    0.00000000       0.0000000       0.0000000   
+     2       C(HETATM    2  C2  HET A   1)    1.32958102  *    0.0000000       0.0000000        1     0     0
+     3       H(HETATM    3 1H2  HET A   1)    1.07987472  *  123.6578309  *    0.0000000        2     1     0
+     4       H(HETATM    4 2H2  HET A   1)    1.07987472     123.6578309     180.0000000        2     1     3
+     5       H(HETATM    5 1H1  HET A   1)    1.07987472     123.6578309      80.0000000  +     1     2     3
+     6       H(HETATM    6 2H1  HET A   1)    1.07987472     123.6578309     180.0000000        1     2     5
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C2 H4  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D2  
+
+
+ SINGLET STATE CALCULATION
+
+      THERE ARE    5 DOUBLY FILLED LEVELS
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 5
+
+
+                       NO. OF SINGLY OCCUPIED LEVELS =    2
+  ABOUT TO ENTER EF FROM PATHK
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    98.612 HEAT:  53.47086
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    44.807 HEAT:  50.50004
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    29.054 HEAT:  49.99987
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    14.881 HEAT:  49.85967
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.382 HEAT:  49.79883
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.392 HEAT:  49.79538
+
+     GRADIENT =  0.39171 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        80.00000       49.795326
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40723093 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06960091 +1  121.4234214 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06960091 +0  121.4234214 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06960091 +0  121.4234214 +0   80.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06960091 +0  121.4234214 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.54116 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        80.20000       49.886038
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40723093 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06960091 +1  121.4234214 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06960091 +0  121.4234214 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06960091 +0  121.4234214 +0   80.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06960091 +0  121.4234214 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.83408 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        80.40000       49.975397
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40723093 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06960091 +1  121.4234214 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06960091 +0  121.4234214 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06960091 +0  121.4234214 +0   80.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06960091 +0  121.4234214 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.164 HEAT:  50.06334
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.891 HEAT:  50.06317
+
+     GRADIENT =  0.89067 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        80.60000       50.063049
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40835029 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06991267 +1  121.4316544 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06991267 +0  121.4316544 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06991267 +0  121.4316544 +0   80.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06991267 +0  121.4316544 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.87015 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        80.80000       50.149108
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40835029 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06991267 +1  121.4316544 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06991267 +0  121.4316544 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06991267 +0  121.4316544 +0   80.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06991267 +0  121.4316544 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.98355 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        81.00000       50.233780
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40835029 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06991267 +1  121.4316544 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06991267 +0  121.4316544 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06991267 +0  121.4316544 +0   81.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06991267 +0  121.4316544 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.190 HEAT:  50.31698
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.151 HEAT:  50.31711
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.422 HEAT:  50.31651
+
+     GRADIENT =  0.42170 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        81.20000       50.316411
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40953830 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06957847 +1  121.3717494 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06957847 +0  121.3717494 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06957847 +0  121.3717494 +0   81.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06957847 +0  121.3717494 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.34417 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        81.40000       50.397619
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40953830 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06957847 +1  121.3717494 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06957847 +0  121.3717494 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06957847 +0  121.3717494 +0   81.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06957847 +0  121.3717494 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.53639 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        81.60000       50.477372
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40953830 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06957847 +1  121.3717494 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06957847 +0  121.3717494 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06957847 +0  121.3717494 +0   81.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06957847 +0  121.3717494 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.82165 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        81.80000       50.555592
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40953830 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06957847 +1  121.3717494 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06957847 +0  121.3717494 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06957847 +0  121.3717494 +0   81.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06957847 +0  121.3717494 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.127 HEAT:  50.63226
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.397 HEAT:  50.63186
+
+     GRADIENT =  0.39651 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        82.00000       50.631765
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41059772 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06919696 +1  121.3657098 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06919696 +0  121.3657098 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06919696 +0  121.3657098 +0   82.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06919696 +0  121.3657098 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.49427 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        82.20000       50.706449
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41059772 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06919696 +1  121.3657098 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06919696 +0  121.3657098 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06919696 +0  121.3657098 +0   82.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06919696 +0  121.3657098 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.72683 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        82.40000       50.779604
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41059772 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06919696 +1  121.3657098 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06919696 +0  121.3657098 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06919696 +0  121.3657098 +0   82.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06919696 +0  121.3657098 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.99962 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        82.60000       50.851147
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41059772 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06919696 +1  121.3657098 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06919696 +0  121.3657098 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06919696 +0  121.3657098 +0   82.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06919696 +0  121.3657098 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.283 HEAT:  50.92106
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.767 HEAT:  50.92045
+
+     GRADIENT =  0.76665 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        82.80000       50.920358
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41180922 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06945481 +1  121.3272930 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06945481 +0  121.3272930 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06945481 +0  121.3272930 +0   82.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06945481 +0  121.3272930 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.80889 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        83.00000       50.988188
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41180922 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06945481 +1  121.3272930 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06945481 +0  121.3272930 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06945481 +0  121.3272930 +0   83.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06945481 +0  121.3272930 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.94166 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        83.20000       51.054417
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41180922 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06945481 +1  121.3272930 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06945481 +0  121.3272930 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06945481 +0  121.3272930 +0   83.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06945481 +0  121.3272930 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.130 HEAT:  51.11896
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.055 HEAT:  51.11907
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.401 HEAT:  51.11858
+
+     GRADIENT =  0.40136 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        83.40000       51.118499
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41295850 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06913998 +1  121.2839753 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06913998 +0  121.2839753 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06913998 +0  121.2839753 +0   83.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06913998 +0  121.2839753 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.30862 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        83.60000       51.180949
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41295850 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06913998 +1  121.2839753 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06913998 +0  121.2839753 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06913998 +0  121.2839753 +0   83.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06913998 +0  121.2839753 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.42164 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        83.80000       51.241745
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41295850 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06913998 +1  121.2839753 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06913998 +0  121.2839753 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06913998 +0  121.2839753 +0   83.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06913998 +0  121.2839753 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.63055 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        84.00000       51.300811
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41295850 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06913998 +1  121.2839753 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06913998 +0  121.2839753 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06913998 +0  121.2839753 +0   84.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06913998 +0  121.2839753 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.794 HEAT:  51.35813
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.020 HEAT:  51.35885
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.866 HEAT:  51.35865
+
+     GRADIENT =  0.86578 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        84.20000       51.358556
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   84.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.82560 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        84.40000       51.413534
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   84.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.79836 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        84.60000       51.466806
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   84.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.53234 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        84.80000       51.518292
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   84.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.36670 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        85.00000       51.567979
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   85.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.29383 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        85.20000       51.615849
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   85.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.35936 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        85.40000       51.661887
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   85.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.50315 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        85.60000       51.706080
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   85.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.66991 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        85.80000       51.748413
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   85.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.84060 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        86.00000       51.788871
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41494403 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06888640 +1  121.2270179 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06888640 +0  121.2270179 +0   86.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06888640 +0  121.2270179 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.009 HEAT:  51.82744
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.352 HEAT:  51.82711
+
+     GRADIENT =  0.35208 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        86.20000       51.827052
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41589299 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06854801 +1  121.2214319 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06854801 +0  121.2214319 +0   86.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.38460 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        86.40000       51.863508
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41589299 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06854801 +1  121.2214319 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06854801 +0  121.2214319 +0   86.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.47212 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        86.60000       51.898113
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41589299 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06854801 +1  121.2214319 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06854801 +0  121.2214319 +0   86.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.58392 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        86.80000       51.930805
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41589299 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06854801 +1  121.2214319 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06854801 +0  121.2214319 +0   86.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.70304 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        87.00000       51.961570
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41589299 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06854801 +1  121.2214319 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06854801 +0  121.2214319 +0   87.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.82176 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        87.20000       51.990400
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41589299 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06854801 +1  121.2214319 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06854801 +0  121.2214319 +0   87.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.93640 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        87.40000       52.017284
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41589299 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06854801 +1  121.2214319 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06854801 +0  121.2214319 +0   87.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06854801 +0  121.2214319 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.045 HEAT:  52.04221
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.652 HEAT:  52.04183
+
+     GRADIENT =  0.65219 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        87.60000       52.041767
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   87.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.65955 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        87.80000       52.064573
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   87.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.67949 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        88.00000       52.085470
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   88.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.70884 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        88.20000       52.104399
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   88.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.74322 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        88.40000       52.121353
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   88.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.77912 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        88.60000       52.136326
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   88.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.81394 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        88.80000       52.149312
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   88.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.84577 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        89.00000       52.160309
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   89.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.87327 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        89.20000       52.169311
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   89.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.89548 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        89.40000       52.176316
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   89.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.91176 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        89.60000       52.181321
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   89.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.92168 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        89.80000       52.184325
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   89.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.92502 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        90.00000       52.185327
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   90.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.92168 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        90.20000       52.184325
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   90.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.91176 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        90.40000       52.181321
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   90.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.89548 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        90.60000       52.176316
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   90.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.87327 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        90.80000       52.169311
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   90.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.84577 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        91.00000       52.160309
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   91.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.81394 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        91.20000       52.149312
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   91.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.77912 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        91.40000       52.136326
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   91.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.74322 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        91.60000       52.121353
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   91.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.70884 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        91.80000       52.104399
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   91.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.67949 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        92.00000       52.085470
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   92.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.65955 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        92.20000       52.064573
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   92.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.65397 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        92.40000       52.041713
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   92.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.66745 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        92.60000       52.016900
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   92.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.70328 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        92.80000       51.990142
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   92.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.76260 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        93.00000       51.961447
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   93.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.84457 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        93.20000       51.930824
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   93.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.94714 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        93.40000       51.898285
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41686981 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06878272 +1  121.1884388 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06878272 +0  121.1884388 +0   93.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06878272 +0  121.1884388 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.068 HEAT:  51.86384
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.239 HEAT:  51.86364
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.221 HEAT:  51.86335
+
+     GRADIENT =  0.22090 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        93.60000       51.863462
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41599666 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06870818 +1  121.1935572 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06870818 +0  121.1935572 +0   93.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.20310 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        93.80000       51.826969
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41599666 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06870818 +1  121.1935572 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06870818 +0  121.1935572 +0   93.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.30735 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        94.00000       51.788592
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41599666 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06870818 +1  121.1935572 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06870818 +0  121.1935572 +0   94.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.46556 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        94.20000       51.748337
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41599666 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06870818 +1  121.1935572 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06870818 +0  121.1935572 +0   94.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.64573 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        94.40000       51.706217
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41599666 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06870818 +1  121.1935572 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06870818 +0  121.1935572 +0   94.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.83916 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        94.60000       51.662246
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41599666 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06870818 +1  121.1935572 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06870818 +0  121.1935572 +0   94.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06870818 +0  121.1935572 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.043 HEAT:  51.61644
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.514 HEAT:  51.61586
+
+     GRADIENT =  0.51351 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        94.80000       51.615922
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41497505 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06858617 +1  121.2130896 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06858617 +0  121.2130896 +0   94.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.53385 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        95.00000       51.568047
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41497505 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06858617 +1  121.2130896 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06858617 +0  121.2130896 +0   95.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.64040 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        95.20000       51.518375
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41497505 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06858617 +1  121.2130896 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06858617 +0  121.2130896 +0   95.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.16824 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        95.40000       51.466903
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41497505 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06858617 +1  121.2130896 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06858617 +0  121.2130896 +0   95.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.25212 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        95.60000       51.413647
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41497505 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06858617 +1  121.2130896 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06858617 +0  121.2130896 +0   95.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.35071 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        95.80000       51.358623
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41497505 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06858617 +1  121.2130896 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06858617 +0  121.2130896 +0   95.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06858617 +0  121.2130896 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.452 HEAT:  51.30185
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.539 HEAT:  51.30064
+
+     GRADIENT =  0.53928 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        96.00000       51.300731
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41365644 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06912265 +1  121.2459425 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06912265 +0  121.2459425 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06912265 +0  121.2459425 +0   96.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06912265 +0  121.2459425 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.64389 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        96.20000       51.241852
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41365644 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06912265 +1  121.2459425 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06912265 +0  121.2459425 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06912265 +0  121.2459425 +0   96.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06912265 +0  121.2459425 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.82354 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        96.40000       51.181257
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41365644 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06912265 +1  121.2459425 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06912265 +0  121.2459425 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06912265 +0  121.2459425 +0   96.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06912265 +0  121.2459425 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.047 HEAT:  51.11895
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.977 HEAT:  51.11846
+
+     GRADIENT =  0.97695 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        96.60000       51.118585
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41275330 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06867352 +1  121.2783062 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06867352 +0  121.2783062 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06867352 +0  121.2783062 +0   96.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06867352 +0  121.2783062 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.99843 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        96.80000       51.054334
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41275330 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06867352 +1  121.2783062 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06867352 +0  121.2783062 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06867352 +0  121.2783062 +0   96.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06867352 +0  121.2783062 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.100 HEAT:  50.98841
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.462 HEAT:  50.98805
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.094 HEAT:  50.98797
+
+     GRADIENT =  0.09373 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        97.00000       50.988019
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41209379 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06911482 +1  121.3021817 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06911482 +0  121.3021817 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06911482 +0  121.3021817 +0   97.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06911482 +0  121.3021817 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.22882 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        97.20000       50.920206
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41209379 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06911482 +1  121.3021817 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06911482 +0  121.3021817 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06911482 +0  121.3021817 +0   97.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06911482 +0  121.3021817 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.52587 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        97.40000       50.850770
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41209379 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06911482 +1  121.3021817 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06911482 +0  121.3021817 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06911482 +0  121.3021817 +0   97.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06911482 +0  121.3021817 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.83127 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        97.60000       50.779712
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41209379 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06911482 +1  121.3021817 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06911482 +0  121.3021817 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06911482 +0  121.3021817 +0   97.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06911482 +0  121.3021817 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.143 HEAT:  50.70705
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.293 HEAT:  50.70633
+
+     GRADIENT =  0.29326 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        97.80000       50.706390
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41096174 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06920468 +1  121.3167539 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06920468 +0  121.3167539 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06920468 +0  121.3167539 +0   97.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06920468 +0  121.3167539 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.39332 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        98.00000       50.631767
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41096174 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06920468 +1  121.3167539 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06920468 +0  121.3167539 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06920468 +0  121.3167539 +0   98.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06920468 +0  121.3167539 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.65948 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        98.20000       50.555591
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41096174 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06920468 +1  121.3167539 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06920468 +0  121.3167539 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06920468 +0  121.3167539 +0   98.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06920468 +0  121.3167539 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.96649 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        98.40000       50.477868
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41096174 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06920468 +1  121.3167539 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06920468 +0  121.3167539 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06920468 +0  121.3167539 +0   98.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06920468 +0  121.3167539 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.289 HEAT:  50.39862
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.192 HEAT:  50.39763
+
+     GRADIENT =  0.19213 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        98.60000       50.397651
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40973508 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06943111 +1  121.3540081 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06943111 +0  121.3540081 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06943111 +0  121.3540081 +0   98.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06943111 +0  121.3540081 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.43346 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        98.80000       50.316440
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40973508 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06943111 +1  121.3540081 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06943111 +0  121.3540081 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06943111 +0  121.3540081 +0   98.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06943111 +0  121.3540081 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.76053 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        99.00000       50.233762
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40973508 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06943111 +1  121.3540081 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06943111 +0  121.3540081 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06943111 +0  121.3540081 +0   99.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06943111 +0  121.3540081 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.103 HEAT:  50.14962
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.305 HEAT:  50.14889
+
+     GRADIENT =  0.30462 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        99.20000       50.148932
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40866441 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06946314 +1  121.3839672 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06946314 +0  121.3839672 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06946314 +0  121.3839672 +0   99.2000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06946314 +0  121.3839672 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.46496 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        99.40000       50.062936
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40866441 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06946314 +1  121.3839672 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06946314 +0  121.3839672 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06946314 +0  121.3839672 +0   99.4000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06946314 +0  121.3839672 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.77439 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        99.60000       49.975524
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40866441 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06946314 +1  121.3839672 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06946314 +0  121.3839672 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06946314 +0  121.3839672 +0   99.6000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06946314 +0  121.3839672 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.117 HEAT:  49.88671
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.247 HEAT:  49.88595
+
+     GRADIENT =  0.24682 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        99.80000       49.885999
+ SYMMETRY html step=0.2 points=100 open(2,2) SINGLET
+ Rotation of Ethylene, CH2 group rotated about the C-C axis. Simple C.I. mixing the pi-M.O.s, showing the SINGLET surface near the top of the barrier.
+ (Keywords: SYMMETRY html step=0.2 points=100 open(2,2) SINGLET)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40761599 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.06976044 +1  121.4121952 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.06976044 +0  121.4121952 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.06976044 +0  121.4121952 +0   99.8000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.06976044 +0  121.4121952 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+                POINTS ON REACTION PATH 
+                AND CORRESPONDING HEATS
+
+
+      80.00000000      80.20000000      80.40000000      80.60000000      80.80000000      81.00000000      81.20000000      81.40000000
+      49.79532571      49.88603762      49.97539651      50.06304945      50.14910821      50.23377961      50.31641142      50.39761870
+      81.60000000      81.80000000      82.00000000      82.20000000      82.40000000      82.60000000      82.80000000      83.00000000
+      50.47737196      50.55559212      50.63176517      50.70644933      50.77960375      50.85114732      50.92035803      50.98818825
+      83.20000000      83.40000000      83.60000000      83.80000000      84.00000000      84.20000000      84.40000000      84.60000000
+      51.05441724      51.11849868      51.18094931      51.24174529      51.30081064      51.35855597      51.41353395      51.46680556
+      84.80000000      85.00000000      85.20000000      85.40000000      85.60000000      85.80000000      86.00000000      86.20000000
+      51.51829244      51.56797863      51.61584859      51.66188723      51.70607995      51.74841258      51.78887150      51.82705215
+      86.40000000      86.60000000      86.80000000      87.00000000      87.20000000      87.40000000      87.60000000      87.80000000
+      51.86350755      51.89811344      51.93080456      51.96157010      51.99039981      52.01728405      52.04176672      52.06457257
+      88.00000000      88.20000000      88.40000000      88.60000000      88.80000000      89.00000000      89.20000000      89.40000000
+      52.08547008      52.10439892      52.12135267      52.13632554      52.14931244      52.16030890      52.16931117      52.17631616
+      89.60000000      89.80000000      90.00000000      90.20000000      90.40000000      90.60000000      90.80000000      91.00000000
+      52.18132144      52.18432530      52.18532669      52.18432530      52.18132144      52.17631616      52.16931117      52.16030890
+      91.20000000      91.40000000      91.60000000      91.80000000      92.00000000      92.20000000      92.40000000      92.60000000
+      52.14931244      52.13632554      52.12135267      52.10439892      52.08547008      52.06457257      52.04171345      52.01690044
+      92.80000000      93.00000000      93.20000000      93.40000000      93.60000000      93.80000000      94.00000000      94.20000000
+      51.99014187      51.96144667      51.93082439      51.89828518      51.86346165      51.82696885      51.78859172      51.74833673
+      94.40000000      94.60000000      94.80000000      95.00000000      95.20000000      95.40000000      95.60000000      95.80000000
+      51.70621688      51.66224567      51.61592226      51.56804711      51.51837528      51.46690322      51.41364687      51.35862260
+      96.00000000      96.20000000      96.40000000      96.60000000      96.80000000      97.00000000      97.20000000      97.40000000
+      51.30073129      51.24185201      51.18125661      51.11858497      51.05433416      50.98801923      50.92020628      50.85077029
+      97.60000000      97.80000000      98.00000000      98.20000000      98.40000000      98.60000000      98.80000000      99.00000000
+      50.77971214      50.70638965      50.63176698      50.55559111      50.47786846      50.39765107      50.31643970      50.23376233
+      99.20000000      99.40000000      99.60000000      99.80000000
+      50.14893206      50.06293647      49.97552437      49.88599871
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.67 SECONDS
+
+ == MOPAC DONE ==

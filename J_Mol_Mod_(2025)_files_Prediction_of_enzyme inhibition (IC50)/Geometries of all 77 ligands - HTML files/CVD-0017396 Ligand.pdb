@@ -1,0 +1,52 @@
+HEADER  data-set: G:/Ligands/CVD-0017396 Ligand
+REMARK  MOPAC, Version: unknown
+REMARK  Date: Dec 27 2023 13:10
+REMARK  Heat of Formation = -106.159 Kcal/mol
+HETATM    1  C1  UNK A   1       1.934   1.303  -4.430  1.0   1.84      PROT C 
+HETATM    2  O1  UNK A   1       3.361   1.455  -4.394  1.0  -5.39      PROT O 
+HETATM    3  C2  UNK A   1       4.054   0.940  -3.346  1.0   3.96      PROT C 
+HETATM    4  C3  UNK A   1       5.455   1.207  -3.446  1.0  -1.44      PROT C 
+HETATM    5  C4  UNK A   1       6.292   0.765  -2.462  1.0   0.29      PROT C 
+HETATM    6  C5  UNK A   1       5.781   0.049  -1.342  1.0  -1.26      PROT C 
+HETATM    7  C6  UNK A   1       6.630  -0.404  -0.294  1.0   1.46      PROT C 
+HETATM    8  N1  UNK A   1       6.198  -1.060   0.771  1.0  -3.85      PROT N 
+HETATM    9  C7  UNK A   1       4.863  -1.318   0.863  1.0   0.79      PROT C 
+HETATM   10  C8  UNK A   1       3.945  -0.930  -0.096  1.0   0.24      PROT C 
+HETATM   11  N2  UNK A   1       2.579  -1.237   0.058  1.0  -3.50      PROT N 
+HETATM   12  C9  UNK A   1       1.835  -0.755   1.085  1.0   5.95      PROT C 
+HETATM   13  O2  UNK A   1       2.327  -0.073   1.984  1.0  -7.17      PROT O 
+HETATM   14  C10 UNK A   1       0.293  -1.052   1.082  1.0   3.16      PROT C 
+HETATM   15  O3  UNK A   1      -0.076  -1.893   0.005  1.0  -5.92      PROT O 
+HETATM   16  C11 UNK A   1       0.034  -3.312   0.150  1.0   1.82      PROT C 
+HETATM   17  C12 UNK A   1      -0.114  -1.561   2.479  1.0  -2.18      PROT C 
+HETATM   18  C13 UNK A   1      -1.639  -1.515   2.619  1.0   2.51      PROT C 
+HETATM   19  O4  UNK A   1      -2.154  -0.184   2.440  1.0  -5.38      PROT O 
+HETATM   20  C14 UNK A   1      -1.612   0.558   1.438  1.0   3.75      PROT C 
+HETATM   21  C15 UNK A   1      -2.320   1.739   1.161  1.0  -1.48      PROT C 
+HETATM   22  C16 UNK A   1      -1.866   2.587   0.161  1.0   0.15      PROT C 
+HETATM   23  C17 UNK A   1      -0.717   2.233  -0.543  1.0  -0.12      PROT C 
+HETATM   24 CL1  UNK A   1      -0.156   3.281  -1.803  1.0  -1.58      PROTCL 
+HETATM   25  C18 UNK A   1      -0.001   1.075  -0.278  1.0   0.15      PROT C 
+HETATM   26  C19 UNK A   1      -0.434   0.227   0.744  1.0  -1.84      PROT C 
+HETATM   27  C20 UNK A   1       4.397  -0.215  -1.252  1.0   0.85      PROT C 
+HETATM   28  C21 UNK A   1       3.532   0.238  -2.279  1.0  -2.50      PROT C 
+HETATM   29  H20 UNK A   1       1.645   0.240  -4.503  1.0   0.50      PROT H 
+HETATM   30  H21 UNK A   1       1.647   1.842  -5.350  1.0   0.64      PROT H 
+HETATM   31  H22 UNK A   1       1.453   1.763  -3.549  1.0   0.46      PROT H 
+HETATM   32  H23 UNK A   1       5.843   1.756  -4.302  1.0   1.01      PROT H 
+HETATM   33  H24 UNK A   1       7.363   0.959  -2.526  1.0   0.87      PROT H 
+HETATM   34  H25 UNK A   1       7.711  -0.205  -0.354  1.0   1.01      PROT H 
+HETATM   35  H26 UNK A   1       4.538  -1.858   1.762  1.0   1.03      PROT H 
+HETATM   36  H27 UNK A   1       2.182  -1.720  -0.674  1.0   2.59      PROT H 
+HETATM   37  H28 UNK A   1      -0.765  -3.706   0.801  1.0   0.44      PROT H 
+HETATM   38  H29 UNK A   1       1.023  -3.615   0.533  1.0   0.41      PROT H 
+HETATM   39  H30 UNK A   1      -0.103  -3.684  -0.880  1.0   0.60      PROT H 
+HETATM   40  H31 UNK A   1       0.350  -0.957   3.283  1.0   1.10      PROT H 
+HETATM   41  H32 UNK A   1       0.246  -2.587   2.671  1.0   1.02      PROT H 
+HETATM   42  H33 UNK A   1      -1.954  -1.775   3.650  1.0   0.66      PROT H 
+HETATM   43  H34 UNK A   1      -2.142  -2.191   1.897  1.0   0.54      PROT H 
+HETATM   44  H35 UNK A   1      -3.223   1.986   1.717  1.0   1.06      PROT H 
+HETATM   45  H36 UNK A   1      -2.409   3.504  -0.063  1.0   0.97      PROT H 
+HETATM   46  H37 UNK A   1       0.886   0.837  -0.866  1.0   0.84      PROT H 
+HETATM   47  H38 UNK A   1       2.467   0.024  -2.221  1.0   0.96      PROT H 
+END

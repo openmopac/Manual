@@ -1,0 +1,61 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Various precision levels</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1><a name="SECTION0012112000000000000000">Various precision levels</a> </h1>
+<p>In normal (non-publication quality) work the default precision of MOPAC is recommended. This will allow reasonably precise results to be obtained in a reasonable time. Unless this precision proves unsatisfactory, use this default for all routine work. </p>
+<p>The best way of controlling the precision of the geometry optimization and gradient minimization is by specifying a gradient norm <a name="BM20406">&nbsp;</a> which must be satisfied. The gradient norm is the scalar of the vector of derivatives of the energy with respect to the geometric variables flagged for optimization. I.e., </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}{rm GNORM}=sqrt{sum_ileft(frac{d(Delta H_f)}{dx_i}right)^2}end{displaymath}" height="63" src="img1485.gif" width="192"/></div>
+<p>where <i>x<sub>i</sub></i> refers to coordinates flagged for optimization. Note that the calculated GNORM may be very small and at the same time the geometry might not be at a stationary point. This can easily happen when (a) less than 3<i>N</i>-6 coordinates are flagged for optimization, (b) <tt>
+<a href="symmetry.html">SYMMETRY</a></tt> has been used incorrectly, or (c) (less common) only 3<i>N</i>-6 coordinates are flagged for optimization and dummy atoms are used. If any one of these three conditions occurs, then the warning message, "WARNING - GEOMETRY IS NOT AT A STATIONARY POINT" <a name="BM20411">&nbsp;</a> will be printed. </p>
+<p>A less common, but not unknown, situation arises when internal coordinates are used. In this strange situation, the internal derivatives might all be zero, but the Cartesian derivatives are large. An example of such a system is shown in the Figure. <br/>
+</p><div align="CENTER"><a name="xch2o">&nbsp;</a><a name="BM20486"></a>&nbsp; 
+<strong><p>Figure:</p></strong> Example of Spurious Stationary Point
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<p> </p>
+<pre>Line 1:  GRADIENTS 1SCF DEBUG DCART
+Line 2:  EXAMPLE OF INTERNAL COORDINATE DERIVATIVES ZERO
+Line 3:  AND CARTESIAN DERIVATIVES LARGE
+Line 4: O
+Line 5: C   1.2075664 1
+Line 6: H   1.2114325 1   103.347931 1    0 0   2 1
+Line 7: H   1.0904182 1   180.000000 1   90 1   2 1 3</pre></td>
+</tr>
+</table>
+<p></p></div>
+<p>In this strange system, the bond-angle of the second hydrogen is 180<font face="Times New Roman">&deg;</font>, and the dihedral is 0<font face="Times New Roman">&deg;</font>. Obviously, the derivative of the dihedral will be zero. The derivative of the angle is not so obvious. If the angle changes, then the fourth atom will move out of the plane of the other three atoms. The energy will change in the same way regardless of whether the angle increases or decreases; therefore, the derivative of the angle must be zero. </p>
+<p>Because of the unusual nature of this type of system, users may be unaware of the danger. If such a system is detected, a warning will be given and the job stopped. For all other cases, the "WARNING - GEOMETRY IS NOT AT A STATIONARY POINT" message will be printed on completion of the calculation. In the unlikely event that the calculation should not be stopped when the strange system is detected, calculation can be continued by specifying <tt>GEO-OK</tt>. </p>
+<p>Modification of GNORM is done via the keyword <tt><a href="gnorm.html">GNORM=<i>n</i>.<i>nn</i></a></tt>. Altering the GNORM automatically disables the other termination tests resulting in the gradient norm dominating the calculation. This works both ways: <tt>GNORM=20</tt> will give a very crude optimization while <tt>GNORM=0.01</tt> will give a very precise optimization. The default is <tt>GNORM=1.0</tt>. </p>
+<p>When the highest precision is needed, such as in exacting geometry work, or when you want results whose precision cannot be improved, then use the combination keywords <tt>GNORM=0.0</tt> and either <tt>
+<a href="relscf.html">RELSCF=0.01</a></tt> or <tt><a href="scfcrt.html">SCFCRT=1.D-NN</a></tt>; <a name="BM20428">&nbsp;</a> (<tt>NN</tt> should be in the range 5-15). By default, EigenFollowing is used in geometry optimization. One reason is that EigenFollowing is nearer to a gradient minimizer than it is to an energy minimizer. Because of this, if there is any difference between the gradient minimum and the energy minimum, it will give better reproducibility of the optimized geometry than the alternative <tt>BFGS</tt> method. </p>
+<p>In practice, optimized geometries for "well behaved" systems can be obtained with <tt>GNORM</tt>s of less than 0.0001. </p>
+<p>Increasing the SCF criterion (the default is <tt>SCFCRT=1.D-4</tt>) improves the precision of the gradients; however, it can lead to excessive run times, so take care. Also, there is an increased chance of not achieving an SCF when the SCF criterion is excessively increased. </p>
+<p>Superficially, requesting <tt>GNORM=0</tt> might seem excessively stringent, but as soon as the run starts, it will be cut back to 0.01. Even that might seem too stringent. The geometry optimization will continue to lower the energy, and hopefully the GNORM, but frequently it will not prove possible to lower the GNORM to 0.01. If, after 10 cycles, the energy does not drop then the job will be stopped. At this point you have the best geometry that MOPAC, in its current form, can give. </p>
+<p>If a slightly less than highest precision is needed, such as for normal publication quality work, set the <tt>GNORM</tt> to the limit wanted. For example, for a flexible system, a <tt>GNORM</tt> of 0.1 to 0.5 will normally be good enough for all but the most demanding work. </p>
+<p>If higher than the default, but still not very high precision is wanted, then use the keyword <tt>PRECISE</tt>. This will tighten up various criteria so that higher-than-routine precision will be given. </p>
+<p>If high precision is used, so that the printed GNORM is 0.000, and the resulting geometry resubmitted for one SCF and gradients calculation, then normally a GNORM higher than 0.000 will result. This is <em>not</em> an error in MOPAC: the geometry printed is only precise to eight figures after the decimal point. Geometries may need to be specified to more than eight decimals in order to drive the GNORM to less than 0.000. </p>
+<p>If you want to test MOPAC, or use it for teaching purposes, the <tt>GNORM</tt> lower limit of 0.01 can be overridden by specifying <tt>LET</tt>, in which case you can specify any limit for <tt>GNORM</tt>. However, if it is too low the job may finish due to an irreducible minimum in the heat of formation being encountered. If this happens, the "STATIONARY POINT" message will be printed. </p>
+<p>Examples of highly optimized geometries can be found in the <tt>port.dat</tt> file. When this job is run, most gradients will be less than 0.001 kcal/mol/&Aring;. A few will be larger. These exceptions fall into two classes: diatomics, for which a simple line-search is sufficient to locate the optimum geometry, in which case the GNORM criterion is <em>not</em> used; and non-variationally optimized systems, where the analytical C.I. derivatives are used. These derivatives are of lower precision than the variational derivatives, but are still much better than finite difference derivatives using full SCFs. <a name="BM20443">&nbsp;</a><a name="BM20444"></a>&nbsp; Finally there is a full analytical derivative function&nbsp;[<a href="references.html#analyt">16</a>] within <a name="BM20446">&nbsp;</a><a name="BM20447"></a>&nbsp; MOPAC. These use STO-6G Gaussian wavefunctions because the derivatives of the overlap integral are easier to calculate in Gaussians than in STOs. Consequently, the
+</p><p>Some calculations, mainly open shell RHF or closed shell RHF with C.I., have untracked errors which prevent very high precision. For these systems <tt>GNORM</tt> should be in the range 1.0 to 0.1. </p>
+</body>
+</html>

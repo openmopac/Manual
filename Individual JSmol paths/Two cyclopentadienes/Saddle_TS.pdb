@@ -1,0 +1,27 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Two cyclopentad
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  5 2021 17:28
+REMARK  Heat of Formation = 89.046 Kcal/mol
+HETATM    1  C1  HET A   1       0.168  -1.328   1.028  1.00 -0.09      PROT C 
+HETATM    2  C2  HET A   1       1.561  -1.308   0.951  1.00 -0.20      PROT C 
+HETATM    3  C3  HET A   1       2.000   0.039   0.968  1.00 -0.19      PROT C 
+HETATM    4  C4  HET A   1       0.883   0.875   1.045  1.00 -0.11      PROT C 
+HETATM    5  C5  HET A   1       0.306   0.634  -1.015  1.00 -0.13      PROT C 
+HETATM    6  C6  HET A   1      -0.127  -0.699  -1.051  1.00 -0.17      PROT C 
+HETATM    7  C7  HET A   1      -1.592  -0.704  -1.172  1.00 -0.16      PROT C 
+HETATM    8  C8  HET A   1      -2.053   0.565  -1.231  1.00 -0.17      PROT C 
+HETATM    9  C9  HET A   1      -0.903   1.543  -1.167  1.00 -0.29      PROT C 
+HETATM   10  C10 HET A   1      -0.287   0.032   1.518  1.00 -0.30      PROT C 
+HETATM   11  H1  HET A   1      -0.467  -2.187   1.063  1.00  0.14      PROT H 
+HETATM   12  H2  HET A   1       2.197  -2.161   0.824  1.00  0.15      PROT H 
+HETATM   13  H3  HET A   1       3.018   0.358   0.860  1.00  0.15      PROT H 
+HETATM   14  H4  HET A   1       0.885   1.940   1.118  1.00  0.14      PROT H 
+HETATM   15  H5  HET A   1       1.275   0.982  -1.320  1.00  0.14      PROT H 
+HETATM   16  H6  HET A   1       0.466  -1.540  -1.362  1.00  0.15      PROT H 
+HETATM   17  H7  HET A   1      -2.164  -1.611  -1.219  1.00  0.15      PROT H 
+HETATM   18  H8  HET A   1      -3.064   0.904  -1.313  1.00  0.15      PROT H 
+HETATM   19 1H9  HET A   1      -1.017   2.272  -0.351  1.00  0.16      PROT H 
+HETATM   20 2H9  HET A   1      -0.824   2.133  -2.103  1.00  0.16      PROT H 
+HETATM   21 1H10 HET A   1      -1.277   0.352   1.163  1.00  0.17      PROT H 
+HETATM   22 2H10 HET A   1      -0.349   0.042   2.628  1.00  0.17      PROT H 
+END

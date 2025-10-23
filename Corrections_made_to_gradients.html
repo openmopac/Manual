@@ -1,0 +1,57 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Corrections made to gradients between Versions 20.254 and 20.302</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center" dir="ltr">Corrections made to PM6-D3H4 gradients between Versions 20.254 and 20.302</h1>
+<p align="center" dir="ltr">(Back to
+<a href="Compare%20effect%20of%20correcting%20derivatives.html">Compare effect of the correction made to the derivatives between Versions 
+20.254 and 20.288</a>)</p>
+<p align="center" dir="ltr">(<a href="/index.html">Home</a> 
+-
+<a href="/PM7_and_PM6-D3H4_accuracy/Accuracy%20of%20PM7%20and%20PM6-D3H4.html">
+Accuracy</a> - <a href="/Manual/index.html">Manual</a></p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr">Three corrections were made.</p>
+<p dir="ltr"><b>(1) Discontinuity in transition from NDDO to point-charge</b></p>
+<p style="line-height:1.6">When an interatomic distance was near to the transition distance 
+from NDDO to point-charge, 7.0&nbsp;&Aring;, a small discontinuity in the energy was 
+present.&nbsp; This caused severe errors in the derivatives.&nbsp; To correct 
+this the NDDO approximation was steadily replaced by the exact point-charge&nbsp;in the region leading up to 7.0&nbsp;&Aring;.&nbsp; 
+The exact NDDO approximation was used at the start of this, then, as the distance increased, 
+the fraction of NDDO used decreased and the fraction of the exact point-charge 
+increased.&nbsp; These changes eliminated the discontinuity and resulted in the 
+error in the derivatives disappearing.</p>
+<p dir="ltr"><b>(2) The number of atoms allowed to be involved in a hydrogen bond was too small</b></p>
+<p style="line-height:1.6">In two proteins a large number of hydrogen bonds in a small volume 
+caused the hydrogen-bond derivative calculation to omit some terms.&nbsp; This 
+was traced to an array being too small.&nbsp; The problem was solved when 
+the array's size was increased. </p>
+<p style="line-height:1.6"><b>(3) The cutoff for the donor - acceptor distance for hydrogen 
+bonds was 
+too large, 7 &Aring;, when used with the subroutine that calculated the H4 
+energy.&nbsp; </b></p>
+<p style="line-height:1.6">If the donor - acceptor distance is greater than 5.5 &Aring;, then the hydrogen bond energy 
+rises with increasing distance. At 5.5 &Aring;, the hydrogen bond energy goes to 
+zero.&nbsp; To prevent spurious hydrogen bonds corrupting the calculation, the 
+maximum donor - acceptor distance allowed was restricted strictly to 5.5 &Aring;.</p>
+<p dir="ltr">&nbsp;</p>
+</body>
+</html>

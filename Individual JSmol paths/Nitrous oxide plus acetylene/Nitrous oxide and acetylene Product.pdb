@@ -1,0 +1,11 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Nitrous oxide p
+REMARK  MOPAC 2016, Version: 21.153W Date: Jun  5 2021 15:29
+REMARK   3 HET = Not identified; C 2 H 2 N 2 O      =     7 atoms res:    1
+HETATM    1  C1  HET A   1       0.000   0.000   0.000  1.00 -0.15      PROT C 
+HETATM    2  C2  HET A   1       1.375   0.000   0.000  1.00 -0.06      PROT C 
+HETATM    3  N1  HET A   1      -0.382   1.364   0.000  1.00 -0.15      PROT N 
+HETATM    4  N2  HET A   1       0.643   2.093   0.000  1.00  0.00      PROT N 
+HETATM    5  O   HET A   1       1.797   1.305   0.000  1.00 -0.05      PROT O 
+HETATM    6  H1  HET A   1      -0.733  -0.782  -0.000  1.00  0.20      PROT H 
+HETATM    7  H2  HET A   1       2.146  -0.737  -0.000  1.00  0.20      PROT H 
+END

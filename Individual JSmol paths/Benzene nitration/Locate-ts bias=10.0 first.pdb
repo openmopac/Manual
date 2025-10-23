@@ -1,0 +1,28 @@
+HEADER  data-set: G:/sulfate/Locate-ts bias=10.0 first
+REMARK  MOPAC 2016, Version: 21.158W Date: Jun  8 2021 10:08
+REMARK   3 HET = Not identified; C 6 H 5 N O 2      =    14 atoms res:    1
+HETATM    1  C1  HET A   1       0.436   1.642   0.916  1.00 -0.09      PROT C 
+HETATM    2  C2  HET A   1       1.754   1.398   0.517  1.00 -0.08      PROT C 
+HETATM    3  C3  HET A   1       2.420   2.385  -0.177  1.00 -0.17      PROT C 
+HETATM    4  C4  HET A   1       1.742   3.561  -0.474  1.00 -0.09      PROT C 
+HETATM    5  C5  HET A   1       0.415   3.777  -0.124  1.00 -0.18      PROT C 
+HETATM    6  C6  HET A   1      -0.263   2.796   0.571  1.00 -0.07      PROT C 
+HETATM    7  N   HET B   1      -0.222   0.688   1.795  1.00  0.63      PROT N 
+HETATM    8  H2  HET A   1       2.256   0.433   0.622  1.00  0.19      PROT H 
+HETATM    9  H3  HET A   1       3.469   2.222  -0.412  1.00  0.17      PROT H 
+HETATM   10  H4  HET A   1       2.316   4.385  -0.860  1.00  0.15      PROT H 
+HETATM   11  H5  HET A   1      -0.097   4.717  -0.298  1.00  0.17      PROT H 
+HETATM   12  H6  HET A   1      -1.333   2.933   0.736  1.00  0.19      PROT H 
+HETATM   13  O1  HET D   1       0.174  -0.478   1.819  1.00 -0.46      PROT O 
+HETATM   14  O2  HET D   1      -1.099   1.073   2.521  1.00 -0.33      PROT O 
+HETATM   15  O   HOH E   2      -2.522   0.550   0.224  1.00 -0.72      PROT O 
+HETATM   16  H4  SO4 H   3       0.145  -0.515   0.003  1.00  0.41      PROT H 
+HETATM   17 1H   HOH E   2      -3.297   0.250   0.694  1.00  0.34      PROT H 
+HETATM   18 2H   HOH E   2      -2.294  -0.156  -0.382  1.00  0.36      PROT H 
+HETATM   19  S   SO4 H   3      -0.413  -2.123  -1.482  1.00  2.59      PROT S 
+HETATM   20  O1  SO4 H   3      -0.791  -3.172  -0.593  1.00 -0.84      PROT O 
+HETATM   21  O2  SO4 H   3      -1.788  -1.200  -1.681  1.00 -0.87      PROT O 
+HETATM   22  O3  SO4 H   3       0.119  -2.351  -2.789  1.00 -0.87      PROT O 
+HETATM   23  O4  SO4 H   3       0.484  -0.971  -0.793  1.00 -0.83      PROT O 
+HETATM   24  H2  SO4 H   3      -1.989  -0.971  -2.596  1.00  0.40      PROT H 
+END

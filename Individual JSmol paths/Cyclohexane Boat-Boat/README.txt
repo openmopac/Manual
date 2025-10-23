@@ -1,0 +1,1 @@
+This reaction, boat cyclohexane with the prow and stern being atoms 1 and 4 interconverting to form boat cyclohexane with the prow and stern being atoms 3 and 6, is unusual in that the energy barrier, about 0.47 Kcal.mol^(-1) is very low.  This confuses the IRC, so for convenience the DRC path is used; this is a bit more robust.

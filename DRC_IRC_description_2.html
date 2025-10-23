@@ -1,0 +1,88 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>General description of the DRC and IRC</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1><a name="SECTION0012194000000000000000">General description of the DRC and IRC</a>
+</h1>
+<p>As the IRC usually requires a normal coordinate, a force constant calculation normally has to be done first. If
+<a href="irc0.html">IRC</a> is specified on its own, a normal coordinate is not used and the IRC calculation is performed on the supplied geometry. </p>
+<p>A recommended sequence of operations to start an IRC calculation is as follows: </p>
+<dl>
+<dt>1. Calculate the transition state geometry. If the transition state is not first optimized, then the IRC calculation may give very misleading results. For example, if NH<sub>3</sub> inversion is defined as the planar system but without the N-H bond length being optimized, the first normal coordinate might be for N-H stretch rather than inversion. In that case the IRC will relax the geometry to the optimized planar structure.  </dt>
+<dd>&nbsp;</dd>
+<dt>2. Do a normal <tt><a href="force.html">FORCE</a></tt> calculation, specifying <tt>
+<a href="isotope.html">ISOTOPE</a></tt> in order to save the FORCE matrices. (Note: Do not attempt to run the IRC at this point directly unless you have confidence that the FORCE calculation will work as expected. If the IRC calculation is run directly, specify <tt>ISOTOPE</tt> anyway: that will save the FORCE matrix and if the calculation has to be re-done then <tt>
+<a href="restart.html">RESTART</a></tt> will work correctly.) </dt>
+<dd>&nbsp;</dd>
+<dt>3. Using <tt><a href="irc.html">IRC=<i>n</i></a></tt> and <tt>RESTART</tt>, run the IRC calculation. If <tt>RESTART</tt> is specified with <tt>IRC=<i>n</i></tt> then the restart is assumed to be from the FORCE calculation. If, in an <tt>IRC</tt> calculation, <tt>RESTART</tt> is specified, and <tt>IRC=<i>n</i></tt> is <em>not</em> present, then the restart is assumed to be from an earlier IRC calculation that was shut down before going to completion. </dt>
+</dl>
+<p>A <a href="drc0.html"><tt>DRC</tt></a> calculation is simpler, in that a force calculation is not a prerequisite; however, most calculations of interest normally involve use of an internal coordinate. For this reason IRC=<i>n</i> can be combined with DRC to give a calculation in which the initial motion (0.3kcal worth of kinetic energy) is supplied by the IRC, and all subsequent motion obeys conservation of energy. The DRC motion can be modified in three ways: </p>
+<dl>
+<dt>1. It is possible to calculate the reaction path followed by a system in which the generated kinetic energy decays with a finite half-life. This can be defined by
+<a href="drc.html"><tt>DRC=<i>n</i></tt>.<i>nnn</i></a>, where <i>n</i>.<i>nnn</i> is the half-life in femtoseconds. If <i>n</i>.<i>nn</i> is 0.0 this corresponds to infinite damping simulating the irc0. A limitation of the program is that time only has meaning when DRC is specified without a half-life. </dt>
+<dd>&nbsp;</dd>
+<dt>2. Excess kinetic energy can be added to the calculation by use of
+<a href="kinetic.html"><tt>KINETIC=<i>n</i>.<i>nn</i></tt></a>. After the kinetic energy has built up to 0.2 kcal/mol or if IRC=<i>n</i> is used then <i>n</i>.<i>nn</i> kcal/mol of kinetic energy is added to the system. The excess kinetic energy appears as a velocity vector in the same direction as the initial motion. </dt>
+<dd>&nbsp;</dd>
+<dt>3. The RESTART file <code>&lt;filename&gt;.res</code> can be edited to allow the user to modify the velocity vector or starting geometry. This file is formatted. </dt>
+</dl>
+<p>Frequently, the DRC leads to a periodic, repeating orbit. One special type--the orbit in which the direction of motion is reversed so that the system retraces its own path--is sensed for and if detected the calculation is stopped after exactly one cycle. If the calculation is to be continued, the keyword <tt>GEO-OK</tt> will allow this check to be by-passed. </p>
+<p><a name="BM22576">&nbsp;</a> Sometimes the system will enter a stable state in which the geometry is always changing, but nothing new is occurring. One example would be a system which decomposed into fragments, and the fragments were moving apart. If all forces acting on the atoms become small, then the calculation will be stopped. If the calculation should be continued, then specify <tt>
+<a href="gnorm.html">GNORM=0</a> <a href="let.html">LET</a></tt>. </p>
+<p>Due to the potentially very large output files that the DRC can generate, extra keywords are provided to allow selected points to be printed. Two types of control are provided: one controls which points to print, the other controls what is printed. </p>
+<p>Three keywords are provided to allow printing to be done whenever the system changes by a preset amount. These keywords are: </p>
+<p></p><div align="CENTER">
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p align="CENTER">KeyWord</p></td>
+<td valign="MIDDLE">
+<p>Default</p></td>
+<td valign="MIDDLE">
+<p>User Specification</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p align="CENTER"><a href="x-priority0.html">X-PRIO</a></p></td>
+<td valign="MIDDLE">
+<p>0.05 &Aring;ngstroms </p></td>
+<td valign="MIDDLE">
+<tt></tt><p>X-PRIORITY=<i>n</i>.<i>nn</i></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p align="CENTER"><a href="t-priority0.html">T-PRIO</a></p></td>
+<td valign="MIDDLE">
+<p>0.10 Femtoseconds</p></td>
+<td valign="MIDDLE">
+<tt></tt><p>T-PRIORITY=<i>n</i>.<i>nn</i></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p align="CENTER"><a href="h-priority0.html">H-PRIO</a></p></td>
+<td valign="MIDDLE">
+<p>0.10 kcal/mol</p></td>
+<td valign="MIDDLE">
+<tt></tt><p>H-PRIORITY=<i>n</i>.<i>nn</i></p></td>
+</tr>
+</table>
+<p></p></div>&nbsp;<p>For the IRC, the default is movement, i.e.
+<tt>X-PRIO</tt>, for the DRC, the default is <tt>T-PRIO.</tt></p>
+<p>By default, only the energies involved are printed (one line per point). To allow the geometry to be printed, <tt> <a href="large.html"><u><font color="#0000ff">LARGE</font></u></a></tt>
+is provided. Using <tt>LARGE</tt> a wide range of control is provided over what is printed. </p>
+</body>
+</html>

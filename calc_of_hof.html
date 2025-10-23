@@ -1,0 +1,99 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Calculation of </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION001223000000000000000">
+ Calculation of &Delta;H<sub>f</sub></a><sub> </sub>
+</h2>
+<p>
+The SCF calculation produces a density, <i>P</i>, and Fock
+matrix, <i>F</i>. These, together with the one-electron matrix, <i>H</i>,
+allow the total electronic energy to be calculated via
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}E_{elect} = \frac{1}{2}\sum_{\mu}\sum_{\nu}P_{\mu\nu}(H_{\mu\nu}+F_{\mu\nu}).
+\end{displaymath}" height="47" src="img498.gif" width="204"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+The total core-core repulsion energy is given by:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}E_{nuc} = \sum_A\sum_{B&lt;A}E_N(A,B).
+\end{displaymath}" height="42" src="img499.gif" width="147"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+The addition of these two terms represents the energy
+released when the ionized atoms and valence electrons
+combine to form a molecule.
+<p>
+A more useful quantity is the
+heat of formation of the compound from its elements in their
+standard state. This is obtained when the energy required
+to ionize the valence electrons of the atoms involved
+(calculated using semiempirical parameters),
+<i>E</i><sub><i>isol</i></sub>(<i>A</i>), and heat of formation for a gaseous
+atom from its standard state,
+<i>E</i><sub><i>atom</i></sub>(<i>A</i>), are added to the electronic
+plus nuclear energy. This yields:
+</p><p align="center">
+<span class="b">&Delta;</span><i>H</i><sub><i>f</i> </sub>= (<i>E<sub>elect</sub></i>
++ <i>E<sub>nuc</sub></i>) - <span class="b">&Sigma;</span><sub>A</sub><i>E<sub>isol</sub></i>(<i>A</i>)<i>
+</i>+ <span class="b">&Sigma;</span><sub>A</sub><i>E<sub>atom</sub></i>(<i>A</i>),</p><p align="center">
+or</p><p align="center">
+<span class="b">&Delta;</span><i>H</i><sub><i>f</i> </sub>= <i>E</i><sub><i>tot</i></sub>&nbsp;
+- <span class="b">&Sigma;</span><sub>A</sub><i>E<sub>isol</sub></i>(<i>A</i>)<i>
+</i>+ <span class="b">&Sigma;</span><sub>A</sub><i>E<sub>atom</sub></i>(<i>A</i>).<br clear="ALL"/>
+</p><p></p>
+<p>
+This is the quantity which MOPAC calls the "Heat of Formation".
+An alternative but equivalent definition of
+<a name="SECTION001223000000000000000">
+<span class="b">&Delta;</span>H<sub>f</sub></a><sub> </sub>,
+more
+suited for comparison with experimental
+<a name="SECTION001223000000000000000">
+<span class="b">&Delta;</span>H<sub>f</sub></a>, is:
+</p><p>
+"
+<a name="SECTION001223000000000000000">
+<span class="b">&Delta;</span>H<sub>f</sub></a><sub> </sub>is the calculated gas-phase heat of formation at 298K
+ of one mole of a compound from its elements in their standard state."
+</p><p>
+Things to note about this definition:  unlike <em>ab initio</em> methods, which
+yield the energy at 0<i>K</i>, semiempirical methods give
+<a name="SECTION001223000000000000000">
+<span class="b">&Delta;</span>H<sub>f</sub></a><sub>&nbsp; </sub>at 298<i>K</i>.  This follows from the way in which semiempirical methods
+are parameterized: the reference
+<a name="SECTION001223000000000000000">
+<span class="b">&Delta;</span>H<sub>f</sub></a><sub> </sub>&nbsp;are conventionally given at
+298<i>K</i>.  This means that  semiempirical methods will reproduce
+<a name="SECTION001223000000000000000">
+<span class="b">&Delta;</span>H<sub>f</sub></a> for 298<i>K</i>.  Secondly, note that
+<a name="SECTION001223000000000000000">
+<span class="b">&Delta;</span>H<sub>f</sub></a><sub> </sub>&nbsp;are for gas-phase systems.
+To calculate
+<a name="SECTION001223000000000000000">
+<span class="b">&Delta;</span>H<sub>f</sub></a><sub> </sub>&nbsp;in the liquid or solid phases, additional terms are
+necessary.
+</p></body>
+</html>

@@ -1,0 +1,9 @@
+  TS  html  geo_dat="Keto-Enol Aq SADDLE.arc" eps=78.4 charge=1 ddmin=0 let
+Refine transition state from SADDLE
+
+ force oldgeo isotope eps=78.4 charge=1
+
+
+oldgeo  html  irc=1* restart X-priority=0.05 eps=78.4 charge=1 PDBOUT
+Map out IRC for acetone Enol-Keto reaction 
+(Click on "Specific Script" to show charges)

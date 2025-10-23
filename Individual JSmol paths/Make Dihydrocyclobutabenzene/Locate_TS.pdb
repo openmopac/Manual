@@ -1,0 +1,21 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Make Dihydrocyc
+REMARK  MOPAC 2016, Version: 21.151W
+REMARK  Date: Jun  2 2021 13:19
+REMARK  Heat of Formation = 231.200 Kcal/mol
+HETATM    1  C   HET A   1      -0.153  -1.556  -0.222  1.00 -0.16      PROT C 
+HETATM    2  C   HET A   1       1.224  -1.575  -0.156  1.00 -0.14      PROT C 
+HETATM    3  C   HET A   1       1.964  -0.381   0.006  1.00 -0.15      PROT C 
+HETATM    4  C   HET A   1       1.331   0.833   0.166  1.00 -0.15      PROT C 
+HETATM    5  C   HET A   1      -0.079   0.873   0.170  1.00  0.01      PROT C 
+HETATM    6  C   HET A   1      -0.824  -0.319  -0.128  1.00  0.02      PROT C 
+HETATM    7  C   HET A   1      -2.139   0.082  -0.270  1.00 -0.32      PROT C 
+HETATM    8  C   HET A   1      -1.019   1.855   0.418  1.00 -0.31      PROT C 
+HETATM    9  H   HET A   1      -0.725  -2.468  -0.345  1.00  0.15      PROT H 
+HETATM   10  H   HET A   1       1.768  -2.513  -0.227  1.00  0.15      PROT H 
+HETATM   11  H   HET A   1       3.049  -0.442   0.001  1.00  0.15      PROT H 
+HETATM   12  H   HET A   1       1.893   1.752   0.290  1.00  0.15      PROT H 
+HETATM   13  H   HET A   1      -2.704   0.592  -0.826  1.00  0.15      PROT H 
+HETATM   14  H   HET A   1      -2.834  -0.596   0.031  1.00  0.15      PROT H 
+HETATM   15  H   HET A   1      -1.690   2.104   1.031  1.00  0.15      PROT H 
+HETATM   16  H   HET A   1      -0.749   2.794   0.136  1.00  0.15      PROT H 
+END

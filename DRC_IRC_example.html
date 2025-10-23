@@ -1,0 +1,60 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Examples of DRC/IRC data</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1><a name="SECTION0012197000000000000000">Examples of DRC/IRC data</a> </h1>
+<p>Use of the IRC/DRC facility is quite complicated. In the following examples various 'reasonable' options are illustrated for a calculation on water. It is assumed that an optimized transition-state geometry is available. </p>
+<p>Example 1: <a href="DRC_IRC_example.html#h2odrc">Figure 1</a> illustrates a Dynamic Reaction Coordinate calculation, starting at the transition state for water inverting, the initial motion being opposite to the transition normal mode, with 6kcal of excess kinetic energy added in. Every point calculated is to be printed (Note all coordinates are marked with a zero, and T-PRIO, H-PRIO and X-PRIO are all absent). The results of an earlier calculation using the same keywords is assumed to exist. The earlier calculation would have constructed the force matrix. While the total cpu time is specified, it is in fact redundant in that the calculation will run to completion in less than 600 seconds. </p>
+<p><a name="BM22637">&nbsp;</a> <br/>
+</p><div align="CENTER"><a name="h2odrc">&nbsp;</a><a name="BM22798"></a>&nbsp; 
+<strong><p>Figure 1:</p></strong> Example of DRC calculation
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<p> </p>
+<pre> KINETIC=6 RESTART  IRC=-1 DRC T=600
+ WATER
+      H   0.000000 0   0.000000 0   0.000000 0  0 0 0
+      O   0.911574 0   0.000000 0   0.000000 0  1 0 0
+      H   0.911574 0 180.000000 0   0.000000 0  2 1 0
+      0   0.000000 0   0.000000 0   0.000000 0  0 0 0</pre></td>
+</tr>
+</table>
+<p></p></div>
+<p>Example 2: <a href="DRC_IRC_example.html#h2oirc">Figure 2</a> shows an Intrinsic Reaction Coordinate calculation. Here the restart is from a previous IRC calculation which was stopped before the minimum was reached. Recall that RESTART with IRC=<i>n </i>implies a restart from the FORCE calculation. Since this is a restart from within an IRC calculation the keyword IRC=<i>n</i> has been replaced by irc0. IRC on its own (without the "=<i>n</i>") implies an IRC calculation from the starting position--here the RESTART position--without initial displacement.<a name="BM22646">&nbsp;</a> </p>
+<p><br/>
+</p><div align="CENTER"><a name="h2oirc">&nbsp;</a><a name="BM22799"></a>&nbsp; 
+<strong><p>Figure 2:</p></strong> Example of IRC calculation
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<p> </p>
+<pre> RESTART  IRC  T=600
+ WATER
+      H   0.000000 0   0.000000 0   0.000000 0  0 0 0
+      O   0.911574 0   0.000000 0   0.000000 0  1 0 0
+      H   0.911574 0 180.000000 0   0.000000 0  2 1 0
+      0   0.000000 0   0.000000 0   0.000000 0  0 0 0</pre></td>
+</tr>
+</table>
+</div>
+<p> <br/>
+</p>
+</body>
+</html>

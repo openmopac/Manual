@@ -1,0 +1,57 @@
+
+
+                     SUMMARY OF PM7 CALCULATION, Site No: 29054
+
+                                                       MOPAC2016 (Version: 18.021W)
+                                                       Sun Jan 21 11:36:35 2018
+                                                       No. of days remaining = 365
+
+           Empirical Formula: C H3 Cl2  =     6 atoms
+
+ charge=-1 eps=78.4 HTML
+ Cl(-) --- CH3Cl
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =       -158.40234 KCAL/MOL =    -662.75541 KJ/MOL
+          TOTAL ENERGY            =       -702.94293 EV
+          ELECTRONIC ENERGY       =       -431.87599 EV
+          CORE-CORE REPULSION     =       -271.06694 EV
+          DIELECTRIC ENERGY       =         -3.10981 EV
+          GRADIENT NORM           =          0.56880
+          DIPOLE                  =          9.51662 DEBYE    POINT GROUP:       C3v 
+          NO. OF FILLED LEVELS    =         11
+          CHARGE ON SYSTEM        =         -1
+          IONIZATION POTENTIAL    =         10.558725 EV
+          HOMO LUMO ENERGIES (EV) =        -10.559  0.773
+          MOLECULAR WEIGHT        =         85.9407
+          COSMO AREA              =        115.09 SQUARE ANGSTROMS
+          COSMO VOLUME            =         96.68 CUBIC ANGSTROMS
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+           Cl     6   Cl     5     4.94811
+            H     3    H     4     1.80155
+            H     3    H     2     1.55971
+          SCF CALCULATIONS        =         14
+          WALL-CLOCK TIME         =          0.156 SECONDS
+          COMPUTATION TIME        =          0.515 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+*REMARK   3   CH3 = Methyl group                                   res:     1
+*REMARK   3    CL = Isolated element                               res:     2
+ charge=-1 eps=78.4 HTML
+ Cl(-) --- CH3Cl
+
+  C(HETATM    1  C   CH3 A   1)   0.55845159 +1  -0.00013217 +1   0.00180992 +1
+  H(HETATM    2 1H   CH3 A   1)   0.22249628 +1   1.03968690 +1   0.01091185 +1
+  H(HETATM    3 2H   CH3 A   1)   0.22292062 +1  -0.51236658 +1  -0.90315061 +1
+  H(HETATM    4 3H   CH3 A   1)   0.22342181 +1  -0.52755682 +1   0.89833230 +1
+ Cl(HETATM    5 CL   CH3 A   1)  -2.60089915 +1   0.00009927 +1   0.00054775 +1
+ Cl(HETATM    6 CL   CH3 C   1)   2.34721562 +1   0.00004213 +1   0.00101193 +1
+ 

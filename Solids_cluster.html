@@ -1,0 +1,66 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> The Cluster</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION001291000000000000000">
+ The Cluster</a>
+</h2>
+Unlike more conventional methods, MOPAC does not normally use a fundamental
+unit cell.  Neither does it sample the Brillouin Zone in order to model the
+electronic structure.  Instead, it uses a large unit cell, called a 'cluster', and applies the Born-von K&aacute;rm&aacute;n
+&nbsp;[<a href="references.html#bornvon1">68</a>,<a href="references.html#bornvon2">69</a>] periodic  boundary conditions.  In this discussion,
+the term 'solid' is intended to include polymers, layer systems, and true
+solids, unless otherwise indicated by the context.
+<p>
+If a unit cell of a solid is large enough,  then  a  single  point  in <i>k</i>-space,  the &Gamma;
+point,
+is sufficient to specify the entire Brillouin zone.  The secular determinant
+for this  point  can  be  constructed  by adding together the Fock matrix for
+the central unit cell plus those for the adjacent unit cells.  The periodic
+boundary conditions are satisfied, and diagonalization yields the correct
+density matrix for the &Gamma; point.
+</p><p>
+At this point  in  the  calculation,  conventionally,  the  density matrix
+for  each  unit  cell  is constructed.  Instead, the &Gamma;-point density
+and  one-electron  density  matrices  are   combined   with "&Gamma;-point-like" Coulomb  and  exchange integral strings to
+produce a new Fock matrix.  The  calculation  can  be  visualized  as  being
+done entirely in reciprocal space, at the &Gamma; point.
+</p><p>
+Most  solid-state  calculations  take  a  very  long  time.   These
+calculations,   called "Cluster" calculations   after  the  original
+publication, require between 1.3 and 2 times  the  equivalent  molecular
+calculation.<a name="BM18245">&nbsp;</a>
+</p><p>
+A minor 'fudge'  is  necessary  to  make  this  method  work.   The
+contribution  to  the  Fock  matrix  element  arising  from the exchange
+integral between an atomic orbital and all atomic orbitals which are more than
+half a unit cell away must be ignored.
+</p><p>
+The unit cell must be large enough that an atomic  orbital  in  the center  of  the  unit  cell has an
+insignificant overlap with the atomic orbitals at the ends of the  unit
+cell.   In  practice,  a  translation vector  of more that about 7 or 8 &Aring;ngstrom is
+sufficient.  For one rare group of compounds a larger translation vector is
+needed.  Solids with delocalized <i> <span class="b">&pi;</span></i>-systems,  and  solids  with  very
+small band-gaps will require a larger translation  vector,  in  order  to
+accurately  sample <i>k</i>-space.   For these systems, a translation vector in the
+order of  15-20 &Aring;ngstroms is needed.
+</p></body>
+</html>

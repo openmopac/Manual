@@ -1,0 +1,26 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acid-catalyzed
+REMARK  MOPAC 2016, Version: 21.151W Date: May 31 2021 15:12
+REMARK   3 ACY = Acetic acid res:    1
+REMARK   3 EOH = Ethanol res:    2
+HETATM    1  C1  ACY A   1       0.000   0.000   0.000  1.00 -0.53      PROT C 
+HETATM    2  C2  ACY A   1       1.472   0.000   0.000  1.00  0.79      PROT C 
+HETATM    3  O   ACY A   1       2.212   1.012   0.000  1.00 -0.65      PROT O 
+HETATM    4  O   EOH B   2       1.532  -0.202  -2.289  1.00 -0.64      PROT O 
+HETATM    5  C1  EOH B   2       2.467   0.579  -3.023  1.00  0.04      PROT C 
+HETATM    6  C2  EOH B   2       2.328   0.300  -4.510  1.00 -0.50      PROT C 
+HETATM    7 1H1  ACY A   1      -0.407   0.229  -1.008  1.00  0.23      PROT H 
+HETATM    8 2H1  ACY A   1      -0.436  -0.975   0.293  1.00  0.22      PROT H 
+HETATM    9 3H1  ACY A   1      -0.416   0.762   0.688  1.00  0.22      PROT H 
+HETATM   10 1H1  EOH B   2       2.191   1.615  -2.753  1.00  0.13      PROT H 
+HETATM   11 2H1  EOH B   2       3.480   0.357  -2.640  1.00  0.13      PROT H 
+HETATM   12 1H2  EOH B   2       2.542  -0.751  -4.746  1.00  0.16      PROT H 
+HETATM   13 2H2  EOH B   2       1.312   0.514  -4.864  1.00  0.16      PROT H 
+HETATM   14 3H2  EOH B   2       3.020   0.919  -5.096  1.00  0.17      PROT H 
+HETATM   15  H   ACY G   1       3.046  -1.185   0.130  1.00  0.41      PROT H 
+HETATM   16  O   HOH F   3       1.025   3.099  -0.631  1.00 -0.52      PROT O 
+HETATM   17  O   ACY G   1       2.034  -1.192   0.136  1.00 -0.50      PROT O 
+HETATM   18  H   UNK G           1.627   2.154  -0.323  1.00  0.45      PROT H 
+HETATM   19  H   EOH B   2       1.657  -1.162  -2.467  1.00  0.36      PROT H 
+HETATM   20 1H   HOH F   3       0.873   3.592   0.236  1.00  0.43      PROT H 
+HETATM   21 2H   HOH F   3       1.707   3.687  -1.082  1.00  0.43      PROT H 
+END

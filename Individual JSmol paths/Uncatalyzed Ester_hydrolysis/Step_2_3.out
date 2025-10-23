@@ -1,0 +1,1715 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.309W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.309W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Nov 05 12:08:39 2015  *
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "2 CH3-C(O)-O-C2H5 PLUS H2O.ARC"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "3 ACETIC ACID PLUS ETHANOL.ARC"
+ *  NOSWAP     - DO NOT SWAP ATOMS EVEN IF IT WILL IMPROVE OVERLAP IN GEO_REF
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =     1
+ *
+ *
+ *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  LET        - OVERRIDE SOME SAFETY CHECKS
+ *  XYZ        - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE IN A PROTEIN MECHANISM
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  CVB(3:-18,18:16)   USER-DEFINED EXPLICIT COVALENT BONDS
+ *  GNORM=     - EXIT WHEN GRADIENT NORM DROPS BELOW   2.00    
+ *******************************************************************************
+geo_ref="3 Acetic acid plus ethanol.arc" geo_dat="2 CH3-C(O)-O-C2H5 plus H2O.arc" locate-ts(C:1,3,30,30,30,30,30,30,30,30,30,30,40,60,80,100,120,140,140,140;SET:1) opt xyz charge=1 eps=78.4 gnorm=2 cvb(3:-18,18:16) geo-ok let noswap HTML
+ Transition state for Step 2 to Step 3
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   3)    0.00000000  *   0.00000000  *   0.00000000  *
+     2       C(HETATM    2  C2  HET A   3)    1.48338681  *   0.00000000  *   0.00000000  *
+     3       O(HETATM    3  O1  HET A   3)    2.21380427  *   0.97209787  *   0.00000000  *
+     4       O(HETATM    4  O2  HET A   3)    1.96996414  *  -1.25339797  *  -0.08828917  *
+     5       C(HETATM    5  C3  HET A   3)    3.40116966  *  -1.41112185  *  -0.04843360  *
+     6       C(HETATM    6  C4  HET A   3)    3.60751417  *  -2.91342190  *  -0.10664483  *
+     7       H(HETATM    7 1H1  HET A   3)   -0.40131197  *   0.07389889  *  -1.02603990  *
+     8       H(HETATM    8 2H1  HET A   3)   -0.42905176  *  -0.91259903  *   0.44673282  *
+     9       H(HETATM    9 3H1  HET A   3)   -0.39834639  *   0.85775010  *   0.56758169  *
+    10       H(HETATM   10 1H3  HET A   3)    3.83119650  *  -0.88080650  *  -0.91582960  *
+    11       H(HETATM   11 2H3  HET A   3)    3.77189168  *  -0.95964999  *   0.88890440  *
+    12       H(HETATM   12 1H4  HET A   3)    3.11379870  *  -3.42337151  *   0.73109287  *
+    13       H(HETATM   13 2H4  HET A   3)    3.20330286  *  -3.34543556  *  -1.03123590  *
+    14       H(HETATM   14 3H4  HET A   3)    4.67607085  *  -3.16499176  *  -0.06282607  *
+    15       H(HETATM   15 1H   HOH A   5)    0.82488120  *   0.62131167  *   2.82633367  *
+    16       O(HETATM   17  O   HOH A   5)    1.52650002  *   0.07184979  *   2.45389167  *
+    17       H(HETATM   19 2H   HOH A   5)    2.30197483  *   0.64751348  *   2.46113951  *
+ 
+
+          By default, a restraining force of 3 kcal/mol/A^2 will be used
+ ----------------------------------------
+
+                 After docking
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   19 2H   HOH A   5)        2.77        2.77
+          (HETATM    9 3H1  HET A   3)        1.21        3.98
+          (HETATM    2  C2  HET A   3)        1.14        5.12
+          (HETATM    8 2H1  HET A   3)        1.12        6.24
+          (HETATM   15 1H   HOH A   5)        1.10        7.34
+          (HETATM    7 1H1  HET A   3)        0.95        8.29
+          (HETATM   17  O   HOH A   5)        0.73        9.02
+          (HETATM    4  O2  HET A   3)        0.58        9.60
+          (HETATM   12 1H4  HET A   3)        0.56       10.16
+          (HETATM    3  O1  HET A   3)        0.52       10.68
+          (HETATM   10 1H3  HET A   3)        0.39       11.07
+          (HETATM   14 3H4  HET A   3)        0.38       11.45
+          (HETATM    1  C1  HET A   3)        0.33       11.78
+          (HETATM   11 2H3  HET A   3)        0.23       12.01
+          (HETATM    6  C4  HET A   3)        0.21       12.22
+          (HETATM   13 2H4  HET A   3)        0.18       12.41
+          (HETATM    5  C3  HET A   3)        0.18       12.59
+
+   Difference between data-set and GEO_REF:   12.59 = total,  0.7405 = Average,  0.9649 = RMS, in Angstroms
+
+    The rotated-translated reference geometry will be written to: 'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\3 Acetic acid plus ethanol.new'
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C4 H10 O3  =    17 atoms
+
+  AT LEAST ONE ATOM DEFINED BY CVB IS FAULTY
+  THE FAULTY ATOM NUMBER IS         -18
+           CVB keyword =" CVB(3:-18,18:16) "
+  AT LEAST ONE ATOM DEFINED BY CVB IS FAULTY
+  THE FAULTY ATOM NUMBER IS          18
+           CVB keyword =" CVB(3:-18,18:16) "
+
+
+      MOLECULAR POINT GROUP   :   C1  
+  AT LEAST ONE ATOM DEFINED BY CVB IS FAULTY
+  THE FAULTY ATOM NUMBER IS         -18
+           CVB keyword =" CVB(3:-18,18:16) "
+  AT LEAST ONE ATOM DEFINED BY CVB IS FAULTY
+  THE FAULTY ATOM NUMBER IS          18
+           CVB keyword =" CVB(3:-18,18:16) "
+
+   TOPOGRAPHY OF SYSTEM
+
+   ATOM No.                  LABEL                 Atoms connected to this atom
+      1          C (HETATM    1  C1  HET A   3)       2      7      8      9
+      2          C (HETATM    2  C2  HET A   3)       3      4      1
+      3          O (HETATM    3  O1  HET A   3)       2
+      4          O (HETATM    4  O2  HET A   3)       2      5
+      5          C (HETATM    5  C3  HET A   3)       4      6     10     11
+      6          C (HETATM    6  C4  HET A   3)       5     12     13     14
+      7          H (HETATM    7 1H1  HET A   3)       1
+      8          H (HETATM    8 2H1  HET A   3)       1
+      9          H (HETATM    9 3H1  HET A   3)       1
+     10          H (HETATM   10 1H3  HET A   3)       5
+     11          H (HETATM   11 2H3  HET A   3)       5
+     12          H (HETATM   12 1H4  HET A   3)       6
+     13          H (HETATM   13 2H4  HET A   3)       6
+     14          H (HETATM   14 3H4  HET A   3)       6
+     15          H (HETATM   15 1H   HOH A   5)      16
+     16          O (HETATM   16  O   HOH A   5)      15     17
+     17          H (HETATM   17 2H   HOH A   5)      16
+
+                  COMPUTED CHARGE ON SYSTEM:  +0
+           CHARGE SPECIFIED FOR SYSTEM (  1) IS INCORRECT
+  
+           IN THE DATA-SET SUPPLIED, THE CHARGE SPECIFIED (+1) IS INCORRECT.
+           KEYWORD 'GEO-OK' WAS PRESENT, SO THE CHARGE HAS BEEN RESET.
+           IF THE NEW CHARGE IS INCORRECT, EITHER MODIFY THE STRUCTURE OR USE KEYWORD 'SETPI' TO CORRECT THE LEWIS STRUCTURE.
+
+           If the Lewis structure used by MOZYME is incorrect, use keywords such as CVB or SETPI to correct it
+
+          For more information, see: HTTP://OpenMOPAC.net/Manual/setpi.html
+
+
+ Set 1: Atoms involved in covalent bond-breaking and bond-making                  Connectivity of atoms
+
+                                                                          Data-set                     Reference
+
+   1    Atom:   C     2  PDB Label: (HETATM    2  C2  HET A   3)           1     3     4                1     3    16
+   2    Atom:   O     4  PDB Label: (HETATM    4  O2  HET A   3)           2     5                      5    17
+   3    Atom:   O    16  PDB Label: (HETATM   16  O   HOH A   5)          15    17                      2    15
+   4    Atom:   H    17  PDB Label: (HETATM   17 2H   HOH A   5)          16                            4
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+   1    Atom:   C     2  PDB Label: (HETATM    2  C2  HET A   3)
+   2    Atom:   O     4  PDB Label: (HETATM    4  O2  HET A   3)
+   3    Atom:   O    16  PDB Label: (HETATM   16  O   HOH A   5)
+   4    Atom:   H    17  PDB Label: (HETATM   17 2H   HOH A   5)
+   5    Atom:   C     1  PDB Label: (HETATM    1  C1  HET A   3)
+   6    Atom:   O     3  PDB Label: (HETATM    3  O1  HET A   3)
+   7    Atom:   C     5  PDB Label: (HETATM    5  C3  HET A   3)
+   8    Atom:   H    15  PDB Label: (HETATM   15 1H   HOH A   5)
+
+          Set 1 selected by keywork 'SET' within keyword 'LOCATE-TS'
+
+          Constraining constant: 1.00 Kcal/mol/Angstrom^2
+
+
+          Current value of GEO_REF constraint:                1.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   12.59  Angstroms
+
+          Heat of formation of the first geometry:         -176.914 Kcal/mol
+          Heat of formation of the second geometry:        -173.571 Kcal/mol
+          Contribution to heat of formation due to stress:   31.66  Kcal/mol
+          Gradient arising from first geometry:              16.50  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             21.07  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   140.49  degrees
+
+ CYCLE:     1 TIME:   0.078 TIME LEFT:  4.96W  GRAD.:    17.599 HEAT: -318.8258
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    17.262 HEAT: -318.7335
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    17.262 HEAT: -318.7343
+ CYCLE:     4 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:    27.034 HEAT: -318.8495
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    12.557 HEAT: -319.0115
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     9.602 HEAT: -319.0239
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.972 HEAT: -319.1723
+ CYCLE:     8 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    13.831 HEAT: -319.3440
+ CYCLE:     9 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    10.352 HEAT: -319.5541
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.029 HEAT: -319.6279
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.733 HEAT: -319.6611
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.923 HEAT: -319.7048
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     7.058 HEAT: -319.8258
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.994 HEAT: -319.9900
+ CYCLE:    15 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     8.455 HEAT: -320.1452
+ CYCLE:    16 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     8.231 HEAT: -320.2877
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.485 HEAT: -320.4338
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    11.337 HEAT: -320.5515
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    12.105 HEAT: -320.5231
+ CYCLE:    20 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.247 HEAT: -320.0494
+ CYCLE:    21 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.989 HEAT: -320.1265
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.397 HEAT: -320.1681
+ CYCLE:    23 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     7.134 HEAT: -320.2986
+ CYCLE:    24 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.489 HEAT: -320.2980
+ CYCLE:    25 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.084 HEAT: -320.8348
+ CYCLE:    26 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.249 HEAT: -320.8322
+ CYCLE:    27 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.902 HEAT: -320.8805
+ CYCLE:    28 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.415 HEAT: -320.4261
+ CYCLE:    29 TIME:   0.062 TIME LEFT:  4.96W  GRAD.:     4.458 HEAT: -320.5188
+ CYCLE:    30 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     4.025 HEAT: -320.5313
+ CYCLE:    31 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.816 HEAT: -320.5587
+
+     GRADIENT =  3.81577  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 1.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_1p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 1.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_1p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:                1.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   12.14  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        2.52        2.52
+          (HETATM    9 3H1  HET A   3)        1.17        3.69
+          (HETATM    2  C2  HET A   3)        1.09        4.79
+          (HETATM   15 1H   HOH A   5)        1.08        5.87
+          (HETATM    8 2H1  HET A   3)        1.04        6.91
+          (HETATM    7 1H1  HET A   3)        0.98        7.89
+          (HETATM   16  O   HOH A   5)        0.85        8.74
+          (HETATM    4  O2  HET A   3)        0.58        9.32
+          (HETATM   12 1H4  HET A   3)        0.55        9.87
+          (HETATM    3  O1  HET A   3)        0.47       10.34
+          (HETATM   14 3H4  HET A   3)        0.38       10.72
+          (HETATM   10 1H3  HET A   3)        0.37       11.09
+          (HETATM    1  C1  HET A   3)        0.28       11.36
+          (HETATM   11 2H3  HET A   3)        0.23       11.59
+          (HETATM    6  C4  HET A   3)        0.21       11.80
+          (HETATM    5  C3  HET A   3)        0.17       11.97
+          (HETATM   13 2H4  HET A   3)        0.16       12.14
+
+          Heat of formation of the first geometry:         -175.764 Kcal/mol
+          Heat of formation of the second geometry:        -173.265 Kcal/mol
+          Contribution to heat of formation due to stress:   28.47  Kcal/mol
+          Gradient arising from first geometry:               8.16  Kcal/mol/Angstrom
+          Gradient arising from second geometry:              7.71  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   151.61  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 1.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_1p0_average.mop'
+
+
+          Constraining constant: 3.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    30.696 HEAT: -264.4440
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    30.474 HEAT: -264.0734
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    30.473 HEAT: -264.0781
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   102.983 HEAT: -265.7356
+ CYCLE:     5 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    28.357 HEAT: -267.2618
+ CYCLE:     6 TIME:   0.035 TIME LEFT:  4.96W  GRAD.:    20.706 HEAT: -267.4175
+ CYCLE:     7 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    23.031 HEAT: -268.2115
+ CYCLE:     8 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    34.154 HEAT: -269.1016
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    13.786 HEAT: -269.8191
+ CYCLE:    10 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    11.778 HEAT: -270.1299
+ CYCLE:    11 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    12.828 HEAT: -270.9857
+ CYCLE:    12 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    12.663 HEAT: -271.2652
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    24.536 HEAT: -271.6664
+ CYCLE:    14 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    10.469 HEAT: -272.2048
+ CYCLE:    15 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     7.654 HEAT: -272.0699
+ CYCLE:    16 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    11.523 HEAT: -272.1810
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    14.652 HEAT: -272.5411
+ CYCLE:    18 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    13.696 HEAT: -272.9146
+ CYCLE:    19 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     7.236 HEAT: -273.3112
+ CYCLE:    20 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.055 HEAT: -273.4269
+ CYCLE:    21 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     8.880 HEAT: -273.5417
+ CYCLE:    22 TIME:   0.035 TIME LEFT:  4.96W  GRAD.:    22.531 HEAT: -273.6658
+ CYCLE:    23 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     8.497 HEAT: -273.6865
+ CYCLE:    24 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.412 HEAT: -273.7152
+ CYCLE:    25 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.227 HEAT: -273.7534
+ CYCLE:    26 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    12.299 HEAT: -273.8412
+ CYCLE:    27 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.212 HEAT: -273.9424
+ CYCLE:    28 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     3.963 HEAT: -274.0180
+
+     GRADIENT =  3.96265  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_3p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_3p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:                3.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   11.33  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        2.22        2.22
+          (HETATM    9 3H1  HET A   3)        1.11        3.33
+          (HETATM   15 1H   HOH A   5)        1.06        4.39
+          (HETATM    2  C2  HET A   3)        1.02        5.41
+          (HETATM    7 1H1  HET A   3)        0.99        6.40
+          (HETATM   16  O   HOH A   5)        0.94        7.34
+          (HETATM    8 2H1  HET A   3)        0.91        8.25
+          (HETATM    4  O2  HET A   3)        0.56        8.81
+          (HETATM   12 1H4  HET A   3)        0.50        9.32
+          (HETATM    3  O1  HET A   3)        0.39        9.71
+          (HETATM   14 3H4  HET A   3)        0.37       10.08
+          (HETATM   10 1H3  HET A   3)        0.33       10.41
+          (HETATM   11 2H3  HET A   3)        0.24       10.64
+          (HETATM    1  C1  HET A   3)        0.20       10.84
+          (HETATM    6  C4  HET A   3)        0.20       11.04
+          (HETATM    5  C3  HET A   3)        0.16       11.20
+          (HETATM   13 2H4  HET A   3)        0.13       11.33
+
+          Heat of formation of the first geometry:         -175.124 Kcal/mol
+          Heat of formation of the second geometry:        -171.877 Kcal/mol
+          Contribution to heat of formation due to stress:   72.98  Kcal/mol
+          Gradient arising from first geometry:              21.26  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             20.48  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   169.10  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_3p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:   285.476 HEAT:  381.2848
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   283.661 HEAT:  379.9129
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   385.996 HEAT:  211.6791
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:  1777.988 HEAT:  222.5624
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   166.586 HEAT:  58.77808
+ CYCLE:     6 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:   111.129 HEAT:  92.87283
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   109.701 HEAT:  89.14753
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   105.026 HEAT:  77.98626
+ CYCLE:     9 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    67.755 HEAT:  72.30163
+ CYCLE:    10 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    47.040 HEAT:  68.44015
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    43.134 HEAT:  66.90006
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    41.559 HEAT:  66.06403
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    79.874 HEAT:  65.85497
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    26.950 HEAT:  61.38943
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    25.011 HEAT:  61.20714
+ CYCLE:    16 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    29.764 HEAT:  59.51718
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    29.097 HEAT:  57.54282
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    92.838 HEAT:  57.14620
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    21.048 HEAT:  58.05193
+ CYCLE:    20 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    13.729 HEAT:  56.38575
+ CYCLE:    21 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    24.200 HEAT:  55.35893
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    25.157 HEAT:  54.44523
+ CYCLE:    23 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    13.101 HEAT:  54.74425
+ CYCLE:    24 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    14.305 HEAT:  54.58131
+ CYCLE:    25 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    12.559 HEAT:  54.31644
+ CYCLE:    26 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    33.459 HEAT:  53.52241
+ CYCLE:    27 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.563 HEAT:  52.98826
+ CYCLE:    28 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    12.880 HEAT:  52.72569
+ CYCLE:    29 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.529 HEAT:  52.43079
+ CYCLE:    30 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    15.968 HEAT:  51.69102
+ CYCLE:    31 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     8.277 HEAT:  51.89236
+ CYCLE:    32 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.733 HEAT:  52.06155
+ CYCLE:    33 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.576 HEAT:  52.38928
+ CYCLE:    34 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.330 HEAT:  52.42800
+ CYCLE:    35 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     9.458 HEAT:  53.02060
+ CYCLE:    36 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     3.722 HEAT:  52.84256
+
+     GRADIENT =  3.72229  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    7.51  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        1.29        1.29
+          (HETATM   16  O   HOH A   5)        0.91        2.20
+          (HETATM   15 1H   HOH A   5)        0.80        3.01
+          (HETATM    2  C2  HET A   3)        0.77        3.78
+          (HETATM    9 3H1  HET A   3)        0.70        4.48
+          (HETATM    7 1H1  HET A   3)        0.64        5.12
+          (HETATM    4  O2  HET A   3)        0.50        5.62
+          (HETATM    8 2H1  HET A   3)        0.47        6.10
+          (HETATM   12 1H4  HET A   3)        0.24        6.34
+          (HETATM   11 2H3  HET A   3)        0.21        6.54
+          (HETATM   14 3H4  HET A   3)        0.20        6.74
+          (HETATM    3  O1  HET A   3)        0.18        6.92
+          (HETATM   10 1H3  HET A   3)        0.16        7.08
+          (HETATM    5  C3  HET A   3)        0.12        7.20
+          (HETATM    1  C1  HET A   3)        0.12        7.33
+          (HETATM    6  C4  HET A   3)        0.11        7.44
+
+          Heat of formation of the first geometry:         -137.375 Kcal/mol
+          Heat of formation of the second geometry:        -131.405 Kcal/mol
+          Contribution to heat of formation due to stress:  321.62  Kcal/mol
+          Gradient arising from first geometry:             139.13  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            139.10  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   178.72  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.062 TIME LEFT:  4.96W  GRAD.:   174.942 HEAT: -6.050415
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   173.338 HEAT: -6.670291
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   185.969 HEAT: -59.18699
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   465.606 HEAT: -84.16623
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    70.959 HEAT: -101.6178
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    51.056 HEAT: -96.71949
+ CYCLE:     7 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    42.847 HEAT: -99.59291
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   101.341 HEAT: -102.3640
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    24.732 HEAT: -104.2484
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.880 HEAT: -104.3835
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    16.917 HEAT: -104.7524
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.774 HEAT: -105.0340
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    13.430 HEAT: -104.5909
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    11.488 HEAT: -104.5849
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.379 HEAT: -104.7584
+ CYCLE:    16 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.911 HEAT: -104.6541
+
+     GRADIENT =  3.91106  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    5.65  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.99        0.99
+          (HETATM   16  O   HOH A   5)        0.81        1.80
+          (HETATM    2  C2  HET A   3)        0.69        2.49
+          (HETATM   15 1H   HOH A   5)        0.62        3.11
+          (HETATM    4  O2  HET A   3)        0.46        3.57
+          (HETATM    9 3H1  HET A   3)        0.42        3.99
+          (HETATM    7 1H1  HET A   3)        0.38        4.37
+          (HETATM    8 2H1  HET A   3)        0.30        4.66
+          (HETATM   11 2H3  HET A   3)        0.19        4.85
+          (HETATM   12 1H4  HET A   3)        0.13        4.98
+          (HETATM    5  C3  HET A   3)        0.11        5.10
+          (HETATM   14 3H4  HET A   3)        0.11        5.21
+          (HETATM   10 1H3  HET A   3)        0.11        5.32
+          (HETATM    1  C1  HET A   3)        0.10        5.42
+
+          Heat of formation of the first geometry:         -152.227 Kcal/mol
+          Heat of formation of the second geometry:        -146.655 Kcal/mol
+          Contribution to heat of formation due to stress:  194.23  Kcal/mol
+          Gradient arising from first geometry:             108.56  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            108.60  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.91  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:   125.621 HEAT: -127.6131
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   124.274 HEAT: -128.0279
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   128.509 HEAT: -151.8449
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:   235.412 HEAT: -164.3823
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    53.275 HEAT: -168.7158
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    33.733 HEAT: -167.8096
+ CYCLE:     7 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    30.662 HEAT: -170.2020
+ CYCLE:     8 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    29.815 HEAT: -171.7569
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    14.336 HEAT: -172.2962
+ CYCLE:    10 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:     9.544 HEAT: -172.2843
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     8.467 HEAT: -172.0850
+ CYCLE:    12 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     7.165 HEAT: -171.9334
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.724 HEAT: -171.7801
+ CYCLE:    14 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     4.744 HEAT: -171.6653
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.056 HEAT: -171.7075
+
+     GRADIENT =  3.05606  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    4.61  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.82        0.82
+          (HETATM   16  O   HOH A   5)        0.73        1.55
+          (HETATM    2  C2  HET A   3)        0.64        2.19
+          (HETATM   15 1H   HOH A   5)        0.48        2.67
+          (HETATM    4  O2  HET A   3)        0.44        3.11
+          (HETATM    9 3H1  HET A   3)        0.26        3.37
+          (HETATM    7 1H1  HET A   3)        0.23        3.61
+          (HETATM    8 2H1  HET A   3)        0.19        3.80
+          (HETATM   11 2H3  HET A   3)        0.18        3.98
+          (HETATM    5  C3  HET A   3)        0.11        4.09
+
+          Heat of formation of the first geometry:         -158.184 Kcal/mol
+          Heat of formation of the second geometry:        -150.899 Kcal/mol
+          Contribution to heat of formation due to stress:  137.38  Kcal/mol
+          Gradient arising from first geometry:              90.91  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             90.92  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.98  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:    92.842 HEAT: -182.4973
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    91.809 HEAT: -182.7922
+ CYCLE:     3 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    98.510 HEAT: -195.5719
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:   156.164 HEAT: -201.7723
+ CYCLE:     5 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    38.626 HEAT: -203.0348
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    24.498 HEAT: -202.8787
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    21.887 HEAT: -204.6056
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    20.517 HEAT: -205.3074
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.852 HEAT: -205.4233
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.677 HEAT: -205.3033
+ CYCLE:    11 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     6.139 HEAT: -205.2701
+ CYCLE:    12 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     6.598 HEAT: -205.1787
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     4.978 HEAT: -204.9704
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.972 HEAT: -204.9020
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     2.914 HEAT: -204.8591
+
+     GRADIENT =  2.91436  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    4.01  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.71        0.71
+          (HETATM   16  O   HOH A   5)        0.68        1.39
+          (HETATM    2  C2  HET A   3)        0.61        2.00
+          (HETATM    4  O2  HET A   3)        0.43        2.42
+          (HETATM   15 1H   HOH A   5)        0.37        2.80
+          (HETATM    9 3H1  HET A   3)        0.18        2.98
+          (HETATM   11 2H3  HET A   3)        0.16        3.14
+          (HETATM    7 1H1  HET A   3)        0.16        3.31
+          (HETATM    8 2H1  HET A   3)        0.14        3.44
+          (HETATM    5  C3  HET A   3)        0.11        3.55
+
+          Heat of formation of the first geometry:         -160.772 Kcal/mol
+          Heat of formation of the second geometry:        -152.587 Kcal/mol
+          Contribution to heat of formation due to stress:  108.50  Kcal/mol
+          Gradient arising from first geometry:              80.85  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             80.92  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   178.12  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.062 TIME LEFT:  4.96W  GRAD.:    72.251 HEAT: -210.8325
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    71.440 HEAT: -210.9877
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    83.120 HEAT: -218.7422
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    99.965 HEAT: -222.3863
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    28.814 HEAT: -222.4284
+ CYCLE:     6 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    18.243 HEAT: -222.4199
+ CYCLE:     7 TIME:   0.051 TIME LEFT:  4.96W  GRAD.:    17.695 HEAT: -223.4283
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.749 HEAT: -223.8754
+ CYCLE:     9 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    16.148 HEAT: -224.1283
+ CYCLE:    10 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:     5.977 HEAT: -223.9578
+ CYCLE:    11 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     5.243 HEAT: -223.9931
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.418 HEAT: -223.9791
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     6.763 HEAT: -223.8764
+ CYCLE:    14 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:     8.753 HEAT: -223.8448
+ CYCLE:    15 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     2.857 HEAT: -223.6518
+
+     GRADIENT =  2.85660  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    3.64  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.65        0.65
+          (HETATM   16  O   HOH A   5)        0.62        1.28
+          (HETATM    2  C2  HET A   3)        0.58        1.86
+          (HETATM    4  O2  HET A   3)        0.42        2.28
+          (HETATM   15 1H   HOH A   5)        0.29        2.57
+          (HETATM   11 2H3  HET A   3)        0.15        2.72
+          (HETATM    9 3H1  HET A   3)        0.15        2.87
+          (HETATM    7 1H1  HET A   3)        0.14        3.00
+          (HETATM    8 2H1  HET A   3)        0.11        3.11
+          (HETATM    5  C3  HET A   3)        0.10        3.21
+
+          Heat of formation of the first geometry:         -162.125 Kcal/mol
+          Heat of formation of the second geometry:        -153.442 Kcal/mol
+          Contribution to heat of formation due to stress:   91.91  Kcal/mol
+          Gradient arising from first geometry:              74.34  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             74.50  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.77  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    57.878 HEAT: -227.4778
+ CYCLE:     2 TIME:   0.027 TIME LEFT:  4.96W  GRAD.:    57.251 HEAT: -227.7003
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    71.340 HEAT: -232.9565
+ CYCLE:     4 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:    79.799 HEAT: -235.2986
+ CYCLE:     5 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    22.970 HEAT: -235.1676
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.412 HEAT: -235.4032
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.058 HEAT: -236.1138
+ CYCLE:     8 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    12.769 HEAT: -236.2568
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    13.594 HEAT: -236.2880
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.962 HEAT: -236.1799
+ CYCLE:    11 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     5.411 HEAT: -236.2322
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.579 HEAT: -236.2445
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.999 HEAT: -236.1516
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     9.711 HEAT: -236.0961
+ CYCLE:    15 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:     2.745 HEAT: -235.9268
+
+     GRADIENT =  2.74500  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    3.39  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.61        0.61
+          (HETATM   16  O   HOH A   5)        0.58        1.20
+          (HETATM    2  C2  HET A   3)        0.57        1.76
+          (HETATM    4  O2  HET A   3)        0.41        2.17
+          (HETATM   15 1H   HOH A   5)        0.23        2.40
+          (HETATM   11 2H3  HET A   3)        0.14        2.54
+          (HETATM    9 3H1  HET A   3)        0.13        2.67
+          (HETATM    7 1H1  HET A   3)        0.13        2.79
+
+          Heat of formation of the first geometry:         -162.951 Kcal/mol
+          Heat of formation of the second geometry:        -154.335 Kcal/mol
+          Contribution to heat of formation due to stress:   81.36  Kcal/mol
+          Gradient arising from first geometry:              69.68  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             70.51  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.56  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    48.639 HEAT: -238.5799
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    48.137 HEAT: -238.7858
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    69.268 HEAT: -242.7000
+ CYCLE:     4 TIME:   0.062 TIME LEFT:  4.96W  GRAD.:    61.032 HEAT: -244.3922
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    17.935 HEAT: -243.9844
+ CYCLE:     6 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    12.998 HEAT: -244.0077
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    12.553 HEAT: -244.6036
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     8.045 HEAT: -244.6228
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     9.540 HEAT: -244.5475
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.999 HEAT: -244.5039
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.251 HEAT: -244.5299
+ CYCLE:    12 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     5.373 HEAT: -244.4538
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.228 HEAT: -244.4508
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.678 HEAT: -244.4012
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.533 HEAT: -244.4307
+
+     GRADIENT =  3.53319  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    3.21  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.59        0.59
+          (HETATM    2  C2  HET A   3)        0.55        1.15
+          (HETATM   16  O   HOH A   5)        0.54        1.69
+          (HETATM    4  O2  HET A   3)        0.40        2.09
+          (HETATM   15 1H   HOH A   5)        0.18        2.27
+          (HETATM   11 2H3  HET A   3)        0.12        2.40
+          (HETATM    7 1H1  HET A   3)        0.12        2.52
+          (HETATM    9 3H1  HET A   3)        0.12        2.63
+          (HETATM   10 1H3  HET A   3)        0.10        2.74
+
+          Heat of formation of the first geometry:         -163.550 Kcal/mol
+          Heat of formation of the second geometry:        -154.869 Kcal/mol
+          Contribution to heat of formation due to stress:   73.99  Kcal/mol
+          Gradient arising from first geometry:              66.89  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             67.57  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.25  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    41.660 HEAT: -246.3512
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    41.210 HEAT: -246.5249
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    60.405 HEAT: -249.5089
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    45.935 HEAT: -250.8177
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.208 HEAT: -250.5339
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    11.531 HEAT: -250.6071
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.652 HEAT: -250.8732
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     8.369 HEAT: -250.8105
+ CYCLE:     9 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:    12.096 HEAT: -250.7782
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.017 HEAT: -250.7276
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.400 HEAT: -250.7878
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.742 HEAT: -250.7881
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     4.630 HEAT: -250.7643
+ CYCLE:    14 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:     8.557 HEAT: -250.7046
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     2.855 HEAT: -250.7168
+
+     GRADIENT =  2.85497  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    3.07  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.58        0.58
+          (HETATM    2  C2  HET A   3)        0.54        1.12
+          (HETATM   16  O   HOH A   5)        0.51        1.63
+          (HETATM    4  O2  HET A   3)        0.39        2.02
+          (HETATM   15 1H   HOH A   5)        0.15        2.17
+          (HETATM    7 1H1  HET A   3)        0.12        2.29
+          (HETATM   11 2H3  HET A   3)        0.11        2.40
+          (HETATM    9 3H1  HET A   3)        0.11        2.51
+          (HETATM   10 1H3  HET A   3)        0.10        2.62
+
+          Heat of formation of the first geometry:         -164.032 Kcal/mol
+          Heat of formation of the second geometry:        -155.390 Kcal/mol
+          Contribution to heat of formation due to stress:   68.70  Kcal/mol
+          Gradient arising from first geometry:              64.27  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             64.96  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.47  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:    35.599 HEAT: -252.0580
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    35.205 HEAT: -252.2214
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    54.435 HEAT: -254.4749
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    35.115 HEAT: -255.3391
+ CYCLE:     5 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    12.692 HEAT: -255.1067
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.390 HEAT: -255.1324
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     8.600 HEAT: -255.4803
+ CYCLE:     8 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    24.958 HEAT: -255.4134
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.827 HEAT: -255.4313
+ CYCLE:    10 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     3.834 HEAT: -255.4674
+
+     GRADIENT =  3.83399  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    2.96  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.56        0.56
+          (HETATM    2  C2  HET A   3)        0.54        1.10
+          (HETATM   16  O   HOH A   5)        0.49        1.59
+          (HETATM    4  O2  HET A   3)        0.38        1.97
+          (HETATM    7 1H1  HET A   3)        0.12        2.09
+          (HETATM   11 2H3  HET A   3)        0.11        2.19
+          (HETATM   15 1H   HOH A   5)        0.11        2.30
+          (HETATM    9 3H1  HET A   3)        0.11        2.41
+          (HETATM   10 1H3  HET A   3)        0.10        2.51
+
+          Heat of formation of the first geometry:         -164.326 Kcal/mol
+          Heat of formation of the second geometry:        -155.751 Kcal/mol
+          Contribution to heat of formation due to stress:   64.61  Kcal/mol
+          Gradient arising from first geometry:              62.51  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             62.42  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   176.44  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.062 TIME LEFT:  4.96W  GRAD.:    29.203 HEAT: -256.3654
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    28.843 HEAT: -256.5212
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    43.757 HEAT: -257.9207
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    25.816 HEAT: -258.6160
+ CYCLE:     5 TIME:   0.062 TIME LEFT:  4.96W  GRAD.:    11.397 HEAT: -258.4587
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     9.562 HEAT: -258.4994
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     8.053 HEAT: -258.7123
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    23.910 HEAT: -258.6762
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.958 HEAT: -258.7001
+ CYCLE:    10 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     4.033 HEAT: -258.7166
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.815 HEAT: -258.7016
+ CYCLE:    12 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     6.164 HEAT: -258.6922
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     5.414 HEAT: -258.6803
+ CYCLE:    14 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     8.360 HEAT: -258.5804
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     2.164 HEAT: -258.7080
+
+     GRADIENT =  2.16398  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    2.88  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.56        0.56
+          (HETATM    2  C2  HET A   3)        0.53        1.09
+          (HETATM   16  O   HOH A   5)        0.47        1.56
+          (HETATM    4  O2  HET A   3)        0.37        1.93
+          (HETATM    7 1H1  HET A   3)        0.12        2.05
+          (HETATM   10 1H3  HET A   3)        0.11        2.16
+          (HETATM    9 3H1  HET A   3)        0.10        2.26
+
+          Heat of formation of the first geometry:         -164.634 Kcal/mol
+          Heat of formation of the second geometry:        -156.020 Kcal/mol
+          Contribution to heat of formation due to stress:   61.95  Kcal/mol
+          Gradient arising from first geometry:              60.98  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             61.24  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.82  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_30p0_average.mop'
+
+
+          Constraining constant: 40.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:    47.139 HEAT: -238.7408
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    46.444 HEAT: -238.9308
+ CYCLE:     3 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    47.134 HEAT: -242.5638
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    47.390 HEAT: -245.2040
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    18.872 HEAT: -245.2093
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    11.778 HEAT: -245.1923
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    12.922 HEAT: -245.6775
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.877 HEAT: -246.1012
+ CYCLE:     9 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    17.102 HEAT: -246.2967
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.285 HEAT: -246.3558
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.534 HEAT: -246.3445
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.082 HEAT: -246.3986
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.302 HEAT: -246.3796
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.743 HEAT: -246.4781
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     2.518 HEAT: -246.4089
+
+     GRADIENT =  2.51836  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 40.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_40p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 40.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_40p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               40.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    2.59  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   17 2H   HOH A   5)        0.52        0.52
+          (HETATM    2  C2  HET A   3)        0.50        1.02
+          (HETATM   16  O   HOH A   5)        0.43        1.45
+          (HETATM    4  O2  HET A   3)        0.35        1.80
+          (HETATM    7 1H1  HET A   3)        0.11        1.91
+
+          Heat of formation of the first geometry:         -162.581 Kcal/mol
+          Heat of formation of the second geometry:        -154.562 Kcal/mol
+          Contribution to heat of formation due to stress:   70.73  Kcal/mol
+          Gradient arising from first geometry:              75.31  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             75.56  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   178.09  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 40.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_40p0_average.mop'
+
+
+          Constraining constant: 60.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    84.132 HEAT: -212.1455
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    82.758 HEAT: -212.4256
+ CYCLE:     3 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    62.479 HEAT: -220.7223
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    91.574 HEAT: -226.8563
+ CYCLE:     5 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    26.860 HEAT: -227.5397
+ CYCLE:     6 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    16.674 HEAT: -226.9309
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.552 HEAT: -227.4702
+ CYCLE:     8 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    16.040 HEAT: -228.0803
+ CYCLE:     9 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    11.402 HEAT: -228.5652
+ CYCLE:    10 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     6.601 HEAT: -228.7113
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.774 HEAT: -228.6965
+ CYCLE:    12 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     6.579 HEAT: -228.6785
+ CYCLE:    13 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:     5.014 HEAT: -228.6408
+ CYCLE:    14 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     8.787 HEAT: -228.7284
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.410 HEAT: -228.6488
+
+     GRADIENT =  3.40951  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 60.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_60p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 60.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_60p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               60.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    2.18  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM    2  C2  HET A   3)        0.45        0.45
+          (HETATM   17 2H   HOH A   5)        0.45        0.90
+          (HETATM   16  O   HOH A   5)        0.37        1.27
+          (HETATM    4  O2  HET A   3)        0.31        1.58
+
+          Heat of formation of the first geometry:         -158.421 Kcal/mol
+          Heat of formation of the second geometry:        -150.902 Kcal/mol
+          Contribution to heat of formation due to stress:   80.67  Kcal/mol
+          Gradient arising from first geometry:              98.33  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             99.13  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   178.25  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 60.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_60p0_average.mop'
+
+
+          Constraining constant: 80.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.059 TIME LEFT:  4.96W  GRAD.:   104.613 HEAT: -204.2041
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:   102.714 HEAT: -204.5567
+ CYCLE:     3 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    62.990 HEAT: -214.9309
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    97.363 HEAT: -210.8494
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   102.738 HEAT: -204.6552
+ CYCLE:     6 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:   102.814 HEAT: -204.6634
+ CYCLE:     7 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    95.889 HEAT: -206.8260
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    81.454 HEAT: -211.7152
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    71.206 HEAT: -214.5143
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    63.826 HEAT: -215.5261
+ CYCLE:    11 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    57.461 HEAT: -215.7818
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    56.493 HEAT: -216.2529
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    56.886 HEAT: -216.4985
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    56.828 HEAT: -216.8987
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    55.825 HEAT: -217.1503
+ CYCLE:    16 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    51.463 HEAT: -217.4170
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    49.838 HEAT: -217.5732
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    29.150 HEAT: -220.9205
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    26.634 HEAT: -222.9116
+ CYCLE:    20 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    14.209 HEAT: -223.5088
+ CYCLE:    21 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.082 HEAT: -223.6349
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.322 HEAT: -223.5500
+ CYCLE:    23 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     4.047 HEAT: -223.6023
+ CYCLE:    24 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.883 HEAT: -223.5552
+
+     GRADIENT =  3.88253  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 80.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_80p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 80.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_80p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:               80.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    1.81  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM    2  C2  HET A   3)        0.40        0.40
+          (HETATM   17 2H   HOH A   5)        0.38        0.77
+          (HETATM   16  O   HOH A   5)        0.32        1.09
+          (HETATM    4  O2  HET A   3)        0.27        1.36
+
+          Heat of formation of the first geometry:         -155.130 Kcal/mol
+          Heat of formation of the second geometry:        -146.789 Kcal/mol
+          Contribution to heat of formation due to stress:   78.36  Kcal/mol
+          Gradient arising from first geometry:             112.57  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            112.71  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.72  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 80.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_80p0_average.mop'
+
+
+          Constraining constant: 100.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:   117.628 HEAT: -206.9834
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   115.304 HEAT: -207.3730
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    59.748 HEAT: -217.9892
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   108.818 HEAT: -214.3343
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   115.178 HEAT: -207.4916
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   115.158 HEAT: -207.4980
+ CYCLE:     7 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:    78.480 HEAT: -213.5448
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    68.538 HEAT: -222.2002
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    40.540 HEAT: -223.8346
+ CYCLE:    10 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    29.865 HEAT: -224.2904
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    24.412 HEAT: -224.7895
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    17.117 HEAT: -225.8341
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    19.319 HEAT: -226.3588
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     8.964 HEAT: -226.1930
+ CYCLE:    15 TIME:   0.047 TIME LEFT:  4.96W  GRAD.:     6.382 HEAT: -226.5020
+ CYCLE:    16 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.872 HEAT: -226.3094
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.907 HEAT: -226.5039
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.540 HEAT: -226.2261
+
+     GRADIENT =  3.53981  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 100.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_100p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 100.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_100p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:              100.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    1.49  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM    2  C2  HET A   3)        0.34        0.34
+          (HETATM   17 2H   HOH A   5)        0.32        0.66
+          (HETATM   16  O   HOH A   5)        0.26        0.92
+          (HETATM    4  O2  HET A   3)        0.22        1.14
+
+          Heat of formation of the first geometry:         -151.959 Kcal/mol
+          Heat of formation of the second geometry:        -143.462 Kcal/mol
+          Contribution to heat of formation due to stress:   69.19  Kcal/mol
+          Gradient arising from first geometry:             118.28  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            117.22  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   178.23  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 100.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_100p0_average.mop'
+
+
+          Constraining constant: 120.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:   122.028 HEAT: -215.7995
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   119.549 HEAT: -216.1372
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    56.222 HEAT: -226.2766
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   112.199 HEAT: -223.2319
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   119.239 HEAT: -216.2601
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   119.082 HEAT: -216.2627
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   135.339 HEAT: -218.6742
+ CYCLE:     8 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    64.528 HEAT: -227.8302
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    62.101 HEAT: -227.3107
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    57.012 HEAT: -227.3278
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    54.942 HEAT: -227.9178
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    51.536 HEAT: -228.5108
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    50.217 HEAT: -228.8766
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    51.423 HEAT: -228.9802
+ CYCLE:    15 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    50.535 HEAT: -229.0821
+ CYCLE:    16 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    48.903 HEAT: -228.9345
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    48.873 HEAT: -228.5953
+ CYCLE:    18 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    29.726 HEAT: -232.8631
+ CYCLE:    19 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    11.945 HEAT: -234.3945
+ CYCLE:    20 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.057 HEAT: -233.5347
+ CYCLE:    21 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.482 HEAT: -233.4881
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.875 HEAT: -233.5476
+ CYCLE:    23 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     2.785 HEAT: -233.5921
+
+     GRADIENT =  2.78473  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 120.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_120p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 120.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_120p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:              120.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    1.20  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM    2  C2  HET A   3)        0.29        0.29
+          (HETATM   17 2H   HOH A   5)        0.26        0.54
+          (HETATM   16  O   HOH A   5)        0.21        0.75
+          (HETATM    4  O2  HET A   3)        0.18        0.93
+
+          Heat of formation of the first geometry:         -149.421 Kcal/mol
+          Heat of formation of the second geometry:        -140.319 Kcal/mol
+          Contribution to heat of formation due to stress:   56.15  Kcal/mol
+          Gradient arising from first geometry:             115.70  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            116.11  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   178.50  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 120.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_120p0_average.mop'
+
+
+          Constraining constant: 140.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:   122.644 HEAT: -227.6836
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   120.078 HEAT: -228.0834
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    46.005 HEAT: -237.0415
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:   112.563 HEAT: -234.6763
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   119.753 HEAT: -228.2024
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   397.851 HEAT: -202.0815
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   173.080 HEAT: -228.4327
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   120.793 HEAT: -240.1008
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    64.478 HEAT: -236.1225
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    50.034 HEAT: -238.8202
+ CYCLE:    11 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    46.675 HEAT: -239.6842
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    43.510 HEAT: -239.9957
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    41.753 HEAT: -240.4067
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    40.507 HEAT: -240.5357
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    39.720 HEAT: -240.6212
+ CYCLE:    16 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    39.385 HEAT: -240.6995
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    49.486 HEAT: -241.6841
+ CYCLE:    18 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    27.385 HEAT: -242.0625
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     9.847 HEAT: -243.7227
+ CYCLE:    20 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.731 HEAT: -243.4949
+ CYCLE:    21 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.304 HEAT: -243.6883
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.532 HEAT: -243.6531
+
+     GRADIENT =  3.53233  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:              140.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    0.95  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM    2  C2  HET A   3)        0.23        0.23
+          (HETATM   17 2H   HOH A   5)        0.21        0.44
+          (HETATM   16  O   HOH A   5)        0.17        0.61
+          (HETATM    4  O2  HET A   3)        0.14        0.75
+
+          Heat of formation of the first geometry:         -147.986 Kcal/mol
+          Heat of formation of the second geometry:        -138.068 Kcal/mol
+          Contribution to heat of formation due to stress:   42.40  Kcal/mol
+          Gradient arising from first geometry:             109.48  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            108.50  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   178.34  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_average.mop'
+
+
+          Constraining constant: 140.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.062 TIME LEFT:  4.96W  GRAD.:    98.932 HEAT: -247.0155
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    96.906 HEAT: -247.3217
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    42.499 HEAT: -252.4804
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    92.091 HEAT: -252.0393
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    96.881 HEAT: -247.4567
+ CYCLE:     6 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    88.560 HEAT: -248.6172
+ CYCLE:     7 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:   187.037 HEAT: -244.3428
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    32.261 HEAT: -257.9622
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    39.067 HEAT: -255.4952
+ CYCLE:    10 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    28.854 HEAT: -254.8946
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    23.851 HEAT: -255.3345
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    20.063 HEAT: -255.6527
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    20.512 HEAT: -255.8394
+ CYCLE:    14 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    17.418 HEAT: -255.9817
+ CYCLE:    15 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    17.228 HEAT: -255.9222
+ CYCLE:    16 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    17.295 HEAT: -255.9190
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.099 HEAT: -256.9053
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.013 HEAT: -257.1256
+ CYCLE:    19 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:     3.938 HEAT: -256.8740
+
+     GRADIENT =  3.93792  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:              140.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    0.79  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM    2  C2  HET A   3)        0.19        0.19
+          (HETATM   17 2H   HOH A   5)        0.17        0.37
+          (HETATM   16  O   HOH A   5)        0.14        0.50
+          (HETATM    4  O2  HET A   3)        0.12        0.62
+
+          Heat of formation of the first geometry:         -148.375 Kcal/mol
+          Heat of formation of the second geometry:        -137.776 Kcal/mol
+          Contribution to heat of formation due to stress:   29.28  Kcal/mol
+          Gradient arising from first geometry:              91.49  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             91.70  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.68  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_average.mop'
+
+
+          Constraining constant: 140.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.059 TIME LEFT:  4.96W  GRAD.:    87.670 HEAT: -259.1561
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    85.868 HEAT: -259.4173
+ CYCLE:     3 TIME:   0.027 TIME LEFT:  4.96W  GRAD.:    38.485 HEAT: -262.5980
+ CYCLE:     4 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    83.247 HEAT: -263.1210
+ CYCLE:     5 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    85.783 HEAT: -259.5299
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    57.929 HEAT: -261.1853
+ CYCLE:     7 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:   105.652 HEAT: -261.2087
+ CYCLE:     8 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:    31.997 HEAT: -265.8139
+ CYCLE:     9 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:    47.128 HEAT: -266.2452
+ CYCLE:    10 TIME:   0.035 TIME LEFT:  4.96W  GRAD.:    12.732 HEAT: -265.3437
+ CYCLE:    11 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     9.830 HEAT: -265.8302
+ CYCLE:    12 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:     7.517 HEAT: -265.9897
+ CYCLE:    13 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     7.954 HEAT: -266.3306
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.075 HEAT: -266.2678
+ CYCLE:    15 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:     3.523 HEAT: -266.2483
+
+     GRADIENT =  3.52281  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3'
+          Current value of GEO_REF constraint:              140.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    0.65  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM    2  C2  HET A   3)        0.16        0.16
+          (HETATM   17 2H   HOH A   5)        0.14        0.30
+          (HETATM   16  O   HOH A   5)        0.11        0.42
+
+          Heat of formation of the first geometry:         -148.918 Kcal/mol
+          Heat of formation of the second geometry:        -137.324 Kcal/mol
+          Contribution to heat of formation due to stress:   19.99  Kcal/mol
+          Gradient arising from first geometry:              76.01  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             75.06  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.06  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 140.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_average.mop'
+
+  AT LEAST ONE ATOM DEFINED BY CVB IS FAULTY
+  THE FAULTY ATOM NUMBER IS         -18
+           CVB keyword =" CVB(3:-18,18:16) "
+  AT LEAST ONE ATOM DEFINED BY CVB IS FAULTY
+  THE FAULTY ATOM NUMBER IS          18
+           CVB keyword =" CVB(3:-18,18:16) "
+  Loop:   1  Energy minimization, excluding active site
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    14.478 HEAT: -142.0967
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    14.141 HEAT: -142.1009
+ CYCLE:     3 TIME:   0.020 TIME LEFT:  4.96W  GRAD.:     7.703 HEAT: -142.1759
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    14.685 HEAT: -142.1006
+ CYCLE:     5 TIME:   0.012 TIME LEFT:  4.96W  GRAD.:     7.772 HEAT: -142.1785
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.935 HEAT: -142.2406
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.978 HEAT: -142.3247
+ CYCLE:     8 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    13.048 HEAT: -142.3135
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     2.410 HEAT: -142.3748
+
+     GRADIENT =  2.40960  IS LESS THAN CUTOFF =  5.00000
+
+
+  Loop:   1  Gradient minimization of atoms in the active site
+
+          Transition state on cycle 1 written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_Loop1.mop'
+
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:     1 TIME:   0.203 TIME LEFT:  4.96W  GRAD.:    46.689 HEAT: -142.3752
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  4.96W  GRAD.:    23.055 HEAT: -140.4360
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    17.389 HEAT: -140.5578
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.141 HEAT: -140.7285
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.082 HEAT: -140.7052
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     2.166 HEAT: -140.6960
+
+     GRADIENT =  2.16617  IS LESS THAN CUTOFF =  3.00000
+
+
+  Loop:   2  Energy minimization, excluding active site
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.694 HEAT: -140.7032
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.637 HEAT: -140.7042
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    11.043 HEAT: -140.8784
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     9.533 HEAT: -140.9920
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     5.365 HEAT: -141.0253
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.069 HEAT: -141.1493
+
+     GRADIENT =  4.06915  IS LESS THAN CUTOFF =  5.00000
+
+
+  Loop:   2  Gradient minimization of atoms in the active site
+
+          Transition state on cycle 2 written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_Loop2.mop'
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.209 HEAT: -141.1500
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     1.046 HEAT: -141.1603
+
+     GRADIENT =  1.04551  IS LESS THAN CUTOFF =  3.00000
+
+
+  Loop:   3  Energy minimization, excluding active site
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     4.850 HEAT: -141.1610
+
+     GRADIENT =  4.85024  IS LESS THAN CUTOFF =  5.00000
+
+
+  Loop:   3  Gradient minimization of atoms in the active site
+
+          Transition state on cycle 3 written to file:
+          'M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_Loop3.mop'
+
+
+     GRADIENT =  0.88105  IS LESS THAN CUTOFF =  3.00000
+
+
+
+ -------------------------------------------------------------------------------
+GEO_REF="M:\Individual JSmol paths\Uncatalyzed Ester_hydrolysis\Step_2_3_140p0_first.mop"  locate-ts(C:1,3,30,30,30,30,30,30,30,30,30,30,40,60,80,100,120,140,140,140;SET:1) opt xyz eps=78.4 gnorm=2 cvb(3:-18,18:16) geo-ok let noswap HTML
+ Transition state for Step 2 to Step 3
+
+
+
+     GRADIENTS WERE INITIALLY ACCEPTABLY SMALL                
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2012 (Version: 15.309W)
+                                                       Thu Nov 05 12:08:49 2015
+                                                       No. of days left = 365
+
+
+
+
+          FINAL HEAT OF FORMATION =       -141.16096 KCAL/MOL =    -590.61748 KJ/MOL
+          VAN DER WAALS AREA      =        145.70 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =      -1512.30798 EV
+          ELECTRONIC ENERGY       =      -6356.03688 EV
+          CORE-CORE REPULSION     =       4840.29664 EV
+          DIELECTRIC ENERGY       =         -0.75888 EV
+          COSMO AREA              =        145.70 SQUARE ANGSTROMS
+          COSMO VOLUME            =        135.46 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.88105
+          NO. OF FILLED LEVELS    =         22
+          MOLECULAR WEIGHT        =        106.121
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    14    H     9     6.59541
+            H    15    H    13     4.06478
+            H    10    H     8     2.78633
+
+
+          SCF CALCULATIONS        =         81
+ 
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   3)   -0.07683328     -0.00606870     -0.04381540   
+     2       C(HETATM    2  C2  HET A   3)    1.28833238  *   0.21714204  *   0.53069205  *
+     3       O(HETATM    3  O1  HET A   3)    2.03858826      1.17322249      0.32908578   
+     4       O(HETATM    4  O2  HET A   3)    1.98555698  *  -1.16335388  *   0.44493036  *
+     5       C(HETATM    5  C3  HET A   3)    3.38131874     -1.18143643      0.11319077   
+     6       C(HETATM    6  C4  HET A   3)    3.74139100     -2.65019450     -0.02901221   
+     7       H(HETATM    7 1H1  HET A   3)   -0.02783825     -0.45904355     -1.04519013   
+     8       H(HETATM    8 2H1  HET A   3)   -0.68856805     -0.67631171      0.58187469   
+     9       H(HETATM    9 3H1  HET A   3)   -0.61964541      0.94751594     -0.14056488   
+    10       H(HETATM   10 1H3  HET A   3)    3.49563865     -0.61937809     -0.83122671   
+    11       H(HETATM   11 2H3  HET A   3)    3.94582022     -0.67127925      0.91332436   
+    12       H(HETATM   12 1H4  HET A   3)    3.45619409     -3.22806116      0.85973318   
+    13       H(HETATM   13 2H4  HET A   3)    3.24220426     -3.11398578     -0.88897891   
+    14       H(HETATM   14 3H4  HET A   3)    4.82299140     -2.77758469     -0.16929052   
+    15       H(HETATM   15 1H   HOH A   5)    1.70589433      0.44677040      2.62313997   
+    16       O(HETATM   16  O   HOH A   5)    1.12388424  *  -0.10121705  *   2.04971634  *
+    17       H(HETATM   17 2H   HOH A   5)    1.78642259  *  -1.21057849  *   1.73299611  *
+
+                             CARTESIAN COORDINATES
+
+   1    C       -0.076833284    -0.006068704    -0.043815401
+   2    C        1.288332383     0.217142041     0.530692050
+   3    O        2.038588265     1.173222493     0.329085783
+   4    O        1.985556985    -1.163353882     0.444930363
+   5    C        3.381318744    -1.181436433     0.113190765
+   6    C        3.741390996    -2.650194499    -0.029012207
+   7    H       -0.027838248    -0.459043552    -1.045190126
+   8    H       -0.688568051    -0.676311712     0.581874687
+   9    H       -0.619645406     0.947515936    -0.140564876
+  10    H        3.495638647    -0.619378093    -0.831226709
+  11    H        3.945820220    -0.671279250     0.913324357
+  12    H        3.456194093    -3.228061158     0.859733181
+  13    H        3.242204258    -3.113985775    -0.888978907
+  14    H        4.822991401    -2.777584688    -0.169290525
+  15    H        1.705894329     0.446770398     2.623139967
+  16    O        1.123884241    -0.101217048     2.049716343
+  17    H        1.786422594    -1.210578490     1.732996111
+
+
+           Empirical Formula: C4 H10 O3  =    17 atoms
+
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C(HETATM    1  C1  HET A   3)          -0.517422        4.5174     1.06219     3.45523
+    2          C(HETATM    2  C2  HET A   3)           0.790182        3.2098     1.10136     2.10846
+    3          O(HETATM    3  O1  HET A   3)          -0.785127        6.7851     1.87742     4.90770
+    4          O(HETATM    4  O2  HET A   3)          -0.546684        6.5467     1.88153     4.66515
+    5          C(HETATM    5  C3  HET A   3)           0.016599        3.9834     1.08915     2.89425
+    6          C(HETATM    6  C4  HET A   3)          -0.481679        4.4817     1.05614     3.42554
+    7          H(HETATM    7 1H1  HET A   3)           0.191223        0.8088     0.80878
+    8          H(HETATM    8 2H1  HET A   3)           0.192891        0.8071     0.80711
+    9          H(HETATM    9 3H1  HET A   3)           0.192367        0.8076     0.80763
+   10          H(HETATM   10 1H3  HET A   3)           0.143205        0.8568     0.85679
+   11          H(HETATM   11 2H3  HET A   3)           0.137249        0.8628     0.86275
+   12          H(HETATM   12 1H4  HET A   3)           0.163508        0.8365     0.83649
+   13          H(HETATM   13 2H4  HET A   3)           0.160740        0.8393     0.83926
+   14          H(HETATM   14 3H4  HET A   3)           0.167936        0.8321     0.83206
+   15          H(HETATM   15 1H   HOH A   5)           0.382965        0.6170     0.61703
+   16          O(HETATM   16  O   HOH A   5)          -0.690238        6.6902     1.86308     4.82716
+   17          H(HETATM   17 2H   HOH A   5)           0.482286        0.5177     0.51771
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.220    -4.361     1.166     4.520
+ HYBRID         0.223     0.006     0.487     0.536
+ SUM            0.444    -4.356     1.653     4.680
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz   
+    1  C(HETATM    1  C1  HET A   3)   1.06219   1.05699   1.21328   1.18496
+    2  C(HETATM    2  C2  HET A   3)   1.10136   0.79257   0.67545   0.64044
+    3  O(HETATM    3  O1  HET A   3)   1.87742   1.64459   1.48803   1.77509
+    4  O(HETATM    4  O2  HET A   3)   1.88153   1.37268   1.59234   1.70013
+    5  C(HETATM    5  C3  HET A   3)   1.08915   0.75647   1.01266   1.12512
+    6  C(HETATM    6  C4  HET A   3)   1.05614   1.17826   1.05031   1.19697
+    7  H(HETATM    7 1H1  HET A   3)   0.80878
+    8  H(HETATM    8 2H1  HET A   3)   0.80711
+    9  H(HETATM    9 3H1  HET A   3)   0.80763
+   10  H(HETATM   10 1H3  HET A   3)   0.85679
+   11  H(HETATM   11 2H3  HET A   3)   0.86275
+   12  H(HETATM   12 1H4  HET A   3)   0.83649
+   13  H(HETATM   13 2H4  HET A   3)   0.83926
+   14  H(HETATM   14 3H4  HET A   3)   0.83206
+   15  H(HETATM   15 1H   HOH A   5)   0.61703
+   16  O(HETATM   16  O   HOH A   5)   1.86308   1.69489   1.63310   1.49917
+   17  H(HETATM   17 2H   HOH A   5)   0.51771
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             9.30 SECONDS
+
+ == MOPAC DONE ==

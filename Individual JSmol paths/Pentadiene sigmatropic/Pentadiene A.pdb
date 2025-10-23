@@ -1,0 +1,17 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Pentadiene sigm
+REMARK  MOPAC 2016, Version: 21.151W Date: Jun  1 2021 08:27
+REMARK   3 HET = Not identified; C 5 H 8            =    13 atoms res:    1
+HETATM    1  C1  HET A   1      -1.044  -1.315  -0.635  1.00 -0.45      PROT C 
+HETATM    2 1H1  HET A   1      -0.002  -1.670  -0.620  1.00  0.16      PROT H 
+HETATM    3  C2  HET A   1       1.590   0.498  -0.770  1.00 -0.32      PROT C 
+HETATM    4  C3  HET A   1       1.100   0.548   0.470  1.00 -0.11      PROT C 
+HETATM    5 2H1  HET A   1      -1.263  -1.008  -1.669  1.00  0.16      PROT H 
+HETATM    6 3H1  HET A   1      -1.685  -2.177  -0.407  1.00  0.15      PROT H 
+HETATM    7  H4  HET A   1      -2.316  -0.059   0.610  1.00  0.14      PROT H 
+HETATM    8  H5  HET A   1      -0.580   1.427   1.482  1.00  0.15      PROT H 
+HETATM    9  H3  HET A   1       1.758   0.557   1.344  1.00  0.14      PROT H 
+HETATM   10 1H2  HET A   1       0.973   0.503  -1.655  1.00  0.15      PROT H 
+HETATM   11 2H2  HET A   1       2.644   0.457  -0.993  1.00  0.14      PROT H 
+HETATM   12  C4  HET A   1      -1.275  -0.188   0.309  1.00 -0.10      PROT C 
+HETATM   13  C5  HET A   1      -0.324   0.626   0.784  1.00 -0.21      PROT C 
+END

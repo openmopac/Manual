@@ -1,0 +1,36 @@
+HEADER  data-set: G:\tm\Truncated octahedron
+REMARK  MOPAC 2016, Version: 16.049W Date: Feb 20 2016 09:39
+REMARK   3   HET = Not identified; C 24                           res:     1
+HETATM    1  H   UNK A           0.000   0.000   0.000  1.00  0.00      PROT H 
+HETATM    2 1H1  HET B   1       1.000   1.000   1.000  1.00  0.00      PROT H 
+HETATM    3 1H11 HET B   1       1.500   1.500   0.000  1.00  0.00      PROT H 
+HETATM    4 1H9  HET B   1       0.500   2.000   0.500  1.00  0.00      PROT H 
+HETATM    5 1H17 HET B   1       1.000   0.000   0.000  1.00  0.00      PROT H 
+HETATM    6 2H9  HET B   1       0.000   2.000   0.000  1.00  0.00      PROT H 
+HETATM    7 2H1  HET B   1       0.000   0.000   1.000  1.00  0.00      PROT H 
+HETATM    8  C1  HET B   1       0.000   1.000   2.000  1.00  0.00      PROT C 
+HETATM    9  C2  HET B   1       0.000  -1.000   2.000  1.00  0.00      PROT C 
+HETATM   10  C3  HET B   1       1.000   0.000   2.000  1.00  0.00      PROT C 
+HETATM   11  C4  HET B   1      -1.000   0.000   2.000  1.00  0.00      PROT C 
+HETATM   12  C5  HET B   1       0.000   1.000  -2.000  1.00  0.00      PROT C 
+HETATM   13  C6  HET B   1       0.000  -1.000  -2.000  1.00  0.00      PROT C 
+HETATM   14  C7  HET B   1       1.000   0.000  -2.000  1.00  0.00      PROT C 
+HETATM   15  C8  HET B   1      -1.000   0.000  -2.000  1.00  0.00      PROT C 
+HETATM   16  C9  HET B   1       0.000   2.000   1.000  1.00  0.00      PROT C 
+HETATM   17  C10 HET B   1       0.000   2.000  -1.000  1.00  0.00      PROT C 
+HETATM   18  C11 HET B   1       1.000   2.000   0.000  1.00  0.00      PROT C 
+HETATM   19  C12 HET B   1      -1.000   2.000   0.000  1.00  0.00      PROT C 
+HETATM   20  C13 HET B   1       0.000  -2.000   1.000  1.00  0.00      PROT C 
+HETATM   21  C14 HET B   1       0.000  -2.000  -1.000  1.00  0.00      PROT C 
+HETATM   22  C15 HET B   1       1.000  -2.000   0.000  1.00  0.00      PROT C 
+HETATM   23  C16 HET B   1      -1.000  -2.000   0.000  1.00  0.00      PROT C 
+HETATM   24  C17 HET B   1       2.000   0.000   1.000  1.00  0.00      PROT C 
+HETATM   25  C18 HET B   1       2.000   0.000  -1.000  1.00  0.00      PROT C 
+HETATM   26  C19 HET B   1       2.000   1.000   0.000  1.00  0.00      PROT C 
+HETATM   27  C20 HET B   1       2.000  -1.000   0.000  1.00  0.00      PROT C 
+HETATM   28  C21 HET B   1      -2.000   0.000   1.000  1.00  0.00      PROT C 
+HETATM   29  C22 HET B   1      -2.000   0.000  -1.000  1.00  0.00      PROT C 
+HETATM   30  C23 HET B   1      -2.000   1.000   0.000  1.00  0.00      PROT C 
+HETATM   31  C24 HET B   1      -2.000  -1.000   0.000  1.00  0.00      PROT C 
+HETATM   32  H25 HET B   1       0.000   1.000   0.000  1.00  0.00      PROT H 
+END

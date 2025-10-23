@@ -1,0 +1,146 @@
+ *******************************************************************************
+ ** Site#: 9602  E-mail support:    MrMOPAC@ATT.net    Version 17.216W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.216W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 376**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Aug 04 10:30:08 2017  *
+ *  START_RES  - STARTING RESIDUE NUMBERS DEFINED
+ *  Keyword:   START_RES=(1E 16F 150G 250C 298F-300 297G-299) 
+ *  CHAINS     - PDB CHAIN LETTERS EXPLICITLY DEFINED
+ *  Keyword:   CHAINS=(EFGCFGEFGC) 
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *  SITE       - SET IONIZATION LEVELS OF IONIZABLE RESIDUES 
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *  OPT-H      - OPTIMIZE COORDINATES OF ATOMS OF TYPE H
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -1
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+ START_RES=(1E 16F 150G 250C 298F-300 297G-299)  CHAINS=(EFGCFGEFGC) html noopt opt-h mozyme output charge=-1 site=("[xxx]253:C.N"(+),"[xxx]253:C.N"(+))
+ Adding hydrogen atoms to PDB file 8GCH, and ionizing various sites.
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1111 H2442 N301 O703 S16  =  4573 atoms
+
+ Hydrogen atom 1117 bonds to "ATOM   1107  NZ  LYS F  82 " and "HETATM 4139  O   HOH F 607 "
+            (Keeping bond to "ATOM   1107  NZ  LYS F  82 ")
+
+       Changes in Ionization caused by keyword SITE
+
+       Keyword: SITE=("[XXX]253:C.N"(+),"[XXX]253:C.N"(+))
+
+      Hydrogen atoms added to     Hydrogen atoms deleted from
+
+  1       N   XXX C 253                      -
+  2       N   XXX C 253                      -
+
+          Change in net ionization:  +2
+
+                RESIDUE SEQUENCE IN PROTEIN Chain: E
+
+             1     2     3     4     5     6     7     8     9    10
+        0   CYS   GLY   VAL   PRO   ALA   ILE   GLN   PRO   VAL   LEU   
+       10   SER   
+
+                RESIDUE SEQUENCE IN PROTEIN FRAGMENT: 2 Chain: F
+
+             1     2     3     4     5     6     7     8     9    10
+       10                                 ILE   VAL   ASN   GLY   GLU   
+       20   GLU   ALA   VAL   PRO   GLY   SER   TRP   PRO   TRP   GLN   
+       30   VAL   SER   LEU   GLN   ASP   LYS   THR   GLY   PHE   HIS   
+       40   PHE   CYS   GLY   GLY   SER   LEU   ILE   ASN   GLU   ASN   
+       50   TRP   VAL   VAL   THR   ALA   ALA   HIS   CYS   GLY   VAL   
+       60   THR   THR   SER   ASP   VAL   VAL   VAL   ALA   GLY   GLU   
+       70   PHE   ASP   GLN   GLY   SER   SER   SER   GLU   LYS   ILE   
+       80   GLN   LYS   LEU   LYS   ILE   ALA   LYS   VAL   PHE   LYS   
+       90   ASN   SER   LYS   TYR   ASN   SER   LEU   THR   ILE   ASN   
+      100   ASN   ASP   ILE   THR   LEU   LEU   LYS   LEU   SER   THR   
+      110   ALA   ALA   SER   PHE   SER   GLN   THR   VAL   SER   ALA   
+      120   VAL   CYS   LEU   PRO   SER   ALA   SER   ASP   ASP   PHE   
+      130   ALA   ALA   GLY   THR   THR   CYS   VAL   THR   THR   GLY   
+      140   TRP   GLY   LEU   THR   ARG   TYR   
+
+                RESIDUE SEQUENCE IN PROTEIN FRAGMENT: 3 Chain: G
+
+             1     2     3     4     5     6     7     8     9    10
+      140                                                         ASN   
+      150   THR   PRO   ASP   ARG   LEU   GLN   GLN   ALA   SER   LEU   
+      160   PRO   LEU   LEU   SER   ASN   THR   ASN   CYS   LYS   LYS   
+      170   TYR   TRP   GLY   THR   LYS   ILE   LYS   ASP   ALA   MET   
+      180   ILE   CYS   ALA   GLY   ALA   SER   GLY   VAL   SER   SER   
+      190   CYS   MET   GLY   ASP   SER   GLY   GLY   PRO   LEU   VAL   
+      200   CYS   LYS   LYS   ASN   GLY   ALA   TRP   THR   LEU   VAL   
+      210   GLY   ILE   VAL   SER   TRP   GLY   SER   SER   THR   CYS   
+      220   SER   THR   SER   THR   PRO   GLY   VAL   TYR   ALA   ARG   
+      230   VAL   THR   ALA   LEU   VAL   ASN   TRP   VAL   GLN   GLN   
+      240   THR   LEU   ALA   ALA   ASN   
+
+                RESIDUE SEQUENCE IN PROTEIN FRAGMENT: 4 Chain: C
+
+             1     2     3     4     5     6     7     8     9    10
+      240                                                         GLY   
+      250   ALA   TRP   XXX   
+
+                RESIDUE SEQUENCE IN PROTEIN Chain: E
+
+        0  CGVPAIQPVL S
+
+                RESIDUE SEQUENCE IN PROTEIN FRAGMENT: 2 Chain: F
+
+       10       IVNGE EAVPGSWPWQ VSLQDKTGFH FCGGSLINEN WVVTAAHCGV
+       60  TTSDVVVAGE FDQGSSSEKI QKLKIAKVFK NSKYNSLTIN NDITLLKLST
+      110  AASFSQTVSA VCLPSASDDF AAGTTCVTTG WGLTRY
+
+                RESIDUE SEQUENCE IN PROTEIN FRAGMENT: 3 Chain: G
+
+      140           N TPDRLQQASL PLLSNTNCKK YWGTKIKDAM ICAGASGVSS
+      190  CMGDSGGPLV CKKNGAWTLV GIVSWGSSTC STSTPGVYAR VTALVNWVQQ
+      240  TLAAN
+
+                RESIDUE SEQUENCE IN PROTEIN FRAGMENT: 4 Chain: C
+
+      240           G AWX
+
+          CHARGES MODIFIED BY SITE COMMAND
+
+          GEOMETRY RESEQUENCED
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ * CHARGES MODIFIED BY SITE COMMAND                                           *
+ * GEOMETRY RESEQUENCED                                                       *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:             0.00 SECONDS
+
+ == MOPAC DONE ==

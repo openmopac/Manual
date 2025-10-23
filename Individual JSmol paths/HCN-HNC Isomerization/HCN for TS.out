@@ -1,0 +1,178 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.153W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.153W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 365**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Jun  2 16:57:57 2021  *
+ *  RESIDUES   - DETERMINE THE SEQUENCE OF RESIDUES
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+ HTML
+ HCN, modified so that it is bent.  This makes starting the  transition-state calculation easier
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.00000000      0.00000000      0.00000000   
+     2       C          1.00000000  *   0.00000000      0.00000000  *
+     3       N          1.50000000  *  -0.50000000      0.00000000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         H          0.0000      0.0000      0.0000
+     2         C          1.0000      0.0000      0.0000
+     3         N          1.5000     -0.5000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C H N  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 5
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  5269.632 HEAT:  763.1773
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:  1405.684 HEAT:  177.8201
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   718.032 HEAT:  85.80729
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   167.422 HEAT:  40.64576
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    28.752 HEAT:  36.59467
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.392 HEAT:  36.34859
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.667 HEAT:  36.33795
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.561 HEAT:  36.33281
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.567 HEAT:  36.33228
+
+     GRADIENT =  0.56733 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ HTML
+ HCN, modified so that it is bent.  This makes starting the  transition-state calculation easier
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.153W)
+                                                       Wed Jun  2 16:57:57 2021
+                                                       No. of days remaining = 365
+
+
+
+
+          FINAL HEAT OF FORMATION =         36.33228 KCAL/MOL =     152.01426 KJ/MOL
+
+
+          TOTAL ENERGY            =       -321.43485 EV
+          ELECTRONIC ENERGY       =       -582.61634 EV  POINT GROUP:     Cs  
+          CORE-CORE REPULSION     =        261.18148 EV
+          COSMO AREA              =         61.39 SQUARE ANGSTROMS
+          COSMO VOLUME            =         43.69 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.56733 = 0.32755 PER ATOM
+          IONIZATION POTENTIAL    =         13.357546 EV
+          HOMO LUMO ENERGIES (EV) =        -13.358  0.578
+          NO. OF FILLED LEVELS    =          5
+          MOLECULAR WEIGHT        =         27.0256
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            N     3    H     1     2.15614
+            C     2    H     1     0.24330
+            C     2    N     3     0.00000
+
+
+          SCF CALCULATIONS        =         10
+ 
+          WALL-CLOCK TIME         =          0.066 SECONDS
+          COMPUTATION TIME        =          0.031 SECONDS
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H(HETATM    1  H   CYN A   1)    0.00000000      0.00000000      0.00000000   
+     2       C(HETATM    2  C   CYN A   1)    1.04916049  *   0.00000000     -0.00000000  *
+     3       N(HETATM    3  N   CYN A   1)    2.09736407  *  -0.50000000     -0.00000001  *
+
+                             CARTESIAN COORDINATES
+
+   1    H        0.000000000     0.000000000     0.000000000
+   2    C        1.049160490     0.000000000    -0.000000002
+   3    N        2.097364067    -0.500000000    -0.000000009
+
+
+           Empirical Formula: C H N  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+                  EIGENVALUES  
+ -35.23028 -20.92778 -14.36722 -13.97359 -13.35755   0.57782   0.87580   4.26615
+   5.53731
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          H(HETATM    1  H   CYN A   1)           0.213005        0.7870     0.78700
+    2          C(HETATM    2  C   CYN A   1)           0.002914        3.9971     1.16289     2.83419
+    3          N(HETATM    3  N   CYN A   1)          -0.215919        5.2159     1.83025     3.38567
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -2.160     0.519     0.000     2.222
+ HYBRID        -0.516     0.100     0.000     0.525
+ SUM           -2.676     0.619     0.000     2.747
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz   
+   H(HETATM    1  H   CYN A   1)   0.78700
+   C(HETATM    2  C   CYN A   1)   1.16289   0.98395   0.92794   0.92231
+   N(HETATM    3  N   CYN A   1)   1.83025   1.25808   1.04990   1.07769
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.08 SECONDS
+
+ == MOPAC DONE ==

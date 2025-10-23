@@ -1,0 +1,67 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Travel</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Travel
+</h2>
+To continue the idea of representing a normal mode as a simple harmonic
+oscillator, the distance the atoms move through can be represented as the
+distance the idealized mass moves through.  This can be calculated knowing the
+energy of the mode and the force constant:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}E = \frac{1}{2}kx^2.
+\end{displaymath}" height="38" src="img1541.gif" width="64"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+Here <i>k</i> is the force-constant for the mode, and is given by
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}k = &lt;\psi\vert Hessian\vert\psi&gt;;
+\end{displaymath}" height="28" src="img1542.gif" width="140"/>
+</div>
+<br clear="ALL"/>
+<p></p><i>E</i> is the energy of the mode.
+<p>
+From this, the distance, <i>x</i>, which the system moves through, can be calculated
+from
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}x =\sqrt{\frac{2\times 1.196266\times 10^8 \times 1000 \times 10^8 \nu}{N k}},
+\end{displaymath}" height="45" src="img1543.gif" width="263"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+where 1.196266x10<sup>8</sup>
+&nbsp;is the conversion factor from cm<sup>-1</sup> to ergs,
+1000 converts from millidynes to dynes, 10<sup>8</sup> converts from cm to &Aring;, and
+<i>N</i> converts from moles to molecules.
+<p>
+&nbsp;The travel can also be calculated using the DRC,
+by depositing one quantum of energy into a vibrational mode.  For a system at a
+stationary point, the relevant keywords would be <tt><a href="irc.html">IRC=1</a>
+<a href="drc0.html">DRC</a> <a href="t=n.html">t=1m</a></tt>.  For
+larger systems, the time may need to be increased.  At least one coordinate
+must have an optimization flag set to 1.  This is required in order to instruct
+the DRC to print the turning points.
+</p></body>
+</html>

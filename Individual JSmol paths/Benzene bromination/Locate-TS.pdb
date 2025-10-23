@@ -1,0 +1,21 @@
+HEADER  data-set: G:\tm\Locate-TS
+REMARK  MOPAC 2012, Version: 15.324W Date: Nov 20 2015 20:15
+HETATM    1  C1  HET A   3      -0.062  -0.630   0.305  1.00 -0.11      PROT C 
+HETATM    2  C2  HET A   3       1.208  -0.447  -0.220  1.00 -0.14      PROT C 
+HETATM    3  C3  HET A   3       1.696   0.846  -0.422  1.00 -0.12      PROT C 
+HETATM    4  C4  HET A   3       0.945   1.973  -0.083  1.00 -0.14      PROT C 
+HETATM    5  C5  HET A   3      -0.302   1.780   0.487  1.00  0.01      PROT C 
+HETATM    6  C6  HET A   3      -0.822   0.487   0.641  1.00 -0.17      PROT C 
+HETATM    7  H1  HET A   3      -0.464  -1.634   0.445  1.00  0.16      PROT H 
+HETATM    8  H2  HET A   3       1.812  -1.319  -0.473  1.00  0.16      PROT H 
+HETATM    9  H3  HET A   3       2.696   0.979  -0.843  1.00  0.16      PROT H 
+HETATM   10  H4  HET A   3       1.343   2.976  -0.233  1.00  0.17      PROT H 
+HETATM   11  H5  HET A   3      -1.041   2.298   1.889  1.00  0.26      PROT H 
+HETATM   12  H6  HET A   3      -1.828   0.349   1.050  1.00  0.17      PROT H 
+HETATM   13 BR1  HET A   4      -0.764   2.886   2.065  1.00 -0.05      PROTBR 
+HETATM   14 BR2  HET A   4      -0.238   1.922   4.474  1.00 -0.36      PROTBR 
+HETATM   15 AL    AL A   5      -4.854   0.526  -2.386  1.00  0.67      PROTAL 
+HETATM   16 BR1   AL A   5      -5.431  -1.508  -2.872  1.00 -0.23      PROTBR 
+HETATM   17 BR2   AL A   5      -6.314   2.187  -2.492  1.00 -0.22      PROTBR 
+HETATM   18 BR3   AL A   5      -2.754   0.748  -1.801  1.00 -0.23      PROTBR 
+END

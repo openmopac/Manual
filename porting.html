@@ -1,0 +1,292 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage 5.0" name="Generator"/>
+<title>Porting MOPAC to other platforms</title>
+</head><body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>Porting MOPAC to other platforms </h1>
+<p>MOPAC is designed to be as platform independent as possible.&nbsp; The code 
+is written in as near pure FORTRAN90/95 as possible, and where possible simple 
+constructions are used.&nbsp; This is deliberately done to make it easier to 
+port the program to other machines. </p>
+<p>&nbsp;To validate a port, the data sets in the <a href="validation_suite.zip">
+validation suite</a> should be run&nbsp; If all tests are passed, within the tolerances given in the tests, then the 
+ported program can be called a valid version of MOPAC. Insofar as is practical, the mode of submission of a MOPAC job should be preserved, e.g., </p>
+<pre>(prompt) MOPAC &lt;data-set&gt; [&lt;queue-options&gt;...]</pre>
+<p>Any changes which do not violate the FORTRAN-90 conventions, and which users believe would be generally desirable, 
+may be sent to the author. </p>
+<p>The main difficulty in modifying the program so that it runs on other platforms is likely to be in the channel assignments. In an attempt to make this easier, all channel assignments are defined in subroutines 
+getdat.f90, chanel_C.f90 and init_filenames.f90. MOPAC uses the UNIX instructions <tt>iargc</tt> and <tt>getarg</tt>. These read in the number of arguments supplied with the MOPAC command, and if this is greater than zero, it then reads in the name of the job. This is stored in 
+molkst_C module string variable JOBNAM. </p>
+<p>Other possible trouble-spots are (a) the CPU timer (in <tt>second.F90</tt>), and the date function <tt>fdate</tt> (in <tt>
+readmo.f90</tt> and <tt>writmo.f90</tt>) and&nbsp; (b) the <tt>RESTART</tt> 
+command.</p>
+<dl>
+<dd>In order to make porting easier, all channel numbers are represented by 
+symbols. The default assignments are shown in the Table. </dd>
+<dd><br/>
+<div align="CENTER"><a name="BM36934">&nbsp;</a> <div align="CENTER"><a name="BM36977">&nbsp;</a>
+<strong><dd><a name="allfiles"></a>Table:</dd></strong> Files used by MOPAC
+
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p align="CENTER">Channel</p></td>
+<td valign="MIDDLE">
+Symbol</td>
+<td valign="MIDDLE">
+<p>Name</p></td>
+<td valign="MIDDLE">
+<p>Input?</p></td>
+<td valign="MIDDLE">
+<p>Output?</p></td>
+<td valign="MIDDLE">
+<p>Contents</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE">
+iend</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.end</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Shut command</p></td>
+</tr>
+<tr>
+<td valign="MIDDLE">
+<p align="CENTER">7</p></td>
+<td valign="MIDDLE">
+from_data_set</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.mop*</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Data-set</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">9</p></td>
+<td valign="MIDDLE">
+ires</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.res</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Restart file</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">10</p></td>
+<td valign="MIDDLE">
+iden</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.den</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Density file</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">11</p></td>
+<td valign="MIDDLE">
+ilog</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.log</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Log file</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">12</p></td>
+<td valign="MIDDLE">
+iarc</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.arc</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Archive file</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">13</p></td>
+<td valign="MIDDLE">
+igpt</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.gpt</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Graphics file</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">14</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="MIDDLE">
+<p>User-defined</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>New parameters</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">15</p></td>
+<td valign="MIDDLE">
+iesr</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.esr</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>ESP Restart</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">16</p></td>
+<td valign="MIDDLE">
+isyb</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.syb</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>SYBYL file</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">18</p></td>
+<td valign="MIDDLE">
+ibrz</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.brz</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Brillouin Zone</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">20</p></td>
+<td valign="MIDDLE">
+iump</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.ump</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Data for grid</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">21</p></td>
+<td valign="MIDDLE">
+iesp</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.esp</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>ESP data</p></td>
+</tr>
+<tr>
+<td valign="MIDDLE">
+<p align="CENTER">22</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="MIDDLE">
+<p>SCRATCH</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Used by GEOUTG</p></td>
+</tr>
+<tr>
+<td valign="MIDDLE">
+<p align="CENTER">25</p></td>
+<td valign="MIDDLE">
+ir</td>
+<td valign="MIDDLE">
+<p>SCRATCH</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Internal working</p></td>
+</tr>
+<tr>
+<td valign="MIDDLE">
+<p align="CENTER">26</p></td>
+<td valign="MIDDLE">
+iw</td>
+<td valign="MIDDLE">
+<tt></tt><p>&lt;filename&gt;.out</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Yes</p></td>
+<td valign="MIDDLE">
+<p>Results file</p></td>
+</tr>
+</table>
+<dl>
+<dd></dd></dl></div></div></dd>
+<dd>
+<dl>
+<dl>
+<dl>
+<dl>
+<dl>
+<dl>
+<dl>
+All the data are read in on channel 2, and immediately written to a SCRATCH channel, 5. For the rest of the job, data are read off channel 5 as if it were the ordinary input channel. By doing this, the data-set is used only at the very start of a job, and is released immediately afterwards. </dl></dl></dl></dl></dl></dl></dl></dd>
+<dd>
+<p align="center">*: Alternatives: &lt;filename&gt;.dat, &lt;filename&gt;.arc, &lt;filename&gt;</p></dd>
+<dd>If, for whatever reason, a channel number must be changed, then the change should be made in 
+chanel_C. Of course, if the channel numbers are to be changed, care should be taken to avoid channel numbers which are already in use. </dd>
+</dl>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Control within MOPAC</title></head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>Control within MOPAC </h1>
+<p>Almost all the control information is passed <em>via</em> the single datum "KEYWRD", a string of 80 to 240 characters, which is read in at the start of the job. </p>
+<p>Each subroutine is made independent, as far as possible, even at the expense of extra code or calculation. Thus, for example, the SCF criterion is set in subroutine ITER, and nowhere else. Similarly, subroutine DERIV has exclusive control of the step size in the finite-difference calculation of the energy derivatives. If the default values are to be reset, then the new value is supplied in KEYWRD, and extracted <em>via</em> INDEX and READA. The flow of control is decided by the presence of various keywords in KEYWRD. </p>
+<p>When a subroutine is called, it assumes that all data required for its operation are available in either common blocks or arguments. Normally no check is made as to the validity of the data received. All data are "owned" by one, and only one, subroutine. Ownership means the <a name="BM32624">&nbsp;</a> implied permission and ability to change the data. Thus STATE "owns" the number of atomic orbitals, in that it calculates this number, and stores it in the variable NORBS. Many subroutines use NORBS, but none of them is allowed to change it. For obvious reasons no exceptions should be made to this rule. To illustrate the usefulness of this convention, consider the eigenvectors, <tt>C</tt> and <tt>CBETA</tt>. These are owned by ITER. Before ITER is called, <tt>C</tt> and <tt>CBETA</tt> are not calculated, after ITER has been called <tt>C</tt> and <tt>CBETA</tt> are known, so any subroutine which needs to use the eigenvectors can do so in the certain knowledge that they exist. </p>
+<p>Any variables which are only used within a subroutine are not passed outside the subroutine unless an overriding reason exists. This is found in PULAY and CNVG, among others where arrays used to hold spin-dependent data are used, and these cannot conveniently be defined within the subroutines. In these examples, the relevant arrays are "owned" by ITER. </p>
+<p>A general subroutine, of which ITER is a good example, handles three kinds of data: First, data which the subroutine is going to work on, for example the one and two electron matrices; second, data necessary to manipulate the first set of data, such as the number of atomic orbitals; third, the calculated quantities, here the electronic energy, and the density and Fock matrices. </p>
+<p>Reference data are entered into a subroutine by way of the common <a name="BM32634">&nbsp;</a> blocks. This is to emphasize their peripheral role. Thus the number of orbitals, while essential to ITER, is not central to the task it has to perform, and is passed through a common block. </p>
+<p>Data the subroutine is going to work on are passed via the argument list. Thus the one and two electron matrices, which are the main reason for ITER's existence, are entered as two of the four arguments. As ITER does not own these matrices it can use them but may not change their contents. The other argument is EE, the electronic energy. EE is owned by ITER even though it first appears before ITER is called. </p>
+</body>
+</html>

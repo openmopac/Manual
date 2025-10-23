@@ -1,0 +1,20 @@
+geo-ok GEO_REF="M:\Individual JSmol paths\Make Dihydrocyclobutabenzene\Locate_TS_20p0_first.mop"  locate-ts(C:20) opt xyz HTML
+ Move in the direction of the transition state for the reaction 1,2,3,4-nu-5,6-Diethylenebenzene <=> 1,2-Dihydrocyclobutabenzene
+
+  C(HETATM    1  C   HET A   1)  -0.18028207 +1  -1.53758645 +1   0.00086868 +1
+  C(HETATM    2  C   HET A   1)   1.16728198 +1  -1.56380495 +1  -0.03333113 +1
+  C(HETATM    3  C   HET A   1)   1.92087170 +1  -0.32849201 +1  -0.11125472 +1
+  C(HETATM    4  C   HET A   1)   1.28659003 +1   0.85982705 +1  -0.05321497 +1
+  C(HETATM    5  C   HET A   1)  -0.16838159 +1   0.94709031 +1   0.10336406 +1
+  C(HETATM    6  C   HET A   1)  -0.92576867 +1  -0.27646401 +1  -0.05325753 +1
+  C(HETATM    7  C   HET A   1)  -2.24179243 +1  -0.19085541 +1  -0.28437006 +1
+  C(HETATM    8  C   HET A   1)  -0.82272609 +1   2.06950485 +1   0.42678457 +1
+  H(HETATM    9 1HT  HET A   1)  -0.76398876 +1  -2.45582904 +1   0.02227796 +1
+  H(HETATM   10 2HT1 HET A   1)   1.73469468 +1  -2.49404600 +1  -0.02212340 +1
+  H(HETATM   11 3HT  HET A   1)   3.00367220 +1  -0.40997426 +1  -0.19904974 +1
+  H(HETATM   12 4HT  HET A   1)   1.83833422 +1   1.79790077 +1  -0.07296225 +1
+  H(HETATM   13 1HT1 HET A   1)  -2.81652002 +1   0.67371193 +1  -0.53547389 +1
+  H(HETATM   14 2HT2 HET A   1)  -2.89121074 +1  -1.00887913 +1  -0.19751983 +1
+  H(HETATM   15 1HT2 HET A   1)  -1.83484174 +1   2.17692075 +1   0.75177132 +1
+  H(HETATM   16 2HT3 HET A   1)  -0.39397731 +1   3.02301813 +1   0.35006961 +1
+ 

@@ -1,0 +1,21 @@
+reset;center {-4.0442800000000005 -18.39106666666667 34.44647999999999}; rotate z -82.28; rotate y 52.89; rotate z 74.93; zoom 632.65; set rotationRadius 65.36;
+display 101, 128, 222, 254
+center 254.C1
+measure off
+select 254.C1, 254.N2, 254.O3, 254.4HXT, 101.OE2, 222.Nz 
+label %a
+color label black 
+set labelalignment center
+set fontSize 12
+select 128:A.CZ, 101:A.CD, 222:A.CE, 254:B.C5
+label %n-%R
+color label black 
+set labelalignment center
+set labelFront ON
+set fontSize 9
+select -77
+measure (254:B.O3) (254:B.N2)
+measure (254:B.C1) (254:B.N2)
+measure (254:B.C1) (254:B.4HXT)
+measure (101:A.OE2) (254:B.4HXT)
+connect (254:B.O3) (254:B.N2) delete; connect (254:B.O3) (254:B.N2) partial;

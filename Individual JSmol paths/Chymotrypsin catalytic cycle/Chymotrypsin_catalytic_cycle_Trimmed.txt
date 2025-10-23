@@ -1,0 +1,162 @@
+#
+#  Script to show the complete chymotrypsin catalytic cycle, oxyanion hole perspective
+#
+frame TITLE "Start of Labeling"
+delay 0.1
+measure delete
+select *
+labels off
+select off
+connect  (carbon) (oxygen) delete
+connect 0.8  1.6 (carbon) (oxygen) create
+var nmodels={*}[0].modelindex + 1
+display *
+hide add 193, 194, 251, 252, 253, 487, 647;
+display add 252.C, 252.O, 252.N, 252.HA, 252.CA, 253.H, 253.N, 253.CA, 253.HA, 253.C, 253.CB;
+for (var ii = 1; ii < nmodels; ii++){
+  select @{'57.CD2/' + ii};   set labeloffset -40  30;   label  "His57";   
+  select @{'195.N/' + ii};    set labeloffset -10  30;   label  "Ser195";  
+  select @{'193.N/' + ii};    set labeloffset  40   0;   label  "Ser193";  
+  select @{'253.OG1/' + ii};  set labeloffset  10  15;   label  "Thr253";  
+}
+for (var ii = 1; ii < 76; ii++){
+  select @{'195.OG/' + ii};   set labeloffset  40  00;   label  "Ser195"; 
+  select @{'253.N/' + ii};    set labeloffset -10 -15;   label  "Peptide"; 
+}
+select *
+set labelFront ON
+color label black; font label 25;
+select off
+frame TITLE "Labeling done"
+delay 0.1
+#
+# Do all measurements at the start
+#
+#
+#  Migration of proton from Ser195 to His, and formation of Td intermediate.
+#
+for (var ii = 2; ii < 76; ii++){
+  frame @ii
+  frame TITLE "@{_modelName} Forming Td intermediate and migration of H to His"
+  measure (@{'57.NE2/' + ii}) (@{'195.HG/' + ii})
+  measure (@{'195.HG/' + ii}) (@{'195.OG/' + ii}) 
+  measure (@{'195.OG/' + ii}) (@{'252.C/' + ii})
+  measure (@{'252.O/' + ii})  (@{'195.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'193.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'253.HG1/' + ii})
+}
+frame TITLE "1 of 6 distances done"
+delay 0.1
+#
+#   Blur end of first step to start of second step.
+#
+for (var ii = 76; ii < 95; ii++){
+  frame @ii
+  frame TITLE "@{_modelName} Motion of His to line up hydrogen atom"
+  measure (@{'57.NE2/' + ii}) (@{'195.HG/' + ii})
+  measure (@{'195.OG/' + ii}) (@{'252.C/' + ii})
+  measure (@{'195.HG/' + ii}) (@{'253.N/' + ii})
+  measure (@{'252.O/' + ii})  (@{'195.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'193.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'253.HG1/' + ii})
+}
+frame TITLE "2 of 6 distances done"
+delay 0.1
+#
+#  Migration of H from His to peptide N
+#
+for (var ii = 95; ii < 165; ii++){
+  frame @ii
+  frame TITLE "@{_modelName} Migration of H from His to peptide N"
+  measure (@{'57.NE2/' + ii}) (@{'195.HG/' + ii})
+  measure (@{'195.OG/' + ii}) (@{'252.C/' + ii})
+  measure (@{'195.HG/' + ii}) (@{'253.N/' + ii})
+  measure (@{'252.O/' + ii})  (@{'195.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'193.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'253.HG1/' + ii})
+}
+frame TITLE "3 of 6 distances done"
+delay 0.1
+#
+#  Motion of amine to prepare for departure"
+#
+for (var ii = 165; ii < 184; ii++){
+  frame @ii
+  frame TITLE "@{_modelName} Motion of amine to prepare for departure"
+  measure (@{'253.N/' + ii}) (@{'252.C/' + ii})
+  measure (@{'252.O/' + ii}) (@{'195.H/' + ii})
+  measure (@{'252.O/' + ii}) (@{'193.H/' + ii})
+  measure (@{'252.O/' + ii}) (@{'253.HG1/' + ii})
+}
+frame TITLE "4 of 6 distances done"
+delay 0.1
+for (var ii = 184; ii < 249; ii++){
+  frame @ii
+  frame TITLE "@{_modelName} Peptide bond breaks, amine departs"
+  measure (@{'487.1H/' + ii}) (@{'252.O/' + ii})
+  measure (@{'647.O/' + ii})  (@{'252.C/' + ii})
+  measure (@{'252.O/' + ii})  (@{'195.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'193.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'253.HG1/' + ii})
+}
+frame TITLE "5 of 6 distances done"
+delay 0.1
+for (var ii = 249; ii < 325; ii++){
+  frame @ii
+  frame TITLE "@{_modelName} H3O and H2O moving in for hydrolysis"
+  measure (@{'487.1H/' + ii}) (@{'252.O/' + ii})
+  measure (@{'647.O/' + ii})  (@{'252.C/' + ii})
+  measure (@{'252.O/' + ii})  (@{'195.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'193.H/' + ii})
+  measure (@{'252.O/' + ii})  (@{'253.HG1/' + ii})
+  display add @{'487/' + ii}, @{'647/' + ii};
+}
+measure "2:%0.2VALUE %UNITS"
+font measure 25
+#
+# Run animation
+#
+message _skip
+for (var i = 1; i <= nmodels; i++) {
+frame @i
+switch(true) {
+                                                                     case (i < 2):
+#
+#  Set up orientation for the reaction, and display only the interesting parts.
+#
+reset;center {26.679000000000002 1.8894999999999997 37.5005}; rotate z 125.01; rotate y 73.42; rotate z 121.79; zoom 309.52; translate x -7.2; translate y -36.6;
+
+for (var j = 5; j >= 1; j--) {
+  frame TITLE "@{j} seconds"
+  delay 1
+}
+frame TITLE "@{i} Rocking figure to show orientation"
+#
+# Rock 30 degrees in 7 seconds
+#
+rotate 30 7
+delay 5
+rotate -30 -7
+delay 8
+break;
+                                                                    case (i < 165):
+break;
+                                                                    case (i < 166):
+#
+# Re-orientate system to show motion of departing amine group and set up measurements
+#
+frame TITLE "@{_modelName} Rotating system"
+moveto 1.0 { -452 -534 -715 103.05} 309.52 -7.2 -36.6 {26.679000000000002 1.8894999999999997 37.5005} 11.628495104053588 {0 0 0} 0 0 0 3.0 0.0 0.0;
+select 195.OG/165;  label  off;
+delay 1
+break;
+                                                                    case (i < 325):
+break;
+}
+refresh
+}
+for (var j = 5; j >= 1; j--) {
+  frame TITLE "@{j} seconds"
+  delay 1
+}
+goto _skip

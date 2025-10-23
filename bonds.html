@@ -1,0 +1,53 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>BONDS </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>
+<font size="5">
+<b>BONDS ALLBONDS</b></font></tt></h1>
+<p>The rotationally invariant bond order&nbsp;[<a href="references.html#bonds">15</a>] between all pairs of 
+atoms is printed. In this context a bond is defined as the sum of the squares of the density matrix elements connecting any two atoms. For ethane, 
+ethylene, and acetylene, the carbon-carbon bond orders are roughly 1.00, 2.00 and 3.00 respectively. The diagonal terms are the valencies calculated 
+from the atomic terms only and are defined as the sum of the bonds the atom makes with other atoms. In RHF calculations, the total density matrix 
+(alpha plus beta density matrices) is perfectly duodempotent, that is, the square of the density matrix, P, is exactly two times the density matrix,
+ or P*P = 2*P (see <a href="Bond_orders.html">Bond Orders</a>), and valencies will be correct.&nbsp; 
+ In UHF and non-variationally optimized wavefunctions the calculated valency will be incorrect, the degree 
+of error being proportional to the non-duodempotency of the total density 
+matrix. (In UHF work, the individual alpha and beta&nbsp; density matrices are 
+idempotent, that is, P(alpha)*P(alpha) = 1.0*P(alpha) and P(beta)*P(beta) = 1.0*P(beta), 
+but, in general, the sum of these two matrices is not duodempotent, i.e., (P(alpha)+P(beta))*(P(alpha)+P(beta)) 
+&ne;. 2.0*(P(alpha)+P(beta)).)</p><p>The bonding contributions of all M.O.s in the system are printed immediately before the bonds matrix. The idea of molecular orbital valency was developed by Gopinathan, Siddarth, and Ravimohan&nbsp;[<a href="references.html#m_o_valency"><font size="2">23</font></a>]. Just as an atomic orbital has a 'valency', so does a molecular orbital. This leads to the following relations: The sum of the bonding contributions of all occupied M.O.s is the same as the sum of all valencies which, in turn is equal to two times the sum of all bonds. The sum of the bonding contributions of all M.O.s is zero.  </p>
+<p>In <a href="mozyme.html"><tt>MOZYME</tt></a> calculations, only 
+bonds of order greater than 0.01 and those that do not involve hydrogen atoms are printed.&nbsp; If <tt>ALLBONDS</tt>
+is present, all bonds of order greater than 0.001, including hydrogen atoms, are printed.</p>
+<p>If <tt>LARGE</tt> is present, then the Medrano-Bochicchio-Reale population analysis is printed. For each atom, the following quantities are generated: </p>
+<ul>
+<li>The non-shared charge (sometimes called the self or inactive charge). </li>
+<li>The charge used to form bonds with other atoms (the active charge). </li>
+<li>The total charge (the sum of the first two terms). </li>
+<li>The valence (from the bonds matrix). </li>
+<li>The free valence (the difference of the last two terms). </li>
+<li>The statistical promotion (total charge minus core charge). </li>
+<li>The "Mulliken promotion" </li></ul>
+<p>Note that the last two terms are expressed in units of the electron, not the proton charge. </p>
+<p>For more information, see [<a href="references.html#nrm85"><font size="2">24</font></a><font size="2">,</font><a href="references.html#mrb86"><font size="2">25</font></a><font size="2">,</font><a href="references.html#mb89"><font size="2">26</font></a><font size="2">,</font><a href="references.html#rb91"><font size="2">27</font></a>], and also see J. A. Medrano, R. C. Bochicchio, S. G. Das, "The ROHF Extension of the Statistical Population Analysis of Electron and Spin Densities", J. Phys. B. </p></body>
+</html>

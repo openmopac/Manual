@@ -1,0 +1,11 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Cl-CH3-F/Locate
+REMARK  MOPAC 2016, Version: 21.157W
+REMARK  Date: Jun  7 2021 08:56
+REMARK  Heat of Formation = -149.932 Kcal/mol
+HETATM    1 Cl   HET A   1       0.402   0.033   0.015  1.00 -0.80      PROTCL 
+HETATM    2  C   HET A   1       2.584  -0.001  -0.003  1.00  0.17      PROT C 
+HETATM    3  H   HET A   1       2.609   1.084   0.002  1.00  0.15      PROT H 
+HETATM    4  H   HET A   1       2.594  -0.545   0.936  1.00  0.15      PROT H 
+HETATM    5  H   HET A   1       2.567  -0.541  -0.947  1.00  0.15      PROT H 
+HETATM    6  F   HET A   1       4.496  -0.041  -0.049  1.00 -0.83      PROT F 
+END

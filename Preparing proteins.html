@@ -1,0 +1,69 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Preparing Protein Data Sets</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">&nbsp;</h1>
+<h1 align="center">Preparing protein data sets </h1>
+<h2>Protein specific features</h2>
+<p>Constructing data-sets for polypeptides, proteins and protein-like molecules 
+is difficult.&nbsp; Most of the sources of protein structures, such as the
+<a href="http://www.pdb.org/pdb/home/home.do" target="_parent">Protein Data Bank</a>, do not include 
+hydrogen atoms, or, if they are present, there are errors in where they are put.&nbsp; 
+These errors usually result in sites being ionized when they should be neutral, 
+and <i>vice versa</i>.&nbsp; MOPAC contains a utility for adding hydrogen atoms 
+to protein and other organic structures.&nbsp; The default is to make all 
+organic sites neutral, so readily ionizable residues, such as Lys,&nbsp; Arg, 
+Asp and Glu are, by default, neutral.&nbsp; Several utilities are provided in 
+MOPAC that help with constructing data-sets.&nbsp; Running these utilities uses 
+very little CPU time.</p>
+<h2>Steps involved in preparing a protein data set for use in modeling protein 
+behavior</h2>
+<h3 dir="ltr">Optimize the positions of the hydrogen atoms</h3>
+<p dir="ltr">Using the information in the &lt;file&gt;.log file, edit the &lt;file&gt;.arc 
+structure to make any necessary corrections.&nbsp; If no log file exists then 
+skip this step.&nbsp; Make only the absolute minimum edits necessary, i.e., 
+limit edits to the addition or deletion of atoms, but, unless essential, don't 
+move atoms.&nbsp; </p>
+<p dir="ltr">If atoms must be moved, edit the file &lt;file_from_pdb&gt;.pdb and save 
+the edited file as &lt;file&gt;.mop, then re-run that file, in other words, 
+start from the beginning again.&nbsp; This avoids having 
+to move hydrogen atoms, a procedure that is prone to human errors.</p>
+<p dir="ltr">Save the edited file as &lt;file_opt-H&gt;.mop.</p>
+<p dir="ltr">Next, <a href="Optimizing_hydrogen_atoms.html">optimize the positions of the hydrogen atoms</a> 
+while holding the positions of all the other atoms fixed, then check the
+<a href="salt_bridges.html">salt bridges</a> and other features.&nbsp; If any 
+changes are made, re-run the partial optimization to relieve stresses once more.&nbsp; 
+The resulting structure will then be a good starting point for subsequent 
+operations.</p>
+<h3 dir="ltr">(Optional) Resequencing the atoms to make all atoms in a residue 
+contiguous</h3>
+<p dir="ltr">When hydrogen atoms are added, they are put at the end of the 
+data-set and PDB file.&nbsp; This allows a simple comparison to be made between 
+the raw PDB file and the hydrogenated form.&nbsp; For all subsequent work with 
+proteins,&nbsp; it might be easier to have all atoms in each residue together.&nbsp; 
+This can be achieved by resequencing the data set, using <a href="reseq.html"><tt>
+RESEQ</tt></a>.&nbsp; At present, the advantages or disadvantages of doing this are 
+not obvious.&nbsp;&nbsp; The operation is fast and easy to carry out, so give it 
+a try?</p>
+<p dir="ltr">Constrained optimization</p>
+<p dir="ltr">&nbsp;</p>
+</body>
+</html>

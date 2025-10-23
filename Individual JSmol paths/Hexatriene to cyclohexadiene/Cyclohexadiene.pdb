@@ -1,0 +1,18 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Hexatriene to c
+REMARK  MOPAC 2016, Version: 21.153W Date: Jun  4 2021 09:48
+REMARK   3 HET = Not identified; C 6 H 8            =    14 atoms res:    1
+HETATM    1  C1  HET A   1      -0.647  -1.263   0.037  1.00 -0.13      PROT C 
+HETATM    2  C2  HET A   1       0.630  -1.224   0.441  1.00 -0.17      PROT C 
+HETATM    3  C3  HET A   1       1.377   0.022   0.441  1.00 -0.17      PROT C 
+HETATM    4  C4  HET A   1       0.809   1.166   0.035  1.00 -0.13      PROT C 
+HETATM    5  C5  HET A   1      -0.603   1.261  -0.441  1.00 -0.27      PROT C 
+HETATM    6  C6  HET A   1      -1.397  -0.063  -0.439  1.00 -0.27      PROT C 
+HETATM    7  H1  HET A   1      -1.220  -2.189   0.032  1.00  0.14      PROT H 
+HETATM    8  H2  HET A   1       1.154  -2.114   0.783  1.00  0.15      PROT H 
+HETATM    9  H3  HET A   1       2.408  -0.021   0.783  1.00  0.15      PROT H 
+HETATM   10  H4  HET A   1       1.356   2.108   0.030  1.00  0.14      PROT H 
+HETATM   11 1H5  HET A   1      -0.604   1.684  -1.468  1.00  0.14      PROT H 
+HETATM   12 2H5  HET A   1      -1.140   2.008   0.183  1.00  0.14      PROT H 
+HETATM   13 1H6  HET A   1      -1.774  -0.263  -1.465  1.00  0.14      PROT H 
+HETATM   14 2H6  HET A   1      -2.307   0.059   0.187  1.00  0.14      PROT H 
+END

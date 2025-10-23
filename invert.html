@@ -1,0 +1,51 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>INVERT</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>INVERT</tt> </h1>
+<p>When
+<tt>INVERT</tt> is present, all optimization flags are reversed.&nbsp; That is, 
+if an optimization flag is "1", it will be set to "0", and if it is "0", it will 
+be set to "1"</p>
+<p>
+Refinement of a transition state for a large system runs faster when only the 
+atoms near to the transition state are used in gradient minimization, and the 
+rest are used in energy minimization. <tt>INVERT</tt> is 
+useful for calculations of this type.&nbsp; The optimization flags for all atoms 
+in the gradient minimization are set to "1", the rest are set to "0".&nbsp; In 
+one calculation, a normal gradient minimization is run, in a second calculation 
+a geometry optimization is run, with keyword
+<tt>INVERT</tt> present.&nbsp; </p>
+<p>
+The two calculations can be combined into one job.&nbsp; For example, the first 
+data set, for the gradient minimization, can be followed by a second data set 
+consisting of keywords "<a href="oldgeo.html"><tt>OLDGEO</tt></a>" and "<tt>INVERT</tt>" plus any 
+other keywords needed for the job.</p>
+<p>
+Alternatively, make two complete data sets, one for gradient minimization and 
+one for energy minimization.&nbsp; Run these data sets on different computers.&nbsp; 
+Then edit the resulting ARC files to make up a new data set.&nbsp; This saves 
+time, because the jobs run twice as fast.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,5 @@
+TS gnorm=0.5   geo_dat="Saddle_TS.arc"
+ Refine transition state for Cyclohexane boat <=> Cyclohexane chair
+ 
+oldgeo   IRC=1* HTML X-priority=0.2
+Reaction path for Cyclohexane boat <=> Cyclohexane chair 

@@ -1,0 +1,62 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>CHAINS </title>
+<style type="text/css">
+																													.auto-style1 {
+																														text-align: left;
+																													}
+																													</style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>CHAINS=(<i>text</i>)</tt> </h1>
+<p class="auto-style1">
+<tt>CHAINS=(A)</tt>can be used to select all atoms in a PDB file that have 
+the same chain-letter, here <tt>A</tt>.&nbsp; Some PDB files contain more than one 
+protein. If, for example, a PDB file contains two proteins plus associates small 
+molecules, e.g., H<sub>2</sub>O or [SO<sub>4</sub>]<sup>=</sup>, and all atoms relates to the first protein are 
+assigned chain-letter A, and all the others are assigned chain-letter B, then if&nbsp;<tt>CHAINS=(A)</tt>is 
+present, only those atoms with chain-letter <tt>A</tt> will be selected. In rare 
+cases two or more chain-letters might be needed, in which case the letters 
+needed would be specified as, e.g., <tt>CHAINS=(AB)</tt>. or <tt>CHAINS=(CDEF)</tt>
+Up to four letters can be specified.</p>
+<p> A more common use of this keyword would be when there is, or will be, a need to re-label the atoms in the PDB file by using <a href="residues.html"><tt>RESIDUES</tt></a>. 
+If keyword <tt>CHAINS </tt>is already present in the data set, and there will 
+never be a need to re-label the atoms using <tt>RESIDUES</tt> (this is the most likely case), then, to 
+reduce the number of keywords, it is safe to delete keyword <tt>CHAINS</tt>.&nbsp; By default, when a PDB file is 
+read in, all chains are automatically identified, and used in 
+constructing the keyword <tt>CHAINS</tt>. In normal work, this keyword should 
+not be modified, however if there is a need to modify 
+it, the following definition of the <i>text</i> is provided as a guide:</p>
+<p>Protein chains are normally labeled A, then B, then C, etc.&nbsp; If this 
+sequence is correct, then keyword <tt>CHAINS=(ABC)</tt> is not needed.&nbsp; If a different 
+sequence is to be used, put that sequence in place of <i>text</i> in <tt>CHAINS=(<i>text</i>).</tt></p>
+<p>For example, in PDB entry 2V66, the chains are B, C, D, and E, not A, B, C, 
+D; for this system, the keyword, if used, would be: <tt>CHAINS=(BCDE).</tt></p>
+<p> See also <a href="start_res.html"><tt>START_RES(text)</tt></a> to define residue 
+numbers.</p>
+<p>See also: <a href="pdb.html"><tt>PDB</tt></a>, <a href="residues.html">
+<tt>RESIDUES</tt></a>, <tt><a href="xeno.html">XENO</a></tt>, 
+<a href="alt_a.html"><tt>ALT_A</tt></a>, and <tt>
+<a href="reseq.html">RESEQ</a></tt>.</p>
+<p> &nbsp;</p>
+</body>
+</html>

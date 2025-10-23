@@ -1,0 +1,4 @@
+GEO_dat="Nitrobenzene + H2SO4 + H2O.arc" ++
+GEO_REF="Benzene + [NO2](+) +[HSO4](-) + H2O.arc" ++
+Locate_TS(C:3,10)   HTML geo-ok
+ Move the reactant and product nearer to the transition state

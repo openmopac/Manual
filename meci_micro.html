@@ -1,0 +1,165 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Microstates</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Microstates </h2>
+<p>Microstates, which are normally represented by a Slater determinant, are normally written as an antisymmetrized product of
+<i>&nbsp;p</i> <span class="b">&alpha;</span>- and <i>q</i> <span class="b">&beta;</span>-electrons: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}Psi_g=[(p+q)!]^{-frac{1}{2}}sum_P(-1)^PP[psi_1(1)alpha(1......lpha(p) psi_1(p+1)beta(p+1) ldots psi_q(p+q)beta(p+q)],end{displaymath}" height="35" src="img830.gif" width="571"/></div>
+<p>where                                         [(p+q)!]<sup>1/2</sup> is the normalization constant, <i>P</i> is an operator which permutes the electron coordinates, and (-1)<i><sup>P</sup></i> assumes the values -1 or +1 for odd and even permutations respectively. A more compact and useful notation for representing a general microstate is: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}Psi_j = frac{1}{sqrt{N!}}sum_{P=1}^{N!}(-1)^PP(prod_{k=1}^Npsi_k^j)end{displaymath}" height="51" src="img832.gif" width="192"/></div>
+<p>where <span class="b">&Psi;</span><sub><i>j </i></sub>is any microstate consisting of <i>N</i> electrons. Given the full set of M.O.s, a subset of these is used in the microstate. This subset is defined by the M.O.s
+<span class="b">&Psi;</span><sub><i>k</i></sub><sup>j</sup><sub> </sub>, <i>k</i>=1,<i>N</i>. Each microstate will consist of a different set of M.O.s from the full set. </p>
+<p>Rather than having all the <i>&alpha;</i> electrons appearing first in a microstate, it is more convenient to order the one electron wavefunctions in the order in which their indices occur in the full set of M.O.s. If both <i>&alpha;</i> and <i>&beta;</i> M.O.s of the same index occur, then
+<i>&alpha;</i> precedes <i> <span class="b">&beta;</span></i>, thus: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}Psi_g=[(p+q)!]^{-frac{1}{2}}sum_P(-1)^PP[psi_1(1)alpha(1......(3)alpha(3) psi_2(4)beta(4) ldots psi_j(p+q)beta(p+q)]end{displaymath}" height="40" src="img840.gif" width="573"/></div>
+<p>This numbering scheme follows the Aufbau principle, in that the order of filling is in order of energy. This point is critically important in deciding the sign of matrix elements. For a 5 M.O. system, then, the order of filling is: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}(1)(bar{1})(2)(bar{2})(3)(bar{3})(4)(bar{4})(5)(bar{5}) end{displaymath}" height="28" src="img841.gif" width="195"/></div>
+<p>A triplet state arising from two microstates, each with a component of spin = 0, will thus be the positive combination: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}(bar{1})(2) + (1)(bar{2}). end{displaymath}" height="28" src="img842.gif" width="97"/></div>
+<p>This standard sign convention was chosen in order to allow the signs of the microstate coefficients to conform to those resulting from the spin 
+<a href="meci_spin_ang_mom.html">step-down</a> operator. </p>
+<p>Only those M.O.s involved in the MECI are of interest, thus from the full set of M.O.s, filled and empty </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}left[begin{array}{lll}psi_1(1)alpha(1" height="44" src="img843.gif" width="199"/></div>
+<p>the ground-state configuration (assumed to be closed shell for simplicity) can be represented by </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}left[begin{array}{llllllllllllll}" height="44" src="img844.gif" width="313"/></div>
+<p>where a 1 represents a spin molecular orbital occupied by one electron and 0 represents an empty M.O. </p>
+<p>The M.O.s involved in the C.I. are called the "active space". For convenience, the index of the M.O. at the lower bound of the active space will be called "B", and the index of the M.O. at the upper bound of the active space will be called "A". All M.O.s below the active space can be considered as part of the core while those above it are empty and can likewise be ignored. We can thus focus our attention on the M.O.s in the active space. Most of the time, MECI calculations will involve between 1 and 5 M.O.s, so a system such as pyridine, with 15 filled levels and 29 M.O.s, would <a name="BM13412">&nbsp;</a> use M.O.s 13-17 in a large C.I. </p>
+<p>For convenience, microstates will be expressed as a sum of molecular orbital occupancies, so that: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}Psi_p=sum_{i=B}^A(O_i^{alpha p} + O_i^{beta p} ).end{displaymath}" height="49" src="img845.gif" width="142"/></div>
+<p>For example, if the ground state configuration <img align="MIDDLE" alt="$Psi_g$" height="29" src="img846.gif" width="23"/>is closed shell, then the occupancy of the M.O.s would be </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}O^{alpha g} = O^{beta g} = vert 1,ldots,1,0,ldots,0vertend{displaymath}" height="28" src="img847.gif" width="192"/></div>
+<p>Microstates are particular electron configurations. Examples of microstates involving 5 electrons in 5 levels are given in the Table. </p>
+<div align="CENTER">
+<strong><p>Table:</p></strong> Microstates for 5 electrons in 5 M.O.s
+<p align="CENTER"></p><center><table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p align="CENTER"> &nbsp;</p></td>
+<td colspan="2" valign="MIDDLE">
+<p align="CENTER">Electron Configuration</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+<td colspan="2" valign="MIDDLE">
+<p align="CENTER">Electron Configuration</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Alpha</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Beta</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">M<i><sub>S</sub></i></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Alpha</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Beta</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">M<i><sub>S</sub></i></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">M.O.</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1 2 3 4 5</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1 2 3 4 5</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">M.O.</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1 2 3 4 5</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1 2 3 4 5</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,1,0,0</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,0,0,0</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">1/2</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,1,1,1</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">0,0,0,0,0</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">5/2</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,0,0,0</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,1,0,0</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-1/2</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">5</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,0,1,0</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,0,0,0</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1/2</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,1,0,0</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">0,0,0,1,1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">1/2</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">6</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,1,0,1,0</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1,0,1,0,0</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1/2</p></td>
+</tr>
+</table>
+</center>
+<p></p></div>
+</body>
+</html>

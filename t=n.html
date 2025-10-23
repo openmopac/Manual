@@ -1,0 +1,53 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>T=n[M,H,D] </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center"><a name="SECTION0073209000000000000000">
+<tt>T=<i>n</i>[M,H,D,W]</tt> </a>
+</h1>
+This is a facility to allow the program to shut down in  an  orderly
+manner on computers with execution time cpu  limits.
+<p>
+The total cpu  time allowed for the current  job  is  limited  to <i>nn</i>.<i>nn</i> seconds;  by default this is 
+two
+days, i.e., 172,800
+seconds.  If the next cycle of the calculation cannot be completed without
+running a  risk of  exceeding the assigned time the calculation will write a
+restart file and then stop.  The safety margin is 100 percent; that is, to do
+another cycle, enough time to do at least two full cycles must remain.
+</p><p>
+If several systems are run in one job, then the time allowed for <em>all</em> the
+jobs is two days, unless <tt>T=<i>n</i>.<i>nn</i></tt> is used.  If <tt>T=<i>n</i>.<i>nn</i></tt> is used,
+then the allowed time <em>for the remainder of the job</em> is <i>n</i>.<i>nn</i> seconds.
+This means that if the allowed time for each system is to be an hour, then the
+keyword <tt>T=1h</tt> must be specified in each system.
+</p><p>
+Alternative specifications of the time are  <tt>T=<i>nn</i>.<i>nn</i>M</tt>,  which  defines
+the  time in minutes, <tt>T=<i>nn</i>.<i>nn</i>H</tt>, in hours, <tt>T=<i>nn</i>.<i>nn</i>D</tt>, in
+days, and <tt>T=<i>nn</i>.<i>nnW</i></tt>, in weeks,&nbsp; for long jobs.
+</p><p>
+A job that's running can be instructed to run out of time by issuing the 
+<a href="shut.html">SHUT</a> 
+command.&nbsp; If that is done, then, at the first opportunity, MOPAC will write 
+out a RESTART file called &lt;file&gt;.res and a DENSITY file, &lt;file&gt;.den.&nbsp; These 
+can then be read in to a subsequent job using <a href="restart.html"><tt>RESTART</tt></a> 
+and <a href="oldens.html"><tt>OLDENS</tt></a>.</p><p>
+&nbsp;</p></body></html>

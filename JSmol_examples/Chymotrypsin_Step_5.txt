@@ -1,0 +1,13 @@
+display 195, 252, 253, 487, 647
+select *
+labels off
+select [THR]253:C.2H;     set labeloffset  0 15;   label [THR]253:C.2H;    color label black; font label 15;
+select [THR]253:C.1H;     set labeloffset  0 15;   label [THR]253:C.1H;    color label black; font label 15;
+select [HOH]487:C.O;      set labeloffset  0 -30;  label [HOH]487:C.O;     color label black; font label 15;
+select [HOH]647:C.2H;     set labeloffset  -20 0;  label [HOH]647:C.2H;    color label black; font label 15;
+select 0
+measure off
+measure (487.O) (252.C)
+measure (647.O) (252.C)
+measure (487.O) (647.O)
+reset;center {26.73746666666667 1.4989555555555556 37.82006666666667}; rotate z 170.29; rotate y 72.91; rotate z -135.98; zoom 813.98; translate x -17.33; translate y 14.4; set rotationRadius 35.12;

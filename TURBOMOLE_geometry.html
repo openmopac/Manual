@@ -1,0 +1,51 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+<title>Specification of TURBOMOLE geometry</title></head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">Specification of TURBOMOLE geometry</h1>
+<p>TURBOMOLE geometries can be converted into MOPAC input data sets by adding 
+the standard three lines at the beginning of the geometry.<br/>
+</p><p align="left">&nbsp;Example of a MOPAC input data set that uses the TURBOMOLE geometry specification:</p>
+<div align="left">
+<pre>Line 1:  PM6
+Line 2:  Ammonia
+Line 3:  In TURBOMOLE format
+Line 4:  $coord
+Line 5:       .00000000000000       .00000000000000       .54561506935122      n
+Line 6:      -.87806233111566      1.52084856970468      -.18187168978374      h
+Line 7:      -.87806233111566     -1.52084856970468      -.18187168978374      h
+Line 8:      1.75612466223131       .00000000000000      -.18187168978374      h
+Line 9:  $end
+Line 10:</pre>
+</div>
+<p>Lines 1, 2, and 3 are normal MOPAC lines. Line 1 is keywords, lines 2 and 3 
+are comments<br/>
+Line 4 consists of the TURBOMOLE text "$coord" This line is ignored by MOPAC. It 
+does not need to be present.<br/>
+Lines 5-8 are the geometry definition.&nbsp; Coordinates are in atomic units.&nbsp; 
+The chemical symbol follows the Cartesian&nbsp; coordinate for each atom.<br/>
+Line 9 consists of the TURBOMOLE text "$end" This line is ignored by MOPAC. It 
+does not need to be present.<br/>
+Line 10 is the normal blank line that indicates the end of a MOPAC input data 
+set.</p>
+<p>By default, geometries are flagged for optimization.&nbsp; To prevent this, 
+use keywords such as <a href="one_scf.html"><tt>1SCF</tt></a> or <a href="nooptx.html">
+<tt>NOOPT</tt></a>.</p>
+</body>
+</html>

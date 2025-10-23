@@ -1,0 +1,6 @@
+HEADER  data-set: G:/PM6-ORG Iodine update/SIH Old iodine parameters
+REMARK  MOPAC, Version: unknown              Date: Jul 21 2025 11:12
+HETATM    1  S   IPH C   1       0.000   0.000   0.000  1.0  36.62      PROT S 
+HETATM    2  I   IPH C   1       1.329   0.000   0.000  1.0 -25.65      PROT I 
+HETATM    3 2H   IPH C   1       2.843  -0.000   0.000  1.0   9.03      PROT H 
+END

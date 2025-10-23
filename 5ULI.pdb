@@ -1,0 +1,19 @@
+HEADER  data-set: G:\test\test
+REMARK  MOPAC 2016, Version: 21.050W Date: Feb 19 2021 17:55
+REMARK   3 HET = Not identified; C 7 H 8            =    15 atoms  res:    1
+HETATM    1  C1  HET A   1      -0.002  -0.002  -0.000  1.00 -0.17      PROT C 
+HETATM    2  C2  HET A   1       2.792  -0.009  -0.001  1.00  0.05      PROT C 
+HETATM    3  C3  HET A   1       0.700   1.202   0.041  1.00 -0.13      PROT C 
+HETATM    4  C4  HET A   1       0.694  -1.208  -0.042  1.00 -0.13      PROT C 
+HETATM    5  C5  HET A   1       2.092   1.201   0.040  1.00 -0.19      PROT C 
+HETATM    6  C6  HET A   1       2.087  -1.214  -0.042  1.00 -0.19      PROT C 
+HETATM    7  H1  HET A   1      -1.089   0.001   0.000  1.00  0.15      PROT H 
+HETATM    8  H3  HET A   1       0.159   2.146   0.073  1.00  0.15      PROT H 
+HETATM    9  H4  HET A   1       0.149  -2.149  -0.074  1.00  0.15      PROT H 
+HETATM   10  H5  HET A   1       2.637   2.141   0.073  1.00  0.15      PROT H 
+HETATM   11  H6  HET A   1       2.624  -2.159  -0.075  1.00  0.15      PROT H 
+HETATM   12  C7  HET A   1       4.284   0.001  -0.002  1.00 -0.46      PROT C 
+HETATM   13 1H7  HET A   1       4.679   0.493   0.899  1.00  0.16      PROT H 
+HETATM   14 2H7  HET A   1       4.716  -1.008  -0.033  1.00  0.15      PROT H 
+HETATM   15 3H7  HET A   1       4.678   0.547  -0.871  1.00  0.16      PROT H 
+END

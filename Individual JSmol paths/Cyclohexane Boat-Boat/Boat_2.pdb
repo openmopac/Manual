@@ -1,0 +1,21 @@
+HEADER  data-set: M:\Individual JSmol paths\Cyclohexane Boat-Boat\Boat_2
+REMARK  MOPAC 2012, Version: 15.312W Date: Nov 09 2015 14:03
+HETATM    1  C   HET A   1      -0.037   0.151   0.054  1.00 -0.26      PROT C 
+HETATM    2  C   HET A   1       1.487  -0.015   0.048  1.00 -0.26      PROT C 
+HETATM    3  C   HET A   1       2.188   1.344  -0.114  1.00 -0.26      PROT C 
+HETATM    4  C   HET A   1       1.348   2.328  -0.947  1.00 -0.26      PROT C 
+HETATM    5  C   HET A   1       0.499   1.584  -1.984  1.00 -0.26      PROT C 
+HETATM    6  C   HET A   1      -0.540   0.680  -1.300  1.00 -0.26      PROT C 
+HETATM    7  H   HET A   1      -0.526  -0.811   0.289  1.00  0.13      PROT H 
+HETATM    8  H   HET A   1      -0.329   0.847   0.863  1.00  0.13      PROT H 
+HETATM    9  H   HET A   1       1.781  -0.691  -0.776  1.00  0.13      PROT H 
+HETATM   10  H   HET A   1       1.822  -0.505   0.979  1.00  0.13      PROT H 
+HETATM   11  H   HET A   1       3.175   1.195  -0.590  1.00  0.13      PROT H 
+HETATM   12  H   HET A   1       2.394   1.784   0.878  1.00  0.13      PROT H 
+HETATM   13  H   HET A   1       0.688   2.915  -0.282  1.00  0.13      PROT H 
+HETATM   14  H   HET A   1       2.007   3.060  -1.445  1.00  0.13      PROT H 
+HETATM   15  H   HET A   1      -0.006   2.304  -2.651  1.00  0.13      PROT H 
+HETATM   16  H   HET A   1       1.158   0.977  -2.633  1.00  0.13      PROT H 
+HETATM   17  H   HET A   1      -1.484   1.236  -1.150  1.00  0.13      PROT H 
+HETATM   18  H   HET A   1      -0.788  -0.165  -1.967  1.00  0.13      PROT H 
+END

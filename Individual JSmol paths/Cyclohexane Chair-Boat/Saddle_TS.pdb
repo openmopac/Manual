@@ -1,0 +1,23 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Cyclohexane Cha
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  3 2021 15:48
+REMARK  Heat of Formation = -19.962 Kcal/mol
+HETATM    1  C1  HET A   1      -0.015  -0.080  -0.052  1.00 -0.26      PROT C 
+HETATM    2  C2  HET A   1       1.515  -0.086  -0.050  1.00 -0.26      PROT C 
+HETATM    3  C3  HET A   1       2.043   1.348  -0.114  1.00 -0.26      PROT C 
+HETATM    4  C4  HET A   1       1.381   2.311   0.884  1.00 -0.26      PROT C 
+HETATM    5  C5  HET A   1       0.159   1.816   1.684  1.00 -0.26      PROT C 
+HETATM    6  C6  HET A   1      -0.534   0.511   1.258  1.00 -0.26      PROT C 
+HETATM    7 1H1  HET A   1      -0.404  -1.106  -0.186  1.00  0.13      PROT H 
+HETATM    8 2H1  HET A   1      -0.391   0.506  -0.914  1.00  0.14      PROT H 
+HETATM    9 1H2  HET A   1       1.897  -0.665  -0.911  1.00  0.13      PROT H 
+HETATM   10 2H2  HET A   1       1.893  -0.593   0.856  1.00  0.14      PROT H 
+HETATM   11 1H3  HET A   1       1.897   1.738  -1.141  1.00  0.13      PROT H 
+HETATM   12 2H3  HET A   1       3.138   1.342   0.055  1.00  0.13      PROT H 
+HETATM   13 1H4  HET A   1       1.088   3.229   0.335  1.00  0.13      PROT H 
+HETATM   14 2H4  HET A   1       2.148   2.643   1.614  1.00  0.13      PROT H 
+HETATM   15 1H5  HET A   1      -0.593   2.629   1.686  1.00  0.13      PROT H 
+HETATM   16 2H5  HET A   1       0.469   1.704   2.744  1.00  0.13      PROT H 
+HETATM   17 1H6  HET A   1      -1.624   0.684   1.176  1.00  0.13      PROT H 
+HETATM   18 2H6  HET A   1      -0.415  -0.238   2.065  1.00  0.13      PROT H 
+END

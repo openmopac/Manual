@@ -1,0 +1,59 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Grid Calculation</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">Grid Calculation
+</h1>
+The GRID calculation is the two-dimensional analog of the PATH calculation.  In
+a PATH calculation, one coordinate is flagged with a '-1'.  In a GRID
+calculation, two coordinates are flagged by '-1's.  An example of a  GRID
+calculation is shown in the Figure. Note that the keywords
+<tt><a href="step1.html">STEP1=<i>n</i>.<i>nn</i></a></tt> and <tt>
+<a href="step2.html">STEP2=<i>m</i>.<i>mm</i></a></tt> are essential.
+<p>
+<br/>
+</p><div align="CENTER"><a name="exgrid">&nbsp;</a><a name="BM22463">&nbsp;</a>
+<table width="50%">
+<caption><strong>Figure:</strong>
+Example of a GRID Calculation</caption>
+<tr><td><pre>SYMMETRY STEP1=0.01 STEP2=1
+Water, potential energy surface for
+ H
+ O   0.92 -1     0  0    0 0   1
+ H   0.92  0   104 -1    0 0   2 1
+ 2 1 3
+</pre></td></tr>
+</table>
+</div>
+<br/>
+<p>
+In this example, the potential energy surface for water is generated.  For one
+axis of the 2-D plot, the O-H bond length is varied from 0.92&Aring; to 1.02&Aring;,  in 11 steps of 0.01&Aring;, and in the other axis, the H-O-H angle is varied
+from 104  to 114<img align="BOTTOM" alt="$^{\circ}$" border="0" height="16" src="img1674.gif" width="11"/>
+in 11 steps of 1.0 degree.  Because of the use of
+symmetry, there are no variables to be optimized.  If symmetry were not used,
+then the second O-H bond length could either be optimized, by setting its flag
+to 1, or held constant, by setting its flag to 0.
+</p><p>
+Keywords used with the GRID option are<tt><a href="point1.html"> POINT1=n</a></tt> and
+<tt><a href="point2.html">POINT2=m</a></tt>: to use <i>n</i> and <i>m</i> points in directions 1 and 2; and keywords
+to specify how the geometry should be optimized. <i>n</i> x <i>m</i> should be
+less than 400000</p></body></html>

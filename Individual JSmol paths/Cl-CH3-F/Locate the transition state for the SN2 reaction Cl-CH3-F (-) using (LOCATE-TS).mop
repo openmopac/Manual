@@ -1,0 +1,5 @@
+geo_ref="CH3F -- Cl(-).arc" ++
+geo_dat="CH3Cl -- F(-).arc" ++
+locate-ts(C:10,30,120,120,140;SET:1) opt charge=-1 eps=78.4 gnorm=2   HTML
+Transition state for CH3Cl --- F(-) <=> Cl(-) --- CH3F
+

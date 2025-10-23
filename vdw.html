@@ -1,0 +1,161 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>VDW(text) </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>VDW(<i>text</i>)</tt> </h1>
+<p>In a COSMO calculation (keyword <a href="esp.html"><tt>ESP=78.4</tt></a>), the Van der Waals radii of atoms can be set or changed by use of <tt>VDW</tt>. The format of the command is: </p>
+<tt></tt><p>VDW(&lt;chemical symbol<sub>1</sub>&gt;=<i>n</i>.<i>nn;</i>&lt;chemical symbol<sub>2</sub>&gt;=<i>n</i>.<i>nn;</i>&lt;chemical symbol<sub>3</sub>&gt;=<i>n</i>.<i>nn</i>;...) </p>
+<p>For example, <tt>VDW(Cl=2.33;Br=2.50)</tt> would override the default values of the van der Waals 
+radii of chlorine and bromine (1.65 and 1.80, respectively). <br/>
+&nbsp;</p>
+<p>By default, the COSMO VdW radius is 117% of the default VdW radius.<br/>
+&nbsp;</p>
+<p>Where radii specific for various methods are available, they are used.&nbsp;
+Radii available are:</p>
+<p></p>
+<strong><p align="center">Table 1:</p></strong> Default  radii (Angstroms) used in
+COSMO
+<center><table border="" cellpadding="2" cellspacing="1" width="651">
+<tr><td valign="MIDDLE">
+<p align="CENTER">I</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">II</p></td>
+<td rowspan="4" valign="MIDDLE">
+<p align="center">&nbsp;</p>
+</td>
+<td valign="MIDDLE">
+<p align="CENTER">III</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">IV</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">V</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">VI</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">VII</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">H<br/>
+1.08</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td colspan="5" valign="MIDDLE">
+<p>&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">Li<br/>
+1.80</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Be</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">B</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">C<br/>
+1.53</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">N<br/>
+1.48</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">O<br/>
+1.36</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">F<br/>
+1.30</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">Na<br/>
+2.30</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Mg</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Al<br/>
+2.05</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Si<br/>
+2.10</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">P<br/>
+1.75</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">S<br/>
+1.70</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Cl<br/>
+1.65</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">K<br/>
+2.30</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Ca<br/>
+2.75</p></td>
+<td rowspan="3" valign="TOP">
+<p>&nbsp;</p><p align="center">Transition Metals<br/>
+(none)</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Ga</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Ge</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">As</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Se</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Br<br/>
+1.80</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">Rb</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Sr</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">In</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Sn</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Sb</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Te</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">I<br/>
+2.05</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">Cs</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Ba</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Tl</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Pb</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Bi</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+</tr>
+</table>
+</center>
+<p></p>
+<p></p></body>
+</html>

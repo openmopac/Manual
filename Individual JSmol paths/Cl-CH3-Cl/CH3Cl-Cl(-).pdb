@@ -1,0 +1,9 @@
+HEADER  data-set: M:\Individual JSmol paths\Cl-CH3-Cl\CH3Cl-Cl(-)
+REMARK  MOPAC 2012, Version: 15.309W Date: Nov 06 2015 07:44
+HETATM    1  C   HET A   1      -0.458  -0.001   0.000  1.00 -0.21      PROT C 
+HETATM    2 Cl   HET A   1       2.415  -0.000  -0.000  1.00 -0.99      PROTCL 
+HETATM    3  H   HET A   1      -0.128   1.040   0.010  1.00  0.17      PROT H 
+HETATM    4  H   HET A   1      -0.129  -0.513  -0.907  1.00  0.17      PROT H 
+HETATM    5  H   HET A   1      -0.129  -0.530   0.896  1.00  0.17      PROT H 
+HETATM    6 Cl   HET A   1      -2.270   0.000   0.000  1.00 -0.31      PROTCL 
+END

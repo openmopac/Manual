@@ -1,0 +1,79 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Defining Distances in Proteins</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	text-align: left;
+}
+</style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p><font face="Arial">(<a href="Modeling_proteins.html">Modeling proteins</a>)</font></p>
+<h1 class="auto-style1">Defining Distances in Proteins</h1>
+<p class="auto-style2">Sometimes it is necessary to define an interatomic 
+distance in a protein.&nbsp; For example, if one atom has to be a specific 
+distance from another, or if a reaction path involving an interatomic distance 
+is to be mapped, then a method must exist to specify interatomic distances.&nbsp; 
+Protein geometries are normally defined entirely in Cartesian coordinates, so 
+how can a specific interatomic distance be defined?&nbsp; The technique, while 
+simple, involves several steps, but once learned, it is straightforward. A 
+description of the technique will now be given.</p>
+<p class="auto-style2">Interatomic distances can only be defined using internal 
+coordinates, so the first step is to replace the Cartesian coordinates of the 
+second atom with the equivalent internal coordinates. It's necessary to use the 
+second atom because an atom's position in internal coordinates is defined 
+relative to those of atoms already defined. Only MOPAC format data sets can be 
+used, i.e., PDB format data sets cannot be used; this is because optimization 
+flags for a specific atom cannot be set when PDB format is used.</p>
+<p class="auto-style2">Using a GUI, identify the pair of atoms involved.&nbsp; 
+For the first atom, call this N1, identify an atom, NA - chose a heavy atom if 
+possible - that is attached to NA, call this NB, and a third atom, NC, attached 
+to NB.&nbsp; Again, chose a heavy atom for NC, if possible.&nbsp; The position 
+of N1 will then be defined in terms of NA, NB, and NC.&nbsp; The atom numbers of 
+NB and NC can be larger than that of atom NA but they must be smaller than that 
+of atom N1.</p>
+<p class="auto-style2">Using the GUI, measure the current distance, in &Aring;ngstroms, 
+between the atoms N1 and NA, the current angle, in degrees, N1-NA-Nb, and the 
+current dihedral, also in degrees, of N1-NA-NB-NC.&nbsp; Make a note of the atom 
+labels, and include the atom number and Cartesian coordinates for N1, NA, NB, 
+and NC.</p>
+<p class="auto-style2">Using an editor, edit the data set to replace the 
+Cartesian coordinates of atom N1 with the internal coordinates. Replace the X 
+coordinate with the interatomic distance, the Y coordinate with the angle, and 
+the Z coordinate with the torsion or dihedral angle.&nbsp; After the third 
+optimization flag, add the connectivity.&nbsp; Be very careful here, as atom 
+numbers in atom labels might be incorrect.&nbsp; Use the Cartesian coordinates 
+to verify that the correct atoms are being used.</p>
+<p class="auto-style2">Save the edited file, and open it using a GUI.&nbsp; 
+Check that the position of atom N1 is correct (within a tenth of an &Aring;ngstrom).&nbsp; 
+If it's not correct, fix the fault.</p>
+<p class="auto-style2">Now the internal coordinate can be edited.&nbsp; If the 
+interatomic distance is to be fixed, set the first optimization flag to zero. If&nbsp; 
+the interatomic distance is to be smaller or greater than it was, make the 
+change at this point.&nbsp; Most likely the angle and dihedral are not 
+important, so set these optimization flags to one.</p>
+<p class="auto-style2">If a reaction path is to be mapped, set the interatomic 
+distance optimization flag to -1.</p>
+<p class="auto-style2">Good luck!</p>
+</body>
+</html>

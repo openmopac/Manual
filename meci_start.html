@@ -1,0 +1,78 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Starting electronic configuration</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION001241000000000000000">Starting electronic configuration</a> </h2>
+<p>As MECI requires the space parts of the <span class="b">&alpha;</span> and
+<span class="b">&beta;</span> molecular orbitals to be identical, only RHF wavefunctions are used. However, this is not a severe restriction in that any starting configuration will be supported. Examples of starting configurations are shown in the&nbsp;<a href="#conf_meci">Table</a>. </p>
+<div align="CENTER"> <div align="CENTER">
+<strong><p><a name="conf_meci"></a>Table:</p></strong> Examples of SCF configurations used in MECI
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p>System</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">KeyWords used</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Starting Configuration</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Methane</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">none</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2.00 2.00 2.00 2.00</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Methyl Radical</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">none</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2.00 2.00 2.00 1.00</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Twisted Ethylene</p></td>
+<td valign="MIDDLE">
+<p align="CENTER"><a href="open.html">OPEN(2,2)</a></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2.00 2.00 1.00 1.00</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Twisted Ethylene Cation</p></td>
+<td valign="MIDDLE">
+<tt></tt><p align="CENTER">OPEN(1,2)</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2.00 2.00 0.50 0.50</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Methane Cation</p></td>
+<td valign="MIDDLE">
+<p align="CENTER"><a href="charge.html">CHARGE</a><tt>=1 OPEN(5,3)</tt></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2.00 1.67 1.67 1.67</p></td>
+</tr>
+</table>
+<p></p></div></div><br/>
+<a name="BM13377">&nbsp;</a><a name="BM13378"></a>&nbsp; Choice of starting configuration is important. For example, if twisted ethylene, a ground-state triplet, is not defined using <tt>OPEN(2,2)</tt>, then the closed-shell ground-state structure will be calculated. Obviously, this configuration is a legitimate microstate, but from the symmetry of the system a better choice would be to define one electron in each of the two formally degenerate
+<i><span class="b">&pi;</span></i>-type M.O.s. 
+<p>Each configuration which can be generated in a molecule may be represented by a single Slater determinant; this is called a microstate. The final states will be linear combinations of these microstates. In general, microstates will not be eigenfunctions of the total spin operator, but will be mixtures of different spin states. </p>
+<p>The initial configuration used to generate the SCF is arbitrary; for half-electron systems it will not even correspond to a microstate, each M.O. having a fractional <a name="BM13381">&nbsp;</a> electron occupancy. Even if the starting wavefunction is a closed shell it would still correspond to only one of a large number of microstates to be used in the MECI. As a result, before the MECI is started all electronic terms arising from the electrons in the initial configuration, which will be used by MECI, are removed. The starting wavefunction will thus consist of a low-lying doubly occupied set of M.O.s and a high-lying empty set of M.O.s, neither of which will be involved in the MECI, and in between a small set of M.O.s from which the electrons have been removed. This set of M.O.s will be involved in the MECI. </p>
+</body>
+</html>

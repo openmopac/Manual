@@ -1,0 +1,70 @@
+<HTML><HEAD>
+<meta content="en-us" http-equiv="Content-Language">
+<TITLE> MOPAC JSmol Examples</TITLE>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	text-align: left;
+}
+.auto-style3 {
+	font-weight: normal;
+}
+.auto-style4 {
+	font-size: large;
+}
+</style>
+</HEAD>
+<body>
+
+<h1 class="auto-style1">Examples of the use of JSmol with MOPAC </h1>
+<h2>Modeling geometries</h2>
+<p><strong>Active site in </strong> <a href="Chymotrypsin%20Step%202.html">
+<strong>Chymotrypsin, Step 2</strong></a>: Interesting parts of a protein can be 
+displayed.&nbsp; In this example, Ser195 has formed a tetrahedral intermediate 
+with the peptide carbon joining Trp252 and Thr253.&nbsp; Well-known features, 
+such as the catalytic triad and the oxyanion hole can easily be seen.&nbsp; By 
+toggling individual residues all the features in chymotrypsin can be explored 
+easily.</p>
+<h2>Editing geometries</h2>
+<strong>Make a salt bridge by </strong> <a href="Move%20a%20hydrogen%20atom.html">
+<strong>moving a 
+hydrogen atom</strong></a>: This is the simplest editing operation - moving a 
+single atom, then using the new coordinates to update the PDB file<p><strong>Modify a residue 
+to convert from a site from </strong>
+<a href="Convert%20enol%20into%20ketol.html"><strong>enol to keto</strong></a><strong> 
+form, then optimize the resulting geometry:</strong> A more complicated 
+operation - moving several atoms, then writing out a small block of coordinates 
+in PDB format that can be used for updating the PDB file.&nbsp; This operation 
+is much easier to perform if all atoms in each residue are together in the 
+original PDB file.&nbsp; </p>
+<p><strong><a href="Make%20a%20covalent%20bond.html">Make a covalent bond</a> 
+between two atoms:</strong>&nbsp; Forcing two atoms together to form a covalent 
+bond requires other atoms in the region to move.&nbsp; This example is extreme, 
+in that a covalent bond is broken and two covalent bonds are formed, and many 
+atoms move.</p>
+<p><a href="Chymotrypsin%20Make%20Step%202.html"><strong>Make Step 2</strong></a><strong> 
+in the Chymotrypsin mechanism:</strong>&nbsp; This is similar to the previous 
+step, but in chymotrypsin, the serine hydrogen moves on to the imidazolium ring 
+of His57.</p>
+<strong><span class="auto-style4">Notes:</span> </strong>
+<span class="auto-style3">Other geometric operations, such as changing one atom 
+to another, e.g., changing a carbon atom to a nitrogen atom, or adding hydrogen 
+atoms, should not be done using JSmol.&nbsp; Instead, edit the PDB file 
+directly, to change element names, and add hydrogen atoms using MOPAC.</span><h2>Animations</h2>
+<p class="auto-style2">Follow a normal mode of vibration:
+<a href="Formaldehyde_vib.html">CH<sub>2</sub>O</a>.&nbsp; This example is for a 
+time-dependent normal mode of vibration for formaldehyde.</p>
+<p class="auto-style2">Follow the Intrinsic Reaction Coordinate for a reaction:
+<a href="HCN-HNC%20Intrinsic%20Reaction%20Coordinate.html">HCN &harr; HNC</a> .&nbsp; 
+This is the time-independent path for the isomerization of HCN to HNC.&nbsp; The 
+most important points are the starting point, the transition state, and the 
+finishing point for the reaction.</p>
+<p class="auto-style2">&nbsp;</p>
+<h2>Reference</h2>
+<p>For JSmol commands, see: <a href="http://chemapps.stolaf.edu/jmol/docs/">
+http://chemapps.stolaf.edu/jmol/docs/</a></p>
+
+</BODY>
+</HTML>

@@ -1,0 +1,119 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.324W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.324W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM6 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Nov 20 20:17:42 2015  *
+ *  PM6        - The PM6 Hamiltonian to be used
+ *  0SCF       - AFTER READING AND PRINTING DATA, STOP
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+0scf html pm6
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   3)    0.00316931  *  -0.63881349  *   0.37015460  *
+     2       C(HETATM    2  C2  HET A   3)    1.20736088  *  -0.42875254  *  -0.30988365  *
+     3       C(HETATM    3  C3  HET A   3)    1.64534420  *   0.87203116  *  -0.57029396  *
+     4       C(HETATM    4  C4  HET A   3)    0.91878624  *   1.98837407  *  -0.13832962  *
+     5       C(HETATM    5  C5  HET A   3)   -0.23483461  *   1.75228844  *   0.59086618  *
+     6       C(HETATM    6  C6  HET A   3)   -0.73423668  *   0.46070022  *   0.80554865  *
+     7       H(HETATM    7  H1  HET A   3)   -0.39697019  *  -1.64544866  *   0.50039006  *
+     8       H(HETATM    8  H2  HET A   3)    1.81676926  *  -1.29454651  *  -0.56582289  *
+     9       H(HETATM    9  H3  HET A   3)    2.64341906  *   1.01706998  *  -0.98655730  *
+    10       H(HETATM   10  H4  HET A   3)    1.30035825  *   2.99700216  *  -0.28941563  *
+    11       H(HETATM   11  H5  HET A   3)   -1.02840415  *   2.07547653  *   2.78870678  *
+    12       H(HETATM   12  H6  HET A   3)   -1.74849402  *   0.31768650  *   1.19738825  *
+    13      Br(HETATM   13 BR1  HET A   4)   -1.03416964  *   3.20873516  *   1.53858416  *
+    14      Br(HETATM   14 BR2  HET A   4)   -0.17963047  *   1.77861353  *   4.15459897  *
+    15      Al(HETATM   15 AL    AL A   5)   -4.85289476  *   0.52692080  *  -2.38035498  *
+    16      Br(HETATM   16 BR1   AL A   5)   -5.28729628  *  -1.45253082  *  -3.27040804  *
+    17      Br(HETATM   17 BR2   AL A   5)   -6.36916253  *   2.14274749  *  -2.43005585  *
+    18      Br(HETATM   18 BR3   AL A   5)   -2.84235193  *   0.74139027  *  -1.47160244  *
+ 
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM6:
+ "Optimization of Parameters for Semiempirical Methods V: Modification of NDDO Approximations
+ and Application to 70 Elements", J. J. P. Stewart, J. Mol. Mod., 13, 1173-1213 (2007)
+ URL: http://www.springerlink.com/content/ar33482301010477/fulltext.pdf
+
+           Empirical Formula: C6 H6 Br5 Al  =    18 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS =   34
+
+ GEOMETRY OF SYSTEM SUPPLIED
+0scf html pm6
+
+
+  C(HETATM    1  C1  HET A   3)   0.00316931 +1  -0.63881349 +1   0.37015460 +1
+  C(HETATM    2  C2  HET A   3)   1.20736088 +1  -0.42875254 +1  -0.30988365 +1
+  C(HETATM    3  C3  HET A   3)   1.64534420 +1   0.87203116 +1  -0.57029396 +1
+  C(HETATM    4  C4  HET A   3)   0.91878624 +1   1.98837407 +1  -0.13832962 +1
+  C(HETATM    5  C5  HET A   3)  -0.23483461 +1   1.75228844 +1   0.59086618 +1
+  C(HETATM    6  C6  HET A   3)  -0.73423668 +1   0.46070022 +1   0.80554865 +1
+  H(HETATM    7  H1  HET A   3)  -0.39697019 +1  -1.64544866 +1   0.50039006 +1
+  H(HETATM    8  H2  HET A   3)   1.81676926 +1  -1.29454651 +1  -0.56582289 +1
+  H(HETATM    9  H3  HET A   3)   2.64341906 +1   1.01706998 +1  -0.98655730 +1
+  H(HETATM   10  H4  HET A   3)   1.30035825 +1   2.99700216 +1  -0.28941563 +1
+  H(HETATM   11  H5  HET A   3)  -1.02840415 +1   2.07547653 +1   2.78870678 +1
+  H(HETATM   12  H6  HET A   3)  -1.74849402 +1   0.31768650 +1   1.19738825 +1
+ Br(HETATM   13 BR1  HET A   4)  -1.03416964 +1   3.20873516 +1   1.53858416 +1
+ Br(HETATM   14 BR2  HET A   4)  -0.17963047 +1   1.77861353 +1   4.15459897 +1
+ Al(HETATM   15 AL    AL A   5)  -4.85289476 +1   0.52692080 +1  -2.38035498 +1
+ Br(HETATM   16 BR1   AL A   5)  -5.28729628 +1  -1.45253082 +1  -3.27040804 +1
+ Br(HETATM   17 BR2   AL A   5)  -6.36916253 +1   2.14274749 +1  -2.43005585 +1
+ Br(HETATM   18 BR3   AL A   5)  -2.84235193 +1   0.74139027 +1  -1.47160244 +1
+ 
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.03 SECONDS
+
+ == MOPAC DONE ==

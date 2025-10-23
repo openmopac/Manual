@@ -1,0 +1,5 @@
+*
+* Input files were generated from raw PDB files.
+*
+geo_dat="PDB1EJG.ent" geo_ref="PDB1CBN.ent" 0scf html GEO-OK OUTPUT
+Compare the common atoms in two PDB structures of Crambin.

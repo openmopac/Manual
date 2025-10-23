@@ -1,0 +1,3 @@
+Migration of a hydrogen atom from C5 in 1,3-pentadiene to C1 is a narcissistic reaction. This type of reaction can most easily be modeled using symmetry to locate the transition state geometry.  This is illustrated in the files "Pentadiene sigmatropic narcissistic reaction.<suffix>"
+
+An alternative, but much slower, method of locating the transition state is to use LOCATE-TS, as illustrated in the other MOPAC files in this folder.

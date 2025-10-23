@@ -1,0 +1,171 @@
+ *******************************************************************************
+ ** Site#: 9602  E-mail support:    MrMOPAC@ATT.net    Version 17.214W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.214W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 378**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Aug 02 10:07:45 2017  *
+ *  START_RES  - STARTING RESIDUE NUMBERS DEFINED
+ *  Keyword:   START_RES=(1A 254B) 
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "KE07 ADD CHAIN LETTERS.PDB"
+ *  CHAINS     - PDB CHAIN LETTERS EXPLICITLY DEFINED
+ *  Keyword:   CHAINS=(AB) 
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *  ADD-H      - ADD HYDROGEN ATOMS TO SATISFY VALENCE
+ *  SITE       - SET IONIZATION LEVELS OF IONIZABLE RESIDUES 
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *  OPT-H      - OPTIMIZE COORDINATES OF ATOMS OF TYPE H
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  USER-DEFINED EXPLICIT COVALENT BONDS:
+ *    CVB=("[LG1]254:B.N2":"[LG1]254:B.O3") 
+ *  GNORM=     - EXIT WHEN GRADIENT NORM DROPS BELOW   5.00    
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+ START_RES=(1A 254B)  CHAINS=(AB) HTML OUTPUT MOZYME CHARGE=0    gnorm=5 noopt opt-h cvb=("[LG1]254:B.N2":"[LG1]254:B.O3") add-H site=(salt,"[LG1]254:B.N2"(0)) +
+geo_dat="KE07 Add Chain Letters.pdb"
+ Add hydrogen atoms to KE07
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1262 H3 N338 O371 S5  =  1979 atoms
+
+
+                RESIDUE SEQUENCE IN PROTEIN Chain: A
+
+             1     2     3     4     5     6     7     8     9    10
+        0   MET   LEU   ALA   LYS   ARG   ILE   ILE   ALA   ALA   LEU   
+       10   ILE   VAL   LYS   ASP   GLY   ARG   VAL   VAL   LYS   GLY   
+       20   SER   ASN   PHE   GLU   ASN   LEU   ARG   ASP   SER   GLY   
+       30   ASP   PRO   VAL   GLU   LEU   GLY   LYS   PHE   TYR   SER   
+       40   GLU   ILE   GLY   ILE   ASP   GLU   LEU   SER   PHE   TRP   
+       50   ASP   ILE   THR   ALA   SER   VAL   GLU   LYS   ARG   LYS   
+       60   THR   MET   LEU   GLU   LEU   VAL   GLU   LYS   VAL   ALA   
+       70   GLU   GLN   ILE   ASP   ILE   PRO   PHE   THR   VAL   GLY   
+       80   GLY   GLY   ILE   HIS   ASP   PHE   GLU   THR   ALA   SER   
+       90   GLU   LEU   ILE   LEU   ARG   GLY   ALA   ASP   LYS   VAL   
+      100   GLU   ILE   ASN   THR   ALA   ALA   VAL   GLU   ASN   PRO   
+      110   SER   LEU   ILE   THR   GLN   ILE   ALA   GLN   THR   PHE   
+      120   GLY   SER   GLN   ALA   VAL   VAL   VAL   TYR   ILE   ALA   
+      130   ALA   LYS   ARG   VAL   ASP   GLY   GLU   PHE   MET   VAL   
+      140   PHE   THR   TYR   SER   GLY   LYS   LYS   ASN   THR   GLY   
+      150   ILE   LEU   LEU   ARG   ASP   TRP   VAL   VAL   GLU   VAL   
+      160   GLU   LYS   ARG   GLY   ALA   GLY   GLU   ILE   VAL   LEU   
+      170   GLY   SER   ILE   ASP   ARG   LEU   GLY   THR   LYS   SER   
+      180   GLY   TYR   ASP   THR   GLU   MET   ILE   ARG   PHE   VAL   
+      190   ARG   PRO   LEU   THR   THR   LEU   PRO   ILE   ILE   ALA   
+      200   HIS   GLY   GLY   ALA   GLY   LYS   MET   GLU   HIS   PHE   
+      210   LEU   GLU   ALA   PHE   LEU   ALA   GLY   ALA   ASP   ALA   
+      220   ALA   LYS   ALA   ASN   SER   VAL   PHE   HIS   PHE   ARG   
+      230   GLU   ILE   ASP   VAL   ARG   GLU   LEU   LYS   GLU   TYR   
+      240   LEU   LYS   LYS   HIS   GLY   VAL   ASN   VAL   ARG   LEU   
+      250   GLU   GLY   LEU   
+
+                RESIDUE SEQUENCE IN PROTEIN Chain: A
+
+        0  MLAKRIIAAL IVKDGRVVKG SNFENLRDSG DPVELGKFYS EIGIDELSFW
+       50  DITASVEKRK TMLELVEKVA EQIDIPFTVG GGIHDFETAS ELILRGADKV
+      100  EINTAAVENP SLITQIAQTF GSQAVVVYIA AKRVDGEFMV FTYSGKKNTG
+      150  ILLRDWVVEV EKRGAGEIVL GSIDRLGTKS GYDTEMIRFV RPLTTLPIIA
+      200  HGGAGKMEHF LEAFLAGADA AKANSVFHFR EIDVRELKEY LKKHGVNVRL
+      250  EGL
+
+          HYDROGEN ATOMS ADDED
+ Hydrogen atom 3990 bonds to "HETATM 3977  N2  LG1 B 254 " and "HETATM 3978  O3  LG1 B 254 "
+            (Keeping bond to "HETATM 3977  N2  LG1 B 254 ")
+
+
+                   Salt Bridges Found (Up to  4.0 Angstroms)
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (ATOM   2064  NH1 ARG A 133)  A133(+)    (ATOM   2875  OE1 GLU A 185)  A185(-)      2.53
+      2  (ATOM    255  NH2 ARG A  16)   A16(+)    (ATOM    452  OD2 ASP A  28)   A28(-)      2.60
+      3  (ATOM    569  NZ  LYS A  37)   A37(+)    (ATOM    642  OE2 GLU A  41)   A41(-)      2.68
+      4  (ATOM     78  NH1 ARG A   5)    A5(+)    (ATOM   2606  OE2 GLU A 167)  A167(-)      2.73
+      5  (ATOM   2988  NH1 ARG A 191)  A191(+)    (ATOM   3401  OD2 ASP A 219)  A219(-)      2.73
+      6  (ATOM   2558  NE  ARG A 163)  A163(+)    (ATOM   2490  OE2 GLU A 159)  A159(-)      2.76
+      7  (ATOM   2789  NZ  LYS A 179)  A179(+)    (ATOM   3587  OE2 GLU A 231)  A231(-)      2.76
+      8  (ATOM    212  NZ  LYS A  13)   A13(+)    (ATOM    232  OD2 ASP A  14)   A14(-)      2.77
+      9  (ATOM   1549  NZ  LYS A  99)   A99(+)    (ATOM    715  OE1 GLU A  46)   A46(-)      2.81
+     10  (ATOM    928  NH2 ARG A  59)   A59(+)    (ATOM   1423  OE2 GLU A  91)   A91(-)      2.82
+     11  (ATOM   3709  NZ  LYS A 238)  A238(+)    (ATOM    701  OD1 ASP A  45)   A45(-)      3.01
+     12  (ATOM   2042  NZ  LYS A 132)  A132(+)    (ATOM   2711  OD1 ASP A 174)  A174(-)      3.01
+     13  (ATOM   2400  NH2 ARG A 154)  A154(+)    (ATOM   2419  OD1 ASP A 155)  A155(-)      3.05
+     14  (ATOM   3897  NE  ARG A 249)  A249(+)    (ATOM   3939  OE1 GLU A 251)  A251(-)      3.18
+     15  (ATOM   1495  NE  ARG A  95)   A95(+)    (ATOM   1071  OE2 GLU A  67)   A67(-)      3.24
+     16  (ATOM   3435  NZ  LYS A 222)  A222(+)    (ATOM   1585  OE1 GLU A 101)  A101(-)      3.58
+     17  (ATOM    949  NZ  LYS A  60)   A60(+)    (ATOM    888  OE1 GLU A  57)   A57(-)      3.59
+
+       Changes in Ionization caused by keyword SITE
+
+       Keyword: "SITE=(SALT,"[LG1]254:B.N2"(0))" =>  SITE=(A133(+),A185(-),A16(+),A28(-),A37(+),
+       A41(-),A5(+),A167(-),A191(+),A219(-),A163(+),A159(-),A179(+),A231(-),A13(+),A14(-),A99(+),
+       A46(-),A59(+),A91(-),A238(+),A45(-),A132(+),A174(-),A154(+),A155(-),A249(+),A251(-),A95(+),
+       A67(-),A222(+),A101(-),A60(+),A57(-),"[LG1]254:B.N2"(0))
+
+      Hydrogen atoms added to     Hydrogen atoms deleted from
+
+  1       NH2 ARG A   5                 OD2 ASP A  14
+  2       NZ  LYS A  13                 OD1 ASP A  28
+  3       NH2 ARG A  16                 OE2 GLU A  41
+  4       NZ  LYS A  37                 OD1 ASP A  45
+  5       NH2 ARG A  59                 OE2 GLU A  46
+  6       NZ  LYS A  60                 OE2 GLU A  57
+  7       NH2 ARG A  95                 OE2 GLU A  67
+  8       NZ  LYS A  99                 OE2 GLU A  91
+  9       NZ  LYS A 132                 OE2 GLU A 101
+ 10       NH2 ARG A 133                 OD2 ASP A 155
+ 11       NH2 ARG A 154                 OE1 GLU A 159
+ 12       NH2 ARG A 163                 OE2 GLU A 167
+ 13       NZ  LYS A 179                 OD2 ASP A 174
+ 14       NH2 ARG A 191                 OE2 GLU A 185
+ 15       NZ  LYS A 222                 OD2 ASP A 219
+ 16       NZ  LYS A 238                 OE2 GLU A 231
+ 17       NH2 ARG A 249                 OE2 GLU A 251
+ 18            -                        N2  LG1 B 254
+
+          Change in net ionization:  -1
+
+          CHARGES MODIFIED BY SITE COMMAND
+
+          GEOMETRY RESEQUENCED
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ * HYDROGEN ATOMS ADDED                                                       *
+ * CHARGES MODIFIED BY SITE COMMAND                                           *
+ * GEOMETRY RESEQUENCED                                                       *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:             0.00 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,325 @@
+ *******************************************************************************
+ ** Site#: 23746        For non-commercial use only     Version 16.027W 64BITS**
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 16.027W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jan 28 11:02:27 2016  *
+ *  START_RES- STARTING RESIDUE NUMBERS DEFINED
+ *  Keyword:   START_RES=(2B-18 1157B 2001B) 
+ *  SETPI      - SOME OR ALL PI BONDS EXPLICITLY SET BY USER
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -1
+ *
+ *
+ *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  GRADIENTS- ALL GRADIENTS TO BE PRINTED
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+START_RES=(2B-18 1157B 2001B)  HTML OUTPUT 1SCF  MOZYME setpi gradients charge=-1 eps=78.4
+ MTH1 B with Hydrogen Atoms added. Optimize positions of H atoms
+
+ 
+
+           Keyword SETPI used, pi-bonds specified are:
+
+               Bond No.          Atom    to    Atom
+                  1             C 2438   -    N 2440
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C798 H1352 N206 O314 S9 P  =  2680 atoms
+
+ Hydrogen atom 2454 has covalent bonds to  O1779 and  O2439
+                         (Keeping bond to  O1779)
+
+   Ion Atom No.           Label               Charge
+ 
+    1   N  284   (ATOM    284  NZ  LYS B  23)   +1  (5.0 Angstroms from anion  O 2447, Label: HETATM 2448  OP1 8OG B1157)
+    2   N  306   (ATOM    306  NZ  LYS B  24)   +1  (2.6 Angstroms from anion  O 1409, Label: ATOM   1409  OE2 GLU B  97)
+    3   C  402   (ATOM    402  CZ  ARG B  31)   +1  (6.2 Angstroms from anion  O 2201, Label: ATOM   2201  OD2 ASP B 143)
+    4   N  505   (ATOM    505  NZ  LYS B  38)   +1  (5.8 Angstroms from anion  O 2447, Label: HETATM 2448  OP1 8OG B1157)
+    5   C  676   (ATOM    676  CZ  ARG B  50)   +1  (3.8 Angstroms from anion  O  631, Label: ATOM    631  OE2 GLU B  46)
+    6   C  700   (ATOM    700  CZ  ARG B  51)   +1  (3.6 Angstroms from anion  O  583, Label: ATOM    583  OE2 GLU B  43)
+    7   N 1991   (ATOM   1991  NZ  LYS B 131)   +1  (3.0 Angstroms from anion  O 2357, Label: ATOM   2357  OE2 GLU B 152)
+    8   C 2055   (ATOM   2055  CE1 HIS B 134)   +1  (5.5 Angstroms from anion  O 2414, Label: ATOM   2414  OXT VAL B 156)
+    9   C 2333   (ATOM   2333  CZ  ARG B 151)   +1  (3.5 Angstroms from anion  O 2471, Label: HETATM 2472  O2  SO4 B1159)
+                                                    (4.5 Angstroms from anion  O 2465, Label: HETATM 2466  O2  SO4 B1158)
+ 
+    1   O  583   (ATOM    583  OE2 GLU B  43)   -1  (3.6 Angstroms from cation  C  700, Label: ATOM    700  CZ  ARG B  51)
+    2   O  631   (ATOM    631  OE2 GLU B  46)   -1  (3.8 Angstroms from cation  C  676, Label: ATOM    676  CZ  ARG B  50)
+    3   O 1409   (ATOM   1409  OE2 GLU B  97)   -1  (2.6 Angstroms from cation  N  306, Label: ATOM    306  NZ  LYS B  24)
+    4   O 2201   (ATOM   2201  OD2 ASP B 143)   -1  (6.2 Angstroms from cation  C  402, Label: ATOM    402  CZ  ARG B  31)
+    5   O 2357   (ATOM   2357  OE2 GLU B 152)   -1  (3.0 Angstroms from cation  N 1991, Label: ATOM   1991  NZ  LYS B 131)
+    6   O 2414   (ATOM   2414  OXT VAL B 156)   -1  (5.5 Angstroms from cation  C 2055, Label: ATOM   2055  CE1 HIS B 134)
+    7   O 2439   (HETATM 2440  O6  8OG B1157)   -1  (7.7 Angstroms from cation  C  402, Label: ATOM    402  CZ  ARG B  31)
+    8   O 2447   (HETATM 2448  OP1 8OG B1157)   -1  (5.0 Angstroms from cation  N  284, Label: ATOM    284  NZ  LYS B  23)
+    9   O 2465   (HETATM 2466  O2  SO4 B1158)   -1  (4.5 Angstroms from cation  C 2333, Label: ATOM   2333  CZ  ARG B 151)
+   10   O 2471   (HETATM 2472  O2  SO4 B1159)   -1  (3.5 Angstroms from cation  C 2333, Label: ATOM   2333  CZ  ARG B 151)
+
+          COMPUTED CHARGE ON SYSTEM: -1
+
+ -------------------------------------------------------------------------------
+START_RES=(2B-18 1157B 2001B)  HTML OUTPUT 1SCF  MOZYME setpi gradients charge=-1 eps=78.4
+ MTH1 B with Hydrogen Atoms added. Optimize positions of H atoms
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 16.027W)
+                                                       Thu Jan 28 11:06:32 2016
+                                                       No. of days remaining = 364
+
+
+
+
+          FINAL HEAT OF FORMATION =     -18040.63192 KCAL/MOL =  -75482.00397 KJ/MOL
+          VAN DER WAALS AREA      =       6407.22 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =    -249270.98464 EV
+          ELECTRONIC ENERGY       =  -26075701.44940 EV
+          CORE-CORE REPULSION     =   25824466.48246 EV
+          DIELECTRIC ENERGY       =        -53.24551 EV
+          COSMO AREA              =       6407.22 SQUARE ANGSTROMS
+          COSMO VOLUME            =      23421.60 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          4.56533
+          NO. OF FILLED LEVELS    =       3759
+          MOLECULAR WEIGHT        =      19176.1644
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            O  2675    H   342    57.43832
+            O  2464    H  1630    39.15159
+            H  2002    H  2541    13.23772
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =  4 MINUTES AND  5.484 SECONDS
+          COMPUTATION TIME        =  7 MINUTES AND 30.843 SECONDS
+
+
+
+
+
+           Empirical Formula: C798 H1352 N206 O314 S9 P  =  2680 atoms
+
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      GLY B   2       +0.012
+      ALA B   3       +0.028
+      SER B   4       -0.040
+      ARG B   5       +0.013
+      LEU B   6       -0.009
+      TYR B   7       +0.002
+      THR B   8       +0.017
+      LEU B   9       +0.011
+      VAL B  10       -0.006
+      LEU B  11       +0.016
+      VAL B  12       -0.023
+      LEU B  13       +0.044
+      VAL B  18       +0.002
+      LEU B  19       -0.050
+      LEU B  20       +0.017
+      GLY B  21       +0.004
+      MET B  22       -0.011
+      LYS B  23       +0.977  CATION
+      LYS B  24       +0.930  CATION
+      ARG B  25       -0.020
+      GLY B  26       +0.029
+      PHE B  27       +0.025
+      GLY B  28       -0.036
+      ALA B  29       +0.035
+      GLY B  30       -0.014
+      ARG B  31       +1.000  CATION
+      TRP B  32       +0.027
+      ASN B  33       +0.000
+      GLY B  34       +0.056
+      PHE B  35       -0.049
+      GLY B  36       -0.007
+      GLY B  37       -0.002
+      LYS B  38       +1.046  CATION
+      VAL B  39       -0.058
+      GLN B  40       +0.041
+      GLU B  41       +0.018
+      GLY B  42       -0.044
+      GLU B  43       -0.814  ANION
+      THR B  44       +0.000
+      ILE B  45       -0.054
+      GLU B  46       -0.972  ANION
+      ASP B  47       -0.049
+      GLY B  48       +0.077
+      ALA B  49       -0.025
+      ARG B  50       +0.960  CATION
+      ARG B  51       +0.955  CATION
+      GLU B  52       -0.079
+      LEU B  53       +0.017
+      GLN B  54       +0.000
+      GLU B  55       +0.051
+      GLU B  56       +0.042
+      SER B  57       -0.025
+      GLY B  58       -0.004
+      LEU B  59       +0.039
+      THR B  60       -0.038
+      VAL B  61       +0.051
+      ASP B  62       -0.072
+      ALA B  63       -0.002
+      LEU B  64       +0.005
+      HIS B  65       +0.000
+      LYS B  66       +0.018
+      VAL B  67       +0.003
+      GLY B  68       -0.030
+      GLN B  69       +0.062
+      ILE B  70       +0.010
+      VAL B  71       -0.004
+      PHE B  72       +0.044
+      GLU B  73       -0.021
+      PHE B  74       +0.036
+      VAL B  75       +0.006
+      GLY B  76       -0.025
+      GLU B  77       +0.007
+      PRO B  78       +0.010
+      GLU B  79       +0.017
+      LEU B  80       +0.014
+      MET B  81       +0.035
+      ASP B  82       -0.072
+      VAL B  83       +0.053
+      HIS B  84       -0.064
+      VAL B  85       -0.015
+      PHE B  86       +0.041
+      CYS B  87       -0.005
+      THR B  88       +0.019
+      ASP B  89       +0.005
+      SER B  90       +0.002
+      ILE B  91       +0.013
+      GLN B  92       -0.010
+      GLY B  93       +0.061
+      THR B  94       -0.066
+      PRO B  95       +0.001
+      VAL B  96       +0.043
+      GLU B  97       -1.010  ANION
+      SER B  98       -0.001
+      ASP B  99       -0.005
+      GLU B 100       +0.000
+      MET B 101       -0.004
+      ARG B 102       -0.021
+      PRO B 103       +0.021
+      CYS B 104       +0.000
+      TRP B 105       +0.030
+      PHE B 106       +0.007
+      GLN B 107       -0.021
+      LEU B 108       +0.008
+      ASP B 109       -0.163
+      GLN B 110       +0.011
+      ILE B 111       -0.002
+      PRO B 112       +0.039
+      PHE B 113       -0.053
+      LYS B 114       +0.064
+      ASP B 115       -0.062
+      MET B 116       -0.012
+      TRP B 117       +0.027
+      PRO B 118       +0.051
+      ASP B 119       -0.721  ANION
+      ASP B 120       -0.002
+      SER B 121       -0.038
+      TYR B 122       +0.055
+      TRP B 123       -0.041
+      PHE B 124       +0.014
+      PRO B 125       +0.020
+      LEU B 126       -0.008
+      LEU B 127       +0.000
+      LEU B 128       -0.042
+      GLN B 129       +0.025
+      LYS B 130       -0.037
+      LYS B 131       +1.010  CATION
+      LYS B 132       +0.012
+      PHE B 133       -0.003
+      HIS B 134       +0.785  CATION
+      GLY B 135       -0.015
+      TYR B 136       +0.010
+      PHE B 137       +0.017
+      LYS B 138       -0.012
+      PHE B 139       +0.027
+      GLN B 140       -0.028
+      GLY B 141       +0.082
+      GLN B 142       -0.015
+      ASP B 143       -1.014  ANION
+      THR B 144       -0.007
+      ILE B 145       -0.015
+      LEU B 146       +0.020
+      ASP B 147       -0.015
+      TYR B 148       -0.044
+      THR B 149       +0.001
+      LEU B 150       -0.031
+      ARG B 151       +0.956  CATION
+      GLU B 152       -0.914  ANION
+      VAL B 153       +0.055
+      ASP B 154       -0.008
+      THR B 155       -0.058
+      VAL B 156       -0.854  ANION
+      8OG B1157       -1.194  ANION
+      SO4 B1158       -0.980  ANION
+      SO4 B1159       -0.848  ANION
+      SO4 B1160       -0.002
+      HOH B2048       +0.153
+ 
+
+
+                   Salt Bridges Found
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (ATOM    306  NZ  LYS B  24)   B24(+)    (ATOM   1409  OE2 GLU B  97)   B97(-)      2.64
+      2  (ATOM    677  NH1 ARG B  50)   B50(+)    (ATOM    631  OE2 GLU B  46)   B46(-)      2.70
+      3  (ATOM   2054  NE2 HIS B 134)  B134(+)    (ATOM   2410  O   VAL B 156)  B156(-)      2.74
+      4  (ATOM   1991  NZ  LYS B 131)  B131(+)    (ATOM   2356  OE1 GLU B 152)  B152(-)      2.75
+      5  (ATOM    702  NH2 ARG B  51)   B51(+)    (ATOM    583  OE2 GLU B  43)   B43(-)      2.82
+      6  (ATOM    404  NH2 ARG B  31)   B31(+)    (ATOM   2200  OD1 ASP B 143)  B143(-)      3.18
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.   144.772    93.658   -45.599   178.354
+ HYBRID        20.878     6.646    -1.923    21.994
+ SUM          165.650   100.304   -47.522   199.397
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:           245.84 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,4 @@
+TS charge=1 eps=78.4 HTML geo_dat="Locate-TS.arc" 
+ Refine Transition State for acid-catalyzed hydrolysis
+ 
+Oldgeo FORCE charge=1 EPS=78.4

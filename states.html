@@ -1,0 +1,339 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>States</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">States</h1>
+Calculating the characters for electronic states is much more complicated than
+that for M.O.s or normal coordinates.
+<p>
+Consider the effect of an operation, <i>R</i>, on a state, &Phi;<sub><i>a</i></sub>.
+The
+character of the operation is given by
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}\chi_{R,a} = &lt;\Phi_a\vert R\vert\Phi_a&gt;.
+\end{displaymath}" height="31" src="img1402.gif" width="133"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+A state function can be expressed as a linear combination of microstates:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}\Phi_a = \sum_jC_{ja}\Psi_j,
+\end{displaymath}" height="44" src="img1403.gif" width="97"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+so the character of the operation on the state function can be written in
+terms of microstates as
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}\chi_{R,a} =\sum_i\sum_jC_{ia}C_{ja}&lt;\Psi_i\vert R\vert\Psi_j&gt;.
+\end{displaymath}" height="44" src="img1404.gif" width="212"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+Each microstate, <i><span class="b">&Psi;</span><sub>j</sub></i>,
+can be represented by a Slater determinant
+of <i>N</i> molecular orbitals
+:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}\Psi_j = \frac{1}{\sqrt{N!}}\sum_{P=1}^{N!}(-1)^PP(\prod_{k=1}^N\psi_k^j)
+\end{displaymath}" height="51" src="img1406.gif" width="192"/>
+</div>
+<br clear="ALL"/>
+<p></p>where the molecular orbitals in the microstate consist of a
+selection of the M.O.s in the  active space.
+Before we continue, let us examine this idea:
+<p>
+Consider a full set of M.O.s:
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}\psi_1\psi_2\psi_3\psi_4 \psi_5 \psi_6 \psi_7 \psi_8 \psi_9
+\psi_{10}\psi_{11}\psi_{12}\psi_{13}\psi_{14}\psi_{15}\psi_{16}.
+\end{displaymath}" height="30" src="img1407.gif" width="315"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+Let the active space be the M.O.s  from 8 to 11.  Then microstates containing
+two electrons would be:
+<div align="CENTER">
+<img align="MIDDLE" alt="$\psi_8\psi_9$" border="0" height="29" src="img1408.gif" width="39"/>
+<img align="MIDDLE" alt="$\psi_8\psi_{10}$" border="0" height="29" src="img1409.gif" width="45"/>
+<img align="MIDDLE" alt="$\psi_8\psi_{11}$" border="0" height="29" src="img1410.gif" width="45"/>
+<img align="MIDDLE" alt="$\psi_9\psi_{10}$" border="0" height="29" src="img1411.gif" width="45"/>
+<img align="MIDDLE" alt="$\psi_9\psi_{11}$" border="0" height="29" src="img1412.gif" width="45"/>
+<img align="MIDDLE" alt="$\psi_{10}\psi_{11}$" border="0" height="29" src="img1413.gif" width="50"/>.
+</div>
+These microstates could be represented by M.O. orbital occupancies.
+<div align="CENTER">
+1100&nbsp;&nbsp;&nbsp;
+1010&nbsp;&nbsp;&nbsp;
+1001&nbsp;&nbsp;&nbsp;
+0110&nbsp;&nbsp;&nbsp;
+0101&nbsp;&nbsp;&nbsp;
+0011.
+</div>
+Remember that the M.O.s here can be of either <span class="b">&alpha;</span>
+or <span class="b">&beta;</span>
+spin.
+<p>
+To continue, we need to evaluate
+<img align="MIDDLE" alt="$&lt;\Psi_i\vert R\vert\Psi_j&gt;$" border="0" height="31" src="img1416.gif" width="88"/>.
+This can be expressed
+in terms of M.O.s as:
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_i\vert R\vert\Psi_j&gt; = \frac{1}{N!}\sum_{P=1}^{N!}(-1)^...
+...i)\vert
+R\vert
+\sum_{Q=1}^{N!}(-1)^QQ(\prod_{l=1}^N\psi_l^j)&gt;.
+\end{displaymath}" height="52" src="img1417.gif" width="422"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+<p>
+For convenience, we will represent the integral
+<img align="MIDDLE" alt="$&lt;\psi_k^i\vert R\vert\psi_l^j&gt;$" border="0" height="35" src="img1418.gif" width="88"/>
+by
+<img align="MIDDLE" alt="$\chi_{kl}^{ij}$" border="0" height="35" src="img1419.gif" width="24"/>.
+This integral can be described as "The integral over M.O. <i>
+&psi;<sub>k</sub></i>
+in microstate <i><span class="b">&Psi;</span></i><sub><i>i</i></sub>
+with the result of operator <i>R</i> acting
+on M.O. <i>&psi;<sub>k</sub></i>
+in microstate <i><span class="b">&Psi;</span><sub>j</sub></i>.
+</p><p>
+Using this abbreviation,
+<img align="MIDDLE" alt="$&lt;\Psi_i\vert R\vert\Psi_j&gt;$" border="0" height="31" src="img1424.gif" width="88"/>
+can be written as:
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_i\vert R\vert\Psi_j&gt; =\frac{1}{N!}\sum_{P=1}^{N!} \sum_...
+...(-1)^P(-1)^Q
+P\prod_{k=1}^{N!}Q\prod_{l=1}^{N!}\chi_{kl}^{ij}.
+\end{displaymath}" height="52" src="img1425.gif" width="334"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+Although it is not immediately obvious, the right-hand term is a determinant,
+of order <i>N</i>:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_i\vert R\vert\Psi_j&gt; =\left\vert
+\begin{array}{cccc}
+\c...
+...\
+\ldots &amp; \ldots &amp; \ldots &amp; \ldots
+\end{array}\right\vert.
+\end{displaymath}" height="87" src="img1426.gif" width="244"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+<p>
+For our purposes, solution of the determinant is best done explicitly. To see
+why, note that the number of M.O.s involved in the C.I. (the active space) is
+very small.  Because of this, the number of electrons, <i>N</i>, in the Slater
+determinants is also small; <i>N</i> has a maximum value of  20.  Next, use can be
+made of the fact that no point-group operation can mix <span class="b">&alpha;</span>
+and <span class="b">&beta;</span> electrons.  This allows the integral to be split into two parts, each of which
+has a maximum value  of <i>N</i>=10. Finally, remember that <i>N</i> is the number of
+electrons, not M.O.s, used in the active space.  A system of <i>N</i> electrons has
+the same symmetry as a system in which all the M.O.s which were occupied were
+replaced with all the M.O.s which were not occupied (the positron
+equivalent)<a name="19482">&nbsp;</a>. (This assumes that if every M.O. were
+occupied, then the state of the system would be totally symmetric.)   Using
+this fact, we can replace the <i>N</i> occupied M.O.s with <i>N</i>' unoccupied M.O.s, if
+<i>N</i>' &lt; <i>N</i>.
+</p><p>
+When these three points are considered, we see that <i>N</i> has a maximum value  of
+5 (for a system of 10 M.O.s).  Each case can be considered separately.
+</p><dl>
+<dt></dt><dd>For <i>N</i> = 1:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_i\vert R\vert\Psi_i&gt; = \frac{1}{1}\sum_{P=1}^{1} \sum_{...
+...{1}(-1)^P(-1)^Q
+P\prod_{k=1}^{1}Q\prod_{l=1}^{1}\chi_{kl}^{ii}
+\end{displaymath}" height="52" src="img1429.gif" width="319"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+or
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_i\vert R\vert\Psi_i&gt; = &lt;\psi_1^i\vert R\vert\psi_1^i&gt; = \chi_{11}^{ii}.
+\end{displaymath}" height="29" src="img1430.gif" width="215"/>
+</div>
+<br clear="ALL"/>
+<p></p></dd><dt></dt><dd>For <i>N</i>=2:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_i\vert R\vert\Psi_j&gt; = \frac{1}{2!}\sum_{P=1}^{2!} \sum...
+...2!}(-1)^P(-1)^Q
+P\prod_{k=1}^{2}Q\prod_{l=1}^{2}\chi_{kl}^{ij}
+\end{displaymath}" height="52" src="img1431.gif" width="326"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+or
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_i\vert R\vert\Psi_j&gt; = &lt;\psi_1^i\vert R\vert\psi_1^j&gt;-&lt;...
+...&gt;
+&lt;\psi_1^i\vert R\vert\psi_2^j&gt;&lt;\psi_1^i\vert R\vert\psi_2^j&gt;
+\end{displaymath}" height="31" src="img1432.gif" width="446"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+or
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_a\vert R\vert\Psi_a&gt; = \chi_{11}^{ij}\chi_{22}^{ij}-\chi_{12}^{ij}\chi_{21}^{ij}.
+\end{displaymath}" height="31" src="img1433.gif" width="204"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+</dd><dt></dt><dd>For <i>N</i>=3:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_i\vert R\vert\Psi_j&gt; = \frac{1}{3!}\sum_{P=1}^{3!} \sum_{Q=1}^{3!}(-1)^P(-1)^Q
+\end{displaymath}" height="52" src="img1434.gif" width="241"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+<br/>
+<div align="CENTER">
+<table align="CENTER" cellpadding="0">
+<tr valign="BASELINE"><td align="RIGHT" nowrap=""><img align="MIDDLE" alt="$\displaystyle &lt;\Psi_i\vert R\vert\Psi_j&gt;$" border="0" height="31" src="img1435.gif" width="88"/></td>
+<td align="CENTER" nowrap="">=</td>
+<td align="LEFT" nowrap=""><img align="MIDDLE" alt="$\displaystyle \ &lt;\psi_1^i\vert R\vert\psi_1^j&gt;&lt;\psi_2^i\vert R\vert\psi_2^j&gt;&lt;\psi_3^i\vert R\vert\psi_3^j&gt;$" border="0" height="36" src="img1436.gif" width="260"/></td>
+<td align="RIGHT">
+&nbsp;</td></tr>
+<tr valign="BASELINE"><td align="RIGHT" nowrap="">&nbsp;</td>
+<td>&nbsp;</td>
+<td align="LEFT" nowrap=""><img align="MIDDLE" alt="$\displaystyle -&lt;\psi_1^i\vert R\vert\psi_1^j&gt;&lt;\psi_2^i\vert R\vert\psi_3^j&gt;&lt;\psi_3^i\vert R\vert\psi_2^j&gt;$" border="0" height="36" src="img1437.gif" width="271"/></td>
+<td align="RIGHT">
+&nbsp;</td></tr>
+<tr valign="BASELINE"><td align="RIGHT" nowrap="">&nbsp;</td>
+<td>&nbsp;</td>
+<td align="LEFT" nowrap=""><img align="MIDDLE" alt="$\displaystyle -&lt;\psi_1^i\vert R\vert\psi_2^j&gt;&lt;\psi_2^i\vert R\vert\psi_1^j&gt;&lt;\psi_3^i\vert R\vert\psi_3^j&gt;$" border="0" height="36" src="img1438.gif" width="271"/></td>
+<td align="RIGHT">
+&nbsp;</td></tr>
+<tr valign="BASELINE"><td align="RIGHT" nowrap="">&nbsp;</td>
+<td>&nbsp;</td>
+<td align="LEFT" nowrap=""><img align="MIDDLE" alt="$\displaystyle +&lt;\psi_1^i\vert R\vert\psi_2^j&gt;&lt;\psi_2^i\vert R\vert\psi_3^j&gt;&lt;\psi_3^i\vert R\vert\psi_1^j&gt;$" border="0" height="36" src="img1439.gif" width="271"/></td>
+<td align="RIGHT">
+&nbsp;</td></tr>
+<tr valign="BASELINE"><td align="RIGHT" nowrap="">&nbsp;</td>
+<td>&nbsp;</td>
+<td align="LEFT" nowrap=""><img align="MIDDLE" alt="$\displaystyle +&lt;\psi_1^i\vert R\vert\psi_3^j&gt;&lt;\psi_2^i\vert R\vert\psi_1^j&gt;&lt;\psi_3^i\vert R\vert\psi_2^j&gt;$" border="0" height="36" src="img1440.gif" width="271"/></td>
+<td align="RIGHT">
+&nbsp;</td></tr>
+<tr valign="BASELINE"><td align="RIGHT" nowrap="">&nbsp;</td>
+<td>&nbsp;</td>
+<td align="LEFT" nowrap=""><img align="MIDDLE" alt="$\displaystyle -&lt;\psi_1^i\vert R\vert\psi_3^j&gt;&lt;\psi_2^i\vert R\vert\psi_2^j&gt;&lt;\psi_3^i\vert R\vert\psi_1^j&gt;$" border="0" height="36" src="img1441.gif" width="271"/></td>
+<td align="RIGHT">
+&nbsp;</td></tr>
+</table></div>
+<br clear="ALL"/><p></p>
+or
+<br/>
+<div align="CENTER">
+<table align="CENTER" cellpadding="0">
+<tr valign="BASELINE"><td align="RIGHT" nowrap=""><img align="MIDDLE" alt="$\displaystyle &lt;\Psi_i\vert R\vert\Psi_j&gt;$" border="0" height="31" src="img1442.gif" width="88"/></td>
+<td align="CENTER" nowrap="">=</td>
+<td align="LEFT" nowrap=""><img align="MIDDLE" alt="$\displaystyle \chi_{11}^{ij}\chi_{22}^{ij}\chi_{33}^{ij}+
+\chi_{12}^{ij}\chi_{23}^{ij}\chi_{31}^{ij}+
+\chi_{13}^{ij}\chi_{21}^{ij}\chi_{32}^{ij}$" border="0" height="36" src="img1443.gif" width="227"/></td>
+<td align="RIGHT">
+&nbsp;</td></tr>
+<tr valign="BASELINE"><td align="RIGHT" nowrap="">&nbsp;</td>
+<td>&nbsp;</td>
+<td align="LEFT" nowrap=""><img align="MIDDLE" alt="$\displaystyle -\chi_{11}^{ij}\chi_{23}^{ij}\chi_{32}^{ij}
+-\chi_{12}^{ij}\chi_{21}^{ij}\chi_{33}^{ij}
+-\chi_{13}^{ij}\chi_{22}^{ij}\chi_{31}^{ij}).$" border="0" height="36" src="img1444.gif" width="249"/></td>
+<td align="RIGHT">
+&nbsp;</td></tr>
+</table></div>
+<br clear="ALL"/><p></p></dd></dl>
+<p>
+For higher numbers of electrons, the associated determinant is solved using
+standard methods.
+</p><p>
+The total character,
+<img align="MIDDLE" alt="$&lt;\Psi_a\vert R\vert\Psi_a&gt;$" border="0" height="31" src="img1445.gif" width="91"/>,
+is obtained by multiplying the
+characters for the <img align="MIDDLE" alt="$\alpha$" border="0" height="29" src="img1446.gif" width="16"/>
+and <img align="MIDDLE" alt="$\beta$" border="0" height="31" src="img1447.gif" width="15"/>
+parts together:
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\Psi_a\vert R\vert\Psi_a&gt; = &lt;\Psi_a^{\alpha}\vert R\vert\Psi_a^{\alpha}&gt;
+&lt;\Psi_a^{\beta}\vert R\vert\Psi_a^{\beta}&gt;.
+\end{displaymath}" height="28" src="img1448.gif" width="285"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+If the positron equivalent is taken for only one set of electrons, e.g. either
+the <span class="b">&alpha;</span> or the <span class="b">&beta;</span>
+set, but not both, then the  character has  to be
+multiplied by the determinant of the M.O. transform.
+<p>
+These expressions can then be used in
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}\chi_{R,a} =\sum_i\sum_jC_{ia}C_{ja}&lt;\Psi_i\vert R\vert\Psi_j&gt;.
+\end{displaymath}" height="44" src="img1451.gif" width="212"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+to give the expectation value for the state. Finally, if the state is
+degenerate, the character is given by summing the components of the state.
+<p>
+For the atom, the Russell-Saunders coupling scheme can be reproduced.
+States allowed are <i>S</i>, <i>P</i>, <i>D</i>, <i>F</i>, <i>G</i>, <i>H</i>, <i>I</i>, <i>K</i>, <i>L</i>, and <i>M</i>. This
+set is more than sufficient to allow all possible Russell-Saunders states
+spanned by a basis set of <i>s</i>, <i>p</i>, and <i>d</i> orbitals to be represented. The
+highest angular momentum achievable with such a basis set is 8, i.e. <i>L</i>. For
+simpler atoms (ones with only a <i>s</i>-<i>p</i> basis set) the allowed states are
+<i>p</i><sup>0</sup>,<i>p</i><sup>6</sup>: <sup>1</sup><i>S</i><sub><i>g</i></sub>,  <i>&nbsp; p</i><sup>1</sup>,<i>p</i><sup>5</sup>: <sup>2</sup><i>P</i><sub><i>u</i></sub>, <i>&nbsp; p</i><sup>2</sup>,<i>p</i><sup>4</sup>:
+<i><sup>1</sup>S<sub>g</sub>+<sup>3</sup>P<sub>g</sub>+<sup>1</sup>D<sub>g</sub></i> ,&nbsp;&nbsp;
+<i>p</i><sup>3</sup>:
+<i><sup>4</sup>S<sub>u</sub>+<sup>2</sup>P<sub>u</sub>+<sup>2</sup>D</i><sub><i>u</i></sub>.
+</p><p>
+For the axial infinite groups, allowed states are: <span class="b">&Sigma;</span>,
+<span class="b">&Pi;</span>, <span class="b">&Delta;</span>,
+<span class="b">&theta;</span>,
+and &Gamma;.
+Even quite simple systems can achieve quite high angular
+momentum, thus acetylene, with a <tt>C.I.=4</tt>  (the
+HOMO <i><span class="b">&pi;</span></i>
+and LUMO <i><span class="b">&pi;</span>*</i>)
+will contain a <i><sup>1</sup>&Gamma;<sub>g</sub></i>
+state,  i.e., the
+angular momentum will be 4.
+</p><p>
+At present J-J coupling is not supported.
+<a name="19578">&nbsp;</a>
+</p></body>
+</html>

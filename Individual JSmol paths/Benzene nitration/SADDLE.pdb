@@ -1,0 +1,29 @@
+HEADER  data-set: G:/sulfate/SADDLE
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun  8 2021 10:11
+REMARK  Heat of Formation = -152.103 Kcal/mol
+HETATM    1  C1  HET A   1       0.343   1.419   0.078  1.00 -0.37      PROT C 
+HETATM    2  C2  HET A   1       1.757   1.336   0.051  1.00  0.06      PROT C 
+HETATM    3  C3  HET A   1       2.520   2.498   0.004  1.00 -0.27      PROT C 
+HETATM    4  C4  HET A   1       1.893   3.744  -0.006  1.00  0.01      PROT C 
+HETATM    5  C5  HET A   1       0.495   3.839  -0.044  1.00 -0.26      PROT C 
+HETATM    6  C6  HET A   1      -0.276   2.690  -0.031  1.00  0.02      PROT C 
+HETATM    7  N   HET B   1      -0.345   0.598   1.629  1.00  0.68      PROT N 
+HETATM    8  H2  HET A   1       2.228   0.342   0.036  1.00  0.20      PROT H 
+HETATM    9  H3  HET A   1       3.609   2.437  -0.018  1.00  0.17      PROT H 
+HETATM   10  H4  HET A   1       2.494   4.659   0.010  1.00  0.16      PROT H 
+HETATM   11  H5  HET A   1       0.024   4.822  -0.069  1.00  0.17      PROT H 
+HETATM   12  H6  HET A   1      -1.370   2.743  -0.070  1.00  0.18      PROT H 
+HETATM   13  O1  HET D   1      -0.062  -0.525   1.693  1.00 -0.02      PROT O 
+HETATM   14  O2  HET D   1      -0.864   1.464   2.231  1.00 -0.21      PROT O 
+HETATM   15  O   HOH E   2      -2.496   0.326   0.552  1.00 -0.78      PROT O 
+HETATM   16  H4  SO4 H   3      -0.137   0.491  -0.558  1.00  0.38      PROT H 
+HETATM   17 1H   HOH E   2      -3.411   0.227   0.785  1.00  0.35      PROT H 
+HETATM   18 2H   HOH E   2      -2.330  -0.360  -0.136  1.00  0.40      PROT H 
+HETATM   19  S   SO4 H   3      -0.406  -2.221  -1.168  1.00  2.65      PROT S 
+HETATM   20  O1  SO4 H   3      -0.505  -3.257  -0.160  1.00 -0.93      PROT O 
+HETATM   21  O2  SO4 H   3      -1.990  -1.549  -1.289  1.00 -0.93      PROT O 
+HETATM   22  O3  SO4 H   3      -0.135  -2.579  -2.547  1.00 -0.96      PROT O 
+HETATM   23  O4  SO4 H   3       0.309  -0.981  -0.690  1.00 -1.09      PROT O 
+HETATM   24  H2  SO4 H   3      -2.334  -1.498  -2.179  1.00  0.38      PROT H 
+END

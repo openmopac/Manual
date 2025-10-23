@@ -1,0 +1,3 @@
+geo_dat="FORCE and IRC starting from LOCATE-TS.arc" +
+irc=1* drc restart eps=78.4 html charge=-1 x-priority=0.05 cycles=100
+DRC for Cl(-) + CH3Cl <=> CH3Cl + Cl(-) (Aq)

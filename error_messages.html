@@ -1,0 +1,765 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Error messages produced by MOPAC </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>Error messages produced by MOPAC </h1>
+<p>&nbsp;MOPAC produces several hundred messages, all of which are intended to be self-explanatory. However, when an error occurs it is useful to have more information than is given in the standard messages. </p>
+<p>The following alphabetical list gives more complete definitions of the messages printed. </p>
+<b><tt><dl>
+<dt>1SCF SPECIFIED WITH PATH. ...</dt></dl></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The pair of options, <tt>1SCF</tt> with a path calculation, is not allowed, except in a <a href="restart.html"><tt><font color="#0000ff"><u>RESTART</u></font></tt></a> calculation. <a name="BM34608">&nbsp;</a> <a name="BM34609">&nbsp;</a> </dd>
+<b><tt><dt>A SINGLE ATOM HAS NO VIBRATIONAL MODES</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An attempt has been made to calculate the vibrations of a single atom. The smallest system that can have vibrations is a diatomic molecule. <a name="BM34611">&nbsp;</a> <a name="BM34612">&nbsp;</a> <a name="BM34613">&nbsp;</a> <a name="BM34614">&nbsp;</a> </dd>
+<b><tt><dt>A SYMMETRY FUNCTION IS USED TO DEFINE A NON-EXISTENT ATOM</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+<a href="symmetry.html"><font color="#0000ff"><u>S</u></font><u><font color="#0000FF">ymmetry</font></u></a> functions can only be used in the definition of atoms or dummy atoms. Check the dependent atom numbers in the symmetry data. <a name="BM34616">&nbsp;</a> <a name="BM34617">&nbsp;</a> <a name="BM34618">&nbsp;</a> <a name="BM34619">&nbsp;</a> </dd>
+<b><tt><dt>ALL CONVERGERS ARE NOW FORCED ON</dt></tt></b>
+<dd>&nbsp; <br/>
+The default SCF <a href="SCF_convergence.html">convergers</a> have not worked. A new set of convergers will be tried. This is often caused by faulty data, so the data should be checked to see if anything is wrong. This sometimes happens naturally, particularly with exotic systems. <a name="BM34621">&nbsp;</a> </dd>
+<tt>
+<b><dt>ANALYTIC C.I. DERIVATIVES DO NOT WORK...</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The analytical C.I. derivative calculation failed. Add <a href="noanci.html"><tt><font color="#0000ff"><u>NOANCI</u></font></tt></a> or <a href="uhf.html"><tt><font color="#0000ff"><u>UHF</u></font></tt></a> and re-run. <a name="BM34632">&nbsp;</a> <a name="BM34633">&nbsp;</a> </dd>
+<b><tt><dt>ANALYTICAL DERIVATIVES TOO INACCURATE...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The analytical C.I. derivative calculation failed. Add <a href="noanci.html"><tt><font color="#0000ff"><u>NOANCI</u></font></tt></a> or <a href="uhf.html"><tt><font color="#0000ff"><u>UHF</u></font></tt></a> and re-run. <a name="BM34637">&nbsp;</a> <a name="BM34638">&nbsp;</a> </dd>
+<tt>
+<b><dt>AT LEAST ONE ATOM HAS A ZERO MASS</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a <a href="force.html"><tt><font color="#0000ff"><u>FORCE</u></font></tt></a> calculation, the mass of an atom is zero. To correct this,
+<a href="Isotope_specification.html">give the mass explicitly</a>. <a name="BM34650">&nbsp;</a> <a name="BM34651">&nbsp;</a> </dd>
+<b><tt><dt>At this point, both reactants ...</dt></tt></b>
+<dd>&nbsp; <br/>
+In a <a href="saddle.html"><tt><font color="#0000ff"><u>SADDLE</u></font></tt></a> calculation, both reactants and products are on the same side of the transition state. Options at this point are: <a name="BM34654">&nbsp;</a> </dd>
+<dd>If it is near to the transition state (the gradient norm has been dropping for reactants or products, or the "DISTANCE A-B" is small, e.g. less than 0.2), refine the geometry using <a href="ts.html"><tt><font color="#0000ff"><u>TS</u></font></tt></a>. </dd>
+<dd>If it is not near to the transition state, identify geometries on both sides of the transition state (these will be separated in the output by the message "REACTANTS AND PRODUCTS SWAPPED AROUND"), and use these to start a new <tt>SADDLE</tt> calculation. Add <a href="bar.html"><tt><font color="#0000ff"><u>BAR=<i>n</i>.<i>nn</i></u></font></tt></a>. </dd>
+<dd>If CPU time is not important, add <tt>BAR=0.02</tt> to the original data set and re-run. </dd>
+<b><tt><dt>Atom <i>nn</i> is Cartesian...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An attempt has been made to use <u><a href="symmetry.html#isym">
+<font color="#0000FF">symmetry</font></a></u> function 19 (the bond length is a multiple of the reference bond length) using an atom whose position is defined using Cartesian coordinates. Correct the error and re-run. <a name="BM34662">&nbsp;</a> <a name="BM34663">&nbsp;</a> </dd>
+<b><tt><dt>Atom <i>nn</i> is internal...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An attempt has been made to use  <u><a href="symmetry.html#cart"><font color="#0000FF">
+symmetry</font></a></u> function 18 (the "<i>z</i>" coordinate is set equal to minus the reference "<i>y</i>" coordinate) using an atom whose position is defined using internal coordinates. Correct the error and re-run. <a name="BM34665">&nbsp;</a> <a name="BM34666">&nbsp;</a> </dd>
+<b><tt><dt>ATOM NUMBER <i>nn</i> IS ILLDEFINED</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The <a href="int_coord_def.html">rules</a> for definition of atom connectivity are: <a name="BM34668">&nbsp;</a> <a name="BM34669">&nbsp;</a> </dd>
+<dt>1. Atom 1 has no connectivity. </dt>
+<dt>2. Atom 2 can be Cartesian or internal. If internal, it must be defined with connectivity (1,0,0). </dt>
+<dt>3. Atom 3 can be Cartesian or internal. If internal, it must be defined with connectivity (2,1,0) or (1,2,0). </dt>
+<dt>4. All other atoms can be Cartesian or internal. If internal, they must be defined in terms of already-defined atoms: these atoms must all be different. Thus atom 9 might be connected to atom 5, make an angle with atom 6, and have a dihedral with atom 7. If the dihedral was with atom 5, then the geometry definition would be faulty. </dt>
+<p>If any of these rules is broken, a fatal error message is printed, and the calculation stopped. </p>
+<b><tt><dl>
+<dt>ATOMIC MASS OF ATOM <i>nn</i> TOO SMALL</dt></dl></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a <a href="drc0.html"><tt><font color="#0000ff"><u>DRC</u></font></tt></a> calculation, all atoms must have masses greater than 0.1 times the mass of a hydrogen atom. If
+<a href="sparkles.html">sparkles</a> are used, these have no default mass. Atom masses are specified as numbers after the symbol, e.g. H1.008 or +12.00 (for a "+" sparkle having a mass of 12.00.) <a name="BM34674">&nbsp;</a> <a name="BM34675">&nbsp;</a> </dd>
+<b><tt><dt>ATOMIC NUMBER <i>nn</i> IS NOT AVAILABLE ...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An element has been used for which parameters are not available. Only if a 
+typographic error has been made can this be rectified.&nbsp; This is a fatal error message. <a name="BM34678">&nbsp;</a> <a name="BM34679">&nbsp;</a> </dd>
+<b><tt><dt>ATOMIC NUMBER OF <i>nn</i> ?</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An atom has been specified with a negative or zero atomic number. This is normally caused by forgetting to specify an atomic number or symbol. This is a fatal error message. <a name="BM34681">&nbsp;</a> <a name="BM34682">&nbsp;</a> </dd>
+<b><tt><dt>ATOMS <i>nn</i> AND <i>nn</i> ARE SEPARATED BY nn.nnnn ANGSTROMS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Two genuine atoms (not dummies) are separated by a very small distance. This can occur when a complicated geometry is being optimized, in which case the user may wish to continue. This can be done by using the keyword <a href="geo-ok.html"><tt><font color="#0000ff"><u>GEO-OK</u></font></tt></a>. More often, however, this message indicates a mistake, and the calculation is, by default, stopped. <a name="BM34685">&nbsp;</a> <a name="BM34686">&nbsp;</a> </dd>
+<b><tt><dt>ATTEMPT TO GO DOWNHILL IS UNSUCCESSFUL ...</dt></tt></b>
+<dd>&nbsp; <br/>
+A quite rare message, produced by Bartel's gradient<a name="BM34688">&nbsp;</a> norm minimization. Bartel's method attempts to minimize the gradient norm by searching the gradient space for a minimum. Apparently a minimum has been found, but not recognized as such. The program has searched in all 3<i>N</i>-6 directions, and found no way down, but the criteria for a minimum have not been satisfied. No advice is available for getting round this error. <a name="BM34689">&nbsp;</a> <a name="BM34690">&nbsp;</a> </dd>
+<tt>
+<b><dt>BOTH GEOMETRIES ARE IDENTICAL</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The <a href="saddle.html"><tt><font color="#0000ff"><u>SADDLE</u></font></tt></a> technique uses two geometries, one for the reactant(s) and one for the product(s). These must be different. Correct fault and re-run. <a name="BM34696">&nbsp;</a> <a name="BM34697">&nbsp;</a> </dd>
+<b><tt><dt>BOTH SYSTEMS ARE ON THE SAME SIDE ...</dt></tt></b>
+<dd>&nbsp; <br/>
+A non-fatal message, but still cause for concern. During a <tt> <a href="saddle.html"><u><font color="#0000ff">SADDLE</font></u></a></tt>
+calculation the two geometries involved are on opposite sides of the transition state
+(TS). This situation is verified at every point by calculating the cosine of the angle between the two gradient vectors. For as long as it is negative, then the two geometries are on opposite sides of the TS. If, however, the cosine becomes positive, then the assumption is made that one moiety has fallen over the TS and is now below the other geometry. That is, it is now further from the TS than the other, temporarily fixed, geometry. To correct this, identify geometries corresponding to points on each side of the TS. (Two geometries on the output separated by the message <tt>"SWAPPING..."</tt>) and make up a new data-file using these geometries. This corresponds to points on the reaction path near to the TS. Run a new job using these two geometries, but with <a href="bar.html"><tt><font color="#0000ff"><u>
+BAR</u></font></tt></a> set to a third or a quarter of its original value, e.g. <tt>BAR=0.05</tt>. This normally allows the TS to be located. <a name="BM34703">&nbsp;</a> <a name="BM34704">&nbsp;</a> </dd>
+<b><tt><dt>C.I. IS OF SIZE LESS THAN ROOT SPECIFIED</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The value of <i>n</i> in <a href="root.html"><tt><font color="#0000ff"><u>ROOT=<i>n</i></u></font></tt></a> is less than the size of the C.I. </dd>
+<dd><a href="ci=n.html">The sizes of various C.I. matrices</a>, implied by <tt>C.I.=<i>m</i></tt> appear elsewhere . <a name="BM34711">&nbsp;</a> </dd>
+<b><tt>
+<dt>C.I. NOT ALLOWED WITH UHF</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+There is no UHF configuration interaction calculation in MOPAC. Either remove the keyword that implies C.I. or the word  <a href="uhf.html"><tt><font color="#0000ff"><u>UHF</u></font></tt></a>. <a name="BM34713">&nbsp;</a> <a name="BM34714">&nbsp;</a> </dd>
+<b><tt><dt>CALCULATION ABANDONED AT THIS POINT</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A particularly annoying message! In order to define an atom's position, the three atoms used in the connectivity table must not accidentally fall into a straight line. This can happen during a geometry optimization or gradient minimization. If they do, and if the angle made by the atom being defined is not zero or 180 degrees, then its position becomes ill-defined. This is not desirable, and the calculation will stop in order to allow corrective action to be taken. Note that if the three atoms are in an exactly straight line, this message will not be triggered. <a name="BM34716">&nbsp;</a> <a name="BM34717">&nbsp;</a> </dd>
+<b><tt><dt>Cannot open </dt></tt><font face="Courier New" size="2"><em>filename</em></font><tt>.out!</tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The program cannot open the output file. Possible causes are (a) the file already exists, but is owned by another user, (b) the subdirectory is "read only", (c) there is no space left on the partition (unlikely). <a name="BM35662">&nbsp;</a> <a name="BM35663">&nbsp;</a> </dd>
+<b><tt><dt>Cannot write density matrix to </dt></tt><font face="Courier New" size="2"><em>filename</em></font><tt>.den</tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The program cannot open the density restart file. Possible causes are (a) the file already exists, but is owned by another user, (b) the subdirectory is "read only", (c) there is no space left on the partition (unlikely). <a name="BM34722">&nbsp;</a> <a name="BM34723">&nbsp;</a> </dd>
+<b><tt><dt>CARTESIAN CALCULATION NOT ALLOWED WITH ...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+<a href="xyz.html"><tt><font color="#0000ff"><u>XYZ</u></font></tt></a> is not allowed when geometries are specified using GAUSSIAN format. To allow <tt>XYZ</tt> to be used, first do a <a href="zero_scf.html"><tt><font color="#0000ff"><u>0SCF</u></font></tt></a> calculation to convert GAUSSIAN format geometry into the MOPAC format. <a name="BM34728">&nbsp;</a> <a name="BM34729">&nbsp;</a> </dd>
+<b><tt><dt>CHARGE ON ATOM <i>N</i> UNREASONABLE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The range of allowed charges for an atom is limited. Allowed charges are: Group I: +1; II: +1, +2; III: +1, +2, +3; IV: -1, +1; V: +1; VI: -1, -2; VII: -1. Any charges outside these ranges are considered unreasonable. <a name="BM34731">&nbsp;</a> <a name="BM34732">&nbsp;</a> </dd>
+<dd>Correct the geometry and re-run. </dd>
+<b><tt><dt>Connectivity of atom <i>NN</i>...</dt></tt></b>
+<dd>&nbsp; <br/>
+The rules for definition of atom connectivity are: <a name="BM34734">&nbsp;</a> <a name="BM34735">&nbsp;</a> </dd>
+<dt>1. Atom 1 has no connectivity. </dt>
+<dt>2. Atom 2 can be Cartesian or internal. If internal, it must be defined with connectivity (1,0,0). </dt>
+<dt>3. Atom 3 can be Cartesian or internal. If internal, it must be defined with connectivity (2,1,0) or (1,2,0). </dt>
+<dt>4. All other atoms can be Cartesian or internal. If internal, they must be defined in terms of already-defined atoms: these atoms must all be different. Thus atom 9 might be connected to atom 5, make an angle with atom 6, and have a dihedral with atom 7. If the dihedral was with atom 5, then the geometry definition would be faulty. </dt>
+<p>If any of these rules is broken, a fatal error message is printed, and the calculation stopped. </p>
+<b><tt><dl>
+<dt>COORDINATES MUST BE CARTESIAN</dt></dl></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a <a href="drc0.html"><tt><font color="#0000ff"><u>DRC</u></font></tt></a> calculation, in which an initial velocity is to be used, the geometry must be supplied in Cartesian coordinates, in order for the velocity to be meaningful. If it is essential that internal coordinates be used for the geometry, add <a href="let.html"><tt><font color="#0000ff"><u>LET</u></font></tt></a>, and re-run. The velocity vector, however, must still be in Cartesian coordinates. <a name="BM34741">&nbsp;</a> <a name="BM34742">&nbsp;</a> </dd>
+<b><tt><dt>CROSS requires ROOT=2 or higher</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In an intersystem crossing calculation, the crossing is defined in terms of the higher energy state. Because of this, <a href="root.html"><tt><font color="#0000ff"><u>ROOT=<i>n</i></u></font></tt></a> <em>must</em> be used, and <i>n</i> <tt>must</tt> be more than 1. <a name="BM34747">&nbsp;</a> <a name="BM34748">&nbsp;</a> </dd>
+<tt>
+<b><dt>DATA ARE NOT AVAILABLE FOR ELEMENT NO. <i>N</i></dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; </dd>
+<dd>Parameters are not available for the element with atomic number <i>N</i>. If new parameters are available, these can be supplied to MOPAC by use of <a href="external.html"><u><font color="#0000ff"><tt>EXTERNAL=</tt></font></u></a>. <a name="BM34759">&nbsp;</a> <a name="BM34760">&nbsp;</a> </dd>
+<tt>
+<b><dt>DEGENERATE LEVELS DETECTED IN MECI ...</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+If only some M.O.s of a degenerate manifold are used in a MECI calculation, the results will be nonsense. To prevent such calculations, the message <tt>DEGENERATE LEVELS ...</tt> is printed, and the job stopped. To continue, specify <a href="geo-ok.html"><tt><font color="#0000ff"><u>GEO-OK</u></font></tt></a>. <tt>
+<b><dt>DENSITY FILE MISSING OR CORRUPT</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a run involving <a href="oldens.html"><tt><font color="#0000ff"><u>OLDENS</u></font></tt></a>, the old density matrix, in <img align="MIDDLE" alt="$&lt;!$" height="29" src="img1939.gif" width="15"/>filename<img align="MIDDLE" alt="$" height="29" src="img1940.gif" width="15"/>.den, is either missing or corrupt. Either generate a new <img align="MIDDLE" alt="$&lt;!$" height="29" src="img1941.gif" width="15"/>filename<img align="MIDDLE" alt="$" height="29" src="img1942.gif" width="15"/>.den file
+using <a href="one_scf.html"><tt><font color="#0000ff"><u>1SCF</u></font></tt></a> and <a href="denout.html"><tt><font color="#0000ff"><u>DENOUT</u></font></tt></a> or do not use <tt>OLDENS</tt>. <a name="BM34779">&nbsp;</a> <a name="BM34780">&nbsp;</a> </dd>
+<b><tt><dt>Density Restart File missing or corrupt</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a run involving <a href="oldens.html"><tt><font color="#0000ff"><u>OLDENS</u></font></tt></a>, the old density matrix, in <img align="MIDDLE" alt="$&lt;!$" height="29" src="img1943.gif" width="15"/>filename<img align="MIDDLE" alt="$" height="29" src="img1944.gif" width="15"/>.den, is either missing or corrupt. Either generate a new <img align="MIDDLE" alt="$&lt;!$" height="29" src="img1945.gif" width="15"/>filename<img align="MIDDLE" alt="$" height="29" src="img1946.gif" width="15"/>.den file using <a href="one_scf.html"><tt><font color="#0000ff"><u>
+SCF</u></font></tt></a> and <a href="denout.html"><tt><font color="#0000ff"><u>DENOUT</u></font></tt></a> or do not use <tt>OLDENS</tt>. <a name="BM34786">&nbsp;</a> <a name="BM34787">&nbsp;</a> </dd>
+<b><tt><dt>DIPOLE CONSTRAINTS NOT USED</dt></tt></b>
+<dd>&nbsp; <br/>
+An attempt had been made to run an <a href="esp.html"><tt><font color="#0000ff"><u>ESP</u></font></tt></a> calculation, with dipole constraints, on an ionized system. This is not allowed, the keyword <tt><a href="dipole.html"><u><font color="#0000ff">DIPOLE</font></u></a><u><font color="#0000FF">
+</font></u></tt>will be ignored and the calculation allowed to proceed. <a name="BM34791">&nbsp;</a> </dd>
+<b><tt><dt>DUE TO A PROGRAM BUG, THE FIRST THRE...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Due to a problem caused by the definition of internal coordinates, the first three atoms must not form a straight line. <a name="BM34793">&nbsp;</a> <a name="BM34794">&nbsp;</a> </dd>
+<b><tt><dt>ECHO is not allowed at this point</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+<a href="echo.html"><tt><font color="#0000ff"><u>ECHO</u></font></tt></a> can only be used at the start of a run. If the run has several geometries, and at least one is in GAUSSIAN format, then <tt>ECHO</tt> would cause an infinite loop to be created. Remove <tt>ECHO</tt> and re-run. <a name="BM34799">&nbsp;</a> <a name="BM34800">&nbsp;</a> </dd>
+<b><tt><dt>EIGENVECTOR FOLLOWING IS NOT RECOMMENDED...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+If internal coordinates are used, the maximum number of variables is 3<i>N</i>-6. If Cartesian coordinates are used, up to 3<i>N</i> variables can be used. If <a href="geo-ok.html"><tt><font color="#0000ff"><u>GEO-OK</u></font></tt></a> is present, any number of variables can be used. <a name="BM34803">&nbsp;</a> <a name="BM34804">&nbsp;</a> </dd>
+<b><tt><dt>EITHER ADD 'LET' OR ...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A <a href="force.html"><tt><font color="#0000ff"><u>FORCE</u></font></tt></a> calculation is <em>only</em> meaningful if the geometry is at a stationary point. Either add <a href="let.html"><tt><font color="#0000ff"><u>LET</u></font></tt></a>, to run the current geometry, or refine the geometry and re-run. <a name="BM34809">&nbsp;</a> <a name="BM34810">&nbsp;</a> </dd>
+<b><tt><dt>ELEMENT NOT FOUND</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When an external file is used to redefine MNDO, AM1, PM3, RM1, or MNDO-<i>d </i>parameters, the chemical symbols used must correspond to known elements. Any that do not will trigger this fatal message. <a name="BM34812">&nbsp;</a> <a name="BM34813">&nbsp;</a> <a name="BM34814">&nbsp;</a><a name="BM34815"></a>&nbsp;<a name="BM34816"></a>&nbsp;<a name="BM34817"></a>&nbsp; </dd>
+<b><tt><dt>ELEMENT NOT RECOGNIZED</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When a Gaussian data set is supplied, the chemical symbols used must correspond to known elements. Any that do not will trigger this fatal message. Correct the data set and re-run. <a name="BM34819">&nbsp;</a> <a name="BM34820">&nbsp;</a> </dd>
+<b><tt><dt>ERROR TOO MANY NEIGHBORS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An extraordinarily difficult error to make. An atom has more than 200 neighboring atoms, in an <a href="esp.html"><tt><font color="#0000ff"><u>ESP</u></font></tt></a> or <a href="pmep.html"><tt><font color="#0000ff"><u>PMEP</u></font></tt></a> calculation. <a name="BM34824">&nbsp;</a> <a name="BM34825">&nbsp;</a> </dd>
+<b><tt><dt>ERROR DETECTED DURING READ...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a <tt>PATH</tt> calculation involving a <a href="restart.html"><tt><font color="#0000ff"><u>RESTART</u></font></tt></a>, the <tt>RESTART</tt> file is faulty--damaged or corrupt. To correct this, start over again. <a name="BM34830">&nbsp;</a> <a name="BM34831">&nbsp;</a> </dd>
+<tt>
+<b><dt>ERROR DURING READ AT ATOM NUMBER ...</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Something is wrong with the geometry data. In order to help find the error, the geometry already read in is printed. The error lies either on the last line of the geometry printed, or on the next (unprinted) line. This is a fatal error. <a name="BM34838">&nbsp;</a> <a name="BM34839">&nbsp;</a> </dd>
+<b><tt><dt>Error in BLAS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34841">&nbsp;</a> </dd>
+<tt>
+<b><dt>Error in EF</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34846">&nbsp;</a> </dd>
+<b><tt><dt>Error in GETGEO</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34848">&nbsp;</a> </dd>
+<b><tt><dt>Error in GETMEM</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34850">&nbsp;</a> </dd>
+<b><tt><dt>Error in GREENF</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34852">&nbsp;</a> </dd>
+<b><tt><dt>Error in MOLDAT.</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34854">&nbsp;</a> </dd>
+<b><tt><dt>Error in PATHS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34856">&nbsp;</a> </dd>
+<b><tt><dt>Error in PMEP</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34858">&nbsp;</a> </dd>
+<b><tt><dt>ERROR IN READ OF FIRST THREE LINES</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The data-set has a severe error in the first three lines. This is a very unusual error, and indicates that the data-set is likely to be severely in error, or that MOPAC has not been installed correctly. <a name="BM34860">&nbsp;</a> <a name="BM34861">&nbsp;</a> </dd>
+<b><tt><dt>Error in READMO</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34863">&nbsp;</a> </dd>
+<b><tt><dt>Error in TOM</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34865">&nbsp;</a> </dd>
+<b><tt><dt>Error in UPDATE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34867">&nbsp;</a> </dd>
+<b><tt><dt>Error in USAGE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error is caused by a program bug. Please make a report to Dr.&nbsp;Stewart. <a name="BM34869">&nbsp;</a> </dd>
+<b><tt><dt>ERROR!! MODE IS LARGER...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a system of <i>N</i> variables, a request has been made to follow the <i>M</i>th mode, where <i>M</i>&gt;<i>N</i>. Correct the data and re-run. <a name="BM34871">&nbsp;</a> <a name="BM34872">&nbsp;</a> </dd>
+<tt>
+<b><dt>ERRORS DETECTED IN CONNECTIVITY</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The <a href="int_coord_def.html">connectivity in the MOPAC internal coordinate Z-matrix</a> is faulty. <a name="BM34880">&nbsp;</a> <a name="BM34881">&nbsp;</a> </dd>
+<b><tt><dt>EXCITED USED WITH TRIPLET</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+<tt>EXCITED</tt> implies the first singlet excited state. This cannot be used if <tt>TRIPLET</tt> is requested. Correct the data set and re-run. <a name="BM34885">&nbsp;</a> <a name="BM34886">&nbsp;</a> </dd>
+<b><tt><dt>EXTERNAL PARAMETERS FILE MISSING OR EMPTY</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+<tt>EXTERNAL=<i>text</i></tt> has been specified, but the file <i>text</i> is either missing or empty. <a name="BM34889">&nbsp;</a> <a name="BM34890">&nbsp;</a> </dd>
+<b><tt><dt>FAILED IN SEARCH, SEARCH CONTINUING</dt></tt></b>
+<dd> <br/>
+Not a fatal error. The McIver-Komornicki<a name="BM34892">&nbsp;</a> gradient minimization involves use of a line-search to find the lowest gradient. This message is merely advice. However, if <a href="sigma.html"><tt><font color="#0000ff"><u>SIGMA</u></font></tt></a> takes a long time, consider doing<a name="BM34895">&nbsp;</a><a name="BM34896"></a>&nbsp; something else, such as using <a href="ts.html"><tt><font color="#0000ff"><u>TS</u></font></tt></a> or <a href="nllsq.html"><tt><font color="#0000ff"><u>NLLSQ</u></font></tt></a>, or refining the geometry a bit before resubmitting it to <tt>SIGMA</tt>. </dd>
+<b><tt><dt>FAILED TO ACHIEVE SCF. </dt>
+</tt></b><dd>&nbsp; <br/>
+The SCF calculation failed to go to completion; an unwanted and depressing message that unfortunately appears every so often. <a name="BM34902">&nbsp;</a> <a name="BM34903">&nbsp;</a> </dd>
+<dd>To date three unconditional convergers have appeared in the literature: the <tt>SHIFT<a name="BM34905"></a></tt>&nbsp; technique, Pulay's method, and the Camp-King converger. It would not be fair to the authors to condemn their methods. In MOPAC all sorts of weird and wonderful systems are calculated, systems the authors of the convergers never dreamed of. MOPAC uses a combination of all three convergers at times. Normally only a quadratic damper is used. </dd>
+<dd>If this message appears, suspect first that the calculation might be faulty, then, if you feel confident, use <tt>PL</tt> to monitor a single SCF. Based on the SCF results either increase the number of allowed iterations (default: 200) or use <tt>PULAY</tt>, or Camp-King, or a mixture. </dd>
+<dd>If nothing works, then consider slackening the SCF criterion. This will allow heats of formation to be calculated with reasonable precision, but the gradients are likely to be imprecise. </dd>
+<b><tt><dt>Fatal error in reading from channel 9</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A fatal error has occurred during an attempted restart of a <a href="drc0.html"><tt><font color="#0000ff"><u>DRC</u></font></tt></a> or <a href="irc0.html"><tt><font color="#0000ff"><u>IRC</u></font></tt></a> calculation. Likely causes are: </dd>
+<dd>The restart file does not exist. </dd>
+<dd>The restart file is from a different type of job. </dd>
+<dd>The restart file was written in FORMATTED or UNFORMATTED code, and an attempt was made to read it in in the other code. This is most likely to happen if MOPAC has been recompiled between runs. </dd>
+<b><tt><dt>Fatal error in trying to open RESTART file</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a <a href="force.html"><tt><font color="#0000ff"><u>FORCE</u></font></tt></a> calculation, the <a href="restart.html"><tt><font color="#0000ff"><u>RESTART</u></font></tt></a> file is missing. Remove <b>RESTART</b> and re-run. <a name="BM34917">&nbsp;</a> <a name="BM34918">&nbsp;</a> </dd>
+<b><tt><dt>FAULT DETECTED IN INTERNAL COORDINATES</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The nature of the fault in the internal coordinates is described in the output file immediately before this message. Correct fault and re-run. <a name="BM34920">&nbsp;</a> <a name="BM34921">&nbsp;</a> </dd>
+<b><tt><dt>FAULT IN READ OF AB INITIO DERIVATIVES</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="aider.html"><tt><font color="#0000ff"><u>AIDER</u></font></tt></a> is used, the <em>ab initio</em> derivatives must be supplied after the Z-matrix. Correct fault and re-run. <a name="BM34925">&nbsp;</a> <a name="BM34926">&nbsp;</a> </dd>
+<b><tt><dt>FAULTY LINE: <i>text</i></dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An error was detected during the read of an <a href="external.html"><u><font color="#0000ff"><tt>EXTERNAL</tt></font></u> parameter set</a>. An unrecognized parameter type was used. </dd>
+<dd><a name="BM34930">&nbsp;</a> <a name="BM34931">&nbsp;</a> </dd>
+<b><tt><dt>FILE </dt></tt>"C:\program 
+files\mopac\password for MOPAC2007" is currently inaccessible.&nbsp; Correct 
+this fault before continuing</b><strong> (FATAL)</strong>
+<dd>MOPAC2007 attempted to read the license key file.&nbsp; The file exists, but 
+MOPAC is unable to read it.&nbsp; Check the permissions and ownership of the 
+file, and make sure that the file can be read. (Try opening it with notepad. If 
+it cannot be opened, then MOPAC can't read it.)</dd>
+<dd>&nbsp;
+<b><tt><dt>FILE </dt></tt><font face="Courier New" size="2"><em>file</em></font><tt>.den is missing</tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An attempt has been made to read in an old density matrix (<em>fime</em>.den), but this file apparently does not exist in the subdirectory. Correct the error and re-run. <a name="BM35669">&nbsp;</a> <a name="BM35670">&nbsp;</a> </dd>
+<tt>
+<b><dt>GAUSSIAN INPUT REQUIRES STAND-ALONE JOB</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Because of the way Gaussian geometries are recognized, only one such geometry is permitted in any given run, unless <a href="aigin.html"><tt><font color="#0000ff"><u>AIGIN</u></font></tt></a>&nbsp; is used. To correct this fault, either add <tt>AIGIN</tt> or break the run into parts, and run each part as a separate job. <a name="BM34944">&nbsp;</a> <a name="BM34945">&nbsp;</a> </dd>
+<tt>
+<b><dt>Geometry in PLATO is unrecognizable!</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This error occurs when a geometry appears to be cubic, but does not belong to any of the cubic point groups. Check the geometry to verify that it is what is wanted. If it is, then add <a href="nosym.html"><tt><font color="#0000ff"><u>NOSYM</u></font></tt></a> and re-run; this will prevent the symmetry routines being used. <a name="BM34958">&nbsp;</a> <a name="BM34959">&nbsp;</a> </dd>
+<b><tt><dt>Geometry is apparently cubic...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A severe error. The geometry has confused the symmetry recognition subroutines. Most likely, the geometry is nonsense. Examine the geometry printed after this message, and take corrective action. If the geometry is correct, add <a href="nosym.html"><tt><font color="#0000ff"><u>NOSYM</u></font></tt></a>, to disable the symmetry features. <a name="BM34962">&nbsp;</a> <a name="BM34963">&nbsp;</a> </dd>
+<b><tt><dt>GEOMETRY IS FAULTY</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The nature of the fault in the geometry is described in the output file immediately before this message. Correct fault and re-run. <a name="BM34965">&nbsp;</a> <a name="BM34966">&nbsp;</a> </dd>
+</dd></dd><dt><tt>
+<b>Geometry NOT properly optimized<strong> </strong></b></tt>
+</dt>
+<dd>&nbsp;</dd>
+<dd><tt>See "</tt><b><tt>TRUST RADIUS NOW LESS THAN "</tt></b><tt></tt></dd>
+<b><dt>GEOMETRY TOO UNSTABLE FOR EXTRAPOLATION ...</dt></b>
+<dd>&nbsp; <br/>
+In a reaction path calculation the initial geometry for a point is calculated by quadratic extrapolation using the previous three points. <a name="BM34968">&nbsp;</a> <a name="BM34969">&nbsp;</a> </dd>
+<dd>If a quadratic fit is likely to lead to an inferior geometry, then the geometry of the last point calculated will be used. The total effect is to slow down the calculation, but no user action is recommended. </dd>
+<b><tt><dt>GNORM HAS BEEN SET TOO LOW...</dt></tt></b>
+<dd>&nbsp; <br/>
+By default, the lowest value for <tt><a href="gnorm.html"><u><font color="#0000ff">GNORM</font></u></a></tt>
+is 0.01. To override this, add <a href="let.html"><tt><font color="#0000ff"><u>LET</u></font></tt></a>. There is no routine need to reduce the <tt>GNORM</tt> below 0.01, and if <tt>
+LET</tt> is used, the <a href="geometry_optimizer.html">geometry optimization procedures</a> are modified. Because of this, <tt>LET</tt> should not be used routinely. <a name="BM34976">&nbsp;</a> </dd>
+<b><tt><dt>GRADIENT IS TOO LARGE TO ALLOW ...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Before a  <a href="force.html"><tt><font color="#0000ff"><u>FORCE</u></font></tt></a> calculation can be performed the gradient norm must be so small that the third and higher order components of energy in the force field are negligible. If, in the system under examination, the gradient norm is too large, a warning message will be printed and the calculation stopped, unless <a href="let.html"><tt><font color="#0000ff"><u>
+LET</u></font></tt></a> has been specified. In some cases the <b>FORCE</b> calculation may be run only to decide if a state is a ground state or a transition state, in which case the results have only two interpretations. Under these circumstances, <tt>LET</tt> may be warranted. <a name="BM34981">&nbsp;</a> <a name="BM34982">&nbsp;</a> </dd>
+<b><tt><dt>GRADIENT IS VERY LARGE ...</dt></tt></b>
+<dd>&nbsp; <br/>
+In a calculation of the thermodynamic properties of the system, if the rotation and translation vibrations are non-zero, as would be the case if the gradient norm was significant, then these 'vibrations' would interfere with the low-lying genuine vibrations. The criteria for THERMO are much more stringent than for a vibrational frequency calculation, as it is the lowest few genuine vibrations that determine the internal vibrational energy, entropy, etc. <a name="BM34984">&nbsp;</a> <a name="BM34985">&nbsp;</a> </dd>
+<tt>
+<b><dt>If QPMEP is used, then PMEP must also be present</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+<a href="qpmep.html"><tt><font color="#0000ff"><u>QPMEP</u></font></tt></a> is a keyword that modifies a <a href="pmep.html"><tt><font color="#0000ff"><u>PMEP</u></font></tt></a> (Parametric Molecular Electrostatic Potential) calculation. On its own, <tt>QPMEP</tt> will do nothing useful. <a name="BM35004">&nbsp;</a> <a name="BM35005">&nbsp;</a> </dd>
+<b><tt><dt>ILLEGAL ATOMIC NUMBER</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An element has been specified by an atomic number which is not in the range 1 to 107. Check the data: the first datum on one of the lines is faulty. Most likely line 4 is faulty. <a name="BM35007">&nbsp;</a> <a name="BM35008">&nbsp;</a> </dd>
+<b><tt><dt>IMPOSSIBLE NUMBER OF CLOSED SHELL ELECTRONS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The keywords used imply that the number of closed shells (doubly-occupied levels) is less than zero! Correct the error in the data set, and re-run. <a name="BM35010">&nbsp;</a> <a name="BM35011">&nbsp;</a> </dd>
+<b><tt><dt>IMPOSSIBLE NUMBER OF OPEN SHELL ELECTRONS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The keyword <a href="open.html"><tt><font color="#0000ff"><u>OPEN(<i>n</i><sub>1</sub>,<i>n</i><sub>2</sub>)</u></font></tt></a><a name="BM35014">&nbsp;</a> has been used, but for an even-electron system <i>n</i>1 was specified as odd or for an odd-electron system <i>n</i>1 was specified as even. Either way, there is a conflict which the user must resolve. <a name="BM35015">&nbsp;</a> <a name="BM35016">&nbsp;</a> </dd>
+<b><tt><dt>IMPOSSIBLE OPTION REQUESTED</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A general catch-all. This message will be printed if two incompatible options are used, such as both <tt><font color="#0000ff">
+<a href="pm3.html"><u>PM3</u></a></font></tt> and <a href="am1.html"><tt><font color="#0000ff"><u>AM1</u></font></tt></a> being specified. Check the keywords, and resolve the conflict. <a name="BM35020">&nbsp;</a> <a name="BM35021">&nbsp;</a> </dd>
+<b><tt><dt>IMPOSSIBLE VALUE OF DELTA S</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The keywords used imply that either the number of <img align="MIDDLE" alt="$alpha$" height="33" src="img1948.gif" width="17"/>or the number of <img align="MIDDLE" alt="$beta$" height="33" src="img1949.gif" width="17"/>electrons is negative! Correct error and re-run. <a name="BM35023">&nbsp;</a> <a name="BM35024">&nbsp;</a> </dd>
+<b><tt><dt>INPUT FILE MISSING OR EMPTY</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The data set is either empty or does not exist, or MOPAC has not been installed correctly. Correct error and re-run. <a name="BM35026">&nbsp;</a> <a name="BM35027">&nbsp;</a> </dd>
+<b><tt><dt>INSUFFICIENT DATA ON DISK FILES FOR A FORCE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A <a href="force.html"><tt><font color="#0000ff"><u>FORCE</u></font></tt></a> calculation has been attempted using <a href="restart.html"><tt><font color="#0000ff"><u>RESTART</u></font></tt></a>, however, the &lt;filename&gt;.res file is either corrupt or does not exist. The best course of action would be to start over from the beginning--that is, remove <tt>RESTART</tt>, and re-run the job. <a name="BM35032">&nbsp;</a> <a name="BM35033">&nbsp;</a> </dd>
+<b><tt><dt>JOB STOPPED BY OPERATOR</dt></tt></b>
+<dd>&nbsp; <br/>
+Any MOPAC calculation, for which the <tt>shut</tt> command works, can be stopped by a user who issues the command <tt>shut &lt;filename&gt;</tt>, from the directory which contains <tt>&lt;filename&gt;.dat</tt>. <a name="BM35038">&nbsp;</a> <a name="BM35039">&nbsp;</a> </dd>
+<dd>MOPAC will then stop the calculation at the first convenient point, usually after the current cycle has finished. A restart file will be written and the job ended. The message will be printed as soon as it is detected, which would be the next time the timer routine is accessed. </dd>
+<b><tt><dt>KEYWORD AIDER SPECIFIED, BUT NOT PRESENT AFTER Z-MATRIX. JOB STOPPED</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="aider.html"><tt><font color="#0000ff"><u>AIDER</u></font></tt></a> is used, the <em>ab initio</em> derivatives must be supplied after the Z-matrix. Correct fault and re-run. <a name="BM35043">&nbsp;</a> <a name="BM35044">&nbsp;</a> </dd>
+<tt>
+<b><dt>LINE OF KEYWORDS DOES NOT HAVE ENOUGH SPACES FOR PARSING. PLEASE CORRECT LINE.</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Every keyword must be preceded by a space. This applies to the first keyword. As supplied, the keywords line does not have a space before the first keyword, and there is no space to move the keywords around in order to put a space there. <a name="BM35051">&nbsp;</a> <a name="BM35052">&nbsp;</a> </dd>
+<dd>Delete or abbreviated keywords so that there are unused spaces. </dd>
+<tt>
+<b><dt>MICROSTATES SPECIFIED BY KEYWORDS BUT MISSING FROM DATA</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+If <a href="micros.html"><tt><font color="#0000ff"><u>MICROS=<i>n</i></u></font></tt></a> is present, then after the geometry and symmetry data, if any, there should be a line with the word <a href="micros.html"><u><font color="#0000ff"><tt>MICRO</tt></font></u></a> followed by <i>n</i> microstates. </dd>
+<dd>. <a name="BM35070">&nbsp;</a> <a name="BM35071">&nbsp;</a> </dd>
+<b><tt><dt>MISSING VAN DER WAALS RADIUS                                 <i>Chemical</i>-<i>symbol</i></dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In the <tt>COSMO</tt> method, van der Waals radii are used. If a VDW radius is missing, it can be supplied by use of <a href="vdw.html"><u><font color="#0000ff"><tt>VDW(<i>text</i>)</tt></font></u></a>. <a name="BM35078">&nbsp;</a> <a name="BM35079">&nbsp;</a> </dd>
+<tt>
+<b><dt>MORE THAN 3N-6 COORDINATES OPTIMIZED!</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In an <tt><a href="ef.html"><u><font color="#0000ff">EF</font></u></a></tt>
+calculation, more than 3<i>N</i>-6 coordinates are flagged for optimization. By implication, at least one root of the Hessian matrix is exactly zero. Since <tt>EF</tt> involves using the inverse of an approximate Hessian, the method is intrinsically unstable. However, for most systems, the geometry optimizes completely before the Hessian is accurate enough for the instability to cause problems. <a name="BM35094">&nbsp;</a> <a name="BM35095">&nbsp;</a> </dd>
+<dd>To correct this fault, either reduce the number of coordinates being optimized, or add <a href="geo-ok.html"><tt><font color="#0000ff"><u>GEO-OK</u></font></tt></a>. </dd>
+<b><tt><dt>MORE THAN ONE GEOMETRY OPTION HAS BEEN SPECIFIED</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The keywords indicate that two or more geometric operations have been requested for one system. Only one operation (e.g. geometry optimization by <tt><a href="ts.html"><u><font color="#0000ff">TS</font></u></a></tt>
+or by <a href="nllsq.html"><tt><font color="#0000ff"><u>NLLSQ</u></font></tt></a>) is allowed for any given system. <a name="BM35100">&nbsp;</a> <a name="BM35101">&nbsp;</a> </dd>
+<b><tt><dt>MULLIKEN POPULATION NOT AVAILABLE WITH UHF</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The requested operation, a Mulliken population analysis using a <a href="uhf.html"><tt><font color="#0000ff"><u>UHF</u></font></tt></a> wavefunction, has not been written in the program. This type of calculation will not run. <a name="BM35103">&nbsp;</a> <a name="BM35104">&nbsp;</a> </dd>
+<b><tt><dt>NAME NOT FOUND</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Various atomic parameters can be modified in MOPAC by use of <a href="external.html"><tt><font color="#0000ff"><u>EXTERNAL=name</u></font></tt></a>. These comprise the symbols given in the following Table. <a name="BM35108">&nbsp;</a> <a name="BM35109">&nbsp;</a> </dd>
+<dd><br/>
+<div align="CENTER"><a name="BM35673">&nbsp;</a>
+<strong><dd>Table:</dd></strong> Names of Parameters for use with <tt>EXTERNAL=&lt;file&gt;
+</tt>
+<p align="CENTER"></p><center><table border="0" cellpadding="3" cellspacing="0">
+<tr><td valign="MIDDLE">
+<p>Uss</p></td>
+<td valign="MIDDLE">
+<p>Betas</p></td>
+<td valign="MIDDLE">
+<p>Gp2</p></td>
+<td valign="MIDDLE">
+<p>GSD</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Upp</p></td>
+<td valign="MIDDLE">
+<p>Betap</p></td>
+<td valign="MIDDLE">
+<p>Hsp</p></td>
+<td valign="MIDDLE">
+<p>GPD</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Udd</p></td>
+<td valign="MIDDLE">
+<p>Betad</p></td>
+<td valign="MIDDLE">
+<p>AM1</p></td>
+<td valign="MIDDLE">
+<p>GDD</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Zs</p></td>
+<td valign="MIDDLE">
+<p>Gss</p></td>
+<td valign="MIDDLE">
+<p>Expc</p></td>
+<td valign="MIDDLE">
+<p>FN1</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Zp</p></td>
+<td valign="MIDDLE">
+<p>Gsp</p></td>
+<td valign="MIDDLE">
+<p>Gaus</p></td>
+<td valign="MIDDLE">
+<p>FN2</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Zd</p></td>
+<td valign="MIDDLE">
+<p>Gpp</p></td>
+<td valign="MIDDLE">
+<p>Alp</p></td>
+<td valign="MIDDLE">
+<p>FN3</p></td>
+</tr>
+</table>
+</center>
+<p align="CENTER"></p></div><br/>
+Thus to change the Uss of hydrogen to -13.6 the line <tt>USS H -13.6</tt> could be used. If an attempt is made to modify any other parameters, then an error message is printed, and the calculation terminated. 
+<b><tt><dl>
+<dt>NEGATIVE SYMBOLICS MUST BE PRECEDED BY THE POSITIVE EQUIVALENT</dt></dl></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When specifying <a href="gaussian_z.html">GAUSSIAN Z-matrix</a> geometries, a negative symbolic must be related to an already defined positive symbolic. Correct the data set and re-run. <a name="BM35121">&nbsp;</a> <a name="BM35122">&nbsp;</a> </dd>
+<tt>
+<b><dt>NLLSQ USED WITH REACTION PATH;</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The capability of using <a href="nllsq.html"><tt><font color="#0000ff"><u>NLLSQ</u></font></tt></a> with a reaction path is not available within MOPAC. As an alternative, use <a href="ts.html"><tt><font color="#0000ff"><u>TS</u></font></tt></a>. <a name="BM35133">&nbsp;</a> <a name="BM35134">&nbsp;</a> </dd>
+<b><tt><dt>NO ATOMS IN SYSTEM</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The system provided does not contain any atoms! Check the data-set. A common error is to have a blank line before the keyword line. There should be exactly three lines before the Z-matrix, unless '<a href="plus.html"><tt><font color="#0000ff"><u>+</u></font></tt></a>' is used. <a name="BM35136">&nbsp;</a> <a name="BM35137">&nbsp;</a> </dd>
+<b><tt><dt>NO DUMMY ATOMS ALLOWED BEFORE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a <a href="force.html"><tt><font color="#0000ff"><u>FORCE</u></font></tt></a> calculation on a polymer or solid, no dummy atoms are allowed. This is a program limitation. Modify the data-set (use <a href="zero_scf.html"><tt><font color="#0000ff"><u>0SCF</u></font></tt></a> and <a href="int.html"><tt><font color="#0000ff"><u>INT</u></font></tt></a> or <a href="xyz.html"><tt><font color="#0000ff"><u>XYZ</u></font></tt></a> to get rid of the dummy atoms), and re-run. <a name="BM35143">&nbsp;</a> <a name="BM35144">&nbsp;</a> </dd>
+<tt>
+<b><dt>NO POINTS SUPPLIED FOR REACTION PATH</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A reaction path calculation is indicated by a '-1' in the optimization flags. If <tt><a href="step.html"><u><font color="#0000ff">STEP</font></u></a><u><font color="#0000FF">=n</font></u></tt> and <a href="point.html"><tt><font color="#0000ff"><u>POINT=</u></font></tt><u><font color="#0000FF"><i>m</i></font></u></a> are present, then the reaction path is defined by <i>n</i> and <i>m</i>. If these keywords are not present, the
+<a href="reaction_paths.html#sn2">reaction path</a> must be specified by numbers after the Z-matrix and symmetry data (if any). <a name="BM35156">&nbsp;</a> <a name="BM35157">&nbsp;</a> </dd>
+<b><tt><dt>NO RESTART FILE EXISTS!</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An attempt has been made to restart a job, but the <tt>&lt;filename&gt;.res</tt> file does not exist. The easiest correction is to remove <a href="restart.html"><tt><font color="#0000ff"><u>RESTART</u></font></tt></a> and re-run. <a name="BM35161">&nbsp;</a> <a name="BM35162">&nbsp;</a> </dd>
+<b><tt><dt>NOANCI MUST BE USED FOR RHF OPEN-SHELL SYSTEMS THAT INVOLVE TRANSLATION VECTORS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Liotard's analytical RHF open shell derivatives have not been extended to allow polymers or solids to be calculated. An alternative is to use <a href="uhf.html"><tt><font color="#0000ff"><u>UHF</u></font></tt></a>. <a name="BM35165">&nbsp;</a> <a name="BM35166">&nbsp;</a> </dd>
+<b><tt><dt>NONET SPECIFIED WITH ODD NUMBER OF ELECTRONS, CORRECT FAULT</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="nonet.html"><tt><font color="#0000ff"><u>NONET</u></font></tt></a> is specified, the system must have an even number of electrons. Check (a) the system, and (b) the charge (if any). Correct data set and re-run. <a name="BM35169">&nbsp;</a> <a name="BM35170">&nbsp;</a> </dd>
+<b><tt><dt>NUMBER OF DOUBLY FILLED PLUS PARTLY FILLED LEVELS GREATER THAN TOTAL NUMBER OF ORBITALS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The keywords used here imply a system that is larger than that used. Correct data set (probably by changing the keywords) and re-run. <a name="BM35172">&nbsp;</a> <a name="BM35173">&nbsp;</a> </dd>
+<b><tt><dt>NUMBER OF ELECTRONS IN M.O.s BELOW ACTIVE SPACE IS LESS THAN ZERO</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a C.I. calculation, the active space extends below the lowest energy level. Correct data set (probably by changing the keywords) and re-run. <a name="BM35175">&nbsp;</a> <a name="BM35176">&nbsp;</a> </dd>
+<b><tt><dt>NUMBER OF M.O.s IN ACTIVE SPACE EXCEEDS MAXIMUM ALLOWED SIZE OF ACTIVE SPACE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a C.I. calculation, the number of M.O.s in the active space is greater than that allowed by the program. Modify the data set (probably by changing the keywords) and re-run. <a name="BM35178">&nbsp;</a> <a name="BM35179">&nbsp;</a> </dd>
+<b><tt><dt>NUMBER OF M.O.s REQUESTED IN C.I. IS GREATER THAN THE NUMBER OF ORBITALS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a C.I. calculation, the active space requested is greater than the number of orbitals in the system. Correct data set (probably by changing the keywords) and re-run. <a name="BM35181">&nbsp;</a> <a name="BM35182">&nbsp;</a> </dd>
+<strong><dt>
+<tt>NUMBER OF OPEN-SHELLS ALLOWED IN C.I. IS LESS THAN THAT SPECIFIED BY OTHER KEYWORDS </tt>(FATAL)</dt></strong>
+<dd>&nbsp; <br/>
+&nbsp;The size of the active space in a C.I. calculation implied by
+<a href="ci=nm.html"><tt><font color="#0000ff"><u>C.I.=(<i>n</i>,<i>m</i>)</u></font></tt></a> is less than that implied by other keywords, e.g., <a href="sextet.html"><tt><font color="#0000ff"><u>SEXTET</u></font></tt></a>. Correct data set by changing the keywords and re-run. <a name="BM35190">&nbsp;</a> </dd>
+<b><tt><dt>NUMBER OF PARTICLES, <i>nn</i> GREATER THAN ...</dt></tt></b>
+<dd>&nbsp; <br/>
+When user-defined microstates are not used, the MECI will calculate all possible microstates that satisfy the space and spin constraints imposed. This is done in PERM, which permutes <i>N</i> electrons in <i>M</i> levels. If <i>N</i> is greater than <i>M</i>, then no possible permutation is valid. This is not a fatal error--the program will continue to run, but no C.I. will be done. <a name="BM35192">&nbsp;</a> <a name="BM35193">&nbsp;</a> </dd>
+<b><tt><dt>NUMBER OF PERMUTATIONS TOO GREAT, LIMIT </dt></tt><em>nnnn</em></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Unless the file <tt>meci_C.F90</tt> is changed, the number of permutations of alpha or beta microstates is limited to 4<img align="MIDDLE" alt="$times$" height="58" src="img1950.gif" width="34"/><tt>MAXCI</tt> or 4800. Thus if 3 alpha electrons are permuted among 5 M.O.s, that will generate                                10 = 5!/(3!2!)alpha microstates, which is an allowed number. However if 7 alpha electrons are permuted among 15 M.O.s, then 6435 alpha microstates result and the arrays defined will be insufficient. To correct this error, increase <tt>MAXCI</tt> in <tt>meci_C.F90</tt> and recompile. <a name="BM35200">&nbsp;</a> <a name="BM35201">&nbsp;</a> </dd>
+<b><tt><dt>NUMERICAL PROBLEMS IN BRACKETING LAMBDA</dt></tt></b>
+<dd>&nbsp; <br/>
+Although this is not a deadly error, it does indicate that there are potential problems in optimizing geometries. If the run finishes correctly, don't worry. If the geometry is not optimized sufficiently, try one or more of the following strategies: <a name="BM35203">&nbsp;</a> <a name="BM35204">&nbsp;</a> </dd>
+<dd>Use <a href="let.html"><tt><font color="#0000ff"><u>LET</u></font></tt></a>. This allows more of the potential energy surface to be sampled, thus giving more information to the Hessian. </dd>
+<dd>Tighten up the SCF criterion. Try <a href="relscf.html"><tt><font color="#0000ff"><u>RELSCF=0.1</u></font></tt></a> or <tt><a href="relscf.html"><u><font color="#0000ff">RELSCF</font></u></a><u><font color="#0000FF">=0.01</font></u></tt>. </dd>
+<dd>If the calculation involves an open shell RHF, consider running it with <a href="uhf.html"><tt><font color="#0000ff"><u>UHF</u></font></tt></a>. </dd>
+<dd>Carefully examine the data set--is there any possibility that it is faulty? </dd>
+<dd>Go to a different coordinate system. If Cartesian, go to internal coordinates, and <em>vice versa</em>. </dd>
+<tt>
+<b><dt>OCTET SPECIFIED WITH EVEN NUMBER OF ELECTRONS, CORRECT FAULT</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="octet.html"><tt><font color="#0000ff"><u>OCTET</u></font></tt></a>
+is specified, the system must have an odd number of electrons. Check (a) the system, and (b) the charge (if any). Correct data set and re-run. <a name="BM35222">&nbsp;</a> <a name="BM35223">&nbsp;</a> </dd>
+<b><tt><dt>OLDENS FILE FOR </dt></tt><font face="Courier New" size="2"><em>file</em></font><tt>.den IS CORRUPT</tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Although a file called <em>file</em>.den exists, its contents do not match the data set supplied for the calculation. The easiest option is to delete <a href="oldens.html"><tt><font color="#0000ff"><u>OLDENS</u></font></tt></a>
+and re-run. <tt>
+<b><dt>OLDGEO used and previous geometry had no atoms.</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+For <a href="oldgeo.html"><tt><font color="#0000ff"><u>OLDGEO</u></font></tt></a> to work, an earlier calculation in the same data set must exist, and must contain at least one atom. Correct fault and re-run. <a name="BM35233">&nbsp;</a> <a name="BM35234">&nbsp;</a> </dd>
+<b><tt><dt>OMIN MUST BE BETWEEN 0 AND 1</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Keyword <tt>OMIN=<i>n</i></tt> has been used, with an unreasonable value for <i>n</i>. Modify <i>n</i> and re-run. <a name="BM35237">&nbsp;</a> <a name="BM35238">&nbsp;</a> </dd>
+<b><tt><dt>ONLY <i>N</i> POINTS ALLOWED IN REACTION COORDINATE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The maximum number of points on a reaction coordinate is three times the maximum number of atoms allowed. To increase this number, edit the file <tt>sizes.h</tt> to increase the value of <tt>NUMATM</tt>, re-run "make" and re-run the job. <a name="BM35242">&nbsp;</a> <a name="BM35243">&nbsp;</a> </dd>
+<b><tt><dt>ONLY DIHEDRAL SYMBOLICS CAN BE PRECEEDED BY A '-' SIGN</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Symmetry relationships are allowed when a geometry is read in in Gaussian format, however the range of relationships is limited to setting bond lengths equal, setting bond angles equal, setting dihedrals equal, and setting dihedrals equal to the negative of a reference dihedral. An attempt has been made to set a bond length or a bond angle to the negative of a reference. This is not allowed. Correct the data set and re-run. <a name="BM35245">&nbsp;</a> <a name="BM35246">&nbsp;</a> </dd>
+<tt>
+<b><dt>ONLY ONE REACTION COORDINATE PERMITTED</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a reaction coordinate calculation, only one optimization flag can be set to "-1", all others must either be "0" or "1". In order for two optimization flags to be set to "-1", <a href="step1.html">a grid calculation must be run</a>. This involves keywords <a href="step1.html"><tt><font color="#0000ff"><u>STEP1=<i>n</i>.<i>nnn</i></u></font></tt></a> and <a href="step2.html"><tt><font color="#0000ff"><u>STEP2=<i>n</i>.<i>nnn</i></u></font></tt></a>. <a name="BM35255">&nbsp;</a> <a name="BM35256">&nbsp;</a> </dd>
+</dd>
+<b><tt><dt>PARAMETERS FOR SOME ELEMENTS MISSING</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+An attempt has been made to run a calculation on a system that contains atoms for which there are no parameters. Check that the method you are using
+<a href="geometry_specification.html">has been parameterized</a>. If this bug occurs during a port of MOPAC, it is likely to be caused by the BLOCKDATA file not being used by the compiler. One way around this fault is to paste the file <tt>block.F</tt> at the end of the file <tt>mopac.F</tt>, and then delete <tt>block.F</tt>. This usually corrects this problem. <a name="BM35267">&nbsp;</a> <a name="BM35268">&nbsp;</a> </dd>
+<tt>
+<b><dt>POLAR does not work with open-shell RHF</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The <a href="polar.html"><tt><font color="#0000ff"><u>POLAR</u></font></tt></a> method only works with RHF closed shell systems. If only the polarizability is needed, use <a href="static.html"><tt><font color="#0000ff"><u>STATIC</u></font></tt></a> instead of <tt>POLAR</tt>. <a name="BM35279">&nbsp;</a> <a name="BM35280">&nbsp;</a> </dd>
+<b><tt><dt>POLAR does not work with UHF</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The <a href="polar.html"><tt><font color="#0000ff"><u>POLAR</u></font></tt></a> calculation only works with Restricted Hartree Fock calculations, both closed shell and open shell, and both ground and excited states. If only the polarizability is needed, use <a href="static.html"><tt><font color="#0000ff"><u>STATIC</u></font></tt></a>; this uses external fields and works with <a href="uhf.html"><tt><font color="#0000ff"><u>UHF</u></font></tt></a>, however it is not as precise as <tt>POLAR</tt>. <a name="BM35286">&nbsp;</a> <a name="BM35287">&nbsp;</a> </dd>
+<tt>
+<b><dt>PROBLEM IN SYMR</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+There is a problem in subroutine <tt>SYMR</tt>. The system has symmetry, but small distortions are preventing the symmetry operations from being done correctly--the subroutine has become confused. To correct this, add <a href="nosym.html"><u><font color="#0000ff"><tt>NOSYM</tt></font></u></a>. <a name="BM35299">&nbsp;</a> <a name="BM35300">&nbsp;</a> </dd>
+<b><tt><dt>QUARTET SPECIFIED WITH EVEN NUMBER</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="quartet.html"><tt><font color="#0000ff"><u>QUARTET</u></font></tt></a> is specified, the system must have an odd number of electrons. Check (a) the system, and (b) the charge (if any). Correct data set and re-run. <a name="BM35303">&nbsp;</a> <a name="BM35304">&nbsp;</a> </dd>
+<b><tt><dt>QUINTET SPECIFIED WITH ODD NUMBER OF ELECTRONS, CORRECT FAULT</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="quintet.html"><tt><font color="#0000ff"><u>QUINTET</u></font></tt></a> is specified, the system must have an even number of electrons. Check (a) the system, and (b) the charge (if any). Correct data set and re-run. <a name="BM35307">&nbsp;</a> <a name="BM35308">&nbsp;</a> </dd>
+<tt>
+<b><dt>RESTART FILE EXISTS, BUT IS CORRUPT</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a <a href="bfgs.html"><tt><font color="#0000ff"><u>BFGS</u></font></tt></a> run involving <a href="restart.html"><tt><font color="#0000ff"><u>RESTART</u></font></tt></a>, the file <img align="MIDDLE" alt="$&lt;!$" height="38" src="img1953.gif" width="20"/>filename<img align="MIDDLE" alt="$" height="38" src="img1954.gif" width="20"/>.res, is corrupt. Remove <tt>RESTART</tt> and re-run. <a name="BM35333">&nbsp;</a> <a name="BM35334">&nbsp;</a> </dd>
+<b><tt><dt>RESTART FILE EXISTS, BUT IS FAULTY</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a <a href="force.html"><tt><font color="#0000ff"><u>FORCE</u></font></tt></a> calculation, involving <a href="restart.html"><tt><font color="#0000ff"><u>RESTART</u></font></tt></a>, the file <img align="MIDDLE" alt="$&lt;!$" height="38" src="img1955.gif" width="20"/>filename<img align="MIDDLE" alt="$" height="38" src="img1956.gif" width="20"/>.res, is corrupt. Remove <tt>RESTART</tt> and re-run. <a name="BM35339">&nbsp;</a> <a name="BM35340">&nbsp;</a> </dd>
+<b><tt><dt>Restart file is corrupt!</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a run involving <a href="restart.html"><tt><font color="#0000ff"><u>RESTART</u></font></tt></a>, the file <img align="MIDDLE" alt="$&lt;!$" height="38" src="img1957.gif" width="20"/>filename<img align="MIDDLE" alt="$" height="38" src="img1958.gif" width="20"/>.res, is corrupt. Remove <tt>RESTART</tt> and re-run. <a name="BM35344">&nbsp;</a> <a name="BM35345">&nbsp;</a> </dd>
+<b><tt><dt>ROOT REQUESTED DOES NOT EXIST IN C.I.</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A specific excited state has been specified, but it does not exist in the set of states calculated. Correct the data set and re-run. <a name="BM35347">&nbsp;</a> <a name="BM35348">&nbsp;</a> </dd>
+<b><tt><dt>RSOLV MUST NOT BE NEGATIVE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In COSMO calculations, the radius of a solvent molecule must be positive. Correct dat set and re-run. <a name="BM35350">&nbsp;</a> <a name="BM35351">&nbsp;</a> </dd>
+<tt>
+<b><dt>SEPTET SPECIFIED WITH ODD NUMBER OF ELECTRONS, CORRECT FAULT</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="septet.html"><tt><font color="#0000ff"><u>SEPTET</u></font></tt></a> is specified, the system must have an even number of electrons. Check (a) the system, and (b) the charge (if any). Correct data set and re-run. <a name="BM35359">&nbsp;</a> <a name="BM35360">&nbsp;</a> </dd>
+<b><tt><dt>SETUP FILE MISSING, EMPTY OR CORRUPT</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a run involving&nbsp; <a href="setup.html"><tt><font color="#0000ff"><u>SETUP</u></font></tt></a>, the <tt>SETUP</tt> file is either missing or is corrupt. Either create a valid <tt>SETUP </tt>file or remove <tt>SETUP</tt> from the data set, and re-run. <a name="BM35366">&nbsp;</a> <a name="BM35367">&nbsp;</a> </dd>
+<b><tt><dt>SEXTET SPECIFIED WITH EVEN NUMBER OF ELECTRONS, CORRECT FAULT</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="sextet.html"><tt><font color="#0000ff"><u>SEXTET</u></font></tt></a> is specified, the system must have an odd number of electrons. Check (a) the system, and (b) the charge (if any). Correct data set and re-run. <a name="BM35370">&nbsp;</a> <a name="BM35371">&nbsp;</a> </dd>
+<b><tt><dt>SIGMA USED WITH REACTION PATH;</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The only geometry options allowed with reaction paths are <tt><a href="ef.html"><u><font color="#0000ff">EF</font></u></a></tt> and the default  <a href="bfgs.html"><tt><font color="#0000ff"><u>BFGS</u></font></tt></a> optimizers. Delete <a href="sigma.html"><tt><font color="#0000ff"><u>SIGMA</u></font></tt></a> and re-run. <a name="BM35375">&nbsp;</a> <a name="BM35376">&nbsp;</a> </dd>
+<b><tt><dt>Size of active space allowed: <i>N</i></dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The largest active space in a C.I. calculation is <i>N</i>. If a larger size is needed, edit <tt>meci.h</tt> to increase the value of <tt>NMECI</tt>, recompile, and re-run the job. <a name="BM35380">&nbsp;</a> <a name="BM35381">&nbsp;</a> </dd>
+<b><tt><dt>SOME ELEMENTS HAVE BEEN SPECIFIED FOR WHICH NO PARAMETERS ARE AVAILABLE...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Parameters are not available for the element with atomic number <i>N</i>. If new parameters are available, these can be supplied to MOPAC by use of <a href="external.html"><u><font color="#0000ff"><tt>EXTERNAL=</tt></font></u></a>. <a name="BM35387">&nbsp;</a> <a name="BM35388">&nbsp;</a> </dd>
+<tt>
+<b><dt>SPECIFIED SPIN COMPONENT NOT SPANNED BY ACTIVE SPACE</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A spin state has been specified, but the active space is too small to allow that state to exist. Correct the data set and re-run. <a name="BM35397">&nbsp;</a> <a name="BM35398">&nbsp;</a> </dd>
+<tt>
+<b><dt>SYMMETRY SPECIFIED, BUT CANNOT BE USED IN DRC</dt></b></tt>
+<dd>&nbsp; <br/>
+This is self explanatory. The  <a href="drc0.html"><tt><font color="#0000ff"><u>DRC</u></font></tt></a> requires all geometric constraints to be lifted. Any symmetry constraints will first be applied, to symmetrize the geometry, and then removed to allow the calculation to proceed. <a name="BM35415">&nbsp;</a> <a name="BM35416">&nbsp;</a> </dd>
+<b><tt><dt>SYSTEM DOES NOT APPEAR TO BE OPTIMIZABLE</dt></tt></b>
+<dd>&nbsp; <br/>
+This is a gradient norm minimization message. These routines will only work if the nearest minimum to the supplied geometry in gradient-norm space is a transition state or a ground state. Gradient norm space can be visualized as the space of the scalar of the derivative of the energy space with respect to geometry. To a first approximation, there are twice as many minima in gradient norm space as there are in energy space. <a name="BM35418">&nbsp;</a> <a name="BM35419">&nbsp;</a> </dd>
+<dd>It is unlikely that there exists any simple way to refine a geometry that results in this message. While it is appreciated that a large amount of effort has probably already been expended in getting to this point, users should steel themselves to writing off the whole geometry. It is not recommended that a minor change be made to the geometry and the job re-runted. </dd>
+<dd>Try using <a href="ts.html"><tt><font color="#0000ff"><u>TS</u></font></tt></a> or <a href="sigma.html"><tt><font color="#0000ff"><u>SIGMA</u></font></tt></a> instead of <a href="powsq.html"><tt><font color="#0000ff"><u>POWSQ</u></font></tt></a>. </dd>
+<b><tt><dt>SYSTEM SPECIFIED WITH ODD NUMBER OF ELECTRONS, CORRECT FAULT</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When <a href="excited.html"><tt><font color="#0000ff"><u>EXCITED</u></font></tt></a> or <a href="biradical.html"><tt><font color="#0000ff"><u>BIRADICAL</u></font></tt></a> is used, the system <em>must</em> be a singlet--<tt>must</tt> have an even number of electrons. Correct the data set and re-run. <a name="BM35428">&nbsp;</a> <a name="BM35429">&nbsp;</a> </dd>
+<b><tt><dt>SYSTEMS WITH TV CANNOT BE RUN WITH 'INT'</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The effect of <a href="int.html"><tt><font color="#0000ff"><u>INT</u></font></tt></a> is to convert the geometry into internal coordinates. This is done in two steps: first, the geometry is converted into Cartesian coordinates, this removes any dummy atoms; then it is converted into internal coordinates. An unwanted, but logical, consequence of this is that translation vectors are made useless. To achieve the effect of <tt>INT</tt>, remove the translation vectors, run the calculation with <a href="zero_scf.html"><tt><font color="#0000ff"><u>0SCF</u></font></tt></a>, then add the translation vectors back in 'by hand'. Note that translation vectors can be Cartesian or internal. <a name="BM35434">&nbsp;</a> <a name="BM35435">&nbsp;</a> </dd>
+<b><tt><dt>TEMPERATURE RANGE STARTS TOO LOW, ...</dt></tt></b>
+<dd>&nbsp; <br/>
+The thermodynamics calculation assumes that the statistical summations can be replaced by integrals. This assumption is only valid above 100K, so the lower temperature bound is set to 100, and the calculation continued. <a name="BM35437">&nbsp;</a> <a name="BM35438">&nbsp;</a> </dd>
+<b><tt><dt>The COSMO option cannot be used...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Due to a program limitation, sparkles cannot be used in a COSMO calculation. There is no recovery--try using real atoms instead of sparkles. <a name="BM35440">&nbsp;</a> <a name="BM35441">&nbsp;</a> </dd>
+<b><tt><dt>The data set contains alternative location indicators. Keyword ALT_A must be used</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The PDB format allows for alternate locations. According to this format, atoms are defined by four characters (characters 13-16), after which comes the alternate location indicator. Usually, this (the 17th character) is a space, however, in atoms that have positional disorder the 17th character will be a letter, e.g. 'A', 'B', 'C', etc. A valid geometry will contain only one of the alternative locations, and this can be identified in the data set by use of <tt>ALT_A=<i>letter</i></tt>. For a full definition of the PDB format, see the WWW sites: http://pdb.pdb.bnl.gov/pdb-docs/atoms.html and http://www.pdb.bnl.gov/pdb-docs/Format.doc/Contents_Guide_21.html. <a name="BM35444">&nbsp;</a> <a name="BM35445">&nbsp;</a> </dd>
+<b><tt><dt>The data set contains alternative location indicators. Keyword ALT_R must be used</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The PDB format allows for alternate residues. According to this format, a given residue site can be occupied by one of two or more possible residues. The indicator is character 27, and by default is a space. If there are alternative residues possible, these are indicated by a letter, e.g. 'A', 'B', 'C', etc. A valid geometry will contain only one of the alternative residues, and this can be identified in the data set by use of <tt>ALT_R=<i>letter</i></tt> or by <tt>ALT_R= </tt>. <a name="BM35449">&nbsp;</a> <a name="BM35450">&nbsp;</a> </dd>
+<b><tt><dt>THE FOLLOWING SYMBOL HAS BEEN DEFINED MORE THAN ONCE: <i>symbol</i></dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A symbolic parameter in a Gaussian Z-matrix geometry has been defined more than once. Remove the excess definitions and re-run. <a name="BM35452">&nbsp;</a> <a name="BM35453">&nbsp;</a> </dd>
+<b><tt><dt>THE FOLLOWING SYMBOL WAS NOT USED: <i>symbol</i></dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A symbolic parameter in a Gaussian Z-matrix geometry has been defined, but was not present in the Z-matrix. Remove the definition and re-run. <a name="BM35455">&nbsp;</a> <a name="BM35456">&nbsp;</a> </dd>
+<b><tt><dt>THE GEOMETRY DATA-SET CONTAINED ERRORS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The geometry was not in MOPAC Z-matrix format, or in Cartesian format, or in Gaussian format. The output immediately before this error message describes the errors detected. Correct the geometry and re-run. <a name="BM35458">&nbsp;</a> <a name="BM35459">&nbsp;</a> </dd>
+<b><tt><dt>THE GREENS FUNCTION IS LIMITED TO 200 ORBITALS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The Greens function correction to the I.P.'s calculation is limited to systems of 200 orbitals. Larger systems cannot be run. This is a program limitation. <a name="BM35461">&nbsp;</a> <a name="BM35462">&nbsp;</a> </dd>
+<b><tt><dt>THE HAMILTONIAN REQUESTED IS NOT AVAILABLE IN THIS PROGRAM</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This is a bug that occurs only during a port of MOPAC. It is probably caused by the BLOCKDATA file not being used by the compiler. One way around this fault is to paste the file <tt>block.F</tt> at the end of the file <tt>mopac.F</tt>, and then delete <tt>block.F</tt>. This usually corrects this problem. <a name="BM35467">&nbsp;</a> <a name="BM35468">&nbsp;</a> </dd>
+<b><tt><dt>The input data file does not exist</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+This is a bug that occurs only during a port of MOPAC. The first step in trying to remove this bug is to check that the command: <a name="BM35470">&nbsp;</a> <a name="BM35471">&nbsp;</a> </dd>
+<pre>% mopac.exe test</pre>
+<dl>
+<dd>will run the data set <tt>test.dat</tt>. Once this works, that is, once it does not generate this error message, check out <tt>mopac.csh</tt>. </dd>
+<b><tt><dt>THE SCF CALCULATION FAILED.</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The SCF failed to form. To correct this, add <tt>PL</tt> and try using different convergers. In order, try <a href="shift.html"><tt><font color="#0000ff"><u>SHIFT=<i>n</i>.<i>nn</i></u></font></tt></a>, <i>n</i>=50 is a good starting value, then <tt>PULAY</tt>, then <tt>CAMP</tt>. Quite often, the fault lies in the geometry. Use the information from the output generated by <tt>PL</tt> as a guide. <a name="BM35482">&nbsp;</a> <a name="BM35483">&nbsp;</a> </dd>
+<b><tt><dt>THE STATE REQUIRED IS NOT PRESENT IN THE SET OF CONFIGURATIONS AVAILABLE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A specific excited state has been specified, but it does not exist in the set of states calculated. Correct the data set and re-run. <a name="BM35485">&nbsp;</a> <a name="BM35486">&nbsp;</a> </dd>
+<b><tt><dt>There are more than 200 atoms in moiety</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A non-proteinaceous moiety in a protein apparently contains more than <i>N </i>atoms. If this is true, then edit "ligand.F" to change the value of <tt>NATOMR</tt> in subroutine <tt>MOIETY</tt>, re-run "make", and re-run the job. <a name="BM35490">&nbsp;</a> <a name="BM35491">&nbsp;</a> </dd>
+<b><tt><dt>There are more than 200 atoms in residue <i>M</i></dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+A residue apparently contains more than 200 atoms. A likely cause is if the residue contains covalent bonds to another part of the protein (common cross links, e.g. N-S, O-S, and S-S, are automatically broken when residues are being analyzed). Check the atom list printed after the error message to identify the atoms that are considered part of the residue, modify the data-set and re-run. <a name="BM35493">&nbsp;</a> <a name="BM35494">&nbsp;</a> </dd>
+<b><tt><dt>THERE ARE NO VARIABLES IN THE SADDLE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+For a <a href="saddle.html"><tt><font color="#0000ff"><u>SADDLE</u></font></tt></a> calculation, the two geometries must be optimizable, that is, at least one coordinate must have the optimization flag set to "1". <a name="BM35497">&nbsp;</a> ... <a name="BM35498">&nbsp;</a> </dd>
+<b><tt><dt>There are too many keywords</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Although each line of keywords can have up to 120 characters, the maximum number of characters plus spaces for all keywords is limited to 241. Reduce the number of keywords, or abbreviate those that can be shortened. <a name="BM35500">&nbsp;</a> <a name="BM35501">&nbsp;</a> </dd>
+<tt>
+<b><dt>THERE IS A RISK OF INFINITE LOOPING ...</dt></b></tt>
+<dd>&nbsp; <br/>
+The <a href="scfcrt.html">SCF criterion</a> has been reset by the user, and the new value is so small that the SCF test may never be satisfied. This is a case of user beware! <a name="BM35519">&nbsp;</a> <a name="BM35520">&nbsp;</a> </dd>
+<b><tt><dt>THERE MUST BE EXACTLY THREE VELOCITY DATA PER LINE</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The format for the <a href="velocity.html">initial velocity</a> in a DRC calculation is three numbers per line, corresponding to the <i>x</i>, <i>y</i>, and <i>z</i> speeds in cm.sec<sup>-1</sup>. Correct the data set and re-run. <a name="BM35523">&nbsp;</a> <a name="BM35524">&nbsp;</a> </dd>
+<b><tt><dt>THIS MESSAGE SHOULD NEVER APPEAR, CONSULT A PROGRAMMER!</dt></tt></b>
+<dd>&nbsp; <br/>
+This message should never appear; a fault has been introduced into MOPAC, most probably as a result of a programming error. If this message appears in the basic version of MOPAC (a version ending in 00), please contact JJPS as I would be most interested in how this was achieved. <a name="BM35526">&nbsp;</a> <a name="BM35527">&nbsp;</a> </dd>
+<b><tt><dt>THREE ATOMS BEING USED TO DEFINE ...</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+If the Cartesian coordinates of an atom depend on the dihedral angle it makes with three other atoms, and those three atoms fall in an almost straight line, then a small change in the Cartesian coordinates of one of those three atoms can cause a large change in its position. Normally, the connectivity will automatically be changed to prevent this happening, however, if there is no obvious way to correct the problem, this message will be printed. When that happens, the data should be changed to make the geometric specification of the atom in question less ambiguous. Note that neither <a href="let.html"><tt><font color="#0000ff"><u>LET</u></font></tt></a> nor <a href="geo-ok.html"><tt><font color="#0000ff"><u>GEO-OK</u></font></tt></a> will allow the calculation to proceed. <a name="BM35531">&nbsp;</a> <a name="BM35532">&nbsp;</a> </dd>
+<b><tt><dt>TIME UP </dt>
+</tt></b><dd>&nbsp; <br/>
+The <a href="t=n.html">time defined</a> on the keywords line or 172,800 seconds, if no time was specified, is likely to be exceeded if another cycle of calculation were to be performed. A controlled termination of the run would follow this message. The job may terminate earlier than expected: this is ordinarily due to one of the recently completed cycles taking unusually long, and the safety margin has been increased to allow for the possibility that the next cycle might also run for much longer than expected. <a name="BM35534">&nbsp;</a> <a name="BM35535">&nbsp;</a> </dd>
+<b><tt><dt>TOO MANY CONFIGURATIONS</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The <a href="meci_perm.html#BM13456">size</a> of the C.I. matrix requested is larger than that allowed by MOPAC. Either reduce the size requested, or increase the allowed size. To do that, increase the value of <tt>MAXCI</tt> in the file <tt>meci_C.F90</tt>, and recompile. <a name="BM35539">&nbsp;</a> <a name="BM35540">&nbsp;</a> </dd>
+<b><tt><dt>TOO MANY ITERATIONS IN LAMDA BISECT</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+During a run involving <tt>EF</tt>, the search procedure failed. This was most likely due to a faulty geometry. Check the geometry carefully, make corrections, and re-run. <a name="BM35543">&nbsp;</a> <a name="BM35544">&nbsp;</a> </dd>
+<b><tt><dt>TRIPLET SPECIFIED WITH ODD NUMBER OF ELECTRONS, CORRECT FAULT</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+If <a href="triplet.html"><tt><font color="#0000ff"><u>TRIPLET</u></font></tt></a> has been specified the number of electrons must be even. Check the charge on the system, the empirical formula, and whether <tt>TRIPLET</tt> was intended. <a name="BM35548">&nbsp;</a> <a name="BM35549">&nbsp;</a> </dd>
+<b><tt><dt>TRUST RADIUS NOW LESS THAN ...</dt></tt></b>
+<dd>&nbsp; <br/>
+When <tt><a href="ef.html"><u><font color="#0000ff">EF</font></u></a></tt> is used, the calculated trust radius has become too small. An easy fix is to
+override the <a href="Geometry_considerations.html">default options</a> by adding <a href="let.html"><tt><font color="#0000ff"><u>LET</u></font></tt></a><tt> and </tt><a href="ddmin.html"><tt><font color="#0000ff"><u>DDMIN=0.0001</u></font></tt></a>, another option is to specify <a href="rmin.html"><tt><font color="#0000ff"><u>RMIN=-10</u></font></tt></a>.&nbsp;
+In CAChe, the equivalent message is "Geometry NOT properly optimized!"<dd>This
+warning most often occurs when COSMO is being used, because the finite mesh used
+in defining the solvent accessible surface is, of its nature, finite.&nbsp; This
+introduces unavoidable artifacts into the PES, which, in turn, causes the trust
+radius to become very small.<a name="BM35554">&nbsp;</a> </dd>
+</dd><dt><tt>
+<b></b></tt></dt>
+<dt>TS FAILED TO LOCATE TRANSITION STATE<strong> (FATAL)</strong> </dt>
+<dd>&nbsp; <br/>
+The geometry is almost certainly faulty.
+<a href="Locating_transition_states.html">Locating transition states</a> is still more art than science. Modify geometry, and re-run. <a name="BM35556">&nbsp;</a> <a name="BM35557">&nbsp;</a> </dd>
+<b><tt><dt>TS SEARCH AND BFGS UPDATE WILL NOT WORK</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In <a href="ef.html"><tt><font color="#0000ff"><u>EF</u></font></tt></a>, a transition state optimization has been requested. The rarely used option <a href="iupd.html"><tt><font color="#0000ff"><u>IUPD=2</u></font></tt></a> has been specified. This option is not allowed for transition states. Remove <tt>IUPD=2</tt> and re-run. <a name="BM35562">&nbsp;</a> <a name="BM35563">&nbsp;</a> </dd>
+<b><tt><dt>TS SEARCH REQUIRE BETTER THAN DIAGONAL HESSIAN</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+When using <a href="ts.html"><tt><font color="#0000ff"><u>TS</u></font></tt></a>, do not also use <a href="hess.html"><tt><font color="#0000ff"><u>HESS=0</u></font></tt></a>. Remove <tt>HESS=0</tt> and re-run. <a name="BM35568">&nbsp;</a> <a name="BM35569">&nbsp;</a> </dd>
+<b><tt><dt>TWO ADJACENT POINTS ARE IDENTICAL:</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In a reaction <a href="reaction_paths.html">path</a>, adjacent points must be different. A common mistake is to have the first point (this comes from the Z-matrix) and the second point (this comes from the extra data after the Z-matrix and symmetry data (if any)) the same. Correct the data set (the fault is in the reaction coordinate data after the the Z-matrix and symmetry data (if any)). <a name="BM35571">&nbsp;</a> <a name="BM35572">&nbsp;</a> </dd>
+<b><tt><dt>TWO ATOMS ARE COINCIDENT. A FATAL ERROR.</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In the input <a href="geometry_specification.html">geometry</a>, two atoms have the same coordinates. Correct the error and re-run. <a name="BM35574">&nbsp;</a> <a name="BM35575">&nbsp;</a> </dd>
+<b><tt><dt>UNABLE TO ACHIEVE SELF-CONSISTENCY</dt></tt></b>
+<dd>&nbsp; <br/>
+See the error-message: "FAILED TO ACHIEVE SCF." <a name="BM35577">&nbsp;</a> <a name="BM35578">&nbsp;</a> </dd>
+<dt>&nbsp;</dt>
+<dt><b><tt>Unable to allocate memory in subroutine </tt>
+</b><tt>
+<b>...</b></tt><strong>(FATAL)</strong> </dt>
+<dd>&nbsp;</dd>
+<dd>An error occurred while trying to create an array.&nbsp; The commonest 
+reason for this error is that the array is very large, and there is not enough 
+memory allowed.&nbsp; There may be limitations imposed by the operating system.&nbsp; 
+Windows has limits in the order of 250Mb to 2Gb. Try increasing the memory 
+available to the process to 2 Gb (real plus virtual).&nbsp; If that does not 
+work, try avoiding the function that causes the error. If MOZYME is available, 
+try using that. If the array is greater than 2^(31) elements, the array size 
+will be inaccurate (negative), in which case there is nothing that can be done.</dd>
+<tt>
+<b>
+<dt>UNACCEPTABLE VALUE FOR NO. OF ORBITALS ON ATOM</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Allowed values for the number of orbitals per atom are 1, 4, and 9. Correct the <a href="external.html"><tt><font color="#0000ff"><u>
+EXTERNAL</u></font></tt></a> file, and re-run. <a name="BM35581">&nbsp;</a> <a name="BM35582">&nbsp;</a> </dd>
+<b><tt><dt>UNDEFINED SYMMETRY FUNCTION USED</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+<a href="symmetry.html"><font color="#0000ff"><u>S</u></font><u><font color="#0000FF">ymmetry</font></u></a> operations are restricted to those defined, i.e., in the range 1-19. Any other symmetry operations will trip this fatal message. <a name="BM35584">&nbsp;</a> <a name="BM35585">&nbsp;</a> </dd>
+<tt>
+<b><dt>UNRECOGNIZED ELEMENT NAME</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In the geometric specification a chemical symbol which does not correspond to any known element has been used. The error lies in the first datum on a line of geometric data. <a name="BM35592">&nbsp;</a> <a name="BM35593">&nbsp;</a> </dd>
+<b><tt><dt>UNRECOGNIZED HESS OPTION</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The allowed values for <i>n</i> in <a href="hess.html"><tt><font color="#0000ff"><u>HESS=<i>n</i></u></font></tt></a> are 0, 1, and 2. Correct the keyword and re-run. <a name="BM35596">&nbsp;</a> <a name="BM35597">&nbsp;</a> </dd>
+<b><tt><dt>UNRECOGNIZED KEY-WORDS.</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Check these keywords. Correct any misspellings and re-run, or, if the keywords are DEBUG keywords, add <a href="debug.html"><tt><font color="#0000ff"><u>DEBUG</u></font></tt></a> and re-run. <a name="BM35600">&nbsp;</a> <a name="BM35601">&nbsp;</a> </dd>
+<tt>
+<b><dt>UPPER BOUND OF ACTIVE SPACE IS GREATER THAN THE NUMBER OF ORBITALS</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+The keywords used here imply a system that is larger than that used. Correct data set (probably by changing the keywords) and re-run. <a name="BM35611">&nbsp;</a> <a name="BM35612">&nbsp;</a> </dd>
+<b><tt><dt>Use AIGIN to allow more geometries to be used</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+Only one GAUSSIAN geometry is allowed in a run, unless each GAUSSIAN geometry is identified by <a href="aigin.html"><tt><font color="#0000ff"><u>AIGIN</u></font></tt></a> on the keyword line. Add <tt>AIGIN</tt> to each GAUSSIAN geometry keyword line, and re-run. <a name="BM35616">&nbsp;</a> <a name="BM35617">&nbsp;</a> </dd>
+<b><tt><dt>USE EITHER SAFE OR UNSAFE, BUT NOT BOTH</dt></tt></b><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+MOPAC can be compiled so as to either minimize memory demand or to maximize reliability. Depending on which option was used, the alternative option can be selected at run time by using <a href="safe.html"><u><font color="#0000ff"><tt>SAFE</tt></font></u></a> or <a href="unsafe.html"><u><font color="#0000ff"><tt>UNSAFE</tt></font></u></a>. </dd>
+<tt>
+<b><dt>&nbsp;</dt>
+<dt>VAN DER WAALS</dt></b></tt><strong> (FATAL)</strong>
+<dd>&nbsp; <br/>
+In the <a href="esp.html"><tt><font color="#0000ff"><u>ESP</u></font></tt></a> method, van der Waals radii are used. Only the following elements are allowed: H, B, C, N, O, F, P, S, Cl, Br, I. <a name="BM35630">&nbsp;</a> <a name="BM35631">&nbsp;</a> </dd>
+<dd>In the <a href="pmep.html"><tt><font color="#0000ff"><u>PMEP</u></font></tt></a> method, van der Waals radii are also used. Only the elements up to <i>Z</i>=17 and bromine are allowed. </dd>
+<tt>
+<b><dt>WARNING - GEOMETRY IS NOT AT A STATIONARY POINT</dt></b></tt>
+<dd>&nbsp; <br/>
+Under certain circumstances the gradient norm can drop to zero, but the derivatives of the energy with respect to Cartesian coordinates might be quite large. If this happens, this error message will be printed. <a name="BM35645">&nbsp;</a> <a name="BM35646">&nbsp;</a> </dd>
+<dd>To avoid this message, make sure that the geometry can be optimized, given the optimization flags you have chosen. In particular, if (3<i>N</i>-6) optimization flags are set, and there are no dummy atoms, then it is unlikely that this message will be generated. </dd>
+<tt>
+<b><dt>WARNING </dt>
+</b></tt><dd>&nbsp; <br/>
+Don't pay too much attention to this message. Thermodynamics calculations require a higher precision than vibrational frequency calculations. In particular, the gradient norm should be very small. However, it is frequently not practical to reduce the gradient norm further, and to date no-one has determined just how slack the gradient criterion can be before unacceptable errors appear in the thermodynamic quantities. The 0.4 gradient norm is only a suggestion. <a name="BM35651">&nbsp;</a> <a name="BM35652">&nbsp;</a> </dd>
+</dl>
+</dd></body>
+</html>

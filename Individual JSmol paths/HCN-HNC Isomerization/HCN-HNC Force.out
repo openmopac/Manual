@@ -1,0 +1,239 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.314W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.314W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Nov 10 08:33:08 2015  *
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "LOCATE TS HCN-HNC.ARC"
+ *  FORCE      - FORCE CALCULATION SPECIFIED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+Force geo_dat="Locate TS HCN-HNC.arc"
+ Verify that the geometry is in fact the transition state for the HNC - HCN Isomerization
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.01604059  *   0.12935138  *  -0.00000573  *
+     2       C          1.22145277  *  -0.44579925  *   0.00000301  *
+     3       N          1.37331813  *   0.74948284  *   0.00000353  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         H        0.0160    0.1294   -0.0000
+     2         C        1.2215   -0.4458    0.0000
+     3         N        1.3733    0.7495    0.0000
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C H N  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS =    5
+
+
+
+          HEAT OF FORMATION =     115.928932 KCALS/MOLE
+
+
+          CARTESIAN COORDINATE DERIVATIVES
+
+   NUMBER  ATOM         X            Y            Z
+
+     1       H     -0.504518    -0.825691     0.000000
+     2       C      0.118598    -0.921813     0.000000
+     3       N      0.385920     1.747504     0.000000
+ 
+
+
+          GRADIENT NORM =   2.23670
+
+          MOLECULAR WEIGHT =   27.03
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =   10.87134487   B =    1.78409936   C =    1.53258622
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =        2.5749   B =       15.6901   C =       18.2651
+
+
+          ORIENTATION OF MOLECULE IN FORCE CALCULATION
+
+    NO.       ATOM         X         Y         Z
+
+     1          H      -1.0901   -0.5930    0.0000
+     2          C       0.2455   -0.5930    0.0000
+     3          N      -0.1321    0.5512    0.0000
+
+
+    FIRST DERIVATIVES WILL BE USED IN THE CALCULATION OF SECOND DERIVATIVES
+
+    FOR POINT-GROUP Cs   THERE ARE   2 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   2 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   3 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   4 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   5 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   6 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   7 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   8 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   9 TIME =     0.02 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+
+(To convert to Hartree/Bohr^2, multiply by (10^(-21) x N x a0^2)/(4.184 x 627.51) =  0.0642)
+
+
+           FORCE MATRIX IN MILLIDYNES/ANGSTROM
+
+
+                  H  1       C  2       N  3
+ ------------------------------------------
+     H    1   3.037304
+     C    2   2.545195  15.119702
+     N    3   1.739411  16.593012  16.935869
+
+
+          HEAT OF FORMATION =     115.928932 KCALS/MOLE
+
+          ZERO POINT ENERGY       6.184 KCAL/MOL
+
+         NOTE: SYSTEM IS NOT A GROUND STATE, THEREFORE ZERO POINT
+         ENERGY IS NOT MEANINGFULL. ZERO POINT ENERGY PRINTED
+         DOES NOT INCLUDE THE  1 IMAGINARY FREQUENCIES
+
+
+           NORMAL COORDINATE ANALYSIS (Total motion = 1 Angstrom)
+
+
+   Root No.       1         2         3
+
+                 1 A'      2 A'      3 A'  
+
+               -1378.3    2010.1    2315.4
+  
+   x  H    1   -0.2690   -0.5523    0.7570
+   y  H    1    0.7983   -0.0835    0.3209
+   z  H    1    0.0000    0.0000   -0.0000
+   x  C    2    0.0880   -0.0363   -0.0640
+   y  C    2   -0.0282    0.2326    0.0699
+   z  C    2    0.0000   -0.0000    0.0000
+   x  N    3   -0.0561    0.0709    0.0004
+   y  N    3   -0.0333   -0.1935   -0.0830
+   z  N    3   -0.0000    0.0000    0.0000
+
+
+           MASS-WEIGHTED COORDINATE ANALYSIS (NORMAL COORDINATES)
+
+
+   Root No.       1         2         3
+
+                 1 A'      2 A'      3 A'  
+
+               -1378.3    2010.1    2315.4
+  
+   x  H    1   -0.2884   -0.4418    0.8075
+   y  H    1    0.8557   -0.0668    0.3423
+   z  H    1    0.0000    0.0000   -0.0000
+   x  C    2    0.3255   -0.1003   -0.2358
+   y  C    2   -0.1042    0.6424    0.2572
+   z  C    2    0.0000   -0.0000    0.0000
+   x  N    3   -0.2240    0.2114    0.0017
+   y  N    3   -0.1330   -0.5770   -0.3300
+   z  N    3   -0.0000    0.0000    0.0000
+
+
+          DESCRIPTION OF VIBRATIONS
+
+
+ VIBRATION    1    1A'      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.     -1378.31        H  1 --  C  2          -53.7% (-92.8%)    29.0%
+ T-DIPOLE    0.1431        H  1 --  N  3          -45.4% (-85.3%)    52.3%
+ TRAVEL      0.1536        C  2 --  N  3           -0.8% (-11.6%)     6.9%
+ RED. MASS   0.8984
+ EFF. MASS   2.0737
+
+ VIBRATION    2    2A'      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2010.09        C  2 --  N  3          +50.6% ( 91.1%)    99.5%
+ T-DIPOLE    2.3715        H  1 --  C  2          +26.5% ( 66.0%)    18.8%
+ TRAVEL      0.0558        H  1 --  N  3          +22.9% ( 61.3%)     0.1%
+ RED. MASS   4.1836
+ EFF. MASS  10.7596
+
+ VIBRATION    3    3A'      ATOM PAIR        ENERGY CONTRIBUTION    RADIAL
+ FREQ.      2315.42        H  1 --  C  2          +46.2% ( 90.6%)    99.3%
+ T-DIPOLE    1.2903        H  1 --  N  3          +44.7% ( 89.1%)    96.9%
+ TRAVEL      0.0940        C  2 --  N  3           +9.0% ( 40.1%)    99.6%
+ RED. MASS   0.9408
+ EFF. MASS   3.2947
+
+           FORCE CONSTANT IN CARTESIAN COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL       X               Y               Z
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1       H        2.451244       -0.441724        0.006480
+      2       C        0.972238       14.161842        0.016195
+      3       N        0.719601       15.644237        0.022996
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.03 SECONDS
+
+ == MOPAC DONE ==

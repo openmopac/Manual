@@ -1,0 +1,24 @@
+HEADER  data-set: G:\test\Saddle_TS
+REMARK  MOPAC 2012, Version: 15.322W Date: Nov 18 2015 11:49
+HETATM    1  C   HET A   1       0.646   0.300   0.029  1.00 -0.42      PROT C 
+HETATM    2  C   HET A   1       1.906   0.042  -0.516  1.00 -0.06      PROT C 
+HETATM    3  C   HET A   1       2.385   0.841  -1.550  1.00 -0.22      PROT C 
+HETATM    4  C   HET A   1       1.590   1.877  -2.046  1.00 -0.06      PROT C 
+HETATM    5  C   HET A   1       0.328   2.134  -1.505  1.00 -0.22      PROT C 
+HETATM    6  C   HET A   1      -0.153   1.339  -0.471  1.00 -0.02      PROT C 
+HETATM    7  N   HET A   1      -0.428  -1.427  -0.214  1.00  0.75      PROT N 
+HETATM    8  O   HET A   1      -1.203  -1.121  -1.009  1.00 -0.03      PROT O 
+HETATM    9  O   HET A   1       0.162  -2.215   0.384  1.00 -0.03      PROT O 
+HETATM   10  S   HET A   1      -1.375  -0.612   2.767  1.00  2.66      PROT S 
+HETATM   11  O   HET A   1      -2.195   0.228   3.613  1.00 -0.95      PROT O 
+HETATM   12  O   HET A   1       0.069  -0.238   2.613  1.00 -1.01      PROT O 
+HETATM   13  O   HET A   1      -1.376  -2.085   3.550  1.00 -0.84      PROT O 
+HETATM   14  O   HET A   1      -1.856  -0.915   1.387  1.00 -1.10      PROT O 
+HETATM   15  H   HET A   1       0.508   0.072   1.225  1.00  0.37      PROT H 
+HETATM   16  H   HET A   1       2.517  -0.766  -0.115  1.00  0.15      PROT H 
+HETATM   17  H   HET A   1       3.374   0.666  -1.969  1.00  0.16      PROT H 
+HETATM   18  H   HET A   1       1.954   2.490  -2.871  1.00  0.15      PROT H 
+HETATM   19  H   HET A   1      -0.273   2.957  -1.889  1.00  0.16      PROT H 
+HETATM   20  H   HET A   1      -1.151   1.506  -0.049  1.00  0.18      PROT H 
+HETATM   21  H   HET A   1      -2.011  -2.153   4.270  1.00  0.38      PROT H 
+END

@@ -1,0 +1,85 @@
+
+
+                     SUMMARY OF PM7 CALCULATION, Site No: 23746
+
+                                                       MOPAC2016 (Version: 16.175W)
+                                                       Mon Jul 25 11:39:58 2016
+                                                       No. of days remaining = 334
+
+           Empirical Formula: C17 H16 N  =    34 atoms
+
+START_RES=(1A)  CHAINS=(A) html ts
+
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (TS).     
+     SCF FIELD WAS ACHIEVED                                   
+
+          HEAT OF FORMATION       =        113.19160 KCAL/MOL =     473.59365 KJ/MOL
+          TOTAL ENERGY            =      -2487.31110 EV
+          ELECTRONIC ENERGY       =     -17460.93164 EV
+          CORE-CORE REPULSION     =      14973.62054 EV
+          GRADIENT NORM           =          0.82091
+          DIPOLE                  =          1.08394 DEBYE    POINT GROUP:       C1  
+          (SZ)                    =          0.500000
+          (S**2)                  =          1.023301
+          NO. OF ALPHA ELECTRONS  =         45
+          NO. OF BETA  ELECTRONS  =         44
+          IONIZATION POTENTIAL    =          8.298638 EV
+          ALPHA SOMO LUMO (EV)    =         -8.455 -0.518
+          BETA  SOMO LUMO (EV)    =         -8.299 -1.618
+          MOLECULAR WEIGHT        =        234.3201
+          COSMO AREA              =        275.76 SQUARE ANGSTROMS
+          COSMO VOLUME            =        306.06 CUBIC ANGSTROMS
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    31    H    24    11.24290
+            H    34    H    21     6.93177
+            H    32    H    33     4.48182
+          SCF CALCULATIONS        =        113
+          WALL-CLOCK TIME         =          3.355 SECONDS
+          COMPUTATION TIME        =         13.354 SECONDS
+
+
+          FINAL GEOMETRY OBTAINED
+START_RES=(1A)  CHAINS=(A) html ts
+
+
+  C(HETATM    1  C   HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  H(HETATM   28  H   HET A   1)   1.41737034 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  N(HETATM    2  N   HET A   1)   1.24754032 +1  161.4848651 +1    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET A   1)   1.41275323 +1  112.0273476 +1 -102.8486760 +1     3     2     1
+  C(HETATM    4  C   HET A   1)   2.41631859 +1  149.6139497 +1  -12.9122396 +1     4     3     2
+  C(HETATM    5  C   HET A   1)   1.40448785 +1  110.1095024 +1   32.6143155 +1     3     2     1
+  C(HETATM    6  C   HET A   1)   1.39214714 +1  123.5526022 +1 -111.3420522 +1     6     3     2
+  C(HETATM    7  C   HET A   1)   1.40689287 +1  120.5027185 +1  179.4826518 +1     7     6     3
+  C(HETATM    8  C   HET A   1)   1.37644657 +1  120.5636690 +1   -1.3629022 +1     8     7     6
+  C(HETATM    9  C   HET A   1)   1.42163008 +1  120.4101379 +1    0.8614827 +1     9     8     7
+  C(HETATM   10  C   HET A   1)   1.42038581 +1  120.7841270 +1 -179.8148431 +1    10     9     8
+  C(HETATM   11  C   HET A   1)   1.37477057 +1  120.5112270 +1 -179.3387441 +1    11    10     9
+  C(HETATM   12  C   HET A   1)   1.41331510 +1  120.2173536 +1    0.5557822 +1    12    11    10
+  C(HETATM   13  C   HET A   1)   1.37570790 +1  120.2973125 +1   -0.6360270 +1    13    12    11
+  C(HETATM   14  C   HET A   1)   1.41498999 +1  119.9669683 +1    0.3023494 +1    10     9     8
+  C(HETATM   15  C   HET A   1)   1.40625818 +1  119.8806656 +1 -179.7580991 +1     4     3     2
+  C(HETATM   16  C   HET A   1)   1.38921019 +1  119.6704584 +1  173.4216705 +1    16     4     3
+  H(HETATM   17  H   HET A   1)   1.08908528 +1  149.9304458 +1   11.0389235 +1     5     4     3
+  C(HETATM   18  C   HET A   1)   1.39321661 +1   90.1843007 +1 -168.8200057 +1     5     4     3
+  H(HETATM   19  H   HET A   1)   1.08940283 +1  120.3941764 +1    0.0232876 +1     7     6     3
+  H(HETATM   20  H   HET A   1)   1.08969731 +1  118.8633993 +1  179.2287300 +1     8     7     6
+  H(HETATM   21  H   HET A   1)   1.08760797 +1  120.7330551 +1 -179.2531322 +1     9     8     7
+  H(HETATM   22  H   HET A   1)   1.08803774 +1  118.7503350 +1    0.5161017 +1    11    10     9
+  H(HETATM   23  H   HET A   1)   1.08825721 +1  120.6724201 +1 -179.8963264 +1    12    11    10
+  H(HETATM   24  H   HET A   1)   1.08805401 +1  119.1154097 +1  178.9586794 +1    13    12    11
+  H(HETATM   25  H   HET A   1)   1.09201110 +1  120.4214023 +1  178.5325119 +1    14    13    12
+  H(HETATM   26  H   HET A   1)   1.08873002 +1  119.8680446 +1   -5.4280616 +1    16     4     3
+  H(HETATM   27  H   HET A   1)   1.07093165 +1  100.6378667 +1  -70.4580830 +1     1     2     3
+  H(HETATM   29  H   HET A   1)   2.15161666 +1   56.2598303 +1   11.3039805 +1     5     4     3
+  C(HETATM   30  C   HET A   1)   1.08700180 +1   34.0596698 +1    0.0323790 +1    29     5     4
+  H(HETATM   31  H   HET A   1)   1.08653905 +1  120.1064129 +1 -179.8990060 +1    19     5     4
+  H(HETATM   32  H   HET A   1)   1.08936651 +1  119.6656240 +1 -179.7908091 +1    17    16     4
+  H(HETATM   33  H   HET A   1)   1.06866079 +1  103.7453861 +1   49.4766068 +1     1     2     3
+  H(HETATM   34  H   HET A   1)   1.06918600 +1  100.2848423 +1  170.2602690 +1     1     2     3
+ 

@@ -1,0 +1,11 @@
+geo_ref="CH3Cl-Cl(-).arc.txt" +
+geo_dat="Cl-CH3Cl(-).arc.txt" +
+locate-ts(C:30,120;SET:1)  charge=-1 eps=78.4 gnorm=1  charge=-1 HTML  
+Transition state for CH3Cl --- Cl(-) <=> Cl(-) --- CH3Cl 
+
+Oldgeo FORCE isotope eps=78.4 
+
+
+oldgeo irc=1* restart eps=78.4
+
+

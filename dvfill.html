@@ -1,0 +1,36 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>DVFILL (Direction Vector FILLing)</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<tt><h1 align="center"><a name="SECTION0012223000000000000000">DVFILL</a></h1></tt><a name="SECTION0012223000000000000000"> (Direction Vector FILLing)</a>
+<p>This routine constructs a homogeneous set of points on a unit sphere (direction vectors). It starts with 12 face-centers on a regular dodecahedron, i.e. the 12 corners of a regular icosahedron. These form 20 regular triangles. If the centers of these 20 triangles are added to the 12 initial directions, a new set of triangles is created, which, by a Wigner-Seitz construction on the unit sphere corresponds to 32 faces, 12 pentagons, and 20 hexagons. Thus we have constructed a soccerball. By iterative addition of the triangle centers, any number <i>N</i> of homogeneously distributed points can be generated, which can be written in the form
+<i>N</i> = 3<sup>i </sup>x 10 + 2                                  , with <i>i</i> being an integer (N
+= 12, 32, 92, 272, ...                                          ). </p>
+<p>But there is a second way of generating a finer mesh of regular triangles from a cruder one. Instead of additional centers, the midpoints of the edges can be added. This roughly corresponds to an increase in the number of directions by a factor of four, instead of three. By combining these two procedures, a number
+<i>N</i> = 3<sup>i</sup> x j<sup>2</sup> x 10 + 2&nbsp;                                            of directions can be created. These are the allowed values of <tt>NSPA</tt> in the <tt>DVFILL</tt> routine ("magic numbers"). The smallest are 12
+(i=0, j=1), 32 (i=1, j=1), 42 (i=0, j=2), 92 (i=2, j=1 and i=0, j=3), 122 (i=1,
+j=2), 162 (i=0, j=4), .... The default for the construction of the fine grid is
+1082 = 3<sup>3</sup> x 4 x 10 + 2                                               . </p>
+<p></p><hr/>
+<p> <br/>
+</p>
+</body>
+</html>

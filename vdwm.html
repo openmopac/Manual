@@ -1,0 +1,307 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>VDW(text) </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>VDWM(<i>text</i>)</tt> </h1>
+<p>In <a href="mozyme.html"><tt>MOZYME</tt></a>,&nbsp; the
+<a href="Lewis_structures.html"><tt>LEWIS</tt></a> structure is constructed from the 
+topology of the system.&nbsp; Atoms are considered to be connected if they are 
+within 10% of the addition of the two radii, or within twice the heavy-atom 
+radius if one of the atoms is hydrogen.&nbsp; Values for all radii used are 
+shown in the Table below.</p>
+<p>The criterion of whether atoms are connected or not can be changed by 
+modifying the radii. using the <tt>VDWM</tt> keyword.&nbsp;&nbsp; The format of the command is: </p>
+<tt></tt><p>VDWM(&lt;chemical symbol<sub>1</sub>&gt;=<i>n</i>.<i>nn</i>;&lt;chemical symbol<sub>2</sub>&gt;=<i>n</i>.<i>nn</i>;&lt;chemical symbol<sub>3</sub>&gt;=<i>n</i>.<i>nn;</i>...) </p>
+<p>For example, if a hydrogen atom should be regarded as connected to a 
+nitrogen, but the N-H distance is 1.62 Angstroms, then <tt>VDWM(N=0.85)</tt> would override the default values of the van der Waals radii of 
+nitrogen (0.75), and result in the hydrogen being connected (the N-H distance of 
+1.62 being less than 2*0.85).</p>
+<p>If a fluorine atom should be connected to a bromine, but the F-Br distance is 
+2.1 Angstroms, i.e., it is too large for the two atoms to be regarded as being 
+connected (2.1 &gt; 1.1(0.71 + 1.14), then either the F radius, or the Br radius, 
+or both, could be increased.&nbsp; One possible change would be to use keyword 
+<tt>VDWM(F=0.75;Br=1.2)</tt></p>
+<p>Entries for different elements should be separated by a colon, a comma, or a 
+semi-colon. </p>
+<p align="center">
+<strong>&nbsp;Table 1:</strong> Default  radii (Angstroms) used in MOZYME</p>
+<p align="CENTER"></p><center><table border="" cellpadding="2" cellspacing="1" width="749">
+<tr><td valign="MIDDLE" width="39">
+<p align="CENTER">I</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER">II</p></td>
+<td colspan="10" rowspan="4" valign="BOTTOM" width="390">
+<p align="CENTER">Transition Metals</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></td>
+<td valign="MIDDLE" width="49">
+<p align="CENTER">III</p></td>
+<td valign="MIDDLE" width="36">
+<p align="CENTER">IV</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER">V</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER">VI</p></td>
+<td valign="MIDDLE" width="32">
+<p align="CENTER">VII</p></td>
+<td valign="MIDDLE" width="38">
+VIII</td>
+</tr>
+<tr><td valign="MIDDLE" width="39">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">H</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+0.37</p></td>
+<td valign="MIDDLE" width="33">
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p></td>
+<td colspan="5" valign="MIDDLE" width="211">
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p></td>
+<td valign="MIDDLE" width="38">
+<p style="margin-top: 0; margin-bottom: 0">He</p>
+<p style="margin-top: 0; margin-bottom: 0">0.32</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="39">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Li</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.34</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Be</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+0.90</p></td>
+<td valign="MIDDLE" width="49">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">B</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+0.82</p></td>
+<td valign="MIDDLE" width="36">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">C</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+0.77</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">N</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+0.75</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">O</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+0.73</p></td>
+<td valign="MIDDLE" width="32">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">F</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+0.71</p></td>
+<td valign="MIDDLE" width="38">
+<p style="margin-top: 0; margin-bottom: 0">Ne</p>
+<p style="margin-top: 0; margin-bottom: 0">0.69</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="39">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Na</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.54</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Mg</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.30</p></td>
+<td valign="MIDDLE" width="49">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Al</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.18</p></td>
+<td valign="MIDDLE" width="36">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Si</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.11</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">P</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.06</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">S</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.02</p></td>
+<td valign="MIDDLE" width="32">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Cl</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+0.99</p></td>
+<td valign="MIDDLE" width="38">
+<p style="margin-top: 0; margin-bottom: 0">Ar</p>
+<p style="margin-top: 0; margin-bottom: 0">0.97</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="39">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">K</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.96</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Ca</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.74</p></td>
+<td align="center" valign="TOP" width="33">
+<p align="center" style="margin-top: 0; margin-bottom: 0">Sc</p><p align="center" style="margin-top: 0; margin-bottom: 0">
+1.44</p></td>
+<td align="center" valign="TOP" width="39">
+<p align="center" style="margin-top: 0; margin-bottom: 0">Ti</p><p align="center" style="margin-top: 0; margin-bottom: 0">
+1.36</p></td>
+<td align="center" valign="TOP" width="32">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">V</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.25</p></td>
+<td align="center" valign="TOP" width="39">
+<p align="center" style="margin-top: 0; margin-bottom: 0">Cr</p><p align="center" style="margin-top: 0; margin-bottom: 0">
+1.27</p></td>
+<td align="center" valign="TOP" width="28">
+<p align="center" style="margin-top: 0; margin-bottom: 0">Mn</p><p align="center" style="margin-top: 0; margin-bottom: 0">
+1.39</p></td>
+<td align="center" valign="TOP" width="28">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Fe</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.25</p></td>
+<td align="center" valign="TOP" width="35">
+<p align="center" style="margin-top: 0; margin-bottom: 0">Co</p><p align="center" style="margin-top: 0; margin-bottom: 0">
+1.26</p></td>
+<td align="center" valign="TOP" width="35">
+<p align="center" style="margin-top: 0; margin-bottom: 0">Ni</p><p align="center" style="margin-top: 0; margin-bottom: 0">
+1.21</p></td>
+<td align="center" valign="TOP" width="31">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Cu</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.38</p></td>
+<td align="center" valign="MIDDLE" width="27">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Zn</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.31</p></td>
+<td valign="MIDDLE" width="49">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Ga</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.26</p></td>
+<td valign="MIDDLE" width="36">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Ge</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.22</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">As</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.19</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Se</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.16</p></td>
+<td valign="MIDDLE" width="32">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Br</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.14</p></td>
+<td valign="MIDDLE" width="38">
+<p style="margin-top: 0; margin-bottom: 0">Kr</p>
+<p style="margin-top: 0; margin-bottom: 0">1.10</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="39">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Rb</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+2.11</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Sr</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.92</p></td>
+<td align="center" valign="TOP" width="33">
+<p style="margin-top: 0; margin-bottom: 0">Y</p><p style="margin-top: 0; margin-bottom: 0">
+1.62</p></td>
+<td align="center" valign="TOP" width="39">
+<p align="center" style="margin-top: 0; margin-bottom: 0">Zr</p><p align="center" style="margin-top: 0; margin-bottom: 0">
+1.48</p></td>
+<td align="center" valign="TOP" width="32">
+<p style="margin-top: 0; margin-bottom: 0">Nb</p><p style="margin-top: 0; margin-bottom: 0">
+1.37</p></td>
+<td align="center" valign="TOP" width="39">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Mo</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.45</p></td>
+<td align="center" valign="TOP" width="28">
+<p style="margin-top: 0; margin-bottom: 0">Tc</p><p style="margin-top: 0; margin-bottom: 0">
+1.56</p></td>
+<td align="center" valign="TOP" width="28">
+<p style="margin-top: 0; margin-bottom: 0">Ru</p><p style="margin-top: 0; margin-bottom: 0">
+1.26</p></td>
+<td align="center" valign="TOP" width="35">
+<p style="margin-top: 0; margin-bottom: 0">Rh</p><p style="margin-top: 0; margin-bottom: 0">
+1.35</p></td>
+<td align="center" valign="TOP" width="35">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Pd</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.31</p></td>
+<td align="center" valign="TOP" width="31">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Ag</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.53</p></td>
+<td align="center" valign="MIDDLE" width="27">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Cd</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.48</p></td>
+<td valign="MIDDLE" width="49">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">In</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.44</p></td>
+<td valign="MIDDLE" width="36">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Sn</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.41</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Sb</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.38</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Te</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.35</p></td>
+<td valign="MIDDLE" width="32">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">I</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.33</p></td>
+<td valign="MIDDLE" width="38">
+<p style="margin-top: 0; margin-bottom: 0">Xe</p>
+<p style="margin-top: 0; margin-bottom: 0">1.30</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="39">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Cs</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+2.25</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Ba</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.98</p></td>
+<td align="center" valign="TOP" width="33">
+<p style="margin-top: 0; margin-bottom: 0">La</p><p style="margin-top: 0; margin-bottom: 0">
+1.69</p></td>
+<td align="center" valign="TOP" width="39">
+<p style="margin-top: 0; margin-bottom: 0">Hf</p><p style="margin-top: 0; margin-bottom: 0">
+1.50</p></td>
+<td align="center" valign="TOP" width="32">
+<p style="margin-top: 0; margin-bottom: 0">Ta</p><p style="margin-top: 0; margin-bottom: 0">
+1.38</p></td>
+<td align="center" valign="TOP" width="39">
+<p style="margin-top: 0; margin-bottom: 0">W</p><p style="margin-top: 0; margin-bottom: 0">
+1.46</p></td>
+<td align="center" valign="TOP" width="28">
+<p style="margin-top: 0; margin-bottom: 0">Re</p><p style="margin-top: 0; margin-bottom: 0">
+1.59</p></td>
+<td align="center" valign="TOP" width="28">
+<p style="margin-top: 0; margin-bottom: 0">Os</p><p style="margin-top: 0; margin-bottom: 0">
+1.28</p></td>
+<td align="center" valign="TOP" width="35">
+<p style="margin-top: 0; margin-bottom: 0">Ir</p><p style="margin-top: 0; margin-bottom: 0">
+1.37</p></td>
+<td align="center" valign="TOP" width="35">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Pt</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.28</p></td>
+<td align="center" valign="TOP" width="31">
+<p style="margin-top: 0; margin-bottom: 0">Au</p><p style="margin-top: 0; margin-bottom: 0">
+1.44</p></td>
+<td align="center" valign="MIDDLE" width="27">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Hg</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.49</p></td>
+<td valign="MIDDLE" width="49">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Tl</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+148</p></td>
+<td valign="MIDDLE" width="36">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Pb</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.47</p></td>
+<td valign="MIDDLE" width="33">
+<p align="CENTER" style="margin-top: 0; margin-bottom: 0">Bi</p><p align="CENTER" style="margin-top: 0; margin-bottom: 0">
+1.46</p></td>
+<td valign="MIDDLE" width="33">
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p></td>
+<td valign="MIDDLE" width="32">
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p></td>
+<td valign="MIDDLE" width="38">
+<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p></td>
+</tr>
+</table>
+</center>
+<p></p>
+<p>
+</p><p>Related key-words:&nbsp; <tt><a href="lewis.html">LEWIS</a>, <a href="CVB.html">
+CVB</a>, <a href="setpi.html">SETPI,</a> <a href="metal.html">METAL</a>,
+<a href="charge.html">CHARGE</a>, <a href="charges.html">CHARGES</a>, and <a href="mozyme.html">MOZYME</a></tt><br/>
+See also: <a href="Lewis_structures.html">Lewis Structures</a>,
+<a href="mozyme_introduction.html">MOZYME introduction</a></p><p>&nbsp;</p><p>&nbsp;</p><dl dir="ltr">
+<div align="left">
+<dt dir="ltr">&nbsp;</dt>
+</div>
+</dl>
+<p>&nbsp;</p>
+</body>
+</html>

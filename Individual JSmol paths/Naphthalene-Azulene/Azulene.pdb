@@ -1,0 +1,21 @@
+HEADER  data-set: M:\Individual JSmol paths\Naphthalene-Azulene\Azulene
+REMARK  MOPAC 2012, Version: 15.312W Date: Nov 08 2015 22:05
+HETATM    1  C   HET A   1       0.000   0.000   0.000  1.00 -0.18      PROT C 
+HETATM    2  C   HET A   1       1.359   0.000   0.000  1.00 -0.09      PROT C 
+HETATM    3  C   HET A   1       2.272   1.094   0.000  1.00 -0.18      PROT C 
+HETATM    4  C   HET A   1       2.014   2.426  -0.000  1.00 -0.09      PROT C 
+HETATM    5  C   HET A   1       0.753   3.076  -0.001  1.00 -0.02      PROT C 
+HETATM    6  C   HET A   1      -0.893   1.108  -0.000  1.00 -0.08      PROT C 
+HETATM    7  C   HET A   1      -0.578   2.425  -0.001  1.00 -0.01      PROT C 
+HETATM    8  C   HET A   1      -1.548   3.513  -0.002  1.00 -0.23      PROT C 
+HETATM    9  C   HET A   1      -0.870   4.703  -0.002  1.00 -0.11      PROT C 
+HETATM   10  C   HET A   1       0.551   4.441  -0.002  1.00 -0.23      PROT C 
+HETATM   11  H   HET A   1      -0.499  -0.981   0.000  1.00  0.15      PROT H 
+HETATM   12  H   HET A   1       1.851  -0.987   0.000  1.00  0.15      PROT H 
+HETATM   13  H   HET A   1       3.331   0.793   0.000  1.00  0.15      PROT H 
+HETATM   14  H   HET A   1       2.876   3.114  -0.000  1.00  0.15      PROT H 
+HETATM   15  H   HET A   1      -1.963   0.842  -0.000  1.00  0.15      PROT H 
+HETATM   16  H   HET A   1      -2.607   3.363  -0.003  1.00  0.15      PROT H 
+HETATM   17  H   HET A   1      -1.292   5.690  -0.003  1.00  0.15      PROT H 
+HETATM   18  H   HET A   1       1.301   5.204  -0.001  1.00  0.15      PROT H 
+END

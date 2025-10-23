@@ -1,0 +1,15 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Ring-opening cy
+REMARK  MOPAC 2016, Version: 21.138W
+REMARK  Date: May 27 2021 10:47
+REMARK  Heat of Formation = 70.759 Kcal/mol
+HETATM    1  C1  HET A   1       0.237  -0.180  -0.079  1.00 -0.26      PROT C 
+HETATM    2  C2  HET A   1       2.350  -0.162  -0.031  1.00 -0.26      PROT C 
+HETATM    3  C3  HET A   1       0.604   1.178   0.062  1.00 -0.18      PROT C 
+HETATM    4  C4  HET A   1       1.947   1.117   0.420  1.00 -0.18      PROT C 
+HETATM    5  H1  HET A   1       0.001   2.031  -0.164  1.00  0.15      PROT H 
+HETATM    6 1H2  HET A   1      -0.409  -0.510  -0.875  1.00  0.13      PROT H 
+HETATM    7 2H2  HET A   1       0.311  -0.891   0.730  1.00  0.15      PROT H 
+HETATM    8  H3  HET A   1       2.528   1.808   0.991  1.00  0.15      PROT H 
+HETATM    9 1H4  HET A   1       3.009  -0.783   0.550  1.00  0.13      PROT H 
+HETATM   10 2H4  HET A   1       2.291  -0.458  -1.068  1.00  0.15      PROT H 
+END

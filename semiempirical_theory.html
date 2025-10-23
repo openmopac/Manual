@@ -1,0 +1,365 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Approximations used in MNDO, MINDO/3, AM1, PM3, and MNDO-d</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>Semiempirical Theory - Introduction</h1>
+<p>There are six distinct methods available within MOPAC:&nbsp; MNDO, AM1, PM3, PM6, 
+RM1, and MNDO-<i>d</i>. All are semiempirical, and have roughly the same structure. A complete knowledge of these methods is not necessary in order to use MOPAC; however, a superficial understanding of these methods and their relationship to <em>ab&nbsp;initio</em> methods is important for using MOPAC and particularly for interpreting the results. </p>
+<p>The six methods within MOPAC have many features in common. They are all self-consistent field (SCF) methods, they take into account electrostatic repulsion and exchange stabilization, and all calculated integrals are evaluated by approximate means. Further, they all use a restricted basis set of one <i>s</i> orbital and three <i>p</i> orbitals (<i>p<sub>x</sub></i>, <i>p<sub>y</sub></i>, and <i>p<sub>z</sub></i>) 
+and sometimes&nbsp; five <i>d</i> orbitals per atom and ignore overlap integrals in the secular equation. Thus, instead of solving </p>
+<p></p><div align="CENTER">
+                     |<i>H</i>-<i>ES</i>| = 0, </div>
+<p>the expression </p>
+<p></p><div align="CENTER">
+                     |<i>H</i>-<i>E</i>| = 0, </div>
+<p>in which <i>H</i> is the secular determinant, <i>S</i> is the overlap matrix, and <i>E</i> is the set of eigenvalues, is solved. These approximations considerably simplify quantum mechanical calculations on systems of chemical interest. As a result, larger systems can be studied. Computational methods are only models, and there is no advantage in rigorously solving Schr&ouml;dinger's equation for a large system if that system has had to be abbreviated in order to make the calculations tractable. Semiempirical methods are thus seen to be well balanced: they are accurate enough to have useful predictive powers, yet fast enough to allow large systems to be studied. </p>
+<p>All the semiempirical methods contain sets of parameters. For  PM6 atomic and diatomic parameters exist, while MNDO, AM1, PM3, 
+RM1, and MNDO-<i>d</i> use only single-atom parameters. Not all parameters are optimized for all methods; for example, in&nbsp; MNDO and AM1 the two electron one center integrals are normally taken from atomic spectra. In the list given in the&nbsp;Table, parameters optimized for a given method are indicated by '*'. A '+' indicates that the value of the parameter was obtained from experiment (not optimized). Where neither symbol is given, the associated parameter is not used in that method. </p>
+<p><br/>
+</p><div align="CENTER"><div align="CENTER"><a name="BM9673">&nbsp;</a>
+<strong><p>Table:</p></strong> Parameters used in Semiempirical Methods
+<table border="" cellpadding="3" cellspacing="1" width="659">
+<tr><td valign="MIDDLE" width="17%">
+<p>Parameter</p></td>
+<td valign="MIDDLE" width="52%">
+<p>Description</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">MINDO/3</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">MNDO</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">AM1</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">PM3</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">RM1</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">PM6</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p>U<i><sub>ss</sub></i> and U<i><sub>pp</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>s and <i>p</i> atomic orbital<br/>
+one-electron one-center integrals</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p><i><span class="b">&beta;</span><sub>s</sub> </i>and <i>
+<span class="b">&beta;</span></i><sub><i>p</i></sub></p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>s and <i>p</i> atomic orbital one-electron<br/>
+two-center resonance integral terms</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p>I<i><sub>s</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>s atomic orbital ionization potential<br/>
+for two center resonance integral term</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p>I<i><sub>p</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>p atomic orbital ionization potential<br/>
+for two center resonance integral term</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p> <i><span class="b">&beta;</span><sub>AB</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<p>Diatomic two center one-electron<br/>
+resonance integral multiplier</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p><i>&xi;<sub>s</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>s-type Slater atomic orbital exponent</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p><i>&xi;</i><sub><i>p</i></sub></p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>p-type Slater atomic orbital exponent</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p><i><span class="b">&alpha;</span><sub>A</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<p>Atom <i>A</i> core-core repulsion term</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p> <i><span class="b">&alpha;</span><sub>AB</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<p>Atoms <i>A</i> and <i>B</i> core-core repulsion term</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<i></i><p>Gss</p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>s-<i>s</i> atomic orbital one center<br/>
+two electron repulsion integral</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<i></i><p>Gsp</p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>s-<i>p</i> atomic orbital one center<br/>
+two electron repulsion integral</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<i></i><p>Gpp</p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>p-<i>p</i> atomic orbital one center<br/>
+two electron repulsion integral</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<i></i><p>Gp2</p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>p-<i>p</i>' atomic orbital one center<br/>
+two electron repulsion integral</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<i></i><p>Hsp</p></td>
+<td valign="MIDDLE" width="52%">
+<i></i><p>s-<i>p</i> atomic orbital one-center<br/>
+two-electron exchange integral</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">+</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p>K<i><sub>nA</sub></i> or a<i><sub>nA</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<p>A Gaussian multiplier for <i>n</i>th<br/>
+Gaussian of atom A</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p>L<i><sub>nA</sub></i> or b<i><sub>nA</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<p>A Gaussian exponent multiplier<br/>
+Gaussian of atom A</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="17%">
+<p>M<i><sub>nA</sub></i> or c<i><sub>nA</sub></i></p></td>
+<td valign="MIDDLE" width="52%">
+<p>A Radius of center of <i>n</i>th<br/>
+Gaussian of atom A</p></td>
+<td valign="MIDDLE" width="10%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="6%">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+<td valign="MIDDLE" width="5%">
+<p align="CENTER">*</p></td>
+</tr>
+</table>
+<p></p></div></div>
+<p>All the semiempirical methods also use two experimentally determined constants per atom: the 
+atomic weight and the heat of atomization. </p>
+</body>
+</html>

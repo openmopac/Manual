@@ -1,0 +1,421 @@
+ *******************************************************************************
+ ** Site#: 9602  E-mail support:    MrMOPAC@ATT.net    Version 17.210W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.210W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 376**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Aug 04 17:05:35 2017  *
+ *  START_RES  - STARTING RESIDUE NUMBERS DEFINED
+ *  Keyword:   START_RES=(1 254) 
+ *  CHAINS     - PDB CHAIN LETTERS EXPLICITLY DEFINED
+ *  Keyword:   CHAINS=(AB) 
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  GNORM=     - EXIT WHEN GRADIENT NORM DROPS BELOW   3.00    
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+CHAINS=(AB) START_RES=(1 254) HTML OUTPUT MOZYME CHARGE=0    gnorm=3 opt  1SCF
+ Optimize the positions of all atoms in reactants for KE07
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1262 H2014 N338 O371 S5  =  3990 atoms
+
+
+   Ion Atom No.           Label               Charge (Distances are between charged sites predicted by Lewis structure theory)
+ 
+    1   C   77   (ATOM     77  CZ  ARG A   5)   +1  (3.2 Angstroms from anion  O 2607, Label: ATOM   2607  OE2 GLU A 167)
+                                                    (3.7 Angstroms from anion  O  716, Label: ATOM    716  OE2 GLU A  46)
+    2   N 1086   (ATOM   1086  NZ  LYS A  68)   +1  (2.5 Angstroms from anion  O  484, Label: ATOM    484  OD2 ASP A  31)
+    3   N 1548   (ATOM   1548  NZ  LYS A  99)   +1  (2.7 Angstroms from anion  O  716, Label: ATOM    716  OE2 GLU A  46)
+                                                    (3.8 Angstroms from anion  O 2607, Label: ATOM   2607  OE2 GLU A 167)
+    4   C 2399   (ATOM   2399  CZ  ARG A 154)   +1  (3.4 Angstroms from anion  O 2422, Label: ATOM   2422  OD2 ASP A 155)
+    5   C 2986   (ATOM   2986  CZ  ARG A 191)   +1  (3.8 Angstroms from anion  O 3401, Label: ATOM   3401  OD2 ASP A 219)
+    6   N 3434   (ATOM   3434  NZ  LYS A 222)   +1  (3.0 Angstroms from anion  O 1586, Label: ATOM   1586  OE2 GLU A 101)
+    7   N 3708   (ATOM   3708  NZ  LYS A 238)   +1  (3.1 Angstroms from anion  O  703, Label: ATOM    703  OD2 ASP A  45)
+ 
+    1   O  484   (ATOM    484  OD2 ASP A  31)   -1  (2.5 Angstroms from cation  N 1086, Label: ATOM   1086  NZ  LYS A  68)
+    2   O  703   (ATOM    703  OD2 ASP A  45)   -1  (3.1 Angstroms from cation  N 3708, Label: ATOM   3708  NZ  LYS A 238)
+    3   O  716   (ATOM    716  OE2 GLU A  46)   -1  (2.7 Angstroms from cation  N 1548, Label: ATOM   1548  NZ  LYS A  99)
+                                                    (3.7 Angstroms from cation  C   77, Label: ATOM     77  CZ  ARG A   5)
+    4   O 1586   (ATOM   1586  OE2 GLU A 101)   -1  (3.0 Angstroms from cation  N 3434, Label: ATOM   3434  NZ  LYS A 222)
+    5   O 2422   (ATOM   2422  OD2 ASP A 155)   -1  (3.4 Angstroms from cation  C 2399, Label: ATOM   2399  CZ  ARG A 154)
+    6   O 2607   (ATOM   2607  OE2 GLU A 167)   -1  (3.2 Angstroms from cation  C   77, Label: ATOM     77  CZ  ARG A   5)
+                                                    (3.8 Angstroms from cation  N 1548, Label: ATOM   1548  NZ  LYS A  99)
+    7   O 3401   (ATOM   3401  OD2 ASP A 219)   -1  (3.8 Angstroms from cation  C 2986, Label: ATOM   2986  CZ  ARG A 191)
+
+ -------------------------------------------------------------------------------
+CHAINS=(AB) START_RES=(1 254) HTML OUTPUT MOZYME CHARGE=0    gnorm=3 opt  1SCF
+ Optimize the positions of all atoms in reactants for KE07
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 17.210W)
+                                                       Fri Aug 04 17:15:22 2017
+                                                       No. of days remaining = 376
+
+
+
+
+          FINAL HEAT OF FORMATION =     -21960.90303 KCAL/MOL =  -91884.41829 KJ/MOL
+
+
+          TOTAL ENERGY            =    -355780.26179 EV
+          ELECTRONIC ENERGY       =  -50148804.15312 EV
+          CORE-CORE REPULSION     =   49793023.89134 EV
+
+          NO. OF FILLED LEVELS    =       5504
+          MOLECULAR WEIGHT        =      28018.1346
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H  2130    H   444    56.02366
+            H  3818    H  1378    50.28269
+            H     9    H  2277    37.69754
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =  9 MINUTES AND 47.605 SECONDS
+          COMPUTATION TIME        =  9 MINUTES AND 37.703 SECONDS
+
+
+
+
+
+                  UNUSUALLY SHORT HYDROGEN BOND DISTANCES
+
+  Hydrogen   R(H-A)  Atom A    R(H-B)  Atom B     R(A-B)      Loc-A      Loc-B
+    3446      1.31   O 1585     1.21   N 3434      2.48     GLU 101  A  LYS 222  A
+     489      1.41   O  484     1.14   N 1086      2.54     ASP  31  A  LYS  68  A
+ 
+
+           Empirical Formula: C1262 H2014 N338 O371 S5  =  3990 atoms
+
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      MET A   1       +0.052
+      LEU A   2       +0.002
+      ALA A   3       -0.088
+      LYS A   4       +0.067
+      ARG A   5       +0.843  CATION
+      ILE A   6       +0.006
+      ILE A   7       -0.037
+      ALA A   8       +0.030
+      ALA A   9       -0.091
+      LEU A  10       +0.088
+      ILE A  11       +0.000
+      VAL A  12       -0.026
+      LYS A  13       +0.052
+      ASP A  14       -0.002
+      GLY A  15       -0.081
+      ARG A  16       +0.016
+      VAL A  17       +0.501  CATION
+      VAL A  18       +0.047
+      LYS A  19       -0.005
+      GLY A  20       -0.121
+      SER A  21       +0.125
+      ASN A  22       -0.039
+      PHE A  23       +0.021
+      GLU A  24       -0.006
+      ASN A  25       -0.041
+      LEU A  26       +0.022
+      ARG A  27       -0.001
+      ASP A  28       -0.506  ANION
+      SER A  29       +0.011
+      GLY A  30       -0.062
+      ASP A  31       -0.792  ANION
+      PRO A  32       +0.339
+      VAL A  33       +0.102
+      GLU A  34       -0.020
+      LEU A  35       -0.001
+      GLY A  36       -0.063
+      LYS A  37       +0.080
+      PHE A  38       +0.425
+      TYR A  39       -0.073
+      SER A  40       +0.020
+      GLU A  41       -0.404
+      ILE A  42       -0.059
+      GLY A  43       -0.036
+      ILE A  44       +0.098
+      ASP A  45       -0.887  ANION
+      GLU A  46       -0.960  ANION
+      LEU A  47       +0.046
+      SER A  48       -0.060
+      PHE A  49       +0.038
+      TRP A  50       -0.009
+      ASP A  51       -0.055
+      ILE A  52       +0.093
+      THR A  53       -0.058
+      ALA A  54       +0.066
+      SER A  55       -0.074
+      VAL A  56       +0.069
+      GLU A  57       -0.103
+      LYS A  58       +0.094
+      ARG A  59       +0.050
+      LYS A  60       +0.421
+      THR A  61       -0.087
+      MET A  62       -0.016
+      LEU A  63       +0.042
+      GLU A  64       +0.012
+      LEU A  65       -0.033
+      VAL A  66       +0.021
+      GLU A  67       +0.014
+      LYS A  68       +0.418
+      VAL A  69       -0.038
+      ALA A  70       +0.092
+      GLU A  71       -0.011
+      GLN A  72       -0.076
+      ILE A  73       +0.134
+      ASP A  74       -0.087
+      ILE A  75       +0.009
+      PRO A  76       +0.002
+      PHE A  77       +0.059
+      THR A  78       -0.143
+      VAL A  79       +0.073
+      GLY A  80       +0.076
+      GLY A  81       +0.002
+      GLY A  82       -0.048
+      ILE A  83       +0.058
+      HIS A  84       -0.049
+      ASP A  85       -0.049
+      PHE A  86       +0.025
+      GLU A  87       +0.019
+      THR A  88       +0.003
+      ALA A  89       -0.001
+      SER A  90       +0.018
+      GLU A  91       -0.471
+      LEU A  92       -0.032
+      ILE A  93       +0.080
+      LEU A  94       +0.018
+      ARG A  95       +0.012
+      GLY A  96       -0.029
+      ALA A  97       +0.068
+      ASP A  98       -0.043
+      LYS A  99       +0.798  CATION
+      VAL A 100       +0.075
+      GLU A 101       -0.819  ANION
+      ILE A 102       +0.073
+      ASN A 103       -0.037
+      THR A 104       -0.030
+      ALA A 105       -0.003
+      ALA A 106       -0.027
+      VAL A 107       +0.066
+      GLU A 108       -0.040
+      ASN A 109       -0.087
+      PRO A 110       +0.064
+      SER A 111       +0.007
+      LEU A 112       -0.036
+      ILE A 113       -0.007
+      THR A 114       -0.014
+      GLN A 115       +0.020
+      ILE A 116       -0.066
+      ALA A 117       +0.048
+      GLN A 118       +0.028
+      THR A 119       +0.016
+      PHE A 120       -0.030
+      GLY A 121       +0.034
+      SER A 122       -0.027
+      GLN A 123       -0.039
+      ALA A 124       -0.021
+      VAL A 125       +0.052
+      VAL A 126       +0.006
+      VAL A 127       +0.009
+      TYR A 128       -0.082
+      ILE A 129       +0.065
+      ALA A 130       -0.035
+      ALA A 131       +0.012
+      LYS A 132       +0.020
+      ARG A 133       +0.453
+      VAL A 134       +0.429
+      ASP A 135       +0.041
+      GLY A 136       -0.033
+      GLU A 137       -0.043
+      PHE A 138       -0.028
+      MET A 139       +0.037
+      VAL A 140       +0.038
+      PHE A 141       +0.017
+      THR A 142       -0.025
+      TYR A 143       +0.068
+      SER A 144       -0.019
+      GLY A 145       -0.036
+      LYS A 146       +0.047
+      LYS A 147       -0.033
+      ASN A 148       -0.040
+      THR A 149       +0.026
+      GLY A 150       +0.013
+      ILE A 151       +0.003
+      LEU A 152       -0.024
+      LEU A 153       +0.004
+      ARG A 154       +0.761  CATION
+      ASP A 155       -0.768  ANION
+      TRP A 156       -0.038
+      VAL A 157       +0.003
+      VAL A 158       +0.017
+      GLU A 159       -0.069
+      VAL A 160       +0.002
+      GLU A 161       +0.016
+      LYS A 162       +0.046
+      ARG A 163       -0.025
+      GLY A 164       -0.010
+      ALA A 165       +0.082
+      GLY A 166       -0.004
+      GLU A 167       -0.863  ANION
+      ILE A 168       +0.017
+      VAL A 169       -0.016
+      LEU A 170       +0.018
+      GLY A 171       +0.024
+      SER A 172       -0.058
+      ILE A 173       +0.078
+      ASP A 174       -0.437
+      ARG A 175       -0.067
+      LEU A 176       +0.144
+      GLY A 177       -0.030
+      THR A 178       -0.012
+      LYS A 179       +0.037
+      SER A 180       +0.420
+      GLY A 181       +0.014
+      TYR A 182       +0.013
+      ASP A 183       -0.115
+      THR A 184       +0.011
+      GLU A 185       -0.381
+      MET A 186       -0.065
+      ILE A 187       +0.005
+      ARG A 188       +0.042
+      PHE A 189       -0.004
+      VAL A 190       -0.043
+      ARG A 191       +0.931  CATION
+      PRO A 192       +0.039
+      LEU A 193       +0.019
+      THR A 194       -0.004
+      THR A 195       -0.045
+      LEU A 196       -0.004
+      PRO A 197       +0.031
+      ILE A 198       +0.022
+      ILE A 199       -0.050
+      ALA A 200       +0.061
+      HIS A 201       -0.046
+      GLY A 202       -0.016
+      GLY A 203       -0.033
+      ALA A 204       +0.066
+      GLY A 205       +0.030
+      LYS A 206       -0.032
+      MET A 207       -0.051
+      GLU A 208       +0.029
+      HIS A 209       -0.019
+      PHE A 210       -0.009
+      LEU A 211       +0.061
+      GLU A 212       -0.033
+      ALA A 213       -0.053
+      PHE A 214       +0.055
+      LEU A 215       +0.029
+      ALA A 216       -0.040
+      GLY A 217       -0.026
+      ALA A 218       +0.034
+      ASP A 219       -0.939  ANION
+      ALA A 220       +0.026
+      ALA A 221       +0.035
+      LYS A 222       +0.668  CATION
+      ALA A 223       +0.143
+      ASN A 224       -0.098
+      SER A 225       +0.024
+      VAL A 226       +0.017
+      PHE A 227       -0.009
+      HIS A 228       +0.004
+      PHE A 229       +0.022
+      ARG A 230       +0.068
+      GLU A 231       -0.493
+      ILE A 232       +0.008
+      ASP A 233       -0.092
+      VAL A 234       -0.003
+      ARG A 235       +0.056
+      GLU A 236       -0.020
+      LEU A 237       -0.026
+      LYS A 238       +0.920  CATION
+      GLU A 239       +0.053
+      TYR A 240       -0.070
+      LEU A 241       -0.024
+      LYS A 242       +0.102
+      LYS A 243       +0.018
+      HIS A 244       -0.061
+      GLY A 245       +0.014
+      VAL A 246       +0.018
+      ASN A 247       -0.036
+      VAL A 248       +0.048
+      ARG A 249       -0.057
+      LEU A 250       +0.431
+      GLU A 251       -0.376
+      GLY A 252       -0.012
+      LEU A 253       -0.036
+      LG1 B 254       +0.000
+ 
+
+
+                   Salt Bridges Found (Up to  8.0 Angstroms)
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (ATOM   3434  NZ  LYS A 222)  A222(+)    (ATOM   1585  OE1 GLU A 101)  A101(-)      2.48
+      2  (ATOM   1548  NZ  LYS A  99)   A99(+)    (ATOM   2606  OE1 GLU A 167)  A167(-)      2.54
+      3  (ATOM   2398  NE  ARG A 154)  A154(+)    (ATOM   2421  OD1 ASP A 155)  A155(-)      2.55
+      4  (ATOM     78  NH1 ARG A   5)    A5(+)    (ATOM   2607  OE2 GLU A 167)  A167(-)      2.58
+      5  (ATOM   2987  NH1 ARG A 191)  A191(+)    (ATOM   3401  OD2 ASP A 219)  A219(-)      2.59
+      6  (ATOM   1548  NZ  LYS A  99)   A99(+)    (ATOM    715  OE1 GLU A  46)   A46(-)      2.62
+      7  (ATOM   3708  NZ  LYS A 238)  A238(+)    (ATOM    702  OD1 ASP A  45)   A45(-)      2.72
+      8  (ATOM     78  NH1 ARG A   5)    A5(+)    (ATOM    716  OE2 GLU A  46)   A46(-)      2.80
+      9  (ATOM     79  NH2 ARG A   5)    A5(+)    (ATOM   3401  OD2 ASP A 219)  A219(-)      5.31
+     10  (ATOM     76  NE  ARG A   5)    A5(+)    (ATOM    703  OD2 ASP A  45)   A45(-)      6.42
+     11  (ATOM   3434  NZ  LYS A 222)  A222(+)    (ATOM    715  OE1 GLU A  46)   A46(-)      7.27
+     12  (ATOM   1548  NZ  LYS A  99)   A99(+)    (ATOM   1585  OE1 GLU A 101)  A101(-)      7.63
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.  -132.446   -13.550    22.039   134.949
+ HYBRID       -29.569    -6.733     6.392    30.992
+ SUM         -162.015   -20.283    28.431   165.736
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:           589.44 SECONDS
+
+ == MOPAC DONE ==

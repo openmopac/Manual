@@ -1,0 +1,100 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Adding hydrogen atoms </title>
+<style type="text/css">
+h2
+	{margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Cambria","serif";
+	color:black;
+	}
+																													</style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p><font face="Arial">(<a href="Modeling_proteins.html">Modeling proteins</a>)</font></p>
+<h1>&nbsp;</h1>
+<h1>Adding Hydrogen Atoms to Protein</h1>
+<p class="MsoNormal">
+<o:p>Raw PDB files can be hydrogenated by running them as 
+MOPAC jobs, e.g. running MOPAC with the argument 1A1A.pdb.&nbsp; Because it does 
+not allow any options this way of hydrogenating a protein is 
+not normally used.&nbsp; A better 
+approach is to make up a normal MOPAC data-set that refers to the PDB 
+file, and run that.&nbsp; This strategy allows options that modify how the 
+hydrogenation is done.&nbsp; But first, some notes on hydrogenation, to make the 
+process easier to understand:</o:p></p>
+<h2>Initial hydrogenation</h2>
+<p class="MsoNormal">The hydrogenation method used in MOPAC has been optimized 
+for hydrogenating protein systems.<span style="mso-spacerun:yes">&nbsp; </span>
+Hydrogen atoms are added by keyword <a href="add-h.html"><tt>ADD-H</tt></a> so as to 
+neutralize all sites, so, for example, -COO would become -COOH, SO<sub>4</sub> 
+would become H<sub>2</sub>SO<sub>4</sub>, and O would become H<sub>2</sub>O.<span style="mso-spacerun:yes">&nbsp;
+Only metal atoms, such as K and Ca, are ionized</span></p>
+<h2>Ionization and other operations</h2>
+<h3>Salt bridges</h3>
+<p class="MsoNormal">Many proteins contain salt bridges.<span style="mso-spacerun:yes">&nbsp;
+</span>These can be added automatically by keyword <a href="site.html">
+SITE=(SALT)</a><span style="mso-spacerun:yes">&nbsp; </span>This identifies all 
+potential salt bridges and adds and deletes hydrogen atoms, as appropriate.<span style="mso-spacerun:yes">&nbsp;
+</span></p>
+<h2>Other ionized sites</h2>
+<p class="MsoNormal">In individual proteins, some sites are known to be ionized, 
+for example the Asp residue in the protease catalytic triad.<span style="mso-spacerun:yes">&nbsp;
+</span>These sites can be ionized using the simple "chain-letter residue number" 
+approach.<span style="mso-spacerun:yes">&nbsp; </span>Thus if the triad residue 
+Asp in chymotrypsin were to be in chain "F" and have residue number 102, then 
+that site could be ionized using SITE=(F102(-)). </p>
+<h3>Incorrect site hydrogenated</h3>
+<p class="MsoNormal">Some systems, in particular the imidazole ring in 
+histidine, have two sites that can be hydrogenated.<span style="mso-spacerun:yes">&nbsp;
+</span>If the wrong site is hydrogenated, then problems can occur, for example 
+if one nitrogen in an imidazole ring forms a hydrogen bond with a nearby 
+residue, then hydrogenating that site might result in a steric clash.<span style="mso-spacerun:yes">&nbsp;
+</span>To correct this, the protonation state of each nitrogen in the imidazole 
+would need to be changed.<span style="mso-spacerun:yes">&nbsp; </span>This 
+requires a more specific SITE command of the type:</p>
+<p align="center" class="MsoNormal">
+SITE("[HIS]222:A.ND1"(0),"[HIS]222:A.NE2"(+))</p>
+<p align="center" class="MsoNormal">or</p>
+<p align="center" class="MsoNormal">SITE("ND1 HIS A 222"(0)," NE2 HIS A 222"(+))</p>
+<p class="MsoNormal">In this system, the original hydrogenation incorrectly put 
+a proton on ND1 of His222 instead of on NE2.<span style="mso-spacerun:yes">&nbsp;
+</span>To correct this, the SITE command re-defines ND1 as being neutral and NE2 
+as being a cation.<span style="mso-spacerun:yes">&nbsp; </span>When the SITE 
+command is run, it sees that ND1 is a nitrogen atom in an unsaturated ring 
+(think pyridine) that has a hydrogen atom attached (think pyridinium).<span style="mso-spacerun:yes">&nbsp;
+</span>Removal of that hydrogen atom would neutralize the charge.<span style="mso-spacerun:yes">&nbsp;
+</span>Similarly defining NE2 as being a cation would result in a hydrogen atom 
+being added to that atom.</p>
+<p class="MsoNormal">These commands can be combined to form a single command 
+that corrects all the faults in the original hydrogenation, for example:</p>
+<p align="center" class="MsoNormal">
+SITE(SALT,"[HIS]222:A.ND1"(0),"[HIS]222:A.NE2"(+),F102(-))</p>
+<p class="MsoNormal">&nbsp;</p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+</body>
+</html>

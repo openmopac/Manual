@@ -1,0 +1,100 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Definition of some C.I. Keywords</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Definition of some C.I. Keywords </h2>
+<p>It has been my policy, ever since the first release of MOPAC in 1983, to resist changing the definition of keywords. This policy has allowed users to confidently use a new MOPAC in the belief that old keywords will have their old, familiar, meaning. However, an ambiguity was found in certain keywords, an ambiguity which has, at times, resulted in severe frustration. </p>
+<p>Consider the word <a href="triplet.html"><tt>TRIPLET</tt></a>. In MOPAC 6, this meant (but no longer means) "Do an SCF calculation in which the M.O. populations are [...,2,2,2,1,1,0,0,...], then do a C.I. on the two half-occupied M.O.s, and select the triplet state." This definition meant that twisted ethylene would have the correct symmetry, as would triplet oxygen. However, if a user wanted to examine triplet formaldehyde, and compare it with the ground state, problems arose. The keywords <tt>C.I.=2 ROOT=2</tt> would generate the correct energy, but a user might expect that <tt>TRIPLET</tt> should achieve the same result. Because of the definition of <tt>TRIPLET</tt>, the SCF starting configuration was different, and as a result, the
+<span class="b">&Delta;</span>H<sub>f</sub> was also different. Under earlier MOPACs, there was no way to set up a calculation using the keyword <tt>TRIPLET</tt> and go SCF on a closed-shell configuration as the precursor to a C.I. calculation. </p>
+<p>Because of the limitations of the earlier definitions of spin-states (<tt>TRIPLET</tt>, <a href="quartet.html"><tt>QUARTET</tt></a>,
+<a href="quintet.html"><tt>QUINTET</tt></a>, <a href="sextet.html"><tt>SEXTET</tt></a>, etc.), these words were all redefined in 1993, in MOPAC&nbsp;93. In order to reproduce the earlier keywords, pairs of keywords, such as <tt>TRIPLET</tt> <tt>
+<a href="open.html">OPEN(2,2)</a></tt> or <tt>SEXTET</tt> <tt>OPEN(5,5)</tt> must now be used. Spin-states which result from SCF calculations on ground-state configurations can now be specified by the following pairs of keywords: <tt>TRIPLET
+<a href="ci=n.html">C.I.=2</a></tt>; <tt>QUARTET C.I.=3</tt>; <tt>QUINTET C.I.=4</tt>; <tt>SEXTET C.I.=5</tt>. </p>
+<p>Using these new definitions, spin-states of a system can now be more easily related. Consider the various states of formaldehyde (Table), in which all calculations use the ground-state geometry and <tt>1SCF</tt>. <br/>
+</p><div align="CENTER"><div align="CENTER"><a name="BM13956">&nbsp;</a>
+<strong><p><a name="cich2o1"></a>Table :</p></strong> Examples of Use of C.I. Keywords
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p> Keywords Used</p></td>
+<td valign="MIDDLE">
+<p align="CENTER"> <img alt="$Delta H_f$" height="29" src="img988.gif" width="32"/></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>(No keywords)</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-32.9040</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-32.9040</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=2</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-33.0166</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=3</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-39.7234</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=4</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-39.9665</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=5</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-40.1743</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=2 TRIPLET</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">29.6348</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=3 ROOT=2</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">28.2840</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=3 TRIPLET</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">28.2840</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>C.I.=3 TRIPLET MS=0</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">28.2840</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<tt></tt><p>OPEN(2,2) TRIPLET</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">27.9318</p></td>
+</tr>
+</table>
+<p></p></div></div>
+<p>Now we see that <tt>C.I.=3</tt> <tt>ROOT=2</tt> and <tt>C.I.=3</tt> <tt>TRIPLET</tt> do, in fact, give the same result. The "old" MOPAC (pre-1993) result of using <tt>TRIPLET</tt> can still be generated by <tt>OPEN(2,2)</tt> <tt>TRIPLET</tt>. Note that <tt>C.I.=1</tt> generates the normal
+<span class="b">&Delta;</span>H<sub>f </sub>of CH<sub>2</sub>O, and that increasing the C.I. lowers the energy steadily. </p>
+</body>
+</html>

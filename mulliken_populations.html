@@ -1,0 +1,64 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Mulliken populations</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Mulliken populations
+</h2>
+By default, the density matrix printed is the Coulson matrix, which
+assumes that the atomic orbitals are orthogonalized.
+<p>
+If the assumption of orthogonality is not made, then the Mulliken density
+matrix can be constructed. To construct the Mulliken density matrix (also known
+as the Mulliken population analysis), the M.O.s must first be re-normalized,
+using the overlap matrix, <i>S</i>:
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}\psi_i^{'} = \psi_i\times S^{-\frac{1}{2}}.
+\end{displaymath}" height="29" src="img533.gif" width="92"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+From these M.O.s, a Coulson population is carried out. The off diagonal terms
+are simply the Coulson terms multiplied by the overlap:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}P_{\lambda\sigma\neq\lambda}'=S_{\lambda\sigma}2\sum_{i=1}^{occ}c_{\lambda i}
+c_{\sigma i},
+\end{displaymath}" height="48" src="img534.gif" width="154"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+while the on-diagonal terms are given by the Coulson terms, plus half the sum
+of the off-diagonal elements:
+<br/><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}P_{\lambda \lambda}' =S_{\lambda\sigma}2\sum_{i=1}^{occ}c_{\l...
+... i}
++ \frac{1}{2}\sum_{\sigma\neq\lambda}P_{\lambda \sigma}'.
+\end{displaymath}" height="51" src="img535.gif" width="216"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+A check of the correctness of the Mulliken populations is to add the diagonal
+terms: these should equal the number of electrons in the system.&nbsp;&nbsp; As
+with the Coulson population, the unit of the Mulliken population analysis is the
+electron.&nbsp; For the hydrogen atom, the <i>P<sub>ss</sub></i> population
+would be 1.00.</body></html>

@@ -1,0 +1,3 @@
+geo-ok geo_ref="Two cyclopentadiene molecules.arc" geo_dat="C10H12.arc" ++
+locate-ts(C:20) opt xyz HTML
+Move towards the transition state for 2 Cyclopentadiene <=> C10H12

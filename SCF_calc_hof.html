@@ -1,0 +1,84 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Calculation of heat of formation</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+</style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION001257000000000000000">Calculation of heat of formation</a> </h2>
+<p>The heat of formation is defined as: </p>
+<p align="center"><span class="b">&Delta;</span>H<i><sub>f</sub></i> = E<i><sub>elect</sub></i>
++ E<i><sub>nuc</sub></i> - E<i><sub>isol</sub></i> + E<i><sub>atom </sub> + E<sub><sub>bits</sub></sub></i></p>
+<p></p><div align="CENTER">
+</div>
+<p>where <i>E<sub>elect</sub></i> is the electronic energy, <i>E<sub>nuc</sub></i> is the nuclear-nuclear repulsion energy, -<i>E<sub>isol</sub></i> 
+is the energy required to strip all the valence electrons off all the atoms in 
+the system, <i>E<sub>atom</sub></i> is the total heat of atomization of all the atoms in the system, 
+and <i>E<sub><sub>bits</sub></sub></i> is the energy from hydrogen bonds and dispersion. 
+These energies can be printed by adding keyword <a href="disp.html"><tt>DISP</tt></a>.&nbsp; 
+</p>
+<h3>Solvation effects</h3>
+<p>If <a href="eps.html"><tt>EPS=n.nn</tt></a> is also present, then solvation 
+effects are modeled.&nbsp; The energy due to the stabilization of the system as 
+a result of the solvent is printed on the line "DIELECTRIC ENERGY".&nbsp; The 
+destabilization of the solvent due to the system is not printed.&nbsp; Energies 
+due to solvation are present in the terms E<i><sub>elect</sub></i>
+and E<i><sub>nuc</sub></i>, that is, the solvation terms are included in these 
+two quantities, and cannot be separated from them. Thus, the E<i><sub>elect</sub></i>
+and E<i><sub>enuc</sub></i> terms for a solvated system, E<sub><i>elect</i></sub>(solvated) 
+and E<sub><i>enuc</i></sub>(solvated) should be thought of as:</p>
+<p class="auto-style1">E<sub><i>elect</i></sub>(solvated) = E<i><sub>elect</sub></i>
++ (some solvation terms)</p>
+<p class="auto-style1">and </p>
+<p class="auto-style1">E<sub><i>enuc</i></sub>(solvated) = E<i><sub>enuc</sub></i> 
++ (some other solvation terms)</p>
+<p>The easiest way to calculate the solvation energy would be to calculate the 
+solvated system, then, in a separate job and using the final geometry from the 
+solvated calculation, do a 1SCF calculation but without solvation, then take the 
+difference in heats of formation. </p>
+<p>An alternative would be to calculate the heat of formation using solvent, and 
+in a separate job, run the same calculation but without solvent.&nbsp; The 
+solvent effect would then be obtained by taking the difference in the two heats 
+of formation.</p>
+<p>&nbsp;Because the "TOTAL ENERGY" includes E<i><sub>elect</sub></i>
+and E<i><sub>nuc</sub></i>, that term also includes the solvation effects.</p>
+<h4>Single atom</h4>
+<p>For a single atom, there is no nuclear term, therefore:</p>
+<p align="center"><span class="b">&Delta;</span>H<i><sub>f</sub></i> = E<i><sub>elect</sub></i>&nbsp;
+- E<i><sub>isol</sub></i> + E<i><sub>atom</sub></i></p>
+<p align="center">&nbsp;</p>
+<p>But E<i><sub>elect</sub></i> = E<i><sub>isol</sub></i> for an isolated atom,
+therefore </p>
+<p align="center"><span class="b">&Delta;</span>H<i><sub>f</sub></i> =&nbsp; E<i><sub>atom</sub></i></p>
+<p align="center">&nbsp;</p>
+<p>where E<i><sub>atom</sub></i> is the experimental heat of formation of the
+isolated atom from the element in its standard state. For example, in nitrogen
+this is half the heat required to break a N<sub>2</sub> molecule into its
+separated atoms. Isolated nitrogen atoms have the configuration 1s<sup>2</sup>
+2s<sup>2</sup> 2p<sup>3</sup>, and the state <a href="Energies_of_isolated_atoms.html#confs">4S<sub>u</sub></a>, 
+i.e. quartet S. Experimentally, this energy is 113 kcal/mol.&nbsp; This means 
+that all semiempirical methods predict the heats of formation of isolated atoms 
+with a zero error, except in those few instances when the predicted ground state 
+is incorrect.</p>
+</body>
+</html>

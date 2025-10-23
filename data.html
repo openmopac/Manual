@@ -1,0 +1,37 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>DATA=text </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center"><tt>DATA="<i>&lt;text</i>&gt;"</tt> </h1>
+<p>Normally, MOPAC reads data from the data-file supplied.&nbsp; When the name 
+of the data set cannot be changed, the data set to be used can be provided in 
+the fixed data set by use of <tt>DATA="&lt;text&gt;".&nbsp;</tt> Thus if the name 
+of the fixed data set is "input.dat", so the only job that can be run is:<br/>
+<br/>
+MOPAC input.dat</p>
+<p>and the job that is to be run is the data set "toluene.mop" in folder "F:\my 
+mopac jobs" then the&nbsp;file input.dat would contain the single line:</p>
+<p>DATA="F:\my mopac jobs\toluene.dat"</p>
+<p>When the MOPAC job is run, input.dat would be read in, then because 
+'DATA="F:\my mopac jobs\toluene.dat"' was present, the file toluene.dat would be 
+read in.&nbsp; The results would be put into files of the type input.&lt;suffix&gt;.</p>
+</body>
+</html>

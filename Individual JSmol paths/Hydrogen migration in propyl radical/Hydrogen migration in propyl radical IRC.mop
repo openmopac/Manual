@@ -1,0 +1,20 @@
+ TS xyz opt
+ Refine transition state for hydrogen migration in propyl radical, and verify using FORCE
+
+  C(HETATM    1  C1  HET A   1)  -0.01448554 +1    0.1387597 +1    0.0462037 +1
+  C(HETATM    3  C3  HET A   1)   2.14017594 +1    1.5103818 +1   -0.0365796 +1
+  H(HETATM    4 1H1  HET A   1)  -0.67781284 +1   -0.4770023 +1    0.6199915 +1
+  H(HETATM    5 2H1  HET A   1)  -0.51185278 +1    0.8218320 +1   -0.6124537 +1
+  H(HETATM    7  H2  HET A   1)   1.73252658 +1   -0.1491529 +1    1.3342244 +1
+  H(HETATM    8 1H3  HET A   1)   1.78352638 +1    1.8958546 +1   -1.0002847 +1
+  H(HETATM    9 2H3  HET A   1)   2.06407989 +1    2.3417713 +1    0.6830365 +1
+  H(HETATM   10 3H3  HET A   1)   3.20679703 +1    1.2749192 +1   -0.1464785 +1
+ XX(HETATM   11 xx   HET A   1)   1.36332073 +1   68.1077323 +1  -20.0229131 +1 "  C1  HET A   1" "  C3  HET A   1" " 3H3  HET A   1" =  1  2  8
+  C(HETATM    2  C2  HET A   1)   1.36332073 +0   63.8382720 +1   31.7270085 +1 " xx   HET A   1" "  C1  HET A   1" "  C3  HET A   1" =  9  1  2
+  H(HETATM    6 3H1  HET A   1)   0.05000000  1  180.0000000 +0    0.0000000 +0 " xx   HET A   1" "  C1  HET A   1" "  C3  HET A   1" =  9  1  2
+ 
+oldgeo force isotope
+
+
+IRC=1* oldgeo restart html X-PRIORITY=0.05
+IRC Reaction path for hydrogen migration in propyl radical

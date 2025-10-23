@@ -1,0 +1,2 @@
+geo-ok geo_ref="bicyclo[2,2,1]heptene.arc" geo_dat="Cyclopentadiene_plus_ethylene.arc" locate-ts(C:20,40,40;set=1) HTML
+Transition state for the reaction Cyclopentadiene + ethylene <=> Bicyclo[2,2,1]heptene

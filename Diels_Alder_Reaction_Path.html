@@ -1,0 +1,164 @@
+<html><body>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<p>﻿
+</p>
+<title>Diels Alder Reaction Path</title>
+<script language="Javascript" src="mouseover.js"></script><style type="text/css">
+#types, #inp
+{position:absolute; left: 30;  visibility:hidden; color: blue;}
+																					  .auto-style1 {
+																						  text-align: center;
+																						  border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+}
+																					  .auto-style2 {
+																						  border-left-style: solid;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: none;
+	border-top-width: medium;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+																					  .auto-style3 {
+																						  border-width: 0px;
+																					  }
+																					  .auto-style4 {
+	font-family: SYMBOL;
+}
+																					  .auto-style5 {
+	margin-right: 0px;
+}
+																					  </style>
+<h1>Diels Alder Reaction Path </h1>
+<p>This example represents the reaction path calculation of the Diels-Alder addition of ethylene, C<sub>2</sub>H<sub>4</sub>, 
+to butadiene, CH<sub>2</sub>-CH-CH-CH<sub>2</sub>, to give cyclehexadiene. 
+Reaction paths are mapped out starting with the transition state.&nbsp; They 
+follow 
+the normal coordinate for reaction in one direction, and then follow the same 
+coordinate in the reverse direction.&nbsp; All the steps can be done in one 
+calculation.&nbsp; These steps are:&nbsp;
+</p><table class="auto-style3" style="width: 38%; float: left;">
+<tr>
+<td class="auto-style1"><strong>Data set for generating the complete reaction 
+		path for a simple Diels-Alder reaction.</strong></td>
+</tr>
+<tr>
+<td class="auto-style2"><pre style="width: 728px; float: left"> HTML FORCE IRC=1* CYCLES=80 X-priority=0.1 RESIDUES MOZYME</pre>
+<pre class="auto-style5" style="width: 728px; float: left">      Ethylene plus butadiene Diels-Alder TS
+      
+C         0.000000  0        0.000000  0        0.000000  0      0     0     0   
+C         1.378495  1        0.000000  0        0.000000  0      1     0     0   
+C         1.404233  1      120.765984  1        0.000000  0      2     1     0   
+C         1.378523  1      120.779374  1       -0.045329  1      3     2     1   
+C         2.127941  1       99.207915  1       60.409395  1      4     3     2   
+C         1.381557  1      109.715011  1      -52.283892  1      5     4     3   
+H         1.083146  1      122.226938  1       32.793404  1      1     2     3   
+H         1.080532  1      121.191988  1      157.093468  1      1     2     7   
+H         1.080556  1      121.183044  1      109.693670  1      4     3     5   
+H         1.083164  1      122.233377  1      157.099049  1      4     3     9   
+H         1.089198  1      120.048294  1      170.481626  1      2     1     3   
+H         1.089207  1      118.503077  1      170.654644  1      3     2     4   
+H         1.081821  1      120.878701  1      102.160265  1      6     5     4   
+H         1.081457  1      121.135811  1      155.395586  1      6     5    13   
+H         1.081857  1       89.979695  1      123.018666  1      5     4     6   
+H         1.081196  1       89.817735  1      113.744554  1      5     4    15   
+</pre>
+</td>
+</tr>
+</table>
+<p>(A) Calculate the force constants and normal coordinates for the transition 
+state. The normal coordinate for reaction is the first mode.&nbsp; This should 
+have an imaginary frequency, but for convenience this is normally printed as a 
+negative frequency.&nbsp; There should be exactly one of these for a transition 
+state geometry. </p>
+<p>&nbsp;(B) Using the reaction coordinate, the transition state geometry is 
+displaced a small amount in the direction of the positive direction of the 
+reaction.&nbsp; This moves the system in one direction, either towards the 
+reactants or towards the products.&nbsp;
+</p>
+<p>(C) An IRC calculation is then started. This follows the steepest descent 
+path in mass-weighted coordinate space, and maps out one half of the reaction.
+</p>
+<p>(D) The starting geometry is displaced a small amount in the negative 
+direction of the reaction, and a second IRC calculation run.</p>
+<p>Because the IRC paths both start at the transition state, the first IRC path 
+is reversed.&nbsp; The second IRC path is then attached to the end of the first 
+IRC path, to give the complete reaction path, i.e., reactants - transition state 
+- products.&nbsp;
+</p>
+<p>Also, because normal coordinates are ill-defined by a phase, there is no way 
+of knowing before the job is run whether the reaction will the the forward or 
+the reverse reaction.&nbsp; The easiest way to find out which one it is is to 
+run the job, and if it goes reactants =&gt; products, then no further action is 
+needed.&nbsp; If it is products =&gt; reactants then replace IRC=1* with IRC=-1* 
+and re-run.</p>
+<p>&nbsp;</p>
+<h3>Significance of keywords used in this job</h3>
+<table style="width: 100%">
+<tr>
+<td style="width: 148px">HTML</td>
+<td>Write a simple HTML web-page for use by JSmol</td>
+</tr>
+<tr>
+<td style="width: 148px">FORCE</td>
+<td>Generate the normal modes.&nbsp; Look at the output and confirm that 
+		Root 1 is negative and that all other roots are positive. </td>
+</tr>
+<tr>
+<td style="width: 148px">IRC=1*</td>
+<td>Generate the complete Intrinsic Reaction Coordinate for the 
+		reaction. (That's what the asterisk (*) means.) Use IRC=-1* if the 
+		reaction goes the wrong way.</td>
+</tr>
+<tr>
+<td style="width: 148px">CYCLES=80</td>
+<td>For small systems, this keyword is not necessary.&nbsp; For large 
+		systems, e.g., proteins, the IRC can proceed downhill for a long time, 
+		using many days of CPU time.&nbsp; A useful option is to not use this 
+		keyword, and instead monitor the output.&nbsp; When it looks as if the 
+		IRC is starting to wander (when the <span class="auto-style4">D</span>H<sub>f
+		</sub>stops descending), kill the job and use the results for further 
+		work.&nbsp; If this strategy is used, replace IRC=1* with IRC=1, and in 
+		a separate run use IRC=-1.&nbsp; Use utilities to join the two sets of 
+		results together. </td>
+</tr>
+<tr>
+<td style="width: 148px">X-priority=0.1</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 148px">RESIDUES</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 148px">MOZYME</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body></html>

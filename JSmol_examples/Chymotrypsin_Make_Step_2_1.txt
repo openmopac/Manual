@@ -1,0 +1,9 @@
+#
+#  First, hide all atoms, then display the four residues that are involved, in order: His, Ser, Trp, and Thr.
+#  then zoom in to get a good view of the system.
+#
+HIDE *
+Display 57, 195, 252, 253
+select atomno=760, atomno=2737, atomno=2742, atomno=3485
+halos
+zoom 0

@@ -1,0 +1,197 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Output format for IRC and DRC</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1><a name="SECTION0012198000000000000000">Output format for IRC and DRC</a>
+</h1>
+<p>The IRC and DRC can produce several different forms of output. Because of the large size of these outputs, users are recommended to use search functions to extract information. To facilitate this, specific lines have specific characters. Thus, a search for the "%" symbol will summarize the energy profile while a search for "AA" will yield the coordinates of atom 1, whenever it is printed. The main flags to use in searches are: </p>
+<table>
+<tr><td>
+<dl>
+<dt><b><tt>%</tt></b></dt>
+</dl></td>
+<td>
+<dl>
+<dt>Energies for all points calculated, excluding extrema </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>%M</dt></dl></tt></b>
+</td>
+<td>
+<dl>
+<dt>Energies for all turning points </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>%MAX</dt></dl></tt></b>
+</td>
+<td>
+<dl>
+<dt>Energies for all maxima </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>%MIN</dt></dl></tt></b>
+</td>
+<td>
+<dl>
+<dt>Energies for all minima </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>%</dt>
+</dl></tt></b></td>
+<td>
+<dl>
+<dt>Energies for all points calculated </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>AA*</dt>
+</dl></tt></b></td>
+<td>
+<dl>
+<dt>Internal coordinates for atom 1 for every point </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>AE*</dt>
+</dl></tt></b></td>
+<td>
+<dl>
+<dt>Internal coordinates for atom 5 for every point </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>123AB*</dt></dl></tt></b>
+</td>
+<td>
+<dl>
+<dt>Internal coordinates for atom 2 for point 123 </dt>
+</dl></td>
+</tr>
+</table>
+<dl>
+<dt>&nbsp;As the keywords for the IRC/DRC are interdependent, the following list of keywords illustrates various options.<a name="BM22665">&nbsp;</a> <a name="BM22666">&nbsp;</a> </dt>
+</dl>
+<table>
+<tr><td>
+<b><tt><dl>
+<dt><a href="drc0.html">DRC</a></dt>
+</dl></tt></b></td>
+<td>
+<dl>
+<dt>The Dynamic Reaction Coordinate is calculated. Energy is conserved, and no initial impetus. </dt>
+</dl></td>
+</tr>
+<tr><td>
+<tt>
+<b><dl>
+<dt><a href="drc.html">DRC=0.5</a></dt></dl></b></tt>
+</td>
+<td>
+<dl>
+<dt>In the DRC kinetic energy is lost with a half-life of femtoseconds. </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>DRC=1.0</dt></dl></tt></b>
+</td>
+<td>
+<dl>
+<dt>Energy is put into a DRC with an half-life of -1.0 femtoseconds, i.e., the system gains energy. </dt>
+</dl></td>
+</tr>
+<tr><td>
+<tt>
+<b><dl>
+<dt><a href="irc0.html">IRC</a></dt></dl></b></tt>
+</td>
+<td>
+<dl>
+<dt>The Intrinsic Reaction Coordinate is calculated. No initial impetus is given. Energy not conserved. </dt>
+</dl></td>
+</tr>
+<tr><td>
+<tt>
+<b><dl>
+<dt><a href="irc.html">IRC=4</a></dt></dl></b></tt>
+</td>
+<td>
+<dl>
+<dt>The IRC is run starting with an impetus in the negative of the 4th normal mode direction. The impetus is one quantum of vibrational energy. </dt>
+</dl></td>
+</tr>
+<tr><td>
+<tt>
+<b><dl>
+<dt>IRC=1 <a href="kinetic.html">KINETIC=1</a></dt></dl></b></tt>
+</td>
+<td>
+<dl>
+<dt>The first normal mode is used in an IRC, with the initial impetus being 1.0 kcal/mol. </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>DRC KINETIC=5</dt></dl></tt></b>
+</td>
+<td>
+<dl>
+<dt>In a DRC, after the velocity is defined, 5 kcal of kinetic energy is added in the direction of the initial velocity. </dt>
+</dl></td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>IRC=1 </dt>
+</dl></tt></b></td>
+<td>
+<b><tt><dl>
+<dt>DRC KINETIC=4</dt></dl></tt></b> After starting with a 4 kcal impetus in the direction of the first normal mode, energy is conserved.
+</td>
+</tr>
+<tr><td>
+<b><tt><dl>
+<dt>DRC <a href="velocity.html">VELOCITY</a> KINETIC=10</dt></dl></tt></b>
+</td>
+<td>
+<dl>
+<dt>Follow a DRC trajectory which starts with an initial velocity read in, normalized to a kinetic energy of 10 kcal/mol. </dt>
+</dl></td>
+</tr>
+</table>
+<p>Instead of every point being printed, the option exists to print specific points determined by the keywords <tt>
+<a href="t-priority0.html">T-PRIORITY</a></tt>, <tt><a href="x-priority0.html">X-PRIORITY</a></tt> and <tt>
+<a href="h-priority0.html">H-PRIORITY</a></tt>. If any one of these words is specified, then the calculated points are used to define quadratics in time for all variables normally printed. In addition, if the flag for the first atom is set to
+<a href="DRC_print_options.html">"T"</a> then all kinetic energy turning points are printed. If the flag for any other internal coordinate is set to "T" then, when that coordinate passes through an extremum, that point will be printed. As with the PRIORITY's, the point will be calculated via a quadratic to minimize non-linear errors. </p>
+<p>N.B.: Quadratics are unstable in the regions of inflection points; in these circumstances linear interpolation will be used. A result of this is that points printed in the region of an inflection may not correspond exactly to those requested. This is not an error and should not affect the quality of the results.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <br/>
+</p>
+</body>
+</html>

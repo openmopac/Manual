@@ -1,0 +1,381 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.153W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.153W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jun  3 15:31:52 2021  *
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "Cyclopentadiene_plus_ethylene.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "bicyclo[2,2,1]heptene.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  XYZ        - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE USING REACTANTS AND PRODUCTS
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *******************************************************************************
+geo-ok geo_ref="bicyclo[2,2,1]heptene.arc" geo_dat="Cyclopentadiene_plus_ethylene.arc" locate-ts(C:20) opt xyz
+ Move one step from fully-optimized reactant and product towards the transition state
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)   -0.31356318  *  -1.14182060  *  -1.18717607  *
+     2       C(HETATM    2  C2  HET A   1)    0.99270432  *  -1.11234309  *  -0.83554481  *
+     3       C(HETATM    3  C3  HET A   1)    1.45919821  *   0.27907696  *  -0.82605896  *
+     4       C(HETATM    4  C4  HET A   1)    0.43653979  *   1.09451704  *  -1.17229683  *
+     5       C(HETATM    5  C5  HET A   1)   -0.80153184  *   0.26757591  *  -1.42706781  *
+     6       C(HETATM    6  C1  HET B   2)   -0.96894861  *  -0.36300071  *   2.54937355  *
+     7       C(HETATM    7  C2  HET B   2)   -0.53662602  *   0.89433888  *   2.56390178  *
+     8       H(HETATM    8  H1  HET A   1)   -0.96040387  *  -1.98594717  *  -1.29616069  *
+     9       H(HETATM    9  H2  HET A   1)    1.62992024  *  -1.93969097  *  -0.59365001  *
+    10       H(HETATM   10  H3  HET A   1)    2.46517698  *   0.55057295  *  -0.57605597  *
+    11       H(HETATM   11  H4  HET A   1)    0.42775783  *   2.15954589  *  -1.26852179  *
+    12       H(HETATM   12 1H5  HET A   1)   -1.19182855  *   0.40606680  *  -2.45115868  *
+    13       H(HETATM   13 2H5  HET A   1)   -1.61782006  *   0.53867083  *  -0.73093163  *
+    14       H(HETATM   14 1H1  HET B   2)   -2.01050186  *  -0.64113247  *   2.59781662  *
+    15       H(HETATM   15 2H1  HET B   2)   -0.31009876  *  -1.21669709  *   2.48281104  *
+    16       H(HETATM   16 1H2  HET B   2)    0.50785700  *   1.16467770  *   2.51034305  *
+    17       H(HETATM   17 2H2  HET B   2)   -1.18660110  *   1.75351622  *   2.62598340  *
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    7  C2  HET B   2)  -0.198   0.890   1.227        1.29         1.29
+            (HETATM    6  C1  HET B   2)  -0.700  -0.584   1.226        1.28         2.57
+            (HETATM    1  C1  HET A   1)  -0.548  -1.016  -0.267        1.04         3.61
+            (HETATM    4  C4  HET A   1)   0.186   1.139  -0.266        1.03         4.65
+            (HETATM   17 2H2  HET B   2)  -0.982   1.586   1.553        1.01         5.66
+            (HETATM   14 1H1  HET B   2)  -1.745  -0.657   1.553        0.99         6.65
+            (HETATM    8  H1  HET A   1)  -1.105  -1.907  -0.550        0.85         7.50
+            (HETATM   11  H4  HET A   1)   0.288   2.185  -0.551        0.83         8.32
+            (HETATM   12 1H5  HET A   1)  -0.810   0.276  -2.076        0.60         8.92
+            (HETATM   16 1H2  HET B   2)   0.662   1.032   1.893        0.56         9.49
+            (HETATM    5  C5  HET A   1)  -0.933   0.318  -0.991        0.55        10.04
+            (HETATM   15 2H1  HET B   2)  -0.105  -1.221   1.893        0.54        10.58
+            (HETATM    2  C2  HET A   1)   0.954  -1.036  -0.531        0.40        10.98
+            (HETATM    3  C3  HET A   1)   1.388   0.238  -0.532        0.39        11.37
+            (HETATM   13 2H5  HET A   1)  -1.947   0.663  -0.777        0.37        11.74
+            (HETATM    9  H2  HET A   1)   1.496  -1.945  -0.661        0.15        11.89
+            (HETATM   10  H3  HET A   1)   2.373   0.628  -0.661        0.14        12.03
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+   Difference between GEO_DAT and GEO_REF: 12.035 = total,  0.7079 = Average,  0.7909 = RMS, in Angstroms
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C7 H10  =    17 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+          COMPUTED CHARGE ON SYSTEM: +0
+
+       Set 1: Atoms involved in covalent            Connectivity of atoms
+       bond-breaking and bond-making            Data-set                     Reference
+
+           1    Atom:   C     1                 2     5     8        2     5     6     8
+           2    Atom:   C     4                 3     5    11        3     5     7    11
+           3    Atom:   C     6                 7    14    15        1     7    14    15
+           4    Atom:   C     7                 6    16    17        4     6    16    17
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+           1    Atom:   C     1
+           2    Atom:   C     4
+           3    Atom:   C     6
+           4    Atom:   C     7
+           5    Atom:   C     2
+           6    Atom:   C     5
+           7    Atom:   H     8
+           8    Atom:   C     3
+           9    Atom:   H    11
+          10    Atom:   H    14
+          11    Atom:   H    15
+          12    Atom:   H    16
+          13    Atom:   H    17
+
+          Current value of GEO_REF constraint:                 20.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                     12.03  Angstroms
+
+          Heat of formation of the first geometry:             44.210 Kcal/mol
+          Heat of formation of the second geometry:            23.945 Kcal/mol
+          Contribution to heat of formation due to stress:    425.404  Kcal/mol
+          Gradient arising from first geometry:               261.001  Kcal/mol/Angstrom
+          Gradient arising from second geometry:              260.998  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     179.70  degrees
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   184.633 HEAT:  493.5598
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   183.612 HEAT:  493.0496
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   146.758 HEAT:  375.2841
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   504.158 HEAT:  306.5017
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   150.802 HEAT:  247.1607
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   125.974 HEAT:  245.8915
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    98.520 HEAT:  243.9595
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   178.585 HEAT:  206.8424
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   273.912 HEAT:  200.3395
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   108.322 HEAT:  188.2540
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    81.651 HEAT:  173.2346
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.057 HEAT:  167.5559
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    97.427 HEAT:  165.3200
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    82.413 HEAT:  163.1763
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    19.469 HEAT:  161.2698
+ CYCLE:    16 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    17.045 HEAT:  159.6390
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    18.714 HEAT:  159.9990
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    24.505 HEAT:  159.1809
+ CYCLE:    19 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.086 HEAT:  157.8775
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.811 HEAT:  157.7810
+ CYCLE:    21 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.516 HEAT:  157.7668
+
+     GRADIENT =  3.51629 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Cyclopentadiene plus ethylene/Locate_TS bias=20.0 first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Cyclopentadiene plus ethylene/Locate_TS bias=20.0 second.mop'
+
+
+          Job name: 'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Cyclopentadiene plus ethylene/Locate_TS'
+
+          Current value of GEO_REF constraint:                 20.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    4.74  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    1  C1  HET A   1)  -0.545  -1.019  -0.291        0.57         0.57
+            (HETATM    4  C4  HET A   1)   0.189   1.139  -0.289        0.57         1.14
+            (HETATM    7  C2  HET B   2)  -0.205   0.893   1.231        0.52         1.66
+            (HETATM    6  C1  HET B   2)  -0.708  -0.581   1.229        0.51         2.18
+            (HETATM   12 1H5  HET A   1)  -0.882   0.300  -2.096        0.34         2.51
+            (HETATM   13 2H5  HET A   1)  -1.930   0.655  -0.727        0.29         2.81
+            (HETATM    8  H1  HET A   1)  -1.091  -1.906  -0.619        0.26         3.07
+            (HETATM   10  H3  HET A   1)   2.385   0.620  -0.587        0.26         3.33
+            (HETATM    9  H2  HET A   1)   1.512  -1.946  -0.589        0.25         3.58
+            (HETATM   11  H4  HET A   1)   0.296   2.176  -0.616        0.25         3.83
+            (HETATM   17 2H2  HET B   2)  -0.978   1.596   1.583        0.18         4.02
+            (HETATM   14 1H1  HET B   2)  -1.750  -0.665   1.579        0.17         4.18
+            (HETATM   15 2H1  HET B   2)  -0.108  -1.236   1.866        0.15         4.34
+            (HETATM   16 1H2  HET B   2)   0.670   1.045   1.870        0.14         4.48
+            (HETATM    5  C5  HET A   1)  -0.935   0.318  -1.002        0.12         4.60
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:             59.417 Kcal/mol
+          Heat of formation of the second geometry:            27.166 Kcal/mol
+          Contribution to heat of formation due to stress:     71.184  Kcal/mol
+          Gradient arising from first geometry:                52.559  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               54.256  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     176.40  degrees
+
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Cyclopentadiene plus ethylene/Locate_TS bias=20.0 average.mop'
+
+
+ -------------------------------------------------------------------------------
+ geo-ok MOZYME
+ Move one step from fully-optimized reactant and product towards the transition state
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.153W)
+                                                       Thu Jun  3 15:31:52 2021
+                                                       No. of days remaining = 364
+
+
+
+
+          FINAL H.O.F PLUS STRESS =        157.76680 KCAL/MOL =     660.09630 KJ/MOL
+          FINAL STRESS            =         35.59189 KCAL/MOL =     148.91646 KJ/MOL
+          FINAL HEAT OF FORMATION =        122.17491 KCAL/MOL =     511.17984 KJ/MOL
+          TOTAL DISTORTION        =          2.36853 Angstroms
+          AVERAGE DISTORTION      =          0.13933 Angstroms per atom (all atoms)
+          RMS DISTORTION          =          0.16177 Angstroms per atom (all atoms)
+
+
+          TOTAL ENERGY            =       -993.78504 EV
+          ELECTRONIC ENERGY       =      -4873.03116 EV
+          CORE-CORE REPULSION     =       3879.24612 EV
+
+          GRADIENT NORM           =          2.64486 = 0.64147 PER ATOM
+          NO. OF FILLED LEVELS    =         19
+          MOLECULAR WEIGHT        =         94.1560
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    17    H     9     4.85994
+            H    14    H    10     4.35348
+            H    12    H    16     4.08912
+
+
+          SCF CALCULATIONS        =          4
+ 
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+                                         Cartesian Gradients         Cartesian Coordinates          |Gradient|
+  Atom                                   X        Y        Z        X          Y          Z
+ 
+    1  C(HETATM    1  C1  HET A   1)   -0.011    0.052    0.319   -0.47444   -1.06364   -0.56591       0.324
+    2  C(HETATM    2  C2  HET A   1)   -0.274    0.327   -0.121    0.93493   -1.06070   -0.51934       0.443
+    3  C(HETATM    3  C3  HET A   1)   -0.408   -0.160   -0.126    1.38619    0.27098   -0.51641       0.456
+    4  C(HETATM    4  C4  HET A   1)   -0.058   -0.034    0.283    0.26958    1.13167   -0.56042       0.291
+    5  C(HETATM    5  C5  HET A   1)    0.418   -0.170    0.504   -0.90945    0.30802   -1.05706       0.676
+    6  C(HETATM    6  C1  HET B   2)    0.059    0.460   -0.548   -0.74097   -0.50953    1.47388       0.718
+    7  C(HETATM    7  C2  HET B   2)   -0.185   -0.358   -0.574   -0.27279    0.85678    1.48011       0.701
+    8  H(HETATM    8  H1  HET A   1)   -0.212   -0.267    0.886   -1.07809   -1.92686   -0.74899       0.949
+    9  H(HETATM    9  H2  HET A   1)   -0.210    0.053   -0.601    1.53062   -1.93518   -0.46514       0.639
+   10  H(HETATM   10  H3  HET A   1)   -0.216    0.011   -0.627    2.39084    0.60177   -0.45901       0.663
+   11  H(HETATM   11  H4  HET A   1)   -0.000    0.286    0.819    0.31439    2.18418   -0.73950       0.868
+   12  H(HETATM   12 1H5  HET A   1)    0.350   -0.145   -0.589   -1.03901    0.35413   -2.12634       0.700
+   13  H(HETATM   13 2H5  HET A   1)    0.989   -0.362    0.586   -1.84410    0.62348   -0.61346       1.205
+   14  H(HETATM   14 1H1  HET B   2)   -0.189   -0.051    0.304   -1.78239   -0.68608    1.65375       0.361
+   15  H(HETATM   15 2H1  HET B   2)    0.021    0.054   -0.324   -0.11217   -1.26350    1.79495       0.330
+   16  H(HETATM   16 1H2  HET B   2)    0.023    0.045   -0.339    0.68622    1.06669    1.80503       0.343
+   17  H(HETATM   17 2H2  HET B   2)   -0.095    0.260    0.243   -0.98628    1.63492    1.66527       0.368
+ 
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)   -0.47444195  *  -1.06363800  *  -0.56590696  *
+     2       C(HETATM    2  C2  HET A   1)    0.93493388  *  -1.06070125  *  -0.51933688  *
+     3       C(HETATM    3  C3  HET A   1)    1.38619280  *   0.27098341  *  -0.51641086  *
+     4       C(HETATM    4  C4  HET A   1)    0.26957834  *   1.13167295  *  -0.56041844  *
+     5       C(HETATM    5  C5  HET A   1)   -0.90944616  *   0.30801800  *  -1.05706290  *
+     6       C(HETATM    6  C1  HET B   2)   -0.74096502  *  -0.50953263  *   1.47387815  *
+     7       C(HETATM    7  C2  HET B   2)   -0.27278828  *   0.85677739  *   1.48011300  *
+     8       H(HETATM    8  H1  HET A   1)   -1.07809304  *  -1.92686030  *  -0.74899318  *
+     9       H(HETATM    9  H2  HET A   1)    1.53061878  *  -1.93517857  *  -0.46513946  *
+    10       H(HETATM   10  H3  HET A   1)    2.39084304  *   0.60177031  *  -0.45900717  *
+    11       H(HETATM   11  H4  HET A   1)    0.31438885  *   2.18418201  *  -0.73949822  *
+    12       H(HETATM   12 1H5  HET A   1)   -1.03901058  *   0.35413265  *  -2.12633746  *
+    13       H(HETATM   13 2H5  HET A   1)   -1.84409590  *   0.62348049  *  -0.61345513  *
+    14       H(HETATM   14 1H1  HET B   2)   -1.78239432  *  -0.68607815  *   1.65375428  *
+    15       H(HETATM   15 2H1  HET B   2)   -0.11216598  *  -1.26350224  *   1.79495229  *
+    16       H(HETATM   16 1H2  HET B   2)    0.68621645  *   1.06669219  *   1.80502710  *
+    17       H(HETATM   17 2H2  HET B   2)   -0.98627628  *   1.63491648  *   1.66527384  *
+
+                             CARTESIAN COORDINATES
+
+   1    C       -0.474441951    -1.063637999    -0.565906963
+   2    C        0.934933878    -1.060701251    -0.519336883
+   3    C        1.386192798     0.270983407    -0.516410860
+   4    C        0.269578337     1.131672952    -0.560418437
+   5    C       -0.909446158     0.308018003    -1.057062897
+   6    C       -0.740965019    -0.509532635     1.473878147
+   7    C       -0.272788280     0.856777386     1.480112996
+   8    H       -1.078093040    -1.926860304    -0.748993180
+   9    H        1.530618783    -1.935178565    -0.465139458
+  10    H        2.390843039     0.601770309    -0.459007167
+  11    H        0.314388847     2.184182009    -0.739498221
+  12    H       -1.039010575     0.354132652    -2.126337457
+  13    H       -1.844095900     0.623480488    -0.613455126
+  14    H       -1.782394315    -0.686078148     1.653754280
+  15    H       -0.112165981    -1.263502241     1.794952286
+  16    H        0.686216447     1.066692189     1.805027103
+  17    H       -0.986276283     1.634916478     1.665273842
+
+
+           Empirical Formula: C7 H10  =    17 atoms
+
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C          -0.101789        4.1018     1.07527     3.02652
+    2          C          -0.172294        4.1723     1.10204     3.07025
+    3          C          -0.172771        4.1728     1.10208     3.07069
+    4          C          -0.101504        4.1015     1.07541     3.02609
+    5          C          -0.281287        4.2813     1.08029     3.20100
+    6          C          -0.272362        4.2724     1.07076     3.20160
+    7          C          -0.272613        4.2726     1.07062     3.20200
+    8          H           0.133490        0.8665     0.86651
+    9          H           0.145344        0.8547     0.85466
+   10          H           0.145392        0.8546     0.85461
+   11          H           0.133450        0.8666     0.86655
+   12          H           0.138408        0.8616     0.86159
+   13          H           0.136589        0.8634     0.86341
+   14          H           0.133739        0.8663     0.86626
+   15          H           0.137171        0.8628     0.86283
+   16          H           0.137213        0.8628     0.86279
+   17          H           0.133823        0.8662     0.86618
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.321     0.109     0.060     0.344
+ HYBRID        -0.013     0.004     0.093     0.094
+ SUM           -0.334     0.113     0.153     0.385
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                  Atom                 s        px        py        pz   
+    1  C(HETATM    1  C1  HET A   1)   1.07527   1.00333   1.03562   0.98757
+    2  C(HETATM    2  C2  HET A   1)   1.10204   1.01682   1.04406   1.00938
+    3  C(HETATM    3  C3  HET A   1)   1.10208   1.05050   1.01045   1.00974
+    4  C(HETATM    4  C4  HET A   1)   1.07541   0.98307   1.05566   0.98736
+    5  C(HETATM    5  C5  HET A   1)   1.08029   1.08415   1.01366   1.10320
+    6  C(HETATM    6  C1  HET B   2)   1.07076   1.13802   1.02854   1.03504
+    7  C(HETATM    7  C2  HET B   2)   1.07062   1.13375   1.03302   1.03522
+    8  H(HETATM    8  H1  HET A   1)   0.86651
+    9  H(HETATM    9  H2  HET A   1)   0.85466
+   10  H(HETATM   10  H3  HET A   1)   0.85461
+   11  H(HETATM   11  H4  HET A   1)   0.86655
+   12  H(HETATM   12 1H5  HET A   1)   0.86159
+   13  H(HETATM   13 2H5  HET A   1)   0.86341
+   14  H(HETATM   14 1H1  HET B   2)   0.86626
+   15  H(HETATM   15 2H1  HET B   2)   0.86283
+   16  H(HETATM   16 1H2  HET B   2)   0.86279
+   17  H(HETATM   17 2H2  HET B   2)   0.86618
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.23 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,30 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Conversion Between Various Formats</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION00748000000000000000">Conversion Between Various Formats</a> </h2>
+<p>MOPAC can accept any of the following formats: Cartesian, MOPAC internal coordinates, a mixture of Cartesian and MOPAC internal coordinates,&nbsp; and Gaussian internal coordinates. Both MOPAC and Gaussian Z-matrices can also contain dummy atoms. If the <tt>0SCF</tt> option is requested, the geometry defined on input will be printed in MOPAC Z-matrix format, along with other optional formats. </p>
+<p>The type(s) of geometry printed at the end of a <a href="zero_scf.html">0SCF</a> calculation depend only on the keywords <a href="xyz.html">XYZ</a>, <a href="int.html">INT</a>, <a href="aigout.html">AIGOUT</a>,&nbsp; and <a href="noxyz.html">NOXYZ</a>. The geometry printed is independent of the type of input geometry, and therefore makes a convenient conversion mechanism. </p>
+<p>If <tt>XYZ</tt> is present, all dummy atoms are removed and the internal coordinate definition remade. All symmetry relations are lost if <tt>XYZ</tt> is used. </p>
+<p>If <tt>NOXYZ</tt> is present, Cartesian coordinates will not be printed. If <tt>AIGOUT</tt> is present, a data set using Gaussian Z-matrix format is printed. </p>
+<p>Note: Only if the keyword <a href="symmetry.html">SYMMETRY</a> is present in a MOPAC internal coordinate geometry, or two or more internal coordinates in a Gaussian Z-matrix have the same symbolic will symmetry be present in the MOPAC or Gaussian geometries output. </p>
+</body>
+</html>

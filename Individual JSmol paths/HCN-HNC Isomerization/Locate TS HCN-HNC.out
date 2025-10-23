@@ -1,0 +1,358 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.314W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.314W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Nov 10 08:32:41 2015  *
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "HCN FOR TS.MOP"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "HNC FOR TS.MOP"
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE IN A PROTEIN MECHANISM
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+geo_dat="HCN for TS.mop" geo_ref="HNC for TS.mop" locate-ts(C:100;SET=1) opt
+ Locate and refine the transition state for the HNC - HCN isomerization
+ (Geometry data for reactant and products are in other files.)
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.00000000  *   0.00000000  *   0.00000000  *
+     2       C          1.00000000  *   0.00000000  *   0.00000000  *
+     3       N          1.50000000  *   0.50000000  *   0.00000000  *
+ 
+
+          By default, a restraining force of 3 kcal/mol/A^2 will be used
+ ----------------------------------------
+
+                 After docking
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+                   2     C                   0.47        0.47
+                   3     N                   0.43        0.90
+                   1     H                   0.19        1.09
+
+   Difference between data-set and GEO_REF:    1.09 = total,  0.3643 = Average,  0.3843 = RMS, in Angstroms
+
+    The rotated-translated reference geometry will be written to: 'M:\Individual JSmol paths\HCN-HNC Isomerization\HNC for TS.new'
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         H        0.0000    0.0000    0.0000
+     2         C        1.0000    0.0000    0.0000
+     3         N        1.5000    0.5000    0.0000
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C H N  =     3 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+       Set 1: Atoms involved in covalent      Connectivity of atoms
+       bond-breaking and bond-making            Data-set                     Reference
+
+           1    Atom:   H     1                 2              3
+           2    Atom:   C     2                 1     3        3
+           3    Atom:   N     3                 2              1     2
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+           1    Atom:   H     1
+           2    Atom:   C     2
+           3    Atom:   N     3
+
+          Set 1 selected by keywork 'SET' within keyword 'LOCATE-TS'
+
+          Constraining constant: 100.00 Kcal/mol/Angstrom^2
+
+
+          Current value of GEO_REF constraint:              100.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    1.09  Angstroms
+
+          Heat of formation of the first geometry:          763.177 Kcal/mol
+          Heat of formation of the second geometry:         800.735 Kcal/mol
+          Contribution to heat of formation due to stress:   88.61  Kcal/mol
+          Gradient arising from first geometry:            7140.98  Kcal/mol/Angstrom
+          Gradient arising from second geometry:           6985.49  Kcal/mol/Angstrom
+          WARNING! - Angle between gradient vectors:        77.10  degrees
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  4.96W  GRAD.: 10100.564 HEAT:  1652.523
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:  4419.511 HEAT:  976.8706
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:  2379.017 HEAT:  726.7380
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:  4422.729 HEAT:  988.3956
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:  2377.946 HEAT:  726.5569
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   860.756 HEAT:  593.4019
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   316.273 HEAT:  572.7230
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   230.575 HEAT:  569.9654
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   249.648 HEAT:  565.6702
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   181.059 HEAT:  560.9432
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    41.202 HEAT:  562.7130
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    34.202 HEAT:  566.6085
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    31.203 HEAT:  566.4562
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    39.631 HEAT:  565.6158
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    38.164 HEAT:  565.6201
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    45.671 HEAT:  567.4798
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    16.877 HEAT:  569.8767
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    65.614 HEAT:  566.5681
+ CYCLE:    19 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    25.723 HEAT:  571.0043
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    17.504 HEAT:  568.4128
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     7.251 HEAT:  567.0168
+ CYCLE:    22 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    25.616 HEAT:  566.9580
+ CYCLE:    23 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     8.166 HEAT:  565.5820
+ CYCLE:    24 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     5.704 HEAT:  566.9208
+ CYCLE:    25 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     1.695 HEAT:  566.9188
+
+     GRADIENT =  1.69524  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 100.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\HCN-HNC Isomerization\Locate TS HCN-HNC_100p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 100.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\HCN-HNC Isomerization\Locate TS HCN-HNC_100p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\HCN-HNC Isomerization\Locate TS HCN-HNC'
+          Current value of GEO_REF constraint:              100.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    1.82  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+                   3     N                   0.71        0.71
+                   2     C                   0.69        1.40
+                   1     H                   0.41        1.82
+
+          Heat of formation of the first geometry:          144.373 Kcal/mol
+          Heat of formation of the second geometry:         191.659 Kcal/mol
+          Contribution to heat of formation due to stress:  230.89  Kcal/mol
+          Gradient arising from first geometry:             215.87  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            215.01  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   179.62  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 100.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\HCN-HNC Isomerization\Locate TS HCN-HNC_100p0_average.mop'
+
+  Loop:   1  Energy minimization, excluding active site
+
+     GRADIENT =  0.00000  IS LESS THAN CUTOFF =  4.00000
+
+
+  Loop:   1  Gradient minimization of atoms in the active site
+
+          Transition state on cycle 1 written to file:
+          'M:\Individual JSmol paths\HCN-HNC Isomerization\Locate TS HCN-HNC_Loop1.mop'
+
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:  3383.323 HEAT:  460.3460
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:  1448.622 HEAT:  231.0375
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   668.712 HEAT:  147.6792
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   217.088 HEAT:  118.5022
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    90.288 HEAT:  115.6380
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    61.780 HEAT:  115.7966
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    20.718 HEAT:  115.6258
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    16.860 HEAT:  116.0631
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    23.867 HEAT:  116.0544
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    21.094 HEAT:  116.0470
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    50.545 HEAT:  116.1269
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    24.230 HEAT:  115.9990
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    13.933 HEAT:  115.9505
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     8.253 HEAT:  115.9375
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     5.276 HEAT:  115.9290
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     7.166 HEAT:  115.9354
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     9.187 HEAT:  115.9411
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    11.503 HEAT:  115.9407
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     7.658 HEAT:  115.9344
+ CYCLE:    19 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     3.007 HEAT:  115.9286
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     6.607 HEAT:  115.9303
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     7.349 HEAT:  115.9324
+ CYCLE:    22 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     3.210 HEAT:  115.9285
+ CYCLE:    23 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     9.797 HEAT:  115.9390
+ CYCLE:    24 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     6.614 HEAT:  115.9337
+ CYCLE:    25 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     2.133 HEAT:  115.9290
+
+     GRADIENT =  2.13290  IS LESS THAN CUTOFF =  3.00000
+
+
+  Loop:   2  Energy minimization, excluding active site
+
+     GRADIENT =  0.00000  IS LESS THAN CUTOFF =  4.00000
+
+
+  Loop:   2  Gradient minimization of atoms in the active site
+
+          Transition state on cycle 2 written to file:
+          'M:\Individual JSmol paths\HCN-HNC Isomerization\Locate TS HCN-HNC_Loop2.mop'
+
+
+     GRADIENT =  2.21516  IS LESS THAN CUTOFF =  3.00000
+
+
+  Loop:   3  Energy minimization, excluding active site
+
+     GRADIENT =  0.00000  IS LESS THAN CUTOFF =  4.00000
+
+
+  Loop:   3  Gradient minimization of atoms in the active site
+
+          Transition state on cycle 3 written to file:
+          'M:\Individual JSmol paths\HCN-HNC Isomerization\Locate TS HCN-HNC_Loop3.mop'
+
+
+     GRADIENT =  2.21707  IS LESS THAN CUTOFF =  3.00000
+
+
+
+ -------------------------------------------------------------------------------
+ GEO_REF="M:\Individual JSmol paths\HCN-HNC Isomerization\Locate TS HCN-HNC_100p0_first.mop" locate-ts(C:100;SET=1) opt
+ Locate and refine the transition state for the HNC - HCN isomerization
+ (Geometry data for reactant and products are in other files.)
+
+
+     GRADIENTS WERE INITIALLY ACCEPTABLY SMALL                
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2012 (Version: 15.314W)
+                                                       Tue Nov 10 08:32:41 2015
+                                                       No. of days left = 365
+
+
+
+
+          FINAL HEAT OF FORMATION =        115.92893 KCAL/MOL =     485.04664 KJ/MOL
+
+
+          TOTAL ENERGY            =       -317.98330 EV
+          ELECTRONIC ENERGY       =       -577.26715 EV
+          CORE-CORE REPULSION     =        259.28385 EV
+
+          GRADIENT NORM           =          2.21707
+          NO. OF FILLED LEVELS    =          5
+          MOLECULAR WEIGHT        =         27.026
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            N     3    H     1     1.49224
+            C     2    H     1     1.02407
+            N     3    H     1     0.00000
+
+
+          SCF CALCULATIONS        =         45
+ 
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+             Cartesian Gradients         Cartesian Coordinates          |Gradient|
+  Atom       X        Y        Z        X          Y          Z
+ 
+    1  H   -0.813   -0.529   -0.000    0.01604    0.12935   -0.00001       0.970
+    2  C   -0.273   -0.871   -0.000    1.22145   -0.44580    0.00000       0.913
+    3  N    1.087    1.400    0.000    1.37332    0.74948    0.00000       1.772
+ 
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.01604059  *   0.12935138  *  -0.00000573  *
+     2       C          1.22145277  *  -0.44579925  *   0.00000301  *
+     3       N          1.37331813  *   0.74948284  *   0.00000353  *
+
+                             CARTESIAN COORDINATES
+
+   1    H        0.016040589     0.129351379    -0.000005735
+   2    C        1.221452766    -0.445799248     0.000003010
+   3    N        1.373318125     0.749482836     0.000003534
+
+
+           Empirical Formula: C H N  =     3 atoms
+
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          H           0.352046        0.6480     0.64795
+    2          C           0.066952        3.9330     1.59066     2.34239
+    3          N          -0.418997        5.4190     1.84223     3.57677
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -2.344    -1.433    -0.000     2.747
+ HYBRID        -0.286     0.966    -0.000     1.008
+ SUM           -2.630    -0.467    -0.000     2.671
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  H   0.64795
+    2  C   1.59066   0.60872   1.06654   0.66712
+    3  N   1.84223   0.87746   1.36643   1.33288
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.08 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,421 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.153W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.153W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jun  3 08:58:33 2021  *
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "Formoazomethine Ylide plus ethylene Reactants.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "Formoazomethine Ylide plus ethylene Product.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  XYZ        - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE USING REACTANTS AND PRODUCTS
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+geo-ok geo_ref="Formoazomethine Ylide plus ethylene Product.arc" geo_dat="Formoazomethine Ylide plus ethylene Reactants.arc" locate-ts(C:30)  HTML precise opt XYZ geo-ok
+ Transition state for Formoazomethine Ylide plus ethylene <=> Formoazomethine Ylide plus ethylene Product
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)    0.00000000  *   0.00000000  *   0.00000000  *
+     2       C(HETATM    2  C2  HET A   1)    1.32992792  *   0.00000000  *   0.00000000  *
+     3       C(HETATM    3  C1  HET B   2)   -0.99640166  *   3.25024422  *   0.00000000  *
+     4       N(HETATM    4  N   HET B   2)    0.14066226  *   3.80781614  *  -0.38837658  *
+     5       C(HETATM    5  C2  HET B   2)    1.20952865  *   3.99368589  *   0.37182925  *
+     6       H(HETATM    6 1H1  HET A   1)   -0.59811387  *   0.10066106  *   0.89323213  *
+     7       H(HETATM    7 2H1  HET A   1)   -0.59783001  *  -0.09543355  *  -0.89360289  *
+     8       H(HETATM    8 1H2  HET A   1)    1.92887697  *  -0.09535251  *  -0.89219372  *
+     9       H(HETATM    9 2H2  HET A   1)    1.92579772  *   0.10255011  *   0.89459034  *
+    10       H(HETATM   10 1H1  HET B   2)   -1.83050463  *   3.13099133  *  -0.65935750  *
+    11       H(HETATM   11 2H1  HET B   2)   -1.14735836  *   2.88012943  *   0.99528122  *
+    12       H(HETATM   12  H   HET B   2)    0.19802751  *   4.12633144  *  -1.35808579  *
+    13       H(HETATM   13 1H2  HET B   2)    1.24491041  *   3.69647446  *   1.40182801  *
+    14       H(HETATM   14 2H2  HET B   2)    2.10387951  *   4.44953859  *   0.00140535  *
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    2  C2  HET A   1)   1.540   0.000   0.000        1.35         1.35
+            (HETATM   14 2H2  HET B   2)   2.818   1.693  -0.654        1.22         2.57
+            (HETATM    5  C2  HET B   2)   1.952   1.493   0.000        1.14         3.70
+            (HETATM    1  C1  HET A   1)   0.000   0.000   0.000        1.09         4.80
+            (HETATM    8 1H2  HET A   1)   1.938  -0.522  -0.883        1.08         5.87
+            (HETATM    3  C1  HET B   2)  -0.412   1.493   0.000        0.80         6.67
+            (HETATM    9 2H2  HET A   1)   1.946  -0.523   0.879        0.78         7.45
+            (HETATM    7 2H1  HET A   1)  -0.398  -0.522  -0.883        0.66         8.11
+            (HETATM   13 1H2  HET B   2)   2.231   1.823   1.024        0.59         8.71
+            (HETATM   10 1H1  HET B   2)  -1.277   1.693  -0.654        0.59         9.30
+            (HETATM   12  H   HET B   2)   0.770   2.433  -1.425        0.45         9.75
+            (HETATM    4  N   HET B   2)   0.770   2.290  -0.417        0.36        10.11
+            (HETATM    6 1H1  HET A   1)  -0.405  -0.523   0.879        0.33        10.44
+            (HETATM   11 2H1  HET B   2)  -0.691   1.823   1.023        0.30        10.74
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+   Difference between GEO_DAT and GEO_REF: 10.745 = total,  0.7675 = Average,  0.8395 = RMS, in Angstroms
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C4 H9 N  =    14 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+   TOPOGRAPHY OF SYSTEM
+
+   ATOM No.                  LABEL                 Atoms connected to this atom
+      1          C (HETATM    1  C1  HET A   1)       2      6      7
+      2          C (HETATM    2  C2  HET A   1)       1      8      9
+      3          C (HETATM    3  C1  HET B   2)       4     10     11
+      4          N (HETATM    4  N   HET B   2)       3      5     12
+      5          C (HETATM    5  C2  HET B   2)       4     13     14
+      6          H (HETATM    6 1H1  HET A   1)       1
+      7          H (HETATM    7 2H1  HET A   1)       1
+      8          H (HETATM    8 1H2  HET A   1)       2
+      9          H (HETATM    9 2H2  HET A   1)       2
+     10          H (HETATM   10 1H1  HET B   2)       3
+     11          H (HETATM   11 2H1  HET B   2)       3
+     12          H (HETATM   12  H   HET B   2)       4
+     13          H (HETATM   13 1H2  HET B   2)       5
+     14          H (HETATM   14 2H2  HET B   2)       5
+
+   Ion                PDB Label        Charge     Distance        PDB label for Salt Bridge   Charge
+ 
+
+                 All other ions
+
+ 
+    1     (HETATM    3  C1  HET B   2)   +1
+    2     (HETATM    5  C2  HET B   2)   +1
+
+          COMPUTED CHARGE ON SYSTEM: +2
+  
+          BECAUSE KEYWORD "CHARGE" WAS NOT USED, THE COMPUTED CHARGE OF +2 WILL BE USED IN THIS RUN.
+
+          If the Lewis structure used by MOZYME is incorrect, use keywords such as CVB or SETPI to correct it
+
+          For more information, see: HTTP://OpenMOPAC.net/Manual/setpi.html
+
+
+       Set 1: Atoms involved in covalent            Connectivity of atoms
+       bond-breaking and bond-making            Data-set                     Reference
+
+           1    Atom:   C     1                 2     6     7        2     3     6     7
+           2    Atom:   C     2                 1     8     9        1     5     8     9
+           3    Atom:   C     3                 4    10    11        1     4    10    11
+           4    Atom:   C     5                 4    13    14        2     4    13    14
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+           1    Atom:   C     1
+           2    Atom:   C     2
+           3    Atom:   C     3
+           4    Atom:   C     5
+           5    Atom:   H     6
+           6    Atom:   H     7
+           7    Atom:   H     8
+           8    Atom:   H     9
+           9    Atom:   N     4
+          10    Atom:   H    10
+          11    Atom:   H    11
+          12    Atom:   H    13
+          13    Atom:   H    14
+
+          Current value of GEO_REF constraint:                 30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                     10.74  Angstroms
+
+          Heat of formation of the first geometry:            562.256 Kcal/mol
+          Heat of formation of the second geometry:           593.500 Kcal/mol
+          Contribution to heat of formation due to stress:    592.061  Kcal/mol
+          Gradient arising from first geometry:               397.190  Kcal/mol/Angstrom
+          Gradient arising from second geometry:              475.038  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     144.93  degrees
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   401.439 HEAT:  1747.817
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   395.742 HEAT:  1745.853
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   350.875 HEAT:  1612.167
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   390.109 HEAT:  1707.202
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   373.563 HEAT:  1743.665
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   858.321 HEAT:  1661.770
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   321.846 HEAT:  1538.828
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   270.999 HEAT:  1535.551
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   228.678 HEAT:  1524.154
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   229.858 HEAT:  1507.268
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   255.352 HEAT:  1492.929
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   203.961 HEAT:  1473.973
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   203.580 HEAT:  1476.215
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   201.101 HEAT:  1477.916
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   188.613 HEAT:  1478.964
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   188.731 HEAT:  1477.072
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   187.780 HEAT:  1452.694
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   186.091 HEAT:  1414.756
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   189.142 HEAT:  1374.997
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   193.557 HEAT:  1338.097
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   200.332 HEAT:  1302.796
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   221.371 HEAT:  1273.316
+ CYCLE:    23 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   238.073 HEAT:  1249.042
+ CYCLE:    24 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   370.349 HEAT:  1244.608
+ CYCLE:    25 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   353.215 HEAT:  1267.240
+ CYCLE:    26 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   364.721 HEAT:  1240.412
+ CYCLE:    27 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   219.239 HEAT:  1259.710
+ CYCLE:    28 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   793.067 HEAT:  1346.662
+ CYCLE:    29 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   523.429 HEAT:  1303.290
+ CYCLE:    30 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   774.578 HEAT:  1305.385
+ CYCLE:    31 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1251.235 HEAT:  1707.614
+ CYCLE:    32 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   889.653 HEAT:  1434.582
+ CYCLE:    33 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:  1414.274 HEAT:  1533.244
+ CYCLE:    34 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1038.508 HEAT:  1623.104
+ CYCLE:    35 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   586.882 HEAT:  1359.817
+ CYCLE:    36 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:  2422.589 HEAT:  1671.191
+ CYCLE:    37 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   546.933 HEAT:  1352.657
+ CYCLE:    38 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1298.794 HEAT:  1503.622
+ CYCLE:    39 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1327.523 HEAT:  1660.005
+ CYCLE:    40 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:  3050.660 HEAT:  1959.558
+ CYCLE:    41 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1332.462 HEAT:  1718.934
+ CYCLE:    42 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   788.569 HEAT:  1481.895
+ CYCLE:    43 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:  1168.615 HEAT:  1475.208
+ CYCLE:    44 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   878.414 HEAT:  1468.071
+ CYCLE:    45 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   793.106 HEAT:  1433.812
+ CYCLE:    46 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1379.881 HEAT:  1531.979
+ CYCLE:    47 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   736.502 HEAT:  1424.879
+ CYCLE:    48 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1047.894 HEAT:  1505.936
+ CYCLE:    49 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   677.373 HEAT:  1364.568
+ CYCLE:    50 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   466.393 HEAT:  1317.603
+ CYCLE:    51 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   284.787 HEAT:  1311.198
+ CYCLE:    52 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   400.957 HEAT:  1265.872
+ CYCLE:    53 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   148.839 HEAT:  1248.820
+ CYCLE:    54 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   141.006 HEAT:  1247.611
+ CYCLE:    55 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    67.106 HEAT:  1241.834
+ CYCLE:    56 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    68.632 HEAT:  1235.896
+ CYCLE:    57 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    62.448 HEAT:  1230.229
+ CYCLE:    58 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   111.399 HEAT:  1228.527
+ CYCLE:    59 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.648 HEAT:  1225.377
+ CYCLE:    60 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    16.821 HEAT:  1225.310
+ CYCLE:    61 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    17.242 HEAT:  1225.040
+ CYCLE:    62 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    25.597 HEAT:  1224.529
+ CYCLE:    63 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    16.427 HEAT:  1224.536
+ CYCLE:    64 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.931 HEAT:  1224.519
+ CYCLE:    65 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.927 HEAT:  1224.493
+ CYCLE:    66 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.593 HEAT:  1224.327
+ CYCLE:    67 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    22.527 HEAT:  1224.137
+ CYCLE:    68 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.801 HEAT:  1224.360
+ CYCLE:    69 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.968 HEAT:  1224.254
+ CYCLE:    70 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.022 HEAT:  1224.128
+ CYCLE:    71 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    14.745 HEAT:  1224.000
+ CYCLE:    72 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.285 HEAT:  1223.993
+
+     GRADIENT =  3.28519 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Formoazomethine Ylide plus ethylene/Locate-ts Formoazomethine Ylide plus ethylene bias=30.0 first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Formoazomethine Ylide plus ethylene/Locate-ts Formoazomethine Ylide plus ethylene bias=30.0 second.mop'
+
+
+          Job name: 'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Formoazomethine Ylide plus ethylene/Locate-ts Formoazomethine Ylide plus ethylene'
+
+          Current value of GEO_REF constraint:                 30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    3.60  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    2  C2  HET A   1)   1.557  -0.034  -0.008        0.59         0.59
+            (HETATM    5  C2  HET B   2)   1.982   1.521  -0.044        0.58         1.17
+            (HETATM    1  C1  HET A   1)   0.014  -0.016   0.023        0.39         1.56
+            (HETATM   14 2H2  HET B   2)   2.911   1.886  -0.614        0.36         1.92
+            (HETATM    3  C1  HET B   2)  -0.381   1.500  -0.066        0.32         2.24
+            (HETATM    8 1H2  HET A   1)   1.960  -0.599  -0.902        0.24         2.47
+            (HETATM   12  H   HET B   2)   0.808   2.578  -1.475        0.20         2.67
+            (HETATM   11 2H1  HET B   2)  -0.711   1.760   1.016        0.19         2.87
+            (HETATM    6 1H1  HET A   1)  -0.411  -0.503   0.934        0.19         3.06
+            (HETATM   13 1H2  HET B   2)   2.295   1.817   1.034        0.16         3.22
+            (HETATM    4  N   HET B   2)   0.798   2.183  -0.502        0.13         3.34
+            (HETATM    7 2H1  HET A   1)  -0.475  -0.526  -0.854        0.12         3.47
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:            572.705 Kcal/mol
+          Heat of formation of the second geometry:           573.195 Kcal/mol
+          Contribution to heat of formation due to stress:     78.093  Kcal/mol
+          Gradient arising from first geometry:                68.606  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               68.108  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     177.60  degrees
+
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Formoazomethine Ylide plus ethylene/Locate-ts Formoazomethine Ylide plus ethylene bias=30.0 average.mop'
+
+
+ -------------------------------------------------------------------------------
+ geo-ok HTML precise geo-ok CHARGE=2 MOZYME
+ Transition state for Formoazomethine Ylide plus ethylene <=> Formoazomethine Ylide plus ethylene Product
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.153W)
+                                                       Thu Jun  3 08:58:33 2021
+                                                       No. of days remaining = 364
+
+
+
+
+          FINAL H.O.F PLUS STRESS =       1223.99289 KCAL/MOL =    5121.18625 KJ/MOL
+          FINAL STRESS            =         39.04629 KCAL/MOL =     163.36968 KJ/MOL
+          FINAL HEAT OF FORMATION =       1184.94660 KCAL/MOL =    4957.81657 KJ/MOL
+          TOTAL DISTORTION        =          1.79968 Angstroms
+          AVERAGE DISTORTION      =          0.12855 Angstroms per atom (all atoms)
+          RMS DISTORTION          =          0.15245 Angstroms per atom (all atoms)
+
+
+          TOTAL ENERGY            =       -774.07167 EV
+          ELECTRONIC ENERGY       =      -3253.67496 EV
+          CORE-CORE REPULSION     =       2479.60329 EV
+
+          GRADIENT NORM           =          1.80233 = 0.48169 PER ATOM
+          NO. OF FILLED LEVELS    =         14
+          MOLECULAR WEIGHT        =         71.1218
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    14    H     6     4.44886
+            H    10    H     9     4.31259
+            H     8    H    13     3.05436
+
+
+          SCF CALCULATIONS        =          4
+ 
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)    0.04210238  *  -0.21015093  *   0.03164644  *
+     2       C(HETATM    2  C2  HET A   1)    1.47760395  *  -0.31828364  *  -0.02649652  *
+     3       C(HETATM    3  C1  HET B   2)   -0.37252757  *   1.65811772  *  -0.06111828  *
+     4       N(HETATM    4  N   HET B   2)    0.81885149  *   2.15266805  *  -0.55345757  *
+     5       C(HETATM    5  C2  HET B   2)    2.00363620  *   1.80472393  *  -0.00124235  *
+     6       H(HETATM    6 1H1  HET A   1)   -0.42300118  *  -0.41338218  *   0.96521592  *
+     7       H(HETATM    7 2H1  HET A   1)   -0.53334534  *  -0.52460940  *  -0.83468148  *
+     8       H(HETATM    8 1H2  HET A   1)    1.93648313  *  -0.70851646  *  -0.93875018  *
+     9       H(HETATM    9 2H2  HET A   1)    2.03741597  *  -0.58312314  *   0.83683277  *
+    10       H(HETATM   10 1H1  HET B   2)   -1.29909857  *   1.79158907  *  -0.67804188  *
+    11       H(HETATM   11 2H1  HET B   2)   -0.63062677  *   1.70638444  *   1.02285094  *
+    12       H(HETATM   12  H   HET B   2)    0.82551076  *   2.50642303  *  -1.54164245  *
+    13       H(HETATM   13 1H2  HET B   2)    2.22586553  *   1.83098098  *   1.07381531  *
+    14       H(HETATM   14 2H2  HET B   2)    2.94395623  *   2.05706390  *  -0.56869753  *
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.042102381    -0.210150929     0.031646439
+   2    C        1.477603954    -0.318283637    -0.026496517
+   3    C       -0.372527566     1.658117723    -0.061118277
+   4    N        0.818851485     2.152668054    -0.553457573
+   5    C        2.003636205     1.804723932    -0.001242352
+   6    H       -0.423001185    -0.413382180     0.965215924
+   7    H       -0.533345337    -0.524609404    -0.834681476
+   8    H        1.936483132    -0.708516456    -0.938750183
+   9    H        2.037415966    -0.583123142     0.836832767
+  10    H       -1.299098574     1.791589072    -0.678041882
+  11    H       -0.630626766     1.706384437     1.022850939
+  12    H        0.825510756     2.506423032    -1.541642447
+  13    H        2.225865528     1.830980976     1.073815313
+  14    H        2.943956226     2.057063900    -0.568697526
+
+
+           Empirical Formula: C4 H9 N  =    14 atoms
+
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C          -0.217205        4.2172     1.09068     3.12653
+    2          C          -0.228938        4.2289     1.08706     3.14187
+    3          C          -0.192444        4.1924     1.13661     3.05583
+    4          N           0.297890        4.7021     1.58276     3.11935
+    5          C          -0.198905        4.1989     1.13295     3.06595
+    6          H           0.239217        0.7608     0.76078
+    7          H           0.250693        0.7493     0.74931
+    8          H           0.238248        0.7618     0.76175
+    9          H           0.240903        0.7591     0.75910
+   10          H           0.276366        0.7236     0.72363
+   11          H           0.329526        0.6705     0.67047
+   12          H           0.377325        0.6227     0.62268
+   13          H           0.314781        0.6852     0.68522
+   14          H           0.272543        0.7275     0.72746
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.254     3.007    -0.706     3.099
+ HYBRID        -0.038     1.257     0.003     1.257
+ SUM           -0.292     4.264    -0.703     4.331
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                  Atom                 s        px        py        pz   
+    1  C(HETATM    1  C1  HET A   1)   1.09068   1.01366   0.84816   1.26471
+    2  C(HETATM    2  C2  HET A   1)   1.08706   0.99949   0.86209   1.28030
+    3  C(HETATM    3  C1  HET B   2)   1.13661   0.96181   0.94181   1.15222
+    4  N(HETATM    4  N   HET B   2)   1.58276   1.18951   0.84985   1.07999
+    5  C(HETATM    5  C2  HET B   2)   1.13295   0.95467   0.94280   1.16847
+    6  H(HETATM    6 1H1  HET A   1)   0.76078
+    7  H(HETATM    7 2H1  HET A   1)   0.74931
+    8  H(HETATM    8 1H2  HET A   1)   0.76175
+    9  H(HETATM    9 2H2  HET A   1)   0.75910
+   10  H(HETATM   10 1H1  HET B   2)   0.72363
+   11  H(HETATM   11 2H1  HET B   2)   0.67047
+   12  H(HETATM   12  H   HET B   2)   0.62268
+   13  H(HETATM   13 1H2  HET B   2)   0.68522
+   14  H(HETATM   14 2H2  HET B   2)   0.72746
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.50 SECONDS
+
+ == MOPAC DONE ==

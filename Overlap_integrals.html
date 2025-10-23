@@ -1,0 +1,328 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Overlap Integrals</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Overlap Integrals </h2>
+<p>The particular technique used for the evaluation of the overlap integral depends on the atoms involved and whether analytic derivatives are used. All five semiempirical methods use Slater-type orbitals, STOs, although when analytic derivatives are involved&nbsp;[<a href="references.html#analyt">16</a>], a Gaussian expansion&nbsp;[<a href="references.html#analyt">16</a>] of STOs is normally used. </p>
+<p>Overlap integrals used in molecular systems are the product of the radial 
+component, described on this page, and an <a href="rotate_atomic_orbitals.html">
+angular component</a>.&nbsp; </p>
+<p>Specific expressions for various of the overlap integrals have appeared in the literature. These are normally used for those overlaps which involve only small principal quantum numbers, PQN, <i>n</i>, and a low angular quantum number, <i>l</i>. For the general case, however, in which any PQN may be encountered, the general overlap integral is used. As the final expression is rather ungainly, a simple derivation of the overlap integral will be given. </p>
+<p>Slater atomic orbitals are of form<a name="so">&nbsp;</a> </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}varphi = frac{(2xi )^{n+1/2}}{(2n)!^{1/2}}r^{n-1}e^{-xi r}Y_l^m(theta ,phi ),end{displaymath}" height="101" src="img635.gif" width="446"/></div>
+<p>where the                                      <img align="MIDDLE" alt="$Y_l^m(theta ,phi )$" height="31" src="img636.gif" width="60"/>are the normalized complex spherical harmonics.
+<a href="complex_spherical_harmonics.html">Complex spherical harmonics</a> are chosen for convenience;                                      <img align="MIDDLE" alt="$Y_l^m(theta ,phi )$" height="31" src="img637.gif" width="60"/><a href="real_spherical_harmonics.html">real orbitals
+</a>have a <a href="spherical_harmonic_relationships.html">similar behavior</a>, but require more manipulation. The <img align="MIDDLE" alt="$theta$" height="30" src="img638.gif" width="15"/>dependence of spherical harmonics are the Laguerre polynomials, of form </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}Y_l^m(theta ,phi ) = frac{e^{imphi }}{(2pi )^{1/2}}left......eta d^{l+m}(cos^2theta-1)^l}{2^l l! (d costheta)^{l+m}}.end{displaymath}" height="86" src="img639.gif" width="720"/></div>
+<p>For convenience the phase factor is set to +1; this varies according to which source is used and the purpose for which the Laguerre polynomials are used. </p>
+<p>Solving the differential gives </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}frac{d^{l+m}}{(d costheta)^{l+m}}(cos^2theta-1)^l = sum_......2j)! (-1)^{l+j}}{(l-j)! j! (2j-l-m)!}(costheta )^{2j-l-m},end{displaymath}" height="88" src="img640.gif" width="742"/></div>
+<p>which, on rearranging to have the summation start at zero, becomes </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}frac{d^{l+m}}{(d costheta)^{l+m}}(cos^2theta-1)^l = sum_......2(l-j))! (-1)^j}{j! (l-j)! (l-m-2j)!}(costheta )^{l-m-2j}.end{displaymath}" height="102" src="img641.gif" width="834"/></div>
+<p>Substituting this into the STO yields <br/>
+</p><p align="CENTER"></p><center><table border="0" cellspacing="0">
+<tr>
+<td><img align="TOP" height="59" src="img642.gif" width="32"/>
+</td><td><font size="5">=</font></td>
+<td><img align="TOP" height="93" src="img643.gif" width="461"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="98" src="img644.gif" width="467"/>
+</td></tr></table>
+</center>
+<p></p>
+<p>At this point it is convenient to collect some of the constants together; thus, </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}C_{lmj}=left [frac{(l-m)!}{(l+m)!}right ]^{1/2}frac{(2(l-j))! (-1)^j}{2^l j! (l-j)! (l-m-2j)!},end{displaymath}" height="93" src="img645.gif" width="583"/></div>
+<p>which allows us to represent the STO in a considerably simplified form: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}varphi = frac{(2xi )^{n+1/2}}{(2n)!^{1/2}}frac{(2l+1)^{1/......2pi )^{1/2}}sum_{j=0}^{1/2(l-m)}C_{lmj}(costheta)^{l-m-2j}.end{displaymath}" height="92" src="img646.gif" width="801"/></div>
+<p>The overlap integral of two STOs can then be represented as <br/>
+</p><p align="CENTER"></p><center><table border="0" cellspacing="0">
+<tr>
+<td><img align="TOP" height="42" src="img647.gif" width="101"/>
+</td><td>=</td>
+<td><img align="TOP" height="120" src="img648.gif" width="581"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="121" src="img649.gif" width="584"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="125" src="img650.gif" width="589"/>
+</td></tr><tr>
+</tr></table>
+</center>
+<p><a name="BM11641"></a>It is impractical to solve this integral using polar  coordinates. Instead, a prolate spheroidal coordinate system is used. Using the identities: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}begin{array}{ccc}r_a=frac{R(mu + nu)}{2}" height="135" src="img651.gif" width="790"/></div>
+<p>this gives                                                                           
+<img align="MIDDLE" alt="$dv = frac{R^3}{8}(mu + nu )(mu - nu)dmu dnu dphi.$" height="84" src="img652.gif" width="427"/></p>
+<p>Substituting these identities into the previous expression we get:
+</p><p align="CENTER"></p><center><table border="0" cellspacing="0">
+<tr>
+<td><img align="TOP" height="47" src="img653.gif" width="107"/>
+</td><td>=</td>
+<td><img align="TOP" height="89" src="img644.gif" width="477"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="77" src="img655.gif" width="488"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="85" src="img656.gif" width="235"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="85" src="img657.gif" width="492"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="78" src="img658.gif" width="242"/>
+</td></tr><tr>
+</tr></table>
+</center>
+<p></p>
+<p>which, on integrating over and rearranging, gives: <br/>
+</p><p align="CENTER"></p><center><table border="0" cellspacing="0">
+<tr>
+<td><img align="TOP" height="37" src="img659.gif" width="87"/>
+</td><td>=</td>
+<td><img align="TOP" height="85" src="img660.gif" width="458"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="90" src="img661.gif" width="532"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="62" src="img662.gif" width="795"/>
+</td></tr><tr>
+</tr></table></center>
+<p></p>
+<p>This is a product of six simple expressions of type (<i>a</i>+<i>b</i>)<i><sup>n</sup></i>. Expanding each term as a binomial generates six summations: <br/>
+</p><p align="CENTER"></p><center><table border="0" cellspacing="0">
+<tr>
+<td><img align="TOP" height="48" src="img663.gif" width="111"/>
+</td><td>=</td>
+<td><img align="TOP" height="101" src="img664.gif" width="565"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="114" src="img665.gif" width="724"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="74" src="img666.gif" width="609"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="85" src="img667.gif" width="454"/>
+</td></tr></table>
+</center>
+<p></p>
+<p>Using integration by parts, and making use of the following integrals (The "A" and "B" overlap integrals): <a name="ab">&nbsp;</a> </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}int_1^{infty}x^ne^{-ax}dx=e^{-a}sum_{mu=1}^{n+1}frac{n!}{a^{mu}(n-mu+1)}=A_n(a)end{displaymath}" height="87" src="img669.gif" width="462"/></div>
+<div align="CENTER">
+<img alt="begin{displaymath}int_{-1}^{1}x^ne^{-ax}dx=-e^{-a}sum_{mu=1}^{n+1}frac{n!}{......_{mu=1}^{n+1}frac{n(-1)^{n-mu}}{a^{mu}(n-mu+1)!} =B_n(a),end{displaymath}" height="89" src="img670.gif" width="764"/></div>
+<p>the overlap integral becomes <br/>
+</p><p align="CENTER"></p><center><table border="0" cellspacing="0">
+<tr>
+<td><img align="TOP" height="55" src="img671.gif" width="128"/>
+</td><td>=</td>
+<td><img align="TOP" height="98" src="img672.gif" width="479"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="110" src="img673.gif" width="732"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="92" src="img674.gif" width="742"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="96" src="img675.gif" width="735"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="91" src="img676.gif" width="736"/>
+</td></tr><tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td><img align="TOP" height="83" src="img677.gif" width="216"/>
+</td></tr><tr>
+</tr></table>
+</center>
+<p></p>
+<p>in which the coefficients <i>C<sub>lmj</sub></i> have the numerical values given in the Table.
+</p><div align="CENTER"><div align="CENTER"><a name="BM11889">&nbsp;</a>
+<strong><p>Table:</p></strong> Values of <i>C<sub>lmj</sub></i>
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p> l</p></td>
+<td valign="MIDDLE">
+<p>m</p></td>
+<td valign="MIDDLE">
+<p>j</p></td>
+<td valign="MIDDLE">
+<p>C<i><sub>lmj</sub></i></p></td>
+<td valign="MIDDLE">
+<p>l</p></td>
+<td valign="MIDDLE">
+<p>m</p></td>
+<td valign="MIDDLE">
+<p>j</p></td>
+<td valign="MIDDLE">
+<p>C<i><sub>lmj</sub></i></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>1.0</p></td>
+<td valign="MIDDLE">
+<p>3</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>5/2</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>1.0</p></td>
+<td valign="MIDDLE">
+<p>3</p></td>
+<td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>(225/48)<sup>1/2</sup></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>(1/2)<sup>1/2</sup></p></td>
+<td valign="MIDDLE">
+<p>3</p></td>
+<td valign="MIDDLE">
+<p>2</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>(15/8)<sup>1/2</sup></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>2</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>3/2</p></td>
+<td valign="MIDDLE">
+<p>3</p></td>
+<td valign="MIDDLE">
+<p>3</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>(5/16)<sup>1/2</sup></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>2</p></td>
+<td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>(3/2)<sup>1/2</sup></p></td>
+<td valign="MIDDLE">
+<p>3</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>-3/2</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>2</p></td>
+<td valign="MIDDLE">
+<p>2</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>(3/8)<sup>1/2</sup></p></td>
+<td valign="MIDDLE">
+<p>3</p></td>
+<td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>-(3/16)<sup>1/2</sup></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>2</p></td>
+<td valign="MIDDLE">
+<p>0</p></td>
+<td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>-1/2</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+</tr>
+</table>
+</div>
+<p align="left"><br/></p></div>
+Note : In subroutine SS the array AFF(l,m,2j) corresponds to C<i><sub>lmj</sub></i> here.
+This is the most convenient form for algorithmic use.&nbsp; In this form, the overlap integral can be found in function SS. <a name="BM11845">&nbsp;</a></body></html>

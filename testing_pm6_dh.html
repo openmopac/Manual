@@ -1,0 +1,97 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>PM6-DH2 </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>PM6-DH2[(n,m,k:l)]</tt>
+</h1>
+<p align="left">
+<font face="Times New Roman" size="4">Use the PM6-DH2 procedure of: </font>
+<font face="Times New Roman"><font size="4">M. Korth, M. Piton&aacute;k, J. Rez&aacute;c, and 
+P. Hobza</font></font><font face="Times New Roman" size="4">, "</font><i><font face="Times New Roman" size="4">A 
+Transferable H-bonding Correction For Semiempirical Quantum-Chemical Methods</font></i><font face="Times New Roman" size="4">",
+&nbsp;J. Chem. Theory Comp. (submitted).</font></p>
+<p align="LEFT"><font face="Times New Roman" size="4">The PM6-DH2 procedure corrects 
+binding errors in the PM6 method.&nbsp; It can be used with geometry 
+optimization or with a single point (</font><font face="Helvetica" size="4"><a href="one_scf.html"><tt><font face="Times New Roman">1SCF</font></tt></a></font><font face="Times New Roman" size="4">) 
+calculation.&nbsp; Normally, two or three calculations would be needed to get 
+the binding energy.&nbsp; </font></p>
+<p align="LEFT"><font face="Times New Roman" size="4">Without the optional 
+arguments, PM6-DH2 will apply to all atoms.&nbsp; With optional arguments, PM6-DH2 
+will apply only to the interaction of one part of the system with a second part.&nbsp; 
+The optional argument defines atoms used in one of the parts.&nbsp; Atom numbers 
+are specified by numbers separated by commas, and ranges of the type 645-670 or 
+645:670.&nbsp; To specify atoms 600, 610, 611, 612, and 630 the keyword would be 
+PM6-DH(600,610:612,630) or PM6-DH(600,630,610-612)</font></p>
+<p align="LEFT"><font face="Times New Roman" size="4">If only the dispersion 
+contribution is wanted, replace PM6-DH2 with PM6-D.&nbsp; If only the 
+hydrogen-bonding term is wanted, replace PM6-DH2 with PM6-H.</font></p>
+<p align="LEFT"><font face="Times New Roman" size="4">Consider the dimer of 
+formic acid: 
+The binding energy  would be the </font>
+&Delta;<font face="Times New Roman" size="4">H<sub>f</sub> 
+of the formic acid dimer minus  the </font>&Delta;&gt;<font face="Times New Roman" size="4">H<sub>f</sub> 
+of two well-separated formic acid molecules.&nbsp; Here, two calculations are needed.&nbsp; 
+For this work, the accurate geometries from the
+<a href="http://www.begdb.com/index.php?action=e8079cb0e8955e6ebb16ccb9928789b6&amp;id=4&amp;state=show&amp;order=ASC&amp;by=name_m&amp;method=">
+S22 database</a> are used.</font></p><p align="LEFT">
+<font face="Times New Roman" size="4">First calculation:</font></p><pre>PM6-DH2(1:5) 1scf
+
+
+  C   -1.888896000 1  -0.179692000 1   0.000000000 1
+  O   -1.493280000 1   1.073689000 1   0.000000000 1
+  O   -1.170435000 1  -1.166590000 1   0.000000000 1
+  H   -2.979488000 1  -0.258829000 1   0.000000000 1
+  H   -0.498833000 1   1.107195000 1   0.000000000 1
+  C    1.888896000 1   0.179692000 1   0.000000000 1
+  O    1.493280000 1  -1.073689000 1   0.000000000 1
+  O    1.170435000 1   1.166590000 1   0.000000000 1
+  H    2.979488000 1   0.258829000 1   0.000000000 1
+  H    0.498833000 1  -1.107195000 1   0.000000000 1
+
+</pre>
+<p align="LEFT"><font face="Times New Roman" size="4">Second calculation:</font></p><pre> PM6-DH2(1:5) 1scf
+
+
+  C   -1.888896000 1  -0.179692000 1  99.000000000 1
+  O   -1.493280000 1   1.073689000 1  99.000000000 1
+  O   -1.170435000 1  -1.166590000 1  99.000000000 1
+  H   -2.979488000 1  -0.258829000 1  99.000000000 1
+  H   -0.498833000 1   1.107195000 1  99.000000000 1
+  C    1.888896000 1   0.179692000 1   0.000000000 1
+  O    1.493280000 1  -1.073689000 1   0.000000000 1
+  O    1.170435000 1   1.166590000 1   0.000000000 1
+  H    2.979488000 1   0.258829000 1   0.000000000 1
+  H    0.498833000 1  -1.107195000 1   0.000000000 1
+
+</pre>
+<p align="LEFT"><font face="Times New Roman" size="4">Consider a substrate 
+docked in an enzyme.&nbsp; The binding energy would be the </font>
+&Delta;<font face="Times New Roman" size="4">H<sub>f</sub> 
+of the docked assembly minus the </font>&Delta;<font face="Times New Roman" size="4">H<sub>f</sub> 
+of the isolated substrate minus the </font>&Delta;<font face="Times New Roman" size="4">H<sub>f</sub> 
+of the isolated enzyme.&nbsp; As <i>in vivo </i>enzymes exist in aqueous media, 
+solvation will be necessary.</font></p>
+<p align="LEFT">&nbsp;</p>
+<p align="LEFT">&nbsp;</p>
+<p align="LEFT">&nbsp;</p>
+</body>
+</html>

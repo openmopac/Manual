@@ -1,0 +1,81 @@
+geo-ok GEO_REF="M:\Individual JSmol paths\Formoazomethine Ylide plus ethylene\Locate-ts Formoazomethine Ylide plus ethylene_30p0_first.mop"  locate-ts(C:30)  HTML precise opt XYZ CHARGE=2
+ Transition state for Formoazomethine Ylide plus ethylene <=> Formoazomethine Ylie plus ethylene Product
+
+  C(HETATM    1  C   HET A   1)  -0.15508649 +1   0.91482781 +1   0.02503276 +1
+  C(HETATM    2  C   HET A   1)   1.27073122 +1   1.08857984 +1   0.12141984 +1
+  C(HETATM    3  C   HET A   1)  -0.95812357 +1   2.65255244 +1  -0.00968023 +1
+  N(HETATM    4  N   HET A   1)   0.14843308 +1   3.42006956 +1  -0.32037883 +1
+  C(HETATM    5  C   HET A   1)   1.31171185 +1   3.27485203 +1   0.34786066 +1
+  H(HETATM    6 1HT1 HET A   1)  -0.65015402 +1   0.55942599 +1   0.89334811 +1
+  H(HETATM    7 2HT1 HET A   1)  -0.56351017 +1   0.56432781 +1  -0.91631938 +1
+  H(HETATM    8 1HT2 HET A   1)   1.88661510 +1   0.86823289 +1  -0.75830610 +1
+  H(HETATM    9 2HT2 HET A   1)   1.79417228 +1   0.86510810 +1   1.01723850 +1
+  H(HETATM   10 1HT3 HET A   1)  -1.81905383 +1   2.64754078 +1  -0.72816442 +1
+  H(HETATM   11 2HT3 HET A   1)  -1.33838699 +1   2.55685367 +1   1.03399501 +1
+  H(HETATM   12  H   HET A   1)   0.18559797 +1   3.85085835 +1  -1.27661751 +1
+  H(HETATM   13 1HT4 HET A   1)   1.40677188 +1   3.24894233 +1   1.44408067 +1
+  H(HETATM   14 2HT4 HET A   1)   2.23226601 +1   3.76454753 +1  -0.08100667 +1
+ 
+
+
+                     SUMMARY OF PM7 CALCULATION, Site No: 10005
+
+                                                       MOPAC2012 (Version: 15.315W)
+                                                       Thu Nov 12 13:40:27 2015
+                                                       No. of days left = 364
+
+           Empirical Formula: C4 H9 N  =    14 atoms
+
+geo-ok GEO_REF="M:\Individual JSmol paths\Formoazomethine Ylide plus ethylene\Locate-ts Formoazomethine Ylide plus ethylene_30p0_first.mop"  locate-ts(C:30)  HTML precise opt XYZ CHARGE=2
+ Transition state for Formoazomethine Ylide plus ethylene <=> Formoazomethine Ylie plus ethylene Product
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+
+          FINAL H.O.F PLUS STRESS =       1230.08030 KCAL/MOL =    5146.65600 KJ/MOL
+          FINAL STRESS            =         41.04355 KCAL/MOL =     171.72620 KJ/MOL
+          HEAT OF FORMATION       =       1189.03676 KCAL/MOL =    4974.92980 KJ/MOL
+          TOTAL DISTORTION        =          1.85903 Angstroms
+          AVERAGE DISTORTION      =          0.13279 Angstroms per atom (all atoms)
+          RMS DISTORTION          =          0.15630 Angstroms per atom (all atoms)
+          TOTAL ENERGY            =       -774.05294 EV
+          ELECTRONIC ENERGY       =      -3253.54915 EV
+          CORE-CORE REPULSION     =       2479.49621 EV
+          GRADIENT NORM           =          1.85921
+          DIPOLE                  =          4.35540 DEBYE   
+          NO. OF FILLED LEVELS    =         14
+          CHARGE ON SYSTEM        =          2
+          MOLECULAR WEIGHT        =         71.122
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    14    H     6     4.41933
+            H    10    H     9     4.33794
+            H     8    H    13     3.07919
+          SCF CALCULATIONS        =          4
+
+
+          FINAL GEOMETRY OBTAINED
+geo-ok GEO_REF="M:\Individual JSmol paths\Formoazomethine Ylide plus ethylene\Locate-ts Formoazomethine Ylide plus ethylene_30p0_first.mop"  locate-ts(C:30)  HTML precise opt XYZ CHARGE=2
+ Transition state for Formoazomethine Ylide plus ethylene <=> Formoazomethine Ylie plus ethylene Product
+
+  C(HETATM    1  C   HET A   1)  -0.15508649 +1   0.91482781 +1   0.02503276 +1
+  C(HETATM    2  C   HET A   1)   1.27073122 +1   1.08857984 +1   0.12141984 +1
+  C(HETATM    3  C   HET A   1)  -0.95812357 +1   2.65255244 +1  -0.00968023 +1
+  N(HETATM    4  N   HET A   1)   0.14843308 +1   3.42006956 +1  -0.32037883 +1
+  C(HETATM    5  C   HET A   1)   1.31171185 +1   3.27485203 +1   0.34786066 +1
+  H(HETATM    6 1HT1 HET A   1)  -0.65015402 +1   0.55942599 +1   0.89334811 +1
+  H(HETATM    7 2HT1 HET A   1)  -0.56351017 +1   0.56432781 +1  -0.91631938 +1
+  H(HETATM    8 1HT2 HET A   1)   1.88661510 +1   0.86823289 +1  -0.75830610 +1
+  H(HETATM    9 2HT2 HET A   1)   1.79417228 +1   0.86510810 +1   1.01723850 +1
+  H(HETATM   10 1HT3 HET A   1)  -1.81905383 +1   2.64754078 +1  -0.72816442 +1
+  H(HETATM   11 2HT3 HET A   1)  -1.33838699 +1   2.55685367 +1   1.03399501 +1
+  H(HETATM   12  H   HET A   1)   0.18559797 +1   3.85085835 +1  -1.27661751 +1
+  H(HETATM   13 1HT4 HET A   1)   1.40677188 +1   3.24894233 +1   1.44408067 +1
+  H(HETATM   14 2HT4 HET A   1)   2.23226601 +1   3.76454753 +1  -0.08100667 +1
+ 

@@ -1,0 +1,56 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>OPT(TEXT=n.nn)</title>
+<style type="text/css">
+.auto-style1 {
+	font-weight: normal;
+}
+</style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>OPT<span class="auto-style1"><strong>("</strong><em><strong>Label</strong></em></span><strong><span class="auto-style1"><sub>1</sub></span></strong><span class="auto-style1"><strong>"=</strong><em><strong>n.nn</strong></em><strong>[,"</strong><strong><em>Label</em><sub>2</sub>"=<em>m.mm</em>[,"</strong><strong><em>Label</em><sub>3</sub>"=<em>s.ss...</em>]]),&nbsp; </strong></span></tt> &nbsp;<tt>OPT<span class="auto-style1"><strong>("</strong><em><strong>Label</strong></em><strong><sub>1</sub>"[,"<em>Label</em><sub>2</sub>"[,"<em>Label</em><sub>3</sub>"...]])</strong></span></tt> </h1>
+<h2>
+<tt>OPT<span class="auto-style1"><strong>("</strong><em><strong>Label</strong></em></span><strong><span class="auto-style1"><sub>1</sub></span></strong><span class="auto-style1"><strong>"=</strong><em><strong>n.nn</strong></em><strong>[,"<em>Label</em><sub>2</sub>"=<em>m.mm</em>[,"<em>Label</em><sub>3</sub>"=<em>s.ss...</em>]])</strong></span></tt></h2>
+<p>All atoms within <em>n.nn</em> &Aring;ngstroms of any atom that has, as part 
+of its PDB atom-label, the chain-letter and residue-number in text "label" will be flagged for optimization.&nbsp; 
+All other atoms will be frozen, i.e., flagged to not be optimized.&nbsp; If
+<a href="nooptx.html"><tt>NOOPT</tt></a> is present, then 
+the atoms defined by "label" will be flagged to not be optimized; only the atoms 
+within <em>n.nn</em> &Aring;ngstroms of any atom defined by "label" will be flagged to 
+be optimized.</p>
+<p><tt>Label</tt> is the chain letter and residue number for one or more atoms.&nbsp; For example:&nbsp; <tt>OPT("B 
+4"=4.0)</tt>&nbsp;or <tt>OPT("A 1157"=4.0)</tt>.&nbsp; Spaces are not important, but using spaces makes it easier to 
+read the atom label&nbsp;&nbsp;&nbsp;If the chain letter is not important, it 
+can be replaced with an asterisk, e.g.,&nbsp; <tt>OPT("* 
+1157"=4.0)</tt></p>
+<p>Use of this keyword has two advantages. First, the
+<a href="Precision_in_proteins.html">precision</a> of the calculated energy 
+increases, and second, the computational effort is reduced. </p>
+<p>This 
+option should not be used with <a href="optx.html"><tt>OPT-X</tt></a> or other similar keywords.</p>
+<h2>
+<tt>OPT<span class="auto-style1"><strong>("</strong><em><strong>Label</strong></em><strong><sub>1</sub>"[,"<em>Label</em><sub>2</sub>"[,"<em>Label</em><sub>3</sub>"...]])</strong></span></tt>
+</h2>
+<p>All atoms in residues <em>Label<sub>1</sub></em>, <em>Label<sub>2</sub></em>, 
+etc. will be marked for optimization.&nbsp; All other atoms will be frozen.</p>
+<p>See also <tt><a href="rapid.html">RAPID</a>.</tt></p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+ CVB(3:5) noswap    GEO_REF="M:\Individual JSmol paths\Hydrazoic acid plus ethylene\Locate-TS Hydrazoic acid plus ethylene_20p0_second.mop" +
+Locate-TS(C:20) html GEO-OK OPT XYZ
+      Hydrazoic acid plus ethylene
+
+  C(HETATM    1  C   HET A   1)  -0.03245967 +1   0.47027819 +1   0.00162538 +1
+  C(HETATM    2  C   HET A   1)   1.29146318 +1   0.56446391 +1   0.00132291 +1
+  N(HETATM    3  N   HET A   1)  -1.28968672 +1   2.38383435 +1  -0.00181985 +1
+  N(HETATM    4  N   HET A   1)  -0.34269710 +1   3.01240307 +1   0.00362376 +1
+  N(HETATM    5  N   HET A   1)   0.82655148 +1   3.42683159 +1   0.00970901 +1
+  H(HETATM    6 1HT1 HET A   1)  -0.61464975 +1   0.38392257 +1   0.91148426 +1
+  H(HETATM    7 1HT2 HET A   1)   1.86950539 +1   0.65926508 +1  -0.90295437 +1
+  H(HETATM    8  H   HET A   1)   1.03296048 +1   4.39434449 +1   0.01205315 +1
+  H(HETATM    9 2HT1 HET A   1)  -0.61531012 +1   0.38564506 +1  -0.90789896 +1
+  H(HETATM   10 2HT2 HET A   1)   1.87087997 +1   0.65758501 +1   0.90468625 +1
+ 

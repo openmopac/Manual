@@ -1,0 +1,74 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Running a simple MOPAC job </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p>(<a href="Modeling_proteins.html#Running">Modeling proteins</a>)</p>
+<h1>Running a simple MOPAC job</h1>
+<p>In protein work, all the systems you will be working with are very large, 
+typically several thousand atoms.&nbsp; It's easy to get lost in such large 
+systems, and if you don't know, or are not comfortable with, how MOPAC works, it 
+would be doubly difficult.&nbsp; So before starting any work, run several small 
+(four to ten atom) systems, to get a feel for what is involved. </p>
+<p>But before doing anything, a few definitions are needed.&nbsp; In the 
+instructions, some terms, such as "data set", "job", "calculation", and "step" 
+are often used.&nbsp; In MOPAC work, these terms have the following meaning:</p>
+<h3>Data set</h3>
+<p>A data set is a simple text file that contains information on what the system 
+is, and what should be done.&nbsp; Data sets have names such as "test.mop," 
+"1WDA.mop," "Formaldehyde.mop," "water.dat," "H2O.inp." etc., although for most 
+work the name should be descriptive of what is being done, e.g., "1WDA adding 
+hydrogen atoms.mop" and the suffix should be ".mop"&nbsp; For more information 
+see <a href="index_examples.html">Examples of Data-Sets</a>.</p>
+<h3>Job</h3>
+<p>A job is a single data-set that is run using MOPAC.&nbsp; A job can be 
+simple, e.g., it might optimize the geometry of a molecule, or it might involve 
+two or three calculations, e.g., optimize the geometry of a molecule, 
+then, without stopping, calculate the vibrational frequencies of that molecule.&nbsp; 
+When a geometry calculated in one step is to be used in a subsequent step,
+<a href="oldgeo.html"><tt>OLDGEO</tt></a> is normally used. Only the first 
+calculation requires a geometry to be supplied, all other calculations can 
+either use their own geometry or use that of a previous step.</p>
+<h3>Calculation</h3>
+<p>In MOPAC work, a "calculation" is a simple job, either a stand-alone job, or 
+a single step in a multi-step job.&nbsp; For example, suppose that the first 
+step in a multi-step job is to optimize the geometry of a molecule, and the next 
+step in that job would be to calculate the vibrational frequencies, then the 
+data for the second step would consist of the lines:</p>
+<p>...<br/>
+OLDGEO FORCE&nbsp; </p>
+<p>appended to the end of the first calculation data set.</p>
+<h3>Step</h3>
+<p>A step and a calculation are the same.</p>
+<h2>Running a simple MOPAC job</h2>
+<p>Make up a simple data set for <a href="example_of_data.html">ethylene</a> 
+and run it.&nbsp; Name the data set "ethylene.mop" and run it at the command 
+prompt using the command: "C:/program files/MOPAC2016.exe" ethylene.mop&nbsp; 
+(The quotation marks are needed for this command to work.)</p>
+<p>In this example, <a href="int_coord_def.html">internal coordinates</a> are 
+used, but in protein chemistry <a href="cart_coord.html">Cartesian coordinates</a> 
+are used in almost all jobs.&nbsp; </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

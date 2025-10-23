@@ -1,0 +1,40 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Solvate or not solvate</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p><font face="Arial">(<a href="Modeling_proteins.html#Solvation">Modeling proteins</a>)</font></p>
+<h1>Solvate or not solvate?</h1>
+<p>By default, all systems are modeled in the gas phase.&nbsp; This means that 
+any phenomenon that depends on solvent effects, such as the stabilization of 
+ions on the surface of a protein, will not be modeled.&nbsp; When modeling 
+proteins, use solvation (add keyword <a href="eps.html"><tt>EPS=78.4</tt></a>).&nbsp; It 
+lowers the geometric error by about 15%.&nbsp; The jobs will take a longer time 
+to run, but the model is more realistic, and it's normally worth the extra CPU 
+time.</p>
+<p>The exception is when the positions of the hydrogen atoms are being optimized 
+and everything else is frozen.&nbsp; This operation does not involve the 
+non-hydrogen atoms moving, so not using solvation will not affect the results 
+significantly. Of course, in order to allow heats of formation to be compared, 
+for example in testing for <a href="salt_bridges.html">salt bridges</a>, the set 
+of keywords used should be the same, in particular if <tt>
+EPS=78.4</tt> is used in&nbsp;one job it should be used in the other.</p>
+</body>
+</html>

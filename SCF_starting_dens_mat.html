@@ -1,0 +1,39 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Starting density matrix</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Starting density matrix
+</h2>
+The density matrix is necessary in order to calculate the Fock matrix, but, in
+turn, the Fock matrix is necessary in order to calculate the density matrix. To
+break this impasse, a guessed density matrix is used. The guess is very crude:
+all off-diagonal matrix elements are set to zero, and all on-diagonal terms on
+any atom are set equal to the core charge of that atom divided by the number of
+atomic orbitals. Our starting guess for H<sub>6</sub> consists of a unit matrix.
+<p>
+Each iteration of the SCF calculation consists of assembling a Fock matrix from
+the one-electron matrix, the two-electron integrals, and the density matrix,
+diagonalizing it to obtain the eigenvectors, and finally reassembling the
+density matrix. At some point the change in density matrix drops below a preset
+limit. When this happens we say that the field is self-consistent. We will now
+carry out these steps for the H<sub>6</sub> system.
+</p></body>
+</html>

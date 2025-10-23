@@ -1,0 +1,42 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>MACRO</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>MACRO</tt> </h1>
+<p>In large molecules such as proteins atoms that are separated by a large 
+distance, say 10 Angstroms or more, the NDDO approximation is not used, instead 
+the only interaction that is used is the electrostatic energy arising from the 
+atomic partial charge.&nbsp; This makes the jobs run faster.</p>
+<p>If <tt>MACRO</tt> is not used, then in large molecules the transition from NDDO to 
+simple electrostatic point-charge is sudden.&nbsp; This discontinuity introduces 
+errors in the derivatives, that in turn cause problems for the optimizers.&nbsp; 
+The purpose of MACRO is to smooth the transition from NDDO to point-charge, so 
+that the derivatives are not significantly affected. One side-effect of using 
+MACRO is that the heat of formation is changed.&nbsp; This change is not large, 
+but is large enough to possibly cause problems with projects are are currently 
+underway (August, 2020).</p>
+<p>To avoid problems, add <tt>MACRO</tt> to all large jobs.&nbsp; </p>
+<p>Use of a keyword of this type is not a good solution to the problem.&nbsp; A 
+better solution would be to make the MACRO smoothing function an intrinsic part 
+of all future methods.</p>
+</body>
+</html>

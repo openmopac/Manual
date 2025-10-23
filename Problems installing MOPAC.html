@@ -1,0 +1,94 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Problems installing MOPAC</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1><font face="Arial">Problems installing MOPAC</font></h1>
+<p>While most users install MOPAC without problems, some users have 
+difficulties getting MOPAC to work.</p>
+<p>If you are experiencing difficulties, please carry out&nbsp; the following 
+instructions before asking for help</p>
+<h3>Problems with the license</h3>
+<p>If you see the license agreement, but cannot get the (return) key to work, 
+look for a second window, and try pressing the (return) key in that window.<br/>
+If you hear a "beep" sound when you press (return), look for a second window, 
+and try pressing the (return) key in that window.</p>
+<h3>Problems getting the license key to install </h3>
+<p>Make sure you have permission to write to the folder that contains the MOPAC 
+executable.<br/>
+This issue affects Windows, Linux, 
+and Mac computers.&nbsp; <br/>
+The default location of the folder that holds MOPAC depends on your operating system.<br/>
+If you cannot set the permissions to read and write to files in the default 
+folder, then change the location of 
+the MOPAC&nbsp;folder by using an Environmental Variable.<br/>
+A suitable place is your home directory, in a folder called, e.g., &lt;your_name&gt;/mopac</p>
+<h3>Even with a new copy of MOPAC, the message that the program has expired 
+still appears</h3>
+<p>The expiry date for academic versions is stored in the MOPAC executable, not in the license key. 
+Please delete all MOPAC executables, then try to run MOPAC again - obviously 
+this attempt should fail because you've already deleted the executables. If 
+MOPAC tries to run, continue deleting MOPAC executables.<br/><br/>Once MOPAC does 
+not try to run, install a new MOPAC executable. Attempt to install MOPAC.</p>
+<p>If MOPAC still will not work, then do the following:</p>
+<p>Completely empty the folder that contains the MOPAC executable.<br/>
+Carry out the instructions for installing MOPAC.<br/>
+Make a note of each instruction that you do, and also make a note of what the 
+computer response is.<br/>
+When the problem occurs, stop, and send your notes to
+<a href="mailto:openmopac@gmail.com">openmopac@gmail.com</a>.</p>
+<p>Specific operating systems:</p>
+<h3>Missing libraries in Linux systems</h3>
+<p>CentOS 6.3 (a RedHat derivative) does not install 32-bit libraries, which 
+normally reside in the directory /lib , nor does it even offer the opportunity 
+to do so at installation time.<br/>
+However, these libraries can be easily obtained by doing two steps:<br/>
+# yum install glibc.i686 and after that is done,<br/>
+# yum install libgcc_s.so.1<br/>
+The folder /lib now contains the libraries and links that were originally 
+missing.<br/>
+<br/>
+Then one can run<br/>
+# /installdirectory/MOPAC2016.exe {license}<br/>
+without a hitch.</p>
+<h3>Libraries exist, but are not "seen" by MOPAC, in Linux systems</h3>
+<p>If MOPAC will not run because it needs the library libimf.so, and you find 
+that the library exists as:&nbsp; /opt/intel/fc/9.0/lib/libimf.so, the adding 
+this to the .bashrc file might help:<br/><br/>LD_LIBRARY_PATH="/opt/intel/fc/9.0/lib:$LD_LIBRARY_PATH"<br/>
+export LD_LIBRARY_PATH"</p>
+<h3>Linux gives the message "FATAL: kernel too old, Segmentation fault."</h3>
+<p>The version of Linux is out-of-date.&nbsp; Either update the version of Linux 
+or create a virtual machine that will run an up-to-date operating system.&nbsp; 
+Versions of MOPAC for old OS are not supported.</p>
+<h3>Error message "error while loading shared libraries: libiomp5.so: cannot 
+open shared object file: No such file or directory"</h3>
+<p>You will need to install the shared library. To do this, proceed as follows:<br/>
+(A) Copy libiomp5.so from the MOPAC distribution zip file to the folder /opt/mopac/<br/>
+(B) Edit your .bashrc or .cshrc to include the line:<br/>export 
+LD_LIBRARY_PATH=/opt/mopac<br/>(C) Run the start-up script, that is, run the 
+command: "source .bashrc" This will export the library.<br/></p>
+<h3>MOPAC does not run on Leopard, Snow Leopard, or Lion.</h3>
+<p>&nbsp;MOPAC2016 for Mac computers run on Mountain Lion (OS X 10.8) and 
+higher.&nbsp; </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

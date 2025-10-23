@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>NOSYM </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>NOSYM</tt> </h1>
+<p>
+By default, symmetry point-groups are
+automatically assigned, and used in identifying the irreducible representations
+of molecular orbitals, vibrations, and states, and in accelerating the
+construction of the Hessian in FORCE calculations.</p>
+<p>Sometimes a system almost has the symmetry of a point group higher than C<sub>1</sub>. Minor deviations from exact symmetry are allowed, but these
+sometimes cause difficulties. If that happens, then the job will fail. To prevent this happening, the symmetry can be re-defined as C<sub>1</sub>. This effectively disables all the symmetry features, so some jobs, particularly <a href="force.html"><tt><font color="#0000ff"><u>FORCE</u></font></tt></a> calculations, will take longer to run. </p>
+<p>Use <tt>NOSYM</tt> if there is any reason to suspect that the point-group symmetry features are causing problems. </p>
+<p> A second type of symmetry can be used by specifying&nbsp; <tt><a href="symmetry.html"><u><font color="#0000ff">SYMMETRY</font></u></a></tt>.&nbsp;
+This is distinct from the default of using the point-group of the system to
+label irreducible representations and to accelerate <tt>FORCE</tt>
+calculations. When <tt>SYMMETRY</tt> is used, the symmetry relations between
+coordinates are defined by the user.&nbsp; These can be used for defining the
+point-group of a molecule, for example the D<sub>6h</sub> of benzene, but no point-group
+theory is used when <tt>SYMMETRY</tt> is specified.&nbsp;  </p>
+</body>
+</html>

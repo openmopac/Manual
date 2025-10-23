@@ -1,0 +1,45 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>IRC </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<tt><h1 align="center">IRC</h1></tt>
+<p>An Intrinsic Reaction Coordinate calculation is to be run. All kinetic energy is shed at every point in the calculation. See <a href="DRC_coordinates.html">Dynamic and Intrinsic Reaction Coordinates</a> for more details. </p>
+<p>By default, steps of 0.05 &Aring;ngstroms are used.  This default can be changed using keywords:</p>
+<p>To print reaction coordinate, RC, steps that are separated by constant distance, use <a href="x-priority0.html"><tt><font color="#0000ff"><u>X-PRIORITY</u></font></tt></a>  or <a href="x-priority.html"><tt><font color="#0000ff"><u>X-PRIORITY=<i>n</i>.<i>nn</i></u></font></tt></a>. 
+This is the option normally chosen. <br/>
+</p>
+<p>Movement along a RC is defined as the addition of the 
+distances each atom moves through, so a default step along a RC
+means that the sum of the motions of all the atoms amounts to 0.05&nbsp;&Aring;ngstroms.&nbsp;&nbsp;&nbsp; 
+With rare exceptions, RCs are not straight lines through coordinate space, so 
+the distance the atoms move over several steps is less than the sum of the 
+individual steps.&nbsp; A consequence of this is that the distance between the 
+starting and ending points of a RC is smaller than the length of the RC.&nbsp;&nbsp;&nbsp;
+
+</p>
+<p>Use <tt><a href="large.html">LARGE</a></tt> to control print of internal coordinates and Cartesian coordinates.</p>
+<p>For double-sided IRC's, use <a href="irc.html"><tt>IRC=1* </tt></a>or <a href="irc.html"><tt>IRC=-1* </tt></a></p>
+<p>In a multi-step reaction, individual reactions can be generated using <tt>IRC</tt>, 
+then these reactions can be joined together using the Windows MOPAC utility 
+program "<a href="Join.html">JOIN</a>"</p>
+<p>&nbsp;</p>
+</body>
+</html>

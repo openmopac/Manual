@@ -1,0 +1,4 @@
+  GEO_DAT="Nitrous oxide and acetylene.arc" geo_ref="Nitrous oxide and acetylene Product.arc" ++
+Locate-TS(C:20) html GEO-OK OPT XYZ
+      Nitrous oxide and acetylene
+      

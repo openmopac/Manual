@@ -1,0 +1,4 @@
+HTML OUTPUT MOZYME CHARGE=-5 gnorm=5 noopt opt-h  add-H site=(salt,"[THT]1302:A.C9"(+),"[NAD]1301:A.O1A"(-),"[NAD]1301:A.O1N"(-)) chains=(A) nocomments +
+geo_dat="1BVR.pdb"
+Add hydrogen atoms to 1BVR
+

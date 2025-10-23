@@ -1,0 +1,152 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Modeling proteins</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center"><font face="Arial">Modeling proteins</font></h1>
+<p align="left" style="line-height: 150%"><font face="Arial">Proteins and their properties can be modeled using MOPAC2016.&nbsp; 
+Until now, there have only been two methods for studying proteins: experiment 
+(X-ray structures and biochemical experiments) and understanding (knowledge of 
+biochemistry and of the behavior of proteins).&nbsp; The methods and utilities in 
+MOPAC2016 provide a tool for modeling proteins and their reactions.&nbsp; This 
+is fundamentally different from experiment and understanding, in that it 
+provides a method for investigating protein behavior and for testing ideas, and 
+as a result of the increase in accuracy of prediction of protein behavior  in 
+recent years, the computer model is now a practical and 
+reliable intellectual tool.&nbsp; If experimentalists can be persuaded that this 
+new tool would be useful to them, then its use for studying proteins would 
+amount to a paradigmatic change in the field of biochemistry.</font></p>
+<p align="left" style="line-height: 150%"><font face="Arial">For the purposes of 
+investigating protein behavior, it is useful to regard the program MOPAC as a 
+complete laboratory, with all the utilities and tools needed for modeling 
+protein behavior.&nbsp; As with tools in any laboratory, a certain level of 
+skill is needed; a potential user who just wants to look at an enzyme-catalyzed 
+reaction and is not willing to prepare a suitable model will inevitably be 
+disappointed.&nbsp; Potential users must be willing to do two things: first, to 
+acquire the skills necessary for manipulating the complicated models, and 
+second, to construct and use such models.&nbsp; These are difficult tasks, and a 
+lot of patience is required.&nbsp; To help with them, MOPAC provides a set of 
+utilities to assist in building models and for detecting errors that occur 
+during this process.</font></p>
+<p align="left" style="line-height: 150%"><font face="Arial">Why should an 
+experimentalist use computational chemistry modeling tools?&nbsp; Probably the 
+most important reason is that they provide an alternative to the other two 
+approaches: experiment and understanding.&nbsp; To give a simple example, 
+consider an X-ray structure of a protein.&nbsp; This structure is physics, not 
+chemistry, and almost all (well over 90%) of the structures looked at thus far 
+have had mild to severe errors when looked at from a chemical point of view.&nbsp; 
+Examples would be unrealistic single bond lengths, e.g., C-C bonds of length 
+~1.1</font><font face="Arial"> &Aring; instead of the expected 1.5 &Aring;,
+unrealistic non-covalently bonded distances, and simple errors such as a C-NH<sub>2</sub> 
+being mistaken for a C=O and <i>vice versa</i>. These errors can be detected 
+using MOPAC, and, more important, they can be corrected.&nbsp; The result is a 
+structure that is much more chemically realistic than the starting PDB 
+structure.&nbsp; Put another way, the result of simply building a model of a 
+protein is a structure that is more realistic, i.e., nearer to the structure of 
+the biochemical that occurs in nature, than anything available from any other 
+source. </font></p>
+<p align="left" style="line-height: 150%"><font face="Arial">To reiterate, for a model to be useful it must be realistic.&nbsp; When an 
+enzyme catalyzes a reaction, the energy changes involved are often very small, 
+frequently less than the energy involved in making a single hydrogen bond.&nbsp; If there is a fault 
+in the model that might cause it to be in a high-energy state, and later on in 
+the simulation that fault corrected itself, the resulting energy change would 
+more than likely invalidate all the work that had gone before.&nbsp;It is 
+important, therefore, to make sure that the starting model is as error free as 
+possible.&nbsp; 
+Unfortunately, and without exception, all data sources for protein structures 
+(in particular, the most important one: the Protein Data Bank) have limitations.&nbsp; These range from minor 
+faults - ones that were previously regarded as unimportant - such as missing 
+hydrogen atoms, to quite severe geometric errors, such as carbon-carbon single 
+bonds having a bond-length of less than 1.1
+&Aring;ngstrom.&nbsp; Therefore, before any work can be done, a realistic model of the 
+protein must be constructed.&nbsp; This operation involves several steps, and 
+requires great care to be exercised to ensure that the resulting model is as 
+good as possible. </font></p>
+<h2 align="left" style="line-height: 200%"><font face="Arial">Preparing a realistic model 
+of a protein for use with MOPAC</font></h2>
+<ul>
+<li>
+<p align="left" style="line-height: 200%"><font face="Arial"><b><font size="4">
+<a href="Installing_MOPAC.html">Installing MOPAC2016</a>:</font></b> <span style="font-weight: 400">How to get 
+the program, install it, and activate it. </span></font>
+</p></li>
+<li>
+<p align="left" style="line-height: 200%"><font face="Arial"><font size="4"><b>
+<a href="Running_a_simple_job.html">Running a simple job</a>:</b>
+</font> <span style="font-weight: 400">
+Constructing a data set for formaldehyde, running it, analyzing the results. 
+Some nomenclature (jobs, calculations, etc.)</span></font></p></li>
+<li>
+<p align="left" style="line-height: 200%"><font face="Arial"><b><font size="4">
+<a href="Getting_a_starting_protein_structure.html">Getting a starting protein 
+structure</a>:</font></b><span style="font-weight: 400"> The PDB, what to look for and what to 
+watch out for </span></font>
+</p></li>
+<li>
+<p align="left" style="line-height: 200%"><b><font face="Arial" size="4">
+<a href="Graphical_use_interfaces.html">Graphical User Interfaces</a>: </font>
+</b>
+</p></li>
+<li>
+<p align="left" style="line-height: 200%"><font face="Arial"><b><font size="4">
+<a href="Preparing_a_Starting_data_set.html">Preparing a starting data set</a>:</font></b> <span style="font-weight: 400">
+Editing the PDB file, resolving disorder</span></font></p></li>
+<li>
+<p align="left" style="line-height: 200%"><font face="Arial"><b><a href="Adding_Hydrogen_atoms.html">
+<font size="4">Adding hydrogen atoms</font></a><font size="4">:</font> </b>
+<span style="font-weight: 400">Steps</span></font></p></li>
+<li>
+<p align="left" style="line-height: 200%"><b><font face="Arial" size="4">
+<a href="correcting_errors_in_X-ray_structures.html">Correcting errors in the X-ray 
+structure</a></font></b></p></li>
+<li>
+<p align="left" style="line-height: 200%"><b><font face="Arial" size="4">
+<a href="Preparing_the_starting_model.html">Preparing the starting model</a></font></b></p></li>
+<li>
+<p align="left" style="line-height: 200%"><b><font face="Arial" size="4">Running</font></b></p></li>
+</ul>
+<h2 align="left" style="line-height: 200%"><b><font face="Arial" size="4">Simple 
+operations on a protein model</font></b></h2>
+<ul>
+<li>
+<p align="left" style="line-height: 200%"><b><font size="4">Resequencing</font></b></p></li>
+<li>
+<p align="left" style="line-height: 200%"><font size="4"><b>Focusing on the 
+active site</b></font></p></li>
+</ul>
+<p align="left" style="line-height: 200%"><font size="4"><b>Reactions and 
+transition states</b></font></p><ul>
+<li>
+<p align="left" style="line-height: 200%"><font size="4"><b>Making reactants and 
+products</b></font></p></li>
+<li>
+<p align="left" style="line-height: 200%"><font size="4"><b>Locating transition 
+states</b></font></p></li>
+<li>
+<p align="left" style="line-height: 200%"><font size="4"><b>Refining transition 
+states</b></font></p></li>
+<li>
+<p align="left" style="line-height: 200%"><font size="4"><b>Verifying transition 
+states</b></font></p></li>
+<li>
+<p align="left" style="line-height: 200%"><font size="4"><b>Intrinsic Reaction 
+Coordinates</b></font></p></li>
+</ul>
+<p align="left" style="line-height: 200%">&nbsp;</p><p align="left" style="line-height: 200%">&nbsp;</p></body></html>

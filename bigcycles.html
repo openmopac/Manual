@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>BIGCYCLES=n </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>BIGCYCLES=<i>n</i></tt>
+</h1>
+When <tt>BIGCYCLES=<i>n</i></tt> is specified, a maximum of <i>n</i> complete geometry
+optimizations are allowed.  After <i>n</i> optimizations, the calculation is
+stopped in the same manner as when the allowed time is exceeded.
+<p>In a <a href="drc0.html"><tt>DRC</tt></a>, <tt>BIGCYCLES=<i>n</i></tt> will run until
+<i>n</i> complete oscillations have occurred.&nbsp;&nbsp; <tt>BIGCYCLES=1</tt> 
+would allow a single 
+complete vibration to be generated. In simulated annealing or heating, see 
+<a href="drc.html"><tt>DRC=n.nn</tt></a>, use <tt>BIGCYCLES=nnn</tt> 
+as a guide, in arbitrary units, of how long the run should last.</p>
+<p>
+<tt>BIGCYCLES</tt> is useful in comparing calculations using different computers.
+Different machines run at different speeds, so calculations based on time
+should not be used.  Instead, by using <tt>BIGCYCLES</tt>, a specific number of
+cycles can be run, regardless of the machine speeds.
+</p><p>
+See also <tt><a href="cycles.html">CYCLES</a></tt> and <a href="t=n.html"><tt>T=n.nn</tt></a>
+</p></body>
+</html>

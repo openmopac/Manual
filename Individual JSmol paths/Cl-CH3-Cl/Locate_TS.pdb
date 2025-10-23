@@ -1,0 +1,9 @@
+HEADER  data-set: Locate_TS
+REMARK  MOPAC 2016, Version: 18.021W Date: Jan 21 2018 15:02
+HETATM    1  C   CH3 A   1      -0.165  -0.001  -0.000  1.00  0.10      PROT C 
+HETATM    2 1H   CH3 A   1      -0.161   1.084   0.010  1.00  0.16      PROT H 
+HETATM    3 2H   CH3 A   1      -0.161  -0.535  -0.945  1.00  0.16      PROT H 
+HETATM    4 3H   CH3 A   1      -0.161  -0.553   0.934  1.00  0.16      PROT H 
+HETATM    5 CL   CH3 A   1      -2.340   0.001   0.002  1.00 -0.78      PROTCL 
+HETATM    6 CL   CH3 C   1       2.016   0.001   0.000  1.00 -0.79      PROTCL 
+END

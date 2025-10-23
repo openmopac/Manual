@@ -1,0 +1,24 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Uncatalyzed Est
+REMARK  MOPAC 2016, Version: 21.151W
+REMARK  Date: May 31 2021 17:25
+REMARK  Heat of Formation = -173.543 Kcal/mol
+HETATM    1  C   HET A   1       0.000   0.000   0.000  1.00 -0.52      PROT C 
+HETATM    2  C   HET A   1       1.480   0.000   0.000  1.00  0.78      PROT C 
+HETATM    3  O   HET A   1       2.226   0.958   0.000  1.00 -0.66      PROT O 
+HETATM    4  O   HET A   1       1.538  -0.368  -2.296  1.00 -0.62      PROT O 
+HETATM    5  C   HET A   1       2.477   0.328  -3.099  1.00  0.04      PROT C 
+HETATM    6  C   HET A   1       2.304  -0.029  -4.561  1.00 -0.51      PROT C 
+HETATM    7  H   HET A   1      -0.394   0.213  -1.010  1.00  0.21      PROT H 
+HETATM    8  H   HET A   1      -0.437  -0.960   0.315  1.00  0.20      PROT H 
+HETATM    9  H   HET A   1      -0.399   0.784   0.668  1.00  0.20      PROT H 
+HETATM   10  H   HET A   1       2.246   1.389  -2.887  1.00  0.14      PROT H 
+HETATM   11  H   HET A   1       3.493   0.098  -2.729  1.00  0.12      PROT H 
+HETATM   12  H   HET A   1       2.455  -1.101  -4.741  1.00  0.16      PROT H 
+HETATM   13  H   HET A   1       1.297   0.216  -4.923  1.00  0.16      PROT H 
+HETATM   14  H   HET A   1       3.020   0.510  -5.194  1.00  0.16      PROT H 
+HETATM   15  H   HET A   1       2.977  -1.281   0.147  1.00  0.39      PROT H 
+HETATM   16  O   HET A   1       0.877   2.988  -0.317  1.00  0.39      PROT X 
+HETATM   17  O   HET A   1       1.984  -1.250   0.145  1.00 -0.60      PROT O 
+HETATM   18  H   HET A   1       1.648  -1.339  -2.387  1.00 -0.60      PROT X 
+HETATM   19  H   HET A   1       1.648  -1.339  -2.387  1.00  0.35      PROT H 
+END

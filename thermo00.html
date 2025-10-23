@@ -1,0 +1,34 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>THERMO </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>THERMO</tt> </h1>
+<p>The thermodynamic quantities, internal energy, heat capacity, partition function, and entropy can be calculated&nbsp;[<a href="references.html#thermo">50</a>] for translation, rotation and vibrational degrees of freedom for a single temperature, or a range of temperatures. Special situations such as 
+single atoms, linear systems and transition states are accommodated. The approximations used in the THERMO calculation are invalid below 100K, and checking of the lower bound of the temperature range is done to prevent temperatures of less than 100K being used. See the <a href="thermochemistry.html">Note on Thermochemistry</a> for more detail. </p>
+<p>Another limitation, for which no checking is done, is that there should be no internal rotations. If any exist, they will not be recognized as such, and the calculated quantities will be too low as a result. </p>
+<p>Systems consisting of a single atom have no vibrations, so they do not have 
+vibrational, rotational, or internal thermodynamic properties, but do have 
+translational thermodynamic properties.&nbsp; These systems can be run using <tt>THERMO</tt>.</p>
+<p>If <tt>THERMO</tt> is specified on its own, then the default values of the temperature range are assumed. This starts at 200K and increases in steps of 10 degrees to 400K. Three options exist for overriding the default temperature range. These are:
+<a href="thermo0.html"><tt>THERMO(nnn)</tt></a>, <a name="tex2html5794"></a><a href="thermo1.html"><tt>THERMO(nnn,mmm)</tt></a>, and <a name="tex2html5806"></a><a href="thermo.html"><tt>THERMO(nnn,mmm,lll)</tt></a>. See also <a href="trans.html"><tt>TRANS</tt></a>.</p>
+</body>
+</html>

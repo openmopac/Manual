@@ -1,0 +1,5 @@
+ CVB(3:5) noswap   GEO_DAT="Locate-TS Hydrazoic acid plus ethylene bias=20.0 first.mop" ++
+geo_ref="Locate-TS Hydrazoic acid plus ethylene bias=20.0 second.mop" +
+saddle html GEO-OK OPT XYZ
+      Hydrazoic acid plus ethylene 
+      

@@ -1,0 +1,2373 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.158W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.158W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 361**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Jun 11 10:36:23 2021  *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *******************************************************************************
+
+ Optimize the geometry of N2
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N          0.00000000      0.00000000      0.00000000   
+     2       N          1.00000000  *   0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         N          0.0000      0.0000      0.0000
+     2         N          1.0000      0.0000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: N2  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D*h 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 5
+
+
+          Geometry optimization using BFGS
+ ONLY ONE VARIABLE, THEREFORE ENERGY A MINIMUM
+
+ -------------------------------------------------------------------------------
+
+ Optimize the geometry of N2
+
+
+
+     HEAT OF FORMATION MINIMIZED IN ONE LINE SEARCH           
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.158W)
+                                                       Fri Jun 11 10:36:23 2021
+                                                       No. of days remaining = 361
+
+
+
+
+          FINAL HEAT OF FORMATION =         32.99042 KCAL/MOL =     138.03190 KJ/MOL
+
+
+          TOTAL ENERGY            =       -371.72947 EV
+          ELECTRONIC ENERGY       =       -606.95145 EV  POINT GROUP:     D*h 
+          CORE-CORE REPULSION     =        235.22198 EV
+          COSMO AREA              =         54.80 SQUARE ANGSTROMS
+          COSMO VOLUME            =         37.04 CUBIC ANGSTROMS
+
+          IONIZATION POTENTIAL    =         13.663400 EV
+          HOMO LUMO ENERGIES (EV) =        -13.663 -0.130
+          NO. OF FILLED LEVELS    =          5
+          MOLECULAR WEIGHT        =         28.0134
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            N     2    N     1     1.11938
+            N     2    N     1     0.00000
+            N     1    N     2     0.00000
+
+
+          SCF CALCULATIONS        =          9
+ 
+          WALL-CLOCK TIME         =          0.031 SECONDS
+          COMPUTATION TIME        =          0.016 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N          0.00000000      0.00000000      0.00000000   
+     2       N          1.11938127  *   0.00000000      0.00000000   
+
+                             CARTESIAN COORDINATES
+
+   1    N        0.000000000     0.000000000     0.000000000
+   2    N        1.119381273     0.000000000     0.000000000
+
+
+           Empirical Formula: N2  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D*h 
+
+
+                  EIGENVALUES  
+ -42.29864 -22.02161 -16.42723 -16.42723 -13.66340  -0.12994  -0.12994   3.70556
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          N          -0.000000        5.0000     1.83835     3.16165
+    2          N           0.000000        5.0000     1.83835     3.16165
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.000     0.000     0.000     0.000
+ HYBRID        -0.000    -0.000     0.000     0.000
+ SUM            0.000    -0.000     0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  N   1.83835   1.16165   1.00000   1.00000
+    2  N   1.83835   1.16165   1.00000   1.00000
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.158W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.158W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 361**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Jun 11 10:36:23 2021  *
+ *  IRC=N      - INTRINSIC REACTION COORDINATE  1 DEFINED
+ *  DRC        - DYNAMIC REACTION COORDINATE CALCULATION
+ *  OLDGEO     - PREVIOUS GEOMETRY TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  BIGCYCLES  - DO 1 BIG STEPS
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *  T-PRIOR    - TIME TAKES PRIORITY IN DRC
+ *******************************************************************************
+oldgeo IRC=1 DRC T-priority large bigcycles=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       N          0.00000000      0.00000000      0.00000000   
+     2       N          1.11938127  *   0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         N          0.0000      0.0000      0.0000
+     2         N          1.1194      0.0000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: N2  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D*h 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 5
+
+
+
+          HEAT OF FORMATION =      32.990417 KCALS/MOLE
+
+
+          GRADIENT NORM =   0.17056
+
+          MOLECULAR WEIGHT =   28.01
+
+
+          ESTIMATED TIME TO COMPLETE CALCULATION =        0.00 SECONDS
+
+    FOR POINT-GROUP D*h  THERE ARE 120 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   2 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   3 TIME =     0.02 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   4                       INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   5                       INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   6                       INTEGRAL =      0.02 TIME LEFT: 172799.98
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+         0.50000        -0.00000        -0.00000
+        -0.50000         0.00000         0.00000
+ BY DEFAULT, ONE QUANTUM OF ENERGY, EQUIVALENT TO  2520.701 CM(-1)
+ WILL BE USED TO START THE DRC
+ THIS REPRESENTS AN ENERGY OF   7.21 KCALS/MOLE
+
+ TIME PRIORITY, INTERVAL = 0.10 FEMTOSECONDS
+
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.000       1    32.99043    7.20544    40.19588   0.00000     1   %  0.0000
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55969    0.00000    0.00000     146709.5       -0.0       -0.0
+   2    N    0.55969    0.00000    0.00000    -146709.5        0.0        0.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       1AA*
+   N    1.119381  1    0.000000  0    0.000000  0   1  0  0    0.0000       1AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.100       2    33.00710    7.20509    40.21219   0.01631     2   %  0.0029
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55822   -0.00000   -0.00000     146705.9       -0.0       -6.4
+   2    N    0.55822    0.00000    0.00000    -146705.9        0.0        6.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       2AA*
+   N    1.116447  1    0.000000  0    0.000000  0   1  0  0    0.0000       2AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.200       3    33.05666    7.13953    40.19619   0.00032     3   %  0.0059
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55676   -0.00000   -0.00000     146037.0       -0.0       -3.5
+   2    N    0.55676    0.00000    0.00000    -146037.0        0.0        3.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       3AA*
+   N    1.113517  1    0.000000  0    0.000000  0   1  0  0    0.0000       3AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.300       4    33.13904    7.05691    40.19594   0.00007     4   %  0.0088
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55530   -0.00000   -0.00000     145189.5       -0.0       -4.3
+   2    N    0.55530    0.00000    0.00000    -145189.5        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       4AA*
+   N    1.110605  1    0.000000  0    0.000000  0   1  0  0    0.0000       4AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.400       5    33.25399    6.94196    40.19595   0.00007     5   %  0.0117
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55386   -0.00000   -0.00000     144002.1       -0.0       -4.3
+   2    N    0.55386    0.00000    0.00000    -144002.1        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       5AA*
+   N    1.107712  1    0.000000  0    0.000000  0   1  0  0    0.0000       5AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.500       6    33.40091    6.79501    40.19592   0.00004     6   %  0.0145
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55242   -0.00000   -0.00000     142469.8       -0.0       -4.3
+   2    N    0.55242    0.00000    0.00000    -142469.8        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       6AA*
+   N    1.104847  1    0.000000  0    0.000000  0   1  0  0    0.0000       6AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.600       7    33.57887    6.61702    40.19589   0.00001     7   %  0.0174
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55101   -0.00000   -0.00000     140591.5       -0.0       -4.3
+   2    N    0.55101    0.00000    0.00000    -140591.5        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       7AA*
+   N    1.102016  1    0.000000  0    0.000000  0   1  0  0    0.0000       7AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.700       8    33.78660    6.40927    40.19586  -0.00001     8   %  0.0202
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54961   -0.00000   -0.00000     138366.9       -0.0       -4.3
+   2    N    0.54961    0.00000    0.00000    -138366.9        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       8AA*
+   N    1.099225  1    0.000000  0    0.000000  0   1  0  0    0.0000       8AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.800       9    34.02248    6.17335    40.19584  -0.00004     9   %  0.0229
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54824   -0.00000   -0.00000     135796.5       -0.0       -4.3
+   2    N    0.54824    0.00000    0.00000    -135796.5        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000       9AA*
+   N    1.096483  1    0.000000  0    0.000000  0   1  0  0    0.0000       9AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.900      10    34.28459    5.91122    40.19581  -0.00007    10   %  0.0256
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54690   -0.00000   -0.00000     132882.1       -0.0       -4.3
+   2    N    0.54690    0.00000    0.00000    -132882.1        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      10AA*
+   N    1.093796  1    0.000000  0    0.000000  0   1  0  0    0.0000      10AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.000      11    34.57065    5.62513    40.19578  -0.00009    11   %  0.0282
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54559   -0.00000   -0.00000     129626.6       -0.0       -4.3
+   2    N    0.54559    0.00000    0.00000    -129626.6        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      11AA*
+   N    1.091170  1    0.000000  0    0.000000  0   1  0  0    0.0000      11AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.100      12    34.87811    5.31765    40.19575  -0.00012    12   %  0.0308
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54431   -0.00000   -0.00000     126034.0       -0.0       -4.3
+   2    N    0.54431    0.00000    0.00000    -126034.0        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      12AA*
+   N    1.088613  1    0.000000  0    0.000000  0   1  0  0    0.0000      12AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.200      13    35.20410    4.99163    40.19573  -0.00015    13   %  0.0333
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54307   -0.00000   -0.00000     122109.4       -0.0       -4.3
+   2    N    0.54307    0.00000    0.00000    -122109.4        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      13AA*
+   N    1.086131  1    0.000000  0    0.000000  0   1  0  0    0.0000      13AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.300      13    35.54551    4.65019    40.19570  -0.00017    14   %  0.0357
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54187   -0.00000   -0.00000     117859.2       -0.0       -4.3
+   2    N    0.54187    0.00000    0.00000    -117859.2        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      14AA*
+   N    1.083731  1    0.000000  0    0.000000  0   1  0  0    0.0000      14AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.400      15    35.89898    4.29670    40.19568  -0.00019    15   %  0.0380
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54071   -0.00000   -0.00000     113291.0       -0.0       -4.3
+   2    N    0.54071    0.00000    0.00000    -113291.0        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      15AA*
+   N    1.081419  1    0.000000  0    0.000000  0   1  0  0    0.0000      15AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.600      16    36.62770    3.56794    40.19564  -0.00023    16   %  0.0423
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53854   -0.00000   -0.00000     103237.4       -0.0       -4.3
+   2    N    0.53854    0.00000    0.00000    -103237.4        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      16AA*
+   N    1.077084  1    0.000000  0    0.000000  0   1  0  0    0.0000      16AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.700      17    36.99537    3.20026    40.19563  -0.00025    17   %  0.0443
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53754   -0.00000   -0.00000      97773.4       -0.0       -4.3
+   2    N    0.53754    0.00000    0.00000     -97773.4        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      17AA*
+   N    1.075074  1    0.000000  0    0.000000  0   1  0  0    0.0000      17AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.800      18    37.36003    2.83559    40.19561  -0.00026    18   %  0.0462
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53659   -0.00000   -0.00000      92034.2       -0.0       -4.3
+   2    N    0.53659    0.00000    0.00000     -92034.2        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      18AA*
+   N    1.073175  1    0.000000  0    0.000000  0   1  0  0    0.0000      18AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.900      19    37.71772    2.47789    40.19561  -0.00027    19   %  0.0480
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53570   -0.00000   -0.00000      86033.7       -0.0       -4.3
+   2    N    0.53570    0.00000    0.00000     -86033.7        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      19AA*
+   N    1.071394  1    0.000000  0    0.000000  0   1  0  0    0.0000      19AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.000      20    38.06449    2.13112    40.19560  -0.00027    20   %  0.0496
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53487   -0.00000   -0.00000      79786.9       -0.0       -4.4
+   2    N    0.53487    0.00000    0.00000     -79786.9        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      20AA*
+   N    1.069736  1    0.000000  0    0.000000  0   1  0  0    0.0000      20AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.100      21    38.39645    1.79915    40.19560  -0.00027    21   %  0.0512
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53410   -0.00000   -0.00000      73309.7       -0.0       -4.4
+   2    N    0.53410    0.00000    0.00000     -73309.7        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      21AA*
+   N    1.068204  1    0.000000  0    0.000000  0   1  0  0    0.0000      21AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.200      22    38.70986    1.48575    40.19560  -0.00027    22   %  0.0526
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53340   -0.00000   -0.00000      66619.3       -0.0       -4.4
+   2    N    0.53340    0.00000    0.00000     -66619.3        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      22AA*
+   N    1.066805  1    0.000000  0    0.000000  0   1  0  0    0.0000      22AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.300      23    39.00111    1.19450    40.19561  -0.00027    23   %  0.0538
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53277   -0.00000   -0.00000      59734.0       -0.0       -4.4
+   2    N    0.53277    0.00000    0.00000     -59734.0        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      23AA*
+   N    1.065541  1    0.000000  0    0.000000  0   1  0  0    0.0000      23AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.400      24    39.26683    0.92879    40.19562  -0.00026    24   %  0.0550
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53221   -0.00000   -0.00000      52672.8       -0.0       -4.4
+   2    N    0.53221    0.00000    0.00000     -52672.8        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      24AA*
+   N    1.064417  1    0.000000  0    0.000000  0   1  0  0    0.0000      24AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.500      25    39.50392    0.69171    40.19563  -0.00024    25   %  0.0559
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53172   -0.00000   -0.00000      45455.8       -0.0       -4.4
+   2    N    0.53172    0.00000    0.00000     -45455.8        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      25AA*
+   N    1.063435  1    0.000000  0    0.000000  0   1  0  0    0.0000      25AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.600      26    39.70960    0.48605    40.19564  -0.00023    26   %  0.0568
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53130   -0.00000   -0.00000      38103.8       -0.0       -4.4
+   2    N    0.53130    0.00000    0.00000     -38103.8        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      26AA*
+   N    1.062599  1    0.000000  0    0.000000  0   1  0  0    0.0000      26AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.700      27    39.88141    0.31425    40.19566  -0.00021    27   %  0.0575
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53096   -0.00000   -0.00000      30638.2       -0.0       -4.5
+   2    N    0.53096    0.00000    0.00000     -30638.2        0.0        4.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      27AA*
+   N    1.061912  1    0.000000  0    0.000000  0   1  0  0    0.0000      27AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.800      28    40.01733    0.17835    40.19568  -0.00020    28   %  0.0580
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53069   -0.00000   -0.00000      23081.2       -0.0       -4.5
+   2    N    0.53069    0.00000    0.00000     -23081.2        0.0        4.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      28AA*
+   N    1.061375  1    0.000000  0    0.000000  0   1  0  0    0.0000      28AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.900      29    40.11572    0.07997    40.19569  -0.00018    29   %  0.0584
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53049   -0.00000   -0.00000      15455.5       -0.0       -4.5
+   2    N    0.53049    0.00000    0.00000     -15455.5        0.0        4.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      29AA*
+   N    1.060989  1    0.000000  0    0.000000  0   1  0  0    0.0000      29AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.000      30    40.17542    0.02027    40.19569  -0.00019    30   %  0.0586
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53038   -0.00000   -0.00000       7782.4       -0.0       -4.5
+   2    N    0.53038    0.00000    0.00000      -7782.4        0.0        4.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      30AA*
+   N    1.060757  1    0.000000  0    0.000000  0   1  0  0    0.0000      30AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.100      31    40.19567   -0.00026    40.19542  -0.00046    31   %  0.0587
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53034   -0.00000   -0.00000        109.7       -0.0       -4.5
+   2    N    0.53034    0.00000    0.00000       -109.7        0.0        4.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      31AA*
+   N    1.060678  1    0.000000  0    0.000000  0   1  0  0    0.0000      31AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.200      32    40.17654    0.02447    40.20102   0.00515    32   %  0.0586
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53038   -0.00000   -0.00000      -8308.1       -0.0       -4.9
+   2    N    0.53038    0.00000    0.00000       8308.1        0.0        4.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      32AA*
+   N    1.060752  1    0.000000  0    0.000000  0   1  0  0    0.0000      32AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.300      33    40.11383    0.07348    40.18731  -0.00856    33   %  0.0584
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53050   -0.00000   -0.00000     -15058.9       -0.0       -4.7
+   2    N    0.53050    0.00000    0.00000      15058.9        0.0        4.7
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      33AA*
+   N    1.060996  1    0.000000  0    0.000000  0   1  0  0    0.0000      33AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.400      34    40.01729    0.18398    40.20127   0.00540    34   %  0.0580
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53069   -0.00000   -0.00000     -23243.7       -0.0       -4.8
+   2    N    0.53069    0.00000    0.00000      23243.7        0.0        4.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      34AA*
+   N    1.061374  1    0.000000  0    0.000000  0   1  0  0    0.0000      34AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.500      35    39.88190    0.32119    40.20309   0.00722    35   %  0.0575
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53095   -0.00000   -0.00000     -31010.9       -0.0       -4.8
+   2    N    0.53095    0.00000    0.00000      31010.9        0.0        4.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      35AA*
+   N    1.061910  1    0.000000  0    0.000000  0   1  0  0    0.0000      35AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.600      36    39.70817    0.48368    40.19184  -0.00403    36   %  0.0568
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53130   -0.00000   -0.00000     -37992.9       -0.0       -4.8
+   2    N    0.53130    0.00000    0.00000      37992.9        0.0        4.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      36AA*
+   N    1.062605  1    0.000000  0    0.000000  0   1  0  0    0.0000      36AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.700      37    39.50303    0.69493    40.19795   0.00208    37   %  0.0559
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53172   -0.00000   -0.00000     -45561.7       -0.0       -4.8
+   2    N    0.53172    0.00000    0.00000      45561.7        0.0        4.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      37AA*
+   N    1.063438  1    0.000000  0    0.000000  0   1  0  0    0.0000      37AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.800      38    39.26541    0.92991    40.19532  -0.00055    38   %  0.0550
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53221   -0.00000   -0.00000     -52700.4       -0.0       -4.8
+   2    N    0.53221    0.00000    0.00000      52700.4        0.0        4.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      38AA*
+   N    1.064422  1    0.000000  0    0.000000  0   1  0  0    0.0000      38AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.900      39    38.99957    1.19667    40.19624   0.00037    39   %  0.0538
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53277   -0.00000   -0.00000     -59785.3       -0.0       -4.9
+   2    N    0.53277    0.00000    0.00000      59785.3        0.0        4.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      39AA*
+   N    1.065547  1    0.000000  0    0.000000  0   1  0  0    0.0000      39AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.000      40    38.70810    1.48791    40.19600   0.00013    40   %  0.0526
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53341   -0.00000   -0.00000     -66664.7       -0.0       -4.9
+   2    N    0.53341    0.00000    0.00000      66664.7        0.0        4.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      40AA*
+   N    1.066812  1    0.000000  0    0.000000  0   1  0  0    0.0000      40AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.100      41    38.39453    1.80155    40.19608   0.00020    41   %  0.0512
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53411   -0.00000   -0.00000     -73355.8       -0.0       -4.9
+   2    N    0.53411    0.00000    0.00000      73355.8        0.0        4.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      41AA*
+   N    1.068212  1    0.000000  0    0.000000  0   1  0  0    0.0000      41AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.200      42    38.06241    2.13367    40.19607   0.00020    42   %  0.0496
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53487   -0.00000   -0.00000     -79831.9       -0.0       -4.9
+   2    N    0.53487    0.00000    0.00000      79831.9        0.0        4.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      42AA*
+   N    1.069745  1    0.000000  0    0.000000  0   1  0  0    0.0000      42AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.300      43    37.71552    2.48056    40.19608   0.00021    43   %  0.0480
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53570   -0.00000   -0.00000     -86077.6       -0.0       -5.0
+   2    N    0.53570    0.00000    0.00000      86077.6        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      43AA*
+   N    1.071404  1    0.000000  0    0.000000  0   1  0  0    0.0000      43AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.400      44    37.35773    2.83835    40.19608   0.00021    44   %  0.0462
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53659   -0.00000   -0.00000     -92076.6       -0.0       -5.0
+   2    N    0.53659    0.00000    0.00000      92076.6        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      44AA*
+   N    1.073186  1    0.000000  0    0.000000  0   1  0  0    0.0000      44AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.500      45    36.99301    3.20307    40.19608   0.00021    45   %  0.0443
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53754   -0.00000   -0.00000     -97814.1       -0.0       -5.0
+   2    N    0.53754    0.00000    0.00000      97814.1        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      45AA*
+   N    1.075086  1    0.000000  0    0.000000  0   1  0  0    0.0000      45AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.600      46    36.62531    3.57077    40.19608   0.00021    46   %  0.0423
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53855   -0.00000   -0.00000    -103276.2       -0.0       -5.0
+   2    N    0.53855    0.00000    0.00000     103276.2        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      46AA*
+   N    1.077097  1    0.000000  0    0.000000  0   1  0  0    0.0000      46AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.700      47    36.25856    3.93751    40.19607   0.00020    47   %  0.0402
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.53961   -0.00000   -0.00000    -108450.4       -0.0       -5.0
+   2    N    0.53961    0.00000    0.00000     108450.4        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      47AA*
+   N    1.079215  1    0.000000  0    0.000000  0   1  0  0    0.0000      47AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.800      48    35.89661    4.29945    40.19606   0.00019    48   %  0.0379
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54072   -0.00000   -0.00000    -113325.4       -0.0       -5.1
+   2    N    0.54072    0.00000    0.00000     113325.4        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      48AA*
+   N    1.081433  1    0.000000  0    0.000000  0   1  0  0    0.0000      48AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.900      49    35.54319    4.65285    40.19604   0.00017    49   %  0.0356
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54187   -0.00000   -0.00000    -117891.1       -0.0       -5.1
+   2    N    0.54187    0.00000    0.00000     117891.1        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      49AA*
+   N    1.083746  1    0.000000  0    0.000000  0   1  0  0    0.0000      49AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.000      50    35.20187    4.99416    40.19602   0.00015    50   %  0.0332
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54307   -0.00000   -0.00000    -122138.8       -0.0       -5.1
+   2    N    0.54307    0.00000    0.00000     122138.8        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      50AA*
+   N    1.086147  1    0.000000  0    0.000000  0   1  0  0    0.0000      50AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.100      51    34.87598    5.32002    40.19600   0.00013    51   %  0.0308
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54431   -0.00000   -0.00000    -126060.8       -0.0       -5.1
+   2    N    0.54431    0.00000    0.00000     126060.8        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      51AA*
+   N    1.088629  1    0.000000  0    0.000000  0   1  0  0    0.0000      51AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.200      52    34.56866    5.62733    40.19598   0.00011    52   %  0.0282
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54559   -0.00000   -0.00000    -129650.7       -0.0       -5.1
+   2    N    0.54559    0.00000    0.00000     129650.7        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      52AA*
+   N    1.091187  1    0.000000  0    0.000000  0   1  0  0    0.0000      52AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.300      53    34.28274    5.91321    40.19596   0.00009    53   %  0.0256
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54691   -0.00000   -0.00000    -132903.4       -0.0       -5.1
+   2    N    0.54691    0.00000    0.00000     132903.5        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      53AA*
+   N    1.093813  1    0.000000  0    0.000000  0   1  0  0    0.0000      53AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.400      54    34.02081    6.17512    40.19593   0.00007    54   %  0.0229
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54825   -0.00000   -0.00000    -135815.0       -0.0       -5.2
+   2    N    0.54825    0.00000    0.00000     135815.0        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      54AA*
+   N    1.096501  1    0.000000  0    0.000000  0   1  0  0    0.0000      54AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.500      55    33.78511    6.41080    40.19591   0.00004    55   %  0.0201
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.54962   -0.00000   -0.00000    -138382.6       -0.0       -5.2
+   2    N    0.54962    0.00000    0.00000     138382.6        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      55AA*
+   N    1.099243  1    0.000000  0    0.000000  0   1  0  0    0.0000      55AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.600      56    33.57759    6.61830    40.19588   0.00002    56   %  0.0173
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55102   -0.00000   -0.00000    -140604.4       -0.0       -5.2
+   2    N    0.55102    0.00000    0.00000     140604.4        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      56AA*
+   N    1.102034  1    0.000000  0    0.000000  0   1  0  0    0.0000      56AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.700      57    33.39984    6.79602    40.19586  -0.00001    57   %  0.0145
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55243   -0.00000   -0.00000    -142479.9       -0.0       -5.2
+   2    N    0.55243    0.00000    0.00000     142479.9        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      57AA*
+   N    1.104865  1    0.000000  0    0.000000  0   1  0  0    0.0000      57AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.800      58    33.25313    6.94270    40.19583  -0.00003    58   %  0.0117
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55387   -0.00000   -0.00000    -144009.5       -0.0       -5.2
+   2    N    0.55387    0.00000    0.00000     144009.5        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      58AA*
+   N    1.107731  1    0.000000  0    0.000000  0   1  0  0    0.0000      58AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.900      59    33.13840    7.05741    40.19581  -0.00006    59   %  0.0088
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55531   -0.00000   -0.00000    -145194.3       -0.0       -5.2
+   2    N    0.55531    0.00000    0.00000     145194.3        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      59AA*
+   N    1.110623  1    0.000000  0    0.000000  0   1  0  0    0.0000      59AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.000      60    33.05625    7.13954    40.19579  -0.00008    60   %  0.0058
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55677   -0.00000   -0.00000    -146036.9       -0.0       -5.2
+   2    N    0.55677    0.00000    0.00000     146036.9        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      60AA*
+   N    1.113536  1    0.000000  0    0.000000  0   1  0  0    0.0000      60AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.100      61    33.00695    7.18882    40.19576  -0.00010    61   %  0.0025
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55823   -0.00000   -0.00000    -146540.1       -0.0       -5.2
+   2    N    0.55823    0.00000    0.00000     146540.1        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      61AA*
+   N    1.116463  1    0.000000  0    0.000000  0   1  0  0    0.0000      61AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.200      62    32.99045    7.20530    40.19574  -0.00012    62   %  0.0008
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55970   -0.00000   -0.00000    -146708.1       -0.0       -5.2
+   2    N    0.55970    0.00000    0.00000     146708.1        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      62AA*
+   N    1.119396  1    0.000000  0    0.000000  0   1  0  0    0.0000      62AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.300      63    33.00641    7.18931    40.19572  -0.00014    63   %  0.0029
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56116   -0.00000   -0.00000    -146545.4       -0.0       -5.2
+   2    N    0.56116    0.00000    0.00000     146545.4        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      63AA*
+   N    1.122329  1    0.000000  0    0.000000  0   1  0  0    0.0000      63AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.400      64    33.05419    7.14151    40.19571  -0.00016    64   %  0.0059
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56263   -0.00000   -0.00000    -146057.5       -0.0       -5.2
+   2    N    0.56263    0.00000    0.00000     146057.5        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      64AA*
+   N    1.125255  1    0.000000  0    0.000000  0   1  0  0    0.0000      64AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.500      65    33.13290    7.06279    40.19569  -0.00017    65   %  0.0088
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56408   -0.00000   -0.00000    -145250.3       -0.0       -5.2
+   2    N    0.56408    0.00000    0.00000     145250.3        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      65AA*
+   N    1.128169  1    0.000000  0    0.000000  0   1  0  0    0.0000      65AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.600      66    33.24138    6.95430    40.19568  -0.00019    66   %  0.0117
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56553   -0.00000   -0.00000    -144130.5       -0.0       -5.2
+   2    N    0.56553    0.00000    0.00000     144130.5        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      66AA*
+   N    1.131063  1    0.000000  0    0.000000  0   1  0  0    0.0000      66AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.700      67    33.37823    6.81743    40.19566  -0.00020    67   %  0.0146
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56697   -0.00000   -0.00000    -142705.2       -0.0       -5.2
+   2    N    0.56697    0.00000    0.00000     142705.2        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      67AA*
+   N    1.133932  1    0.000000  0    0.000000  0   1  0  0    0.0000      67AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.800      68    33.54188    6.65377    40.19565  -0.00021    68   %  0.0174
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56838   -0.00000   -0.00000    -140982.0       -0.0       -5.2
+   2    N    0.56838    0.00000    0.00000     140982.0        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      68AA*
+   N    1.136769  1    0.000000  0    0.000000  0   1  0  0    0.0000      68AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.900      69    33.73054    6.46511    40.19564  -0.00022    69   %  0.0202
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56978   -0.00000   -0.00000    -138969.0       -0.0       -5.2
+   2    N    0.56978    0.00000    0.00000     138969.0        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      69AA*
+   N    1.139569  1    0.000000  0    0.000000  0   1  0  0    0.0000      69AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.000      70    33.94226    6.25338    40.19564  -0.00022    70   %  0.0229
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57116   -0.00000   -0.00000    -136674.5       -0.0       -5.2
+   2    N    0.57116    0.00000    0.00000     136674.5        0.0        5.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      70AA*
+   N    1.142326  1    0.000000  0    0.000000  0   1  0  0    0.0000      70AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.100      71    34.17497    6.02066    40.19563  -0.00023    71   %  0.0257
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57252   -0.00000   -0.00000    -134107.4       -0.0       -5.1
+   2    N    0.57252    0.00000    0.00000     134107.4        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      71AA*
+   N    1.145034  1    0.000000  0    0.000000  0   1  0  0    0.0000      71AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.200      72    34.42646    5.76917    40.19563  -0.00023    72   %  0.0283
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57384   -0.00000   -0.00000    -131276.6       -0.0       -5.1
+   2    N    0.57384    0.00000    0.00000     131276.6        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      72AA*
+   N    1.147689  1    0.000000  0    0.000000  0   1  0  0    0.0000      72AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.300      73    34.69445    5.50118    40.19563  -0.00023    73   %  0.0309
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57514   -0.00000   -0.00000    -128191.4       -0.0       -5.1
+   2    N    0.57514    0.00000    0.00000     128191.4        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      73AA*
+   N    1.150284  1    0.000000  0    0.000000  0   1  0  0    0.0000      73AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.400      74    34.97655    5.21908    40.19563  -0.00023    74   %  0.0334
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57641   -0.00000   -0.00000    -124861.4       -0.0       -5.1
+   2    N    0.57641    0.00000    0.00000     124861.4        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      74AA*
+   N    1.152815  1    0.000000  0    0.000000  0   1  0  0    0.0000      74AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.500      75    35.27034    4.92529    40.19563  -0.00023    75   %  0.0359
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57764   -0.00000   -0.00000    -121296.2       -0.0       -5.1
+   2    N    0.57764    0.00000    0.00000     121296.2        0.0        5.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      75AA*
+   N    1.155277  1    0.000000  0    0.000000  0   1  0  0    0.0000      75AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.600      76    35.57338    4.62226    40.19563  -0.00023    76   %  0.0383
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57883   -0.00000   -0.00000    -117505.6       -0.0       -5.0
+   2    N    0.57883    0.00000    0.00000     117505.6        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      76AA*
+   N    1.157665  1    0.000000  0    0.000000  0   1  0  0    0.0000      76AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.700      77    35.88317    4.31246    40.19564  -0.00022    77   %  0.0406
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57999   -0.00000   -0.00000    -113499.7       -0.0       -5.0
+   2    N    0.57999    0.00000    0.00000     113499.7        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      77AA*
+   N    1.159975  1    0.000000  0    0.000000  0   1  0  0    0.0000      77AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.800      78    36.19727    3.99837    40.19564  -0.00022    78   %  0.0428
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58110   -0.00000   -0.00000    -109288.3       -0.0       -5.0
+   2    N    0.58110    0.00000    0.00000     109288.3        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      78AA*
+   N    1.162204  1    0.000000  0    0.000000  0   1  0  0    0.0000      78AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.900      79    36.51322    3.68242    40.19565  -0.00021    79   %  0.0450
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58217   -0.00000   -0.00000    -104881.6       -0.0       -5.0
+   2    N    0.58217    0.00000    0.00000     104881.6        0.0        5.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      79AA*
+   N    1.164346  1    0.000000  0    0.000000  0   1  0  0    0.0000      79AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.000      80    36.82862    3.36704    40.19565  -0.00020    80   %  0.0470
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58320   -0.00000   -0.00000    -100289.8       -0.0       -4.9
+   2    N    0.58320    0.00000    0.00000     100289.8        0.0        4.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      80AA*
+   N    1.166398  1    0.000000  0    0.000000  0   1  0  0    0.0000      80AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.100      81    37.14109    3.05457    40.19566  -0.00020    81   %  0.0490
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58418   -0.00000   -0.00000     -95523.0       -0.0       -4.9
+   2    N    0.58418    0.00000    0.00000      95523.0        0.0        4.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      81AA*
+   N    1.168356  1    0.000000  0    0.000000  0   1  0  0    0.0000      81AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.200      82    37.44836    2.74730    40.19567  -0.00019    82   %  0.0508
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58511   -0.00000   -0.00000     -90591.4       -0.0       -4.9
+   2    N    0.58511    0.00000    0.00000      90591.4        0.0        4.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      82AA*
+   N    1.170217  1    0.000000  0    0.000000  0   1  0  0    0.0000      82AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.300      83    37.74821    2.44746    40.19568  -0.00018    83   %  0.0526
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58599   -0.00000   -0.00000     -85505.1       -0.0       -4.8
+   2    N    0.58599    0.00000    0.00000      85505.1        0.0        4.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      83AA*
+   N    1.171978  1    0.000000  0    0.000000  0   1  0  0    0.0000      83AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.400      84    38.03851    2.15717    40.19569  -0.00017    84   %  0.0543
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58682   -0.00000   -0.00000     -80274.4       -0.0       -4.8
+   2    N    0.58682    0.00000    0.00000      80274.4        0.0        4.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      84AA*
+   N    1.173636  1    0.000000  0    0.000000  0   1  0  0    0.0000      84AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.500      85    38.31724    1.87846    40.19569  -0.00016    85   %  0.0558
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58759   -0.00000   -0.00000     -74909.3       -0.0       -4.8
+   2    N    0.58759    0.00000    0.00000      74909.3        0.0        4.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      85AA*
+   N    1.175189  1    0.000000  0    0.000000  0   1  0  0    0.0000      85AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.600      86    38.58247    1.61324    40.19570  -0.00015    86   %  0.0573
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58832   -0.00000   -0.00000     -69420.0       -0.0       -4.7
+   2    N    0.58832    0.00000    0.00000      69420.0        0.0        4.7
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      86AA*
+   N    1.176632  1    0.000000  0    0.000000  0   1  0  0    0.0000      86AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.700      87    38.83241    1.36331    40.19571  -0.00014    87   %  0.0586
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58898   -0.00000   -0.00000     -63816.5       -0.0       -4.7
+   2    N    0.58898    0.00000    0.00000      63816.5        0.0        4.7
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      87AA*
+   N    1.177965  1    0.000000  0    0.000000  0   1  0  0    0.0000      87AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.800      88    39.06538    1.13035    40.19572  -0.00013    88   %  0.0598
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58959   -0.00000   -0.00000     -58108.9       -0.0       -4.6
+   2    N    0.58959    0.00000    0.00000      58108.9        0.0        4.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      88AA*
+   N    1.179184  1    0.000000  0    0.000000  0   1  0  0    0.0000      88AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.900      89    39.27984    0.91590    40.19573  -0.00012    89   %  0.0609
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59014   -0.00000   -0.00000     -52307.2       -0.0       -4.6
+   2    N    0.59014    0.00000    0.00000      52307.2        0.0        4.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      89AA*
+   N    1.180288  1    0.000000  0    0.000000  0   1  0  0    0.0000      89AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.000      90    39.47438    0.72137    40.19574  -0.00011    90   %  0.0619
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59064   -0.00000   -0.00000     -46421.3       -0.0       -4.6
+   2    N    0.59064    0.00000    0.00000      46421.3        0.0        4.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      90AA*
+   N    1.181276  1    0.000000  0    0.000000  0   1  0  0    0.0000      90AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.100      91    39.64774    0.54802    40.19575  -0.00010    91   %  0.0628
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59107   -0.00000   -0.00000     -40461.2       -0.0       -4.5
+   2    N    0.59107    0.00000    0.00000      40461.2        0.0        4.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      91AA*
+   N    1.182145  1    0.000000  0    0.000000  0   1  0  0    0.0000      91AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.200      92    39.79880    0.39696    40.19576  -0.00009    92   %  0.0635
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59145   -0.00000   -0.00000     -34436.6       -0.0       -4.5
+   2    N    0.59145    0.00000    0.00000      34436.6        0.0        4.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      92AA*
+   N    1.182894  1    0.000000  0    0.000000  0   1  0  0    0.0000      92AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.300      93    39.92659    0.26918    40.19576  -0.00009    93   %  0.0641
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59176   -0.00000   -0.00000     -28357.3       -0.0       -4.4
+   2    N    0.59176    0.00000    0.00000      28357.3        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      93AA*
+   N    1.183522  1    0.000000  0    0.000000  0   1  0  0    0.0000      93AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.400      94    40.03028    0.16548    40.19576  -0.00009    94   %  0.0646
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59201   -0.00000   -0.00000     -22233.4       -0.0       -4.4
+   2    N    0.59201    0.00000    0.00000      22233.4        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      94AA*
+   N    1.184028  1    0.000000  0    0.000000  0   1  0  0    0.0000      94AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.500      94    40.10927    0.08649    40.19576  -0.00010    95   %  0.0650
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59221   -0.00000   -0.00000     -16074.2       -0.0       -4.3
+   2    N    0.59221    0.00000    0.00000      16074.2        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      95AA*
+   N    1.184411  1    0.000000  0    0.000000  0   1  0  0    0.0000      95AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.600      95    40.16303    0.03273    40.19576  -0.00010    96   %  0.0653
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59234   -0.00000   -0.00000      -9889.7       -0.0       -4.3
+   2    N    0.59234    0.00000    0.00000       9889.7        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      96AA*
+   N    1.184670  1    0.000000  0    0.000000  0   1  0  0    0.0000      96AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.700      96    40.19120    0.00424    40.19543  -0.00042    97   %  0.0654
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59240   -0.00000   -0.00000      -3739.6       -0.0       -4.2
+   2    N    0.59240    0.00000    0.00000       3739.6        0.0        4.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      97AA*
+   N    1.184806  1    0.000000  0    0.000000  0   1  0  0    0.0000      97AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.800      97    40.19385    0.00389    40.19774   0.00188    98   %  0.0654
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59241   -0.00000   -0.00000       2789.9       -0.0       -4.3
+   2    N    0.59241    0.00000    0.00000      -2789.9        0.0        4.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      98AA*
+   N    1.184819  1    0.000000  0    0.000000  0   1  0  0    0.0000      98AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.900      98    40.17004    0.02755    40.19759   0.00174    99   %  0.0653
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59235   -0.00000   -0.00000       9128.9       -0.0       -4.4
+   2    N    0.59235    0.00000    0.00000      -9128.9        0.0        4.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000      99AA*
+   N    1.184704  1    0.000000  0    0.000000  0   1  0  0    0.0000      99AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.000      98    40.11874    0.07024    40.18898  -0.00688   100   %  0.0651
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59223   -0.00000   -0.00000      14602.7       -0.0       -4.1
+   2    N    0.59223    0.00000    0.00000     -14602.7        0.0        4.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     100AA*
+   N    1.184457  1    0.000000  0    0.000000  0   1  0  0    0.0000     100AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.100      99    40.04578    0.15449    40.20028   0.00442   101   %  0.0647
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59205   -0.00000   -0.00000      21335.0       -0.0       -4.2
+   2    N    0.59205    0.00000    0.00000     -21335.0        0.0        4.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     101AA*
+   N    1.184103  1    0.000000  0    0.000000  0   1  0  0    0.0000     101AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.200     100    39.94658    0.25533    40.20191   0.00606   102   %  0.0642
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59181   -0.00000   -0.00000      27650.9       -0.0       -4.2
+   2    N    0.59181    0.00000    0.00000     -27650.9        0.0        4.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     102AA*
+   N    1.183620  1    0.000000  0    0.000000  0   1  0  0    0.0000     102AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.300     100    39.82060    0.36848    40.18908  -0.00677   103   %  0.0636
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59150   -0.00000   -0.00000      33209.7       -0.0       -4.0
+   2    N    0.59150    0.00000    0.00000     -33209.7        0.0        4.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     103AA*
+   N    1.183002  1    0.000000  0    0.000000  0   1  0  0    0.0000     103AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.400     101    39.67402    0.52227    40.19629   0.00044   104   %  0.0629
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59114   -0.00000   -0.00000      39477.9       -0.0       -4.0
+   2    N    0.59114    0.00000    0.00000     -39477.9        0.0        4.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     104AA*
+   N    1.182276  1    0.000000  0    0.000000  0   1  0  0    0.0000     104AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.500     102    39.50435    0.69226    40.19661   0.00075   105   %  0.0620
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59071   -0.00000   -0.00000      45476.0       -0.0       -4.0
+   2    N    0.59071    0.00000    0.00000     -45476.0        0.0        4.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     105AA*
+   N    1.181427  1    0.000000  0    0.000000  0   1  0  0    0.0000     105AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.600     103    39.31307    0.88263    40.19570  -0.00016   106   %  0.0611
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.59023   -0.00000   -0.00000      51344.5       -0.0       -3.9
+   2    N    0.59023    0.00000    0.00000     -51344.5        0.0        3.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     106AA*
+   N    1.180458  1    0.000000  0    0.000000  0   1  0  0    0.0000     106AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.700     104    39.10178    1.09422    40.19600   0.00014   107   %  0.0600
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58969   -0.00000   -0.00001      57170.0       -0.0       -3.9
+   2    N    0.58969    0.00000    0.00001     -57170.0        0.0        3.9
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     107AA*
+   N    1.179373  1    0.000000  0    0.000000  0   1  0  0    0.0000     107AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.800     105    38.87169    1.32424    40.19593   0.00008   108   %  0.0588
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58909   -0.00000   -0.00001      62892.4       -0.0       -3.8
+   2    N    0.58909    0.00000    0.00001     -62892.4        0.0        3.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     108AA*
+   N    1.178172  1    0.000000  0    0.000000  0   1  0  0    0.0000     108AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.900     106    38.62439    1.57157    40.19596   0.00011   109   %  0.0575
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58843   -0.00000   -0.00001      68514.7       -0.0       -3.8
+   2    N    0.58843    0.00000    0.00001     -68514.7        0.0        3.8
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     109AA*
+   N    1.176858  1    0.000000  0    0.000000  0   1  0  0    0.0000     109AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.000     107    38.36150    1.83446    40.19597   0.00011   110   %  0.0561
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58772   -0.00000   -0.00001      74023.9       -0.0       -3.7
+   2    N    0.58772    0.00000    0.00001     -74023.9        0.0        3.7
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     110AA*
+   N    1.175432  1    0.000000  0    0.000000  0   1  0  0    0.0000     110AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.100     108    38.08482    2.11115    40.19598   0.00012   111   %  0.0545
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58695   -0.00000   -0.00001      79410.6       -0.0       -3.7
+   2    N    0.58695    0.00000    0.00001     -79410.6        0.0        3.7
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     111AA*
+   N    1.173898  1    0.000000  0    0.000000  0   1  0  0    0.0000     111AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.200     109    37.79625    2.39974    40.19599   0.00013   112   %  0.0529
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58613   -0.00000   -0.00001      84664.5       -0.0       -3.6
+   2    N    0.58613    0.00000    0.00001     -84664.5        0.0        3.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     112AA*
+   N    1.172257  1    0.000000  0    0.000000  0   1  0  0    0.0000     112AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.300     110    37.49779    2.69821    40.19600   0.00014   113   %  0.0511
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58526   -0.00000   -0.00001      89775.5       -0.0       -3.6
+   2    N    0.58526    0.00000    0.00001     -89775.5        0.0        3.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     113AA*
+   N    1.170512  1    0.000000  0    0.000000  0   1  0  0    0.0000     113AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.400     111    37.19155    3.00446    40.19601   0.00015   114   %  0.0493
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58433   -0.00000   -0.00001      94733.5       -0.0       -3.5
+   2    N    0.58433    0.00000    0.00001     -94733.5        0.0        3.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     114AA*
+   N    1.168667  1    0.000000  0    0.000000  0   1  0  0    0.0000     114AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.500     112    36.87973    3.31628    40.19602   0.00016   115   %  0.0473
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58336   -0.00000   -0.00001      99528.4       -0.0       -3.5
+   2    N    0.58336    0.00000    0.00001     -99528.4        0.0        3.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     115AA*
+   N    1.166724  1    0.000000  0    0.000000  0   1  0  0    0.0000     115AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.600     113    36.56463    3.63140    40.19603   0.00017   116   %  0.0453
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58234   -0.00000   -0.00001     104149.8       -0.0       -3.5
+   2    N    0.58234    0.00000    0.00001    -104149.8        0.0        3.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     116AA*
+   N    1.164687  1    0.000000  0    0.000000  0   1  0  0    0.0000     116AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.700     114    36.24858    3.94746    40.19603   0.00018   117   %  0.0432
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58128   -0.00000   -0.00001     108587.7       -0.0       -3.4
+   2    N    0.58128    0.00000    0.00001    -108587.7        0.0        3.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     117AA*
+   N    1.162559  1    0.000000  0    0.000000  0   1  0  0    0.0000     117AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.800     115    35.93399    4.26205    40.19604   0.00019   118   %  0.0410
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.58017   -0.00000   -0.00001     112831.9       -0.0       -3.4
+   2    N    0.58017    0.00000    0.00001    -112831.9        0.0        3.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     118AA*
+   N    1.160345  1    0.000000  0    0.000000  0   1  0  0    0.0000     118AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.900     116    35.62330    4.57275    40.19605   0.00019   119   %  0.0387
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57902   -0.00000   -0.00001     116872.3       -0.0       -3.3
+   2    N    0.57902    0.00000    0.00001    -116872.3        0.0        3.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     119AA*
+   N    1.158047  1    0.000000  0    0.000000  0   1  0  0    0.0000     119AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.000     117    35.31897    4.87708    40.19605   0.00020   120   %  0.0363
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57784   -0.00000   -0.00001     120698.8       -0.0       -3.3
+   2    N    0.57784    0.00000    0.00001    -120698.8        0.0        3.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     120AA*
+   N    1.155671  1    0.000000  0    0.000000  0   1  0  0    0.0000     120AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.100     118    35.02349    5.17257    40.19606   0.00021   121   %  0.0338
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57661   -0.00000   -0.00001     124301.6       -0.0       -3.3
+   2    N    0.57661    0.00000    0.00001    -124301.6        0.0        3.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     121AA*
+   N    1.153221  1    0.000000  0    0.000000  0   1  0  0    0.0000     121AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.200     119    34.73930    5.45676    40.19606   0.00021   122   %  0.0313
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57535   -0.00000   -0.00001     127670.7       -0.0       -3.2
+   2    N    0.57535    0.00000    0.00001    -127670.7        0.0        3.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     122AA*
+   N    1.150701  1    0.000000  0    0.000000  0   1  0  0    0.0000     122AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.300     120    34.46884    5.72722    40.19606   0.00021   123   %  0.0287
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57406   -0.00000   -0.00001     130796.5       -0.0       -3.2
+   2    N    0.57406    0.00000    0.00001    -130796.5        0.0        3.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     123AA*
+   N    1.148115  1    0.000000  0    0.000000  0   1  0  0    0.0000     123AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.400     121    34.21450    5.98157    40.19606   0.00021   124   %  0.0261
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57274   -0.00000   -0.00001     133669.4       -0.0       -3.2
+   2    N    0.57274    0.00000    0.00001    -133669.4        0.0        3.2
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     124AA*
+   N    1.145470  1    0.000000  0    0.000000  0   1  0  0    0.0000     124AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.500     122    33.97857    6.21749    40.19606   0.00021   125   %  0.0234
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57139   -0.00000   -0.00001     136280.1       -0.0       -3.1
+   2    N    0.57139    0.00000    0.00001    -136280.1        0.0        3.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     125AA*
+   N    1.142770  1    0.000000  0    0.000000  0   1  0  0    0.0000     125AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.600     123    33.76329    6.43277    40.19606   0.00021   126   %  0.0206
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.57001   -0.00000   -0.00001     138619.5       -0.0       -3.1
+   2    N    0.57001    0.00000    0.00001    -138619.5        0.0        3.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     126AA*
+   N    1.140021  1    0.000000  0    0.000000  0   1  0  0    0.0000     126AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.700     124    33.57075    6.62531    40.19606   0.00021   127   %  0.0178
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56861   -0.00000   -0.00001     140678.9       -0.0       -3.1
+   2    N    0.56861    0.00000    0.00001    -140678.9        0.0        3.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     127AA*
+   N    1.137227  1    0.000000  0    0.000000  0   1  0  0    0.0000     127AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.800     125    33.40291    6.79314    40.19605   0.00020   128   %  0.0150
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56720   -0.00000   -0.00001     142449.6       -0.0       -3.1
+   2    N    0.56720    0.00000    0.00001    -142449.6        0.0        3.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     128AA*
+   N    1.134396  1    0.000000  0    0.000000  0   1  0  0    0.0000     128AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    12.900     126    33.26160    6.93445    40.19604   0.00020   129   %  0.0122
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56577   -0.00000   -0.00001     143923.7       -0.0       -3.1
+   2    N    0.56577    0.00000    0.00001    -143923.7        0.0        3.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     129AA*
+   N    1.131531  1    0.000000  0    0.000000  0   1  0  0    0.0000     129AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    13.000     127    33.14842    7.04761    40.19603   0.00019   130   %  0.0093
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56432   -0.00000   -0.00001     145093.5       -0.0       -3.1
+   2    N    0.56432    0.00000    0.00001    -145093.5        0.0        3.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     130AA*
+   N    1.128641  1    0.000000  0    0.000000  0   1  0  0    0.0000     130AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    13.100     128    33.06481    7.13122    40.19602   0.00017   131   %  0.0063
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56286   -0.00000   -0.00001     145951.6       -0.0       -3.1
+   2    N    0.56286    0.00000    0.00001    -145951.6        0.0        3.1
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     131AA*
+   N    1.125730  1    0.000000  0    0.000000  0   1  0  0    0.0000     131AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    13.200     129    33.01195    7.18406    40.19601   0.00016   132   %  0.0032
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.56140   -0.00000   -0.00001     146491.6       -0.0       -3.0
+   2    N    0.56140    0.00000    0.00001    -146491.6        0.0        3.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     132AA*
+   N    1.122805  1    0.000000  0    0.000000  0   1  0  0    0.0000     132AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    13.300     130    32.99079    7.20521    40.19599   0.00015   133   %  0.0010
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    N   -0.55994   -0.00000   -0.00001     146707.1       -0.0       -3.0
+   2    N    0.55994    0.00000    0.00001    -146707.1        0.0        3.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ OLDGEO IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  HTML
+ N2 one complete vibrational cycle
+ (To see N-N distance, click on "Script" at the bottom.)
+   N    0.000000  0    0.000000  0    0.000000  0   0  0  0   -0.0000     133AA*
+   N    1.119872  1    0.000000  0    0.000000  0   1  0  0    0.0000     133AB*
+
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             1.28 SECONDS
+
+ == MOPAC DONE ==

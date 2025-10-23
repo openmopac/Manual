@@ -1,0 +1,39 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Proton abstract
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  3 2021 15:04
+REMARK  Heat of Formation = 113.190 Kcal/mol
+HETATM    1  C   HET A   1       0.000   0.000   0.000  1.00 -0.53      PROT C 
+HETATM    2  H   HET A   1       1.416   0.000   0.000  1.00  0.29      PROT H 
+HETATM    3  N   HET A   1       2.604   0.381   0.000  1.00 -0.44      PROT N 
+HETATM    4  C   HET A   1       3.151   0.439  -1.301  1.00  0.18      PROT C 
+HETATM    5  C   HET A   1       3.006  -0.093  -3.654  1.00 -0.10      PROT C 
+HETATM    6  C   HET A   1       2.754   1.479   0.862  1.00  0.14      PROT C 
+HETATM    7  C   HET A   1       3.060   2.765   0.425  1.00 -0.22      PROT C 
+HETATM    8  C   HET A   1       3.190   3.820   1.346  1.00 -0.12      PROT C 
+HETATM    9  C   HET A   1       2.988   3.605   2.691  1.00 -0.17      PROT C 
+HETATM   10  C   HET A   1       2.662   2.307   3.170  1.00  0.01      PROT C 
+HETATM   11  C   HET A   1       2.446   2.077   4.555  1.00 -0.16      PROT C 
+HETATM   12  C   HET A   1       2.145   0.816   5.015  1.00 -0.14      PROT C 
+HETATM   13  C   HET A   1       2.059  -0.268   4.113  1.00 -0.16      PROT C 
+HETATM   14  C   HET A   1       2.262  -0.069   2.767  1.00 -0.13      PROT C 
+HETATM   15  C   HET A   1       2.552   1.225   2.264  1.00 -0.03      PROT C 
+HETATM   16  C   HET A   1       4.493   0.825  -1.476  1.00 -0.22      PROT C 
+HETATM   17  C   HET A   1       5.073   0.747  -2.736  1.00 -0.10      PROT C 
+HETATM   18  H   HET A   1       2.429  -0.452  -4.505  1.00  0.15      PROT H 
+HETATM   19  C   HET A   1       4.333   0.293  -3.828  1.00 -0.19      PROT C 
+HETATM   20  H   HET A   1       3.193   2.970  -0.637  1.00  0.17      PROT H 
+HETATM   21  H   HET A   1       3.444   4.814   0.977  1.00  0.16      PROT H 
+HETATM   22  H   HET A   1       3.076   4.421   3.404  1.00  0.16      PROT H 
+HETATM   23  H   HET A   1       2.524   2.916   5.244  1.00  0.15      PROT H 
+HETATM   24  H   HET A   1       1.977   0.638   6.075  1.00  0.15      PROT H 
+HETATM   25  H   HET A   1       1.836  -1.261   4.498  1.00  0.15      PROT H 
+HETATM   26  H   HET A   1       2.219  -0.909   2.071  1.00  0.17      PROT H 
+HETATM   27  H   HET A   1       5.075   1.164  -0.621  1.00  0.17      PROT H 
+HETATM   28  H   HET A   1      -0.190   0.153   1.043  1.00  0.15      PROT H 
+HETATM   29  H   HET A   1       1.371  -0.321  -2.274  1.00  0.16      PROT H 
+HETATM   30  C   HET A   1       2.409  -0.021  -2.399  1.00 -0.23      PROT C 
+HETATM   31  H   HET A   1       4.793   0.237  -4.811  1.00  0.15      PROT H 
+HETATM   32  H   HET A   1       6.113   1.042  -2.870  1.00  0.15      PROT H 
+HETATM   33  H   HET A   1      -0.258   0.816  -0.641  1.00  0.15      PROT H 
+HETATM   34  H   HET A   1      -0.197  -0.982  -0.375  1.00  0.15      PROT H 
+END

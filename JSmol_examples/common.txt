@@ -1,0 +1,12 @@
+display 195, 252, 487, 647 
+measure off
+ measure (487.O) (252.C)
+ measure (647.O) (252.C)
+ measure (487.O) (647.O)
+# measure (647.O) (252.C)
+# measure (487.O) (252.C)
+# measure (253.N) (252.C)
+#
+#  Use "show orientation" to get the next line.
+#
+reset;center {26.71256097560976 1.775975609756098 37.758707317073174}; rotate z 146.23; rotate y 110.36; rotate z 99.39; zoom 397.08; set rotationRadius 34.99;

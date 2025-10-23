@@ -1,0 +1,39 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>TRIPLET </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>TRIPLET</tt> </h1>
+<p>The triplet state is defined. In order to define this type of calculation other keywords <em>must</em> also be used. For a 'simple' triplet calculation, use <tt>C.I.=2</tt>. Results from such calculations can be compared with ground state calculations. If the triplet state consists of two half-filled degenerate M.O.s, such as molecular oxygen, then <tt>OPEN(2,2)</tt> should be used. </p>
+<p>From experience, <tt><a href="open.html">OPEN(2,2)</a></tt> and <tt>TRIPLET</tt> run faster than <tt><a href="ci=n.html">C.I.=2</a></tt> and <tt>TRIPLET</tt>. </p>
+<p>If the system has an odd number of electrons, an error message will be printed. </p>
+<p>See also <a href="ms.html"><tt>MS=n</tt></a>, <tt><a href="singlet.html">SINGLET</a>, <a href="doublet.html">DOUBLET</a>,
+<a href="quartet.html">QUARTET</a>, <a href="quintet.html">QUINTET</a>, <a href="sextet.html">SEXTET</a>, <a href="septet.html">SEPTET</a>, <a href="octet.html">OCTET</a>,</tt> and <tt><a href="nonet.html">NONET</a></tt>. </p>
+<p>UHF interpretation: </p>
+<p>The number of alpha electrons exceeds that of the beta electrons by 2. If <tt>TRIPLET</tt> is not specified, then the numbers of alpha and beta electrons are set equal. This does not necessarily correspond to a singlet. </p>
+<p>RHF interpretation: </p>
+<tt></tt><p>TRIPLET cannot be used unless other keywords are present. If <tt>C.I.=2</tt> is used, then a single state corresponding to: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}frac{1}{sqrt{2}}(psi_{homo}^{alpha}.psi_{lumo}^{beta}+psi_{homo}^{beta}.psi_{lumo}^{alpha})end{displaymath}" height="42" src="img184.gif" width="202"/></div>
+<p>is calculated. See keywords <tt>C.I.=<i>n</i></tt> and <tt>OPEN(<i>n</i><sub>1</sub>,<i>n</i><sub>2</sub>)</tt>. <a name="BM3457">&nbsp;</a> </p>
+<p>When the configuration interaction calculation is done, all microstates having a component of spin, M<i><sub>S</sub></i>, equal to 1 are selected. These microstates are then used in the construction of states. Because of the way in which the microstates were chosen, only states of spin equal to or greater than 1 can be constructed. From this set, only a triplet state can be selected, all other states will be ignored. If <tt>ROOT=<i>n</i></tt> is present, then the <i>n</i>'th triplet state will be selected, otherwise the first triplet state will be chosen. </p>
+</body>
+</html>

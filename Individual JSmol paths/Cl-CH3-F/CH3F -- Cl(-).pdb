@@ -1,0 +1,11 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Cl-CH3-F/CH3F -
+REMARK  MOPAC 2016, Version: 21.157W Date: Jun  7 2021 08:56
+REMARK   3  CL = Isolated element res:    1
+REMARK   3 CH3 = Methyl group res:    2
+HETATM    1 CL    CL A   1       0.000   0.000   0.000  1.00 -1.00      PROTCL 
+HETATM    2  C   CH3 B   2       3.035   0.000   0.000  1.00 -0.18      PROT C 
+HETATM    3 1H   CH3 B   2       2.658   1.038   0.000  1.00  0.15      PROT H 
+HETATM    4 2H   CH3 B   2       2.658  -0.521   0.897  1.00  0.15      PROT H 
+HETATM    5 3H   CH3 B   2       2.660  -0.519  -0.899  1.00  0.15      PROT H 
+HETATM    6  F   CH3 B   2       4.403   0.001   0.003  1.00 -0.28      PROT F 
+END

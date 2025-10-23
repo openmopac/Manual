@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Derivatives</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION001293000000000000000">
+ Derivatives</a>
+</h2>
+Solid-state derivatives with respect to geometry are handled differently from
+molecule derivatives.  If the Cartesian coordinate derivatives are printed,
+using <tt><a href="debug.html">DEBUG</a></tt> and <tt><a href="dcart.html">DCART</a></tt>, then for a molecule with an  optimized
+geometry all the derivatives will be zero.  This is  not the case for an
+infinite system.
+<p>
+An infinite system is represented by cell supplied by the user, called the
+Central Unit Cell, or the CUC, and the cells surrounding this CUC. When
+<tt>DCART</tt>, <tt>LARGE</tt>, and <tt>DEBUG</tt> are used in an infinite system
+calculation for which  the geometry has been optimized, the Cartesian
+derivatives for all unit cells are output. Many of these will be quite large,
+up to about 60 kcal/mol/&Aring;.  This is not an error, rather it is a peculiarity
+of the way solid-state derivatives are stored.
+</p><p>
+The Cartesian derivatives of the CUC represent the sum of all forces acting on
+the atoms of the CUC due to all the atoms in the CUC.  Thus, if the atoms in
+the CUC are the set (<i>a</i>,<i>b</i>,<i>c</i>,<i>d</i>,<i>e</i>,<i>f</i>), then the Cartesian  derivatives
+for atom <i>a</i> represent the forces on <i>a</i> due to the set
+(<i>b</i>,<i>c</i>,<i>d</i>,<i>e</i>,<i>f</i>).  The Cartesian derivatives of atom <i>a</i> do <em>NOT</em>
+include terms from  the surrounding unit cells.  Because of this, those atoms
+in the CUC  which are at the cell boundaries are likely to have large
+derivatives.
+</p><p>
+The Cartesian derivatives of the surrounding unit cells represent the  forces
+acting on the atoms in those cells arising from the atoms of the CUC.  Again,
+this is an unbalanced set of forces, and those atoms near to the cell
+boundaries are likely to have large resultant forces.
+</p><p>
+It is possible to evaluate the total, balanced, forces acting on the atoms of
+the CUC.  This is done by simply adding the forces acting on the atoms of the
+three unit cells.  When the keywords given above are used, the last part of the
+derivative output consists of the forces acting on the CUC itself.
+</p><p>
+Only by representing the forces in this unusual manner can the information
+necessary for calculating the derivative of the translation vector be
+generated.
+</p></body>
+</html>

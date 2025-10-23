@@ -1,0 +1,5 @@
+ HTML OUTPUT add-H setpi t=2W GNORM=5 charge=-1 MOZYME site=(salt,"NZ  LYS A  23"(+),"OP3 8OG A1157"(-),"N1 8OG A1157"(0),"[ASP]120:A.OD2"(-),"[ASP]120:A.OD1"(0))
+ Add hydrogen atoms to MTH1 A
+
+           Empirical Formula: C817 H1514 N214 O382 S8 P   =  2936 atoms
+ Hydrogen atom 789 bonds to "ATOM    782  OE2 GLU A  52 " and "HETATM 2701  O   HOH A2056 "

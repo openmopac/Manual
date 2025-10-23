@@ -1,0 +1,46 @@
+HEADER  data-set: M:/Cambridge (paper)/Geometries of all 78 ligands/CVD-0019185
+REMARK  MOPAC, Version: unknown
+REMARK  Date: Feb 13 2024 01:23
+REMARK  Heat of Formation = -39.590 Kcal/mol
+HETATM    1  O   LIG B 452       9.659  -0.542  18.834  1.0  -7.19      PROT O 
+HETATM    2  C11 LIG B 452       8.956  -1.030  19.715  1.0   6.82      PROT C 
+HETATM    3  C12 LIG B 452       9.532  -1.789  20.908  1.0  -2.03      PROT C 
+HETATM    4  C13 LIG B 452       9.772  -0.792  22.004  1.0   0.12      PROT C 
+HETATM    5  C18 LIG B 452       8.722  -0.428  22.855  1.0  -0.74      PROT C 
+HETATM    6  C17 LIG B 452       8.898   0.555  23.823  1.0  -0.37      PROT C 
+HETATM    7  C16 LIG B 452      10.139   1.173  23.979  1.0  -0.58      PROT C 
+HETATM    8  C14 LIG B 452      11.021  -0.187  22.151  1.0  -0.64      PROT C 
+HETATM    9  C15 LIG B 452      11.171   0.777  23.140  1.0   0.56      PROT C 
+HETATM   10 CL   LIG B 452      12.728   1.534  23.321  1.0  -1.82      PROTCL 
+HETATM   11  N   LIG B 452       7.589  -0.936  19.695  1.0  -3.75      PROT N 
+HETATM   12  C4  LIG B 452       6.919  -0.015  18.867  1.0   0.42      PROT C 
+HETATM   13  C10 LIG B 452       6.331   1.165  19.427  1.0   0.06      PROT C 
+HETATM   14  C5  LIG B 452       6.420   1.505  20.803  1.0  -0.69      PROT C 
+HETATM   15  C6  LIG B 452       5.879   2.677  21.271  1.0  -0.09      PROT C 
+HETATM   16  C7  LIG B 452       5.187   3.544  20.387  1.0  -0.52      PROT C 
+HETATM   17  C8  LIG B 452       5.076   3.233  19.058  1.0  -0.27      PROT C 
+HETATM   18  C9  LIG B 452       5.660   2.040  18.550  1.0  -0.68      PROT C 
+HETATM   19  C1  LIG B 452       5.613   1.696  17.165  1.0   1.29      PROT C 
+HETATM   20  N2  LIG B 452       6.175   0.614  16.659  1.0  -3.69      PROT N 
+HETATM   21  C3  LIG B 452       6.827  -0.234  17.507  1.0   0.69      PROT C 
+HETATM   22  C   LIG B 452       6.024   3.036  22.730  1.0   2.37      PROT C 
+HETATM   23  O2  LIG B 452       5.021   2.247  23.377  1.0  -6.04      PROT O 
+HETATM   24  C19 LIG B 452       5.138   2.206  24.799  1.0   1.85      PROT C 
+HETATM   25  H18 LIG B 452       7.747  -0.904  22.752  1.0   0.84      PROT H 
+HETATM   26  H16 LIG B 452      10.279   1.940  24.737  1.0   0.94      PROT H 
+HETATM   27  H14 LIG B 452      11.852  -0.464  21.502  1.0   1.01      PROT H 
+HETATM   28  H8  LIG B 452       4.545   3.897  18.377  1.0   0.86      PROT H 
+HETATM   29  H   LIG B 452       7.072  -1.267  20.440  1.0   2.48      PROT H 
+HETATM   30  H7  LIG B 452       4.747   4.463  20.772  1.0   0.85      PROT H 
+HETATM   31 H121 LIG B 452      10.462  -2.306  20.604  1.0   1.13      PROT H 
+HETATM   32 H122 LIG B 452       8.866  -2.609  21.238  1.0   1.09      PROT H 
+HETATM   33  H17 LIG B 452       8.065   0.850  24.457  1.0   0.81      PROT H 
+HETATM   34  H5  LIG B 452       6.927   0.831  21.491  1.0   0.76      PROT H 
+HETATM   35  H3  LIG B 452       7.290  -1.116  17.047  1.0   1.06      PROT H 
+HETATM   36  H1  LIG B 452       5.088   2.364  16.466  1.0   1.02      PROT H 
+HETATM   37  H1  LIG B 452       7.041   2.784  23.106  1.0   0.44      PROT H 
+HETATM   38  H2  LIG B 452       5.841   4.113  22.922  1.0   0.45      PROT H 
+HETATM   39 H191 LIG B 452       4.308   1.557  25.125  1.0   0.49      PROT H 
+HETATM   40 H192 LIG B 452       6.101   1.766  25.113  1.0   0.36      PROT H 
+HETATM   41 H193 LIG B 452       5.024   3.209  25.244  1.0   0.35      PROT H 
+END

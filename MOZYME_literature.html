@@ -1,0 +1,316 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage 12.0" name="Generator"/>
+<title>MOZYME</title>
+</head>
+<body link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<b><font face="Arial" size="4"><p align="CENTER">MOZYME</p>
+</font></b><font face="Arial" size="2"><p>&nbsp;</p>
+</font><b><u><font face="Arial" size="4"><p>Main MOZYME function</p>
+</font></u></b><font face="Arial" size="2"><p>Conventional semiempirical methods use matrix algebra methods, most of which scale as the third power of the number of atoms.  A consequence of this is that modeling of systems of more than 1,000 atoms is impractical.  </p>
+<p>By using Localized Molecular Orbitals (LMO), the Self-Consistent Field equations can be solved in a time proportional to the size of the system.  Increasing the speed of the SCF moved the slow step to other parts of the calculation, so changes were made to all the remaining time-consuming steps to make them more efficient.  Changes were also made that reduced the memory demand.  The result of all these changes is that routine modeling operations can now be carried out on over 90% of all the entries in the Protein Data Bank (PDB), previously only about 10% of all entries could be used.</p>
+</font><b><font face="Arial"><p>Geometric functions </p>
+</font></b><font face="Arial" size="2"><p>Most of the common modeling functions have been enhanced by the MOZYME function, these include:</p>
+<ul>
+<b><li>Single-point calculations.</li></b></ul>
+<p>A general impression of the change in behavior can be obtained by comparing the resources required for various single-point, i.e., single SCF, calculations.  Other operations, such as geometry optimization, consist of repeated SCF calculations.  All calculations shown here were done using a Windows XP Pro computer with a 4000+ or 2.41 GHz Athlon processor.</p>
+<p>The test systems used here were constructed from a single large protein, cut into pieces of the appropriate size.</p>
+<b></b><p align="CENTER">Comparison of MOPAC and MOZYME computer resources required for a 1SCF calculation</p>
+</font><font size="2"></font>
+<p align="CENTER"></p><center><table border="" cellpadding="7" cellspacing="1" width="564">
+<tr><td rowspan="2" valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">No. of atoms</p></font></td>
+<td colspan="2" valign="TOP" width="30%">
+<font face="Arial" size="2"><p align="CENTER">Time for 1SCF (minutes)</p></font></td>
+<td colspan="2" valign="TOP" width="30%">
+<font face="Arial" size="2"><p align="CENTER">Memory (megabytes)</p></font></td>
+<td colspan="2" valign="TOP" width="30%">
+<font face="Arial" size="2"><p align="CENTER">Ratio MOPAC/MOZYME</p></font></td>
+</tr>
+<tr><td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">MOZYME</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">MOPAC</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">MOZYME</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">MOPAC</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">time</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">memory</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">400</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">0.2</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">2.3</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">17</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">101</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">12</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">6</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">800</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">0.4</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">25.4</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">33</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">391</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">64</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">12</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">1000</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">0.9</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">59.0</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">43</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">607</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">65</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">14</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">1500</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">2.3</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">222.6</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">78</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">1,424</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">97</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">18</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">2000</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">2.9</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(527)&sup1;</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">102</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(2,532)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(182)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(25)</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">3000</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">5.6</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(1,781)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">164</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(5,696)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(318)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(35)</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">5000</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">15.8</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(8,244)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">367</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(15,822)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(522)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(43)</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">10000</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">56.9</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(65,956)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">1,007</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(63,288)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(1,159)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(63)</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">15000</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">230.3</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(222,600)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">1,026</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(142,400)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(966.4)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(139)</p></font></td>
+</tr>
+<tr><td valign="TOP" width="10%">
+<font face="Arial" size="2"><p align="RIGHT">18000</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">308.4</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(384,653)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">1,262</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(205,056)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(1,247)</p></font></td>
+<td valign="TOP" width="15%">
+<font face="Arial" size="2"><p align="CENTER">(162)</p></font></td>
+</tr>
+</table>
+</center>
+<font face="Arial" size="1"><p align="CENTER">1: Numbers in parentheses are estimated</p>
+</font><font size="2"><p align="CENTER"></p>
+</font><font face="Arial" size="2"><p>After the first SCF calculation is done, all subsequent SCF calculations run much faster:</p>
+<ul><b><li>Geometry optimization: </li></b>This includes single point, restricted, and unrestricted, for molecular assemblies and for solids. </ul>
+<ul><b><li>Transition state location. </li></b>This operation runs at about half the speed of geometry optimization.</ul>
+<ul><b><li>Transition state refinement. </li></b>This operation runs at about 20% of the speed of geometry optimization. </ul>
+<ul><b><li>Transition state characterization. </li></b>The 
+  <a href="force.html"><tt>FORCE</tt></a> calculation is a rapid operation now, running in a
+ small fraction of the time required for geometry optimization. </ul>
+<ul><b><li>Intrinsic Reaction Coordinate. </li></b>Unlike the other operations, this is very time consuming, 
+taking 10  50 times longer than a geometry optimization. </ul>
+<ul><b><li>Reaction paths, grids, etc. </li></b>These can be run using only the atoms of interest, in which case 
+it is very fast, or using all atoms at every step, in which case it is slow.  The time for each point is 
+only slightly less than a geometry optimization. </ul>
+</font><b><font face="Arial" size="4"><p>Accuracy</p>
+</font></b><font face="Arial" size="2"><p>Properties of proteins (structure, energetics, reactions, etc.) are reproduced with good accuracy using PM7. For details of PM7, see: 
+http://link.springer.com/article/10.1007%2Fs00894-012-1667-x</p></font>
+<font face="Arial" size="2"><p>For accuracy of PM7 compared to other methods, see </p></font><a href="../PM7_and_PM6-D3H4_accuracy/Accuracy%20of%20PM7%20and%20PM6-D3H4.html"><font face="Arial" size="2">here</font></a>
+<font face="Arial" size="2"><p>For accuracy of modeling protein properties, see: HTTP&lt;add URL here&gt;</p>
+<b></b><p>&nbsp;</p>
+</font><font face="Arial" size="4"><p>Limitations</p>
+</font><font face="Arial" size="2"><p>The current MOZYME function is restricted to closed-shell systems 
+for which a <a href="Lewis_structures.html">Lewis</a> structure can be generated.  Only Restricted Hartree Fock methods can be used, ROHF and 
+UHF are not available. This means that well-known radicals, such as ethyl, C<sub>2</sub>H<sub>5</sub>&middot;, and 
+triphenylmethyl, (C<sub>6</sub>H<sub>5</sub>)<sub>3</sub>C&middot;, cannot be modeled. An exception to this rule 
+concerns biomolecules that contain transition metals.  These are normally treated as open-shell systems, but 
+if the main focus of interest is on geometries and energetics, they can be modeled using closed shell methods.</p></font>
+<ul><b><li>Electronic properties:&nbsp; </li></b>Only the ground electronic state can be modeled.  This excludes all excited electronic states.</ul>
+<ul><b><li>Structures: </li></b>Thus far, no structures have been found that cannot be modeled using MOZYME.  
+The maximum number of atoms attached to a given atom is 15. </ul>
+<ul><b><li>Upper size limit for geometry optimization:</li></b>15,000 atoms.  Above 10,000 atoms, optimization becomes slow. </ul>
+<ul><b><li>Upper size limit for single point calculation (usually for generating forces):</li></b> 18,000 atoms. </ul>
+<ul><b><li>Upper size limit for transition state operations, the IRC and the DRC: </li></b>The same as geometry optimization. </ul>
+<font color="#ff0000" face="Arial" size="2">
+</font><b><font face="Arial" size="4"><p>Utilities</p></font></b>
+<ul>
+<font face="Arial" size="2"><li>Detection of errors in the starting geometry. Of their nature, proteins are large molecules, 
+and making sure that every atom has the correct valency is tedious.  Every program for adding hydrogen 
+atoms that was tested has faults, and even one fault can ruin a simulation.  All faults resulting in incorrect 
+valences can be identified by keyword CHARGES.  This prints out the atom numbers and types of all charged atoms.  
+These can then be quickly checked using a GUI, and any corrective action then taken.</li></font></ul>
+<ul><b><li>Identification of residues. </li></b>Using <a href="residues.html"><tt>RESIDUES</tt></a>, the residue sequence can be calculated and printed.  This allows unrecognized residues 
+to be identified.  If they represent user errors, then corrective action can be taken. If they represent genuine hetero groups, 
+they can be re-defined as modified residues using keyword 
+  <a href="xeno.html"><tt>XENO</tt></a>. If they are the result of severe distortions generating spurious bonds, 
+these bonds can be broken using keyword <tt><a href="CVB.html"><tt>CVB</tt></a></tt>.</ul>
+<ul><b><li>Identification of ionized residues.</li></b> During a geometry optimization, hydrogen atoms might migrate to form a salt bridge. 
+All resulting ionized residues are indicated by a trailing "+" or "&shy;" sign. Partial charges on residues can also be printed.</ul>
+<ul><b><li>Ramachandran angles.</li></b> All Ramachandran angles are printed when 
+  both
+  <a href="rama.html"><tt>RAMA</tt></a> is present and residues are identified.</ul>
+<ul><b><li>Atom and residue gradients.</li></b> Total forces acting on atoms and on residues can be printed.  This allows the 
+rapid identification of geometric distortions, particularly in X-ray structures.</ul>
+<ul><b><li>Restart option.</li></b> Because calculations involving proteins often take many days, a robust restart 
+function is provided. During a long run, the restart file(s) can be used to run a zero-SCF, this allows a detailed 
+examination of the state of the running system to be made, without stopping the run.</ul>
+<ul><li><b>Read PDB files.</b> Protein data bank files are automatically recognized and read in.  Most of the PDB 
+format is supported.</li></ul>
+<font color="#ff0000" face="Arial" size="2">
+<ul>
+</ul></font><font face="Arial" size="2"><li><b>Write PDB files.</b> When <tt>
+<a href="pdbout.html">PDBOUT</a></tt> or <tt><a href="reseq.html">RESEQ</a></tt> is used, the geometry is printed out in PDB format.</li>
+<ul>
+<b><li>Re-define chains and residue numbers</li></b></ul>
+<ul>
+<li><b>Resequence.</b> When hydrogen atoms are added, they are usually put at the end of the data set.  
+This results in a non-standard PDB format.  The standard PDB format can be generated using <tt>RESEQ</tt>. This puts all atoms in the same residue together. 
+If two geometries, from entirely different PDB files are compared, the atoms in each file must first be put into the same sequence, 
+so that there is an exact one-to-one correspondence.  Unavoidable ambiguities in the PDB format definition require some extra re-arranging 
+of atoms to ensure maximum coincidence.  This is done using keyword <tt>
+<a href="geo_ref.html">GEO_REF</a></tt>.</li></ul>
+</font><b><font face="Arial" size="4"><p>Getting started using MOZYME</p>
+</font></b><font face="Arial" size="2"><p>Because the issues involved in manipulating proteins are very different from those involving small molecules, all users are strongly recommended to spend some time familiarizing themselves with the 
+MOZYME utilities.</p>
+<p>&nbsp;</p>
+</font><b><font face="Arial"><p>General guidelines</p>
+<ul>
+</ul></font></b><font face="Arial" size="2"><li><b>The initial geometry should be uncharged.</b> In many proteins there are charged sites such as carboxylate anions and ammonium cationic sites; often these form internal salt bridges.  Nevertheless, in order to avoid any ambiguity about the electronic state of the system, all charges should be neutralized during the preparation of a starting geometry 
+by adding or removing hydrogen atoms</li></font><font face="Arial" size="2">. Even systems, such as bacteriorhodopsin, 
+that have a definite net charge, should be first represented as the neutral species. The only exceptions are when a strong monovalent 
+ion such as potassium or tetra-alkylammonium cation, or a halide anion is present, in which case the ion should be correctly represented. 
+
+<p>Preconceived ideas of charge are often wildly inaccurate.  These include generalizations such as "all acid functions should be ionized" and "all arginine residues should be protonated." If these ideas were implemented, the resulting net charge on a protein would likely be nonsense.</p>
+<p>This policy of requiring the initial structure to be uncharged might appear to be restrictive, but during a geometry optimization salt bridges will often form spontaneously, so the initial uncharged species is quickly replaced by a more realistic system.  After the geometry is optimized, any ions the user considers important can then be added. If the entire protein has to have a certain net charge, protons can be added or removed as necessary. Thus bacteriorhodopsin would have the retinal Schiff base nitrogen atom protonated to give bR<sup>+</sup>.</p>
+<p>The end result is a well-defined protein with the correct charged sites.  </p>
+<ul>
+<li><b>Check hetero groups.</b> Most utilities that add hydrogen atoms do a good job of handling the common residues, but a poorer job with hetero systems, such as the heme group.  Because of this, almost all the errors in adding hydrogen atoms occur with hetero groups.  Therefore, these groups should be checked carefully to verify that the degree of saturation is correct.</li></ul>
+<ul>
+<li><b>Identify and characterize uncommon residues.</b> If a residue is not recognized by MOPAC, check that it is correct.  
+If it should be one of the 20 common residues, either add the missing atoms, or use 
+<a href="xeno.html"><tt>XENO</tt></a> to allow the residue to be recognized.  
+If it is a modified residue, such as the retinal group in bR, use <tt>XENO</tt> to re-define it as the parent residue&nbsp;  
+Do <i>not</i> ignore unrecognized residues  they usually indicate a fault in the data set.</li></ul>
+<ul>
+<li><b>Trust that the charged sites printed are correct. </b>The method for calculating charged sites is very robust.  
+If it says that a site is charged, believe it.  In older versions of MOPAC, charged sites were not printed, 
+and about twenty users reported errors in MOPAC, saying that the net charge it wanted was incorrect.  
+In every case, errors were found in the users data set, due to simple errors in assigning hydrogen atoms.
+<p>Although the charges reported by MOPAC are always correct, minor problems might be encountered in extended, delocalized,  
+</p></li></ul></font><font face="Symbol" size="2">p</font><font face="Arial" size="2"> systems. Thus if the hydrogen on the phenol oxygen in tyrosine is missing, 
+the charge might be placed on the C</font><font face="Symbol" size="2">g</font><font face="Arial" size="2"> rather than on the oxygen, 
+that is, the Lewis structure MOPAC generated was for the quinone rather than the phenolic resonance structure.
+</font></body>
+</html>

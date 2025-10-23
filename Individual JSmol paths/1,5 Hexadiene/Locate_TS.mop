@@ -1,0 +1,2 @@
+geo-ok geo_ref="1,5-Hexadiene (form B).arc" geo_dat="1,5-Hexadiene (form A).arc" locate-ts(C:10,20,20,20,40,60,80;set=1) opt xyz HTML noswap 
+Transition state for the reaction 1,5-hexadiene <=> 1,5-hexadiene

@@ -1,0 +1,115 @@
+#
+#  Script to show the complete chymotrypsin catalytic cycle
+#
+measure delete
+connect  (carbon) (oxygen) delete
+connect 0.8  1.6 (carbon) (oxygen) create
+var nmodels={*}[0].modelindex + 1
+var start = 1;
+for (var i = start; i <= nmodels; i++) {
+frame @i
+switch(true) {
+                                                                     case (i < 2):
+#
+#  Set up orientation for the reaction, and display only the interesting parts.
+#
+frame TITLE "@{i} Rocking figure to show orientation"
+reset;center {26.679000000000002 1.8894999999999997 37.5005}; rotate z 125.01; rotate y 73.42; rotate z 121.79; zoom 309.52; translate x -7.2; translate y -36.6;
+display *
+hide add 193, 194, 251, 252, 253, 487, 647;
+display add 252.C, 252.O, 252.N, 252.HA, 252.CA, 253.H, 253.N, 253.CA, 253.HA, 253.C, 253.CB;
+select 57.CD2; set labeloffset 70 10; label  "His57";   color label black; font label 25;
+select 195.OG; set labeloffset 60  0; label  "Ser195";  color label black; font label 25;
+select 253.N;  set labeloffset 40 40; label  "Peptide"; color label black; font label 25;
+select off;
+rotate 30 15
+delay 1
+rotate -30 -15
+delay 1
+break;
+                                                                     case (i < 3):
+#
+#  Set up measurements for Step 1 - 2 
+#
+measure all (57.NE2) (195.HG)
+measure all (195.HG) (195.OG)
+measure all (195.OG) (252.C)
+measure all (253.N) (252.C)
+measure "2:%0.3VALUE//A"
+                                                                     case (i < 76):
+#
+#  Animation for Step 1 - 2,  Models 2:75
+#
+frame TITLE "@{_modelName} Forming Td intermediate and migration of H to His"
+break;
+                                                                     case (i < 77):
+#
+# Set up measurements for (blur end of first step to start of second step)
+#
+measure delete
+measure all (57.NE2) (195.HG)
+measure all (195.OG) (252.C)
+measure all (253.N) (252.C)
+measure all (195.HG) (253.N)
+measure "2:%0.3VALUE//A"
+select 195.OG; label  off;
+select 253.N;  label  off
+                                                                     case (i < 95):
+#
+# Animation to blur end of first step to start of second step
+#
+frame TITLE "@{_modelName} Motion of His to line up hydrogen atom"
+break;
+                                                                     case (i < 96):
+#
+# Set up measurements for (migrate hydrogen from His to peptide Nitrogen)
+#
+measure delete
+measure all (57.NE2) (195.HG)
+measure all (195.OG) (252.C)
+measure all (253.N) (252.C)
+measure all (195.HG) (253.N)
+measure "2:%0.3VALUE//A"
+select 195.OG; label  off;
+select 253.N;  label  off
+                                                                    case (i < 165):
+#
+# Animation to migrate hydrogen from His to peptide Nitrogen
+#
+frame TITLE "@{_modelName} Migration of H from His to peptide N"
+break;
+                                                                    case (i < 166):
+#
+# Re-orientate system to show motion of departing amine group and set up measurements
+#
+frame TITLE "@{_modelName} Rotating system"
+moveto 1.0 { -452 -534 -715 103.05} 309.52 -7.2 -36.6 {26.679000000000002 1.8894999999999997 37.5005} 11.628495104053588 {0 0 0} 0 0 0 3.0 0.0 0.0;
+select 195.OG; set labeloffset 60 0; label  off;
+measure delete
+measure all (253.N) (252.C)
+break;
+                                                                    case (i < 184):
+frame TITLE "@{_modelName} Motion of amine to prepare for departure"
+break;
+                                                                    case (i < 249):
+#
+# Animation to show motion of departing amine group
+#
+frame TITLE "@{_modelName} Peptide bond breaks, amine departs"
+break;
+                                                                    case (i < 250):
+display add 487, 647;
+measure delete
+measure all (487.1H) (252.O)
+measure all (647.O) (252.C)
+delay 1
+                                                                    case (i < 251):
+#
+# Show H3O and H2O and set up measurements for (H3O and H2O moving in for hydrolysis)
+#
+                                                                    case (i < 324):
+frame TITLE "@{_modelName} H3O and H2O moving in for hydrolysis"
+break;
+}
+refresh
+}

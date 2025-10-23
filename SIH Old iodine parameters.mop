@@ -1,0 +1,12 @@
+*
+* The heat of formation should be positive because of the large charge, +2, on the system
+* The "d" population in the .out file is 9.49950, this is nonsensically large.
+* The partial atomic charges on sulfur, +3.662083, is nonsensically large.
+*
+  external="Old iodine parameters.txt" PM6-ORG CHARGE=2  
+  Optimize structure for SIH using the old PM6-ORG parameters for iodine. The results should be very bad
+
+  S(HETATM    9  S   IPH C   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  I(HETATM   10  I   IPH C   1)   1.32938436 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM   17 2H   IPH C   1)   1.51356450 +1  180.0007092 +1    0.0000000 +0     2     1     0
+ 

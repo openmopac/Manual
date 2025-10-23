@@ -1,0 +1,61 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+</head><body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<p>
+
+&nbsp;</p><title>XENO </title><h2 align="center">
+<tt>XENO</tt> </h2>
+<p>This keyword is only used when the default atomic labels in a PDB file are 
+not to be used, i.e., when <a href="residues.html">
+<tt>RESIDUES</tt></a> or <a href="residues.html"><tt>RESIDUES0</tt></a> is present.&nbsp; 
+</p><h3>For non-standard residues and hetero groups</h3>
+<p>By default, the 
+method that recognizes amino acid residues only recognizes the standard twenty amino-acid residues, but some proteins contain residues which have extra molecular fragments attached. 
+Other residues, particularly where there is a break in a chain, have atoms 
+missing and therefore they do not correspond to any of the 20 standard residues.&nbsp; 
+In some cases, even though some atoms are missing, the remaining residue is one 
+of the standard 20 residues.&nbsp; This results in the residue being 
+misidentified. Many hetero groups (small molecules, e.g., water, sulfate, 
+glucose) that are associated with a protein are automatically recognized.&nbsp; 
+Unidentified residues are given the label "UNK", and any heterogroups not recognized are given the label 
+"HET". In order to allow these unusual species to be correctly recognized, the keyword <tt>XENO</tt> 
+is provided. <tt></tt></p><p>XENO, from the Greek <i>&xi;&epsilon;&nu;&omicron;&sigma;</i>, xenos, for 'stranger', defines 
+unusual residues in a protein and unusual heterogroups in terms of the 
+residue's number and chain letter. The format of <tt>XENO</tt> is: </p>
+<tt></tt><p>XENO=([<i>C</i>]<i>Res=L</i>[{,;}[<i>C</i>]<i>Res=L</i>][{,;}[<i>C</i>]<i>Res=L</i>]...) 
+where <em>[C]</em> is the chain letter, if used, <em>Res</em> is the residue 
+number, and <em>L</em> is the one-letter symbol for the residue, 
+e.g.
+<tt>XENO=(A55=K;78=L,C3=P) </tt>or
+a three-letter identifier, for example: <tt>XENO=(B1123=ATP,B1157=SO4)</tt>.&nbsp; 
+These two styles can be used in any order in the keyword, e.g.,: <tt>XENO=(A12=G,B1157=8OG,B45=D,A787=ATP,B1157=8OG,123=BIT)</tt></p><p>If the one letter abbreviation 
+is used, e.g., K for lysine 
+or L for leucine, this will be replaced in the run by the standard three-letter 
+identifier.&nbsp; If the chain letter is omitted, chain A will be 
+assumed.</p>
+<p>When a prosthetic group is present, e.g. the&nbsp;the extra fragment in bacteriorhodopsin, on Lys216: -COCHRNH-;&nbsp;&nbsp; R = CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>N=CHCH=CMeCH=CHCH=CMeCH=CHC<sub>9</sub>H<sub>15</sub><!-- MATH: $\chem  -COCHRNH- ;  R = \chem{CH_2CH_2CH_2CH_2N\!\!=\!\!CHCH\!\!=\!\!CMeCH\!\!=\!\!CHCH\!\!=\!\!CMeCH\!\!=\!\!CHC_9H_{15}}$ -->, 
+an alternative to using <tt>XENO</tt> is to delete the connection between the normal 
+residue (here lysine) and the prosthetic (here retinal), using <tt>
+<a href="CVB.html">CVB</a></tt></p>
+<p>If <tt>XENO</tt> is <em>not</em> used, the checks on possible problems in the 
+PDB file will still work, but the label for partial or the modified residues will be 
+incorrect or reported as&nbsp;"<tt>UNK"</tt> or, for heterogroups, <tt>"HET"</tt>, instead of the more descriptive label which would result from using <tt>XENO</tt>. </p>
+<p>See also: <a href="residues.html">
+<tt>RESIDUES</tt></a>, <a href="reseq.html"><tt>RESEQ</tt></a>,
+<a href="chains.html"><tt>CHAINS</tt></a>, and <a href="start_res.html"><tt>START_RES</tt></a>.</p>
+</body></html>

@@ -1,0 +1,1 @@
+Mapping the IRC can be done in two different ways.  The faster way is to take advantage of the fact that the reaction is narcissistic, see "1,5-hexadiene Narcissistic reaction.mop"  The other way, more conventional, is to locate the approximate transition state starting with the reactants and products, see: "Locate_TS.mop"

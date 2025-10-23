@@ -1,0 +1,14 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid p
+REMARK  MOPAC 2016, Version: 21.153W Date: Jun  2 2021 17:32
+REMARK   3 HET = Not identified; C 3 H 5 N O        =    10 atoms res:    1
+HETATM    1  C1  HET A   1       0.000   0.000   0.000  1.00 -0.15      PROT C 
+HETATM    2  C2  HET A   1       1.538   0.000   0.000  1.00 -0.31      PROT C 
+HETATM    3  O   HET A   1      -0.388   1.408   0.000  1.00 -0.12      PROT O 
+HETATM    4  N   HET A   1       0.722   2.191   0.000  1.00 -0.13      PROT N 
+HETATM    5  C3  HET A   1       1.812   1.491   0.000  1.00 -0.09      PROT C 
+HETATM    6 1H1  HET A   1      -0.449  -0.437   0.902  1.00  0.15      PROT H 
+HETATM    7 2H1  HET A   1      -0.449  -0.437  -0.902  1.00  0.15      PROT H 
+HETATM    8 1H2  HET A   1       1.968  -0.498  -0.885  1.00  0.16      PROT H 
+HETATM    9 2H2  HET A   1       1.968  -0.498   0.885  1.00  0.16      PROT H 
+HETATM   10  H3  HET A   1       2.807   1.906   0.000  1.00  0.18      PROT H 
+END

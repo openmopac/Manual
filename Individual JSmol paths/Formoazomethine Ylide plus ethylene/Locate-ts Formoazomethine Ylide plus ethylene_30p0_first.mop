@@ -1,0 +1,18 @@
+geo-ok GEO_REF="M:\Individual JSmol paths\Formoazomethine Ylide plus ethylene\Locate-ts Formoazomethine Ylide plus ethylene_30p0_second.mop"  locate-ts(C:30)  HTML precise opt XYZ CHARGE=2
+ Transition state for Formoazomethine Ylide plus ethylene <=> Formoazomethine Ylie plus ethylene Product
+
+  C(HETATM    1  C   HET A   1)  -0.08259117 +1   0.73568681 +1   0.03207818 +1
+  C(HETATM    2  C   HET A   1)   1.26205514 +1   0.79110052 +1   0.07276767 +1
+  C(HETATM    3  C   HET A   1)  -0.98658082 +1   2.80776710 +1  -0.00123902 +1
+  N(HETATM    4  N   HET A   1)   0.17625938 +1   3.39964527 +1  -0.37375348 +1
+  C(HETATM    5  C   HET A   1)   1.26150814 +1   3.55819127 +1   0.41525954 +1
+  H(HETATM    6 1HT1 HET A   1)  -0.67307398 +1   0.65351404 +1   0.93675066 +1
+  H(HETATM    7 2HT1 HET A   1)  -0.62636236 +1   0.55613029 +1  -0.89465087 +1
+  H(HETATM    8 1HT2 HET A   1)   1.89006414 +1   0.74455175 +1  -0.80978655 +1
+  H(HETATM    9 2HT2 HET A   1)   1.83925006 +1   0.86165242 +1   0.99338146 +1
+  H(HETATM   10 1HT3 HET A   1)  -1.82212241 +1   2.66918693 +1  -0.73185997 +1
+  H(HETATM   11 2HT3 HET A   1)  -1.25512164 +1   2.52255520 +1   1.04288613 +1
+  H(HETATM   12  H   HET A   1)   0.22564754 +1   3.78884007 +1  -1.34928848 +1
+  H(HETATM   13 1HT4 HET A   1)   1.32465723 +1   3.25139643 +1   1.47795656 +1
+  H(HETATM   14 2HT4 HET A   1)   2.21694239 +1   3.93667954 +1  -0.01898832 +1
+ 

@@ -1,0 +1,150 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> The Madelung Problem</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>The Madelung Problem
+</h2>
+The number of diatomic interactions in molecules is finite, being
+(<i>N</i>(<i>N</i>+1))/2 in number, where <i>N</i> is the number of atoms.  Solids, on the other hand, have
+potentially an almost infinite number of diatomic  interactions.  In order to
+reduce this enormous number of interactions to a manageable amount,
+approximations are necessary.
+<p>
+Quantum effects arising from the overlaps of atomic orbitals can extend to a
+distance of a few tens of &Aring;ngstroms.  However, the overlaps themselves
+become negligible at distances of only a few &Aring;ngstroms.  Overlap integrals
+decrease in value at large distances in proportion to the inverse exponential
+of  their orbital exponents.  Because of this fact, all overlap integrals
+involving atoms separated by more than a specified distance can be ignored.  In
+practice, a limit of 5-7&Aring; should be used. <a name="BM18250">&nbsp;</a> One advantage of limiting overlap integrals is that the calculation
+runs much faster.  A diamond calculation involving 64 carbon atoms took 31
+minutes to do one SCF calculation.  When overlaps involving atoms separated by
+more than 7 &Aring;ngstroms were ignored, the calculation took less than 3
+minutes.
+</p><p>
+Electrostatic terms are more difficult to approximate.  Unlike quantum effects,
+electrostatic terms remain significant even at quite large distances, say
+several tens of &Aring;ngstroms.  Simply ignoring all terms beyond a specific
+distance results in large errors.  Consider a simple two-dimensional ionic
+lattice consisting of alternating positive and negative charges in a square
+array (Figure).  Each positive ion is surrounded at a distance
+<i>r</i> by
+four negative ions, and at a distance 2<sup>1/2</sup>r
+by four positive ions.  If
+all electrostatic interactions at distances greater than a preset value are
+ignored, then each positive ion will experience an electrostatic field due to 4
+or 8 more or less positive ions than negative ions.  Consider first the effect
+of 4 excess positive ions.  Because of electrostatic repulsion, these ions
+would raise the energy of the ion by 1328/<i>R</i> kcal/mol, where <i>R</i> was the
+cutoff-distance for electrostatic interactions.  Similarly, if there were 4
+excess negative ions, each positive ion would be stabilized by 1328/<i>R</i> kcal/mol.
+Even for large <i>R</i>, say 20 &Aring;ngstroms, the effect would amount to
+many tens of kcal/mol.
+</p><p>
+One option would be to include all interactions in a finite set of  fundamental
+unit cells.  Since each unit cell is, by definition,  electrically neutral,
+this would result in each ion experiencing a field arising from all other
+ions.  The sum of the charges on all the ions each ion would experience would
+be simply equal to the negative of the ion's own charge.  Consider a cell
+consisting of 2A(+).2B(-), in which the four ions form a square with
+alternating charges, e.g. A(+)-B(-)-A(+)-B(-).  If 9 cells, forming a 3 by 3
+grid, were used to represent the solid, then ion A(+) would experience the
+environment of 17 A(+) ions and 18 B(-) ions. This is similar to the situation
+which occurs in a molecule.
+</p><p>
+<br/>
+</p><div align="CENTER"><a name="tdil">&nbsp;</a><a name="BM18758">&nbsp;</a>
+<table width="50%">
+<caption><strong>Figure:</strong>
+Two-dimensional ionic lattice</caption>
+<tr><td>
+<div align="CENTER">
+&nbsp;<img align="BOTTOM" alt="\framebox{
+\setlength{\unitlength}{1in}
+\begin{picture}
+(2.7,2.7)(0.0,0.0)
+\put(...
+...\put(2.04,2.20){\line(0,1){0.2}}
+\put(2.54,2.20){\line(0,1){0.2}}
+\end{picture}}" border="0" height="522" src="img1318.gif" width="544"/></div></td></tr>
+</table>
+</div>
+<br/>
+<p>
+This approximation is acceptable for polymer systems, but it  can induce a
+small error in the symmetry of the electric field in a two-dimensional
+system.   Consider the electric field on the ions A(+) and B(-) in our system.
+Each ion would experience an electrostatic environment which did not have
+square symmetry.  To see this, consider the number of B(-) ions the A(+) ion
+would interact with, 18 in all.  It is clearly impossible to position 18 B(-)
+ions in such a way as to yield a potential having square symmetry at ion A(+).
+</p><p>
+For a three dimensional system, the problem is much more serious.  For a unit
+cell consisting of A(+)-B(-), every "A" ion would experience a highly
+asymmetric  potential.  Increasing the number of unit cells involved does not
+solve the problem--with increasing numbers of unit cells, the effects arising
+from distant ions becomes less, but the number of distant ions increases. Put
+another way, the influence of an ion falls off as <i>r</i><sup>-2</sup>, but the number  of
+such ions increases as <i>r</i><sup>2</sup>.  This phenomenon is peculiar to 3-D systems.
+</p><p>
+To correct this error in the symmetry of the potential, a new approximation is
+needed, in which the environment of each ion has the  correct symmetry. In
+addition to having the correct symmetry, the function must  have a continuous
+first derivative, in order for the derivatives to be calculable.
+</p><p>
+A cutof distance is selected, this is called <tt><a href="cutofp.html">CUTOFP</a></tt>; by default this is
+set at 30 &Aring;ngstroms.  The electrostatic terms arising from all atoms up to
+2/3<i>CUTOFP</i> are treated as normal.  Between 2/3<i>CUTOFP</i> and 4/3<i>CUTOFP</i>, the
+apparent distance of the atom is reduced, and for atoms separated by more than
+<i>CUTOFP</i>, the apparent distance is set to <i>CUTOFP</i>.  These three domains can be
+summarized as follows:
+</p><p>
+</p><div align="CENTER">
+<table border="1" cellpadding="3">
+<tr valign="BASELINE"><td align="CENTER">Domain</td>
+<td align="CENTER">Apparent Distance*</td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">
+<i>R</i><sub><i>AB</i></sub> &lt; (2/3)<i>C</i></td>
+<td align="CENTER"><i>R</i><sub><i>AB</i></sub></td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">
+(2/3)<i>C</i> &lt;<i>R</i><sub><i>AB</i></sub> &lt; (4/3)<i>C</i></td>
+<td align="CENTER">
+<img align="MIDDLE" alt="$2R_{AB}-C/3-\frac{3}{4}R^2/C$" border="0" height="36" src="img1319.gif" width="137"/></td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">
+<i>R</i><sub><i>AB</i></sub> &gt; (4/3)<i>C</i></td>
+<td align="CENTER">C</td>
+</tr>
+</table>
+<br/>
+*: C=<i>CUTOFP</i></div>
+<p>
+Inspection of this function  shows that in the region of
+<i>R</i>=(2/3)<i>CUTOFP</i>, the
+function value is
+(2/3)<i>CUTOFP</i> and the derivative is 1.0.  In the region
+<i>R</i>=(4/3)<i>CUTOFP</i> the function has the value <i>CUTOFP</i>, and has a derivative of
+zero. In between these two limits, the value of the derivative decreases
+smoothly from 1.0 to 0.0.
+</p></body>
+</html>

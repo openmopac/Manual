@@ -1,0 +1,79 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>LEWIS </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>LEWIS</tt>
+</h1>
+<p align="left">
+Print the topography and Lewis structure.&nbsp;
+When <tt>LEWIS</tt> is present, the run is stopped after the structure is printed.</p>
+<p align="left">
+This keyword is useful for checking that a Lewis structure exists.&nbsp; Quite 
+complicated systems can be supplied, such as buckyball (C<sub>60</sub>), carbon nanotube 
+(buckytube), 
+graphite, phthalocyanines, and diamond.</p>
+<p align="left">
+A Lewis structure consists of single, double and triple bonds, lone pairs, 
+anionic and cationic sites, and positively and negatively charged atoms (ions).&nbsp; 
+The method used in MOPAC is quite powerful, and except for rare cases, gives a 
+reasonable structure.&nbsp; The exceptions are:</p>
+<ul>
+<li>
+<p align="left">
+In buckytubes, the assumption is made that a graphitic lattice, rather than an 
+extended conjugated poly-acetylene type <span class="b">&pi;</span> bonding 
+structure exists. In some cases, the only unionized structure involves using an 
+extended conjugated poly-acetylene motif. </p>
+</li>
+<li>
+<p align="left">
+(To be added, as necessary)</p>
+</li>
+</ul>
+<p align="left">
+When large organic molecules are being studied, a preliminary calculation to 
+generate the Lewis structure should be run before doing serious work.&nbsp; This 
+will identify all ionized sites in the system. <i>&nbsp;Check that these sites 
+are correct!</i>&nbsp; See also <tt><a href="charges.html">CHARGES</a></tt></p>
+<p align="left">
+If only the topography is important, then also add keyword <tt>
+<a href="zero_scf.html">0SCF</a>.</tt> This will 
+stop the run after the topography, but before the Lewis structure is printed. 
+This option is useful when using&nbsp; keyword&nbsp; <tt>
+<a href="CVB.html">CVB</a> </tt>to correct faults in the topology<tt>.</tt></p>
+<p>Related key-words:&nbsp; <tt> <a href="CVB.html">
+CVB</a>, <a href="metal.html">METAL</a>, <a href="vdwm.html">VDWM</a>,
+<a href="charge.html">CHARGE</a>, <a href="charges.html">CHARGES</a>, <a href="setpi.html">SETPI</a></tt>,<tt> and <a href="mozyme.html">MOZYME</a></tt><br/>
+See also: <a href="Lewis_structures.html">Lewis Structures</a>,
+<a href="mozyme_introduction.html">MOZYME introduction</a>,&nbsp;
+<a href="Lewis_Metal_Charges.html">Lewis metal atom charges</a></p><dl dir="ltr">
+<div align="left">
+<dt dir="ltr">&nbsp;</dt>
+</div>
+</dl>
+<p align="left">
+&nbsp;</p>
+<p align="left">
+&nbsp;</p>
+<p align="left">&nbsp;</p>
+</body>
+</html>

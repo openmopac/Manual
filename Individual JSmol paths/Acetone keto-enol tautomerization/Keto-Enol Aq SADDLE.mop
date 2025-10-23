@@ -1,0 +1,4 @@
+geo_dat="LOCATE-TS bias=10.0 first.mop" ++
+geo_ref="LOCATE-TS bias=10.0 second.mop" ++
+saddle  html  bar=0.01 eps=78.4 charge=1
+Locating Keto-Enol transition state for acetone using SADDLE

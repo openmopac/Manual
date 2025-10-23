@@ -1,0 +1,18 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Formoazomethine
+REMARK  MOPAC 2016, Version: 21.153W Date: Jun  3 2021 08:58
+REMARK   3 NTB = N-Tertiary butyl res:    1
+HETATM    1  C1  NTB A   1       0.000   0.000   0.000  1.00 -0.30      PROT C 
+HETATM    2  C2  NTB A   1       1.540   0.000   0.000  1.00 -0.30      PROT C 
+HETATM    3  C3  NTB A   1      -0.412   1.493   0.000  1.00 -0.11      PROT C 
+HETATM    4  N   NTB A   1       0.770   2.290  -0.417  1.00 -0.52      PROT N 
+HETATM    5  C4  NTB A   1       1.952   1.493   0.000  1.00 -0.11      PROT C 
+HETATM    6 1H1  NTB A   1      -0.405  -0.523   0.879  1.00  0.14      PROT H 
+HETATM    7 2H1  NTB A   1      -0.398  -0.522  -0.883  1.00  0.14      PROT H 
+HETATM    8 1H2  NTB A   1       1.938  -0.522  -0.883  1.00  0.14      PROT H 
+HETATM    9 2H2  NTB A   1       1.946  -0.523   0.879  1.00  0.14      PROT H 
+HETATM   10 1H3  NTB A   1      -1.277   1.693  -0.654  1.00  0.13      PROT H 
+HETATM   11 2H3  NTB A   1      -0.691   1.823   1.023  1.00  0.14      PROT H 
+HETATM   12  H   NTB A   1       0.770   2.433  -1.425  1.00  0.24      PROT H 
+HETATM   13 1H4  NTB A   1       2.231   1.823   1.024  1.00  0.14      PROT H 
+HETATM   14 2H4  NTB A   1       2.818   1.693  -0.654  1.00  0.13      PROT H 
+END

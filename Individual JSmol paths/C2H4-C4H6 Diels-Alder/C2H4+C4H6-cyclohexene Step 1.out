@@ -1,0 +1,317 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.309W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.309W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Nov 05 10:00:11 2015  *
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "C2H4 PLUS C4H6.ARC"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "CYCLOHEXENE.ARC"
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE IN A PROTEIN MECHANISM
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+geo_dat="C2H4 plus C4H6.arc" geo_ref="Cyclohexene.arc" opt geo-ok locate-ts(C:10)
+ Locate and refine the transition state for the C2H4 plus C4H6 => Cyclohexene Dies-Alder reaction
+ (Geometry data for reactant and products are in other files.)
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C   HET A   1)   -0.56885954  *  -1.44197835  *  -1.40180342  *
+     2       C(HETATM    1  C   HET A   1)    0.64113305  *  -1.26370663  *  -0.86198271  *
+     3       C(HETATM    1  C   HET A   1)    1.36432347  *   0.00386003  *  -0.82526697  *
+     4       C(HETATM    1  C   HET A   1)    0.90837684  *   1.16059707  *  -1.31633274  *
+     5       C(HETATM    1  C   HET A   1)   -0.76797231  *   1.29650380  *   2.14597764  *
+     6       C(HETATM    1  C   HET A   1)   -1.43076990  *   0.14444312  *   2.10641748  *
+     7       H(HETATM    1  H   HET A   1)   -1.14073591  *  -0.65803381  *  -1.87267912  *
+     8       H(HETATM    1  H   HET A   1)   -1.07715186  *  -2.39390038  *  -1.40991346  *
+     9       H(HETATM    1  H   HET A   1)    1.46773675  *   2.08253596  *  -1.27187683  *
+    10       H(HETATM    1  H   HET A   1)   -0.05189569  *   1.27490644  *  -1.79454689  *
+    11       H(HETATM    1  H   HET A   1)    1.16889275  *  -2.10309855  *  -0.39979363  *
+    12       H(HETATM    1  H   HET A   1)    2.34781667  *  -0.04533752  *  -0.34901087  *
+    13       H(HETATM    1  H   HET A   1)   -1.04820955  *  -0.77698105  *   2.51999739  *
+    14       H(HETATM    1  H   HET A   1)   -2.40376591  *   0.02900879  *   1.65298400  *
+    15       H(HETATM    1  H   HET A   1)    0.20602898  *   1.40902149  *   2.59778451  *
+    16       H(HETATM    1  H   HET A   1)   -1.14089555  *   2.21807582  *   1.72594897  *
+ 
+
+          By default, a restraining force of 3 kcal/mol/A^2 will be used
+ ----------------------------------------
+
+                 After docking
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM    1  C   HET A   1)        1.32        1.32
+          (HETATM    1  H   HET A   1)        1.31        2.63
+          (HETATM    1  C   HET A   1)        1.29        3.92
+          (HETATM    1  H   HET A   1)        1.17        5.09
+          (HETATM    1  C   HET A   1)        1.16        6.26
+          (HETATM    1  C   HET A   1)        1.07        7.33
+          (HETATM    1  H   HET A   1)        0.81        8.14
+          (HETATM    1  H   HET A   1)        0.81        8.95
+          (HETATM    1  H   HET A   1)        0.73        9.67
+          (HETATM    1  H   HET A   1)        0.73       10.40
+          (HETATM    1  H   HET A   1)        0.71       11.11
+          (HETATM    1  H   HET A   1)        0.69       11.80
+          (HETATM    1  H   HET A   1)        0.50       12.30
+          (HETATM    1  H   HET A   1)        0.45       12.75
+          (HETATM    1  C   HET A   1)        0.27       13.02
+          (HETATM    1  C   HET A   1)        0.21       13.23
+
+   Difference between data-set and GEO_REF:   13.23 = total,  0.8270 = Average,  0.8985 = RMS, in Angstroms
+
+    The rotated-translated reference geometry will be written to: 'M:\Individual JSmol paths\C2H4-C4H6 Diels-Alder - Copy\Cyclohexene.new'
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C6 H10  =    16 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+ Set 1: Atoms involved in covalent bond-breaking and bond-making                  Connectivity of atoms
+
+                                                                          Data-set                     Reference
+
+   1    Atom:   C     1  PDB Label: (HETATM    1  C   HET A   1)           2     7     8                2     6     7     8
+   2    Atom:   C     4  PDB Label: (HETATM    4  C   HET A   1)           3     9    10                3     5     9    10
+   3    Atom:   C     5  PDB Label: (HETATM    5  C   HET A   1)           6    15    16                4     6    15    16
+   4    Atom:   C     6  PDB Label: (HETATM    6  C   HET A   1)           5    13    14                1     5    13    14
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+   1    Atom:   C     1  PDB Label: (HETATM    1  C   HET A   1)
+   2    Atom:   C     4  PDB Label: (HETATM    4  C   HET A   1)
+   3    Atom:   C     5  PDB Label: (HETATM    5  C   HET A   1)
+   4    Atom:   C     6  PDB Label: (HETATM    6  C   HET A   1)
+   5    Atom:   C     2  PDB Label: (HETATM    2  C   HET A   1)
+   6    Atom:   H     7  PDB Label: (HETATM    7 1HT1 HET A   1)
+   7    Atom:   H     8  PDB Label: (HETATM    8 2HT1 HET A   1)
+   8    Atom:   C     3  PDB Label: (HETATM    3  C   HET A   1)
+   9    Atom:   H     9  PDB Label: (HETATM    9 1HT2 HET A   1)
+  10    Atom:   H    10  PDB Label: (HETATM   10 2HT2 HET A   1)
+  11    Atom:   H    15  PDB Label: (HETATM   15 1HT4 HET A   1)
+  12    Atom:   H    16  PDB Label: (HETATM   16 2HT4 HET A   1)
+  13    Atom:   H    13  PDB Label: (HETATM   13 1HT3 HET A   1)
+  14    Atom:   H    14  PDB Label: (HETATM   14 2HT3 HET A   1)
+
+          By default, set 1 will be used.  To change default, see keyword 'LOCATE-TS'
+
+          Constraining constant: 10.00 Kcal/mol/Angstrom^2
+
+
+          Current value of GEO_REF constraint:               10.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   13.23  Angstroms
+
+          Heat of formation of the first geometry:           40.329 Kcal/mol
+          Heat of formation of the second geometry:          -0.464 Kcal/mol
+          Contribution to heat of formation due to stress:  258.31  Kcal/mol
+          Gradient arising from first geometry:             164.33  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            143.78  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   157.37  degrees
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   124.645 HEAT:  298.1738
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   123.371 HEAT:  325.8393
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   123.362 HEAT:  325.7876
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   114.402 HEAT:  301.4465
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   166.212 HEAT:  275.7188
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   111.914 HEAT:  247.2628
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   172.490 HEAT:  223.6980
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    91.369 HEAT:  210.4289
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    87.453 HEAT:  206.7988
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   133.452 HEAT:  192.0995
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:   256.113 HEAT:  181.5658
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    95.752 HEAT:  173.6723
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    84.185 HEAT:  159.1397
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    75.894 HEAT:  151.5236
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    71.961 HEAT:  147.0369
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:   195.574 HEAT:  151.6358
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    21.934 HEAT:  148.5102
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    20.166 HEAT:  147.2134
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    80.204 HEAT:  149.3114
+ CYCLE:    20 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    16.604 HEAT:  146.2481
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     9.208 HEAT:  145.8982
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     8.522 HEAT:  145.9766
+ CYCLE:    23 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     9.653 HEAT:  145.9579
+ CYCLE:    24 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.877 HEAT:  145.8054
+ CYCLE:    25 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    17.517 HEAT:  145.6193
+ CYCLE:    26 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     7.712 HEAT:  145.2118
+ CYCLE:    27 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.159 HEAT:  145.0298
+ CYCLE:    28 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     7.512 HEAT:  144.6941
+ CYCLE:    29 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    47.419 HEAT:  144.8131
+ CYCLE:    30 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     7.446 HEAT:  144.5670
+ CYCLE:    31 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     5.475 HEAT:  144.5953
+ CYCLE:    32 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     5.170 HEAT:  144.5929
+ CYCLE:    33 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    13.557 HEAT:  144.5584
+ CYCLE:    34 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     8.737 HEAT:  144.5419
+ CYCLE:    35 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     4.158 HEAT:  144.4970
+ CYCLE:    36 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     4.260 HEAT:  144.4555
+ CYCLE:    37 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     3.835 HEAT:  144.5777
+
+     GRADIENT =  3.83493  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:\Individual JSmol paths\C2H4-C4H6 Diels-Alder - Copy\C2H4+C4H6-cyclohexene Step 1_10p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\C2H4-C4H6 Diels-Alder - Copy\C2H4+C4H6-cyclohexene Step 1_10p0_second.mop'
+
+
+          Job name:                                        'M:\Individual JSmol paths\C2H4-C4H6 Diels-Alder - Copy\C2H4+C4H6-cyclohexene Step 1'
+          Current value of GEO_REF constraint:               10.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    6.18  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   12 2HT  HET A   1)        0.70        0.70
+          (HETATM    1  C   HET A   1)        0.69        1.39
+          (HETATM    8 2HT1 HET A   1)        0.67        2.06
+          (HETATM   11 1HT  HET A   1)        0.62        2.68
+          (HETATM    5  C   HET A   1)        0.60        3.29
+          (HETATM    4  C   HET A   1)        0.59        3.88
+          (HETATM    6  C   HET A   1)        0.57        4.44
+          (HETATM    9 1HT2 HET A   1)        0.55        4.99
+          (HETATM    7 1HT1 HET A   1)        0.26        5.25
+          (HETATM   10 2HT2 HET A   1)        0.19        5.43
+          (HETATM    3  C   HET A   1)        0.17        5.60
+          (HETATM   14 2HT3 HET A   1)        0.14        5.74
+          (HETATM    2  C   HET A   1)        0.13        5.87
+          (HETATM   13 1HT3 HET A   1)        0.11        5.99
+          (HETATM   16 2HT4 HET A   1)        0.10        6.09
+
+          Heat of formation of the first geometry:           75.086 Kcal/mol
+          Heat of formation of the second geometry:           2.816 Kcal/mol
+          Contribution to heat of formation due to stress:   66.68  Kcal/mol
+          Gradient arising from first geometry:              35.68  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             36.84  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   174.06  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:\Individual JSmol paths\C2H4-C4H6 Diels-Alder - Copy\C2H4+C4H6-cyclohexene Step 1_10p0_average.mop'
+
+  Loop:   1  Energy minimization, excluding active site
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    76.968 HEAT:  72.78033
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    76.820 HEAT:  72.71298
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:  2468.335 HEAT:  361.7187
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    79.469 HEAT:  72.71829
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:  2539.099 HEAT:  374.9086
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    67.801 HEAT:  70.10002
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    38.536 HEAT:  68.01328
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    40.169 HEAT:  66.93438
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    32.504 HEAT:  65.62511
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    36.565 HEAT:  64.70730
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    24.169 HEAT:  63.97909
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    15.537 HEAT:  63.61989
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     8.513 HEAT:  63.31579
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:     6.440 HEAT:  63.22633
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     5.346 HEAT:  63.09261
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     6.098 HEAT:  63.04906
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     2.936 HEAT:  63.01650
+
+     GRADIENT =  2.93645  IS LESS THAN CUTOFF =  5.00000
+
+
+  Loop:   1  Gradient minimization of atoms in the active site
+
+          Transition state on cycle 1 written to file:
+          'M:\Individual JSmol paths\C2H4-C4H6 Diels-Alder - Copy\C2H4+C4H6-cyclohexene Step 1_Loop1.mop'
+
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:     1 TIME:   0.062 TIME LEFT:  4.96W  GRAD.:    94.388 HEAT:  63.01511
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    11.898 HEAT:  60.92699
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     6.927 HEAT:  60.90633
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:     5.612 HEAT:  60.91752
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    11.013 HEAT:  60.97541
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    66.358 HEAT:  59.06237
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    49.488 HEAT:  60.28726
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    27.557 HEAT:  61.07400
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    15.953 HEAT:  61.02597
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    14.179 HEAT:  60.49375
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    15.986 HEAT:  60.90012
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    14.724 HEAT:  61.04466
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    10.252 HEAT:  60.92100
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    12.178 HEAT:  60.88123
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    12.900 HEAT:  60.87471
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    14.106 HEAT:  60.87152
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    14.359 HEAT:  60.86150
+ CYCLE:    16 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.617 HEAT:  60.86712
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    15.982 HEAT:  60.86098
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    14.423 HEAT:  60.84312
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    15.029 HEAT:  60.84658
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    15.391 HEAT:  60.84976
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  4.96W  GRAD.:    15.515 HEAT:  60.85984
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    14.440 HEAT:  60.85607
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    14.073 HEAT:  60.85227
+ NUMERICAL PROBLEMS IN BRACKETING LAMDA  -1667099961448.95     
+ -1.667099961448949E+015  -1667099961450.62        903266634737769.     
+   1667099961420.43     
+  GOING FOR FIXED STEP SIZE....
+ CYCLE:    22 TIME:   0.000 TIME LEFT:  4.96W  GRAD.:    13.848 HEAT:  60.84958
+ CALCULATION IS TERMINATED TO AVOID ZERO DIVIDE
+
+          in FORMD
+  Loop:   2  Energy minimization, excluding active site
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ * in FORMD                                                                   *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:             0.64 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,5 @@
+TS    geo_dat="Saddle_TS.arc"
+ Refine transition state for the reaction Formoazomethine Ylide plus ethylene <=> Formoazomethine Ylide plus ethylene product
+ 
+oldgeo   IRC=1* HTML X-priority=0.2
+Reaction path for the reaction Formoazomethine Ylide plus ethylene <=> Formoazomethine Ylide plus ethylene product

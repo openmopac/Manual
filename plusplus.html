@@ -1,0 +1,122 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>++ </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>++</tt>
+</h1>
+<h3>Why this keyword is needed</h3>
+<p>Sometimes keywords can become very long and complicated.&nbsp; Examples 
+of this are:</p>
+<p>(1) When proteins have complicated electronic structures, particularly when several such structures are 
+present in a single protein, then the Lewis structure can only be constructed if 
+various bonds are made or broken using keyword <TT> <a href="CVB.html">CVB</a>.</TT></p>
+<p>(2) When <a href="site.html"><tt>SITE</tt></a> is used to add and delete a large 
+number of individual hydrogen atom from a protein.</p>
+<p>Editing these are other long keywords can be difficult.&nbsp; To make this task easier 
+keyword &quot;++&quot; has been written.&nbsp; All it does is to allow a single, long, 
+keyword or <FONT face="Trebuchet MS, Verdana">
+<a href="setup.html"><tt>SETUP</TT></a></FONT>
+    line to 
+be split into parts to simplify writing the long keyword line.&nbsp; At 
+run-time, the &quot;++&quot; will be used in reconstructing the long keyword line.</p>
+<h3>How to use &quot;++&quot;</h3>
+<p>Two &quot;+&quot; signs, i.e., &quot;++&quot; can be used to split a long keyword into parts that 
+can be put on separate lines.&nbsp; For example, in defining the bonds in the 
+heme ring systems in oxy-hemoglobin the keyword:</p>
+<p>
+CVB=(&quot;[HEM]1142:A.Fe&quot;:-&quot;[HEM]1142:A.NA&quot;,&quot;[HEM]1142:A.Fe&quot;:-&quot;[HEM]1142:A.NC&quot;,&quot;[HEM]1290:B.Fe&quot;:-&quot;[HEM]1290:B.ND&quot;,&quot;[HEM]1290:B.Fe&quot;:-&quot;[HEM]1290:B.NB&quot;,&quot;[HEM]1542:C.Fe&quot;:-&quot;[HEM]1542:C.NB&quot;,&quot;[HEM]1542:C.Fe&quot;:-&quot;[HEM]1542:C.ND&quot;,&quot;[HEM]1690:D.Fe&quot;:-&quot;[HEM]1690:D.NB&quot;,&quot;[HEM]1690:D.Fe&quot;:-&quot;[HEM]1690:D.ND&quot;,&quot;[HEM]1142:A.Fe&quot;:-&quot;[OXY]1143:A.O1&quot;,&quot;FE 
+HEM B1290&quot;:-&quot;O2 OXY B1291&quot;,&quot;FE HEM C1542&quot;:-&quot;O1 OXY C1543&quot;,&quot;[HEM]1690:D.Fe&quot;:-&quot;O2 
+OXY D1691&quot;) setpi</p>
+<p>is difficult to read and very difficult to debug.&nbsp; But if &quot;++&quot; is used, 
+then it can be rewritten as:<table border="1" cellspacing="1">
+  <tr>
+    <td><PRE><font size="4">CVB=(++
+"[HEM]1142:A.Fe":-"[HEM]1142:A.NA",++
+"[HEM]1142:A.Fe":-"[HEM]1142:A.NC",++
+"[HEM]1290:B.Fe":-"[HEM]1290:B.ND",++
+"[HEM]1290:B.Fe":-"[HEM]1290:B.NB",++
+"[HEM]1542:C.Fe":-"[HEM]1542:C.NB",++
+"[HEM]1542:C.Fe":-"[HEM]1542:C.ND",++
+"[HEM]1690:D.Fe":-"[HEM]1690:D.NB",++
+"[HEM]1690:D.Fe":-"[HEM]1690:D.ND",++
+"[HEM]1142:A.Fe":-"[OXY]1143:A.O1",++
+"FE HEM B1290":-"O2 OXY B1291",++
+"FE HEM C1542":-"O1 OXY C1543",++
+"[HEM]1690:D.Fe":-"O2 OXY D1691")++
+  setpi</font></PRE></td>
+</table></p>
+
+<p>Similarly, complicated SITE keywords can be split over several lines, e.g., :
+<table border="1" cellspacing="1">
+  <tr>
+    <td><PRE><font size="4">site=(++
+*
+*  Correct faults in hydrogenation caused by fractional residues.
+*
+*  These changed alter the number of hydrogen atoms on a carbon atom,
+*  They do NOT represent charges being formed.
+*
+"[THR]64:A.C"(+),++
+"CZ  ARG A 172"(+),++
+*
+*  Electively ionize specific residues, to form salt-bridges,
+*  and to form ionized sites required by the model.
+*
+A19(+),++
+A99(+),++
+A105(+),++
+A135(+),++
+A137(+),++
+A175(+),++
+A204(+),++
+A263(+),++
+*
+A67(-),++
+A71(-),++
+A154(-),++
+A210(-),++
+A211(-),++
+*
+"[DRG]501:A.NAG"(+),++
+"[DRG]501:A.OAF"(-),++
+"[DRG]501:A.OAL"(-),++
+"[PRP]401:A.O1P"(-),++
+"[PRP]401:A.O2P"(-),++
+"[PRP]401:A.O1A"(-),++
+"[PRP]401:A.O1B"(-),++
+"[PRP]401:A.O2B"(-))  output</font></PRE></td>
+</table></p>
+<p>When the job starts, each line ending in &quot;++&quot; has the following line joined 
+to it, and the &quot;++&quot; is deleted. If the next line starts with one or 
+more spaces, these spaces will be preserved in the final keyword line.</p>
+<p>If there is a space before the &quot;++&quot;, i.e., if the keyword is written as &quot; 
+++&quot;, then a space will be inserted before the following line is joined to it. 
+This is an easy way to separate keywords that are on different lines. </p>
+<p><font color="#FF0000"><b>WARNING!</b></font> A common mistake is to have a 
+&quot;++&quot; immediately after a keyword ends and then forget to add a space before the next keyword at 
+the start of the following line.&nbsp; If this happened, so the space was not 
+present, the next keyword would be attached to the end of the last keyword on 
+the line with the &quot;++&quot;. An example of the correct use of this space can be seen 
+in the space before &quot;setpi&quot; above.</p>
+</BODY>
+</HTML>

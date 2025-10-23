@@ -1,0 +1,314 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage 12.0" name="Generator"/>
+<title>RESIDUES </title>
+<meta content="RESIDUES " name="description"/>
+<style type="text/css">
+.auto-style1 {
+	font-weight: normal;
+}
+</style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2 align="center">
+<tt>RESIDUES[0]</tt></h2>
+<p align="left">
+In protein work, each atom will be labeled using information supplied by the PDB 
+file.&nbsp; An alternative is to use keyword <tt>RESIDUES</tt> which causes the 
+PDB-style labels to be&nbsp;worked out using only the topology of the system.&nbsp; 
+Modified residues can still be recognized if <tt>
+<a href="xeno.html">XENO=<i>text</i></a></tt> is used. Unless other keywords 
+such as&nbsp;
+<a href="chains.html"><tt>CHAINS</tt></a>, and <a href="start_res.html"><tt>START_RES</tt></a> are 
+present, or the input file is already in PDB format, the residue nearest to the NH<sub>2</sub> end of the protein will be No.&nbsp;1 
+in chain A, the next is 2, and so on, and the different chains will be labeled 
+A, then B, C, D, etc.&nbsp; If the input file is in PAB format, not just in 
+MOPAC format with PDB information, the residue numbers and chain letters will be 
+worked out from the PDB file.</p>
+<p align="left">
+Keyword <tt>RESIDUES</tt> uses part of <a href="mozyme_introduction.html">
+MOZYME</a>, so when the job starts it uses the MOZYME option. If keyword <a href="mozyme.html"><tt>MOZYME</tt></a> is not 
+present, then the job will only be allowed to run if no SCF calculations are 
+possible.&nbsp; This is to prevent a MOZYME calculation being done unless keyword <tt>MOZYME</tt> 
+is present.&nbsp; Jobs that do not involve SCF calculations use one or more 
+of the keywords <a href="zero_scf.html"><tt>0SCF</tt></a>, <a href="lewis.html"><tt>LEWIS</tt></a>,
+<a href="charges.html"><tt>CHARGES</tt></a>, <a href="add-h.html"><tt>ADD-H</tt></a>,
+<a href="site.html"><tt>SITE</tt></a>, or <a href="reseq.html"><tt>RESEQ</tt></a>.</p>
+<p align="left">
+Keyword <tt>RESIDUES</tt> converts the data-set into almost standard PDB format 
+by making the minimum change to the existing format.&nbsp; This means that:</p>
+<p align="left">
+* The residue numbers and letters will be preserved.<br/>* Atoms will not be 
+re-arranged.&nbsp; To put the atoms into standard PDB sequence, use
+<a href="reseq.html"><tt>RESEQ</tt></a>.<br/>* If a heterogroup is covalently 
+bonded to an existing residue, the residue will not be correctly recognized.&nbsp; 
+To correctly recognize modified residues, use <a href="CVB.html"><tt>CVB</tt></a> to 
+remove the covalent bond joining the heterogroup to the residue.&nbsp; Then, if 
+necessary, use&nbsp; <tt>
+<a href="xeno.html">XENO=<i>text</i></a></tt> to re-name the residue and to name 
+the heterogroup.<br/>* Heterogroups are labeled using a simple numbering system.&nbsp; 
+When more than one atom of an element is present, the atoms will be numbered 
+sequentially, i.e., C1, C2, .... C45, C46.&nbsp; When this convention is not 
+wanted, for example if heteroatoms are labeled C2', P', etc., (think 
+saccharides) then edit the new geometry by using cut-and-paste and the original, 
+better, labeling system.&nbsp; Do not correct errors in atom serial numbers - 
+these will be automatically corrected by MOPAC in future jobs.<br/>* All atoms 
+will be given a chain-letter.&nbsp; This includes water molecules, ligands, etc.<br/>
+* Atom serial numbers correspond to atom numbers plus any terminators (TER's).&nbsp; 
+Although interesting, these numbers are re-calculated when any future jobs are 
+run.&nbsp; That is, atom serial numbers are not important in any MOPAC 
+calculations.<br/>* Many PDB files use non-standard atom labels.&nbsp; If the 
+label is highly unusual the new label might be incorrect.<br/>* Every atom should 
+have a unique label.&nbsp; This is important for jobs that use
+<a href="geo_ref.html"><tt>GEO_REF</tt></a>.<br/></p>
+<h4 align="left">
+<span class="auto-style1">
+<tt><strong>RESIDUES0</strong></tt></span> - preserves the original atom labels</h4>
+<p align="left">
+Good practice is to use <tt>RESIDUES</tt> to assign PDB labels to atoms, and to 
+not do any other operations, i.e., do not resequence the atoms, or do any 
+calculations in the same job.&nbsp; After the <tt>RESIDUES</tt> job finishes, 
+examine both the output and the new data-set(s) to check that the re-labeling 
+operation was done correctly.&nbsp; In the original PDB data-set, some atoms 
+might have unusual labels, for example, a sugar backbone atom might have a label 
+such as " C3' "&nbsp; To keep the original atom labels, use <tt>RESIDUES0</tt> 
+(the word "RESIDUES" followed by a zero) instead of <tt>RESIDUES</tt>.&nbsp; If the starting geometry was already in PDB 
+format, and the re-labeling is partially incorrect, then copy and paste the 
+relevant parts of the correctly re-labeled file into the original data-set.</p>
+<p align="left">
+When individual amino acids are mutated, <tt>RESIDUES</tt> can be used to 
+re-label the mutated sites.</p>
+<p align="left">
+If <tt> RESIDUES</tt> does not work when other keywords are present, run <tt>RESIDUES</tt> 
+with keyword <tt>0SCF </tt>in a job on its own, then use the results for the job you 
+want.</p>
+<p align="left">
+The most common use for<tt> RESIDUES</tt> is to allow the residue sequence 
+reported in the PDB file to be compared to the sequence defined by the geometry, 
+i.e., by the topology, of the system.&nbsp; By comparing reported and actual 
+sequences, possible problems in the PDB file can be detected.</p>
+<div align="CENTER">
+<strong><p>Table:</p></strong> <a name="aacids"></a>Abbreviations for the 20 Amino Acids
+<p align="CENTER"></p><center><table border="" cellpadding="3" cellspacing="1" width="601">
+<tr><td valign="MIDDLE" width="28%">
+<p>Amino Acid</p></td>
+<td valign="MIDDLE" width="21%">
+<p>Formula of<br/>
+Residue<img alt="$^{dag }$" height="19" src="img155.gif" width="11"/></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">Three-Letter<br/>
+Abbreviation</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">One-Letter<br/>
+Abbreviation</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Glycine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>2</sub>NOH<sub>3</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">GLY</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">G</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Alanine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>3</sub>NOH<sub>5</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">ALA</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">A</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Valine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>5</sub>NOH<sub>9</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">VAL</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">V</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Leucine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>6</sub>NOH<sub>11</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">LEU</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">L</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Isoleucine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>6</sub>NOH<sub>11</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">ILE</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">I</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Serine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>3</sub>NO<sub>2</sub>H<sub>5</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">SER</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">S</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Threonine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>4</sub>NO<sub>2</sub>H<sub>7</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">THR</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">T</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Aspartic acid</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>4</sub>NO<sub>3</sub>H<sub>5</sub> (4)</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">ASP</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">D</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Asparagine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>4</sub>N<sub>2</sub>O<sub>2</sub>H<sub>6</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">ASN</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">N</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Lysine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>6</sub>N<sub>2</sub>OH<sub>12</sub> (13)</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">LYS</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">K</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Glutamic acid</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>5</sub>NO<sub>3</sub>H<sub>7</sub> (6)</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">GLU</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">E</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Glutamine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>5</sub>N<sub>2</sub>O<sub>2</sub>H<sub>8</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">GLN</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">Q</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Arginine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>6</sub>N<sub>4</sub>OH<sub>12 </sub> (13)</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">ARG</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">R</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Histidine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>6</sub>N<sub>3</sub>OH<sub>7 </sub>(8)</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">HIS</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">H</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Phenylalanine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>9</sub>NOH<sub>9</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">PHE</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">F</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Cysteine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>3</sub>NOSH<sub>5</sub> (4)</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">CYS</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">C</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Tryptophan</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>11</sub>N<sub>2</sub>O<sub> </sub>H<sub>10 </sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">TRP</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">W</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Tyrosine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>9</sub>NO<sub>2</sub>H<sub>9 </sub>(8)</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">TYR</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">Y</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Methionine</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>5</sub>NOSH<sub>9</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">MET</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">M</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="28%">
+<p>Proline</p></td>
+<td valign="MIDDLE" width="21%">
+<p>C<sub>5</sub>NOH<sub>7</sub></p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">PRO</p></td>
+<td valign="MIDDLE" width="26%">
+<p align="CENTER">P</p></td>
+</tr>
+</table>
+</center>
+<p align="CENTER"><img alt="dag" height="25" src="img176.gif" width="12"/>: The number of hydrogen atoms in the ionized residue is given in parenthesis after the formula. Cysteine may exist in the neutral, ionized or reduced form. </p></div><br/>
+Small molecules are often found associated with proteins. To allow for this, 
+many special groups, e.g., PO<sub>4</sub>, SO<sub>4</sub>, H<sub>2</sub>O, the 
+aldohexoses and aldoketoses, are also recognized.&nbsp; Any groups not 
+automatically identified or wrongly identified can be explicitly labeled using <a href="xeno.html"><tt>XENO</tt></a>.<p>See also: 
+<a href="reseq.html">
+<tt>RESEQ</tt></a>,
+<a href="chains.html"><tt>CHAINS</tt></a>, and <a href="start_res.html"><tt>START_RES</tt></a>.</p>
+</body>
+</html>

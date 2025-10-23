@@ -1,0 +1,175 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Note about Force Constants </title>
+<style type="text/css">
+																																					  .auto-style1 {
+																																						  text-align: center;
+																																					  }
+																																					  .auto-style2 {
+																																						  text-align: left;
+																																					  }
+																																					  </style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 class="auto-style1">Note about Force Constants</h1>
+<p class="auto-style2">When a geometry is defined in Cartesian coordinates in a 
+FORCE calculation, force constants for each atom are printed near the bottom of 
+the output.&nbsp; These force constants are the second derivatives of the 
+displacement along the directions <em>x</em>, <em>y</em>, and <em>z</em> 
+in millidynes per &Aring;ngstrom.&nbsp; When sets of equivalent atoms are 
+present, you might expect that the force constants for a specific coordinate 
+might be the same.&nbsp; In some molecules, such as ethylene, C<sub>2</sub>H<sub>4</sub>, 
+this is true, but in other species, ethane, C<sub>2</sub>H<sub>6</sub>, for example, some 
+force constants for equivalent atoms are different.&nbsp; Why is this?&nbsp;&nbsp; 
+To understand what's happening we will use ethane as the example.&nbsp; Here is 
+the data set for ethane, a system with D<sub>3d</sub> symmetry:</p><pre>  DFORCE precise PM7
+ Ethane
+
+  C     0.00000000 +0   0.00000000 +0   0.00000000 +0
+  H    -0.39978252 +1   1.02050310 +1   0.00000000 +0
+  H    -0.39978252 +0  -0.51025155 +0  -0.88378161 +0
+  H    -0.39978252 +0  -0.51025155 +0   0.88378161 +0
+  C     1.52427975 +1   0.00000000 +0   0.00000000 +0
+  H     1.92406227 +0   0.51025155 +0   0.88378161 +0
+  H     1.92406227 +0  -1.02050310 +0   0.00000000 +0
+  H     1.92406227 +0   0.51025155 +0  -0.88378161 +0
+ 
+ 
+</pre>If this job is run, 
+the atomic force constants over Cartesian coordinates are:<pre>         FORCE CONSTANT IN CARTESIAN COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL       X               Y               Z
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1       C        6.467159        6.553226        6.833632
+      2       H        4.114742        0.624115        0.705773
+      3       H        0.907986        3.830871        0.705773
+      4       H        0.907986        1.198388        3.338257
+      5       C        6.467159        6.553226        6.833632
+      6       H        0.907986        3.830871        0.705773
+      7       H        4.114742        0.624115        0.705773
+      8       H        0.907986        1.198388        3.338257</pre>
+      Now, 
+given that the first three hydrogen atoms (let these be named H1, H2, and H3) have the same <em>x</em>-axis coordinates, the fact that the <em>x</em>-axis 
+force-constant for H1 (4.11) is very different from those of H2 and H3 (0.908) 
+might be unexpected.&nbsp; Examination of the full force matrix provides an 
+explanation.&nbsp; Here is the full force matrix for the first four atoms .<pre>           FULL FORCE MATRIX, INVOKED BY "DFORCE"
+
+
+                     1          2          3          4          5          6
+ ------------------------------------------------------------------------------
+          1   6.467037
+          2   0.136874   6.552811
+          3   0.216560   0.295101   6.833384
+          4  -3.333736   0.014503   0.022862   4.116713
+          5   0.029113  -0.597344   0.004348   0.054494   0.624510
+          6   0.046055   0.004297  -0.592994   0.086245   0.085761   0.705410
+          7  -0.856769   0.808879  -0.002765  -0.220664   0.379752  -0.015525
+          8   0.794505  -3.072786   0.023198   0.133533  -0.059374   0.002457
+          9  -0.009891   0.045380  -0.593146   0.007057  -0.014042   0.071570
+         10  -0.856768  -0.349965   0.729414  -0.220663  -0.177072   0.336676
+         11  -0.350126  -1.077091   0.994490  -0.050975   0.051833   0.038827
+         12   0.713266   0.972326  -2.588983   0.123626   0.055322  -0.039668
+         13  -1.223758  -0.364458  -0.576813  -0.338473  -0.266596  -0.422265
+         14  -0.364448  -1.453136  -0.786429  -0.135281  -0.015459  -0.104422
+         15  -0.576856  -0.786499  -2.201046  -0.214124  -0.104463  -0.114719
+         16   0.070611  -0.137814  -0.035221   0.002605  -0.010785  -0.004759
+         17  -0.006267  -0.424852  -0.235881  -0.008473  -0.003437  -0.003804
+         18   0.027127  -0.434126  -0.114757  -0.002240  -0.005709   0.004177
+         19  -0.338634  -0.135410  -0.214403  -0.006983  -0.009273  -0.014701
+         20  -0.266904  -0.015449  -0.104459  -0.009239  -0.007146  -0.022135
+         21  -0.422462  -0.104527  -0.114760  -0.014625  -0.022079  -0.028242
+         22   0.070611   0.027324  -0.139568   0.002606   0.000321  -0.011767
+         23   0.027190   0.087805  -0.190290   0.001616   0.006459  -0.000996
+         24   0.005990   0.007968  -0.627546  -0.008614   0.000878  -0.005689
+
+
+                     7          8          9         10         11         12
+ ------------------------------------------------------------------------------
+          7   0.907984
+          8  -0.956187   3.832699
+          9   0.055642   0.107954   0.705950
+         10   0.092667   0.047720  -0.063947   0.908471
+         11  -0.078410  -0.261416   0.332430   0.461029   1.198362
+         12   0.015679   0.134549  -0.039718  -0.839381  -1.144682   3.339800
+...</pre>
+&nbsp;The force matrix is used in calculating the normal modes or vibrational 
+frequencies, and even a cursory inspection of these shows that the symmetries of 
+the normal modes is correct, therefore by implication, the force constant matrix 
+has the correct symmetry, even though it might not be obvious.&nbsp; So what's 
+happening? Look at the diagonal terms; these represent the force-constants for 
+the atoms.&nbsp; In particular, elements (4,4), (7,7), and (10,10) are the <em>x</em>-axis 
+force-constants for H1, H2, and H3, respectively.&nbsp; If the force-constants 
+were orthogonal, then the off-diagonal terms within each atom would be zero.&nbsp; 
+In this example here they are non-zero, indicating that the orthogonal 
+force-constants do not point along the Cartesian axes.&nbsp; This means that the 
+components of the force-constant along the three axes is <em>x</em>-axis is not 
+uniquely defined.&nbsp; The only quantity that is uniquely defined is the 
+addition of the three force constants components, here (4.11474 + 0.62412 + 
+0.70577) = 5.44463 = (0.90799 + 3.83087 + 0.70577) = (0.90798 1.19839 3.33826).<p>
+In order to obtain the unique orthogonal force constants for an atom, the small 
+3x3 matrix of force constants would need to be diagonalized. If that were to be 
+done, then the three associated eigenvalues would represent the force constants, 
+and the corresponding eigenvectors would give the direction of these force 
+constants.&nbsp; However, this quantity is not of much use.&nbsp; An alternative 
+quantity would be the force constants for the internal coordinates. For ethane 
+these would be:</p><pre>        FORCE CONSTANT IN INTERNAL COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL  BOND LENGTH      BOND ANGLE     TWIST ANGLE
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1       C        0.000000        0.000000        0.000000
+      2       H        4.114742        0.000000        0.000000
+      3       H        4.114742        0.749720        0.000000
+      4       H        4.114742        0.749720        0.771292
+      5       C        5.900679        1.062357        0.925710
+      6       H        4.114742        0.912975        0.593477
+      7       H        4.114742        0.912975        0.593477
+      8       H        4.114742        0.912975        0.593477</pre>
+Now the bond-stretch force constants for hydrogen are all the same. But note - 
+although the angle and dihedral force constants might be expected to be the same 
+for all the hydrogen atoms, they are in fact different.&nbsp; This is a 
+manifestation of the same problem that was found when Cartesian coordinates were 
+used - the orthogonal force constants do not point along the internal 
+coordinates.&nbsp; When internal coordinates are used, an even more severe 
+conceptual problem is encountered when force constants for cyclic systems, such 
+as benzene, are calculated.&nbsp; For benzene, the force constants in internal 
+coordinates are:<pre>          FORCE CONSTANT IN INTERNAL COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL  BOND LENGTH      BOND ANGLE     TWIST ANGLE
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1       C        0.000000        0.000000        0.000000
+      2       C       10.741666        0.000000        0.000000
+      3       C       11.839994       16.645184        0.000000
+      4       C       19.285758       52.898480        3.563857
+      5       C       11.839994       52.885195        7.110755
+      6       C       10.741666       16.665466        3.334202
+      7       H        4.270385        1.093279        0.345578
+      8       H        4.270385        1.093279        0.345578
+      9       H        4.270385        1.093279        0.345578
+     10       H        4.270385        1.093279        0.345578
+     11       H        4.270385        1.093279        0.345578
+     12       H        4.270385        1.093279        0.345578</pre>
+<p>Interpretation of this result is left to the reader.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,679 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.153W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.153W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 365**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Jun  2 17:33:20 2021  *
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "Fulminic acid plus ethylene Product.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "Fulminic acid plus ethylene Reactants.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  RESIDUES   - DETERMINE THE SEQUENCE OF RESIDUES
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  XYZ        - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE USING REACTANTS AND PRODUCTS
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+geo_ref="Fulminic acid plus ethylene Reactants.arc" geo_dat="Fulminic acid plus ethylene Product.arc" locate-ts  HTML precise opt XYZ geo-ok
+ Transition state for Fulminic acid plus ethylene <=> Fulminic acid plus ethylene product
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C          0.00000000  *   0.00000000  *   0.00000000  *
+     2       C          1.53805200  *   0.00000000  *   0.00000000  *
+     3       O         -0.38798373  *   1.40774608  *   0.00000000  *
+     4       N          0.72246772  *   2.19134413  *   0.00011152  *
+     5       C          1.81172372  *   1.49112224  *   0.00009815  *
+     6       H         -0.44854938  *  -0.43663962  *   0.90190138  *
+     7       H         -0.44864368  *  -0.43669925  *  -0.90181831  *
+     8       H          1.96766214  *  -0.49841631  *  -0.88509156  *
+     9       H          1.96754774  *  -0.49842970  *   0.88514079  *
+    10       H          2.80656534  *   1.90599023  *   0.00012944  *
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    3  O   HET B   2)  -0.851   3.839   0.000        1.64         1.64
+            (HETATM    5  C   HET B   2)   1.142   3.674   1.223        1.26         2.91
+            (HETATM    2  C2  HET A   1)   1.330   0.000   0.000        1.11         4.02
+            (HETATM    1  C1  HET A   1)   0.000   0.000   0.000        0.92         4.94
+            (HETATM   10  H   HET B   2)   2.016   3.596   1.759        0.91         5.86
+            (HETATM    9 2H2  HET A   1)   1.928  -0.302   0.846        0.83         6.68
+            (HETATM    4  N   HET B   2)   0.160   3.751   0.620        0.68         7.36
+            (HETATM    8 1H2  HET A   1)   1.928   0.298  -0.849        0.66         8.02
+            (HETATM    6 1H1  HET A   1)  -0.599  -0.300   0.847        0.55         8.57
+            (HETATM    7 2H1  HET A   1)  -0.599   0.300  -0.848        0.46         9.03
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+   Difference between GEO_DAT and GEO_REF: 9.035 = total,  0.9035 = Average,  0.9653 = RMS, in Angstroms
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C3 H5 N O  =    10 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+          COMPUTED CHARGE ON SYSTEM: +0
+
+ Set 1: Atoms involved in covalent bond-breaking and bond-making                  Connectivity of atoms
+
+                                                                             Data-set                  Reference
+                                     (PDB labels from GEO-REF)
+   1    Atom:   C     1  PDB Label: (HETATM    1  C1  HET A   1)           2     3     6     7        2     6     7
+   2    Atom:   C     2  PDB Label: (HETATM    2  C2  HET A   1)           1     5     8     9        1     8     9
+   3    Atom:   O     3  PDB Label: (HETATM    3  O   HET B   1)           1     4                    4
+   4    Atom:   C     5  PDB Label: (HETATM    5  C3  HET B   1)           2     4    10              4    10
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+   1    Atom:   C     1  PDB Label: (HETATM    1  C1  HET A   1)
+   2    Atom:   C     2  PDB Label: (HETATM    2  C2  HET A   1)
+   3    Atom:   O     3  PDB Label: (HETATM    3  O   HET B   1)
+   4    Atom:   C     5  PDB Label: (HETATM    5  C3  HET B   1)
+   5    Atom:   H     6  PDB Label: (HETATM    6 1H1  HET A   1)
+   6    Atom:   H     7  PDB Label: (HETATM    7 2H1  HET A   1)
+   7    Atom:   H     8  PDB Label: (HETATM    8 1H2  HET A   1)
+   8    Atom:   H     9  PDB Label: (HETATM    9 2H2  HET A   1)
+   9    Atom:   N     4  PDB Label: (HETATM    4  N   HET B   1)
+  10    Atom:   H    10  PDB Label: (HETATM   10  H3  HET B   1)
+
+          By default, set 1 will be used.  To change default, see keyword 'LOCATE-TS'
+
+          Current value of GEO_REF constraint:                  3.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                      9.03  Angstroms
+
+          Heat of formation of the first geometry:              2.554 Kcal/mol
+          Heat of formation of the second geometry:            37.123 Kcal/mol
+          Contribution to heat of formation due to stress:     55.911  Kcal/mol
+          Gradient arising from first geometry:                36.567  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               36.640  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     179.02  degrees
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    25.867 HEAT:  95.58801
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    25.664 HEAT:  95.57800
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    28.328 HEAT:  94.09762
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    66.155 HEAT:  92.43036
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    46.114 HEAT:  90.63113
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    34.810 HEAT:  88.94308
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    44.879 HEAT:  87.12591
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    54.928 HEAT:  84.69955
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    46.666 HEAT:  81.65334
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    59.179 HEAT:  78.16494
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    98.592 HEAT:  73.61088
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    50.889 HEAT:  67.49465
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    39.132 HEAT:  65.81327
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.157 HEAT:  64.52826
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.875 HEAT:  63.19653
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    20.775 HEAT:  63.04133
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.804 HEAT:  62.63547
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.237 HEAT:  62.66565
+ CYCLE:    19 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    20.623 HEAT:  62.81902
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.389 HEAT:  62.81441
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.038 HEAT:  62.78302
+ CYCLE:    22 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.478 HEAT:  62.76586
+ CYCLE:    23 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.372 HEAT:  62.71358
+ CYCLE:    24 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.917 HEAT:  62.73392
+
+     GRADIENT =  3.91696 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          Job name: 'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid plus ethylene/Locate-ts Fulminic acid plus ethylene'
+
+          Current value of GEO_REF constraint:                  3.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    5.19  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    3  O   HET B   1)  -0.784   3.266  -0.094        1.10         1.10
+            (HETATM    2  C2  HET A   1)   1.283   0.378   0.073        0.73         1.83
+            (HETATM    5  C3  HET B   1)   1.212   3.106   1.123        0.70         2.53
+            (HETATM    1  C1  HET A   1)  -0.047   0.376   0.062        0.55         3.08
+            (HETATM   10  H3  HET B   1)   2.095   3.027   1.640        0.53         3.61
+            (HETATM    9 2H2  HET A   1)   1.873   0.087   0.928        0.45         4.07
+            (HETATM    7 2H1  HET A   1)  -0.638   0.674  -0.793        0.33         4.39
+            (HETATM    8 1H2  HET A   1)   1.886   0.681  -0.769        0.32         4.71
+            (HETATM    6 1H1  HET A   1)  -0.653   0.079   0.905        0.27         4.98
+            (HETATM    4  N   HET B   1)   0.228   3.184   0.524        0.21         5.19
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:              2.711 Kcal/mol
+          Heat of formation of the second geometry:            39.920 Kcal/mol
+          Contribution to heat of formation due to stress:     20.103  Kcal/mol
+          Gradient arising from first geometry:                11.449  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               11.452  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     155.95  degrees
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   148.181 HEAT:  243.0718
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   146.381 HEAT:  242.7395
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    98.706 HEAT:  214.3807
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   156.256 HEAT:  188.8427
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    88.363 HEAT:  172.6521
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    61.184 HEAT:  164.4172
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   155.989 HEAT:  166.8393
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    70.774 HEAT:  164.2966
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    48.789 HEAT:  161.8873
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    32.476 HEAT:  158.9548
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    32.714 HEAT:  155.6442
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   128.310 HEAT:  154.9837
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    21.869 HEAT:  152.2766
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.742 HEAT:  152.9112
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    13.236 HEAT:  152.9658
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    14.626 HEAT:  152.8366
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.063 HEAT:  152.2973
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.649 HEAT:  152.2047
+ CYCLE:    19 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.135 HEAT:  152.0188
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.891 HEAT:  151.8659
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.407 HEAT:  151.8899
+ CYCLE:    22 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.884 HEAT:  151.8788
+ CYCLE:    23 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.162 HEAT:  151.8536
+ CYCLE:    24 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    20.174 HEAT:  151.7459
+ CYCLE:    25 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.939 HEAT:  151.8438
+
+     GRADIENT =  3.93860 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          Job name: 'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid plus ethylene/Locate-ts Fulminic acid plus ethylene'
+
+          Current value of GEO_REF constraint:                 30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    3.36  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    3  O   HET B   1)  -0.765   2.983  -0.053        0.77         0.77
+            (HETATM    2  C2  HET A   1)   1.250   0.556   0.112        0.52         1.30
+            (HETATM    5  C3  HET B   1)   1.256   2.861   1.119        0.48         1.78
+            (HETATM    1  C1  HET A   1)  -0.081   0.541   0.043        0.39         2.17
+            (HETATM   10  H3  HET B   1)   2.188   2.827   1.536        0.31         2.48
+            (HETATM    7 2H1  HET A   1)  -0.618   0.787  -0.867        0.22         2.70
+            (HETATM    4  N   HET B   1)   0.257   2.938   0.549        0.22         2.92
+            (HETATM    9 2H2  HET A   1)   1.794   0.276   1.004        0.17         3.10
+            (HETATM    8 1H2  HET A   1)   1.886   0.854  -0.698        0.14         3.23
+            (HETATM    6 1H1  HET A   1)  -0.713   0.235   0.853        0.13         3.36
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:              7.267 Kcal/mol
+          Heat of formation of the second geometry:            53.640 Kcal/mol
+          Contribution to heat of formation due to stress:     90.936  Kcal/mol
+          Gradient arising from first geometry:                73.053  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               74.474  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     176.84  degrees
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    83.046 HEAT:  143.1604
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    81.520 HEAT:  143.0595
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    47.967 HEAT:  138.1330
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    79.940 HEAT:  140.0914
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    79.963 HEAT:  142.9933
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    65.429 HEAT:  141.5029
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    89.662 HEAT:  138.9614
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    54.920 HEAT:  136.2298
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    49.401 HEAT:  135.2771
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    44.422 HEAT:  134.5750
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    40.129 HEAT:  133.5067
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    59.215 HEAT:  132.8580
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    32.821 HEAT:  132.1008
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    32.824 HEAT:  132.3323
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    32.273 HEAT:  132.3123
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    30.770 HEAT:  132.4086
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   122.889 HEAT:  131.6722
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    28.028 HEAT:  131.9129
+ CYCLE:    19 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    17.044 HEAT:  130.8667
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    14.866 HEAT:  130.3955
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    24.709 HEAT:  129.6317
+ CYCLE:    22 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    71.291 HEAT:  129.3879
+ CYCLE:    23 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.008 HEAT:  129.5453
+ CYCLE:    24 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.660 HEAT:  129.5296
+ CYCLE:    25 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.945 HEAT:  129.4359
+ CYCLE:    26 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.084 HEAT:  129.2788
+ CYCLE:    27 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.686 HEAT:  129.2533
+ CYCLE:    28 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.484 HEAT:  129.2799
+ CYCLE:    29 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.074 HEAT:  129.2737
+ CYCLE:    30 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.584 HEAT:  129.2143
+
+     GRADIENT =  3.58437 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          Job name: 'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid plus ethylene/Locate-ts Fulminic acid plus ethylene'
+
+          Current value of GEO_REF constraint:                 30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    2.84  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    3  O   HET B   1)  -0.762   2.936  -0.002        0.68         0.68
+            (HETATM    2  C2  HET A   1)   1.235   0.579   0.121        0.49         1.17
+            (HETATM    5  C3  HET B   1)   1.282   2.846   1.132        0.47         1.64
+            (HETATM    1  C1  HET A   1)  -0.095   0.554   0.011        0.38         2.02
+            (HETATM   10  H3  HET B   1)   2.230   2.835   1.514        0.22         2.24
+            (HETATM    4  N   HET B   1)   0.269   2.924   0.586        0.21         2.44
+            (HETATM    7 2H1  HET A   1)  -0.606   0.769  -0.921        0.15         2.60
+            (HETATM    9 2H2  HET A   1)   1.755   0.296   1.027        0.0962       2.69
+            (HETATM    8 1H2  HET A   1)   1.895   0.868  -0.675        0.0816       2.77
+            (HETATM    6 1H1  HET A   1)  -0.749   0.250   0.806        0.0685       2.84
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:              5.683 Kcal/mol
+          Heat of formation of the second geometry:            51.398 Kcal/mol
+          Contribution to heat of formation due to stress:     72.133  Kcal/mol
+          Gradient arising from first geometry:                65.579  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               65.847  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     177.10  degrees
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    67.332 HEAT:  125.9606
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    65.981 HEAT:  125.8989
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    35.567 HEAT:  123.3729
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    65.059 HEAT:  124.1924
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    63.944 HEAT:  125.8379
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    76.466 HEAT:  124.8374
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    57.855 HEAT:  122.5653
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    38.832 HEAT:  122.2848
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    32.215 HEAT:  122.2529
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    31.277 HEAT:  121.9814
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    29.617 HEAT:  121.4760
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.552 HEAT:  120.8952
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.390 HEAT:  120.5897
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.235 HEAT:  120.5636
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.059 HEAT:  120.5642
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    22.493 HEAT:  120.5423
+ CYCLE:    17 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    36.547 HEAT:  119.8218
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    13.660 HEAT:  119.7676
+ CYCLE:    19 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.562 HEAT:  119.7836
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.693 HEAT:  119.6558
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.439 HEAT:  119.4903
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.846 HEAT:  119.2897
+ CYCLE:    23 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.548 HEAT:  119.2715
+ CYCLE:    24 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.619 HEAT:  119.3496
+ CYCLE:    25 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.062 HEAT:  119.3770
+ CYCLE:    26 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.340 HEAT:  119.3757
+ CYCLE:    27 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    13.745 HEAT:  119.3586
+ CYCLE:    28 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.876 HEAT:  119.3446
+
+     GRADIENT =  2.87604 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          Job name: 'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid plus ethylene/Locate-ts Fulminic acid plus ethylene'
+
+          Current value of GEO_REF constraint:                 30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    2.57  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    3  O   HET B   1)  -0.765   2.906   0.035        0.62         0.62
+            (HETATM    5  C3  HET B   1)   1.298   2.843   1.137        0.47         1.09
+            (HETATM    2  C2  HET A   1)   1.228   0.591   0.128        0.47         1.56
+            (HETATM    1  C1  HET A   1)  -0.100   0.556  -0.014        0.38         1.94
+            (HETATM    4  N   HET B   1)   0.274   2.924   0.612        0.20         2.13
+            (HETATM   10  H3  HET B   1)   2.252   2.843   1.502        0.17         2.30
+            (HETATM    7 2H1  HET A   1)  -0.593   0.752  -0.957        0.11         2.41
+            (HETATM    9 2H2  HET A   1)   1.730   0.305   1.041        0.0619       2.47
+            (HETATM    8 1H2  HET A   1)   1.902   0.876  -0.659        0.0551       2.53
+            (HETATM    6 1H1  HET A   1)  -0.770   0.260   0.773        0.0440       2.57
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:              5.223 Kcal/mol
+          Heat of formation of the second geometry:            50.738 Kcal/mol
+          Contribution to heat of formation due to stress:     63.384  Kcal/mol
+          Gradient arising from first geometry:                61.578  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               62.219  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     177.93  degrees
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    57.379 HEAT:  117.6218
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    56.147 HEAT:  117.5804
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    25.188 HEAT:  116.0906
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    55.585 HEAT:  116.3639
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    53.441 HEAT:  117.5151
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   114.448 HEAT:  117.7486
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    43.293 HEAT:  114.4614
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.991 HEAT:  115.1037
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    22.308 HEAT:  115.1624
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    20.849 HEAT:  114.9954
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    19.520 HEAT:  114.6538
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    21.492 HEAT:  114.4234
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    18.744 HEAT:  114.2447
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    15.857 HEAT:  114.2169
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.706 HEAT:  114.2353
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.498 HEAT:  114.2269
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    14.153 HEAT:  113.8599
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.768 HEAT:  113.7107
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.101 HEAT:  113.8515
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.090 HEAT:  113.7814
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.353 HEAT:  113.7157
+
+     GRADIENT =  3.35332 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid plus ethylene/Locate-ts Fulminic acid plus ethylene bias=30.0 first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid plus ethylene/Locate-ts Fulminic acid plus ethylene bias=30.0 second.mop'
+
+
+          Job name: 'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid plus ethylene/Locate-ts Fulminic acid plus ethylene'
+
+          Current value of GEO_REF constraint:                 30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    2.43  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    3  O   HET B   1)  -0.772   2.881   0.061        0.58         0.58
+            (HETATM    5  C3  HET B   1)   1.307   2.843   1.133        0.46         1.04
+            (HETATM    2  C2  HET A   1)   1.224   0.600   0.136        0.45         1.49
+            (HETATM    1  C1  HET A   1)  -0.102   0.556  -0.027        0.38         1.88
+            (HETATM    4  N   HET B   1)   0.272   2.928   0.626        0.19         2.06
+            (HETATM   10  H3  HET B   1)   2.266   2.852   1.486        0.14         2.20
+            (HETATM    7 2H1  HET A   1)  -0.581   0.740  -0.978        0.0923       2.30
+            (HETATM    9 2H2  HET A   1)   1.714   0.312   1.053        0.0514       2.35
+            (HETATM    8 1H2  HET A   1)   1.909   0.879  -0.646        0.0446       2.39
+            (HETATM    6 1H1  HET A   1)  -0.782   0.267   0.755        0.0359       2.43
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:              5.011 Kcal/mol
+          Heat of formation of the second geometry:            50.514 Kcal/mol
+          Contribution to heat of formation due to stress:     58.191  Kcal/mol
+          Gradient arising from first geometry:                59.972  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               58.610  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     176.75  degrees
+
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid plus ethylene/Locate-ts Fulminic acid plus ethylene bias=30.0 average.mop'
+
+  Loop:   1  Energy minimization, excluding active site, using L-BFGS
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   108.817 HEAT:  65.96404
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   106.314 HEAT:  65.84263
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    63.265 HEAT:  61.24660
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   110.061 HEAT:  65.85509
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    63.275 HEAT:  61.10919
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    16.959 HEAT:  57.43049
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.429 HEAT:  57.26957
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.435 HEAT:  57.21506
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.957 HEAT:  57.01155
+
+     GRADIENT =  2.95681 IS LESS THAN CUTOFF =  5.00000
+
+
+  Loop:   1  Gradient minimization of atoms in the active site using TS
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    99.796 HEAT:  57.01128
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    57.812 HEAT:  59.60790
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    36.637 HEAT:  62.09508
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    28.758 HEAT:  60.83686
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.264 HEAT:  60.18569
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.281 HEAT:  60.21639
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.285 HEAT:  60.13254
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.397 HEAT:  60.16127
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.176 HEAT:  60.17353
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.735 HEAT:  60.18307
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.311 HEAT:  60.18313
+
+     GRADIENT =  2.31135 IS LESS THAN CUTOFF =  3.00000
+
+
+  Loop:   2  Energy minimization, excluding active site, using L-BFGS
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.371 HEAT:  60.17786
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.333 HEAT:  60.17537
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    36.608 HEAT:  60.64116
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    16.965 HEAT:  60.17939
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    40.534 HEAT:  60.92595
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.346 HEAT:  59.69606
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.866 HEAT:  59.60138
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.154 HEAT:  59.55994
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.298 HEAT:  59.45054
+
+     GRADIENT =  3.29781 IS LESS THAN CUTOFF =  5.00000
+
+
+  Loop:   2  Gradient minimization of atoms in the active site using TS
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    20.626 HEAT:  59.44941
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.671 HEAT:  59.41633
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.144 HEAT:  59.36548
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.779 HEAT:  59.38748
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.330 HEAT:  59.37642
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.002 HEAT:  59.36502
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.652 HEAT:  59.38692
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.082 HEAT:  59.37701
+
+     GRADIENT =  2.08159 IS LESS THAN CUTOFF =  3.00000
+
+
+  Loop:   3  Energy minimization, excluding active site, using L-BFGS
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.142 HEAT:  59.37545
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.124 HEAT:  59.37518
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.933 HEAT:  59.38445
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.511 HEAT:  59.37582
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.064 HEAT:  59.39897
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.999 HEAT:  59.33589
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.705 HEAT:  59.32743
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.169 HEAT:  59.32110
+
+     GRADIENT =  2.16898 IS LESS THAN CUTOFF =  5.00000
+
+
+  Loop:   3  Gradient minimization of atoms in the active site using TS
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.840 HEAT:  59.32071
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.887 HEAT:  59.32487
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.477 HEAT:  59.32205
+
+     GRADIENT =  2.47659 IS LESS THAN CUTOFF =  3.00000
+
+
+  Loop:   4  Energy minimization, excluding active site, using L-BFGS
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.356 HEAT:  59.31935
+
+     GRADIENT =  4.35591 IS LESS THAN CUTOFF =  5.00000
+
+
+  Loop:   4  Gradient minimization of atoms in the active site using TS
+
+     GRADIENT =  2.61394 IS LESS THAN CUTOFF =  3.00000
+
+
+
+ -------------------------------------------------------------------------------
+ HTML precise geo-ok MOZYME
+ Transition state for Fulminic acid plus ethylene <=> Fulminic acid plus ethylene product
+(Loop4)(Loop3)(Loop2)(Loop1)
+
+
+     GRADIENTS WERE INITIALLY ACCEPTABLY SMALL                
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.153W)
+                                                       Wed Jun  2 17:33:21 2021
+                                                       No. of days remaining = 365
+
+
+
+
+          FINAL HEAT OF FORMATION =         59.31929 KCAL/MOL =     248.19193 KJ/MOL
+
+
+          TOTAL ENERGY            =       -913.45929 EV
+          ELECTRONIC ENERGY       =      -3020.54004 EV
+          CORE-CORE REPULSION     =       2107.08075 EV
+
+          GRADIENT NORM           =          2.61394 = 0.82660 PER ATOM
+          NO. OF FILLED LEVELS    =         14
+          MOLECULAR WEIGHT        =         71.0786
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    10    H     7     4.29479
+            O     3    H     9     3.31348
+            H     8    H     6     2.64990
+
+
+          SCF CALCULATIONS        =         77
+ 
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+                                         Cartesian Gradients         Cartesian Coordinates          |Gradient|
+  Atom                                   X        Y        Z        X          Y          Z
+ 
+    1  C(HETATM    1  C1  HET A   1)   -0.886    0.213   -0.002   -0.13176    0.65812   -0.02840       0.911
+    2  C(HETATM    2  C2  HET A   1)    0.900   -0.406   -0.061    1.21215    0.76800    0.20995       0.989
+    3  O(HETATM    3  O   HET B   1)   -0.138    0.439   -1.652   -0.78192    2.64818    0.23266       1.715
+    5  C(HETATM    5  C3  HET B   1)    0.408   -1.368    0.209    1.33690    2.73309    0.97327       1.443
+ 
+
+              GRADIENTS FOR ALL GROUPS
+
+                Group       Gradient
+ 
+              HET    1        1.345
+              HET    1        2.241
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)   -0.13175800  *   0.65811775  *  -0.02839865  *
+     2       C(HETATM    2  C2  HET A   1)    1.21215143  *   0.76800184  *   0.20995098  *
+     3       O(HETATM    3  O   HET B   1)   -0.78192398  *   2.64817972  *   0.23266015  *
+     4       N(HETATM    4  N   HET B   1)    0.22354831      3.13833615      0.72097092   
+     5       C(HETATM    5  C3  HET B   1)    1.33689848  *   2.73308980  *   0.97326683  *
+     6       H(HETATM    6 1H1  HET A   1)   -0.82301541      0.32632123      0.73410689   
+     7       H(HETATM    7 2H1  HET A   1)   -0.56591458      0.74847198     -1.01110759   
+     8       H(HETATM    8 1H2  HET A   1)    1.91643125      0.93725424     -0.59671323   
+     9       H(HETATM    9 2H2  HET A   1)    1.67562862      0.38140850      1.10722437   
+    10       H(HETATM   10  H3  HET B   1)    2.27813472      2.89663303      1.38513932   
+
+                             CARTESIAN COORDINATES
+
+   1    C       -0.131758003     0.658117753    -0.028398646
+   2    C        1.212151430     0.768001841     0.209950977
+   3    O       -0.781923982     2.648179719     0.232660145
+   4    N        0.223548309     3.138336149     0.720970917
+   5    C        1.336898478     2.733089801     0.973266832
+   6    H       -0.823015407     0.326321228     0.734106892
+   7    H       -0.565914581     0.748471981    -1.011107594
+   8    H        1.916431253     0.937254237    -0.596713229
+   9    H        1.675628624     0.381408500     1.107224374
+  10    H        2.278134718     2.896633027     1.385139324
+
+
+           Empirical Formula: C3 H5 N O  =    10 atoms
+
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C(HETATM    1  C1  HET A   1)          -0.188305        4.1883     1.10881     3.07950
+    2          C(HETATM    2  C2  HET A   1)          -0.343235        4.3432     1.09347     3.24976
+    3          O(HETATM    3  O   HET B   1)          -0.248356        6.2484     1.94129     4.30707
+    4          N(HETATM    4  N   HET B   1)           0.122295        4.8777     1.56929     3.30841
+    5          C(HETATM    5  C3  HET B   1)          -0.125096        4.1251     1.18582     2.93928
+    6          H(HETATM    6 1H1  HET A   1)           0.142004        0.8580     0.85800
+    7          H(HETATM    7 2H1  HET A   1)           0.145441        0.8546     0.85456
+    8          H(HETATM    8 1H2  HET A   1)           0.146605        0.8534     0.85340
+    9          H(HETATM    9 2H2  HET A   1)           0.147028        0.8530     0.85297
+   10          H(HETATM   10  H3  HET B   1)           0.201621        0.7984     0.79838
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      HET A   1       +0.050
+      HET B   1       -0.050
+ 
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     2.164    -0.339     0.738     2.311
+ HYBRID        -0.219     0.030    -0.045     0.225
+ SUM            1.945    -0.309     0.694     2.088
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz   
+    1  C(HETATM    1  C1  HET A   1)   1.10881   1.02643   0.92340   1.12966
+    2  C(HETATM    2  C2  HET A   1)   1.09347   1.04599   1.06715   1.13663
+    3  O(HETATM    3  O   HET B   1)   1.94129   1.22295   1.46164   1.62247
+    4  N(HETATM    4  N   HET B   1)   1.56929   1.04187   1.19003   1.07651
+    5  C(HETATM    5  C3  HET B   1)   1.18582   0.96168   0.83547   1.14213
+    6  H(HETATM    6 1H1  HET A   1)   0.85800
+    7  H(HETATM    7 2H1  HET A   1)   0.85456
+    8  H(HETATM    8 1H2  HET A   1)   0.85340
+    9  H(HETATM    9 2H2  HET A   1)   0.85297
+   10  H(HETATM   10  H3  HET B   1)   0.79838
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.73 SECONDS
+
+ == MOPAC DONE ==

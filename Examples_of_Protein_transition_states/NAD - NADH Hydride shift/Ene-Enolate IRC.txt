@@ -1,0 +1,12 @@
+reset;center {11.971392272727272 11.741060836363625 10.717551945454552}; rotate z 119.55; rotate y 100.11; rotate z -69.43; zoom 542.49; set rotationRadius 19.32;
+center H44
+for (var ii = 1; ii < 551; ii++){
+  frame @ii
+  measure (@{'H44/' + ii}) (@{'C42/' + ii})
+  measure (@{'H44/' + ii}) (@{'C83/' + ii})
+  measure (@{'C81/' + ii}) (@{'C83/' + ii})
+}
+select C42; label C42; 
+select C83; label C83
+select H44; label H44
+select *; set labelalignment center; color label black; select -77

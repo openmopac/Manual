@@ -1,0 +1,250 @@
+ *******************************************************************************
+ ** Site#: 23746        For non-commercial use only    Version 17.181M 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.181M, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 361**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Jul  4 08:57:49 2017  *
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "LOCATE-TS SIGMA 140 SET 1 TS 4 LBFGS.ARC"
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -5
+ *
+ *
+ *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  FORCETS    - VERIFY THAT TRANSITION STATE IS GENUINE
+ *  T=         - A TIME OF      1.0 WEEKS   REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  OUTPUT     - REDUCE OUTPUT, BUT PRINT:
+ *           N - NORMAL COORDINATES)
+ *  ISOTOPE    - FORCE MATRIX WRITTEN TO DISK (CHAN. 9 )
+ *******************************************************************************
+ EPS=78.4 GEO_DAT="Locate-TS Sigma 140 Set 1 TS 4 LBFGS.arc" T=1W CHARGE=-5 MOZYME FORCETS output(N) isotope
+ Verify that the transition state for hydride transfer in Ene-Enolate reaction is valid
+
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1301 H2294 N355 O498 S11 P2  =  4461 atoms
+
+
+   Ion Atom No.           Label               Charge (Distances are between charged sites predicted by Lewis structure theory)
+
+    1   N    1   (ATOM      1  N   GLY A   3)   +1  (2.6 Angstroms from anion  O   55, Label: ATOM     55  OD2 ASP A   6)
+    2   N   75   (ATOM     75  NZ  LYS A   8)   +1  (3.9 Angstroms from anion  O 3688, Label: ATOM   3688  OD2 ASP A 248)
+    3   C   97   (ATOM     97  CZ  ARG A   9)   +1  (5.3 Angstroms from anion  O 1348, Label: ATOM   1348  OD2 ASP A  89)
+    4   C  374   (ATOM    374  CZ  ARG A  27)   +1  (3.9 Angstroms from anion  O  441, Label: ATOM    441  OE2 GLU A  31)
+    5   C  614   (ATOM    614  CZ  ARG A  43)   +1  (3.7 Angstroms from anion  O  601, Label: ATOM    601  OD2 ASP A  42)
+    6   C  657   (ATOM    657  CZ  ARG A  45)   +1
+    7   C  736   (ATOM    736  CZ  ARG A  49)   +1  (9.9 Angstroms from anion  O  792, Label: ATOM    792  OD2 ASP A  52)
+    8   C  805   (ATOM    805  CZ  ARG A  53)   +1  (5.8 Angstroms from anion  O  244, Label: ATOM    244  OD2 ASP A  18)
+    9   N  872   (ATOM    872  NZ  LYS A  57)   +1  (4.8 Angstroms from anion  O  792, Label: ATOM    792  OD2 ASP A  52)
+   10   C 1172   (ATOM   1172  CZ  ARG A  77)   +1  (8.4 Angstroms from anion  O  956, Label: ATOM    956  OE2 GLU A  62)
+   11   N 1308   (ATOM   1308  NZ  LYS A  87)   +1
+   12   N 1760   (ATOM   1760  NZ  LYS A 118)   +1  (4.3 Angstroms from anion  O 1720, Label: ATOM   1720  OD2 ASP A 115)
+   13   N 1966   (ATOM   1966  NZ  LYS A 132)   +1  (4.4 Angstroms from anion  O 1049, Label: ATOM   1049  OE2 GLU A  68)
+   14   C 2267   (ATOM   2267  CZ  ARG A 153)   +1  (5.5 Angstroms from anion  O 2229, Label: ATOM   2229  OD2 ASP A 150)
+   15   N 2458   (ATOM   2458  NZ  LYS A 165)   +1  (4.6 Angstroms from anion  O 4079, Label: HETATM 4079  O7  THT A1302)
+   16   C 2576   (ATOM   2576  CZ  ARG A 173)   +1  (5.2 Angstroms from anion  O 2520, Label: ATOM   2520  OE2 GLU A 169)
+   17   C 2646   (ATOM   2646  CZ  ARG A 177)   +1  (3.4 Angstroms from anion  O 2670, Label: ATOM   2670  OE2 GLU A 178)
+   18   N 2702   (ATOM   2702  NZ  LYS A 181)   +1  (3.5 Angstroms from anion  O 2670, Label: ATOM   2670  OE2 GLU A 178)
+   19   C 2768   (ATOM   2768  CZ  ARG A 185)   +1  (8.3 Angstroms from anion  O 3688, Label: ATOM   3688  OD2 ASP A 248)
+   20   C 2912   (ATOM   2912  CZ  ARG A 195)   +1  (3.5 Angstroms from anion  O 3250, Label: ATOM   3250  OE2 GLU A 219)
+   21   C 3340   (ATOM   3340  CZ  ARG A 225)   +1  (5.8 Angstroms from anion  O 3883, Label: ATOM   3883  OD2 ASP A 261)
+   22   N 3469   (ATOM   3469  NZ  LYS A 233)   +1  (6.7 Angstroms from anion  O 3310, Label: ATOM   3310  OD2 ASP A 223)
+   23   N 3567   (ATOM   3567  NZ  LYS A 240)   +1  (6.8 Angstroms from anion  O  441, Label: ATOM    441  OE2 GLU A  31)
+   24   C 3921   (ATOM   3921  CE1 HIS A 265)   +1  (5.1 Angstroms from anion  O 3883, Label: ATOM   3883  OD2 ASP A 261)
+   25   C 4041   (HETATM 4041  C4N NAI A1301)   +1  (4.3 Angstroms from anion  O 4079, Label: HETATM 4079  O7  THT A1302)
+
+    1   O   55   (ATOM     55  OD2 ASP A   6)   -1  (2.6 Angstroms from cation  N    1, Label: ATOM      1  N   GLY A   3)
+    2   O  244   (ATOM    244  OD2 ASP A  18)   -1  (5.8 Angstroms from cation  C  805, Label: ATOM    805  CZ  ARG A  53)
+    3   O  441   (ATOM    441  OE2 GLU A  31)   -1  (3.9 Angstroms from cation  C  374, Label: ATOM    374  CZ  ARG A  27)
+    4   O  601   (ATOM    601  OD2 ASP A  42)   -1  (3.7 Angstroms from cation  C  614, Label: ATOM    614  CZ  ARG A  43)
+    5   O  792   (ATOM    792  OD2 ASP A  52)   -1  (4.8 Angstroms from cation  N  872, Label: ATOM    872  NZ  LYS A  57)
+    6   O  956   (ATOM    956  OE2 GLU A  62)   -1  (8.4 Angstroms from cation  C 1172, Label: ATOM   1172  CZ  ARG A  77)
+    7   O  989   (ATOM    989  OD2 ASP A  64)   -1  (7.2 Angstroms from cation  N 1760, Label: ATOM   1760  NZ  LYS A 118)
+    8   O 1049   (ATOM   1049  OE2 GLU A  68)   -1  (4.4 Angstroms from cation  N 1966, Label: ATOM   1966  NZ  LYS A 132)
+    9   O 1064   (ATOM   1064  OE2 GLU A  69)   -1
+   10   O 1226   (ATOM   1226  OE2 GLU A  80)   -1
+   11   O 1348   (ATOM   1348  OD2 ASP A  89)   -1  (5.3 Angstroms from cation  C   97, Label: ATOM     97  CZ  ARG A   9)
+   12   O 1653   (ATOM   1653  OD2 ASP A 110)   -1
+   13   O 1720   (ATOM   1720  OD2 ASP A 115)   -1  (4.3 Angstroms from cation  N 1760, Label: ATOM   1760  NZ  LYS A 118)
+   14   O 2197   (ATOM   2197  OD2 ASP A 148)   -1  (5.7 Angstroms from cation  N 2458, Label: ATOM   2458  NZ  LYS A 165)
+   15   O 2229   (ATOM   2229  OD2 ASP A 150)   -1  (5.5 Angstroms from cation  C 2267, Label: ATOM   2267  CZ  ARG A 153)
+   16   O 2520   (ATOM   2520  OE2 GLU A 169)   -1  (5.2 Angstroms from cation  C 2576, Label: ATOM   2576  CZ  ARG A 173)
+   17   O 2670   (ATOM   2670  OE2 GLU A 178)   -1  (3.4 Angstroms from cation  C 2646, Label: ATOM   2646  CZ  ARG A 177)
+                                                    (3.5 Angstroms from cation  N 2702, Label: ATOM   2702  NZ  LYS A 181)
+   18   O 3102   (ATOM   3102  OE2 GLU A 209)   -1
+   19   O 3117   (ATOM   3117  OE2 GLU A 210)   -1
+   20   O 3250   (ATOM   3250  OE2 GLU A 219)   -1  (3.5 Angstroms from cation  C 2912, Label: ATOM   2912  CZ  ARG A 195)
+   21   O 3265   (ATOM   3265  OE2 GLU A 220)   -1
+   22   O 3310   (ATOM   3310  OD2 ASP A 223)   -1  (6.7 Angstroms from cation  N 3469, Label: ATOM   3469  NZ  LYS A 233)
+   23   O 3490   (ATOM   3490  OD2 ASP A 234)   -1  (7.1 Angstroms from cation  C  374, Label: ATOM    374  CZ  ARG A  27)
+   24   O 3688   (ATOM   3688  OD2 ASP A 248)   -1  (3.9 Angstroms from cation  N   75, Label: ATOM     75  NZ  LYS A   8)
+   25   O 3802   (ATOM   3802  OD2 ASP A 256)   -1  (9.1 Angstroms from cation  C 2768, Label: ATOM   2768  CZ  ARG A 185)
+   26   O 3883   (ATOM   3883  OD2 ASP A 261)   -1  (5.1 Angstroms from cation  C 3921, Label: ATOM   3921  CE1 HIS A 265)
+   27   O 3988   (ATOM   3988  OXT LEU A 269)   -1  (6.5 Angstroms from cation  C 3340, Label: ATOM   3340  CZ  ARG A 225)
+   28   O 4002   (HETATM 4002  O2A NAI A1301)   -1  (8.4 Angstroms from cation  C  614, Label: ATOM    614  CZ  ARG A  43)
+   29   O 4025   (HETATM 4025  O2N NAI A1301)   -1  (6.9 Angstroms from cation  C 4041, Label: HETATM 4041  C4N NAI A1301)
+   30   O 4079   (HETATM 4079  O7  THT A1302)   -1  (4.3 Angstroms from cation  C 4041, Label: HETATM 4041  C4N NAI A1301)
+                                                    (4.6 Angstroms from cation  N 2458, Label: ATOM   2458  NZ  LYS A 165)
+
+          COMPUTED CHARGE ON SYSTEM: -5
+
+
+          HEAT OF FORMATION =  -32926.781481 KCALS/MOLE
+
+
+          GRADIENT NORM =   3.89482
+
+
+          TIME FOR SCF CALCULATION = 2470.35
+
+          TIME FOR DERIVATIVES     = 1512.45
+
+
+    FIRST DERIVATIVES WILL BE USED IN THE CALCULATION OF SECOND DERIVATIVES
+
+          ESTIMATED TIME TO COMPLETE CALCULATION =    71690.41 SECONDS
+ STEP:   1 TIME =  3051.97 SECS, INTEGRAL =   3051.97 TIME LEFT: 597765.23
+ STEP:   2 TIME =  3482.36 SECS, INTEGRAL =   6534.34 TIME LEFT: 594282.86
+ STEP:   3 RESTART FILE WRITTEN, INTEGRAL =   8106.52 TIME LEFT: 592710.68
+ STEP:   4 TIME =  3910.41 SECS, INTEGRAL =  12016.93 TIME LEFT: 588800.27
+ STEP:   5 TIME =  2720.58 SECS, INTEGRAL =  14737.51 TIME LEFT: 586079.69
+ STEP:   6 RESTART FILE WRITTEN, INTEGRAL =  17644.62 TIME LEFT: 583172.58
+ STEP:   7 TIME =  3548.12 SECS, INTEGRAL =  21192.74 TIME LEFT: 579624.46
+ STEP:   8 TIME =  3026.69 SECS, INTEGRAL =  24219.43 TIME LEFT: 576597.77
+ STEP:   9 RESTART FILE WRITTEN, INTEGRAL =  26736.92 TIME LEFT: 574080.28
+
+          MOLECULAR WEIGHT =31293.12
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.00000368   B =    0.00000253   C =    0.00000240
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =  7611869.4351   B = 11055429.2748   C = 11658425.1157
+
+
+
+          HEAT OF FORMATION =  -32926.738286 KCALS/MOLE
+
+          ZERO POINT ENERGY      21.028 KCAL/MOL
+
+         NOTE: SYSTEM IS NOT A GROUND STATE, THEREFORE ZERO POINT
+         ENERGY IS NOT MEANINGFULL. ZERO POINT ENERGY PRINTED
+         DOES NOT INCLUDE THE  1 IMAGINARY FREQUENCIES
+
+
+                         Atoms used in the FORCETS calculation
+
+   1     C(HETATM 4041  C4N NAI A1301)  11.73460816 +1  11.24452938 +1  12.06177761 +1
+   2     H(HETATM 4043 H42N NAI A1301)  12.16067254 +1  11.79596467 +1  10.72335946 +1
+   3     C(HETATM 4082  C9  THT A1302)  12.89729514 +1  12.32034285 +1   9.71038128 +1
+
+
+           NORMAL COORDINATE ANALYSIS (Total motion = 1 Angstrom)
+
+
+   Root No.       1         2         3         4         5         6         7         8
+
+                 1         2         3         4         5         6         7         8
+
+               -1899.5     705.5    1005.6    1049.0    1094.2    1238.9    2173.1    3468.7
+
+           1    0.0023   -0.1932   -0.0522    0.3106    0.0835   -0.0427    0.0014    0.0001
+           2    0.0329   -0.0419    0.1512   -0.0567    0.2731   -0.0134    0.0100   -0.0008
+           3   -0.0557    0.3668   -0.0294    0.1177    0.1072   -0.0264   -0.0169    0.0007
+           4   -0.2622   -0.2253   -0.1824   -0.0078    0.3459    0.7801   -0.0663    0.0230
+           5   -0.2318    0.0171    0.7362    0.4738   -0.5240    0.1247   -0.1482   -0.0300
+           6    0.5060    0.4592    0.1034    0.4109   -0.1694    0.3956    0.2676   -0.0269
+           7    0.2132    0.0529   -0.0483    0.0162    0.0262    0.0506   -0.3198   -0.3325
+           8    0.1300    0.0406    0.0083    0.0319   -0.0144    0.0211   -0.2085    0.8800
+           9   -0.2001   -0.0259    0.0525    0.0023   -0.0331   -0.0340    0.5474    0.1493
+
+
+   Root No.       9
+
+                 9
+
+                3974.4
+
+           1   -0.0001
+           2   -0.0023
+           3    0.0032
+           4    0.0180
+           5    0.0320
+           6   -0.0962
+           7    0.6968
+           8    0.1706
+           9    0.5319
+
+
+           MASS-WEIGHTED COORDINATE ANALYSIS (NORMAL COORDINATES)
+
+
+   Root No.       1         2         3         4         5         6         7         8
+
+                 1         2         3         4         5         6         7         8
+
+               -1899.5     705.5    1005.6    1049.0    1094.2    1238.9    2173.1    3468.7
+
+           1    0.0115   -0.4399   -0.1987    0.8244    0.2375   -0.1755    0.0068    0.0005
+           2    0.1671   -0.0954    0.5757   -0.1504    0.7767   -0.0550    0.0501   -0.0032
+           3   -0.2828    0.8353   -0.1118    0.3125    0.3048   -0.1087   -0.0852    0.0028
+           4   -0.3571   -0.1376   -0.1863   -0.0056    0.2639    0.8603   -0.0895    0.0241
+           5   -0.3157    0.0104    0.7519    0.3374   -0.3998    0.1375   -0.2000   -0.0315
+           6    0.6891    0.2805    0.1056    0.2926   -0.1292    0.4362    0.3613   -0.0282
+           7    0.2904    0.0323   -0.0494    0.0115    0.0200    0.0558   -0.4317   -0.3486
+           8    0.1771    0.0248    0.0085    0.0227   -0.0110    0.0232   -0.2815    0.9228
+           9   -0.2725   -0.0158    0.0536    0.0016   -0.0253   -0.0375    0.7389    0.1566
+
+
+   Root No.       9
+
+                 9
+
+                3974.4
+
+           1   -0.0003
+           2   -0.0094
+           3    0.0131
+           4    0.0200
+           5    0.0356
+           6   -0.1070
+           7    0.7750
+           8    0.1897
+           9    0.5916
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:         30727.33 SECONDS
+
+ == MOPAC DONE ==

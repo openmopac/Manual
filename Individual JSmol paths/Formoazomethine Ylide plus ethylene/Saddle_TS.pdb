@@ -1,0 +1,19 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Formoazomethine
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  3 2021 09:00
+REMARK  Heat of Formation = 53.058 Kcal/mol
+HETATM    1  C1  HET A   1       0.059  -0.306   0.011  1.00 -0.31      PROT C 
+HETATM    2  C2  HET A   1       1.448  -0.340  -0.027  1.00 -0.32      PROT C 
+HETATM    3  C1  HET B   2      -0.366   1.804  -0.039  1.00 -0.28      PROT C 
+HETATM    4  N   HET B   2       0.814   2.178  -0.609  1.00 -0.20      PROT N 
+HETATM    5  C2  HET B   2       1.966   1.761  -0.014  1.00 -0.28      PROT C 
+HETATM    6 1H1  HET A   1      -0.475  -0.471   0.932  1.00  0.13      PROT H 
+HETATM    7 2H1  HET A   1      -0.533  -0.486  -0.869  1.00  0.13      PROT H 
+HETATM    8 1H2  HET A   1       1.977  -0.530  -0.944  1.00  0.13      PROT H 
+HETATM    9 2H2  HET A   1       2.032  -0.545   0.856  1.00  0.13      PROT H 
+HETATM   10 1H1  HET B   2      -1.280   1.950  -0.594  1.00  0.14      PROT H 
+HETATM   11 2H1  HET B   2      -0.476   1.803   1.036  1.00  0.16      PROT H 
+HETATM   12  H   HET B   2       0.830   2.350  -1.607  1.00  0.28      PROT H 
+HETATM   13 1H2  HET B   2       2.043   1.731   1.060  1.00  0.16      PROT H 
+HETATM   14 2H2  HET B   2       2.903   1.905  -0.530  1.00  0.14      PROT H 
+END

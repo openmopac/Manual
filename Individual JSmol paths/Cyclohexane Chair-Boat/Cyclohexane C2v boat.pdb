@@ -1,0 +1,21 @@
+HEADER  data-set: Cyclohexane C2v boat
+REMARK  MOPAC 2012, Version: 15.311W Date: Nov 07 2015 12:56
+HETATM    1  C   HET A   1       0.000   0.000   0.000  1.00 -0.26      PROT C 
+HETATM    2  C   HET A   1       1.534   0.000   0.000  1.00 -0.26      PROT C 
+HETATM    3  C   HET A   1       2.118   1.425   0.000  1.00 -0.26      PROT C 
+HETATM    4  C   HET A   1       1.026   2.502   0.002  1.00 -0.26      PROT C 
+HETATM    5  C   HET A   1       0.037   2.278   1.153  1.00 -0.26      PROT C 
+HETATM    6  C   HET A   1      -0.548   0.853   1.151  1.00 -0.26      PROT C 
+HETATM    7  H   HET A   1      -0.377  -1.036   0.085  1.00  0.13      PROT H 
+HETATM    8  H   HET A   1      -0.378   0.381  -0.967  1.00  0.14      PROT H 
+HETATM    9  H   HET A   1       1.904  -0.560  -0.878  1.00  0.13      PROT H 
+HETATM   10  H   HET A   1       1.900  -0.551   0.886  1.00  0.13      PROT H 
+HETATM   11  H   HET A   1       2.774   1.565  -0.879  1.00  0.13      PROT H 
+HETATM   12  H   HET A   1       2.767   1.559   0.885  1.00  0.13      PROT H 
+HETATM   13  H   HET A   1       0.489   2.498  -0.965  1.00  0.14      PROT H 
+HETATM   14  H   HET A   1       1.485   3.504   0.089  1.00  0.13      PROT H 
+HETATM   15  H   HET A   1      -0.778   3.021   1.090  1.00  0.13      PROT H 
+HETATM   16  H   HET A   1       0.546   2.468   2.116  1.00  0.13      PROT H 
+HETATM   17  H   HET A   1      -1.650   0.897   1.086  1.00  0.13      PROT H 
+HETATM   18  H   HET A   1      -0.321   0.358   2.114  1.00  0.13      PROT H 
+END

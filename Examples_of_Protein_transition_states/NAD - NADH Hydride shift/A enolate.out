@@ -1,0 +1,512 @@
+ ******************************************************************************* 
+ ** Site#: 9602  E-mail support:    MrMOPAC@ATT.net    Version 17.174W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.174W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web-site: HTTP://OpenMOPAC.net.          **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jun 25 05:47:31 2017  *
+ *  START_RES  - STARTING RESIDUE NUMBERS DEFINED
+ *  Keyword:   START_RES=(3A 1301A) 
+ *  CHAIN      - PDB CHAIN LETTERS EXPLICITLY DEFINED
+ *  Keyword:   CHAINS=(AA) 
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -5
+ *
+ *
+ *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  GRADIENTS  - ALL GRADIENTS TO BE PRINTED
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+1scf START_RES=(3A 1301A)  CHAINS=(AA) charge=-5  MOZYME eps=78.4 html output gradients
+ A: Enolate at start of reaction
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1301 H2294 N355 O498 S11 P2  =  4461 atoms
+
+
+   Ion Atom No.           Label               Charge (Distances are between charged sites predicted by Lewis structure theory)
+ 
+    1   N    1   (ATOM      1  N   GLY A   3)   +1  (2.6 Angstroms from anion  O   55, Label: ATOM     55  OD2 ASP A   6)
+    2   N   75   (ATOM     75  NZ  LYS A   8)   +1  (3.9 Angstroms from anion  O 3688, Label: ATOM   3688  OD2 ASP A 248)
+    3   C   97   (ATOM     97  CZ  ARG A   9)   +1  (5.3 Angstroms from anion  O 1348, Label: ATOM   1348  OD2 ASP A  89)
+    4   C  374   (ATOM    374  CZ  ARG A  27)   +1  (3.9 Angstroms from anion  O  441, Label: ATOM    441  OE2 GLU A  31)
+    5   C  614   (ATOM    614  CZ  ARG A  43)   +1  (3.7 Angstroms from anion  O  601, Label: ATOM    601  OD2 ASP A  42)
+    6   C  657   (ATOM    657  CZ  ARG A  45)   +1
+    7   C  736   (ATOM    736  CZ  ARG A  49)   +1  (9.8 Angstroms from anion  O  792, Label: ATOM    792  OD2 ASP A  52)
+    8   C  805   (ATOM    805  CZ  ARG A  53)   +1  (5.7 Angstroms from anion  O  244, Label: ATOM    244  OD2 ASP A  18)
+    9   N  872   (ATOM    872  NZ  LYS A  57)   +1  (4.8 Angstroms from anion  O  792, Label: ATOM    792  OD2 ASP A  52)
+   10   C 1172   (ATOM   1172  CZ  ARG A  77)   +1  (8.4 Angstroms from anion  O  956, Label: ATOM    956  OE2 GLU A  62)
+   11   N 1308   (ATOM   1308  NZ  LYS A  87)   +1
+   12   N 1760   (ATOM   1760  NZ  LYS A 118)   +1  (4.2 Angstroms from anion  O 1720, Label: ATOM   1720  OD2 ASP A 115)
+   13   N 1966   (ATOM   1966  NZ  LYS A 132)   +1  (4.4 Angstroms from anion  O 1049, Label: ATOM   1049  OE2 GLU A  68)
+   14   C 2267   (ATOM   2267  CZ  ARG A 153)   +1  (5.5 Angstroms from anion  O 2229, Label: ATOM   2229  OD2 ASP A 150)
+   15   N 2458   (ATOM   2458  NZ  LYS A 165)   +1  (4.4 Angstroms from anion  O 4079, Label: HETATM 4079  O7  THT A1302)
+   16   C 2576   (ATOM   2576  CZ  ARG A 173)   +1  (5.2 Angstroms from anion  O 2520, Label: ATOM   2520  OE2 GLU A 169)
+   17   C 2646   (ATOM   2646  CZ  ARG A 177)   +1  (3.4 Angstroms from anion  O 2670, Label: ATOM   2670  OE2 GLU A 178)
+   18   N 2702   (ATOM   2702  NZ  LYS A 181)   +1  (3.5 Angstroms from anion  O 2670, Label: ATOM   2670  OE2 GLU A 178)
+   19   C 2768   (ATOM   2768  CZ  ARG A 185)   +1  (8.3 Angstroms from anion  O 3688, Label: ATOM   3688  OD2 ASP A 248)
+   20   C 2912   (ATOM   2912  CZ  ARG A 195)   +1  (3.5 Angstroms from anion  O 3250, Label: ATOM   3250  OE2 GLU A 219)
+   21   C 3340   (ATOM   3340  CZ  ARG A 225)   +1  (5.8 Angstroms from anion  O 3883, Label: ATOM   3883  OD2 ASP A 261)
+   22   N 3469   (ATOM   3469  NZ  LYS A 233)   +1  (6.7 Angstroms from anion  O 3310, Label: ATOM   3310  OD2 ASP A 223)
+   23   N 3567   (ATOM   3567  NZ  LYS A 240)   +1  (6.8 Angstroms from anion  O  441, Label: ATOM    441  OE2 GLU A  31)
+   24   C 3921   (ATOM   3921  CE1 HIS A 265)   +1  (5.1 Angstroms from anion  O 3883, Label: ATOM   3883  OD2 ASP A 261)
+   25   C 4041   (HETATM 4041  C4N NAI A1301)   +1  (4.3 Angstroms from anion  O 4079, Label: HETATM 4079  O7  THT A1302)
+ 
+    1   O   55   (ATOM     55  OD2 ASP A   6)   -1  (2.6 Angstroms from cation  N    1, Label: ATOM      1  N   GLY A   3)
+    2   O  244   (ATOM    244  OD2 ASP A  18)   -1  (5.7 Angstroms from cation  C  805, Label: ATOM    805  CZ  ARG A  53)
+    3   O  441   (ATOM    441  OE2 GLU A  31)   -1  (3.9 Angstroms from cation  C  374, Label: ATOM    374  CZ  ARG A  27)
+    4   O  601   (ATOM    601  OD2 ASP A  42)   -1  (3.7 Angstroms from cation  C  614, Label: ATOM    614  CZ  ARG A  43)
+    5   O  792   (ATOM    792  OD2 ASP A  52)   -1  (4.8 Angstroms from cation  N  872, Label: ATOM    872  NZ  LYS A  57)
+    6   O  956   (ATOM    956  OE2 GLU A  62)   -1  (8.4 Angstroms from cation  C 1172, Label: ATOM   1172  CZ  ARG A  77)
+    7   O  989   (ATOM    989  OD2 ASP A  64)   -1  (7.2 Angstroms from cation  N 1760, Label: ATOM   1760  NZ  LYS A 118)
+    8   O 1049   (ATOM   1049  OE2 GLU A  68)   -1  (4.4 Angstroms from cation  N 1966, Label: ATOM   1966  NZ  LYS A 132)
+    9   O 1064   (ATOM   1064  OE2 GLU A  69)   -1
+   10   O 1226   (ATOM   1226  OE2 GLU A  80)   -1
+   11   O 1348   (ATOM   1348  OD2 ASP A  89)   -1  (5.3 Angstroms from cation  C   97, Label: ATOM     97  CZ  ARG A   9)
+   12   O 1653   (ATOM   1653  OD2 ASP A 110)   -1
+   13   O 1720   (ATOM   1720  OD2 ASP A 115)   -1  (4.2 Angstroms from cation  N 1760, Label: ATOM   1760  NZ  LYS A 118)
+   14   O 2197   (ATOM   2197  OD2 ASP A 148)   -1  (5.8 Angstroms from cation  N 2458, Label: ATOM   2458  NZ  LYS A 165)
+   15   O 2229   (ATOM   2229  OD2 ASP A 150)   -1  (5.5 Angstroms from cation  C 2267, Label: ATOM   2267  CZ  ARG A 153)
+   16   O 2520   (ATOM   2520  OE2 GLU A 169)   -1  (5.2 Angstroms from cation  C 2576, Label: ATOM   2576  CZ  ARG A 173)
+   17   O 2670   (ATOM   2670  OE2 GLU A 178)   -1  (3.4 Angstroms from cation  C 2646, Label: ATOM   2646  CZ  ARG A 177)
+                                                    (3.5 Angstroms from cation  N 2702, Label: ATOM   2702  NZ  LYS A 181)
+   18   O 3102   (ATOM   3102  OE2 GLU A 209)   -1
+   19   O 3117   (ATOM   3117  OE2 GLU A 210)   -1
+   20   O 3250   (ATOM   3250  OE2 GLU A 219)   -1  (3.5 Angstroms from cation  C 2912, Label: ATOM   2912  CZ  ARG A 195)
+   21   O 3265   (ATOM   3265  OE2 GLU A 220)   -1
+   22   O 3310   (ATOM   3310  OD2 ASP A 223)   -1  (6.7 Angstroms from cation  N 3469, Label: ATOM   3469  NZ  LYS A 233)
+   23   O 3490   (ATOM   3490  OD2 ASP A 234)   -1  (7.1 Angstroms from cation  C  374, Label: ATOM    374  CZ  ARG A  27)
+   24   O 3688   (ATOM   3688  OD2 ASP A 248)   -1  (3.9 Angstroms from cation  N   75, Label: ATOM     75  NZ  LYS A   8)
+   25   O 3802   (ATOM   3802  OD2 ASP A 256)   -1  (9.1 Angstroms from cation  C 2768, Label: ATOM   2768  CZ  ARG A 185)
+   26   O 3883   (ATOM   3883  OD2 ASP A 261)   -1  (5.1 Angstroms from cation  C 3921, Label: ATOM   3921  CE1 HIS A 265)
+   27   O 3988   (ATOM   3988  OXT LEU A 269)   -1  (6.5 Angstroms from cation  C 3340, Label: ATOM   3340  CZ  ARG A 225)
+   28   O 4002   (HETATM 4002  O2A NAI A1301)   -1  (8.6 Angstroms from cation  C  614, Label: ATOM    614  CZ  ARG A  43)
+   29   O 4025   (HETATM 4025  O2N NAI A1301)   -1  (6.5 Angstroms from cation  C 4041, Label: HETATM 4041  C4N NAI A1301)
+   30   O 4079   (HETATM 4079  O7  THT A1302)   -1  (4.3 Angstroms from cation  C 4041, Label: HETATM 4041  C4N NAI A1301)
+                                                    (4.4 Angstroms from cation  N 2458, Label: ATOM   2458  NZ  LYS A 165)
+
+          COMPUTED CHARGE ON SYSTEM: -5
+
+ -------------------------------------------------------------------------------
+1scf START_RES=(3A 1301A)  CHAINS=(AA) charge=-5  MOZYME eps=78.4 html output gradients
+ A: Enolate at start of reaction
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 17.174W)
+                                                       Sun Jun 25 05:58:42 2017
+                                                       No. of days remaining = 416
+
+
+
+
+          FINAL HEAT OF FORMATION =     -32947.80593 KCAL/MOL = -137853.62002 KJ/MOL
+          VAN DER WAALS AREA      =       8004.29 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =    -406569.48673 EV
+          ELECTRONIC ENERGY       =  -61486757.98101 EV
+          CORE-CORE REPULSION     =   61063237.02401 EV
+          DIELECTRIC ENERGY       =        -97.99677 EV
+          COSMO AREA              =       8004.29 SQUARE ANGSTROMS
+          COSMO VOLUME            =      35183.81 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          7.11990
+          NO. OF FILLED LEVELS    =       6171
+          MOLECULAR WEIGHT        =      31293.1208
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H  3994    H  1278    56.33946
+            H  4268    O    54    47.08112
+            H   670    H  2660    44.83868
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         = 11 MINUTES AND 10.818 SECONDS
+          COMPUTATION TIME        = 15 MINUTES AND 51.388 SECONDS
+
+          LARGEST ATOMIC GRADIENTS
+
+ Atom              Label                  Cartesian Coordinates        |Gradient|
+                                         X          Y          Z
+
+ 3287  N(ATOM   3287  NE1 TRP A 222)    4.19982   12.13499    8.68856      2.571
+ 4209  H(HETATM 4209 2H   HOH A1328)    1.59437    1.48922   11.85949      2.347
+ 4208  H(HETATM 4208 1H   HOH A1328)    0.28701    2.14877   11.35209      2.311
+  178  N(ATOM    178  N   GLY A  14)   20.75826    5.35432   19.38183      2.106
+ 3298  H(ATOM   3298  HE1 TRP A 222)    3.81009   11.20848    8.79607      1.791
+ 2369  N(ATOM   2369  N   TRP A 160)   18.42446   10.24793    0.04219      1.769
+ 4207  O(HETATM 4207  O   HOH A1328)    0.93420    2.17418   12.06014      1.699
+ 4277  H(HETATM 4277 1H   HOH A1351)    2.35152   -0.41989   10.17107      1.624
+  182  H(ATOM    182  H   GLY A  14)   21.75281    5.17817   19.23850      1.527
+ 2383  H(ATOM   2383  H   TRP A 160)   19.24548   10.85652    0.12002      1.232
+
+
+
+
+
+           Empirical Formula: C1301 H2294 N355 O498 S11 P2  =  4461 atoms
+
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      GLY A   3       +0.930  CATION
+      LEU A   4       +0.050
+      LEU A   5       +0.017
+      ASP A   6       -0.965  ANION
+      GLY A   7       -0.054
+      LYS A   8       +0.979  CATION
+      ARG A   9       +0.942  CATION
+      ILE A  10       +0.011
+      LEU A  11       -0.004
+      VAL A  12       -0.018
+      SER A  13       +0.032
+      GLY A  14       -0.031
+      ILE A  15       +0.063
+      ILE A  16       +0.005
+      THR A  17       +0.004
+      ASP A  18       -0.986  ANION
+      SER A  19       -0.071
+      SER A  20       +0.003
+      ILE A  21       -0.007
+      ALA A  22       -0.017
+      PHE A  23       +0.039
+      HIS A  24       -0.038
+      ILE A  25       +0.074
+      ALA A  26       -0.053
+      ARG A  27       +0.950  CATION
+      VAL A  28       -0.044
+      ALA A  29       +0.018
+      GLN A  30       +0.003
+      GLU A  31       -0.807  ANION
+      GLN A  32       -0.114
+      GLY A  33       +0.075
+      ALA A  34       +0.048
+      GLN A  35       -0.048
+      LEU A  36       +0.070
+      VAL A  37       -0.072
+      LEU A  38       +0.034
+      THR A  39       -0.013
+      GLY A  40       -0.038
+      PHE A  41       +0.113
+      ASP A  42       -0.962  ANION
+      ARG A  43       +0.895  CATION
+      LEU A  44       +0.079
+      ARG A  45       +1.031  CATION
+      LEU A  46       -0.081
+      ILE A  47       +0.082
+      GLN A  48       -0.054
+      ARG A  49       +0.996  CATION
+      ILE A  50       +0.055
+      THR A  51       +0.016
+      ASP A  52       -0.913  ANION
+      ARG A  53       +0.938  CATION
+      LEU A  54       +0.100
+      PRO A  55       -0.063
+      ALA A  56       +0.041
+      LYS A  57       +0.979  CATION
+      ALA A  58       -0.119
+      PRO A  59       +0.097
+      LEU A  60       +0.021
+      LEU A  61       -0.028
+      GLU A  62       -0.959  ANION
+      LEU A  63       +0.010
+      ASP A  64       -0.918  ANION
+      VAL A  65       +0.033
+      GLN A  66       -0.031
+      ASN A  67       +0.019
+      GLU A  68       -0.909  ANION
+      GLU A  69       -0.988  ANION
+      HIS A  70       +0.052
+      LEU A  71       +0.016
+      ALA A  72       +0.070
+      SER A  73       -0.062
+      LEU A  74       +0.011
+      ALA A  75       -0.038
+      GLY A  76       +0.044
+      ARG A  77       +0.961  CATION
+      VAL A  78       -0.038
+      THR A  79       +0.037
+      GLU A  80       -1.042  ANION
+      ALA A  81       +0.007
+      ILE A  82       -0.053
+      GLY A  83       +0.046
+      ALA A  84       +0.043
+      GLY A  85       -0.063
+      ASN A  86       +0.014
+      LYS A  87       +0.985  CATION
+      LEU A  88       -0.050
+      ASP A  89       -0.939  ANION
+      GLY A  90       -0.005
+      VAL A  91       +0.014
+      VAL A  92       -0.002
+      HIS A  93       +0.037
+      SER A  94       -0.045
+      ILE A  95       -0.016
+      GLY A  96       +0.038
+      PHE A  97       -0.043
+      MET A  98       +0.042
+      PRO A  99       -0.019
+      GLN A 100       +0.099
+      THR A 101       -0.059
+      GLY A 102       -0.030
+      MET A 103       +0.013
+      GLY A 104       +0.022
+      ILE A 105       +0.032
+      ASN A 106       -0.041
+      PRO A 107       +0.079
+      PHE A 108       -0.014
+      PHE A 109       -0.018
+      ASP A 110       -0.925  ANION
+      ALA A 111       +0.076
+      PRO A 112       -0.006
+      TYR A 113       -0.029
+      ALA A 114       +0.044
+      ASP A 115       -0.996  ANION
+      VAL A 116       +0.052
+      SER A 117       -0.041
+      LYS A 118       +0.985  CATION
+      GLY A 119       -0.003
+      ILE A 120       +0.021
+      HIS A 121       +0.029
+      ILE A 122       +0.033
+      SER A 123       -0.050
+      ALA A 124       +0.052
+      TYR A 125       -0.094
+      SER A 126       +0.110
+      TYR A 127       +0.005
+      ALA A 128       -0.067
+      SER A 129       -0.025
+      MET A 130       +0.019
+      ALA A 131       +0.023
+      LYS A 132       +0.975  CATION
+      ALA A 133       -0.024
+      LEU A 134       +0.007
+      LEU A 135       +0.001
+      PRO A 136       +0.018
+      ILE A 137       +0.068
+      MET A 138       -0.041
+      ASN A 139       +0.041
+      PRO A 140       +0.061
+      GLY A 141       -0.066
+      GLY A 142       +0.079
+      SER A 143       -0.087
+      ILE A 144       +0.026
+      VAL A 145       +0.014
+      GLY A 146       +0.016
+      MET A 147       -0.051
+      ASP A 148       -0.972  ANION
+      PHE A 149       +0.096
+      ASP A 150       -0.872  ANION
+      PRO A 151       +0.045
+      SER A 152       -0.156
+      ARG A 153       +1.095  CATION
+      ALA A 154       -0.046
+      MET A 155       -0.037
+      PRO A 156       +0.021
+      ALA A 157       +0.030
+      TYR A 158       -0.080
+      ASN A 159       -0.006
+      TRP A 160       -0.032
+      MET A 161       +0.039
+      THR A 162       +0.028
+      VAL A 163       -0.052
+      ALA A 164       -0.029
+      LYS A 165       +1.038  CATION
+      SER A 166       -0.031
+      ALA A 167       -0.039
+      LEU A 168       +0.012
+      GLU A 169       -0.784  ANION
+      SER A 170       -0.093
+      VAL A 171       +0.087
+      ASN A 172       +0.008
+      ARG A 173       +0.964  CATION
+      PHE A 174       -0.074
+      VAL A 175       +0.030
+      ALA A 176       +0.092
+      ARG A 177       +0.988  CATION
+      GLU A 178       -0.845  ANION
+      ALA A 179       -0.022
+      GLY A 180       +0.014
+      LYS A 181       +0.945  CATION
+      TYR A 182       +0.029
+      GLY A 183       -0.002
+      VAL A 184       +0.001
+      ARG A 185       +0.971  CATION
+      SER A 186       -0.045
+      ASN A 187       +0.041
+      LEU A 188       +0.029
+      VAL A 189       +0.016
+      ALA A 190       +0.030
+      ALA A 191       -0.014
+      GLY A 192       -0.011
+      PRO A 193       +0.027
+      ILE A 194       -0.017
+      ARG A 195       +0.788  CATION
+      THR A 196       -0.003
+      LEU A 197       +0.051
+      ALA A 198       -0.008
+      MET A 199       +0.080
+      SER A 200       -0.090
+      ALA A 201       +0.021
+      ILE A 202       -0.033
+      VAL A 203       +0.064
+      GLY A 204       -0.027
+      GLY A 205       +0.011
+      ALA A 206       +0.003
+      LEU A 207       -0.023
+      GLY A 208       +0.045
+      GLU A 209       -0.996  ANION
+      GLU A 210       -0.944  ANION
+      ALA A 211       -0.051
+      GLY A 212       -0.003
+      ALA A 213       -0.005
+      GLN A 214       +0.016
+      ILE A 215       -0.030
+      GLN A 216       +0.049
+      LEU A 217       -0.042
+      LEU A 218       +0.014
+      GLU A 219       -0.779  ANION
+      GLU A 220       -0.949  ANION
+      GLY A 221       +0.014
+      TRP A 222       +0.054
+      ASP A 223       -0.915  ANION
+      GLN A 224       -0.048
+      ARG A 225       +0.966  CATION
+      ALA A 226       +0.003
+      PRO A 227       +0.041
+      ILE A 228       -0.030
+      GLY A 229       +0.061
+      TRP A 230       -0.041
+      ASN A 231       +0.057
+      MET A 232       +0.030
+      LYS A 233       +0.939  CATION
+      ASP A 234       -0.893  ANION
+      ALA A 235       -0.048
+      THR A 236       -0.036
+      PRO A 237       +0.012
+      VAL A 238       +0.007
+      ALA A 239       -0.031
+      LYS A 240       +0.962  CATION
+      THR A 241       +0.068
+      VAL A 242       -0.010
+      CYS A 243       -0.053
+      ALA A 244       +0.032
+      LEU A 245       +0.042
+      LEU A 246       +0.012
+      SER A 247       -0.004
+      ASP A 248       -0.857  ANION
+      TRP A 249       -0.031
+      LEU A 250       +0.018
+      PRO A 251       -0.008
+      ALA A 252       +0.036
+      THR A 253       -0.046
+      THR A 254       +0.004
+      GLY A 255       -0.023
+      ASP A 256       -0.906  ANION
+      ILE A 257       +0.013
+      ILE A 258       +0.022
+      TYR A 259       -0.051
+      ALA A 260       +0.063
+      ASP A 261       -0.880  ANION
+      GLY A 262       -0.034
+      GLY A 263       -0.043
+      ALA A 264       +0.082
+      HIS A 265       +0.851  CATION
+      THR A 266       +0.009
+      GLN A 267       +0.059
+      LEU A 268       -0.078
+      LEU A 269       -0.846  ANION
+      NAI A1301       -0.836  ANION
+      THT A1302       -0.789  ANION
+ 
+
+
+                   Salt Bridges Found (Up to  8.0 Angstroms)
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (ATOM   2911  NE  ARG A 195)  A195(+)    (ATOM   3249  OE1 GLU A 219)  A219(-)      2.53
+      2  (ATOM      1  N   GLY A   3)    A3(+)    (ATOM     55  OD2 ASP A   6)    A6(-)      2.63
+      3  (ATOM   2702  NZ  LYS A 181)  A181(+)    (ATOM   2669  OE1 GLU A 178)  A178(-)      2.68
+      4  (ATOM    615  NH1 ARG A  43)   A43(+)    (ATOM    601  OD2 ASP A  42)   A42(-)      2.69
+      5  (ATOM     75  NZ  LYS A   8)    A8(+)    (ATOM   3687  OD1 ASP A 248)  A248(-)      2.78
+      6  (ATOM    375  NH1 ARG A  27)   A27(+)    (ATOM    441  OE2 GLU A  31)   A31(-)      2.87
+      7  (ATOM   3918  ND1 HIS A 265)  A265(+)    (ATOM   2228  OD1 ASP A 150)  A150(-)      3.27
+      8  (ATOM   2647  NH1 ARG A 177)  A177(+)    (ATOM   2670  OE2 GLU A 178)  A178(-)      3.34
+      9  (ATOM   2578  NH2 ARG A 173)  A173(+)    (ATOM   2520  OE2 GLU A 169)  A169(-)      4.01
+     10  (ATOM   3922  NE2 HIS A 265)  A265(+)    (ATOM   3882  OD1 ASP A 261)  A261(-)      4.21
+     11  (ATOM   1760  NZ  LYS A 118)  A118(+)    (ATOM   1720  OD2 ASP A 115)  A115(-)      4.24
+     12  (ATOM   1966  NZ  LYS A 132)  A132(+)    (ATOM   1049  OE2 GLU A  68)   A68(-)      4.40
+     13  (ATOM   3567  NZ  LYS A 240)  A240(+)    (ATOM    440  OE1 GLU A  31)   A31(-)      4.80
+     14  (ATOM     75  NZ  LYS A   8)    A8(+)    (ATOM   1347  OD1 ASP A  89)   A89(-)      4.80
+     15  (ATOM    872  NZ  LYS A  57)   A57(+)    (ATOM    792  OD2 ASP A  52)   A52(-)      4.81
+     16  (ATOM     96  NE  ARG A   9)    A9(+)    (ATOM   1348  OD2 ASP A  89)   A89(-)      4.87
+     17  (ATOM    376  NH2 ARG A  27)   A27(+)    (ATOM   3489  OD1 ASP A 234)  A234(-)      4.93
+     18  (ATOM    806  NH1 ARG A  53)   A53(+)    (ATOM    244  OD2 ASP A  18)   A18(-)      5.00
+     19  (ATOM   2268  NH1 ARG A 153)  A153(+)    (ATOM   2229  OD2 ASP A 150)  A150(-)      5.04
+     20  (ATOM   3339  NE  ARG A 225)  A225(+)    (ATOM   3988  OXT LEU A 269)  A269(-)      5.25
+     21  (ATOM   2458  NZ  LYS A 165)  A165(+)    (ATOM   2196  OD1 ASP A 148)  A148(-)      5.40
+     22  (ATOM   3469  NZ  LYS A 233)  A233(+)    (ATOM   3309  OD1 ASP A 223)  A223(-)      5.42
+     23  (ATOM   2769  NH1 ARG A 185)  A185(+)    (ATOM   3687  OD1 ASP A 248)  A248(-)      5.43
+     24  (ATOM   3342  NH2 ARG A 225)  A225(+)    (ATOM   3883  OD2 ASP A 261)  A261(-)      5.45
+     25  (ATOM   3342  NH2 ARG A 225)  A225(+)    (ATOM   2229  OD2 ASP A 150)  A150(-)      6.31
+     26  (ATOM   1173  NH1 ARG A  77)   A77(+)    (ATOM    955  OE1 GLU A  62)   A62(-)      6.64
+     27  (ATOM   2578  NH2 ARG A 173)  A173(+)    (ATOM   2197  OD2 ASP A 148)  A148(-)      6.77
+     28  (ATOM   1760  NZ  LYS A 118)  A118(+)    (ATOM    988  OD1 ASP A  64)   A64(-)      6.96
+     29  (ATOM   2575  NE  ARG A 173)  A173(+)    (ATOM   3801  OD1 ASP A 256)  A256(-)      7.13
+     30  (ATOM    804  NE  ARG A  53)   A53(+)    (ATOM    791  OD1 ASP A  52)   A52(-)      7.16
+     31  (ATOM    735  NE  ARG A  49)   A49(+)    (ATOM    791  OD1 ASP A  52)   A52(-)      7.37
+     32  (ATOM   3469  NZ  LYS A 233)  A233(+)    (ATOM   3249  OE1 GLU A 219)  A219(-)      7.83
+     33  (ATOM   3469  NZ  LYS A 233)  A233(+)    (ATOM   3490  OD2 ASP A 234)  A234(-)      7.97
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.   229.395  -308.016   147.107   411.261
+ HYBRID        12.737   -12.296    -7.337    19.163
+ SUM          242.131  -320.311   139.770   425.162
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:           671.90 SECONDS
+
+ == MOPAC DONE ==

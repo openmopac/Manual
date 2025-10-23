@@ -1,0 +1,13 @@
+HEADER  data-set: Fulminic acid plus ethylene
+REMARK  MOPAC 2012, Version: 15.314W Date: Nov 10 2015 21:20
+HETATM    1  C   HET A   1       0.000   0.000   0.000  1.00 -0.28      PROT C 
+HETATM    2  C   HET A   1       1.330   0.000   0.000  1.00 -0.29      PROT C 
+HETATM    3  O   HET A   1      -0.851   3.839   0.000  1.00 -0.30      PROT O 
+HETATM    4  N   HET A   1       0.160   3.751   0.620  1.00  0.39      PROT N 
+HETATM    5  C   HET A   1       1.142   3.674   1.223  1.00 -0.33      PROT C 
+HETATM    6  H   HET A   1      -0.599  -0.300   0.847  1.00  0.14      PROT H 
+HETATM    7  H   HET A   1      -0.599   0.300  -0.848  1.00  0.15      PROT H 
+HETATM    8  H   HET A   1       1.928   0.298  -0.849  1.00  0.14      PROT H 
+HETATM    9  H   HET A   1       1.928  -0.302   0.846  1.00  0.14      PROT H 
+HETATM   10  H   HET A   1       2.016   3.596   1.759  1.00  0.25      PROT H 
+END

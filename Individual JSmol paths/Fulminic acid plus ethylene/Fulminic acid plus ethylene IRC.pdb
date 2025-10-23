@@ -1,0 +1,15 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Fulminic acid p
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  2 2021 17:33
+REMARK  Heat of Formation = 59.295 Kcal/mol
+HETATM    1  C1  HET A   1      -0.132   0.659  -0.028  1.00 -0.19      PROT C 
+HETATM    2  C2  HET A   1       1.212   0.770   0.211  1.00 -0.34      PROT C 
+HETATM    3  O   HET B   1      -0.787   2.638   0.254  1.00 -0.25      PROT O 
+HETATM    4  N   HET B   1       0.224   3.138   0.721  1.00  0.12      PROT N 
+HETATM    5  C3  HET B   1       1.339   2.739   0.968  1.00 -0.13      PROT C 
+HETATM    6 1H1  HET A   1      -0.823   0.326   0.734  1.00  0.14      PROT H 
+HETATM    7 2H1  HET A   1      -0.566   0.748  -1.011  1.00  0.15      PROT H 
+HETATM    8 1H2  HET A   1       1.916   0.937  -0.597  1.00  0.15      PROT H 
+HETATM    9 2H2  HET A   1       1.676   0.381   1.107  1.00  0.15      PROT H 
+HETATM   10  H3  HET B   1       2.278   2.897   1.385  1.00  0.20      PROT H 
+END

@@ -1,0 +1,15 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Hydrazoic acid
+REMARK  MOPAC 2016, Version: 21.151W
+REMARK  Date: Jun  2 2021 13:51
+REMARK  Heat of Formation = 104.446 Kcal/mol
+HETATM    1  C1  HET A   1       0.096  -0.376   0.003  1.00 -0.30      PROT C 
+HETATM    2  C2  HET A   1       1.464  -0.406   0.009  1.00 -0.15      PROT C 
+HETATM    3  N1  NH3 B   2      -0.329   1.702   0.024  1.00 -0.20      PROT N 
+HETATM    4  N2  NH3 B   2       0.740   2.173   0.018  1.00  0.29      PROT N 
+HETATM    5  N3  NH3 B   2       1.915   1.708   0.021  1.00 -0.53      PROT N 
+HETATM    6 1H1  HET A   1      -0.491  -0.494   0.905  1.00  0.16      PROT H 
+HETATM    7 1H2  HET A   1       2.047  -0.513  -0.898  1.00  0.14      PROT H 
+HETATM    8  H3  NH3 B   2       2.731   2.290  -0.043  1.00  0.31      PROT H 
+HETATM    9 2H1  HET A   1      -0.484  -0.483  -0.904  1.00  0.15      PROT H 
+HETATM   10 2H2  HET A   1       2.038  -0.521   0.920  1.00  0.14      PROT H 
+END

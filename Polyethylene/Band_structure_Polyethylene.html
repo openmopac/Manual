@@ -1,0 +1,165 @@
+<HTML>
+<HEAD>
+<TITLE>Band Structure for Polyethylene</TITLE>
+                                                                                                                    <style type="text/css">
+.auto-style1 {
+	text-align: left;
+}
+																													.auto-style2 {
+																														text-align: center;
+																													}
+																													.auto-style3 {
+																														border: 1px solid #000000;
+																													}
+																													.auto-style4 {
+																														margin-top: 0px;
+																													}
+																													</style>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<h1 align="center">
+<a name="Protein_Structure_Comparison">Band Structure for Polyethylene</a> (<a href="../Program_BZ.html">Back</a>)</h1>
+<p class="auto-style1">
+Polyethylene is a high polymer with the repeat unit C<sub>2</sub>H<sub>4</sub>. 
+For the purposes of band-structure work the assumption is made that the polymer 
+is of infinite length, i.e., that there are no end-effects, and that an 
+examination of a part of the polymer would yield information about the complete 
+system.</p>
+<h2 class="auto-style1">
+Preparation of data-sets (<a href="Making%20Polyethylene%20data%20set.zip">ZIP 
+file</a>)<table align="right" style="float: right">
+	<tr>
+		<td class="auto-style2">
+		<strong>Figure 1</strong>: MAKPOL data set - &quot;make_Polyethylene.dat&quot;</td>
+	</tr>
+	<tr>
+		<td class="auto-style3">
+<pre>  mers=(8) html 
+ Polyethylene
+
+  C     0.0  0    0.0  0    0.0  0     0     0     0
+  C     1.5  1    0.0  0    0.0  0     1     0     0
+  H     1.1  1  109.5  1    0.0  0     2     1     0
+  H     1.1  0  109.5  0  120.0  0     2     1     3
+  H     1.1  0  109.5  1  180.0  1     1     2     3
+  H     1.1  0  109.5  0   60.0  0     1     2     3
+ Tv     1.5  1  114.0  1 -120.0  1     2     1     3</pre>
+		</td>
+	</tr>
+</table>
+</h2>
+<p class="auto-style1">
+Given that the repeat unit in polyethylene is C<sub>2</sub>H<sub>4</sub>, the 
+first step is to use <a href="../makpol.html">MAKPOL</a> to use a small data-set to generate a larger data 
+set that can be used by MOPAC for calculating band-structures. This small 
+data-set consists of the fundamental repeat unit, here C<sub>2</sub>H<sub>4</sub>, 
+and the translation vector, Tv.&nbsp; A large enough section of polymer would be 
+needed to ensure that electronic effects at one end of the polymer would have a 
+negligible effect at the other end.&nbsp; In polyethylene, eight C<sub>2</sub>H<sub>4</sub> units 
+should be sufficient for this task.&nbsp; For convenience, internal coordinates 
+will be used, as they are 
+easier to work with than Cartesian coordinates.&nbsp; The data set for use by 
+MAKPOL is shown in Figure 1.</p>
+It is very easy to make mistakes in preparing data-sets for MAKPOL, so keyword
+<a href="../html.html"><tt>HTML</tt></a> is added; this allows the resulting MOPAC data-set 
+to be checked quickly.&nbsp;<p>When this data-set is run using MAKPOL, a larger 
+data set, &quot;Polyethylene.mop&quot;, suitable for use in band-structure work, is written.</p>
+<h2 class="auto-style1">
+Electronic Band Structure&nbsp; (<a href="Polyethylene%20for%20electronics.zip">Zip 
+file</a>)<table style="float: right">
+	<tr>
+		<td class="auto-style2">Polyethylene Electronic Band Structure</td>
+	</tr>
+	<tr>
+		<td><img src="img9.gif" style="float: right" class="auto-style4"></td>
+	</tr>
+</table>
+</h2>
+For any Brillouin-zone work, a &lt;file&gt;.brz file must first be made, so run 
+Polyethylene.mop using MOPAC; that will generate the file Polyethylene.brz.&nbsp; 
+Open this file using <a href="../Program_BZ.html">BZ</a>.&nbsp; This will make a small black window with&nbsp;text.&nbsp; 
+Follow the instructions in the window.&nbsp; That will generate a picture of the 
+band-structure, that can then be captured using the Windows &quot;snipping tool.&quot;&nbsp; 
+This picture can then be pasted into a document, for example, this web-page. All 
+useful information on the band-structure of polymers is contained in the <em>k</em>-space 
+domain 0.0 to 0.5.&nbsp;&nbsp; <p>
+In addition to the simple graphic, a text file, here &quot;Polyethylene.txt&quot; will be 
+written.&nbsp; This file is intended for use with Microsoft Excel to allow a 
+more elaborate figure to be made.</p>
+<h2>Electronic Band Structure, with Symmetry (<a href="Polyethylene%20for%20electronics,%20with%20symmetry.zip">Zip 
+file</a>)</h2>
+<p>Using symmetry is relatively easy for two and three dimensional solids, but, 
+perhaps unexpectedly, is quite hard to use for polymers.&nbsp; For 2D and 3D 
+solids, the various axes are well-defined; in polymers only the polymer axis is 
+well-defined, the two axes perpendicular to the translation direction are not 
+unambiguously defined.&nbsp; Because of this, when symmetry is used with 
+polymers, the polymer must be orientated correctly before any symmetry 
+operations can be done.</p>
+<p>Orientating polyethylene is a straightforward process.&nbsp; The objective is 
+to have the translation direction along the &quot;x&quot; axis, and the carbon backbone in 
+the &quot;xy&quot; plane.&nbsp;&nbsp;&nbsp; This operation can be done in three steps:</p>
+<h3>Step 1: Convert the system from internal to Cartesian coordinates.&nbsp;
+</h3>
+<p>By default, the translation vector that comes out of MAKPOL is not positioned 
+along the &quot;x&quot; axis, so the first step is to convert the system from internal to 
+Cartesian coordinates.&nbsp; This is achieved by using the two keywords
+<a href="../zero_scf.html"><tt>0SCF</tt></a> <a href="../xyz.html"><tt>XYZ</tt></a>. </p>
+<h3>Step 2:&nbsp; Put a placeholder atom on the &quot;x&quot; axis.</h3>
+<p>In order to have the Tv exactly along the &quot;x&quot; axis, it is helpful to have a 
+dummy atom at the point where Tv will go.&nbsp; To do this, the coordinates of 
+Tv are copied and pasted into the geometry after atom 1.&nbsp; Then, if the 
+geometry is converted to internal coordinates, the new atom will be orientated 
+exactly along the &quot;x&quot; axis.&nbsp; The new atom will eventually be a dummy atom, 
+but, because dummy atoms are eliminated when changing coordinate systems, for 
+just now the new atom is given a placeholder name, here Br.&nbsp; Use a name 
+that is easy to locate.&nbsp; To convert to internal coordinates, use keywords 
+<tt>0SCF </tt> <a href="../int.html"><tt>INT</tt></a>.</p>
+<h3>Step 3: Optimize the geometry and write the BRZ file</h3>
+<p>The geometry resulting from Step 2 is now correctly orientated.&nbsp; All 
+that needs to be done now is to convert it into a data-set for geometry 
+optimization. Starting with the ARC file from Step 2, re-label the placeholder 
+atom &quot;XX&quot; and change the &quot;bond length&quot; optimization flag for Tv from &quot;1&quot; to &quot;0&quot;.&nbsp; 
+This ensures that the position of Tv will be the same as that of the dummy atom, 
+i.e., along the &quot;x&quot; axis.&nbsp; Add keyword <a href="../autosym.html"><tt>AUTOSYM</tt></a> 
+to automatically impose symmetry.&nbsp; The new data-set, when run using MOPAC, 
+will generate a BRZ file in which all atoms are correctly orientated relative to 
+the &quot;x&quot;, &quot;y&quot;, and &quot;z&quot; axes.</p>
+<p>Symmetry operations for polyethylene are isomorphous with the Abelian 
+point-group D<sub>2h</sub>. The center of operation is the point half way 
+between the first two carbon atoms in the Large Unit Cell.&nbsp; This point can 
+easily be calculated given the Cartesian coordinates printed in the .out file 
+from Step 3.</p>
+<h3>Using symmetry operations in BZ 
+<table style="float: right">
+	<tr>
+		<td class="auto-style2">Polyethylene Phonon Band Structure</td>
+	</tr>
+	<tr>
+		<td><img src="imgE.gif" class="auto-style4"></td>
+	</tr>
+</table>
+</h3>
+<p>When symmetry operations, defined by a file with the same name as the BRZ 
+file, but with the suffix .opt, are present, these operations will automatically 
+be used to symmetrize the Fock or phonon matrices.&nbsp; In the case of 
+polyethylene, these matrices are already very symmetric, so the effect on 
+band-structures is insignificant.</p>
+<p>If option &quot;0&quot; is used, this option allows individual points in a Brillouin 
+zone to be calculated, then the associated little groups are generated.&nbsp; 
+For a polymer, the only interesting points are 0.0 (the origin of <em>k</em>-space), 
+0.2 (a random point in the Brillouin zone), -0.2 (the previous point, but in the 
+negative direction in <em>k</em>-space), and 0.5 (the boundary of the Brillouin 
+zone).</p>
+<h2>&nbsp;Phonon Band Structure (<a href="Polyethylene%20for%20Phonon.zip">Zip 
+file</a>)</h2>
+<p>To calculate the phonon spectrum, Re-run the geometry optimization, after 
+changing the keywords from <a href="../mers.html"><tt>MERS=(8)</tt></a>
+<a href="../html.html">
+<tt>HTML</tt></a> to <tt>XYZ </tt>to convert the geometry 
+into Cartesian coordinates, and adding keywords <a href="../oldgeo.html"><tt>OLDGEO</tt></a>
+<a href="../force.html"><tt>FORCE</tt></a> <tt>MERS=(8)</tt> to the end of the data set 
+so that a vibrational frequency calculation would be done, and a BRZ file 
+generated.&nbsp; If <tt>MERS=(8)</tt> was present in the geometry optimization, a BRZ file would be produced; 
+this would be a waste of time.&nbsp; Likewise, the geometry was obviously 
+correct, so <tt>HTML </tt>was unnecessary.</p>
+<p style="width: 153px">&nbsp;</p>

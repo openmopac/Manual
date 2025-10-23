@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Reasons for low precision</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION0012113000000000000000">Reasons for low precision</a> </h2>
+<p>There are several reasons for obtaining low quality results, the most obvious of which is that for general work the default criteria will result in a difference in                            <span class="b">&Delta;</span>H<sub>f&nbsp;
+</sub>of less than 0.1 kcal/mol. This is only true for fairly rigid systems, e.g. formaldehyde and benzene. For systems with low barriers to rotation or flat potential surfaces, such as aniline or water dimer, quite large                            <span class="b">&Delta;</span>H<sub>f&nbsp;
+</sub>errors can result. </p>
+<h3> <br/>
+Self-consistency test </h3>
+<p>The SCF iterations are stopped when two tests are satisfied. These are (1) when the difference in electronic energy, in eV, between any two consecutive iterations drops below the adjustable parameter, <tt>SELCON</tt>, and the difference between any three consecutive iterations drops below ten times <tt>SELCON</tt>, and (2) the difference in density matrix elements on two successive iterations falls below a preset limit, which is a multiple of <tt>SELCON</tt>. <a name="BM20473">&nbsp;</a> </p>
+<tt></tt><p>SELCON is set initially to 0.0001 kcal/mol; this can be made 100 times smaller by specifying <tt>
+<a href="precise.html">PRECISE</a></tt> or <tt><a href="force.html">FORCE</a></tt>. It can be over-ridden by explicitly defining the SCF criterion <em>via</em> <tt>
+<a href="scfcrt.html">SCFCRT=1.D-12</a></tt>, or by use of <tt>
+<a href="relscf.html">RELSCF=0.1</a></tt>. </p>
+<tt></tt><p>SELCON is further modified by the value of the gradient norm, if known. If <tt>GNORM</tt> is large, then a more lax SCF criterion is acceptable, and <tt>SCFCRT</tt> can be relaxed up to 50 times its default value (using <tt>RELSCF=50</tt>). As the gradient norm drops, the SCF criterion returns to its default value. </p>
+<p>The SCF test is performed using the energy calculated from the Fock matrix which arises from a density matrix, and not from the density matrix which arises from a Fock. In the limit, the two energies would be identical, but the first converges faster than the second, without loss of precision. </p>
+<p>
+</p><p>&nbsp;</p>
+<p>
+<br/>
+</p><h2><a name="SECTION0012114000000000000000">How large can a gradient be and still be acceptable?</a> </h2>
+<p>A common source of confusion is the limit to which the <tt>GNORM</tt> should be reduced in order to obtain acceptable results. There is no easy answer. However, a few guidelines can be given. </p>
+<p><a name="BM20456">&nbsp;</a><a name="BM20457"></a>&nbsp; First of all, setting the <tt>
+<a href="gnorm.html">GNORM</a></tt> to an arbitrarily small number is not sensible. If <tt>GNORM=0.000001</tt> and <tt>LET</tt> are used, a geometry can be obtained which is precise to about 0.000001 &Aring;. If <tt>ANALYT</tt> is also used, the results obtained will be slightly different. Chemically, this change is meaningless, and no significance should be attached to such numbers. In addition, any minor change to the algorithm, such as porting it to a new machine, will give rise to small changes in the optimized geometry. Even the small changes involved in going from one version of MOPAC to another causes small changes in the optimized geometry of test molecules. </p>
+<p>As a guide, a <tt>GNORM</tt> of 0.1 is sufficient for all heat-of-formation work, and a <tt>GNORM</tt> of 0.01 for most geometry work. If the system is large, you may need to settle for a <tt>GNORM</tt> of 1.0-0.5. </p>
+<p>This whole topic was raised by Dr. Donald B. Boyd while he was at Lilly Research Laboratories, who provided unequivocal evidence for a failure of MOPAC and convinced me of the importance of increasing precision in certain circumstances.<a name="BM20487">&nbsp;</a> </p>
+</body>
+</html>

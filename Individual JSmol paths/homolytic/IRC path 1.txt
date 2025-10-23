@@ -1,0 +1,4 @@
+measure all (C57) (C54)
+measure all (S60) (H103)
+measure all (O61) (H35)
+reset;center {-1.9100251136363635 1.29807875 -4.421899659090909}; rotate z 119.67; rotate y 51.32; rotate z -136.47; zoom 437.1; set rotationRadius 13.48;

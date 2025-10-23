@@ -1,0 +1,36 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Force Constants</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>Force Constants </h1>
+<p>Internal coordinate force constants, <i>f<sub>ic</sub></i>, can be derived from the Cartesian coordinates and the Cartesian force constant matrix by use of: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}f_{ic}(l) = sum_jsum_kfrac{d({rm c.c.}_j)}{d({rm i.c.}_.......}_j)d({rm c.c.}_k)}frac{d({rm c.c.}_k)}{d({rm i.c.}_l)}.end{displaymath}" height="51" src="img1670.gif" width="294"/></div>
+<p>As with the gradients, the calculation of
+              <img align="MIDDLE" alt="$frac{d({rm c.c.}_j)}{d({rmi.c.}_l)}$" height="46" src="img1671.gif" width="45"/>is quite simple, and in done in routine JCARIN.
+</p><p>During the testing of this function, a minor fault in the conventional force calculation was revealed. To reduce any error introduced by finite arithmetic, the Hessian matrix is symmetrized before the vibrational frequencies and normal coordinates are calculated. This is done by
+<a href="point_group_theory.html">operating on the Hessian matrix</a>. </p>
+<p>In addition to the requirement that the symmetry of the Hessian should be the same as that of the nuclear coordinates, a second requirement is that the diagonal elements of the Hessian should be equal to the negative of the sum of the off-diagonal elements, that is, that: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}F_{ii} = -sum_{jne i}F_{ij}.end{displaymath}" height="45" src="img1672.gif" width="87"/></div>
+<p>During the testing of the internal force constants, very small variations in the force constants were found where no variation was expected. This was traced back to a failure of the above expression. To correct this, the diagonal terms of the force constant matrix were modified. This resulted in a perfect equivalence of equivalent force constants. An incidental benefit would be that the associated error in the calculated frequencies would be eliminated. </p>
+</body>
+</html>

@@ -1,0 +1,209 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.157W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.157W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Mon Jun  7 08:56:26 2021  *
+ *  RESIDUES   - DETERMINE THE SEQUENCE OF RESIDUES
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = -1
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+      charge=-1 HTML
+     CH3Cl + F(-)
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1      Cl          0.00000000       0.0000000       0.0000000        0     0     0
+     2       C          1.97550000  *    0.0000000       0.0000000        1     0     0
+     3       H          1.09982600  *   97.7808850  *    0.0000000        2     1     0
+     4       H          1.09986700  *   97.7753390  *  119.9953020  *     2     1     3
+     5       H          1.09980800  *   97.7810140  *  119.9950320  *     2     1     4
+     6       F          2.12410000  *   82.2206970  * -179.9915660  *     2     5     1
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Cl          0.0000      0.0000      0.0000
+     2         C          1.9755      0.0000      0.0000
+     3         H          2.1244      1.0897      0.0000
+     4         H          2.1243     -0.5448      0.9438
+     5         H          2.1244     -0.5450     -0.9436
+     6         F          4.0996      0.0003     -0.0001
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C H3 Cl F  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C3v 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 11
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    20.357 HEAT: -82.58543
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.751 HEAT: -82.93278
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    13.057 HEAT: -83.27131
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    17.390 HEAT: -83.55009
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    32.143 HEAT: -84.64142
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    32.604 HEAT: -85.61168
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.727 HEAT: -86.48535
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.274 HEAT: -86.70539
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.449 HEAT: -86.71245
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.540 HEAT: -86.72041
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.159 HEAT: -86.72826
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.176 HEAT: -86.74792
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.083 HEAT: -86.76305
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.652 HEAT: -86.76548
+
+     GRADIENT =  0.65191 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ charge=-1 HTML
+     CH3Cl + F(-)
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.157W)
+                                                       Mon Jun  7 08:56:26 2021
+                                                       No. of days remaining = 364
+
+
+
+
+          FINAL HEAT OF FORMATION =        -86.76014 KCAL/MOL =    -363.00442 KJ/MOL
+
+
+          TOTAL ENERGY            =       -896.85897 EV
+          ELECTRONIC ENERGY       =      -1756.35669 EV  POINT GROUP:     C3v 
+          CORE-CORE REPULSION     =        859.49772 EV
+          COSMO AREA              =        100.23 SQUARE ANGSTROMS
+          COSMO VOLUME            =         80.42 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.65191 = 0.26614 PER ATOM
+          IONIZATION POTENTIAL    =          4.169019 EV
+          HOMO LUMO ENERGIES (EV) =         -4.169  4.705
+          NO. OF FILLED LEVELS    =         11
+          MOLECULAR WEIGHT        =         69.4861
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            F     6   Cl     1     4.44407
+            H     5    H     4     1.80554
+            H     4    H     3     1.56130
+
+
+          SCF CALCULATIONS        =         15
+ 
+          WALL-CLOCK TIME         =          0.094 SECONDS
+          COMPUTATION TIME        =          0.094 SECONDS
+
+
+
+
+  ATOM               CHEMICAL                 BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER               SYMBOL                  (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                                           NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1      Cl(HETATM    1 CL    CL A   1)    0.00000000       0.0000000       0.0000000   
+     2       C(HETATM    2  C   CH3 B   2)    1.82349882  *    0.0000000       0.0000000        1     0     0
+     3       H(HETATM    3 1H   CH3 B   2)    1.09052599  *  107.0358110  *    0.0000000        2     1     0
+     4       H(HETATM    4 2H   CH3 B   2)    1.09029674  *  107.0338478  *  119.6823996  *     2     1     3
+     5       H(HETATM    5 3H   CH3 B   2)    1.08964381  *  107.3965857  *  120.2460618  *     2     1     4
+     6       F(HETATM    6  F    F  C   3)    2.62060702  *   73.0605229  * -179.9720793  *     2     5     1
+
+                             CARTESIAN COORDINATES
+
+   1   Cl        0.000000000     0.000000000     0.000000000
+   2    C        1.823498818     0.000000000     0.000000000
+   3    H        2.142989516     1.042675703     0.000000000
+   4    H        2.142886635    -0.516221354     0.905678711
+   5    H        2.149284805    -0.521024681    -0.899844659
+   6    F        4.444022153     0.011533315     0.017480807
+
+
+           Empirical Formula: C H3 Cl F  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C3v 
+
+
+                  EIGENVALUES  
+ -25.29998 -23.27726 -19.25457 -10.67549 -10.65920  -9.73387  -7.47471  -7.47081
+  -4.19667  -4.19664  -4.16902   4.70492   9.61121   9.61844  10.32311  75.00731
+  75.03863  75.03881  75.39708  75.39710
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1         Cl(HETATM    1 CL    CL A   1)          -0.334772        7.3348     1.98447     5.34584     0.00447
+    2          C(HETATM    2  C   CH3 B   2)          -0.178863        4.1789     1.11892     3.05995
+    3          H(HETATM    3 1H   CH3 B   2)           0.169302        0.8307     0.83070
+    4          H(HETATM    4 2H   CH3 B   2)           0.169282        0.8307     0.83072
+    5          H(HETATM    5 3H   CH3 B   2)           0.168901        0.8311     0.83110
+    6          F(HETATM    6  F    F  C   3)          -0.993850        7.9939     1.99991     5.99394
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -9.754    -0.034    -0.054     9.754
+ HYBRID         0.002     0.001    -0.000     0.002
+ SUM           -9.752    -0.033    -0.054     9.752
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+  Cl(HETATM    1 CL    CL A   1)   1.98447   1.34910   1.99837   1.99837   0.00217   0.00078   0.00073   0.00001   0.00078
+   C(HETATM    2  C   CH3 B   2)   1.11892   0.67930   1.19085   1.18979
+   H(HETATM    3 1H   CH3 B   2)   0.83070
+   H(HETATM    4 2H   CH3 B   2)   0.83072
+   H(HETATM    5 3H   CH3 B   2)   0.83110
+   F(HETATM    6  F    F  C   3)   1.99991   1.99415   1.99989   1.99989
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.09 SECONDS
+
+ == MOPAC DONE ==

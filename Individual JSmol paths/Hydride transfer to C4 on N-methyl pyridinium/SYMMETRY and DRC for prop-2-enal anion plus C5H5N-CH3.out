@@ -1,0 +1,1160 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.165W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.165W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 362**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jun 17 12:09:12 2021  *
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  EPS=78.4   - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  XYZ        - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *  TS         - USE EF ROUTINE FOR TS SEARCH
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *******************************************************************************
+ts opt output xyz eps=78.4
+ Refine the transition state
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C9 H13 N O  =    24 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 30
+
+
+          Transition state refinement using EF
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:     1 TIME:   1.516 TIME LEFT:  2.00D  GRAD.:    41.895 HEAT:  32.18250
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.799 HEAT:  32.46635
+ CYCLE:     3 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     3.694 HEAT:  32.43366
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     2.660 HEAT:  32.41956
+ CYCLE:     5 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     2.819 HEAT:  32.40431
+ CYCLE:     6 TIME:   0.125 TIME LEFT:  2.00D  GRAD.:     0.693 HEAT:  32.39382
+
+     GRADIENT =  0.69258 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ ts opt output xyz eps=78.4
+ Refine the transition state
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (TS).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.165W)
+                                                       Thu Jun 17 12:09:14 2021
+                                                       No. of days remaining = 362
+
+
+
+
+          FINAL HEAT OF FORMATION =         32.39382 KCAL/MOL =     135.53573 KJ/MOL
+          VAN DER WAALS AREA      =        188.83 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =      -1759.70058 EV
+          ELECTRONIC ENERGY       =      -2786.70816 EV  POINT GROUP:     C1  
+          CORE-CORE REPULSION     =       1027.00758 EV
+
+          DIELECTRIC ENERGY       =         -0.78973 EV
+          COSMO AREA              =        188.83 SQUARE ANGSTROMS
+          COSMO VOLUME            =        205.96 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.69258 = 0.14137 PER ATOM
+          IONIZATION POTENTIAL    =          7.476330 EV
+          HOMO LUMO ENERGIES (EV) =         -7.476 -0.942
+          NO. OF FILLED LEVELS    =         30
+          MOLECULAR WEIGHT        =        151.2078
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    19    H    13     6.95181
+            H    18    H     9     6.00355
+            O     1    H    16     4.12010
+
+
+          SCF CALCULATIONS        =         84
+ 
+          WALL-CLOCK TIME         =          1.766 SECONDS
+          COMPUTATION TIME        =          6.969 SECONDS
+
+           Empirical Formula: C9 H13 N O  =    24 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+                  EIGENVALUES  
+ -37.53591 -29.63431 -29.07040 -26.76299 -26.51175 -24.80585 -23.22086 -22.20090
+ -22.08421 -18.37580 -18.21523 -16.78070 -16.62239 -16.40719 -16.08432 -15.11038
+ -14.85772 -14.48190 -14.36978 -13.59799 -13.55089 -13.20481 -12.73996 -12.43008
+ -12.34727 -12.17213 -10.60177  -9.83235  -9.55559  -7.47633  -0.94190   0.03777
+   1.35473   1.57504   2.11019   3.90710   3.93755   4.49362   4.68577   4.80891
+   4.90892   5.03606   5.10448   5.26441   5.30338   5.38257   5.56890   5.63055
+   5.80508   5.84379   6.00815   6.09260   6.14987   6.23090   6.25463   6.58065
+   6.97945
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      HET A   1       -0.744  ANION
+      HET B   2       +0.237
+      HET C   1       +0.494
+      HET D   2       -0.111
+      HET F   2       +0.263
+      HET K   1       -0.139
+ 
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     6.334    -0.135     2.741     6.903
+ HYBRID         0.067    -0.409    -0.064     0.420
+ SUM            6.401    -0.545     2.677     6.960
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.165W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.165W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 362**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jun 17 12:09:14 2021  *
+ *  EPS=78.4   - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  OLDGEO     - PREVIOUS GEOMETRY TO BE USED
+ *  FORCE      - FORCE CALCULATION SPECIFIED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  ISOTOPE    - SAVE THE FORCE MATRIX FOR USE LATER
+ *******************************************************************************
+force oldgeo output isotope eps=78.4
+ Refine the transition state
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C9 H13 N O  =    24 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 30
+
+
+
+          HEAT OF FORMATION =      32.501404 KCALS/MOLE
+
+
+          CARTESIAN COORDINATE DERIVATIVES
+
+   NUMBER  ATOM         X            Y            Z
+
+     1       O      0.269016    -0.288647     0.275636
+     2       C     -0.007037     0.128952     0.066516
+     3       C      0.072369     0.070035     0.015379
+     4       C      0.008992     0.011211     0.081880
+     5       N      0.041488     0.037824     0.072397
+     6       C     -0.029985     0.028028    -0.044554
+     7       C      0.088085     0.074066     0.157333
+     8       C     -0.033845     0.155295    -0.039289
+     9       H      0.005977     0.052876     0.036326
+    10       C      0.048422    -0.029396    -0.157935
+    11       H     -0.174195    -0.099075    -0.029020
+    12       H      0.074844    -0.073392    -0.032096
+    13       H      0.055579     0.036091    -0.045060
+    14       H     -0.162598    -0.033483    -0.059821
+    15       H      0.005609    -0.001424     0.052043
+    16       H     -0.012801     0.040655     0.013704
+    17       H      0.006550     0.045832     0.003441
+    18       H     -0.020935     0.096081    -0.017187
+    19       H     -0.029461    -0.095427    -0.045779
+    20       H     -0.081873    -0.045226    -0.097855
+    21       H     -0.002081    -0.009712    -0.122960
+    22       C      0.122379     0.029117    -0.021376
+    23       C     -0.214137    -0.150820    -0.058375
+    24       H     -0.030355     0.020535    -0.003350
+ 
+
+
+          GRADIENT NORM =   0.78862
+
+
+          TIME FOR SCF CALCULATION =    0.03
+
+          TIME FOR DERIVATIVES     =    0.02
+
+          MOLECULAR WEIGHT =  151.21
+
+
+
+          ROTATIONAL CONSTANTS IN CM(-1)
+
+          A =    0.04713012   B =    0.03466569   C =    0.02592824
+
+
+
+           PRINCIPAL MOMENTS OF INERTIA IN UNITS OF 10**(-40)*GRAM-CM**2
+
+          A =      593.9466   B =      807.5066   C =     1079.6248
+
+
+
+    FIRST DERIVATIVES WILL BE USED IN THE CALCULATION OF SECOND DERIVATIVES
+
+          ESTIMATED TIME TO COMPLETE CALCULATION =        6.75 SECONDS
+
+    FOR POINT-GROUP C1   THERE ARE   1 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.05 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.91
+ STEP:   2 TIME =     0.05 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.86
+ STEP:   3 TIME =     0.05 SECS, INTEGRAL =      0.14 TIME LEFT: 172799.81
+ STEP:   4 TIME =     0.06 SECS, INTEGRAL =      0.20 TIME LEFT: 172799.75
+ STEP:   5 TIME =     0.05 SECS, INTEGRAL =      0.25 TIME LEFT: 172799.70
+ STEP:   6 TIME =     0.05 SECS, INTEGRAL =      0.30 TIME LEFT: 172799.66
+ STEP:   7 TIME =     0.05 SECS, INTEGRAL =      0.34 TIME LEFT: 172799.61
+ STEP:   8 TIME =     0.05 SECS, INTEGRAL =      0.39 TIME LEFT: 172799.56
+ STEP:   9 TIME =     0.05 SECS, INTEGRAL =      0.44 TIME LEFT: 172799.52
+ STEP:  10 TIME =     0.05 SECS, INTEGRAL =      0.48 TIME LEFT: 172799.47
+ STEP:  11 TIME =     0.05 SECS, INTEGRAL =      0.53 TIME LEFT: 172799.42
+ STEP:  12 TIME =     0.05 SECS, INTEGRAL =      0.58 TIME LEFT: 172799.38
+ STEP:  13 TIME =     0.05 SECS, INTEGRAL =      0.62 TIME LEFT: 172799.33
+ STEP:  14 TIME =     0.06 SECS, INTEGRAL =      0.69 TIME LEFT: 172799.27
+ STEP:  15 TIME =     0.05 SECS, INTEGRAL =      0.73 TIME LEFT: 172799.22
+ STEP:  16 TIME =     0.06 SECS, INTEGRAL =      0.80 TIME LEFT: 172799.16
+ STEP:  17 TIME =     0.05 SECS, INTEGRAL =      0.84 TIME LEFT: 172799.11
+ STEP:  18 TIME =     0.05 SECS, INTEGRAL =      0.89 TIME LEFT: 172799.06
+ STEP:  19 TIME =     0.05 SECS, INTEGRAL =      0.94 TIME LEFT: 172799.02
+ STEP:  20 TIME =     0.05 SECS, INTEGRAL =      0.98 TIME LEFT: 172798.97
+ STEP:  21 TIME =     0.06 SECS, INTEGRAL =      1.05 TIME LEFT: 172798.91
+ STEP:  22 TIME =     0.05 SECS, INTEGRAL =      1.09 TIME LEFT: 172798.86
+ STEP:  23 TIME =     0.05 SECS, INTEGRAL =      1.14 TIME LEFT: 172798.81
+ STEP:  24 TIME =     0.05 SECS, INTEGRAL =      1.19 TIME LEFT: 172798.77
+ STEP:  25 TIME =     0.05 SECS, INTEGRAL =      1.23 TIME LEFT: 172798.72
+ STEP:  26 TIME =     0.05 SECS, INTEGRAL =      1.28 TIME LEFT: 172798.67
+ STEP:  27 TIME =     0.05 SECS, INTEGRAL =      1.33 TIME LEFT: 172798.62
+ STEP:  28 TIME =     0.05 SECS, INTEGRAL =      1.38 TIME LEFT: 172798.58
+ STEP:  29 TIME =     0.05 SECS, INTEGRAL =      1.42 TIME LEFT: 172798.53
+ STEP:  30 TIME =     0.05 SECS, INTEGRAL =      1.47 TIME LEFT: 172798.48
+ STEP:  31 TIME =     0.05 SECS, INTEGRAL =      1.52 TIME LEFT: 172798.44
+ STEP:  32 TIME =     0.05 SECS, INTEGRAL =      1.56 TIME LEFT: 172798.39
+ STEP:  33 TIME =     0.05 SECS, INTEGRAL =      1.61 TIME LEFT: 172798.34
+ STEP:  34 TIME =     0.05 SECS, INTEGRAL =      1.66 TIME LEFT: 172798.30
+ STEP:  35 TIME =     0.05 SECS, INTEGRAL =      1.70 TIME LEFT: 172798.25
+ STEP:  36 TIME =     0.06 SECS, INTEGRAL =      1.77 TIME LEFT: 172798.19
+ STEP:  37 TIME =     0.03 SECS, INTEGRAL =      1.80 TIME LEFT: 172798.16
+ STEP:  38 TIME =     0.03 SECS, INTEGRAL =      1.83 TIME LEFT: 172798.12
+ STEP:  39 TIME =     0.05 SECS, INTEGRAL =      1.88 TIME LEFT: 172798.08
+ STEP:  40 TIME =     0.05 SECS, INTEGRAL =      1.92 TIME LEFT: 172798.03
+ STEP:  41 TIME =     0.05 SECS, INTEGRAL =      1.97 TIME LEFT: 172797.98
+ STEP:  42 TIME =     0.05 SECS, INTEGRAL =      2.02 TIME LEFT: 172797.94
+ STEP:  43 TIME =     0.05 SECS, INTEGRAL =      2.06 TIME LEFT: 172797.89
+ STEP:  44 TIME =     0.05 SECS, INTEGRAL =      2.11 TIME LEFT: 172797.84
+ STEP:  45 TIME =     0.03 SECS, INTEGRAL =      2.14 TIME LEFT: 172797.81
+ STEP:  46 TIME =     0.05 SECS, INTEGRAL =      2.19 TIME LEFT: 172797.77
+ STEP:  47 TIME =     0.05 SECS, INTEGRAL =      2.23 TIME LEFT: 172797.72
+ STEP:  48 TIME =     0.05 SECS, INTEGRAL =      2.28 TIME LEFT: 172797.67
+ STEP:  49 TIME =     0.05 SECS, INTEGRAL =      2.33 TIME LEFT: 172797.62
+ STEP:  50 TIME =     0.05 SECS, INTEGRAL =      2.38 TIME LEFT: 172797.58
+ STEP:  51 TIME =     0.05 SECS, INTEGRAL =      2.42 TIME LEFT: 172797.53
+ STEP:  52 TIME =     0.05 SECS, INTEGRAL =      2.47 TIME LEFT: 172797.48
+ STEP:  53 TIME =     0.05 SECS, INTEGRAL =      2.52 TIME LEFT: 172797.44
+ STEP:  54 TIME =     0.06 SECS, INTEGRAL =      2.58 TIME LEFT: 172797.38
+ STEP:  55 TIME =     0.03 SECS, INTEGRAL =      2.61 TIME LEFT: 172797.34
+ STEP:  56 TIME =     0.05 SECS, INTEGRAL =      2.66 TIME LEFT: 172797.30
+ STEP:  57 TIME =     0.05 SECS, INTEGRAL =      2.70 TIME LEFT: 172797.25
+ STEP:  58 TIME =     0.05 SECS, INTEGRAL =      2.75 TIME LEFT: 172797.20
+ STEP:  59 TIME =     0.05 SECS, INTEGRAL =      2.80 TIME LEFT: 172797.16
+ STEP:  60 TIME =     0.05 SECS, INTEGRAL =      2.84 TIME LEFT: 172797.11
+ STEP:  61 TIME =     0.05 SECS, INTEGRAL =      2.89 TIME LEFT: 172797.06
+ STEP:  62 TIME =     0.05 SECS, INTEGRAL =      2.94 TIME LEFT: 172797.02
+ STEP:  63 TIME =     0.05 SECS, INTEGRAL =      2.98 TIME LEFT: 172796.97
+ STEP:  64 TIME =     0.05 SECS, INTEGRAL =      3.03 TIME LEFT: 172796.92
+ STEP:  65 TIME =     0.05 SECS, INTEGRAL =      3.08 TIME LEFT: 172796.88
+ STEP:  66 TIME =     0.05 SECS, INTEGRAL =      3.12 TIME LEFT: 172796.83
+ STEP:  67 TIME =     0.05 SECS, INTEGRAL =      3.17 TIME LEFT: 172796.78
+ STEP:  68 TIME =     0.05 SECS, INTEGRAL =      3.22 TIME LEFT: 172796.73
+ STEP:  69 TIME =     0.05 SECS, INTEGRAL =      3.27 TIME LEFT: 172796.69
+ STEP:  70 TIME =     0.06 SECS, INTEGRAL =      3.33 TIME LEFT: 172796.62
+ STEP:  71 TIME =     0.05 SECS, INTEGRAL =      3.38 TIME LEFT: 172796.58
+ STEP:  72 TIME =     0.05 SECS, INTEGRAL =      3.42 TIME LEFT: 172796.53
+
+
+          HEAT OF FORMATION =      32.501404 KCALS/MOLE
+
+          ZERO POINT ENERGY     115.823 KCAL/MOL
+
+         NOTE: SYSTEM IS NOT A GROUND STATE, THEREFORE ZERO POINT
+         ENERGY IS NOT MEANINGFULL. ZERO POINT ENERGY PRINTED
+         DOES NOT INCLUDE THE  1 IMAGINARY FREQUENCIES
+
+
+          DESCRIPTION OF VIBRATIONS
+
+
+ VIBRATION          1    1A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY         -2433.68         H 11 -- C 22         -57.2% (-72.3%)     99.7%
+ TRANSITION DIPOLE  24.8890         C  7 -- H 11         -54.9% (-70.9%)     98.7%
+ TRAVEL (Ang.)       0.2058         C  3 -- C 23          -1.9% (-13.3%)     93.1%
+ REDUCED MASS        0.6539         C 22 -- C 23          -1.8% (-12.7%)     72.6%
+ EFFECTIVE MASS      2.3142
+ FORCE CONSTANT     -2.2820
+
+ VIBRATION          2    2A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY            28.42         C 10 -- H 19         +19.5% (999.0%)      2.6%
+ TRANSITION DIPOLE   0.3520         C 10 -- H 20         +19.3% (999.0%)     62.0%
+ TRAVEL (Ang.)       0.0000         C 10 -- H 21         +17.8% (999.0%)     41.3%
+ REDUCED MASS        1.2664         N  5 -- C 10         +12.6% (999.0%)      0.0%
+ EFFECTIVE MASS   1218.0546
+ FORCE CONSTANT      0.0006
+
+ VIBRATION          3    3A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY            48.16         C 10 -- H 19         +20.1% (949.2%)      1.3%
+ TRANSITION DIPOLE   0.2205         C 10 -- H 21         +19.3% (931.1%)      7.2%
+ TRAVEL (Ang.)       0.0000         C 10 -- H 20         +18.4% (909.2%)      4.5%
+ REDUCED MASS        0.4124         C  3 -- C 23          +5.4% (491.5%)      0.0%
+ EFFECTIVE MASS    257.4101
+ FORCE CONSTANT      0.0006
+
+ VIBRATION          4    4A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY            50.69         C  3 -- C 23         +14.8% (788.0%)      0.0%
+ TRANSITION DIPOLE   0.3742         C  3 -- H  9         +11.6% (697.5%)      1.2%
+ TRAVEL (Ang.)       0.5571         C 22 -- C 23          +7.2% (551.0%)      0.0%
+ REDUCED MASS        4.2866         H 14 -- C 23          +6.6% (526.0%)      7.0%
+ EFFECTIVE MASS    354.5771
+ FORCE CONSTANT      0.0065
+
+ VIBRATION          5    5A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY            63.35         N  5 -- C 10         +12.2% (616.9%)      0.0%
+ TRANSITION DIPOLE   0.2982         C 10 -- H 20         +11.3% (593.4%)      2.7%
+ TRAVEL (Ang.)       0.9847         C 10 -- H 19          +9.5% (542.8%)     92.1%
+ REDUCED MASS        1.0978         C 10 -- H 21          +9.4% (542.2%)     89.0%
+ EFFECTIVE MASS    445.4699
+ FORCE CONSTANT      0.0026
+
+ VIBRATION          6    6A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY            87.72         C 22 -- C 23         +11.7% (363.8%)      0.0%
+ TRANSITION DIPOLE   0.3805         H 11 -- C 22          +9.8% (332.6%)      4.3%
+ TRAVEL (Ang.)       0.8371         C  3 -- C 23          +9.1% (320.4%)      0.1%
+ REDUCED MASS        1.0970         O  1 -- C  3          +6.6% (273.6%)      0.1%
+ EFFECTIVE MASS    146.4791
+ FORCE CONSTANT      0.0050
+
+ VIBRATION          7    7A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           145.32         H 11 -- C 22          +9.4% (222.9%)     25.7%
+ TRANSITION DIPOLE   0.3302         N  5 -- C 10          +8.8% (215.6%)      0.0%
+ TRAVEL (Ang.)       0.7108         C 22 -- C 23          +5.9% (176.5%)      0.3%
+ REDUCED MASS        0.9185         C  7 -- H 11          +5.7% (172.9%)     49.2%
+ EFFECTIVE MASS     61.7787
+ FORCE CONSTANT      0.0114
+
+ VIBRATION          8    8A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           197.53         C  3 -- C 23          +8.4% (156.2%)      0.0%
+ TRANSITION DIPOLE   0.3145         O  1 -- C  3          +7.7% (149.2%)      0.0%
+ TRAVEL (Ang.)       0.5816         C  4 -- C  6          +6.0% (132.1%)      0.0%
+ REDUCED MASS        1.0091         H 13 -- C 22          +6.0% (131.8%)      8.4%
+ EFFECTIVE MASS     42.9255
+ FORCE CONSTANT      0.0232
+
+ VIBRATION          9    9A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           260.48         C  3 -- C 23         +15.4% (117.1%)      0.0%
+ TRANSITION DIPOLE   0.9956         H 11 -- C 22          +9.6% ( 92.4%)     86.8%
+ TRAVEL (Ang.)       0.4784         O  1 -- C  3          +7.6% ( 82.1%)      0.0%
+ REDUCED MASS        1.1309         N  5 -- C 10          +7.0% ( 79.0%)      0.0%
+ EFFECTIVE MASS     23.2048
+ FORCE CONSTANT      0.0452
+
+ VIBRATION         10   10A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           277.20         C 22 -- C 23         +23.8% (203.1%)      0.0%
+ TRANSITION DIPOLE   0.1813         H 11 -- C 22         +19.9% (185.9%)      0.1%
+ TRAVEL (Ang.)       0.2997         H 12 -- C 22         +19.7% (185.0%)     82.1%
+ REDUCED MASS        2.7083         H 13 -- C 22         +15.4% (163.5%)     90.2%
+ EFFECTIVE MASS     34.1115
+ FORCE CONSTANT      0.1226
+
+ VIBRATION         11   11A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           331.38         C  3 -- C 23          +9.3% ( 83.9%)      0.0%
+ TRANSITION DIPOLE   0.2570         H 11 -- C 22          +8.8% ( 81.7%)      9.2%
+ TRAVEL (Ang.)       0.5628         C  4 -- N  5          +8.7% ( 81.6%)      0.0%
+ REDUCED MASS        0.6424         C  4 -- C  6          +8.2% ( 78.8%)      0.0%
+ EFFECTIVE MASS     17.0011
+ FORCE CONSTANT      0.0416
+
+ VIBRATION         12   12A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           370.43         N  5 -- C 10         +20.2% (165.5%)      0.0%
+ TRANSITION DIPOLE   0.2271         C 10 -- H 21          +9.2% (111.8%)      3.2%
+ TRAVEL (Ang.)       0.4326         C 10 -- H 19          +8.9% (109.9%)     76.3%
+ REDUCED MASS        0.9729         C 10 -- H 20          +8.6% (107.7%)     89.4%
+ EFFECTIVE MASS     24.2683
+ FORCE CONSTANT      0.0787
+
+ VIBRATION         13   13A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           404.08         C  2 -- C  8         +11.4% ( 98.5%)      0.0%
+ TRANSITION DIPOLE   0.2181         N  5 -- C 10         +11.0% ( 96.7%)      0.0%
+ TRAVEL (Ang.)       0.4682         C  2 -- N  5          +8.6% ( 85.7%)      0.0%
+ REDUCED MASS        0.7613         C  4 -- C  6          +6.0% ( 71.9%)      0.0%
+ EFFECTIVE MASS     17.7185
+ FORCE CONSTANT      0.0732
+
+ VIBRATION         14   14A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           448.16         C  4 -- C  6         +13.5% ( 69.7%)      0.0%
+ TRANSITION DIPOLE   1.2027         H 11 -- C 22         +12.2% ( 66.3%)     69.9%
+ TRAVEL (Ang.)       0.3927         C  4 -- N  5         +10.3% ( 61.0%)      0.0%
+ REDUCED MASS        0.9759         H 12 -- C 22          +9.4% ( 58.0%)     67.6%
+ EFFECTIVE MASS     12.7140
+ FORCE CONSTANT      0.1155
+
+ VIBRATION         15   15A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           507.87         C  7 -- H 11         +11.1% (106.5%)      0.0%
+ TRANSITION DIPOLE   0.2619         C  6 -- C  7          +9.7% ( 99.6%)      0.5%
+ TRAVEL (Ang.)       0.3401         C  7 -- C  8          +9.7% ( 99.5%)      0.3%
+ REDUCED MASS        1.1479         C  4 -- N  5          +7.2% ( 85.6%)      0.1%
+ EFFECTIVE MASS     15.7849
+ FORCE CONSTANT      0.1745
+
+ VIBRATION         16   16A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           562.18         C  7 -- H 17         +10.5% ( 51.2%)      6.7%
+ TRANSITION DIPOLE   0.3596         H 13 -- C 22          +9.1% ( 47.5%)     56.8%
+ TRAVEL (Ang.)       0.3155         H 11 -- C 22          +8.3% ( 45.6%)     84.4%
+ REDUCED MASS        1.2048         C  7 -- H 11          +7.9% ( 44.3%)     84.0%
+ EFFECTIVE MASS     10.6509
+ FORCE CONSTANT      0.2243
+
+ VIBRATION         17   17A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           624.12         C  2 -- C  8         +12.7% (101.7%)      0.2%
+ TRANSITION DIPOLE   0.5488         C  7 -- C  8         +11.2% ( 95.5%)      3.3%
+ TRAVEL (Ang.)       0.2362         C  4 -- C  6         +10.6% ( 92.9%)      0.1%
+ REDUCED MASS        1.9365         C  2 -- N  5         +10.4% ( 91.8%)      2.7%
+ EFFECTIVE MASS     16.6854
+ FORCE CONSTANT      0.4444
+
+ VIBRATION         18   18A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           630.65         C  7 -- H 11          +9.5% ( 63.5%)     10.3%
+ TRANSITION DIPOLE   0.3131         H 13 -- C 22          +9.4% ( 63.1%)      5.1%
+ TRAVEL (Ang.)       0.4950         C  6 -- C  7          +8.2% ( 58.9%)      0.4%
+ REDUCED MASS        0.4363         H 12 -- C 22          +6.6% ( 52.9%)      8.0%
+ EFFECTIVE MASS      8.8587
+ FORCE CONSTANT      0.1022
+
+ VIBRATION         19   19A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           676.12         C  3 -- C 23         +24.5% (103.5%)      0.3%
+ TRANSITION DIPOLE   0.9252         O  1 -- C  3         +15.9% ( 83.5%)      0.6%
+ TRAVEL (Ang.)       0.2288         C 22 -- C 23         +14.2% ( 78.8%)      1.1%
+ REDUCED MASS        1.9048         C  3 -- H  9         +11.9% ( 72.2%)     96.4%
+ EFFECTIVE MASS     13.3584         H 14 -- C 23         +11.1% ( 69.6%)     69.3%
+ FORCE CONSTANT      0.5130
+
+ VIBRATION         20   20A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           802.49         H 14 -- C 23         +16.8% ( 52.0%)      0.1%
+ TRANSITION DIPOLE   1.9177         C  6 -- H 16         +14.6% ( 48.3%)      2.1%
+ TRAVEL (Ang.)       0.6497         C  8 -- H 18         +11.2% ( 42.4%)      2.4%
+ REDUCED MASS        0.1991         C  4 -- H 15          +7.2% ( 34.0%)      0.1%
+ EFFECTIVE MASS      3.1793
+ FORCE CONSTANT      0.0755
+
+ VIBRATION         21   21A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           831.25         H 14 -- C 23         +17.5% ( 56.6%)      0.3%
+ TRANSITION DIPOLE   0.0894         C  6 -- H 16         +15.5% ( 53.4%)      6.0%
+ TRAVEL (Ang.)       0.5223         C  4 -- H 15          +7.8% ( 37.8%)      1.0%
+ REDUCED MASS        0.2974         C  6 -- C  7          +6.2% ( 33.8%)      0.1%
+ EFFECTIVE MASS      4.5436
+ FORCE CONSTANT      0.1211
+
+ VIBRATION         22   22A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           840.87         C  7 -- C  8         +11.6% ( 65.3%)      0.5%
+ TRANSITION DIPOLE   0.5322         C  6 -- C  7         +10.8% ( 63.1%)      0.3%
+ TRAVEL (Ang.)       0.2696         C  8 -- H 18          +8.2% ( 54.9%)     47.0%
+ REDUCED MASS        1.1036         C  2 -- C  8          +7.5% ( 52.4%)      0.6%
+ EFFECTIVE MASS     10.4563
+ FORCE CONSTANT      0.4597
+
+ VIBRATION         23   23A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           856.52         C  8 -- H 18         +25.7% ( 59.5%)      0.7%
+ TRANSITION DIPOLE   0.1426         C  2 -- H 24         +20.2% ( 52.7%)      0.0%
+ TRAVEL (Ang.)       0.5273         C  6 -- H 16         +16.0% ( 47.0%)      1.3%
+ REDUCED MASS        0.2832         H 14 -- C 23          +5.8% ( 28.2%)      0.2%
+ EFFECTIVE MASS      2.9733
+ FORCE CONSTANT      0.1224
+
+ VIBRATION         24   24A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           948.07         C  4 -- H 15         +28.8% ( 58.9%)      0.0%
+ TRANSITION DIPOLE   0.4943         C  2 -- H 24         +18.3% ( 47.0%)      0.0%
+ TRAVEL (Ang.)       0.4583         C  7 -- H 17          +9.6% ( 34.1%)      1.4%
+ REDUCED MASS        0.3386         C  8 -- H 18          +6.9% ( 28.8%)      0.2%
+ EFFECTIVE MASS      3.1409
+ FORCE CONSTANT      0.1793
+
+ VIBRATION         25   25A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           977.23         C  2 -- H 24         +24.2% ( 53.7%)      0.0%
+ TRANSITION DIPOLE   0.4666         C  4 -- H 15         +21.1% ( 50.1%)      0.0%
+ TRAVEL (Ang.)       0.3878         C  8 -- H 18         +11.9% ( 37.6%)      0.0%
+ REDUCED MASS        0.4588         C  2 -- C  8          +7.3% ( 29.5%)      0.0%
+ EFFECTIVE MASS      3.8568
+ FORCE CONSTANT      0.2581
+
+ VIBRATION         26   26A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY           990.49         C  3 -- H  9         +49.6% ( 77.7%)      0.0%
+ TRANSITION DIPOLE   1.0649         C  3 -- C 23         +13.7% ( 40.9%)      0.1%
+ TRAVEL (Ang.)       0.2434         O  1 -- C  3          +9.6% ( 34.1%)      0.0%
+ REDUCED MASS        1.1492         H 14 -- C 23          +7.9% ( 30.9%)      0.1%
+ EFFECTIVE MASS      4.4687
+ FORCE CONSTANT      0.6643
+
+ VIBRATION         27   27A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1009.60         H 13 -- C 22         +30.6% ( 80.0%)     23.1%
+ TRANSITION DIPOLE   0.5944         H 12 -- C 22         +23.2% ( 69.7%)      7.3%
+ TRAVEL (Ang.)       0.2673         H 11 -- C 22         +10.7% ( 47.3%)      0.4%
+ REDUCED MASS        0.9348         C 22 -- C 23          +9.8% ( 45.3%)      5.2%
+ EFFECTIVE MASS      5.4022
+ FORCE CONSTANT      0.5614
+
+ VIBRATION         28   28A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1022.49         C  7 -- H 17         +21.8% ( 52.0%)      6.5%
+ TRANSITION DIPOLE   0.5355         C  7 -- H 11         +12.2% ( 39.0%)     16.1%
+ TRAVEL (Ang.)       0.3718         H 12 -- C 22         +10.3% ( 35.7%)      0.2%
+ REDUCED MASS        0.4769         C  7 -- C  8          +9.7% ( 34.6%)      2.0%
+ EFFECTIVE MASS      4.5817
+ FORCE CONSTANT      0.2938
+
+ VIBRATION         29   29A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1054.67         C  2 -- C  8         +14.2% ( 63.9%)      1.6%
+ TRANSITION DIPOLE   0.9624         C  2 -- N  5         +14.1% ( 63.4%)     40.4%
+ TRAVEL (Ang.)       0.1586         C  4 -- C  6         +12.7% ( 60.2%)      1.9%
+ REDUCED MASS        2.5417         C  4 -- N  5         +11.6% ( 57.6%)     34.5%
+ EFFECTIVE MASS     11.5045         C  2 -- H 24         +10.9% ( 55.8%)     70.3%
+ FORCE CONSTANT      1.6657
+
+ VIBRATION         30   30A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1085.35         C 10 -- H 20         +21.7% ( 67.0%)     18.7%
+ TRANSITION DIPOLE   0.6371         C 10 -- H 21         +12.0% ( 49.9%)      5.9%
+ TRAVEL (Ang.)       0.3870         C 10 -- H 19         +11.0% ( 47.7%)      2.5%
+ REDUCED MASS        0.4147         C  4 -- N  5          +9.2% ( 43.6%)     65.8%
+ EFFECTIVE MASS      5.3388
+ FORCE CONSTANT      0.2878
+
+ VIBRATION         31   31A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1090.88         C 10 -- H 19         +32.2% ( 72.1%)     13.1%
+ TRANSITION DIPOLE   0.5047         C 10 -- H 21         +31.5% ( 71.3%)     16.0%
+ TRAVEL (Ang.)       0.2933         C 10 -- H 20         +17.3% ( 52.8%)      0.4%
+ REDUCED MASS        0.7186         N  5 -- C 10         +10.1% ( 40.3%)      0.5%
+ EFFECTIVE MASS      3.6312
+ FORCE CONSTANT      0.5039
+
+ VIBRATION         32   32A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1103.94         C  7 -- H 11         +16.4% ( 52.9%)      2.6%
+ TRANSITION DIPOLE   0.6452         H 11 -- C 22         +12.7% ( 46.6%)      7.3%
+ TRAVEL (Ang.)       0.3882         C  6 -- C  7         +12.5% ( 46.2%)     86.0%
+ REDUCED MASS        0.4054         C  7 -- C  8          +9.9% ( 41.2%)     64.3%
+ EFFECTIVE MASS      5.1411
+ FORCE CONSTANT      0.2911
+
+ VIBRATION         33   33A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1119.34         C  7 -- H 11         +19.6% ( 54.0%)      0.8%
+ TRANSITION DIPOLE   0.1409         H 11 -- C 22         +18.7% ( 52.9%)      0.0%
+ TRAVEL (Ang.)       0.4464         C  7 -- C  8          +8.8% ( 36.2%)     90.9%
+ REDUCED MASS        0.3023         C  6 -- H 16          +8.1% ( 34.9%)     38.1%
+ EFFECTIVE MASS      3.5562
+ FORCE CONSTANT      0.2231
+
+ VIBRATION         34   34A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1167.23         C  7 -- H 17         +23.4% ( 59.6%)      0.2%
+ TRANSITION DIPOLE   0.6485         C 10 -- H 20          +9.7% ( 38.4%)     16.5%
+ TRAVEL (Ang.)       0.4680         C  2 -- H 24          +9.2% ( 37.4%)      6.8%
+ REDUCED MASS        0.2638         C  4 -- H 15          +9.0% ( 36.9%)     10.0%
+ EFFECTIVE MASS      3.6716
+ FORCE CONSTANT      0.2118
+
+ VIBRATION         35   35A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1197.06         C  7 -- H 17         +21.4% ( 53.6%)      0.2%
+ TRANSITION DIPOLE   0.4427         C  6 -- H 16         +13.3% ( 42.3%)      0.5%
+ TRAVEL (Ang.)       0.5684         C  8 -- H 18          +7.6% ( 31.9%)      1.1%
+ REDUCED MASS        0.1743         H 14 -- C 23          +6.2% ( 28.8%)     32.9%
+ EFFECTIVE MASS      3.1770
+ FORCE CONSTANT      0.1472
+
+ VIBRATION         36   36A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1198.78         H 14 -- C 23         +18.1% ( 52.0%)     35.9%
+ TRANSITION DIPOLE   0.7137         C  3 -- C 23         +13.9% ( 45.6%)     86.1%
+ TRAVEL (Ang.)       0.3676         C 22 -- C 23         +13.6% ( 45.1%)     44.8%
+ REDUCED MASS        0.4162         C  3 -- H  9         +12.4% ( 43.1%)     22.7%
+ EFFECTIVE MASS      5.2440
+ FORCE CONSTANT      0.3524
+
+ VIBRATION         37   37A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1228.05         C  7 -- H 11         +35.0% ( 72.1%)     11.0%
+ TRANSITION DIPOLE   1.2781         H 11 -- C 22         +26.5% ( 62.8%)     12.1%
+ TRAVEL (Ang.)       0.3851         C  7 -- H 17          +5.7% ( 29.1%)      1.9%
+ REDUCED MASS        0.3702         C  3 -- C 23          +4.8% ( 26.7%)     80.7%
+ EFFECTIVE MASS      3.0428
+ FORCE CONSTANT      0.3290
+
+ VIBRATION         38   38A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1243.15         C 10 -- H 21         +41.7% ( 55.2%)      0.5%
+ TRANSITION DIPOLE   0.6347         C 10 -- H 20         +35.0% ( 50.6%)      1.5%
+ TRAVEL (Ang.)       0.3896         C 10 -- H 19         +17.9% ( 36.2%)     15.5%
+ REDUCED MASS        0.3574         N  5 -- C 10          +2.8% ( 14.3%)      2.4%
+ EFFECTIVE MASS      1.3269
+ FORCE CONSTANT      0.3255
+
+ VIBRATION         39   39A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1248.32         C 10 -- H 19         +31.4% ( 52.0%)      0.4%
+ TRANSITION DIPOLE   1.0328         C 10 -- H 21         +25.1% ( 46.5%)      4.8%
+ TRAVEL (Ang.)       0.4600         C 10 -- H 20         +13.2% ( 33.7%)      4.5%
+ REDUCED MASS        0.2552         H 11 -- C 22          +4.9% ( 20.6%)     18.5%
+ EFFECTIVE MASS      1.6704
+ FORCE CONSTANT      0.2343
+
+ VIBRATION         40   40A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1261.32         H 11 -- C 22         +13.9% ( 38.2%)     18.0%
+ TRANSITION DIPOLE   1.8843         H 12 -- C 22         +11.3% ( 34.5%)      2.1%
+ TRAVEL (Ang.)       0.5329         H 13 -- C 22         +10.5% ( 33.3%)      0.8%
+ REDUCED MASS        0.1883         C  7 -- H 11          +9.3% ( 31.3%)     19.7%
+ EFFECTIVE MASS      2.8820
+ FORCE CONSTANT      0.1765
+
+ VIBRATION         41   41A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1274.07         C  2 -- H 24         +29.8% ( 55.3%)      3.6%
+ TRANSITION DIPOLE   0.3003         C  4 -- H 15         +27.1% ( 52.7%)      5.2%
+ TRAVEL (Ang.)       0.4840         C  8 -- H 18         +13.1% ( 36.7%)      0.5%
+ REDUCED MASS        0.2259         C  6 -- H 16         +12.2% ( 35.4%)      0.3%
+ EFFECTIVE MASS      1.7800
+ FORCE CONSTANT      0.2161
+
+ VIBRATION         42   42A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1298.29         H 14 -- C 23         +41.7% ( 66.3%)      3.9%
+ TRANSITION DIPOLE   0.6574         H 12 -- C 22         +13.8% ( 38.2%)     11.3%
+ TRAVEL (Ang.)       0.4084         C  3 -- H  9         +11.1% ( 34.2%)      0.4%
+ REDUCED MASS        0.3113         C 22 -- C 23          +6.8% ( 26.8%)     24.8%
+ EFFECTIVE MASS      2.6609
+ FORCE CONSTANT      0.3092
+
+ VIBRATION         43   43A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1325.86         N  5 -- C 10         +21.0% ( 62.8%)     99.9%
+ TRANSITION DIPOLE   1.9765         C  2 -- N  5         +10.1% ( 43.5%)     45.0%
+ TRAVEL (Ang.)       0.2084         C  4 -- N  5          +9.9% ( 43.1%)     24.7%
+ REDUCED MASS        1.1711         C 10 -- H 20          +7.3% ( 37.1%)      5.8%
+ EFFECTIVE MASS      8.4189
+ FORCE CONSTANT      1.2129
+
+ VIBRATION         44   44A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1343.08         C  2 -- H 24         +14.3% ( 44.1%)      0.0%
+ TRANSITION DIPOLE   0.5746         C  8 -- H 18         +14.1% ( 43.7%)      0.8%
+ TRAVEL (Ang.)       0.4388         C  4 -- H 15         +11.3% ( 39.3%)      0.7%
+ REDUCED MASS        0.2607         C  7 -- H 17         +10.3% ( 37.5%)      0.4%
+ EFFECTIVE MASS      3.2184
+ FORCE CONSTANT      0.2771
+
+ VIBRATION         45   45A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1349.74         C  3 -- H  9         +42.0% ( 67.0%)      2.3%
+ TRANSITION DIPOLE   0.5984         H 12 -- C 22         +10.0% ( 32.7%)      0.1%
+ TRAVEL (Ang.)       0.3991         H 13 -- C 22          +5.8% ( 24.8%)      2.0%
+ REDUCED MASS        0.3136         C  3 -- C 23          +5.8% ( 24.8%)     81.3%
+ EFFECTIVE MASS      2.7854
+ FORCE CONSTANT      0.3366
+
+ VIBRATION         46   46A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1388.16         C 10 -- H 20         +14.7% ( 41.4%)      0.9%
+ TRANSITION DIPOLE   0.6563         C 10 -- H 19         +14.4% ( 40.9%)      0.5%
+ TRAVEL (Ang.)       0.4821         C 10 -- H 21         +10.5% ( 34.9%)      0.4%
+ REDUCED MASS        0.2090         H 13 -- C 22          +7.6% ( 29.8%)      1.3%
+ EFFECTIVE MASS      3.6831
+ FORCE CONSTANT      0.2372
+
+ VIBRATION         47   47A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1393.82         C  3 -- C 23         +13.4% ( 43.0%)     99.1%
+ TRANSITION DIPOLE   1.6031         H 13 -- C 22         +13.2% ( 42.7%)      0.5%
+ TRAVEL (Ang.)       0.3237         C 22 -- C 23         +10.7% ( 38.4%)     23.7%
+ REDUCED MASS        0.4618         H 14 -- C 23         +10.6% ( 38.1%)     11.5%
+ EFFECTIVE MASS      5.2233
+ FORCE CONSTANT      0.5285
+
+ VIBRATION         48   48A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1425.80         C  6 -- C  7         +18.6% ( 60.0%)     86.7%
+ TRANSITION DIPOLE   0.5327         C  7 -- C  8         +17.1% ( 57.5%)     82.8%
+ TRAVEL (Ang.)       0.1721         C  7 -- H 17         +11.6% ( 47.4%)      0.1%
+ REDUCED MASS        1.5962         C  7 -- H 11         +10.4% ( 44.7%)      0.0%
+ EFFECTIVE MASS      7.7703
+ FORCE CONSTANT      1.9118
+
+ VIBRATION         49   49A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1498.15         C  2 -- N  5         +20.2% ( 59.8%)     73.4%
+ TRANSITION DIPOLE   0.8488         C  4 -- N  5         +13.8% ( 49.4%)     34.6%
+ TRAVEL (Ang.)       0.1618         N  5 -- C 10         +13.3% ( 48.5%)     96.5%
+ REDUCED MASS        1.7203         C  2 -- H 24          +7.8% ( 37.2%)      3.9%
+ EFFECTIVE MASS      8.9748
+ FORCE CONSTANT      2.2749
+
+ VIBRATION         50   50A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1522.15         C  4 -- N  5         +22.8% ( 69.8%)     98.0%
+ TRANSITION DIPOLE   2.6039         C  2 -- N  5         +16.1% ( 58.6%)     79.6%
+ TRAVEL (Ang.)       0.1246         N  5 -- C 10         +10.8% ( 48.1%)      4.5%
+ REDUCED MASS        2.8516         C  6 -- C  7          +8.3% ( 42.2%)     81.3%
+ EFFECTIVE MASS     11.7235
+ FORCE CONSTANT      3.8927
+
+ VIBRATION         51   51A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1639.08         C  4 -- C  6         +25.7% ( 73.2%)     98.8%
+ TRANSITION DIPOLE   1.5618         C  2 -- C  8         +12.0% ( 50.1%)     94.1%
+ TRAVEL (Ang.)       0.1368         C  6 -- C  7          +8.9% ( 43.1%)     40.2%
+ REDUCED MASS        2.1985         C  4 -- N  5          +8.8% ( 42.7%)      1.4%
+ EFFECTIVE MASS     11.3677
+ FORCE CONSTANT      3.4800
+
+ VIBRATION         52   52A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1650.15         C 22 -- C 23         +23.0% ( 62.6%)     96.9%
+ TRANSITION DIPOLE   2.5300         C  3 -- C 23         +15.8% ( 51.8%)     32.0%
+ TRAVEL (Ang.)       0.1275         H 14 -- C 23         +12.7% ( 46.4%)      3.1%
+ REDUCED MASS        2.5125         C  2 -- C  8         +11.0% ( 43.2%)     99.9%
+ EFFECTIVE MASS     10.4075
+ FORCE CONSTANT      4.0309
+
+ VIBRATION         53   53A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1708.92         O  1 -- C  3         +46.5% ( 87.1%)     97.9%
+ TRANSITION DIPOLE   7.0166         C  3 -- C 23         +25.7% ( 64.8%)     72.4%
+ TRAVEL (Ang.)       0.0876         C  3 -- H  9         +22.0% ( 60.0%)      3.4%
+ REDUCED MASS        5.1456         C  7 -- H 11          +2.4% ( 19.8%)     90.2%
+ EFFECTIVE MASS     11.9240
+ FORCE CONSTANT      8.8538
+
+ VIBRATION         54   54A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          1762.93         C  2 -- C  8         +25.9% ( 64.5%)     99.8%
+ TRANSITION DIPOLE   1.3173         C  4 -- C  6         +16.4% ( 51.3%)     99.7%
+ TRAVEL (Ang.)       0.1397         C  7 -- C  8          +9.6% ( 39.3%)     38.8%
+ REDUCED MASS        1.9597         C  2 -- N  5          +9.5% ( 39.2%)     35.8%
+ EFFECTIVE MASS      9.6824
+ FORCE CONSTANT      3.5884
+
+ VIBRATION         55   55A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2616.60         C 10 -- H 21         +65.7% ( 83.8%)     99.5%
+ TRANSITION DIPOLE   0.9936         C 10 -- H 19         +28.0% ( 54.7%)     93.9%
+ TRAVEL (Ang.)       0.2211         C 10 -- H 20          +5.4% ( 24.1%)     61.8%
+ REDUCED MASS        0.5273         N  5 -- C 10          +0.8% (  9.5%)      0.0%
+ EFFECTIVE MASS      1.4390
+ FORCE CONSTANT      2.1272
+
+ VIBRATION         56   56A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2629.88         C 10 -- H 20         +59.2% ( 79.6%)     99.2%
+ TRANSITION DIPOLE   0.9552         C 10 -- H 19         +35.7% ( 61.8%)     95.3%
+ TRAVEL (Ang.)       0.2270         C 10 -- H 21          +4.0% ( 20.8%)     49.6%
+ REDUCED MASS        0.4976         N  5 -- C 10          +1.0% ( 10.2%)      0.0%
+ EFFECTIVE MASS      1.4595
+ FORCE CONSTANT      2.0277
+
+ VIBRATION         57   57A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2662.16         C  3 -- H  9         +96.9% ( 99.4%)    100.0%
+ TRANSITION DIPOLE   0.6882         C  3 -- C 23          +1.0% ( 10.1%)     27.3%
+ TRAVEL (Ang.)       0.1667         O  1 -- C  3          +1.0% (  9.9%)      8.4%
+ REDUCED MASS        0.9119         H 12 -- C 22          +0.6% (  7.7%)     99.9%
+ EFFECTIVE MASS      1.3754
+ FORCE CONSTANT      3.8077
+
+ VIBRATION         58   58A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2676.55         H 13 -- C 22         +47.9% ( 71.5%)     98.4%
+ TRANSITION DIPOLE   0.6654         H 12 -- C 22         +47.9% ( 71.5%)     98.4%
+ TRAVEL (Ang.)       0.2283         H 14 -- C 23          +1.5% ( 12.9%)     99.8%
+ REDUCED MASS        0.4835         C 22 -- C 23          +1.0% ( 10.3%)      0.2%
+ EFFECTIVE MASS      1.4840
+ FORCE CONSTANT      2.0406
+
+ VIBRATION         59   59A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2702.60         C  7 -- H 17         +84.2% ( 92.8%)    100.0%
+ TRANSITION DIPOLE   1.6603         C  2 -- H 24         +10.6% ( 33.0%)    100.0%
+ TRAVEL (Ang.)       0.1879         C  4 -- H 15          +1.9% ( 14.0%)     99.9%
+ REDUCED MASS        0.7066         C  6 -- C  7          +0.8% (  8.9%)     17.3%
+ EFFECTIVE MASS      1.3604
+ FORCE CONSTANT      3.0406
+
+ VIBRATION         60   60A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2703.43         C  2 -- H 24         +78.9% ( 89.8%)    100.0%
+ TRANSITION DIPOLE   1.3753         C  4 -- H 15          +9.5% ( 31.2%)    100.0%
+ TRAVEL (Ang.)       0.2004         C  7 -- H 17          +7.0% ( 26.8%)    100.0%
+ REDUCED MASS        0.6213         C  8 -- H 18          +1.8% ( 13.6%)     99.9%
+ EFFECTIVE MASS      1.3939
+ FORCE CONSTANT      2.6754
+
+ VIBRATION         61   61A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2706.56         C  4 -- H 15         +82.9% ( 92.2%)    100.0%
+ TRANSITION DIPOLE   1.2642         C  2 -- H 24          +5.6% ( 24.0%)    100.0%
+ TRAVEL (Ang.)       0.1915         C  7 -- H 17          +4.6% ( 21.7%)    100.0%
+ REDUCED MASS        0.6792         C  6 -- H 16          +2.9% ( 17.1%)     99.9%
+ EFFECTIVE MASS      1.4149
+ FORCE CONSTANT      2.9317
+
+ VIBRATION         62   62A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2727.92         H 13 -- C 22         +47.1% ( 68.0%)     96.5%
+ TRANSITION DIPOLE   1.1713         H 12 -- C 22         +42.9% ( 64.9%)     95.6%
+ TRAVEL (Ang.)       0.2461         H 14 -- C 23          +3.3% ( 18.1%)     98.2%
+ REDUCED MASS        0.4083         C  6 -- H 16          +2.4% ( 15.2%)     99.6%
+ EFFECTIVE MASS      1.2450
+ FORCE CONSTANT      1.7901
+
+ VIBRATION         63   63A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2746.73         C  6 -- H 16         +62.2% ( 78.7%)    100.0%
+ TRANSITION DIPOLE   1.4443         C  8 -- H 18         +14.2% ( 37.5%)    100.0%
+ TRAVEL (Ang.)       0.2499         C 10 -- H 19          +7.3% ( 26.9%)     95.8%
+ REDUCED MASS        0.3930         C 10 -- H 20          +7.1% ( 26.5%)     95.6%
+ EFFECTIVE MASS      1.3205
+ FORCE CONSTANT      1.7471
+
+ VIBRATION         64   64A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2747.85         C  8 -- H 18         +29.2% ( 52.6%)    100.0%
+ TRANSITION DIPOLE   1.1948         C 10 -- H 19         +23.0% ( 46.8%)     95.8%
+ TRAVEL (Ang.)       0.3344         C 10 -- H 20         +22.3% ( 45.9%)     95.6%
+ REDUCED MASS        0.2194         C 10 -- H 21         +18.6% ( 42.0%)     94.1%
+ EFFECTIVE MASS      1.2120
+ FORCE CONSTANT      0.9762
+
+ VIBRATION         65   65A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2754.47         C  8 -- H 18         +53.0% ( 72.8%)    100.0%
+ TRANSITION DIPOLE   1.0326         C  6 -- H 16         +26.4% ( 51.3%)    100.0%
+ TRAVEL (Ang.)       0.2701         C 10 -- H 19          +3.6% ( 18.9%)     95.8%
+ REDUCED MASS        0.3354         C 10 -- H 20          +3.5% ( 18.6%)     95.6%
+ EFFECTIVE MASS      1.3850
+ FORCE CONSTANT      1.4995
+
+ VIBRATION         66   66A           ATOM PAIR      ENERGY CONTRIBUTION    RADIAL
+ FREQUENCY          2773.41         H 14 -- C 23         +92.0% ( 96.3%)    100.0%
+ TRANSITION DIPOLE   1.4253         H 12 -- C 22          +3.7% ( 19.3%)     98.3%
+ TRAVEL (Ang.)       0.1729         C  6 -- H 16          +1.0% (  9.8%)     99.9%
+ REDUCED MASS        0.8132         C  3 -- C 23          +0.9% (  9.5%)     20.6%
+ EFFECTIVE MASS      1.3800
+ FORCE CONSTANT      3.6855
+
+           FORCE CONSTANT IN CARTESIAN COORDINATES (Millidynes/A)
+
+    ATOM   CHEMICAL       X               Y               Z
+   NUMBER   SYMBOL  FORCE CONSTANT  FORCE CONSTANT  FORCE CONSTANT
+
+      1       O        0.697801       11.423689        1.009374
+      2       C        4.470799        9.728322        9.920013
+      3       C        3.717889       12.475005        7.618312
+      4       C        3.992766       10.071553        9.780392
+      5       N        4.495267       11.092701        9.188129
+      6       C        3.537864        9.606890        9.913896
+      7       C        3.767208        8.536611        5.905265
+      8       C        4.798571        9.233511        9.427305
+      9       H        1.017340        1.384341        2.869018
+     10       C        6.065690        6.896154        6.751223
+     11       H       -1.433224        0.479708        0.378013
+     12       H        0.551080        3.899632        0.830961
+     13       H        0.499411        1.571270        3.151125
+     14       H        0.685295        4.023376        0.833767
+     15       H        1.221205        1.133422        3.095097
+     16       H        0.731063        3.879121        0.812380
+     17       H        1.055687        2.414823        1.903191
+     18       H        1.709111        1.007205        2.757837
+     19       H        0.542280        1.214137        3.576597
+     20       H        1.741305        2.877620        0.711273
+     21       H        3.522852        1.006831        0.721622
+     22       C        0.635755        6.747863        8.717157
+     23       C        3.932326        8.636295        8.431244
+     24       H        1.037325        3.542211        0.847333
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.165W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.165W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 362**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jun 17 12:09:17 2021  *
+ *  EPS=78.4   - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  KINETIC=   -     0.100 KCAL KINETIC ENERGY ADDED TO DRC
+ *  IRC=N      - INTRINSIC REACTION COORDINATE  1 DEFINED
+ *  DRC        - DYNAMIC REACTION COORDINATE CALCULATION
+ *  OLDGEO     - PREVIOUS GEOMETRY TO BE USED
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  RESTART    - CALCULATION RESTARTED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  CYCLES=    - DO A MAXIMUM OF 50 STEPS
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *  T-PRIOR    - TIME TAKES PRIORITY IN DRC
+ *******************************************************************************
+oldgeo IRC=1* restart T-priority=1 html kinetic=0.1 precise eps=78.4 DRC cycles=50
+ IRC for the reaction Prop-2-enal anion plus C5H5N-CH3 cation <=> prop-2-enal + 1-methyl-4-hydro-pyridine.
+ (Click on "Common" to orientate the system to see the reaction better.)
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O(HETATM    1  O   HET A   1)   -1.99283500  *  -0.33890181  *   0.08078142  *
+     2       C(HETATM    2  C   HET B   2)    1.61086611  *  -1.35168078  *   0.01452967  *
+     3       C(HETATM    3  C   HET C   1)   -1.84557099  *   0.88752797  *   0.17362616  *
+     4       C(HETATM    4  C1  HET D   2)    0.88364150  *   0.50529412  *   1.33896586  *
+     5       N(HETATM    5  N   HET D   2)    1.00404844  *  -0.85381854  *   1.15301664  *
+     6       C(HETATM    6  C2  HET D   2)    1.31356790  *   1.38681220  *   0.38272687  *
+     7       C(HETATM    7  C3  HET D   2)    1.76616118  *   0.90604221  *  -0.90145452  *
+     8       C(HETATM    8  C4  HET D   2)    2.04777844  *  -0.51201330  *  -0.96814513  *
+     9       H(HETATM    9  H   HET E   1)   -2.19459926  *   1.34671275  *   1.11292145  *
+    10       C(HETATM   10  C   HET F   2)    0.38634027  *  -1.77039627  *   2.11272421  *
+    11       H(HETATM   11 1H1  HET K   1)    0.62582893  *   1.04379051  *  -1.72285413  *
+    12       H(HETATM   12 2H1  HET K   1)   -0.91247125  *   0.15574926  *  -2.26380084  *
+    13       H(HETATM   13 3H1  HET K   1)   -0.57238162  *   1.84336876  *  -2.86082178  *
+    14       H(HETATM   14  H2  HET K   1)   -1.28864620  *   2.78004151  *  -0.66181918  *
+    15       H(HETATM   15  H1  HET D   2)    0.45955818  *   0.83651829  *   2.29752036  *
+    16       H(HETATM   16  H2  HET D   2)    1.27812532  *   2.45859512  *   0.55811622  *
+    17       H(HETATM   17  H3  HET D   2)    2.38490992  *   1.57848201  *  -1.51165909  *
+    18       H(HETATM   18  H4  HET D   2)    2.58267304  *  -0.89537727  *  -1.83329023  *
+    19       H(HETATM   19 1H   HET F   2)    0.57668253  *  -1.44804715  *   3.15365761  *
+    20       H(HETATM   20 2H   HET F   2)    0.78155582  *  -2.79752248  *   2.00639751  *
+    21       H(HETATM   21 3H   HET F   2)   -0.71143837  *  -1.80931078  *   1.95712292  *
+    22       C(HETATM   22  C1  HET K   1)   -0.70799426  *   1.19470972  *  -1.99416465  *
+    23       C(HETATM   23  C2  HET K   1)   -1.30334082  *   1.71256458  *  -0.83222374  *
+    24       H(HETATM   24  H   HET B   2)    1.74221004  *  -2.44097860  *  -0.03596465  *
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C9 H13 N O  =    24 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 30
+
+
+          MOLECULAR WEIGHT =  151.21
+
+
+          ESTIMATED TIME TO COMPLETE CALCULATION =        0.00 SECONDS
+
+          TIME USED UP TO RESTART =                  3.42
+
+    FOR POINT-GROUP C1   THERE ARE   1 UNIQUE SYMMETRY FUNCTIONS.
+
+
+
+           EXCESS KINETIC ENERGY ENTERED INTO SYSTEM =    0.100000
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+        -0.00237         0.00650        -0.00053
+         0.00414         0.00112        -0.00909
+        -0.00122        -0.01931         0.01195
+        -0.00191         0.01082        -0.00412
+         0.00147        -0.00326         0.00503
+        -0.00379         0.00137         0.01809
+        -0.02932         0.00096        -0.03463
+         0.00935        -0.01426         0.00647
+         0.00057         0.01023         0.00676
+        -0.00144        -0.00058         0.00004
+         0.42740         0.08441         0.18734
+         0.06589         0.01466         0.01511
+         0.07589         0.02009         0.01769
+        -0.00791         0.00967         0.00322
+         0.00504        -0.00308        -0.00395
+         0.00532        -0.00599         0.00307
+         0.06927         0.01352         0.05143
+        -0.00241         0.00385         0.00484
+        -0.00031         0.00082        -0.00274
+        -0.00025         0.00283        -0.00212
+         0.00237        -0.00159         0.00319
+        -0.04686        -0.00008         0.01105
+         0.01894         0.00206        -0.02885
+        -0.00272         0.00583         0.00121
+
+ TIME PRIORITY, INTERVAL = 1.00 FEMTOSECONDS
+
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.000       1    32.50140    0.10000    32.60140   0.00000     1   %  0.0000
+     1.000       1    32.47616   -0.18808    32.28808  -0.31332     2   %  0.0157
+     2.000       1    32.40988    0.10355    32.51344  -0.08797     3   %  0.0320
+     3.000       1    32.30259    0.97489    33.27747   0.67607     4   %  0.0489
+     4.000      12    31.66959    0.93248    32.60207   0.00067     5   %  0.0969
+     5.000      17    30.59786    2.00452    32.60238   0.00098     6   %  0.1564
+     6.000      21    28.46788    4.13695    32.60483   0.00343     7   %  0.2431
+     7.000      25    25.10731    7.50501    32.61233   0.01093     8   %  0.3648
+     8.000      30    21.36938   11.23561    32.60500   0.00361     9   %  0.5231
+     9.000      40    19.15537   13.44505    32.60042  -0.00096    10   %  0.7108
+    10.000      50    19.45639   13.13684    32.59323  -0.00814    11   %  0.9112
+    11.000      60    20.32078   12.28186    32.60264   0.00127    12   %  1.1051
+    12.000      69    18.86083   13.74309    32.60391   0.00256    13   %  1.2801
+    13.000      79    15.38444   17.21318    32.59762  -0.00372    14   %  1.4367
+    14.000      89    13.03919   19.52527    32.56446  -0.03687    15   %  1.5872
+    15.000      99    13.66370   18.94248    32.60618   0.00487    16   %  1.7443
+    16.000     107    16.14056   16.46242    32.60298   0.00168    17   %  1.9095
+    17.000     115    18.25117   14.34218    32.59335  -0.00794    18   %  2.0743
+    18.000     123    18.55315   14.04922    32.60238   0.00109    19   %  2.2306
+    19.000     132    16.95264   15.64788    32.60052  -0.00075    20   %  2.3754
+    20.000     142    14.52824   18.07294    32.60118  -0.00008    21   %  2.5092
+    21.000     152    13.12245   19.47882    32.60127   0.00002    22   %  2.6320
+    22.000     162    14.09831   18.50183    32.60015  -0.00109    23   %  2.7409
+    23.000     171    16.24644   16.35414    32.60058  -0.00064    24   %  2.8298
+    24.000     178    16.52747   16.06786    32.59533  -0.00588    25   %  2.8937
+    25.000     184    13.48749   19.10328    32.59076  -0.01044    26   %  2.9371
+    26.000     194     9.23650   23.35934    32.59583  -0.00535    27   %  2.9868
+    27.000     204     6.84633   25.75298    32.59931  -0.00186    28   %  3.0803
+    28.000     214     7.26815   25.33353    32.60168   0.00053    29   %  3.2165
+    29.000     224     9.16734   23.43572    32.60305   0.00192    30   %  3.4103
+    30.000     234    10.77076   21.83015    32.60091  -0.00021    31   %  3.6131
+    31.000     242    11.08236   21.51979    32.60215   0.00105    32   %  3.8118
+    32.000     249    10.27080   22.32956    32.60036  -0.00073    33   %  4.0019
+    33.000     257     9.38767   23.21390    32.60158   0.00050    34   %  4.1848
+    34.000     267     9.85165   22.74838    32.60003  -0.00103    35   %  4.3644
+    35.000     277    11.84033   20.76038    32.60071  -0.00033    36   %  4.5420
+    36.000     286    13.48609   19.11416    32.60025  -0.00077    37   %  4.7164
+    37.000     295    12.74410   19.85337    32.59747  -0.00354    38   %  4.8862
+    38.000     304    10.16201   22.43956    32.60157   0.00057    39   %  5.0526
+    39.000     314     8.28016   24.31807    32.59823  -0.00275    40   %  5.2184
+    40.000     324     8.59365   24.00861    32.60227   0.00130    41   %  5.3863
+    41.000     333    10.32232   22.27299    32.59531  -0.00564    42   %  5.5577
+    42.000     339    11.81197   20.74854    32.56051  -0.04042    43   %  5.7338
+    43.000     344    11.80570   20.79521    32.60091  -0.00001    44   %  5.9165
+    44.000     349    10.16681   22.43304    32.59986  -0.00105    45   %  6.1099
+    45.000     357     7.74208   24.85591    32.59799  -0.00290    46   %  6.3194
+    46.000     366     6.19441   26.41914    32.61355   0.01268    47   %  6.5501
+    47.000     376     6.79728   25.80132    32.59860  -0.00225    48   %  6.8029
+    48.000     386     9.19964   23.39393    32.59357  -0.00727    49   %  7.0740
+    49.000     396    11.39390   21.21607    32.60998   0.00915    50   %  7.3559
+
+
+
+
+           EXCESS KINETIC ENERGY ENTERED INTO SYSTEM =    0.100000
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+         0.00237        -0.00650         0.00053
+        -0.00414        -0.00112         0.00909
+         0.00122         0.01931        -0.01195
+         0.00191        -0.01082         0.00412
+        -0.00147         0.00326        -0.00503
+         0.00379        -0.00137        -0.01809
+         0.02932        -0.00096         0.03463
+        -0.00935         0.01426        -0.00647
+        -0.00057        -0.01023        -0.00676
+         0.00144         0.00058        -0.00004
+        -0.42740        -0.08441        -0.18734
+        -0.06589        -0.01466        -0.01511
+        -0.07589        -0.02009        -0.01769
+         0.00791        -0.00967        -0.00322
+        -0.00504         0.00308         0.00395
+        -0.00532         0.00599        -0.00307
+        -0.06927        -0.01352        -0.05143
+         0.00241        -0.00385        -0.00484
+         0.00031        -0.00082         0.00274
+         0.00025        -0.00283         0.00212
+        -0.00237         0.00159        -0.00319
+         0.04686         0.00008        -0.01105
+        -0.01894        -0.00206         0.02885
+         0.00272        -0.00583        -0.00121
+
+ TIME PRIORITY, INTERVAL = 1.00 FEMTOSECONDS
+
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.000       1    32.50140    0.10000    32.60140   0.00000     1   %  0.0000
+     1.000       1    32.47645   -0.17452    32.30192  -0.29948     2   %  0.0156
+     2.000       1    32.41851    0.09677    32.51528  -0.08612     3   %  0.0319
+     3.000       1    32.32760    0.91388    33.24149   0.64008     4   %  0.0487
+     4.000      12    31.81199    0.78855    32.60054  -0.00086     5   %  0.0945
+     5.000      17    30.81046    1.78435    32.59481  -0.00659     6   %  0.1512
+     6.000      22    28.88149    3.74948    32.63097   0.02957     7   %  0.2356
+     7.000      26    25.65464    6.94843    32.60307   0.00168     8   %  0.3547
+     8.000      32    21.93079   10.67215    32.60294   0.00155     9   %  0.5124
+     9.000      41    19.54025   13.06451    32.60476   0.00338    10   %  0.7024
+    10.000      51    19.35236   13.24825    32.60061  -0.00076    11   %  0.9091
+    11.000      61    19.64399   12.96011    32.60409   0.00273    12   %  1.1136
+    12.000      70    17.77625   14.79203    32.56828  -0.03307    13   %  1.3031
+    13.000      79    14.33035   18.27253    32.60288   0.00154    14   %  1.4779
+    14.000      89    12.33882   20.26469    32.60351   0.00218    15   %  1.6489
+    15.000      99    13.29407   19.29696    32.59104  -0.01028    16   %  1.8277
+    16.000     107    15.99589   16.63588    32.63177   0.03047    17   %  2.0149
+    17.000     113    18.01962   14.59207    32.61169   0.01040    18   %  2.2014
+    18.000     119    18.03224   14.56749    32.59973  -0.00155    19   %  2.3789
+    19.000     127    16.14648   16.45612    32.60260   0.00133    20   %  2.5454
+    20.000     137    14.07798   18.52193    32.59991  -0.00135    21   %  2.7035
+    21.000     147    13.67113   18.94976    32.62089   0.01965    22   %  2.8545
+    22.000     157    15.49037   17.11348    32.60385   0.00261    23   %  2.9949
+    23.000     166    17.63020   14.98193    32.61213   0.01091    24   %  3.1178
+    24.000     173    17.36357   15.24414    32.60771   0.00650    25   %  3.2188
+    25.000     180    14.32383   18.26778    32.59162  -0.00958    26   %  3.2993
+    26.000     190    10.66185   21.97357    32.63542   0.03423    27   %  3.3657
+    27.000     200     9.05386   23.56187    32.61573   0.01456    28   %  3.4254
+    28.000     210     9.55772   23.06115    32.61887   0.01772    29   %  3.4829
+    29.000     219    10.12308   22.48839    32.61147   0.01034    30   %  3.5419
+    30.000     228    10.41691   22.18824    32.60515   0.00403    31   %  3.6606
+    31.000     236     9.97159   22.62870    32.60029  -0.00082    32   %  3.8429
+    32.000     244     9.31111   23.29408    32.60520   0.00411    33   %  4.0340
+    33.000     253     9.55310   23.04462    32.59771  -0.00336    34   %  4.2307
+    34.000     263    11.44632   21.15865    32.60497   0.00391    35   %  4.4283
+    35.000     272    14.37653   18.23816    32.61468   0.01363    36   %  4.6176
+    36.000     279    16.13665   16.49354    32.63018   0.02915    37   %  4.7879
+    37.000     285    15.62121   16.99275    32.61395   0.01293    38   %  4.9326
+    38.000     294    13.78245   18.82611    32.60855   0.00754    39   %  5.0511
+    39.000     304    12.55521   20.03653    32.59173  -0.00926    40   %  5.1486
+    40.000     314    12.76438   19.85271    32.61709   0.01611    41   %  5.2341
+    41.000     323    13.67147   18.92941    32.60088  -0.00009    42   %  5.3556
+    42.000     330    14.19142   18.40546    32.59689  -0.00407    43   %  5.5477
+    43.000     337    13.78734   18.84694    32.63428   0.03333    44   %  5.7664
+    44.000     343    12.24747   20.33759    32.58506  -0.01587    45   %  5.9877
+    45.000     351    10.28566   22.28426    32.56992  -0.03099    46   %  6.2125
+    46.000     361     9.35794   23.24881    32.60675   0.00585    47   %  6.4402
+    47.000     371     9.71783   22.87503    32.59286  -0.00803    48   %  6.6676
+    48.000     381    11.30435   21.35650    32.66085   0.05998    49   %  6.8893
+    49.000     389    12.55801   20.03542    32.59343  -0.00742    50   %  7.0978
+
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:            31.75 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,5 @@
+GEO_DAT="Locate-TS Nitrous_oxide and acetylene bias=20.0 first.mop" ++
+geo_ref="Locate-TS Nitrous_oxide and acetylene bias=20.0 second.mop" ++
+saddle html GEO-OK OPT XYZ
+       Nitrous_oxide and acetylene
+      

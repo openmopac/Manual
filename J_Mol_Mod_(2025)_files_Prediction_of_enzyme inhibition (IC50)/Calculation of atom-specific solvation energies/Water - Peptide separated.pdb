@@ -1,0 +1,20 @@
+HEADER  data-set: M:/Cambridge (paper)/Calculation of atom-specific solvation en
+REMARK  MOPAC, Version: unknown
+REMARK  Date: Sep  6 2024 09:27
+REMARK  Heat of Formation = -128.414 Kcal/mol
+HETATM    1  O   HOH A   1      -0.097   0.130  -0.326  1.0  -7.13      PROT O 
+HETATM    2 1H   HOH A   1      -0.220   1.026  -0.035  1.0   3.56      PROT H 
+HETATM    3 2H   HOH A   1       0.312  -0.332   0.395  1.0   3.56      PROT H 
+HETATM    4  C1  HET B   2      52.766  -2.005  -0.484  1.0  -2.69      PROT C 
+HETATM    5 1H1  HET B   2      53.503  -2.815  -0.548  1.0   0.90      PROT H 
+HETATM    6 2H1  HET B   2      52.173  -2.031  -1.408  1.0   1.02      PROT H 
+HETATM    7 3H1  HET B   2      52.086  -2.247   0.345  1.0   1.03      PROT H 
+HETATM    8  C2  HET B   2      53.363  -0.631  -0.280  1.0   6.68      PROT C 
+HETATM    9  O   HET B   2      52.651   0.386  -0.232  1.0  -8.00      PROT O 
+HETATM   10  N   HET B   2      54.701  -0.578  -0.126  1.0  -3.40      PROT N 
+HETATM   11  H   HET B   2      55.245  -1.359  -0.218  1.0   2.41      PROT H 
+HETATM   12  C3  HET B   2      55.428   0.670   0.062  1.0  -0.13      PROT C 
+HETATM   13 1H3  HET B   2      54.931   1.351   0.782  1.0   0.76      PROT H 
+HETATM   14 2H3  HET B   2      56.443   0.474   0.457  1.0   0.74      PROT H 
+HETATM   15 3H3  HET B   2      55.544   1.231  -0.886  1.0   0.68      PROT H 
+END

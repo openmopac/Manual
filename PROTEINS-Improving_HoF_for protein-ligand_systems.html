@@ -1,0 +1,204 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Improving Geometry Optimization in Proteins with a ligand non-covalently 
+attached</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<font face="Arial">Improving the accuracy of calculation of the 
+relative binding-energy of a ligand <br/>
+non-covalently attached to a protein (<a href="proteins.html">Back to "Proteins"</a>)</font></h1>
+<p align="left">
+&nbsp;</p>
+<p align="left" dir="ltr" style="line-height: 1.5"><u><b>
+<font face="Arial" size="5">The Problem</font></b></u></p>
+<p align="left" dir="ltr" style="line-height: 1.5"><font face="Arial" size="4">Computing the 
+relative binding energy of ligands non-covalently 
+bound to  proteins requires achieving an unusually high accuracy.&nbsp; This 
+requirement is essential when calculating the binding ability of various 
+ligands, in particular candidate therapeutic drugs.&nbsp; If the modifications 
+described below are made then an estimate of the accuracy in computed binding 
+energies that can be expected is as follows:</font></p>
+<ol>
+  <li dir="ltr"><p align="left" dir="ltr" style="line-height: 1.5">
+<font face="Arial" size="4">Errors in the interaction energies between the 
+  ligand and the protein.&nbsp; Over a range of types of interaction energies 
+  the
+  <a href="../PM7_and_PM6-D3H4_accuracy/Statistics%20for%20Intermolecular%20interactions.html">
+  Average Unsigned Error</a> relative to very high-quality calculations is 1.72 
+  kcal mol<sup>-1</sup> for PM6-D3H4 and 2.91 kcal mol<sup>-1</sup> for PM7. If 
+the set S12L, a severe test of non-covalent intereactions, is removed, the AUE's 
+drop to 1.04 kcal mol<sup>-1</sup> for PM6-D3H4 and to 1.34 kcal mol<sup>-1</sup> 
+for PM7.</font></p>
+  </li>
+  <li dir="ltr">
+<p align="left" dir="ltr" style="line-height: 1.5">
+<font face="Arial" size="4">Incomplete geometry optimization would cause errors 
+of about 1 kcal mol<sup>-1</sup>.</font></p></li>
+  <li dir="ltr"><p align="left" dir="ltr" style="line-height: 1.5">
+<font face="Arial" size="4">Errors in the &Delta;H<sub>f</sub> of the ligand and 
+  protein separated in solution might not cancel out.</font></p></li>
+</ol>
+<p align="left" dir="ltr" style="line-height: 1.5">
+<font face="Arial" size="4">Using these data an estimate of the average 
+  unsigned error in the relative binding energy of the ligand non-covalently bound to a 
+  protein is about 2 to 3 kcal mol<sup>-1</sup>, provided, and this is a big 
+  qualification, the errors in 3 are small. Errors in the &Delta;H<sub>f</sub> 
+  of the protein obviously cancel out, but errors in the &Delta;H<sub>f</sub> of the 
+  ligand in solution are more problematic.&nbsp; Specifically, the
+  <a href="../PM7_and_PM6-D3H4_accuracy/Notes_on_Proteins.html#Other_faults">
+  known error in PM6</a> that under-estimates steric repulsion between 
+  non-covalently bound atoms can compromise the &Delta;H<sub>f</sub> of the ligand in 
+  solution.</font><p align="left" dir="ltr" style="line-height: 1.5"><font face="Arial" size="4">
+The problems with conventional calculation options are as follows:</font></p>
+<h2 align="left" dir="ltr" style="line-height: 1.5"><font face="Arial" size="4">
+The systems are large and multiple minima exist</font></h2>
+<p align="left" dir="ltr" style="line-height: 1.5"><font face="Arial" size="4">If 
+an entire protein is used then almost always a severe problem is encountered in 
+the geometry optimization that prevents the necessary high accuracy in energies from being 
+achieved.&nbsp; 
+This problem is a direct consequence of the very large number of local minima on 
+the potential energy surface (PES) and is common to all complicated systems such as proteins; 
+it has nothing to do with the optimization procedure or with the underlying 
+method.&nbsp; When a geometry is optimized the 
+procedure used moves the atomic coordinates in a downhill direction on the PES. 
+This process terminates when no further decrease in heat of formation (&Delta;H<sub>f</sub>) 
+can be achieved. Minor changes in the starting geometry can give rise to a 
+different path being followed, resulting in a different minima being reached. 
+These minima can differ in &Delta;H<sub>f</sub> by several kcal mol<sup>-1</sup>, and, 
+although these minima might look correct, any conclusions drawn from the various &Delta;H<sub>f</sub> 
+would almost certainly be untrustworthy.</font></p>
+<h2><font face="Arial" size="4">Both PM6 and PM7 methods and their modifications 
+have errors</font></h2>
+<p><font face="Arial" size="4">PM6 should never be used on its own because, it 
+severely underestimates dispersion effects and hydrogen bonds and as a result it 
+is essentially useless for predicting non-covalent interactions, Instead always 
+use PM6-D3H4 or PM6-D3H4X.&nbsp;&nbsp; Having said that, the underlying PM6 
+method has two known errors, involving spurious sulfur - oxygen and sulfur - 
+nitrogen interactions, see
+<a href="../PM7_and_PM6-D3H4_accuracy/Notes_on_Proteins.html#Known%20faults">
+details.</a></font></p>
+<p><font face="Arial" size="4">PM7 has one severe error, a spurious chlorine - 
+nitrogen non-covalent interaction. This interaction results in an excess 
+stabilization of about 11 kcal mol<sup>-1</sup> in chlorine-containing ligands 
+non-covalently bound to proteins.</font></p>
+<h2><font face="Arial" size="4">Incomplete geometry optimization results in 
+large errors</font></h2>
+<p><font face="Arial" size="4">Although the default geometry optimizer for large 
+systems, the <a href="https://en.wikipedia.org/wiki/Limited-memory_BFGS">L-BFGS</a> 
+optimizer, is the most efficient optimizer in MOPAC, at the end of an 
+optimization this procedure has difficulty locating the energy minimum, and it 
+often terminates several kcal mol<sup>-1</sup> above the lowest point.</font></p>
+<p align="left" dir="ltr" style="line-height: 1.5"><u><b>
+<font face="Arial" size="5">Suggested modifications</font></b></u></p>
+<h2><font face="Arial" size="4">Multiple minima</font></h2>
+<p><font face="Arial" size="4">This procedure is only recommended for proteins 
+that do not exhibit allosteric behavior.</font></p>
+<p><font face="Arial" size="4">Two steps are recommended.&nbsp; In the first 
+step protein-ligand docking software, e.g.,
+<a href="https://www.ccdc.cam.ac.uk/solutions/csd-discovery/components/gold/">
+GOLD</a>, should be used to generate a number of candidate conformations of a 
+ligand docked into a protein. In the second step all of the protein far from the 
+ligand is deleted from the system being modeled. This reduces the size of the 
+system to only the region of interest, this region will be referred to as a 
+<a href="Use%20of%20a%20globule.html">
+Globule</a>. When a Globule is used most of the minima are automatically excluded.&nbsp;
+</font></p>
+<font face="Arial" size="4">
+<h2><font size="4">Errors in methods</font></h2>
+<p>PM6-D3H4 errors: Unless any sulfur atoms are near to the site of interest and 
+when the globule geometry is optimized a severe distortion occurs, this error is 
+unimportant and can be ignored.&nbsp; If corrective action is needed, then the 
+appropriate interatomic separation should be fixed, i.e., not allowed to 
+optimize. Alternatively, and more easily implemented, use PM7 instead of 
+PM6-D3H4.</p>
+<p>PM7 error: If any chlorine atoms are involved in the ligand - protein 
+interaction, don't use PM7; use PM6-D3H4 instead.</p>
+<h2><font size="4">Incomplete geometry optimization</font></h2>
+<p>This fault can be completely eliminated by using <a href="let.html">LET(<i>nnn</i>)</a>, 
+where <i>nnn</i> is large.&nbsp; A good value for <i>nnn</i> is 250. This significantly 
+increases the time required for the optimization, but the results are 
+considerably more reliable.</p>
+<p><b>Surveys</b></p>
+<p>Working with ligands involves large numbers of jobs, typically the number of 
+ligands times the number of poses from the docking program, so to minimize the 
+possibility of making a typographic error as many steps in preparing and running 
+a job as possible should be automated.</p>
+<p align="left" dir="ltr" style="line-height: 1.5"><b>Suggestions for running 
+surveys that use a Globule:</b></p>
+<ul>
+<li dir="ltr">
+<p align="left" dir="ltr" style="line-height: 1.5">
+Use the <a href="setup.html">SETUP</a> keyword to supply all the keywords. If a 
+change needs to be made to the keywords only one file, the setup file, need be 
+edited.</p></li>
+<li dir="ltr">
+<p align="left" dir="ltr" style="line-height: 1.5">
+Usually many 
+  different ligands and poses are used, so that a large number of jobs need to be 
+  run, in which case additional useful keywords are <a href="threads.html">THREADS=1</a>, 
+  <a href="dump.html">DUMP=2D</a>.&nbsp; These 
+  keywords improve performance when many jobs are run simultaneously in a 
+  batch queue.&nbsp; THREADS=1 turns off multi-threading inside MOPAC.&nbsp; 
+  When the number of jobs that can be run simultaneously equals the number of 
+  threads, each job uses one thread, so the system overhead is almost zero.&nbsp; 
+  In the unlikely event of a computer crashing, it is possible to restart 
+  individual jobs that were killed by the crash if a <a href="restart.html">RESTART</a> file exists.&nbsp; 
+  But doing this involves some typing, an error-prone operation,  a simpler option is to ignore 
+  the RESTART files and just re-run any jobs that were killed.&nbsp; To stop 
+  RESTART files from being written, add DUMP=2D.&nbsp; This effectively turns off the  default two-hour dump.&nbsp; </p></li>
+<li dir="ltr">
+<p align="left" dir="ltr" style="line-height: 1.5">
+Use macros to construct the jobs and to run them.&nbsp; There is a very high 
+probability of making errors if macros are not used.&nbsp; When writing macros, 
+carefully label the various jobs, both in the job-name and in the job-title. For 
+example, if there are 50 ligands, labeled ligand-1 to ligand-50, and 10 poses 
+for each ligand, then job-names such as L1-5 might be used. This would indicate 
+that the system is Ligand-1 in Pose 5.&nbsp; Try to use short job-names, and use 
+the folder name to specify the survey</p></li>
+<li dir="ltr">
+<p align="left" dir="ltr" style="line-height: 1.5">
+Run the survey.</p></li>
+<li dir="ltr">
+<p align="left" dir="ltr" style="line-height: 1.5">
+Again, use macros to analyze the results.&nbsp; 
+  These macros should search the various ARC files to find the heat of formation 
+  and, optionally, the gradient norm.</p></li>
+<li dir="ltr">
+<p align="left" dir="ltr" style="line-height: 1.5">
+If there is any doubt about the system being at a minimum, re-run all the 
+systems but start with the protein geometry from the system that is most stable, 
+i.e., has the largest stabilization energy. If the stabilization energy 
+increases, then replace the old systems with the new ones. If thought necessary, 
+this step could be repeated until the stabilization energy is a maximum for each 
+system.</p></li>
+<li dir="ltr">
+<p align="left" dir="ltr" style="line-height: 1.5">
+When all systems are at their most stable, a useful operation is to
+<a href="compare.html"><tt>COMPARE</TT></a> the different systems to see what 
+the differences are, for example large differences in protein geometry would be 
+expected near the ligand, and small differences would be expected near the 
+surface of the Globule.</p></li>
+</ul>
+</font>
+
+</body>
+</html>

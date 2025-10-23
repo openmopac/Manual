@@ -1,0 +1,5 @@
+TS eps=78.4 gnorm=2  charge=-1 geo_dat="Locate_TS.arc"
+ Transition state for CH3Cl --- Cl(-) <=> Cl(-) --- CH3Cl
+ 
+oldgeo eps=78.4 charge=-1 IRC=1* HTML X-priority=0.1
+Reaction path for CH3Cl --- Cl(-) <=> Cl(-) --- CH3Cl

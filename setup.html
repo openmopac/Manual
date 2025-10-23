@@ -1,0 +1,67 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>SETUP </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>SETUP</tt>
+</h1>
+<p>If, on the keyword line, the word '<tt>SETUP</tt>' is specified, then a line 
+of keywords will be read from a file with the name SETUP. The file SETUP or 
+        (optionally) SETUP.txt must 
+exist.&nbsp; As with the normal keyword line, if "<a href="plusplus.html">++</a>" 
+        is used, the line of keywords can be split into two or more lines. Keywords in SETUP are put after 
+all keywords in the data set.</p>
+<p>Keywords in the data-set will take precedence over similar keywords in the SETUP file.&nbsp; For example, if&nbsp; "CHARGE=0" is present in the SETUP file, 
+and the data-set contains "CHARGE=2", then "CHARGE=0" will be ignored.&nbsp;
+</p><p>
+Any keyword in the data-set that is preceded by a minus sign, e.g., -PM6, will remove 
+that keyword from the SETUP file before the job starts.
+</p><p>
+Any keyword in <tt>SETUP</tt> that is preceded by a minus sign, e.g., -PM6, will remove 
+that keyword from the data-set file before the job starts.
+</p><p><tt>SETUP</tt> is particularly useful when 
+running a large number of jobs that all use the same or similar keywords.&nbsp; 
+Thus if a set of calculations involving PM6 are to be run, then the <tt>SETUP</tt> 
+file could 
+contain the keyword PM6.&nbsp; The run would then produce a set of archive 
+files, all with the keyword PM6 present.&nbsp; If, later on, the set of archive 
+files files needed to be run using PM7, then the <tt>SETUP</tt> file could contain " -PM6 PM7" </p>
+<p>The location of the <tt>SETUP</tt> file and its name can be changed by use of 
+<tt>SETUP=&quot;&lt;name&gt;&quot; </tt>or<tt> SETUP=&quot;&lt;file location and name&gt;&quot;</tt>, e.g., <tt>
+SETUP=&quot;protein.txt&quot;, SETUP=&quot;C:/Users/My_setup.txt&quot;, </tt>
+or<tt> SETUP="C:/my files/My setup.txt". </tt>&nbsp;For proteins, a useful set of keywords to have in the <tt>SETUP</tt> file is: <tt><a href="mozyme.html">MOZYME</a> <a href="eps.html">EPS=78.4</a> <a href="t=n.html">
+T=</a></tt><a href="t=n.html">2w</a></p>
+<h2>Use in recursive jobs (<a href="setup.zip">Example</a>)</h2>
+<p>A SETUP file can include a SETUP file, for example, if hydrogen atoms are to 
+be added to a system, and then their positions are to be optimized, the contents 
+of the SETUP file would be:</p>
+<p>ADD-H SETUP="Optimize positions of hydrogen atoms.txt"</p>
+<p>The ARC file produced by this job could then be used as a data-set for a 
+second job in which the positions of the hydrogen atoms were optimized.&nbsp; 
+This second job would use the included file "Optimize positions of hydrogen 
+atoms.txt" and this file would contain the keywords for the optimization, and, 
+optionally, another SETUP file for use by a subsequent job.</p>
+<p>NOOPT OPT-H SETUP="Optimize all atom positions.txt" </p>
+<p>&nbsp;</p>
+<p dir="ltr">&nbsp;</p>
+</body>
+</html>

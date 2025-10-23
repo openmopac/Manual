@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Atom Labels</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Description of Atom Labels</h2>
+<p>The most simple definition of an atom is to use either its chemical symbol or 
+its atomic number, thus:</p>
+<p>Mg 1.23 1 1.23 1 1.23 1&nbsp; or<br/>
+12&nbsp; 1.23 1 1.23 1 1.23 1</p>
+<p>If <a href="Isotope_specification.html">isotopes</a> are used, then the 
+atomic number option cannot be used.</p>
+<p>In addition to the symbol or atomic number, a label can be added to an atom.&nbsp; 
+The format of the label is: "(<i>text</i>)" (without the quotation marks), that 
+is, "open curved bracket, <i>text</i>, closed curved bracket" The 
+label should be immediately after the chemical symbol or after the isotopic 
+mass, if present.</p>
+<p><i>text</i> can be up to 38 characters long, but much shorter descriptions 
+should normally be used, otherwise the layout of the output becomes very messy.&nbsp; 
+If&nbsp; <a href="mozyme.html"><tt>MOZYME</tt></a> is used, avoid any of the 
+symbols &quot;0&quot;, &quot;+&quot;, and &quot;-&quot; unless an atom must have a charge, see below, instead 
+use <tt><a href="setpi.html">SETPI</a></tt> to explicitly assign &#960; bonds, and <a href="CVB.html"><tt>CVB</tt></a> to explicitly make or 
+break bonds. </p>
+<p>Examples of atom labels:</p>
+<p>Mg(At center of porphyrin ring) 1.23 1 1.23 1 1.23 1 <br/>
+&nbsp;C( 17 PHE* 2) 1.19 1 4.59 1 -0.18 1<br/>
+&nbsp;C14.0( 17 PHE* 2) 1.19 1 4.59 1 -0.18 1</p>
+<p>A special type of atom label is used in protein work.&nbsp; These labels are 
+exactly 26 characters long, and correspond to the first 26 characters of a PDB 
+file.&nbsp; Labels for atoms in proteins can be generated in two ways:<br/>
+(A) When a PDB file is read in, the resulting MOPAC data set has the atoms 
+labeled automatically.&nbsp; See also <a href="atom_numbers.html">atom numbering</a>.&nbsp; <br/>
+(B) When a MOPAC data set is read in, and there is enough information in the 
+atom labels to allow the PDB atom labels to be written.</p>
+<p>If <a href="residues.html"><tt>RESIDUES</tt></a> is present, the resulting ARC file 
+will include labels on each atom. If <tt>RESIDUES</tt> is used, all existing 
+labels, including labels defining individual charges, will be replaced.</p>
+<h3>Atom Charges</h3>
+<p dir="ltr">Charges on individual atoms for use in MOZYME can be specified by the 
+symbols "+" or "-" as the first character of the atom labels. When the symbol "+" 
+is present, the atom is given a unit positive charge, and when "-" is present, the 
+atom is given a unit negative charge.&nbsp; However, this feature can only adjust
+charge states to resolve the assignment of pi bonds and lone pairs, as demonstrated by a set of
+<a href="mozyme_example_charges.html">representative examples</a>. Avoid using charge labels
+unless necessary, as the same effect can usually be produced with keywords.&nbsp;
+For example, if the ethyl group, C<sub>2</sub>H<sub>5</sub>,
+is run with <a href="charge.html"><tt>CHARGE=1</tt></a>, then the CH<sub>2</sub> carbon will 
+automatically be given a positive charge, if <tt>CHARGE=-1</tt> is present, the it will 
+be given a negative charge.</p>
+<p>&nbsp;</p>
+</body>
+</html>

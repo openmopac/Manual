@@ -1,0 +1,9 @@
+reset;center {26.698677419354834 11.30614516129032 -13.246967741935483}; rotate z 83.77; rotate y 111.3; rotate z -109.64; zoom 761.41; translate x 1.93; translate y -1.4; set rotationRadius 27.49;
+display 119, 120, 1157 
+measure off
+measure ([8OG]1157:B.N1/1.1) ([ASP]120:B.OD1/1.1)
+measure ([8OG]1157:B.N2/1.1) ([ASP]120:B.OD2/1.1)
+measure ([8OG]1157:B.O6/1.1) ([ASP]119:B.OD1/1.1)
+measure ([8OG]1157:B.N1/2.1) ([ASP]120:B.OD1/2.1)
+measure ([8OG]1157:B.N2/2.1) ([ASP]120:B.OD2/2.1)
+measure ([8OG]1157:B.O6/2.1) ([ASP]119:B.OD1/2.1)

@@ -1,0 +1,29 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Self-Consistent Field Calculation</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="BM9647"></a>&nbsp;Self-Consistent Field Calculation </h2>
+<p>Once all the integrals needed are calculated, the SCF calculation can be started. A trial density matrix is constructed; this is a diagonal matrix with the diagonal terms chosen so that every atom starts off electrically neutral (except for ions, when each atom is given an equal charge). </p>
+<p>Using this trial density matrix, the one-electron matrix, and the two-electron integrals, a trial Fock matrix is constructed. </p>
+<p>Diagonalization produces a set of eigenvectors, from which a better density matrix can be made. </p>
+<p>This sequence (constructing the density matrix--constructing the Fock matrix--diagonalizing the Fock to get new eigenvectors) is repeated until the density matrix has become self-consistent to within a pre-set limit (<tt>SELCON</tt>). </p>
+</body>
+</html>

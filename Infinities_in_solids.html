@@ -1,0 +1,212 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Infinities in Solids</title></head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">Infinities in Solids</h1>
+
+&nbsp;<p>When NDDO methods were applied to solids, an unusual error was found; 
+this is described in "<i>Application of the PM6 method to modeling the solid 
+state</i>" J. J. P. Stewart,&nbsp; Journal of Molecular Modeling, Volume 14, 
+Issue 6 , pp 499-535;&nbsp; <span class="doi">
+<a href="http://dx.doi.org/10.1007/s00894-008-0299-7" onclick="focuswin('pmc_ext')" ref="reftype=other&amp;article-id=2386531&amp;issue-id=201391&amp;journal-id=365&amp;FROM=Article%7CFront%20Matter&amp;TO=Content%20Provider%7CCrosslink%7CDOI&amp;rendering-type=normal" target="pmc_ext">
+10.1007/s00894-008-0299-7</a></span>
+<a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386531/">
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386531/</a></p>
+<p>This error is insignificant when applied to molecules, 
+polymers and later systems, but gives rise to an infinite error when applied to 
+solids.&nbsp; In practice, the infinite error is merely very large, because true 
+infinite sums are not used in the program, nevertheless these large errors made 
+it impossible to accurately predict solid state properties, and therefore the NDDO approximation was modified to eliminate the underlying error 
+in the infinite summation.&nbsp;&nbsp;&nbsp; </p>
+<p>That an insignificant error in molecules, polymers, and layer systems should 
+give rise to an infinite error in a solid is counterintuitive, so a brief 
+explanation of this phenomenon is warranted.&nbsp; In the journal article, the 
+origin of the infinite error was traced to a series expansion that can best be 
+described as the sum of the reciprocals of the integers.&nbsp; This specific series 
+expansion is found only in true three-dimensional solids that use the standard 
+NDDO two-electron two-center approximation.</p>
+<p>Consider the function: 0.001(1/2 + 1/3 + 1/4 + 1/5, etc. )</p>
+<p>For any finite set (i.e., any molecule), the sum of of this series is 
+obviously small. But for the infinite set, the sum is infinite, and this was the case 
+in PM6 before the correction was made.  </p>
+<p>Proof:  </p>
+<p>Starting with the series: S = 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/7 + 1/8 + 1/9 + 
+1/10 + 1/11 + 1/12 + 1/13 + etc.&nbsp; = <span class="b">&Sigma;</span><sub>i</sub>1/j</p>
+<p>Grouping the terms three at a time, we get: S = (12 + 8 + 6)/24 + (42 + 35 + 
+30)/210 + (90 + 80 +72)/720 + (156 + 143 + 132)/1716 + etc.  </p>
+<p>Therefore: S = 26/24 + 107/210 + 242/720 + 431/1716 + etc
+ </p>
+<p>Therefore: S = (1 + 2/24) + (1/2 + 2/210) + (1/3 + 2/720) + (1/4 +2/1716) + 
+etc.  </p>
+<p>Therefore: S = (1 + bits) + 1/2 + 1/3 + 1/4 + etc.  </p>
+<p>Therefore: S = S + (1 + <span class="b">&Sigma;</span><sub>j</sub> (2(3j-2)!/(3j+1)!))</p>
+<p>But any number that is equal to a non-zero number plus itself cannot be 
+finite.</p>
+<p>Therefore S = infinity  </p>
+<p>For a finite set, if <span class="b">&Sigma;</span><sub>i</sub>1/j is summed 
+from j = 2 to j = 1000, the value of the sum is 6.48, and the corresponding integral, &int;<sub>x=2</sub><sup>x=1000 </sup>1/x dx is Ln(1000) -Ln(2) =&nbsp; 
+6.21; the difference, 0.27, being more-or-less a constant after about 70 entries.</p>
+<div style="float: left">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse:
+ collapse;width:131pt" width="174">
+<colgroup>
+<col style="width: 83pt" width="110"/><col style="width:48pt" width="64"/>
+</colgroup>
+<tr>
+<td align="right" height="20" style="height: 15.0pt; width: 83pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px" width="110">
+<font face="Arial" size="3">No. of terms</font></td>
+<td align="center" style="width: 48pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px" width="64">
+<font face="Arial" size="3">j</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; width: 83pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px" width="110">
+<font face="Arial" size="3">5</font></td>
+<td align="center" style="width: 48pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px" width="64">
+<font face="Arial" size="3">1</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">15</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">2</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">40</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">3</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">109</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">4</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">297</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">5</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">807</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">6</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">2193</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">7</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">5962</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">8</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">16206</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">9</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">44053</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">10</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">119748</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">11</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">325510</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">12</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">884827</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">13</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">2405209</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">14</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">6538035</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">15</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">17772221</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">16</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">48309906</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">17</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">131319938</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">18</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">356964602</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">19</font></td>
+</tr>
+<tr height="20" style="height:15.0pt">
+<td align="right" height="20" style="height: 15.0pt; color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">970330391</font></td>
+<td align="center" style="color: black; font-size: 11.0pt; font-weight: 400; font-style: normal; text-decoration: none; font-family: Calibri, sans-serif; text-align: general; vertical-align: bottom; white-space: nowrap; border: medium none; padding-left: 1px; padding-right: 1px; padding-top: 1px">
+<font face="Arial" size="3">20</font></td>
+</tr>
+</table>
+</div>
+<p>Let's explore this sum.&nbsp; In order to have the finite 
+set amount to a given integer, j, 2e<sup>j</sup> terms would be necessary.&nbsp; 
+For the first 20 integers, the number of terms is given in the adjacent table.
+</p>
+<p>The significance of these numbers is clear:&nbsp; Even if 
+a molecule contains thousands of atoms, the sum of the set would only be in 
+single digits.&nbsp; For a true solid, however, where the number of terms is 
+infinite, the value of the sum is also infinite.&nbsp; In practice, finite sums 
+are used, so the errors are finite.&nbsp; This does not mean that they are 
+negligible - again, in practice, they amount to several kcal/mol, essentially 
+ruining the calculation.</p>
+</body>
+</html>

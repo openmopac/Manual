@@ -1,0 +1,2 @@
+geo_dat="Geometry optimize MTH1 B - Copy.arc" geo_ref="Optimize hydrogen atom positions in MTH1 B - Copy.arc" 0scf HTML geo-ok
+Compare MTH1 B PDB and fully-optimized PM7 geometries

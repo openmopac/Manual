@@ -1,0 +1,24 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/NO2 cation form
+REMARK  MOPAC 2016, Version: 21.138W
+REMARK  Date: May 27 2021 13:18
+REMARK  Heat of Formation = -433.174 Kcal/mol
+HETATM    1  N   HET A   1       0.338   0.130   0.020  1.00  0.80      PROT N 
+HETATM    2  O   HET A   1       1.490   0.130   0.020  1.00 -0.04      PROT O 
+HETATM    3  O   HET A   1      -0.703   0.620   0.020  1.00 -0.03      PROT O 
+HETATM    4  O   HET A   1      -0.048  -1.572  -0.042  1.00 -0.91      PROT O 
+HETATM    5 1H   HET A   1       0.716  -2.086   0.274  1.00  0.39      PROT H 
+HETATM    6  S   HET A   1       1.006  -2.806  -3.122  1.00  2.73      PROT S 
+HETATM    7  O   HET A   1       2.019  -2.574  -1.867  1.00 -0.87      PROT O 
+HETATM    8  O   HET A   1       1.110  -4.183  -3.564  1.00 -0.98      PROT O 
+HETATM    9  O   HET A   1      -0.371  -2.562  -2.347  1.00 -0.91      PROT O 
+HETATM   10  O   HET A   1       1.215  -1.725  -4.066  1.00 -0.99      PROT O 
+HETATM   11 2H   HET A   1       2.635  -3.311  -1.633  1.00  0.45      PROT H 
+HETATM   12 3H   HET A   1      -0.287  -2.124  -1.373  1.00  0.46      PROT H 
+HETATM   13  S   HET A   1      -1.256  -3.853   2.190  1.00  2.74      PROT S 
+HETATM   14  O   HET A   1       0.328  -3.611   1.880  1.00 -0.88      PROT O 
+HETATM   15  O   HET A   1      -1.483  -3.836   3.623  1.00 -0.97      PROT O 
+HETATM   16  O   HET A   1      -1.789  -2.498   1.530  1.00 -0.91      PROT O 
+HETATM   17  O   HET A   1      -1.690  -5.001   1.416  1.00 -1.00      PROT O 
+HETATM   18 4H   HET A   1       0.938  -4.384   1.943  1.00  0.45      PROT H 
+HETATM   19 5H   HET A   1      -1.109  -2.022   0.846  1.00  0.46      PROT H 
+END

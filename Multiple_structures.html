@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Multiple structures</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Multiple structures</h2>
+<p>
+Several structures can be run in one job.&nbsp; To do this, construct MOPAC 
+data-sets for each structure, then join all the data-sets together to make a new 
+MOPAC data-set that contains all of the structures.&nbsp; Each structure 
+(individual MOPAC data-set) should be separated from the next structure by a 
+blank line.</p><p>
+Warnings:</p><p>
+*
+If any of the individual MOPAC data-sets 
+uses <a href="external.html"><tt>EXTERNAL</tt></a> to change the values of parameters for a method, all 
+subsequent structures that use that method will also be affected.</p><p>
+*
+Avoid using keyword <tt><a href="geo_dat.html">GEO_DAT</a></tt>.&nbsp; When <tt>GEO_DAT</tt> is present, the input file has 
+to be re-read.&nbsp; This causes problems when the job has more than one 
+structure.</p><p>
+<a href="multiple.mop">Example of a data-set that has several structures.</a></p><p>
+
+&nbsp;</p></body></html>

@@ -1,0 +1,90 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Franck-Condon considerations</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h3>Franck-Condon considerations
+</h3>
+The Frank-Condon principle states that electronic transitions take place in
+times that are very short compared to the time required for the nuclei to move
+significantly.  Because of this, care must be taken to ensure that the
+calculations actually do reflect what is wanted.
+<p>
+Examples of various phenomena which can be studied are:
+</p><dl>
+<dt><strong>Photoexcitation</strong>
+</dt><dd>If the purpose of a calculation is to predict the energy of photoexcitation,
+then the ground-state should first be optimized.  Once this is done, then a
+C.I. calculation can be carried out using <tt>1SCF</tt>.  With the appropriate
+keywords (<tt><a href="meci.html">MECI</a> <a href="ci=n.html">C.I.=<i>n</i></a> </tt>etc.), the energy of photoexcitation to the
+various states can be predicted.
+<p>
+A more expensive, but more rigorous, calculation would be to optimize the
+geometry using all the C.I. keywords.  This is unlikely to change the results
+significantly, however.
+</p><p>
+</p></dd><dt><strong>Fluorescence</strong>
+</dt><dd>If the excited state has a sufficiently long lifetime, so that the geometry
+can relax, then if the system returns to the ground state by emission of
+a photon, the energy of the emitted photon will be less (it will be red-shifted) than
+that of the exciting photon.  To do such a calculation, proceed as follows:
+<ul>
+<li>Optimize the ground-state geometry using all the keywords for the
+later steps, but specify the ground state, e.g.<tt> MECI</tt> <tt>C.I.=3
+<a href="gnorm.html">GNORM=0.01</a> </tt>.
+</li><li>Optimize the excited state, e.g. <tt>C.I.=3 <a href="root.html">ROOT=2</a> GNORM=0.01 MECI</tt>.
+</li><li>Calculate the Franck-Condon excitation energy, using the results of the
+ground-state calculation only.
+</li><li>Calculate the Franck-Condon emission energy, using the results of the
+excited state calculation only.
+</li><li>If indirect emission energies are wanted, these can be obtained from
+the
+<span class="b">&Delta;</span>H<sub>f</sub>
+of the optimized excited and optimized ground-state calculations.
+</li></ul>In order for fluorescence to occur, the photoemission probability must be quite
+large, so only transitions of the same spin are allowed.  For example, if the
+ground state is S<sub>0</sub>, then the fluorescing state would be S<sub>1</sub>.
+</dd><dt><strong>Phosphorescence</strong>
+</dt><dd>If the photoemission probability is very low, then the lifetime of the excited
+state can be very long (sometimes minutes).  Such states can become populated
+by S                               <img align="MIDDLE" alt="$_1 \rightarrow $" border="0" height="29" src="img984.gif" width="30"/>
+T<sub>1</sub> intersystem crossing.  Of course, the geometry of
+the system will relax before the photoemission occurs.
+</dd><dt><strong>Indirect emission</strong>
+</dt><dd>If the system relaxes from the excited electronic, ground vibrational state to
+the ground electronic, ground vibrational state, then a more complicated
+calculation is called for.  The steps of such a calculation are:
+<ul>
+<li>Optimize the geometry of the excited state.
+</li><li>Using the same keywords, except that the ground state is specified,
+optimize the geometry of the ground state.
+</li><li>Take the difference in
+<span class="b">&Delta;</span>H<sub>f</sub>
+of the optimized excited and optimized
+ground-state calculations.
+</li><li>Convert this difference into the appropriate units.
+</li></ul></dd><dt><strong>Excimers</strong>
+</dt><dd>An excimer is a pair of molecules, one of which is in an electronic excited
+state.  Such systems are usually stabilized relative to the isolated systems.
+Optimization of the geometries of such systems is difficult.  Suggestions on
+how to improve this type of calculation would be appreciated.
+</dd></dl>
+</body>
+</html>

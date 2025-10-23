@@ -1,0 +1,11 @@
+#
+# Script for use with the HTML file "5ULI Add-H.html"
+#
+display 402
+center 402:A.N1N
+reset;center {-20.302 7.399 59.499}; rotate z -121.63; rotate y 93.72; rotate z 14.95; zoom 702.73; set rotationRadius 42.88;
+measure off
+measure (402:A.C4N) (402:A.C3N)
+measure (402:A.C4N) (402:A.C5N)
+measure (402:A.C6N) (402:A.C5N)
+measure (402:A.C2N) (402:A.C3N)

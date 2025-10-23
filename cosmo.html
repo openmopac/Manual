@@ -1,0 +1,373 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>COSMO (Conductor-like Screening Model)</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">COSMO (Conductor-like Screening Model) </h1>
+<p>Unlike the Self-Consistent Reaction Field model&nbsp;[<a href="references.html#scrf">74</a>], the <b>Co</b>nductor-like <b>S</b>creening <b>Mo</b>del (COSMO) is a continuum approach&nbsp;[<a href="references.html#cosmo">30</a>] which, while more complicated, is computationally quite efficient. The expression for the total screening energy is simple enough to allow the first derivatives of the energy with respect to atomic coordinates to be easily evaluated. </p>
+<p>The COSMO procedure generates a conducting polygonal surface around the system (ion or molecule), at the van der Waals' distance. By introducing a
+<i>&epsilon;</i>-dependent correction factor, </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}f(varepsilon)=frac{(varepsilon-1)}{(varepsilon+frac{1}{2})},end{displaymath}" height="46" src="img1720.gif" width="99"/></div>
+<p>into the expressions for the screening energy and its gradient, the theory can be extended to finite dielectric constants with only a small error. </p>
+<p>The accuracy of the method can be judged by how well it reproduces known quantities, such as the heat of solution in water (water has a dielectric constant of 78.4 at 25<img alt="$^{circ}$" height="16" src="img1721.gif" width="11"/>C). Here, the keywords used were: </p>
+<tt></tt><p><a href="nspa.html">NSPA=60</a> <a href="gradients.html">GRADIENTS</a>
+<a href="one_scf.html">1SCF</a> <a href="eps.html">EPS=78.4</a>
+<a href="am1.html">AM1</a> <a href="charge.html">CHARGE=1</a> </p>
+<p>A <a href="cosmo_validation.html">test</a> is
+provided to allow COSMO to be validated.</p>
+<p>From the Table we see that the glycine zwitterion becomes the stable form in water, while the neutral species is the stable gas-phase form. </p>
+<p>(After the COSMO paper was published, improvements in the method made the results shown in the&nbsp;Table invalid. However, the general conclusion that the method is of useful accuracy is still true.) </p>
+<p>The COSMO method is easy to use, and the derivative calculation is of sufficient precision to allow gradients of 0.1 to be readily achieved. </p>
+<p><br/>
+</p><div align="CENTER"><div align="CENTER">
+<p dir="rtl">&nbsp;</p>
+<strong><p><a name="tab"></a>Table:</p></strong> Calculated and Observed Hydration Energies 
+  (<a href="COSMO_calculated_and_Observed_hydration_energies.zip">files</a>)
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p> Compound</p></td>
+<td valign="MIDDLE">
+<p>Method</p></td>
+<td colspan="2" valign="MIDDLE">
+<p align="CENTER"> <img alt="$Delta H_f$" height="29" src="img1722.gif" width="32"/>(kcal/mol)</p></td>
+<td colspan="2" valign="MIDDLE">
+<p align="CENTER">Hydration</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">gas phase</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">solution phase</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT"><img alt="$Delta H$" height="16" src="img1723.gif" width="25"/>(calc.)</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">Enthalpy(exp.)&nbsp;<img alt="dag" height="25" src="img1724.gif" width="12"/></p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>NH<sub>4</sub><sup>+</sup></p></td>
+<td valign="MIDDLE">
+<p>AM1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">150.6</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">67.29</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">83.3</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">88.0</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>N(Me)<sub>4</sub><sup>+</sup></p></td>
+<td valign="MIDDLE">
+<p>AM1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">157.1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">103.6</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">53.5</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">59.9</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>N(Et)<sub>4</sub><sup>+</sup></p></td>
+<td valign="MIDDLE">
+<p>AM1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">130.4</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">84.1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">46.3</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">57.0</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Glycine</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>neutral</p></td>
+<td valign="MIDDLE">
+<p>AM1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-101.6</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-110.4</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">8.8</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>zwitterion</p></td>
+<td valign="MIDDLE">
+<p>AM1</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-58.0</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-106.9</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">48.9</p></td>
+<td valign="MIDDLE">
+<p align="RIGHT">-</p></td>
+</tr>
+</table>
+<p><br/>
+<img alt="dag" height="25" src="img1725.gif" width="12"/>: Y. Nagano, M. Sakiyama, T. Fujiwara, Y. Kondo, J. Phys. Chem., <b>92</b>, 5823 (1988). </p></div></div>
+<h2>COSMO Keywords </h2>
+<tt>
+<b><dl>
+<dt><a href="eps.html">EPS</a></dt></dl></b></tt><strong><a href="eps.html">=<i>n</i>.<i>n</i></a></strong> Defines the dielectric constant of the solvent. This keyword triggers the whole COSMO. 
+<tt>
+<b><dt><a href="nspa.html">NSPA</a></dt></b></tt><strong><a href="nspa.html">=<i>nn</i></a></strong> Controls the number of segments, default = 42. 
+<tt>
+<b><dt><a href="disex.html">DISEX</a></dt></b></tt><strong><a href="disex.html">=<i>n</i>.<i>n</i></a></strong> Controls the radius, up to which the segment-segment interactions are evaluated on the basis of the basic grid points. Default = 2.0. For accurate calculations or very high dielectric energies*, (e.g. ions) larger values may be preferable. The calculation time may increase as <tt>DISEX<sup>2</sup></tt> (until all interactions are calculated accurately). 
+<tt>
+<b><dt><a href="rsolv.html">RSOLV</a></dt></b></tt><strong><a href="rsolv.html">=<i>n</i>.<i>n</i></a></strong> Effective VDW radius of the solvent molecule. Default = 1.3&Aring;. 
+<dd>&nbsp;<h2>Solvent Accessible Surface </h2>
+<p>The solvent accessible surface is a continuous surface of the molecule which can be reached by the center of charge of a solvent molecule. The calculation of the SAS is carried out as follows: </p>
+<ul>
+<li>Each atom is assigned a van der Waals' radius. VdW radii used in COSMO are given in the&nbsp;Table. <br/>
+<div align="CENTER"><div align="CENTER"><a name="BM23857">&nbsp;</a>
+<strong><p align="CENTER">Table:</p></strong> Van der Waals radii (Angstroms) used in COSMO
+<p align="CENTER"></p><center><table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p> I</p></td>
+<td valign="MIDDLE">
+<p>R</p></td>
+<td valign="MIDDLE">
+<p>II</p></td>
+<td valign="MIDDLE">
+<p>R</p></td>
+<td valign="MIDDLE">
+<p>III</p></td>
+<td valign="MIDDLE">
+<p>R</p></td>
+<td valign="MIDDLE">
+<p>IV</p></td>
+<td valign="MIDDLE">
+<p>R</p></td>
+<td valign="MIDDLE">
+<p>V</p></td>
+<td valign="MIDDLE">
+<p>R</p></td>
+<td valign="MIDDLE">
+<p>VI</p></td>
+<td valign="MIDDLE">
+<p>R</p></td>
+<td valign="MIDDLE">
+<p>VII</p></td>
+<td valign="MIDDLE">
+<p>R</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>H</p></td>
+<td valign="MIDDLE">
+<p>1.08</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Li</p></td>
+<td valign="MIDDLE">
+<p>1.80</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>C</p></td>
+<td valign="MIDDLE">
+<p>1.53</p></td>
+<td valign="MIDDLE">
+<p>N</p></td>
+<td valign="MIDDLE">
+<p>1.48</p></td>
+<td valign="MIDDLE">
+<p>O</p></td>
+<td valign="MIDDLE">
+<p>1.36</p></td>
+<td valign="MIDDLE">
+<p>F</p></td>
+<td valign="MIDDLE">
+<p>1.30</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>Na</p></td>
+<td valign="MIDDLE">
+<p>2.30</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Al</p></td>
+<td valign="MIDDLE">
+<p>2.05</p></td>
+<td valign="MIDDLE">
+<p>Si</p></td>
+<td valign="MIDDLE">
+<p>2.10</p></td>
+<td valign="MIDDLE">
+<p>P</p></td>
+<td valign="MIDDLE">
+<p>1.75</p></td>
+<td valign="MIDDLE">
+<p>S</p></td>
+<td valign="MIDDLE">
+<p>1.70</p></td>
+<td valign="MIDDLE">
+<p>Cl</p></td>
+<td valign="MIDDLE">
+<p>1.65</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>K</p></td>
+<td valign="MIDDLE">
+<p>2.80</p></td>
+<td valign="MIDDLE">
+<p>Ca</p></td>
+<td valign="MIDDLE">
+<p>2.75</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>Br</p></td>
+<td valign="MIDDLE">
+<p>1.80</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>I</p></td>
+<td valign="MIDDLE">
+<p>2.05</p></td>
+</tr>
+</table>
+</center>
+<p></p>
+<dir>
+<dir>
+<p></p></dir></dir></div></div>
+<p>
+</p><ul>
+<li>To each radius is added a distance equal to the radius of the solvent. By default, this is 1.3&Aring;, but may be changed by the user using <tt>RSOLV=<i>n</i>.<i>nn</i></tt>. This gives the distance from the nucleus to the center of a solvent molecule. </li>
+<li>A set of points is generated on this surface. These points produce a basic grid. </li>
+<li>All points which are inside the surface of any other atom are excluded. </li>
+<li>The remaining points are moved towards the center of the atom. The distance moved is equal to the distance of the center of charge of the solvent molecule from the center of the solvent molecule. By default, this distance is set to <tt>RSOLV</tt>, but may be set explicitly by keyword <tt>RSOLV=<i>n</i>.<i>nn</i></tt>. </li>
+<li>Each of the remaining points represents a small area of the solvent accessible surface. The total SAS is calculated from the number of points. </li></ul>
+<p>From this definition of the SAS we see that the SAS of each atom is a surface of radius equal to the van der Waals' radius plus the radius of the solvent molecule minus the distance of the center of charge of the solvent molecule to the center of the solvent molecule. In other words, the radius is the VdW radius plus the distance from the surface of the solvent molecule to the center of charge of the solvent molecule. By default, this extra distance is zero. Only that part of the atom surface which can be touched by the solvent molecule is used. This means that only those atoms on the surface of the molecule can contribute to the SAS. Of those atoms that are on the surface of the molecule there will be parts of the surface which cannot be reached by the solvent because the solvent molecule is too bulky. </p>
+<p>
+</p></li></ul>
+<p>
+<br/>
+</p><h3><a name="SECTION0012228100000000000000">Some hints on the use of COSMO</a> </h3>
+<ul>
+<tt><li><a href="one_scf.html">1SCF</a></li></tt> calculations run in general without problems. On gas-phase geometries they give useful solvation energies for neutral rigid molecules. 
+<li>For geometry optimization Eigenvector Following has proved to be most efficient in combination with COSMO. Gradient norms of about 1% of the dielectric energy should be reachable, in many cases even less. Nevertheless, don't use a too small <tt>GNORM</tt> criterion, since the calculation may have convergence problems. </li>
+<li>Keep in mind that energy differences of about 1% of the dielectric energy may arise due to small differences in the segmentatation. </li>
+<tt><li><a href="uhf.html">UHF</a></li></tt> calculations should run without additional problems. 
+<tt><li><a href="ci=n.html">C.I.</a></li></tt> calculations can now be done, and C.I. gradients are now valid; this has been the result of recent work by Dr Klamt. </ul>
+<p>&nbsp;</p></dd>
+<p></p><hr/>
+<p></p>
+<h4>Footnotes</h4>
+<dl>
+<dt> * : The dielectric energy is the energy of stabilization arising from the interaction of the charges in the solute with the induced charges on the solvent accessible surface plus the electrostatic energy due to the charges on the SAS interacting with each other. </dt>
+</dl>
+<p>
+</p></body>
+</html>

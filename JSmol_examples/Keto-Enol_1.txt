@@ -1,0 +1,11 @@
+#
+# Script for use with the HTML file "Keto-Enol.html"
+# Data-set filename must not contain anything except alphanumerics and spaces
+# (Put JSmol commands on the lines after "HIDE *")
+#
+ HIDE *
+display 119, 1157
+set measurementUnits Angstroms
+zoom 0
+measure (atomno=2540) (atomno=897)
+measure (atomno=2540) (atomno=1240)

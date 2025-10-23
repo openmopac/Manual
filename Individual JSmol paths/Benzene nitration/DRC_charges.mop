@@ -1,0 +1,3 @@
+  IRC=-1* HTML T-priority=1 DRC cycles=300 PDBOUT geo_dat="Nitration of benzene IRC.arc"
+DRC for the reaction:  Benzene + [NO2](+) +[HSO4](-) <=> Nitrobenzene + H2SO4 + H2O
+(Click on "Specific Script" to show charges)

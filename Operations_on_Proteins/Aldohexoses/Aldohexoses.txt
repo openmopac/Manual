@@ -1,0 +1,3 @@
+reset;center {-15.1755 -3.162 -14.0775}; rotate z 67.86; rotate y 68.49; rotate z 115.03; zoom 166.89;
+select *; label %a; color label black; 
+select off

@@ -1,0 +1,22 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Cyclopentadiene
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  3 2021 09:37
+REMARK  Heat of Formation = 69.193 Kcal/mol
+HETATM    1  C1  HET A   1      -0.462  -1.064  -0.563  1.00 -0.10      PROT C 
+HETATM    2  C2  HET A   1       0.943  -1.060  -0.539  1.00 -0.19      PROT C 
+HETATM    3  C3  HET A   1       1.393   0.267  -0.537  1.00 -0.19      PROT C 
+HETATM    4  C4  HET A   1       0.282   1.126  -0.561  1.00 -0.10      PROT C 
+HETATM    5  C5  HET A   1      -0.912   0.310  -1.036  1.00 -0.29      PROT C 
+HETATM    6  C1  HET B   2      -0.725  -0.489   1.461  1.00 -0.28      PROT C 
+HETATM    7  C2  HET B   2      -0.276   0.823   1.465  1.00 -0.28      PROT C 
+HETATM    8  H1  HET A   1      -1.102  -1.920  -0.623  1.00  0.14      PROT H 
+HETATM    9  H2  HET A   1       1.564  -1.928  -0.448  1.00  0.15      PROT H 
+HETATM   10  H3  HET A   1       2.415   0.578  -0.444  1.00  0.15      PROT H 
+HETATM   11  H4  HET A   1       0.294   2.195  -0.617  1.00  0.14      PROT H 
+HETATM   12 1H5  HET A   1      -0.984   0.336  -2.141  1.00  0.16      PROT H 
+HETATM   13 2H5  HET A   1      -1.885   0.640  -0.654  1.00  0.15      PROT H 
+HETATM   14 1H1  HET B   2      -1.777  -0.726   1.432  1.00  0.14      PROT H 
+HETATM   15 2H1  HET B   2      -0.114  -1.291   1.844  1.00  0.14      PROT H 
+HETATM   16 1H2  HET B   2       0.698   1.081   1.850  1.00  0.14      PROT H 
+HETATM   17 2H2  HET B   2      -0.961   1.656   1.440  1.00  0.14      PROT H 
+END

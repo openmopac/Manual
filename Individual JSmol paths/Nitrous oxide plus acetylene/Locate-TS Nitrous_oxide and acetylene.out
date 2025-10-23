@@ -1,0 +1,292 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.153W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.153W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 362**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sat Jun  5 15:34:40 2021  *
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "Nitrous oxide and acetylene.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "Nitrous oxide and acetylene Product.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  XYZ        - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE USING REACTANTS AND PRODUCTS
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+  GEO_DAT="Nitrous oxide and acetylene.arc" geo_ref="Nitrous oxide and acetylene Product.arc" Locate-TS(C:20) html GEO-OK OPT XYZ
+      Nitrous oxide and acetylene
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)    0.00000000  *   0.00000000  *   0.00000000  *
+     2       C(HETATM    2  C2  HET A   1)    1.20884112  *   0.00000000  *   0.00000000  *
+     3       N(HETATM    3  N1  HET B   2)   -1.65992430  *   2.91835727  *   0.00000000  *
+     4       N(HETATM    4  N2  HET B   2)   -0.77101500  *   3.61708494  *   0.00000829  *
+     5       O(HETATM    5  O   HET B   2)    0.15921853  *   4.34172687  *   0.00001694  *
+     6       H(HETATM    6  H1  HET A   1)   -1.03124700  *  -0.00092977  *  -0.00000000  *
+     7       H(HETATM    7  H2  HET A   1)    2.23812633  *   0.00343204  *   0.00000004  *
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    5  O   HET B   2)   1.797   1.305   0.000        1.79         1.79
+            (HETATM    2  C2  HET A   1)   1.375   0.000   0.000        1.37         3.16
+            (HETATM    1  C1  HET A   1)   0.000   0.000   0.000        1.04         4.20
+            (HETATM    7  H2  HET A   1)   2.146  -0.737  -0.000        0.96         5.16
+            (HETATM    3  N1  HET B   2)  -0.382   1.364   0.000        0.91         6.06
+            (HETATM    4  N2  HET B   2)   0.643   2.093   0.000        0.58         6.65
+            (HETATM    6  H1  HET A   1)  -0.733  -0.782  -0.000        0.0777       6.72
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+   Difference between GEO_DAT and GEO_REF: 6.724 = total,  0.9606 = Average,  1.0851 = RMS, in Angstroms
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C2 H2 N2 O  =     7 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+   Ion                PDB Label        Charge     Distance        PDB label for Salt Bridge   Charge
+ 
+
+                 All other ions
+
+ 
+    1     (HETATM    3  N1  HET B   2)   +1
+ 
+    1     (HETATM    5  O   HET B   2)   -1
+
+          COMPUTED CHARGE ON SYSTEM: +0
+
+       Set 1: Atoms involved in covalent      Connectivity of atoms
+       bond-breaking and bond-making            Data-set                     Reference
+
+           1    Atom:   C     1                 2     6        2     3     6
+           2    Atom:   C     2                 1     7        1     5     7
+           3    Atom:   N     3                 4              1     4
+           4    Atom:   O     5                 4              2     4
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+           1    Atom:   C     1
+           2    Atom:   C     2
+           3    Atom:   N     3
+           4    Atom:   O     5
+           5    Atom:   H     6
+           6    Atom:   H     7
+           7    Atom:   N     4
+
+          Current value of GEO_REF constraint:                 20.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                      6.72  Angstroms
+
+          Heat of formation of the first geometry:             84.110 Kcal/mol
+          Heat of formation of the second geometry:            48.778 Kcal/mol
+          Contribution to heat of formation due to stress:    329.708  Kcal/mol
+          Gradient arising from first geometry:               229.517  Kcal/mol/Angstrom
+          Gradient arising from second geometry:              229.661  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     179.67  degrees
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   162.283 HEAT:  462.5959
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:   159.992 HEAT:  462.2028
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   140.297 HEAT:  427.0146
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   427.175 HEAT:  390.9295
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   209.856 HEAT:  365.7320
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   175.169 HEAT:  344.4080
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   233.038 HEAT:  314.1955
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   222.338 HEAT:  286.9976
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   261.091 HEAT:  266.2570
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   179.735 HEAT:  261.4413
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    59.704 HEAT:  265.6230
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    53.639 HEAT:  260.2725
+ CYCLE:    13 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    41.250 HEAT:  257.0607
+ CYCLE:    14 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    65.740 HEAT:  256.3782
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    21.121 HEAT:  256.8583
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    13.365 HEAT:  257.0115
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.802 HEAT:  257.1397
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.415 HEAT:  256.9866
+ CYCLE:    19 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    17.850 HEAT:  256.9409
+ CYCLE:    20 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.992 HEAT:  256.7773
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.663 HEAT:  256.6810
+
+     GRADIENT =  2.66261 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Nitrous oxide plus acetylene/Locate-TS Nitrous_oxide and acetylene bias=20.0 first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Nitrous oxide plus acetylene/Locate-TS Nitrous_oxide and acetylene bias=20.0 second.mop'
+
+
+          Job name: 'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Nitrous oxide plus acetylene/Locate-TS Nitrous_oxide and acetylene'
+
+          Current value of GEO_REF constraint:                 20.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    3.57  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM    5  O   HET B   2)   1.795   1.321   0.000        1.11         1.11
+            (HETATM    2  C2  HET A   1)   1.385  -0.017  -0.000        0.84         1.95
+            (HETATM    1  C1  HET A   1)   0.010  -0.007  -0.000        0.57         2.52
+            (HETATM    7  H2  HET A   1)   2.154  -0.783  -0.000        0.35         2.87
+            (HETATM    6  H1  HET A   1)  -0.762  -0.736   0.000        0.33         3.20
+            (HETATM    3  N1  HET B   2)  -0.378   1.367  -0.000        0.31         3.52
+            (HETATM    4  N2  HET B   2)   0.643   2.098   0.000        0.0504       3.57
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:            102.371 Kcal/mol
+          Heat of formation of the second geometry:            50.228 Kcal/mol
+          Contribution to heat of formation due to stress:    104.082  Kcal/mol
+          Gradient arising from first geometry:                65.489  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               64.447  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     177.63  degrees
+
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Nitrous oxide plus acetylene/Locate-TS Nitrous_oxide and acetylene bias=20.0 average.mop'
+
+
+ -------------------------------------------------------------------------------
+ html GEO-OK MOZYME
+      Nitrous oxide and acetylene
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.153W)
+                                                       Sat Jun  5 15:34:41 2021
+                                                       No. of days remaining = 362
+
+
+
+
+          FINAL H.O.F PLUS STRESS =        256.68101 KCAL/MOL =    1073.95334 KJ/MOL
+          FINAL STRESS            =         52.04113 KCAL/MOL =     217.74007 KJ/MOL
+          FINAL HEAT OF FORMATION =        204.63988 KCAL/MOL =     856.21327 KJ/MOL
+          TOTAL DISTORTION        =          1.78424 Angstroms
+          AVERAGE DISTORTION      =          0.25489 Angstroms per atom (all atoms)
+          RMS DISTORTION          =          0.30485 Angstroms per atom (all atoms)
+
+
+          TOTAL ENERGY            =       -937.87191 EV
+          ELECTRONIC ENERGY       =      -2861.21701 EV
+          CORE-CORE REPULSION     =       1923.34510 EV
+
+          GRADIENT NORM           =          1.60194 = 0.60548 PER ATOM
+          NO. OF FILLED LEVELS    =         13
+          MOLECULAR WEIGHT        =         70.0506
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     7    N     3     3.61289
+            H     6    O     5     3.54796
+            H     6    N     3     0.00004
+
+
+          SCF CALCULATIONS        =          4
+ 
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)    0.08509663  *  -0.28105518  *  -0.00001196  *
+     2       C(HETATM    2  C2  HET A   1)    1.35643992  *  -0.43627976  *  -0.00000748  *
+     3       N(HETATM    3  N1  HET B   2)   -0.41267205  *   1.52018024  *  -0.00000835  *
+     4       N(HETATM    4  N2  HET B   2)    0.62903940  *   2.07728719  *   0.00002973  *
+     5       O(HETATM    5  O   HET B   2)    1.76225248  *   1.87690288  *   0.00005891  *
+     6       H(HETATM    6  H1  HET A   1)   -0.81014722  *  -0.57627360  *  -0.00000843  *
+     7       H(HETATM    7  H2  HET A   1)    2.23601597  *  -0.93694245  *  -0.00002761  *
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.085096634    -0.281055176    -0.000011957
+   2    C        1.356439921    -0.436279759    -0.000007479
+   3    N       -0.412672050     1.520180241    -0.000008351
+   4    N        0.629039404     2.077287194     0.000029725
+   5    O        1.762252480     1.876902880     0.000058912
+   6    H       -0.810147218    -0.576273599    -0.000008427
+   7    H        2.236015972    -0.936942451    -0.000027613
+
+
+           Empirical Formula: C2 H2 N2 O  =     7 atoms
+
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C          -0.152675        4.1527     1.10964     3.04303
+    2          C          -0.055957        4.0560     1.14317     2.91279
+    3          N          -0.148241        5.1482     1.75998     3.38826
+    4          N           0.001405        4.9986     1.82745     3.17114
+    5          O          -0.046290        6.0463     1.91456     4.13173
+    6          H           0.203615        0.7964     0.79639
+    7          H           0.198143        0.8019     0.80186
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.815    -2.618    -0.000     2.742
+ HYBRID         0.623    -0.651    -0.000     0.901
+ SUM            1.438    -3.268    -0.000     3.571
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                  Atom                 s        px        py        pz   
+    1  C(HETATM    1  C1  HET A   1)   1.10964   0.98507   0.94124   1.11672
+    2  C(HETATM    2  C2  HET A   1)   1.14317   1.02114   0.90032   0.99134
+    3  N(HETATM    3  N1  HET B   2)   1.75998   1.23215   1.06027   1.09583
+    4  N(HETATM    4  N2  HET B   2)   1.82745   0.88776   1.16181   1.12157
+    5  O(HETATM    5  O   HET B   2)   1.91456   1.28573   1.17146   1.67454
+    6  H(HETATM    6  H1  HET A   1)   0.79639
+    7  H(HETATM    7  H2  HET A   1)   0.80186
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.14 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,9 @@
+
+Optimize the geometry of N2
+
+N
+N 1.0 1
+
+oldgeo IRC=1 DRC T-priority large bigcycles=1  HTML 
+N2 one complete vibrational cycle
+(To see N-N distance, click on "Script" at the bottom.)

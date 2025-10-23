@@ -1,0 +1,223 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.309W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.309W web: HTTP://OpenMOPAC.net         Days remaining: 364    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Nov 06 07:44:58 2015  *
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -1
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+charge=-1 html
+   CH3Cl --- Cl(-)
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C         -0.45682000  *  -0.00088000  *  -0.00003000  *
+     2      Cl          2.41153000  *  -0.00035000  *  -0.00025000  *
+     3       H         -0.12718000  *   1.04286000  *   0.00994000  *
+     4       H         -0.12803000  *  -0.51423000  *  -0.90915000  *
+     5       H         -0.12781000  *  -0.53169000  *   0.89884000  *
+     6      Cl         -2.26802000  *  -0.00007000  *   0.00010000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         C       -0.4568   -0.0009   -0.0000
+     2        Cl        2.4115   -0.0004   -0.0003
+     3         H       -0.1272    1.0429    0.0099
+     4         H       -0.1280   -0.5142   -0.9092
+     5         H       -0.1278   -0.5317    0.8988
+     6        Cl       -2.2680   -0.0001    0.0001
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C H3 Cl2  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C3v 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS =   11
+
+      Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     3.935 HEAT: -87.62007
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.363 HEAT: -87.62937
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.400 HEAT: -87.63012
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.183 HEAT: -87.63089
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.452 HEAT: -87.63012
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.811 HEAT: -87.63267
+
+     GRADIENT =  0.81078  IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+charge=-1 html
+   CH3Cl --- Cl(-)
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2012 (Version: 15.309W)
+                                                       Fri Nov 06 07:44:58 2015
+                                                       No. of days left = 364
+
+
+
+
+          FINAL HEAT OF FORMATION =        -87.63267 KCAL/MOL =    -366.65507 KJ/MOL
+
+
+          TOTAL ENERGY            =       -699.87306 EV
+          ELECTRONIC ENERGY       =      -1531.15215 EV  POINT GROUP:     C3v 
+          CORE-CORE REPULSION     =        831.27909 EV
+          COSMO AREA              =        112.46 SQUARE ANGSTROMS
+          COSMO VOLUME            =         94.59 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.81078
+          IONIZATION POTENTIAL    =          4.479539 EV
+          HOMO LUMO ENERGIES (EV) =         -4.480  4.466
+          NO. OF FILLED LEVELS    =         11
+          MOLECULAR WEIGHT        =         85.941
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+           Cl     6   Cl     2     4.68522
+            H     4    H     5     1.80309
+            H     3    H     4     1.56103
+
+
+          SCF CALCULATIONS        =          8
+ 
+          WALL-CLOCK TIME         =          0.078 SECONDS
+          COMPUTATION TIME        =          0.265 SECONDS
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C   HET A   1)   -0.45752809  *  -0.00130703  *   0.00000314  *
+     2      Cl(HETATM    2 Cl   HET A   1)    2.41487652  *  -0.00028850  *  -0.00024516  *
+     3       H(HETATM    3  H   HET A   1)   -0.12841847  *   1.03976132  *   0.00986723  *
+     4       H(HETATM    4  H   HET A   1)   -0.12921896  *  -0.51250029  *  -0.90670336  *
+     5       H(HETATM    5  H   HET A   1)   -0.12899254  *  -0.52989515  *   0.89630636  *
+     6      Cl(HETATM    6 Cl   HET A   1)   -2.27034570  *   0.00004525  *   0.00010282  *
+
+                             CARTESIAN COORDINATES
+
+   1    C       -0.457528085    -0.001307028     0.000003137
+   2   Cl        2.414876524    -0.000288504    -0.000245163
+   3    H       -0.128418473     1.039761321     0.009867225
+   4    H       -0.129218959    -0.512500287    -0.906703363
+   5    H       -0.128992543    -0.529895148     0.896306357
+   6   Cl       -2.270345704     0.000045249     0.000102816
+
+
+           Empirical Formula: C H3 Cl2  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C3v 
+
+
+                  EIGENVALUES  
+ -23.55386 -19.64483 -18.66775 -11.00503 -10.99908 -10.08230  -7.66111  -7.66017
+  -4.48813  -4.48812  -4.47954   4.46556   9.24584   9.25036   9.95641  74.60740
+  74.64002  74.64005  74.99381  74.99381  84.20948  84.23900  84.23902  84.42116
+  84.42117
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1          C(HETATM    1  C   HET A   1)          -0.213016        4.2130     1.11768     3.09534
+    2         Cl(HETATM    2 Cl   HET A   1)          -0.991768        7.9918     1.99986     5.99057     0.00134
+    3          H(HETATM    3  H   HET A   1)           0.170556        0.8294     0.82944
+    4          H(HETATM    4  H   HET A   1)           0.170439        0.8296     0.82956
+    5          H(HETATM    5  H   HET A   1)           0.170421        0.8296     0.82958
+    6         Cl(HETATM    6 Cl   HET A   1)          -0.306632        7.3066     1.98422     5.31794     0.00448
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -8.051    -0.000     0.000     8.051
+ HYBRID         0.030     0.000    -0.000     0.030
+ SUM           -8.021    -0.000     0.000     8.021
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+   C(HETATM    1  C   HET A   1)   1.11768   0.71268   1.19150   1.19116
+  Cl(HETATM    2 Cl   HET A   1)   1.99986   1.99104   1.99977   1.99977   0.00077   0.00015   0.00026   0.00000   0.00015
+   H(HETATM    3  H   HET A   1)   0.82944
+   H(HETATM    4  H   HET A   1)   0.82956
+   H(HETATM    5  H   HET A   1)   0.82958
+  Cl(HETATM    6 Cl   HET A   1)   1.98422   1.32156   1.99819   1.99819   0.00217   0.00079   0.00073   0.00001   0.00079
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.09 SECONDS
+
+ == MOPAC DONE ==

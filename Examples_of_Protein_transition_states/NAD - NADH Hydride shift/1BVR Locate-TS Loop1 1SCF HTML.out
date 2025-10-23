@@ -1,0 +1,414 @@
+ *******************************************************************************
+ ** Site#: 9602  E-mail support:    MrMOPAC@ATT.net    Version 17.222W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.222W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 369**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Aug 11 10:27:45 2017  *
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -2
+ *
+ *
+ *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF      1.0 WEEKS   REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+opt output  EPS=78.4  T=1W HTML geo-ok   CHARGE=-2 1SCF HTML mozyme
+ Locate transition state for hydride transfer
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1304 H2302 N356 O499 S11 P2  =  4474 atoms
+
+
+   Ion Atom No.           Label               Charge (Distances are between charged sites predicted by Lewis structure theory)
+ 
+    1   N   85   (ATOM     85  NZ  LYS A   8)   +1  (3.8 Angstroms from anion  O 3699, Label: ATOM   3699  OD2 ASP A 248)
+    2   N 2712   (ATOM   2712  NZ  LYS A 181)   +1  (3.4 Angstroms from anion  O 2680, Label: ATOM   2680  OE2 GLU A 178)
+    3   C 2921   (ATOM   2921  CZ  ARG A 195)   +1  (3.5 Angstroms from anion  O 3261, Label: ATOM   3261  OE2 GLU A 219)
+ 
+    1   O 2680   (ATOM   2680  OE2 GLU A 178)   -1  (3.4 Angstroms from cation  N 2712, Label: ATOM   2712  NZ  LYS A 181)
+    2   O 3261   (ATOM   3261  OE2 GLU A 219)   -1  (3.5 Angstroms from cation  C 2921, Label: ATOM   2921  CZ  ARG A 195)
+    3   O 3699   (ATOM   3699  OD2 ASP A 248)   -1  (3.8 Angstroms from cation  N   85, Label: ATOM     85  NZ  LYS A   8)
+    4   O 4015   (HETATM 4015  O2A NAD A1301)   -1
+    5   O 4038   (HETATM 4038  O2N NAD A1301)   -1
+
+          COMPUTED CHARGE ON SYSTEM: -2
+
+ -------------------------------------------------------------------------------
+opt output  EPS=78.4  T=1W HTML geo-ok   CHARGE=-2 1SCF HTML mozyme
+ Locate transition state for hydride transfer
+
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 17.222W)
+                                                       Fri Aug 11 10:37:28 2017
+                                                       No. of days remaining = 369
+
+
+
+
+          FINAL HEAT OF FORMATION =     -32371.02376 KCAL/MOL = -135440.36341 KJ/MOL
+          VAN DER WAALS AREA      =       8301.37 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =    -407506.89622 EV
+          ELECTRONIC ENERGY       =  -61276830.84624 EV
+          CORE-CORE REPULSION     =   60862657.14523 EV
+          DIELECTRIC ENERGY       =        -56.61213 EV
+          COSMO AREA              =       8301.37 SQUARE ANGSTROMS
+          COSMO VOLUME            =      35751.85 CUBIC ANGSTROMS
+
+          NO. OF FILLED LEVELS    =       6185
+          MOLECULAR WEIGHT        =      31367.2231
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H  3116    H  1295    57.52019
+            H  2671    H   828    46.44759
+            H  1081    H  3405    44.69007
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         =  9 MINUTES AND 43.117 SECONDS
+          COMPUTATION TIME        = 13 MINUTES AND  7.477 SECONDS
+
+
+
+
+
+           Empirical Formula: C1304 H2302 N356 O499 S11 P2  =  4474 atoms
+
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      THR A   2       +0.023
+      GLY A   3       -0.031
+      LEU A   4       -0.008
+      LEU A   5       +0.050
+      ASP A   6       -0.023
+      GLY A   7       -0.026
+      LYS A   8       +1.004  CATION
+      ARG A   9       -0.049
+      ILE A  10       +0.023
+      LEU A  11       +0.000
+      VAL A  12       -0.030
+      SER A  13       +0.027
+      GLY A  14       +0.040
+      ILE A  15       -0.018
+      ILE A  16       +0.034
+      THR A  17       +0.062
+      ASP A  18       -0.040
+      SER A  19       -0.022
+      SER A  20       -0.049
+      ILE A  21       -0.001
+      ALA A  22       -0.014
+      PHE A  23       +0.007
+      HIS A  24       -0.033
+      ILE A  25       +0.030
+      ALA A  26       -0.031
+      ARG A  27       +0.028
+      VAL A  28       -0.028
+      ALA A  29       +0.022
+      GLN A  30       -0.009
+      GLU A  31       +0.007
+      GLN A  32       -0.002
+      GLY A  33       +0.006
+      ALA A  34       +0.042
+      GLN A  35       -0.012
+      LEU A  36       +0.049
+      VAL A  37       -0.058
+      LEU A  38       +0.051
+      THR A  39       -0.018
+      GLY A  40       -0.053
+      PHE A  41       +0.102
+      ASP A  42       -0.052
+      ARG A  43       +0.056
+      LEU A  44       +0.006
+      ARG A  45       +0.049
+      LEU A  46       -0.023
+      ILE A  47       +0.030
+      GLN A  48       +0.019
+      ARG A  49       +0.031
+      ILE A  50       +0.061
+      THR A  51       -0.025
+      ASP A  52       -0.002
+      ARG A  53       -0.026
+      LEU A  54       +0.105
+      PRO A  55       -0.082
+      ALA A  56       +0.056
+      LYS A  57       -0.027
+      ALA A  58       +0.039
+      PRO A  59       +0.012
+      LEU A  60       -0.009
+      LEU A  61       +0.002
+      GLU A  62       -0.043
+      LEU A  63       +0.006
+      ASP A  64       -0.047
+      VAL A  65       +0.053
+      GLN A  66       +0.059
+      ASN A  67       -0.048
+      GLU A  68       -0.025
+      GLU A  69       -0.053
+      HIS A  70       +0.058
+      LEU A  71       +0.037
+      ALA A  72       +0.002
+      SER A  73       -0.048
+      LEU A  74       +0.028
+      ALA A  75       +0.093
+      GLY A  76       -0.071
+      ARG A  77       +0.029
+      VAL A  78       -0.025
+      THR A  79       +0.017
+      GLU A  80       -0.040
+      ALA A  81       +0.005
+      ILE A  82       -0.050
+      GLY A  83       +0.093
+      ALA A  84       -0.007
+      GLY A  85       -0.052
+      ASN A  86       +0.042
+      LYS A  87       +0.007
+      LEU A  88       +0.024
+      ASP A  89       -0.109
+      GLY A  90       -0.004
+      VAL A  91       +0.016
+      VAL A  92       +0.038
+      HIS A  93       -0.028
+      SER A  94       +0.042
+      ILE A  95       -0.064
+      GLY A  96       +0.050
+      PHE A  97       +0.018
+      MET A  98       +0.013
+      PRO A  99       -0.015
+      GLN A 100       +0.091
+      THR A 101       -0.042
+      GLY A 102       -0.013
+      MET A 103       +0.043
+      GLY A 104       +0.022
+      ILE A 105       -0.008
+      ASN A 106       +0.004
+      PRO A 107       +0.035
+      PHE A 108       +0.015
+      PHE A 109       +0.016
+      ASP A 110       -0.069
+      ALA A 111       +0.046
+      PRO A 112       -0.008
+      TYR A 113       -0.003
+      ALA A 114       +0.059
+      ASP A 115       -0.056
+      VAL A 116       +0.065
+      SER A 117       -0.069
+      LYS A 118       +0.032
+      GLY A 119       +0.006
+      ILE A 120       +0.011
+      HIS A 121       +0.004
+      ILE A 122       +0.039
+      SER A 123       -0.036
+      ALA A 124       +0.021
+      TYR A 125       -0.048
+      SER A 126       -0.045
+      TYR A 127       +0.061
+      ALA A 128       -0.078
+      SER A 129       -0.022
+      MET A 130       +0.056
+      ALA A 131       -0.022
+      LYS A 132       +0.079
+      ALA A 133       +0.041
+      LEU A 134       -0.055
+      LEU A 135       +0.008
+      PRO A 136       +0.015
+      ILE A 137       +0.037
+      MET A 138       +0.031
+      ASN A 139       +0.021
+      PRO A 140       +0.050
+      GLY A 141       -0.097
+      GLY A 142       +0.070
+      SER A 143       +0.017
+      ILE A 144       -0.013
+      VAL A 145       +0.036
+      GLY A 146       -0.038
+      MET A 147       +0.066
+      ASP A 148       -0.101
+      PHE A 149       +0.101
+      ASP A 150       -0.067
+      PRO A 151       +0.057
+      SER A 152       -0.060
+      ARG A 153       -0.004
+      ALA A 154       +0.024
+      MET A 155       +0.004
+      PRO A 156       +0.002
+      ALA A 157       +0.003
+      TYR A 158       -0.016
+      ASN A 159       +0.000
+      TRP A 160       -0.056
+      MET A 161       +0.061
+      THR A 162       +0.003
+      VAL A 163       -0.039
+      ALA A 164       +0.005
+      LYS A 165       +0.081
+      SER A 166       -0.080
+      ALA A 167       +0.041
+      LEU A 168       +0.069
+      GLU A 169       -0.030
+      SER A 170       -0.025
+      VAL A 171       +0.076
+      ASN A 172       -0.021
+      ARG A 173       +0.018
+      PHE A 174       -0.046
+      VAL A 175       +0.003
+      ALA A 176       +0.085
+      ARG A 177       +0.002
+      GLU A 178       -0.870  ANION
+      ALA A 179       -0.027
+      GLY A 180       +0.005
+      LYS A 181       +0.954  CATION
+      TYR A 182       +0.059
+      GLY A 183       -0.039
+      VAL A 184       +0.010
+      ARG A 185       +0.044
+      SER A 186       -0.046
+      ASN A 187       +0.033
+      LEU A 188       +0.008
+      VAL A 189       +0.031
+      ALA A 190       -0.056
+      ALA A 191       +0.067
+      GLY A 192       -0.020
+      PRO A 193       -0.043
+      ILE A 194       +0.049
+      ARG A 195       +0.772  CATION
+      THR A 196       -0.040
+      LEU A 197       +0.040
+      ALA A 198       -0.010
+      MET A 199       +0.067
+      SER A 200       -0.053
+      ALA A 201       +0.010
+      ILE A 202       -0.029
+      VAL A 203       +0.031
+      GLY A 204       +0.009
+      GLY A 205       -0.010
+      ALA A 206       +0.047
+      LEU A 207       -0.039
+      GLY A 208       +0.078
+      GLU A 209       -0.034
+      GLU A 210       +0.020
+      ALA A 211       -0.013
+      GLY A 212       +0.022
+      ALA A 213       -0.028
+      GLN A 214       +0.001
+      ILE A 215       -0.017
+      GLN A 216       +0.010
+      LEU A 217       +0.001
+      LEU A 218       +0.000
+      GLU A 219       -0.763  ANION
+      GLU A 220       -0.009
+      GLY A 221       -0.012
+      TRP A 222       +0.104
+      ASP A 223       -0.117
+      GLN A 224       +0.017
+      ARG A 225       +0.007
+      ALA A 226       -0.024
+      PRO A 227       +0.100
+      ILE A 228       +0.004
+      GLY A 229       +0.012
+      TRP A 230       -0.050
+      ASN A 231       +0.004
+      MET A 232       +0.058
+      LYS A 233       -0.009
+      ASP A 234       +0.029
+      ALA A 235       +0.002
+      THR A 236       -0.011
+      PRO A 237       +0.025
+      VAL A 238       -0.015
+      ALA A 239       +0.026
+      LYS A 240       -0.007
+      THR A 241       +0.013
+      VAL A 242       -0.013
+      CYS A 243       -0.040
+      ALA A 244       +0.010
+      LEU A 245       +0.092
+      LEU A 246       -0.022
+      SER A 247       +0.005
+      ASP A 248       -0.860  ANION
+      TRP A 249       -0.086
+      LEU A 250       +0.062
+      PRO A 251       -0.016
+      ALA A 252       +0.025
+      THR A 253       +0.000
+      THR A 254       -0.034
+      GLY A 255       +0.018
+      ASP A 256       +0.006
+      ILE A 257       +0.008
+      ILE A 258       +0.026
+      TYR A 259       -0.037
+      ALA A 260       +0.118
+      ASP A 261       -0.132
+      GLY A 262       +0.040
+      GLY A 263       +0.027
+      ALA A 264       +0.068
+      HIS A 265       -0.034
+      THR A 266       -0.007
+      GLN A 267       +0.079
+      LEU A 268       -0.032
+      LEU A 269       -0.015
+      NAD A1301       -1.647  ANION
+      THT A1302       -0.095
+ 
+
+
+                   Salt Bridges Found (Up to  8.0 Angstroms)
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (ATOM   2920  NE  ARG A 195)  A195(+)    (ATOM   3260  OE1 GLU A 219)  A219(-)      2.56
+      2  (ATOM   2712  NZ  LYS A 181)  A181(+)    (ATOM   2679  OE1 GLU A 178)  A178(-)      2.75
+      3  (ATOM     85  NZ  LYS A   8)    A8(+)    (ATOM   3698  OD1 ASP A 248)  A248(-)      3.31
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.   293.338   204.416  -294.333   463.104
+ HYBRID        23.927    23.840   -17.904    38.228
+ SUM          317.264   228.256  -312.237   500.249
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:           584.30 SECONDS
+
+ == MOPAC DONE ==

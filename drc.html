@@ -1,0 +1,51 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>DRC=n.nnn </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center"><a name="SECTION007357000000000000000">
+<tt>DRC=<i>n</i>.<i>nnn</i></tt> </a>
+</h1>
+In a DRC calculation, the 'half-life' for loss of kinetic energy  is
+defined as <i>n</i>.<i>nnn</i> femtoseconds.  This is equivalent to the system cooling down.
+If the 'half-life' is negative, energy will be added to the system.  This is
+equivalent to heating it up.  If <i>n</i>.<i>nnn</i> is set to zero, infinite damping
+simulating a very condensed phase is obtained.
+<p>&nbsp;</p>
+<p>Here is an example of simulated annealing:</p>
+<pre> DRC=50 bigcycles=1000 T-priority
+Formaldehyde, starting with the C=O bond stretched by ~0.2 Angstroms
+ 
+  O     0.0 +0    0.0 +0    0.0 +0                      
+  C     1.4 +1    0.0 +0    0.0 +0     1     0     0      
+  H     1.1 +1  121.0 +1    0.0 +0     2     1     0      
+  H     1.1 +0  121.0 +0  180.0 +0     2     1     3        
+</pre> As usual, 
+the plus "+" signs are optional, the optimization flags will be ignored, and the 
+coordinates will be converted to Cartesian at run-time.<p>DRC=50 - The half-life 
+for cooling is 50 fs.</p>
+<p><a href="bigcycles.html">bigcycles</a>=1000 - Restrict the run. If this 
+keyword is not present, the job will produce a very large output.</p>
+<p><a href="t-priority.html">T-priority</a> - There are two common styles for 
+monitoring a DRC, time and motion.&nbsp; In this case time is used.</p>
+<p>See also: <a href="x-priority.html">X-priority</a>, <a href="h-priority.html">
+H-priority</a></p>
+</body>
+</html>

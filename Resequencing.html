@@ -1,0 +1,50 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Resequencing<i>text </i></title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p align="left">
+(<a href="Modeling_proteins.html#Resequencing">Modeling proteins</a>)</p>
+<h1 align="center">
+Resequencing</h1>
+<p align="left">
+To resequence the atoms in a data set, to put them into the standard PDB order, 
+use <a href="reseq.html"><tt>RESEQ</tt></a>.</p>
+<p align="left">
+By default, when hydrogen atoms are added or removed, when keywords <tt>
+<a href="add-h.html">ADD-H</a></tt> or <tt><a href="site.html">SITE</a> </tt> 
+are used, or if the input data set is a pure PDB file, the atom sequence will be 
+changed to that of the standard PDB format, i.e., all atoms in a given residue 
+will be together in the new data-set.&nbsp; If this is not wanted, use <tt>
+<a href="noreseq.html">NORESEQ</a>.</tt></p>
+<p align="left">
+Be aware that the PDB convention cannot, and does not, uniquely define the order 
+of atoms in a residue.&nbsp; This is because there are sometimes two exactly 
+equivalent ways of labeling an atom.&nbsp; This situation occurs in valine, 
+leucine, arginine, phenylalanine, and tyrosine, and when two or more hydrogen 
+atoms are attached to the same atom.&nbsp; This is not very important 
+however, because operations in MOPAC that depend on atom sequences can correct 
+most simple errors of this type, unless <a href="noswap.html"><tt>NOSWAP</tt></a> is present, and if the second sequence is different to the 
+first sequence then the second sequence will be changed during the run to conform 
+with the first sequence.</p>
+<p align="left">
+&nbsp;</p>
+</body>
+</html>

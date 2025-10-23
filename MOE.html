@@ -1,0 +1,40 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Instructions on using MOPAC2016 with the MOE software</title></head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<h1>Instructions on using MOPAC2016 with the MOE software</h1>
+<p>Based on materials provided by the Chemical Computing Group.</p>
+<p>To type the "SetRC" command, you need to open MOE, press the SVL button in 
+the top right corner of the MOE window, and type in the command. It is case 
+sensitive, and on Windows, you need to use forward slashes in a file path. and 
+make sure that there are plain single quotes e.g.</p>
+<p>SetRC ['mopac2007.exe', 'c:/Program Files/MOPAC/mopac.exe']</p>
+<p>================</p>
+<p><br/>
+Because MOPAC2016 is not a default part of MOE, it is necessary to specify 
+the location of the executable program, which must be installed separately. The 
+executable location is stored in the RC file, and can be configured using the SetRC command, e.g.:</p>
+<p>SetRC ['mopac2016.exe', '/opt/mopac/mopac.exe']</p>
+<p>MOPAC2016 requires a license file in order to run. The 
+user should follow the MOPAC documentation regarding installing the license.</p>
+<p>================</p>
+<p>Keywords to a MOPAC calculation can be changed by launching a MOPAC calculation from 
+(MOE | Compute | Simulations | SCF Calculation).&nbsp; Then view the input file 
+for MOPAC and make changes from there.</p>
+</body></html>

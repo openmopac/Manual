@@ -1,0 +1,96 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>1E66 Catalytic Triad</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p><font face="Arial">(<a href="Modeling_proteins.html">Modeling proteins</a>)</font></p>
+<h1>1E66 </h1>
+<h2>(a) Catalytic triad hydrogenation incorrectly predicted using ADD-H</h2>
+<p><span lang="en-us">1E66 is an acetylcholinesterase containing a catalytic triad involving Ser<sub>200</sub>, Glu<sub>327</sub>, and His<sub>440</sub>.&nbsp; <tt>
+<a href="add-h.html">ADD-H</a></tt> 
+incorrectly makes the Glu<sub>327</sub> neutral and puts a hydrogen atom on the nitrogen 
+atom of the imidazole ring of His<sub>440</sub>.&nbsp;  Inspection of the log 
+file shows that there is a fault involving Glu<sub>327</sub>, and His<sub>440</sub>, 
+and examination of the catalytic triad 
+reveals this fault.&nbsp; This error is readily corrected by editing the ARC 
+file from the ADD-H run.</span></p>
+<h2><span lang="en-us">(b) Problem with placement of various oxygen and nitrogen 
+atoms</span></h2>
+<p>The log file of 1E66 also shows an unusual structure involving atoms C<sub>4607</sub> 
+and N<sub>4610</sub>.&nbsp; C<sub>4607</sub> is attached to an unrecognized 
+residue (UNK<sub>468</sub>), and the nitrogen atom is not attached to any 
+residue; instead, it forms an ammonia molecule.&nbsp; In the original PDB 
+structure, UNK<sub>468</sub> is Arg<sub>468</sub>, but one of the nitrogen atoms 
+of the guanidine group is wrongly positioned.&nbsp; If structure "B" is selected 
+(using <a href="alt_a.html"><tt>ALT_A=B</tt></a>), then two nitrogen atoms are 
+wrongly positioned.&nbsp; This is an error in the original PDB file that should 
+be corrected "by hand" - using a GUI - before adding hydrogen atoms.&nbsp; </p>
+<p>Other faults found in the PDB file involve the following atoms:</p>
+<div align="center">
+<center>
+<table border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+<tr>
+<td style="border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">Atom</td>
+<td style="border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp; in&nbsp;&nbsp;&nbsp; </td>
+<td style="border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1">&nbsp;Residue</td>
+</tr>
+<tr>
+<td style="border-top-style: solid; border-top-width: 1"><span lang="en-us">N<sub>2478</sub></span></td>
+<td style="border-top-style: solid; border-top-width: 1">&nbsp;</td>
+<td style="border-top-style: solid; border-top-width: 1"><span lang="en-us">Lys<sub>325</sub></span></td>
+</tr>
+<tr>
+<td><span lang="en-us">N<sub>653</sub></span></td>
+<td>&nbsp;</td>
+<td><span lang="en-us">Arg<sub>88</sub></span></td>
+</tr>
+<tr>
+<td><span lang="en-us">&nbsp;N<sub>654</sub></span></td>
+<td>&nbsp;</td>
+<td><span lang="en-us">Arg<sub>88</sub></span></td>
+</tr>
+<tr>
+<td><span lang="en-us">O<sub>1862</sub> </span></td>
+<td>&nbsp;</td>
+<td><span lang="en-us">Glu<sub>247</sub></span></td>
+</tr>
+<tr>
+<td><span lang="en-us">O<sub>1863</sub></span></td>
+<td>&nbsp;</td>
+<td><span lang="en-us">Glu<sub>247</sub></span></td>
+</tr>
+<tr>
+<td style="border-bottom-style: solid; border-bottom-width: 1"><span lang="en-us">N<sub>2478</sub></span></td>
+<td style="border-bottom-style: solid; border-bottom-width: 1">&nbsp;</td>
+<td style="border-bottom-style: solid; border-bottom-width: 1"><span lang="en-us">Lys<sub>325</sub></span></td>
+</tr>
+</table>
+</center>
+</div>
+<p>As with the other errors, these errors should also be corrected before any 
+further work is done with 1E66.</p>
+<p>Original PDB entry dated: <span lang="EN">08-AUG-00.</span></p>
+<h2><span lang="en-us">(c) Two methionine residues have unusually short S-CH3 
+bond-lengths</span></h2>
+<p>Both Met<sub>83</sub> (C<sub>606</sub>) and Met<sub>520</sub> (C<sub>4033</sub>) 
+have unusually short bond-lengths, about 1.1<font face="Arial">&Aring;</font> instead 
+of the expected 1.8<font face="Arial">&Aring;</font>.</p>
+</body>
+</html>

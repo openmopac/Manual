@@ -1,0 +1,19 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/ZZ 1 Acetone ke
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 09:58
+REMARK  Heat of Formation = 93.219 Kcal/mol
+HETATM    1  C1  HET A   1       0.058  -0.264   0.012  1.00 -0.54      PROT C 
+HETATM    2  C2  HET A   1       1.452   0.166  -0.152  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       1.992   1.453  -0.103  1.00 -0.61      PROT C 
+HETATM    4  O   HET A   1       2.312  -0.776  -0.358  1.00 -0.47      PROT O 
+HETATM    5 1H1  HET A   1      -0.601   0.189  -0.754  1.00  0.22      PROT H 
+HETATM    6 2H1  HET A   1      -0.072  -1.360  -0.054  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -0.362   0.038   0.993  1.00  0.24      PROT H 
+HETATM    8 1H   HET A   1       3.441   1.102   0.197  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1       1.477   2.206   0.494  1.00  0.23      PROT H 
+HETATM   10 2H3  HET A   1       2.479   1.930  -0.916  1.00  0.24      PROT H 
+HETATM   11  O   HOH B   2       4.353   0.102   0.479  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       4.960  -0.461  -0.040  1.00  0.40      PROT H 
+HETATM   13  H   HOH B   2       2.998  -1.163  -0.032  1.00  0.45      PROT H 
+HETATM   14 2H   HOH B   2       4.857   0.450   1.238  1.00  0.42      PROT H 
+END

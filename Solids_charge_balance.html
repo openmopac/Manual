@@ -1,0 +1,72 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Charge Balanced Unit Cells</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION001294000000000000000">
+ Charge Balanced Unit Cells</a>
+</h2>
+<p>
+Obviously, the net charge in a unit cell is zero.  A less obvious need is for
+the dipole of the unit cell to be as small as possible.  Consider the highly
+artificial system:
+</p><p>
+</p><pre>+     +     +     +     +     +     +     +
+                        -     -     -     -     -     -     -     -
+                        |     |     |     |     |     |     |     |
+                       / \   / \   / \   / \   / \   / \   / \   / \
+                      /   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_
+                      A                           C D                B
+</pre>
+<p>
+This system represents a simple hydrocarbon backbone with anionic sites
+covalently bound.  The anionic charge is balanced by cation counterions.
+However, although there is one cation for each anion, and the unit cell is
+uncharged, the unit cell does have a large dipole.
+</p><p>
+Why is this undesirable?   For the purpose of this discussion, let
+<tt><a href="cutofp.html">CUTOFP</a></tt> be infinite.  Then electrons in atom <i>A</i> would be stabilized by
+every cationic charge and destabilized by every anionic charge.  With
+increasing distance the effect of the cations and anions would more-or-less
+cancel out.  However, at large distances an asymmetry in the charge
+distribution is introduced.  To the left of <i>A</i> there would be 8 anions and 12
+cations, while to the right of <i>A</i> there would be 16 anions and 12 cations.
+The potential effect of this asymmetry would be a net positive potential at
+<i>A</i>.  Similarly, at <i>B</i> there would be a net negative potential arising from
+the charges.
+</p><p>
+As a result of the Born-von K&aacute;rm&aacute;n periodic boundary conditions, atom
+<i>A</i> is bonded to atom <i>B</i>.  Because of the symmetry of this system, <i>A</i> and
+<i>B</i> should have the same charge (roughly zero), but because of the large unit cell
+dipole, there will be an induced dipole in the bond <i>A</i>-<i>B</i>.  There will be
+induced dipoles in all bonds of the <i>A</i>-<i>B</i> type, for example <i>C</i>-<i>D</i>, but
+these will be very small compared to that in the <i>A</i>-<i>B</i> bond.
+</p><p>
+The overall effect of this induced bond dipole is that the molecular geometry
+in  the region of <i>A</i> and <i>B</i> is deformed.  In a correctly optimized system,
+the effect of having a large dipole in the unit cell is to induce gradient
+effects at the ends of the unit cell.
+</p><p>
+To avoid these effects, the unit cell should be chosen in such a way as to make
+the dipole of the unit cell as small as possible.  For most systems, the
+default value of <tt>CUTOFP</tt> used by the program will prevent this problem
+from occurring.
+</p></body>
+</html>

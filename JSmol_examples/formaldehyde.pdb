@@ -1,0 +1,7 @@
+HEADER  data-set: G:\test\formaldehyde
+REMARK  MOPAC 2016, Version: 17.119W Date: Apr 30 2017 17:09
+HETATM    1  O   HET A   1       0.000   0.000   0.000  1.00 -0.40      PROT O 
+HETATM    2  C   HET A   1       1.206   0.000   0.000  1.00  0.20      PROT C 
+HETATM    3  H   HET A   1       1.773   0.933   0.000  1.00  0.10      PROT H 
+HETATM    4  H   HET A   1       1.773  -0.933   0.000  1.00  0.10      PROT H 
+END

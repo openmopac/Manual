@@ -1,0 +1,32 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Geometry</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center"><a name="SECTION002300200000000000000">Geometry</a> </h1>
+<p>By default, geometries are optimized using Baker's EF routine&nbsp;[<a href="references.html#ef-ts">7</a>]. If this is not desired, then the Broyden&nbsp;[<a href="references.html#bfgs1">19</a>]-Fletcher&nbsp;[<a href="references.html#bfgs2">20</a>]-Goldfarb&nbsp;[<a href="references.html#bfgs3">21</a>]-Shanno&nbsp;[<a href="references.html#bfgs4">22</a>] method can be used. This replaces the older Davidon&nbsp;[<a href="references.html#dfp1">124</a>]-Fletcher&nbsp;[<a href="references.html#dfp2">125</a>]-Powell&nbsp;[<a href="references.html#dfp3">126</a>] method. The Powell line search in both the BFGS and DFP methods has been upgraded with Thiel's FSTMIN technique&nbsp;[<a href="references.html#fstmin">44</a>]. </p>
+<p>The energy minimum for intersystem crossing can be calculated using the method of Anglada and Bofill&nbsp;[<a href="references.html#cross">28</a>]. </p>
+<p>Reaction paths can be followed, but sometimes (unavoidable) numerical instability causes difficulty&nbsp;[<a href="references.html#boyd">127</a>]. </p>
+<p>Various methods can be used to locate transition states. In the region of a transition state, TS&nbsp;[<a href="references.html#ef-ts">7</a>] is the best method to use. Other options are NLLSQ&nbsp;[<a href="references.html#nllsq">8</a>] and SIGMA&nbsp;[<a href="references.html#sigma1">9</a>,<a href="references.html#sigma2">10</a>]. </p>
+<p>However, getting to this region can often be difficult. One effective strategy is to use the reaction path option. A more costly method is the <tt>SADDLE</tt> technique&nbsp;[<a href="references.html#saddle">18</a>]. Once the transition state is located, the geometry must be refined </p>
+<p>All systems can be characterized by determining the number of imaginary vibrations using FORCE&nbsp;[<a href="references.html#pulayf">73</a>]. Ground state systems should have none, and transition states should have exactly one imaginary frequency. The normal modes can then be used to calculate heat capacities and entropies and other thermodynamic quantities&nbsp;[<a href="references.html#thermo">50</a>]. </p>
+<p>Molecular dynamics can be followed via DRC&nbsp;[<a href="references.html#drc">29</a>]. </p>
+</body>
+</html>

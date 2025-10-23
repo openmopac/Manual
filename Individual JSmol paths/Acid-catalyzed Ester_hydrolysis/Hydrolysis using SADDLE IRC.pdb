@@ -1,0 +1,26 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acid-catalyzed
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  5 2021 16:53
+REMARK  Heat of Formation = -104.267 Kcal/mol
+HETATM    1  C1  ACY A   1      -0.218   0.090   0.302  1.00 -0.52      PROT C 
+HETATM    2  C2  ACY A   1       1.132   0.124   0.930  1.00  0.71      PROT C 
+HETATM    3  O   ACY A   1       1.888   1.217   0.917  1.00 -0.67      PROT O 
+HETATM    4  O   EOH B   2       1.890  -1.065   0.561  1.00 -0.48      PROT O 
+HETATM    5  C1  EOH B   2       3.295  -0.885   0.245  1.00  0.01      PROT C 
+HETATM    6  C2  EOH B   2       3.728  -2.241  -0.269  1.00 -0.48      PROT C 
+HETATM    7 1H1  ACY A   1      -0.163  -0.181  -0.769  1.00  0.21      PROT H 
+HETATM    8 2H1  ACY A   1      -0.890  -0.650   0.777  1.00  0.21      PROT H 
+HETATM    9 3H1  ACY A   1      -0.731   1.067   0.365  1.00  0.21      PROT H 
+HETATM   10 1H1  EOH B   2       3.355  -0.089  -0.519  1.00  0.15      PROT H 
+HETATM   11 2H1  EOH B   2       3.825  -0.565   1.160  1.00  0.15      PROT H 
+HETATM   12 1H2  EOH B   2       3.560  -3.038   0.471  1.00  0.17      PROT H 
+HETATM   13 2H2  EOH B   2       3.188  -2.523  -1.184  1.00  0.17      PROT H 
+HETATM   14 3H2  EOH B   2       4.802  -2.238  -0.511  1.00  0.18      PROT H 
+HETATM   15  H   ACY G   1       1.622   0.146   2.965  1.00  0.42      PROT H 
+HETATM   16  O   HOH F   3       1.245   2.916  -0.838  1.00 -0.68      PROT O 
+HETATM   17  O   ACY G   1       1.035  -0.372   2.322  1.00 -0.53      PROT O 
+HETATM   18  H   UNK G           1.602   1.965   0.173  1.00  0.44      PROT H 
+HETATM   19  H   EOH B   2       1.722  -1.401   1.911  1.00  0.51      PROT H 
+HETATM   20 1H   HOH F   3       1.140   3.763  -0.350  1.00  0.40      PROT H 
+HETATM   21 2H   HOH F   3       2.067   3.058  -1.357  1.00  0.40      PROT H 
+END

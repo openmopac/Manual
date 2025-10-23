@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>HCORE</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>HCORE </tt></h1>
+<p><font size="3"> Print all parameters used in the calculation, the 
+one-electron matrix, and two electron integrals .&nbsp; This keyword should normally only be used with <tt>
+<a href="one_scf.html">1SCF</a></tt>, 
+otherwise the output can be very large.</font></p>
+<p>Two electron integrals are in the order: All integrals for atoms 1 with 1, 1 
+with 2, 2 with 2, 1 with 3, 2 with 3, 3 with 3, etc.&nbsp; Within an atom-pair, 
+the integrals are, in order:</p>
+<p>&lt;ss|ss&gt; &lt;ss|sx&gt; &lt;ss|xx&gt; &lt;ss|sy&gt; &lt;ss|xy&gt; &lt;ss|yy&gt; ... &lt;sx|ss&gt; ... &lt;(xy)(xy)|(xy)(xy)&gt;</p>
+<p><a href="real_spherical_harmonics.html">Atomic orbitals</a> are, in order: s x y z (x2-y2) (xz) (z2) (yz) (xy)</p>
+<p>The number of two-electron integrals can be quite large; for two atoms with 
+d-orbitals (l = 2)&nbsp; there are 2025&nbsp; = 45<sup>2</sup> = ((9*10)/2)<sup>2</sup> 
+= ((l + 1)<sup>2</sup>*((l + 1)<sup>2</sup> + 1)/2)<sup>2</sup> distinct 
+integrals.</p>
+<p><tt>HCORE</tt> is useful in diagnostic work - understanding how SCF methods 
+work and in finding bugs in the program.</p>
+</body>
+</html>

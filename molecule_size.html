@@ -1,0 +1,34 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>"Size" of a molecule</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>"Size" of a molecule </h1>
+<p>A useful measure of a molecule is its size. There are several possible ways of defining the size of a molecule. The definition used in MOPAC is as follows: </p>
+<p>The first dimension is the maximum distance between any pair of atoms. </p>
+<p>For systems of 20 or fewer atoms, this distance, and the atoms involved, is worked out explicitly. For systems of 21 or more atoms, an atom is selected; the atom, <i>K</i>, most distant from it is then identified, then the atom, <i>L</i>, most distant from <i>K</i> is identified. In most systems, the distance R(<i>K</i>-<i>L</i>) is the first dimension. To ensure that it is, the point half-way between <i>K </i>and <i>L</i> is selected, and atom <i>K</i> is then re-defined as the atom most distant from that point. A new <i>L</i> is determined. This sequence in repeated up to 10 times, or until atoms <i>K</i> and <i>L</i> no longer change. There is no guarantee that the first dimension is, in fact, the largest distance, but it is likely to be close to the largest possible value. </p>
+<p>The second dimension is the maximum distance in the plane perpendicular to the first dimension between any pair of atoms. </p>
+<p>The technique that was used in determining the first dimension for systems of over 21 atoms is used here. </p>
+<p>The third dimension is the maximum distance between any two atoms on the line perpendicular to the plane of the first two atoms. </p>
+<p>This quantity is explicitly calculated. </p>
+<p>Note that the second and third dimensions do <em>not</em> define the smallest rectangular slot that a molecule would go through; it will normally be slightly larger than the minimum slot. Nevertheless, the "dimensions" of a molecule can be regarded as a good measure of the size of hole that the molecule could pass through. Of course, allowance must be made for the finite size of atoms. </p>
+<p>Monatomic systems have no "dimension", linear systems have two zero "dimensions", and flat systems have one zero "dimension". </p>
+</body>
+</html>

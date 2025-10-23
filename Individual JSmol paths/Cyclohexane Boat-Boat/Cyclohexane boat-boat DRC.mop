@@ -1,0 +1,5 @@
+TS gnorm=0.5   geo_dat="Saddle_TS.arc"
+ Refine transition state for Cyclohexane boat 1 <=> Cyclohexane boat 2
+ 
+oldgeo   IRC=1* HTML  precise t-priority=2 DRC cycles=100 gnorm=0
+Dynamic Reaction Coordinate for interconversion of Cyclohexane boat 1 <=> Cyclohexane boat 2

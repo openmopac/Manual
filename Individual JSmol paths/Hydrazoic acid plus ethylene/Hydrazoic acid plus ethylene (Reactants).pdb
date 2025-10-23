@@ -1,0 +1,15 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Hydrazoic acid
+REMARK  MOPAC 2016, Version: 21.151W Date: Jun  2 2021 13:39
+REMARK   3 HET = Not identified; C 2 H 4            =     6 atoms res:    1
+REMARK   3 NH3 = Ammonia res:    2
+HETATM    1  C1  HET A   1       0.000   0.000   0.000  1.00 -0.28      PROT C 
+HETATM    2  C2  HET A   1       1.330   0.000   0.000  1.00 -0.28      PROT C 
+HETATM    3  N1  NH3 B   2      -1.290   3.087   0.000  1.00 -0.22      PROT N 
+HETATM    4  N2  NH3 B   2      -0.355   3.733   0.004  1.00  0.45      PROT N 
+HETATM    5  N3  NH3 B   2       0.788   4.209   0.008  1.00 -0.54      PROT N 
+HETATM    6 1H1  HET A   1      -0.599   0.000   0.899  1.00  0.14      PROT H 
+HETATM    7 1H2  HET A   1       1.927   0.006  -0.900  1.00  0.14      PROT H 
+HETATM    8  H3  NH3 B   2       0.902   5.223   0.011  1.00  0.31      PROT H 
+HETATM    9 2H1  HET A   1      -0.601   0.003  -0.897  1.00  0.14      PROT H 
+HETATM   10 2H2  HET A   1       1.929   0.005   0.898  1.00  0.14      PROT H 
+END

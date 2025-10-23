@@ -1,0 +1,7 @@
+center @50
+reset;center {7.267 -1.101 -0.86}; rotate z -3.19; rotate y 98.03; rotate z -22.53; zoom 395.26; set rotationRadius 17.26;
+measure off
+measure (@53) (@52)
+measure (@53) (@55)
+measure (@51) (@52)
+measure (@54) (@55)

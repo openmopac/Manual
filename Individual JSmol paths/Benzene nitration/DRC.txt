@@ -1,0 +1,9 @@
+#
+#          Notes on the nitration of benzene reaction.
+#
+# In this Dynamic Reaction Coordinate animation the step-size used is 1.0 femtoseconds.
+#
+# Two distinct reactions can be seen. In the first reaction, [NO2](+) attacks a carbon atom in benzene.  The transition state for this reaction can be seen in Frame 300.  The next reaction occurs spontaneously, i.e., is activationless, and involves the hydrogen on the carbon in the active site migrating to the hydrogen sulfate anion.  This occurs at about Frame 483.
+#
+# Energetically, at the start of the reaction, only [NO2](+) is thermally excited (hot). Everything is stationary at the transition state - all the thermal energy has been used up in getting to the TS.  After that, a meta-stable intermediate exists for a few femtoseconds until the proton jumps from benzene to the sulfate ion.  This releases a lot of energy.  This energy appears as thermal energy in the violent vibrations of the hydrogen atom.  
+#

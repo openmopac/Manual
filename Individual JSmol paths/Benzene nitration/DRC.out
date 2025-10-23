@@ -1,0 +1,1203 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.323W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.323W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Nov 19 12:56:34 2015  *
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "SADDLE_TS.ARC"
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  TS         - USE EF ROUTINE FOR TS SEARCH
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+       TS  HTML eps=78.4 GEO_DAT="Saddle_TS.arc"
+ Refine the transition state for the reaction Benzene + NO2(+) <=> Nitrobenzene + H(+)
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C   HET A   1)    0.64574563  *   0.29988445  *   0.02854045  *
+     2       C(HETATM    2  C   HET A   1)    1.90611288  *   0.04244599  *  -0.51643318  *
+     3       C(HETATM    3  C   HET A   1)    2.38452073  *   0.84089284  *  -1.54999832  *
+     4       C(HETATM    4  C   HET A   1)    1.58985973  *   1.87700851  *  -2.04571798  *
+     5       C(HETATM    5  C   HET A   1)    0.32755882  *   2.13386546  *  -1.50485686  *
+     6       C(HETATM    6  C   HET A   1)   -0.15264249  *   1.33874392  *  -0.47098126  *
+     7       N(HETATM    7  N   HET A   1)   -0.42766482  *  -1.42704996  *  -0.21394797  *
+     8       O(HETATM    8  O   HET A   1)   -1.20269503  *  -1.12101020  *  -1.00947223  *
+     9       O(HETATM    9  O   HET A   1)    0.16204569  *  -2.21484934  *   0.38383915  *
+    10       S(HETATM   10  S   HET A   1)   -1.37546813  *  -0.61168934  *   2.76719811  *
+    11       O(HETATM   11  O   HET A   1)   -2.19475167  *   0.22789405  *   3.61255563  *
+    12       O(HETATM   12  O   HET A   1)    0.06922256  *  -0.23835695  *   2.61255927  *
+    13       O(HETATM   13  O   HET A   1)   -1.37603739  *  -2.08476602  *   3.54972624  *
+    14       O(HETATM   14  O   HET A   1)   -1.85578173  *  -0.91464856  *   1.38722018  *
+    15       H(HETATM   15  H   HET A   1)    0.50844962  *   0.07152901  *   1.22518332  *
+    16       H(HETATM   16  H   HET A   1)    2.51655399  *  -0.76600702  *  -0.11457484  *
+    17       H(HETATM   17  H   HET A   1)    3.37382967  *   0.66583102  *  -1.96864151  *
+    18       H(HETATM   18  H   HET A   1)    1.95445569  *   2.48988238  *  -2.87053615  *
+    19       H(HETATM   19  H   HET A   1)   -0.27349960  *   2.95678625  *  -1.88879081  *
+    20       H(HETATM   20  H   HET A   1)   -1.15132811  *   1.50570410  *  -0.04939916  *
+    21       H(HETATM   21  H   HET A   1)   -2.01114055  *  -2.15313105  *   4.27021325  *
+ 
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C6 H7 N O6 S  =    21 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS =   39
+
+      Transition state refinement using EF
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:     1 TIME:   1.422 TIME LEFT:  2.00D  GRAD.:    77.212 HEAT: -114.0155
+ CYCLE:     2 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    49.491 HEAT: -113.7983
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    30.976 HEAT: -114.2565
+ CYCLE:     4 TIME:   0.027 TIME LEFT:  2.00D  GRAD.:    19.632 HEAT: -114.9880
+ CYCLE:     5 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    13.268 HEAT: -116.1819
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.157 HEAT: -117.2032
+ CYCLE:     7 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.208 HEAT: -117.2710
+ CYCLE:     8 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     7.520 HEAT: -117.9222
+ CYCLE:     9 TIME:   0.035 TIME LEFT:  2.00D  GRAD.:    10.686 HEAT: -118.2303
+ CYCLE:    10 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     6.862 HEAT: -118.7687
+ CYCLE:    11 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     8.328 HEAT: -118.8812
+ CYCLE:    12 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.281 HEAT: -119.1304
+ CYCLE:    13 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     5.837 HEAT: -119.2446
+ CYCLE:    14 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     4.607 HEAT: -119.3397
+ CYCLE:    15 TIME:   0.035 TIME LEFT:  2.00D  GRAD.:     6.778 HEAT: -119.5906
+ CYCLE:    16 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     7.301 HEAT: -119.6751
+ CYCLE:    17 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    14.412 HEAT: -119.7596
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.769 HEAT: -119.8640
+ CYCLE:    19 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    15.718 HEAT: -120.1030
+ CYCLE:    20 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    24.946 HEAT: -120.2039
+ CYCLE:    21 TIME:   0.078 TIME LEFT:  2.00D  GRAD.:    10.680 HEAT: -120.3564
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.674 HEAT: -120.3722
+ CYCLE:    23 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.208 HEAT: -120.4180
+ CYCLE:    24 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     2.966 HEAT: -120.4593
+ CYCLE:    25 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.677 HEAT: -120.5095
+ CYCLE:    26 TIME:   0.156 TIME LEFT:  2.00D  GRAD.:     2.775 HEAT: -120.5058
+ CYCLE:    27 TIME:   0.078 TIME LEFT:  2.00D  GRAD.:     2.441 HEAT: -120.5054
+ CYCLE:    28 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     2.446 HEAT: -120.5075
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+ -------------------------------------------------------------------------------
+       TS  HTML eps=78.4 GEO_DAT="Saddle_TS.arc"
+ Refine the transition state for the reaction Benzene + NO2(+) <=> Nitrobenzene + H(+)
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (TS).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2012 (Version: 15.323W)
+                                                       Thu Nov 19 12:56:37 2015
+                                                       No. of days left = 365
+
+
+
+
+          FINAL HEAT OF FORMATION =       -120.50544 KCAL/MOL =    -504.19475 KJ/MOL
+          VAN DER WAALS AREA      =        215.39 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =      -2961.67963 EV
+          ELECTRONIC ENERGY       =      -3790.22571 EV  POINT GROUP:     C1  
+          CORE-CORE REPULSION     =        828.54608 EV
+          DIELECTRIC ENERGY       =         -1.90736 EV
+          COSMO AREA              =        215.39 SQUARE ANGSTROMS
+          COSMO VOLUME            =        225.47 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          2.44108
+          IONIZATION POTENTIAL    =         10.593629 EV
+          HOMO LUMO ENERGIES (EV) =        -10.594 -2.855
+          NO. OF FILLED LEVELS    =         39
+          MOLECULAR WEIGHT        =        221.184
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    21    H    18     9.63006
+            O    11    H    16     4.60741
+            O    12    O     8     3.94448
+
+
+          SCF CALCULATIONS        =        107
+ 
+          WALL-CLOCK TIME         =          2.371 SECONDS
+          COMPUTATION TIME        =          9.344 SECONDS
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+   PARAMETER     ATOM    TYPE            VALUE       GRADIENT
+      1          1  C    CARTESIAN X     0.732781    -0.494571  KCAL/ANGSTROM
+      2          1  C    CARTESIAN Y     0.266548    -0.466538  KCAL/ANGSTROM
+      3          1  C    CARTESIAN Z    -0.031956    -1.256265  KCAL/ANGSTROM
+      4          2  C    CARTESIAN X     1.965133     0.159196  KCAL/ANGSTROM
+      5          2  C    CARTESIAN Y    -0.019637     0.000845  KCAL/ANGSTROM
+      6          2  C    CARTESIAN Z    -0.705825    -0.046758  KCAL/ANGSTROM
+      7          3  C    CARTESIAN X     2.355472     0.099837  KCAL/ANGSTROM
+      8          3  C    CARTESIAN Y     0.725560     0.059269  KCAL/ANGSTROM
+      9          3  C    CARTESIAN Z    -1.797971     0.096757  KCAL/ANGSTROM
+     10          4  C    CARTESIAN X     1.559195     0.030310  KCAL/ANGSTROM
+     11          4  C    CARTESIAN Y     1.791759     0.044320  KCAL/ANGSTROM
+     12          4  C    CARTESIAN Z    -2.240777     0.022951  KCAL/ANGSTROM
+     13          5  C    CARTESIAN X     0.367883    -0.063768  KCAL/ANGSTROM
+     14          5  C    CARTESIAN Y     2.122144     0.090702  KCAL/ANGSTROM
+     15          5  C    CARTESIAN Z    -1.576605    -0.010590  KCAL/ANGSTROM
+     16          6  C    CARTESIAN X    -0.040279    -0.213037  KCAL/ANGSTROM
+     17          6  C    CARTESIAN Y     1.389596     0.157231  KCAL/ANGSTROM
+     18          6  C    CARTESIAN Z    -0.483452    -0.134100  KCAL/ANGSTROM
+     19          7  N    CARTESIAN X    -0.287580     0.325135  KCAL/ANGSTROM
+     20          7  N    CARTESIAN Y    -1.273472     0.757213  KCAL/ANGSTROM
+     21          7  N    CARTESIAN Z    -0.381358     0.177673  KCAL/ANGSTROM
+     22          8  O    CARTESIAN X    -1.181681    -0.002048  KCAL/ANGSTROM
+     23          8  O    CARTESIAN Y    -0.981077    -0.197438  KCAL/ANGSTROM
+     24          8  O    CARTESIAN Z    -1.067684    -0.148255  KCAL/ANGSTROM
+     25          9  O    CARTESIAN X     0.249903    -0.059177  KCAL/ANGSTROM
+     26          9  O    CARTESIAN Y    -2.168006    -0.142062  KCAL/ANGSTROM
+     27          9  O    CARTESIAN Z     0.136428    -0.182606  KCAL/ANGSTROM
+     28         10  S    CARTESIAN X    -1.455476    -0.091036  KCAL/ANGSTROM
+     29         10  S    CARTESIAN Y    -0.616350     0.024360  KCAL/ANGSTROM
+     30         10  S    CARTESIAN Z     3.001999    -0.175713  KCAL/ANGSTROM
+     31         11  O    CARTESIAN X    -2.669175     0.415639  KCAL/ANGSTROM
+     32         11  O    CARTESIAN Y    -0.042453     0.137650  KCAL/ANGSTROM
+     33         11  O    CARTESIAN Z     3.621068     0.050979  KCAL/ANGSTROM
+     34         12  O    CARTESIAN X    -0.186653    -0.077019  KCAL/ANGSTROM
+     35         12  O    CARTESIAN Y    -0.039821    -0.090839  KCAL/ANGSTROM
+     36         12  O    CARTESIAN Z     3.491787    -0.146962  KCAL/ANGSTROM
+     37         13  O    CARTESIAN X    -1.433416     0.122694  KCAL/ANGSTROM
+     38         13  O    CARTESIAN Y    -2.196232     0.024970  KCAL/ANGSTROM
+     39         13  O    CARTESIAN Z     3.536785    -0.088694  KCAL/ANGSTROM
+     40         14  O    CARTESIAN X    -1.499472    -0.376421  KCAL/ANGSTROM
+     41         14  O    CARTESIAN Y    -0.734973    -0.288597  KCAL/ANGSTROM
+     42         14  O    CARTESIAN Z     1.528268    -0.000465  KCAL/ANGSTROM
+     43         15  H    CARTESIAN X     0.729232     0.000236  KCAL/ANGSTROM
+     44         15  H    CARTESIAN Y     0.116168    -0.124706  KCAL/ANGSTROM
+     45         15  H    CARTESIAN Z     1.081705     1.509601  KCAL/ANGSTROM
+     46         16  H    CARTESIAN X     2.587792     0.018137  KCAL/ANGSTROM
+     47         16  H    CARTESIAN Y    -0.846293    -0.042359  KCAL/ANGSTROM
+     48         16  H    CARTESIAN Z    -0.337521     0.110717  KCAL/ANGSTROM
+     49         17  H    CARTESIAN X     3.288854     0.130177  KCAL/ANGSTROM
+     50         17  H    CARTESIAN Y     0.497768    -0.021924  KCAL/ANGSTROM
+     51         17  H    CARTESIAN Z    -2.321160     0.052736  KCAL/ANGSTROM
+     52         18  H    CARTESIAN X     1.875995     0.104530  KCAL/ANGSTROM
+     53         18  H    CARTESIAN Y     2.378241     0.009782  KCAL/ANGSTROM
+     54         18  H    CARTESIAN Z    -3.113612     0.014736  KCAL/ANGSTROM
+     55         19  H    CARTESIAN X    -0.225996     0.026600  KCAL/ANGSTROM
+     56         19  H    CARTESIAN Y     2.969462     0.001767  KCAL/ANGSTROM
+     57         19  H    CARTESIAN Z    -1.932105    -0.053509  KCAL/ANGSTROM
+     58         20  H    CARTESIAN X    -0.967627    -0.058313  KCAL/ANGSTROM
+     59         20  H    CARTESIAN Y     1.635524     0.053199  KCAL/ANGSTROM
+     60         20  H    CARTESIAN Z     0.055518    -0.046581  KCAL/ANGSTROM
+     61         21  H    CARTESIAN X    -1.982163     0.002895  KCAL/ANGSTROM
+     62         21  H    CARTESIAN Y    -2.369577     0.013153  KCAL/ANGSTROM
+     63         21  H    CARTESIAN Z     4.323513     0.254346  KCAL/ANGSTROM
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C   HET A   1)    0.73278128  *   0.26654830  *  -0.03195618  *
+     2       C(HETATM    2  C   HET A   1)    1.96513342  *  -0.01963727  *  -0.70582474  *
+     3       C(HETATM    3  C   HET A   1)    2.35547214  *   0.72556010  *  -1.79797062  *
+     4       C(HETATM    4  C   HET A   1)    1.55919537  *   1.79175923  *  -2.24077738  *
+     5       C(HETATM    5  C   HET A   1)    0.36788253  *   2.12214383  *  -1.57660533  *
+     6       C(HETATM    6  C   HET A   1)   -0.04027918  *   1.38959632  *  -0.48345246  *
+     7       N(HETATM    7  N   HET A   1)   -0.28758008  *  -1.27347224  *  -0.38135791  *
+     8       O(HETATM    8  O   HET A   1)   -1.18168108  *  -0.98107719  *  -1.06768389  *
+     9       O(HETATM    9  O   HET A   1)    0.24990296  *  -2.16800556  *   0.13642825  *
+    10       S(HETATM   10  S   HET A   1)   -1.45547586  *  -0.61634967  *   3.00199881  *
+    11       O(HETATM   11  O   HET A   1)   -2.66917461  *  -0.04245350  *   3.62106784  *
+    12       O(HETATM   12  O   HET A   1)   -0.18665327  *  -0.03982111  *   3.49178697  *
+    13       O(HETATM   13  O   HET A   1)   -1.43341574  *  -2.19623166  *   3.53678475  *
+    14       O(HETATM   14  O   HET A   1)   -1.49947200  *  -0.73497339  *   1.52826815  *
+    15       H(HETATM   15  H   HET A   1)    0.72923239  *   0.11616837  *   1.08170508  *
+    16       H(HETATM   16  H   HET A   1)    2.58779172  *  -0.84629325  *  -0.33752068  *
+    17       H(HETATM   17  H   HET A   1)    3.28885357  *   0.49776821  *  -2.32115955  *
+    18       H(HETATM   18  H   HET A   1)    1.87599485  *   2.37824140  *  -3.11361209  *
+    19       H(HETATM   19  H   HET A   1)   -0.22599633  *   2.96946204  *  -1.93210496  *
+    20       H(HETATM   20  H   HET A   1)   -0.96762704  *   1.63552402  *   0.05551751  *
+    21       H(HETATM   21  H   HET A   1)   -1.98216348  *  -2.36957750  *   4.32351276  *
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.732781277     0.266548299    -0.031956176
+   2    C        1.965133419    -0.019637274    -0.705824741
+   3    C        2.355472144     0.725560097    -1.797970616
+   4    C        1.559195366     1.791759228    -2.240777376
+   5    C        0.367882532     2.122143832    -1.576605328
+   6    C       -0.040279181     1.389596325    -0.483452462
+   7    N       -0.287580079    -1.273472242    -0.381357912
+   8    O       -1.181681080    -0.981077186    -1.067683887
+   9    O        0.249902965    -2.168005555     0.136428255
+  10    S       -1.455475858    -0.616349667     3.001998809
+  11    O       -2.669174610    -0.042453496     3.621067839
+  12    O       -0.186653272    -0.039821113     3.491786967
+  13    O       -1.433415735    -2.196231656     3.536784752
+  14    O       -1.499471998    -0.734973394     1.528268147
+  15    H        0.729232390     0.116168369     1.081705076
+  16    H        2.587791717    -0.846293249    -0.337520681
+  17    H        3.288853570     0.497768211    -2.321159551
+  18    H        1.875994854     2.378241399    -3.113612087
+  19    H       -0.225996325     2.969462043    -1.932104964
+  20    H       -0.967627039     1.635524017     0.055517510
+  21    H       -1.982163478    -2.369577497     4.323512765
+
+
+           Empirical Formula: C6 H7 N O6 S  =    21 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+                  EIGENVALUES  
+ -38.62232 -34.62329 -31.35832 -29.44068 -27.48184 -27.07207 -26.77038 -26.45148
+ -26.39185 -25.47652 -21.93539 -21.62971 -19.31271 -19.23819 -19.13107 -18.85681
+ -18.12769 -16.68306 -16.09135 -15.93166 -15.09932 -15.07216 -14.90205 -14.71837
+ -14.02605 -13.66419 -12.96000 -12.87031 -12.66301 -12.56418 -12.52078 -12.12432
+ -12.07516 -12.02366 -11.64184 -11.53365 -11.27087 -10.79885 -10.59363  -2.85454
+  -0.62840  -0.54662  -0.33084   1.19548   1.34591   1.78239   3.21278   3.54809
+   3.62136   3.88693   3.99801   4.32857   4.37507   4.39291   4.42198   4.64162
+   5.07338   5.28682   5.39083   5.42140   5.71752   5.72733   5.77585   5.99391
+   6.02203   6.65438   7.26088   7.35062
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1          C(HETATM    1  C   HET A   1)          -0.349394        4.3494     1.11497     3.23443
+    2          C(HETATM    2  C   HET A   1)           0.031915        3.9681     1.11842     2.84967
+    3          C(HETATM    3  C   HET A   1)          -0.266181        4.2662     1.08676     3.17942
+    4          C(HETATM    4  C   HET A   1)           0.086647        3.9134     1.12173     2.79162
+    5          C(HETATM    5  C   HET A   1)          -0.267039        4.2670     1.08732     3.17972
+    6          C(HETATM    6  C   HET A   1)           0.064137        3.9359     1.11918     2.81668
+    7          N(HETATM    7  N   HET A   1)           0.739445        4.2606     1.46425     2.79630
+    8          O(HETATM    8  O   HET A   1)          -0.132992        6.1330     1.93041     4.20258
+    9          O(HETATM    9  O   HET A   1)          -0.123153        6.1232     1.93087     4.19228
+   10          S(HETATM   10  S   HET A   1)           2.741056        3.2589     1.07974     1.73799     0.44121
+   11          O(HETATM   11  O   HET A   1)          -1.091204        7.0912     1.90007     5.19113
+   12          O(HETATM   12  O   HET A   1)          -1.082341        7.0823     1.89974     5.18260
+   13          O(HETATM   13  O   HET A   1)          -0.888237        6.8882     1.84740     5.04083
+   14          O(HETATM   14  O   HET A   1)          -1.086526        7.0865     1.89963     5.18689
+   15          H(HETATM   15  H   HET A   1)           0.257071        0.7429     0.74293
+   16          H(HETATM   16  H   HET A   1)           0.188695        0.8113     0.81131
+   17          H(HETATM   17  H   HET A   1)           0.191316        0.8087     0.80868
+   18          H(HETATM   18  H   HET A   1)           0.180573        0.8194     0.81943
+   19          H(HETATM   19  H   HET A   1)           0.192116        0.8079     0.80788
+   20          H(HETATM   20  H   HET A   1)           0.200570        0.7994     0.79943
+   21          H(HETATM   21  H   HET A   1)           0.413527        0.5865     0.58647
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     8.366     1.486   -15.187    17.402
+ HYBRID         0.037     0.025     0.083     0.094
+ SUM            8.403     1.511   -15.104    17.350
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+   C(HETATM    1  C   HET A   1)   1.11497   1.02608   1.06404   1.14431
+   C(HETATM    2  C   HET A   1)   1.11842   0.95171   0.97825   0.91970
+   C(HETATM    3  C   HET A   1)   1.08676   1.10368   1.02563   1.05011
+   C(HETATM    4  C   HET A   1)   1.12173   0.91996   0.90866   0.96301
+   C(HETATM    5  C   HET A   1)   1.08732   1.04484   1.10053   1.03435
+   C(HETATM    6  C   HET A   1)   1.11918   1.01052   0.88508   0.92108
+   N(HETATM    7  N   HET A   1)   1.46425   0.93879   0.93547   0.92204
+   O(HETATM    8  O   HET A   1)   1.93041   1.17821   1.69975   1.32462
+   O(HETATM    9  O   HET A   1)   1.93087   1.53622   1.18464   1.47142
+   S(HETATM   10  S   HET A   1)   1.07974   0.58941   0.56200   0.58658   0.08837   0.09913   0.11498   0.06285   0.07588
+   O(HETATM   11  O   HET A   1)   1.90007   1.57332   1.81268   1.80514
+   O(HETATM   12  O   HET A   1)   1.89974   1.53944   1.80508   1.83809
+   O(HETATM   13  O   HET A   1)   1.84740   1.80559   1.59188   1.64336
+   O(HETATM   14  O   HET A   1)   1.89963   1.89194   1.87659   1.41836
+   H(HETATM   15  H   HET A   1)   0.74293
+   H(HETATM   16  H   HET A   1)   0.81131
+   H(HETATM   17  H   HET A   1)   0.80868
+   H(HETATM   18  H   HET A   1)   0.81943
+   H(HETATM   19  H   HET A   1)   0.80788
+   H(HETATM   20  H   HET A   1)   0.79943
+   H(HETATM   21  H   HET A   1)   0.58647
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.323W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.323W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Nov 19 12:56:37 2015  *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  IRC=N      - INTRINSIC REACTION COORDINATE -1 DEFINED
+ *  DRC        - DYNAMIC REACTION COORDINATE CALCULATION
+ *  OLDGEO     - PREVIOUS GEOMETRY TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  CYCLES=    - DO A MAXIMUM OF   300 STEPS
+ *  T-PRIOR    - TIME TAKES PRIORITY IN DRC
+ *******************************************************************************
+oldgeo eps=78.4 IRC=-1* HTML T-priority=1 DRC cycles=300
+ DRC for the reaction Benzene + NO2(+) <=> Nitrobenzene + H(+)
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C   HET A   1)    0.73278128  *   0.26654830  *  -0.03195618  *
+     2       C(HETATM    2  C   HET A   1)    1.96513342  *  -0.01963727  *  -0.70582474  *
+     3       C(HETATM    3  C   HET A   1)    2.35547214  *   0.72556010  *  -1.79797062  *
+     4       C(HETATM    4  C   HET A   1)    1.55919537  *   1.79175923  *  -2.24077738  *
+     5       C(HETATM    5  C   HET A   1)    0.36788253  *   2.12214383  *  -1.57660533  *
+     6       C(HETATM    6  C   HET A   1)   -0.04027918  *   1.38959632  *  -0.48345246  *
+     7       N(HETATM    7  N   HET A   1)   -0.28758008  *  -1.27347224  *  -0.38135791  *
+     8       O(HETATM    8  O   HET A   1)   -1.18168108  *  -0.98107719  *  -1.06768389  *
+     9       O(HETATM    9  O   HET A   1)    0.24990296  *  -2.16800556  *   0.13642825  *
+    10       S(HETATM   10  S   HET A   1)   -1.45547586  *  -0.61634967  *   3.00199881  *
+    11       O(HETATM   11  O   HET A   1)   -2.66917461  *  -0.04245350  *   3.62106784  *
+    12       O(HETATM   12  O   HET A   1)   -0.18665327  *  -0.03982111  *   3.49178697  *
+    13       O(HETATM   13  O   HET A   1)   -1.43341574  *  -2.19623166  *   3.53678475  *
+    14       O(HETATM   14  O   HET A   1)   -1.49947200  *  -0.73497339  *   1.52826815  *
+    15       H(HETATM   15 1HT  HET A   1)    0.72923239  *   0.11616837  *   1.08170508  *
+    16       H(HETATM   16 2HT  HET A   1)    2.58779172  *  -0.84629325  *  -0.33752068  *
+    17       H(HETATM   17 3HT  HET A   1)    3.28885357  *   0.49776821  *  -2.32115955  *
+    18       H(HETATM   18 4HT  HET A   1)    1.87599485  *   2.37824140  *  -3.11361209  *
+    19       H(HETATM   19 5HT  HET A   1)   -0.22599633  *   2.96946204  *  -1.93210496  *
+    20       H(HETATM   20 6HT  HET A   1)   -0.96762704  *   1.63552402  *   0.05551751  *
+    21       H(HETATM   21  H   HET A   1)   -1.98216348  *  -2.36957750  *   4.32351276  *
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C6 H7 N O6 S  =    21 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS =   39
+
+
+
+          HEAT OF FORMATION =    -120.505437 KCALS/MOLE
+
+
+          GRADIENT NORM =   2.48101
+
+
+          TIME FOR SCF CALCULATION =    0.03
+
+          TIME FOR DERIVATIVES     =    0.02
+
+          MOLECULAR WEIGHT =  221.18
+
+
+          ESTIMATED TIME TO COMPLETE CALCULATION =        5.91 SECONDS
+
+    FOR POINT-GROUP C1   THERE ARE   1 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.05 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.91
+ STEP:   2 TIME =     0.05 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.86
+ STEP:   3 TIME =     0.03 SECS, INTEGRAL =      0.12 TIME LEFT: 172799.83
+ STEP:   4 TIME =     0.05 SECS, INTEGRAL =      0.17 TIME LEFT: 172799.78
+ STEP:   5 TIME =     0.05 SECS, INTEGRAL =      0.22 TIME LEFT: 172799.73
+ STEP:   6 TIME =     0.05 SECS, INTEGRAL =      0.27 TIME LEFT: 172799.69
+ STEP:   7 TIME =     0.05 SECS, INTEGRAL =      0.31 TIME LEFT: 172799.64
+ STEP:   8 TIME =     0.05 SECS, INTEGRAL =      0.36 TIME LEFT: 172799.59
+ STEP:   9 TIME =     0.05 SECS, INTEGRAL =      0.41 TIME LEFT: 172799.55
+ STEP:  10 TIME =     0.05 SECS, INTEGRAL =      0.45 TIME LEFT: 172799.50
+ STEP:  11 TIME =     0.03 SECS, INTEGRAL =      0.48 TIME LEFT: 172799.47
+ STEP:  12 TIME =     0.05 SECS, INTEGRAL =      0.53 TIME LEFT: 172799.42
+ STEP:  13 TIME =     0.05 SECS, INTEGRAL =      0.58 TIME LEFT: 172799.38
+ STEP:  14 TIME =     0.03 SECS, INTEGRAL =      0.61 TIME LEFT: 172799.34
+ STEP:  15 TIME =     0.05 SECS, INTEGRAL =      0.66 TIME LEFT: 172799.30
+ STEP:  16 TIME =     0.05 SECS, INTEGRAL =      0.70 TIME LEFT: 172799.25
+ STEP:  17 TIME =     0.05 SECS, INTEGRAL =      0.75 TIME LEFT: 172799.20
+ STEP:  18 TIME =     0.05 SECS, INTEGRAL =      0.80 TIME LEFT: 172799.16
+ STEP:  19 TIME =     0.03 SECS, INTEGRAL =      0.83 TIME LEFT: 172799.12
+ STEP:  20 TIME =     0.05 SECS, INTEGRAL =      0.88 TIME LEFT: 172799.08
+ STEP:  21 TIME =     0.03 SECS, INTEGRAL =      0.91 TIME LEFT: 172799.05
+ STEP:  22 TIME =     0.05 SECS, INTEGRAL =      0.95 TIME LEFT: 172799.00
+ STEP:  23 TIME =     0.05 SECS, INTEGRAL =      1.00 TIME LEFT: 172798.95
+ STEP:  24 TIME =     0.03 SECS, INTEGRAL =      1.03 TIME LEFT: 172798.92
+ STEP:  25 TIME =     0.05 SECS, INTEGRAL =      1.08 TIME LEFT: 172798.88
+ STEP:  26 TIME =     0.03 SECS, INTEGRAL =      1.11 TIME LEFT: 172798.84
+ STEP:  27 TIME =     0.05 SECS, INTEGRAL =      1.16 TIME LEFT: 172798.80
+ STEP:  28 TIME =     0.05 SECS, INTEGRAL =      1.20 TIME LEFT: 172798.75
+ STEP:  29 TIME =     0.03 SECS, INTEGRAL =      1.23 TIME LEFT: 172798.72
+ STEP:  30 TIME =     0.05 SECS, INTEGRAL =      1.28 TIME LEFT: 172798.67
+ STEP:  31 TIME =     0.05 SECS, INTEGRAL =      1.33 TIME LEFT: 172798.62
+ STEP:  32 TIME =     0.03 SECS, INTEGRAL =      1.36 TIME LEFT: 172798.59
+ STEP:  33 TIME =     0.05 SECS, INTEGRAL =      1.41 TIME LEFT: 172798.55
+ STEP:  34 TIME =     0.03 SECS, INTEGRAL =      1.43 TIME LEFT: 172798.52
+ STEP:  35 TIME =     0.05 SECS, INTEGRAL =      1.48 TIME LEFT: 172798.47
+ STEP:  36 TIME =     0.05 SECS, INTEGRAL =      1.53 TIME LEFT: 172798.42
+ STEP:  37 TIME =     0.03 SECS, INTEGRAL =      1.56 TIME LEFT: 172798.39
+ STEP:  38 TIME =     0.05 SECS, INTEGRAL =      1.61 TIME LEFT: 172798.34
+ STEP:  39 TIME =     0.03 SECS, INTEGRAL =      1.64 TIME LEFT: 172798.32
+ STEP:  40 TIME =     0.05 SECS, INTEGRAL =      1.68 TIME LEFT: 172798.27
+ STEP:  41 TIME =     0.05 SECS, INTEGRAL =      1.73 TIME LEFT: 172798.22
+ STEP:  42 TIME =     0.05 SECS, INTEGRAL =      1.78 TIME LEFT: 172798.17
+ STEP:  43 TIME =     0.03 SECS, INTEGRAL =      1.81 TIME LEFT: 172798.14
+ STEP:  44 TIME =     0.05 SECS, INTEGRAL =      1.86 TIME LEFT: 172798.09
+ STEP:  45 TIME =     0.04 SECS, INTEGRAL =      1.90 TIME LEFT: 172798.05
+ STEP:  46 TIME =     0.05 SECS, INTEGRAL =      1.95 TIME LEFT: 172798.00
+ STEP:  47 TIME =     0.03 SECS, INTEGRAL =      1.98 TIME LEFT: 172797.97
+ STEP:  48 TIME =     0.05 SECS, INTEGRAL =      2.03 TIME LEFT: 172797.93
+ STEP:  49 TIME =     0.03 SECS, INTEGRAL =      2.06 TIME LEFT: 172797.89
+ STEP:  50 TIME =     0.05 SECS, INTEGRAL =      2.11 TIME LEFT: 172797.85
+ STEP:  51 TIME =     0.05 SECS, INTEGRAL =      2.15 TIME LEFT: 172797.80
+ STEP:  52 TIME =     0.03 SECS, INTEGRAL =      2.18 TIME LEFT: 172797.77
+ STEP:  53 TIME =     0.05 SECS, INTEGRAL =      2.23 TIME LEFT: 172797.72
+ STEP:  54 TIME =     0.05 SECS, INTEGRAL =      2.28 TIME LEFT: 172797.68
+ STEP:  55 TIME =     0.03 SECS, INTEGRAL =      2.31 TIME LEFT: 172797.64
+ STEP:  56 TIME =     0.05 SECS, INTEGRAL =      2.36 TIME LEFT: 172797.60
+ STEP:  57 TIME =     0.03 SECS, INTEGRAL =      2.39 TIME LEFT: 172797.57
+ STEP:  58 TIME =     0.05 SECS, INTEGRAL =      2.43 TIME LEFT: 172797.52
+ STEP:  59 TIME =     0.05 SECS, INTEGRAL =      2.48 TIME LEFT: 172797.47
+ STEP:  60 TIME =     0.05 SECS, INTEGRAL =      2.53 TIME LEFT: 172797.43
+ STEP:  61 TIME =     0.03 SECS, INTEGRAL =      2.56 TIME LEFT: 172797.39
+ STEP:  62 TIME =     0.05 SECS, INTEGRAL =      2.61 TIME LEFT: 172797.35
+ STEP:  63 TIME =     0.03 SECS, INTEGRAL =      2.64 TIME LEFT: 172797.32
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+        -0.04265        -0.07313        -0.17323
+         0.03156        -0.00572        -0.02451
+         0.00163        -0.01851         0.01141
+        -0.00167        -0.00236        -0.00105
+        -0.01399        -0.00821         0.00926
+        -0.01554         0.01816        -0.02995
+         0.04276         0.09834         0.23426
+         0.00588        -0.03273        -0.02485
+        -0.01290         0.01146        -0.03394
+         0.00121        -0.00200         0.00024
+         0.00096        -0.00054        -0.00139
+         0.00119        -0.00052        -0.00169
+         0.00017        -0.00039        -0.00204
+        -0.00743         0.00477         0.00392
+         0.03663         0.04874         0.15097
+         0.02666        -0.02038        -0.00741
+         0.01222        -0.00228         0.03687
+        -0.00395         0.00779        -0.01960
+        -0.00371         0.00365         0.03326
+        -0.02364         0.01511        -0.02459
+         0.00032        -0.00084        -0.00079
+ THE VIBRATIONAL FREQUENCY (  -747.35CM(-1)) IS TOO SMALL
+ FOR ONE QUANTUM TO BE USED
+ INSTEAD 0.3KCAL/MOLE WILL BE USED TO START THE IRC
+
+ TIME PRIORITY, INTERVAL = 1.00 FEMTOSECONDS
+
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.000       1  -120.50544    0.30000  -120.20544   0.00000     1   %  0.0000
+     1.000       1  -120.50146    0.29590  -120.20555  -0.00012     2   %  0.0129
+     2.000       1  -120.52335    0.31373  -120.20962  -0.00418     3   %  0.0266
+     3.000       1  -120.57110    0.35347  -120.21764  -0.01220     4   %  0.0412
+     4.000       2  -120.64472    0.41512  -120.22960  -0.02416     5   %  0.0565
+     5.000       3  -120.75686    0.50193  -120.25493  -0.04950     6   %  0.0730
+     6.000       3  -120.89049    0.64192  -120.24857  -0.04313     7   %  0.0913
+     7.000       4  -121.00747    0.84780  -120.15967   0.04577     8   %  0.1108
+     8.000       4  -121.22220    1.08143  -120.14077   0.06467     9   %  0.1336
+     9.000       5  -121.55240    1.26884  -120.28356  -0.07812    10   %  0.1598
+    10.000       5  -121.94495    1.63194  -120.31301  -0.10757    11   %  0.1894
+    12.000       7  -122.96309    2.80599  -120.15711   0.04834    12   %  0.2598
+    13.000       7  -123.77240    3.47491  -120.29749  -0.09204    13   %  0.3031
+    14.000       8  -124.75240    4.46608  -120.28632  -0.08086    14   %  0.3513
+    15.000       8  -125.89173    5.67212  -120.21961  -0.01415    15   %  0.4051
+    16.000       9  -127.20399    7.00970  -120.19429   0.01117    16   %  0.4659
+    17.000       9  -128.63647    8.44882  -120.18765   0.01782    17   %  0.5320
+    18.000      10  -130.20923   10.02420  -120.18503   0.02045    18   %  0.6028
+    19.000      10  -131.81232   11.62160  -120.19071   0.01477    19   %  0.6777
+    20.000      11  -133.39580   13.19744  -120.19836   0.00714    20   %  0.7563
+    21.000      12  -134.94009   14.66088  -120.27921  -0.07371    21   %  0.8384
+    22.000      13  -136.21569   16.05987  -120.15582   0.04969    22   %  0.9232
+    23.000      14  -137.38848   17.13398  -120.25449  -0.04897    23   %  1.0095
+    24.000      16  -138.50527   18.16228  -120.34299  -0.13745    24   %  1.0959
+    25.000      17  -139.26644   19.03415  -120.23229  -0.02674    25   %  1.1825
+    26.000      19  -139.74040   19.50142  -120.23898  -0.03342    26   %  1.2688
+    27.000      20  -139.80604   19.65801  -120.14802   0.05756    27   %  1.3542
+    28.000      22  -139.63651   19.44392  -120.19259   0.01300    28   %  1.4378
+    29.000      24  -139.34260   19.05717  -120.28543  -0.07983    29   %  1.5183
+    30.000      25  -138.96014   18.70361  -120.25653  -0.05091    30   %  1.5954
+    31.000      27  -138.55985   18.25376  -120.30609  -0.10046    31   %  1.6696
+    32.000      28  -138.06937   17.80233  -120.26704  -0.06140    32   %  1.7421
+    33.000      29  -137.51559   17.25627  -120.25932  -0.05366    33   %  1.8166
+    34.000      31  -136.82638   16.65775  -120.16863   0.03704    34   %  1.9119
+    35.000      32  -136.24599   16.04012  -120.20587  -0.00019    35   %  2.0366
+    36.000      34  -135.69248   15.47292  -120.21956  -0.01386    36   %  2.1702
+    37.000      36  -135.11509   14.95055  -120.16454   0.04116    37   %  2.3083
+    38.000      38  -134.60897   14.37901  -120.22996  -0.02425    38   %  2.4509
+    39.000      40  -134.06709   13.85016  -120.21694  -0.01122    39   %  2.5984
+    40.000      43  -133.48180   13.24415  -120.23765  -0.03192    40   %  2.7501
+    41.000      45  -133.05776   12.88515  -120.17261   0.03312    41   %  2.9041
+    42.000      47  -132.92555   12.71594  -120.20961  -0.00386    42   %  3.0590
+    43.000      48  -133.16490   12.95700  -120.20791  -0.00215    43   %  3.2137
+    44.000      50  -133.81784   13.60888  -120.20896  -0.00319    44   %  3.3680
+    45.000      51  -134.77908   14.60812  -120.17096   0.03482    45   %  3.5221
+    46.000      53  -136.10251   15.86758  -120.23493  -0.02914    46   %  3.6759
+    47.000      55  -137.48244   17.31765  -120.16478   0.04101    47   %  3.8292
+    48.000      57  -138.91959   18.73640  -120.18319   0.02262    48   %  3.9813
+    49.000      60  -140.41102   20.15904  -120.25197  -0.04615    49   %  4.1314
+    50.000      62  -141.73604   21.54358  -120.19246   0.01338    50   %  4.2798
+    51.000      65  -142.75620   22.49894  -120.25726  -0.05141    51   %  4.4260
+    52.000      67  -143.61391   23.41959  -120.19432   0.01155    52   %  4.5695
+    53.000      69  -144.04200   23.88257  -120.15943   0.04646    53   %  4.7099
+    54.000      71  -144.42467   24.31356  -120.11111   0.09480    54   %  4.8465
+    55.000      73  -144.71554   24.55803  -120.15752   0.04840    55   %  4.9793
+    56.000      75  -145.37775   25.00391  -120.37383  -0.16789    56   %  5.1085
+    57.000      76  -145.55818   25.39616  -120.16202   0.04393    57   %  5.2355
+    58.000      78  -145.78839   25.51698  -120.27141  -0.06544    58   %  5.3604
+    59.000      79  -145.68647   25.71889  -119.96759   0.23841    59   %  5.4837
+    60.000      81  -145.57678   25.47711  -120.09967   0.10634    60   %  5.6060
+    61.000      83  -145.57805   25.34558  -120.23246  -0.02644    61   %  5.7279
+    62.000      85  -145.20757   25.02825  -120.17932   0.02672    62   %  5.8511
+    63.000      88  -144.80438   24.44526  -120.35912  -0.15306    63   %  5.9763
+    64.000      90  -143.93292   23.73472  -120.19820   0.00788    64   %  6.1047
+    65.000      92  -142.80153   22.59730  -120.20423   0.00186    65   %  6.2363
+    66.000      95  -141.43559   21.28533  -120.15026   0.05584    66   %  6.3711
+    67.000      97  -140.30977   20.05941  -120.25036  -0.04424    67   %  6.5090
+    68.000      99  -139.15178   18.96352  -120.18826   0.01788    68   %  6.6508
+    69.000     100  -138.18737   17.96777  -120.21959  -0.01344    69   %  6.7968
+    70.000     102  -137.41549   17.15590  -120.25959  -0.05343    70   %  6.9470
+    71.000     104  -136.85308   16.66842  -120.18467   0.02151    71   %  7.1014
+    72.000     105  -136.67433   16.40005  -120.27428  -0.06810    72   %  7.2599
+    73.000     106  -136.74976   16.51851  -120.23124  -0.02505    73   %  7.4221
+    74.000     108  -136.91709   16.72976  -120.18732   0.01888    74   %  7.5885
+    75.000     110  -137.21874   17.03739  -120.18135   0.02487    75   %  7.7583
+    76.000     112  -137.63150   17.38573  -120.24577  -0.03954    76   %  7.9315
+    77.000     114  -138.09541   17.94645  -120.14896   0.05728    77   %  8.1072
+    78.000     115  -138.82097   18.60383  -120.21714  -0.01088    78   %  8.2848
+    79.000     117  -139.82595   19.51514  -120.31080  -0.10453    79   %  8.4636
+    80.000     118  -140.74998   20.70309  -120.04690   0.15938    80   %  8.6429
+    81.000     120  -141.88816   21.60547  -120.28269  -0.07639    81   %  8.8224
+    82.000     121  -143.00727   22.77697  -120.23030  -0.02399    82   %  9.0003
+    83.000     122  -144.09545   23.87041  -120.22504  -0.01871    83   %  9.1763
+    84.000     123  -145.22499   24.92354  -120.30144  -0.09510    84   %  9.3496
+    85.000     124  -146.17448   25.96103  -120.21345  -0.00708    85   %  9.5196
+    86.000     126  -146.87098   26.66328  -120.20770  -0.00132    86   %  9.6862
+    87.000     128  -147.22501   27.05673  -120.16828   0.03813    87   %  9.8491
+    88.000     129  -147.34650   27.11185  -120.23465  -0.02823    88   % 10.0078
+    89.000     131  -147.21273   26.95463  -120.25810  -0.05166    89   % 10.1624
+    90.000     132  -147.13368   26.71451  -120.41917  -0.21271    90   % 10.3125
+    91.000     133  -146.68322   26.41847  -120.26475  -0.05827    91   % 10.4588
+    92.000     135  -145.87195   25.70576  -120.16619   0.04031    92   % 10.6016
+    93.000     136  -144.90415   24.68249  -120.22165  -0.01514    93   % 10.7405
+    94.000     137  -143.86396   23.54848  -120.31549  -0.10896    94   % 10.8761
+    95.000     139  -142.63304   22.42995  -120.20309   0.00345    95   % 11.0087
+    96.000     140  -141.44512   21.26307  -120.18205   0.02451    96   % 11.1390
+    97.000     141  -140.36054   20.15703  -120.20350   0.00307    97   % 11.2674
+    98.000     142  -139.45976   19.16103  -120.29873  -0.09215    98   % 11.3947
+    99.000     143  -138.53113   18.33925  -120.19187   0.01473    99   % 11.5219
+   100.000     145  -137.74175   17.51023  -120.23152  -0.02491   100   % 11.6500
+   101.000     146  -137.13344   16.92882  -120.20462   0.00201   101   % 11.7794
+   102.000     147  -136.78619   16.56662  -120.21957  -0.01293   102   % 11.9107
+   103.000     149  -136.53872   16.38991  -120.14880   0.05784   103   % 12.0444
+   104.000     151  -136.56726   16.35984  -120.20742  -0.00076   104   % 12.1807
+   105.000     152  -136.78386   16.56342  -120.22043  -0.01377   105   % 12.3197
+   106.000     154  -137.19303   16.96576  -120.22727  -0.02059   106   % 12.4620
+   107.000     155  -137.90385   17.66653  -120.23732  -0.03062   107   % 12.6074
+   108.000     156  -138.93215   18.72962  -120.20254   0.00417   108   % 12.7557
+   109.000     158  -140.24652   20.03002  -120.21649  -0.00977   109   % 12.9072
+   110.000     159  -141.66846   21.45592  -120.21254  -0.00581   110   % 13.0618
+   111.000     161  -143.11976   22.90407  -120.21569  -0.00894   111   % 13.2195
+   112.000     163  -144.24933   24.24535  -120.00398   0.20279   112   % 13.3804
+   113.000     165  -145.44979   25.25141  -120.19838   0.00840   113   % 13.5435
+   114.000     167  -146.47157   26.25460  -120.21697  -0.01017   114   % 13.7077
+   115.000     169  -147.26765   27.00346  -120.26419  -0.05737   115   % 13.8721
+   116.000     171  -147.65858   27.47358  -120.18500   0.02184   116   % 14.0352
+   117.000     174  -147.75192   27.53554  -120.21638  -0.00952   117   % 14.1954
+   118.000     176  -147.53283   27.31015  -120.22269  -0.01581   118   % 14.3513
+   119.000     178  -147.04233   26.85322  -120.18912   0.01778   119   % 14.5018
+   120.000     180  -146.41559   26.30645  -120.10914   0.09778   120   % 14.6459
+   121.000     181  -145.89760   25.69140  -120.20620   0.00073   121   % 14.7833
+   122.000     183  -145.29247   25.13493  -120.15754   0.04941   122   % 14.9148
+   123.000     184  -144.64461   24.32557  -120.31904  -0.11208   123   % 15.0412
+   124.000     186  -143.90919   23.70132  -120.20787  -0.00089   124   % 15.1633
+   125.000     188  -143.23404   22.98517  -120.24886  -0.04186   125   % 15.2821
+   126.000     190  -142.56420   22.34588  -120.21832  -0.01130   126   % 15.3982
+   127.000     193  -141.63325   21.40519  -120.22806  -0.02103   127   % 15.5118
+   128.000     196  -140.60108   20.37946  -120.22162  -0.01458   128   % 15.6226
+   129.000     199  -139.24022   19.06055  -120.17967   0.02739   129   % 15.7308
+   130.000     202  -137.86369   17.70106  -120.16262   0.04445   130   % 15.8363
+   131.000     204  -136.56011   16.35667  -120.20345   0.00363   131   % 15.9397
+   132.000     206  -135.66493   15.43606  -120.22887  -0.02177   132   % 16.0419
+   133.000     208  -135.03711   14.80889  -120.22822  -0.02111   133   % 16.1446
+   134.000     210  -134.68453   14.50735  -120.17719   0.02993   134   % 16.2493
+   135.000     212  -134.69984   14.52589  -120.17396   0.03317   135   % 16.3578
+   136.000     213  -134.92232   14.77741  -120.14491   0.06222   136   % 16.4718
+   137.000     215  -135.62061   15.41867  -120.20193   0.00521   137   % 16.5923
+   138.000     218  -136.43051   16.24837  -120.18214   0.02501   138   % 16.7206
+   139.000     220  -137.48237   17.24739  -120.23498  -0.02781   139   % 16.8565
+   140.000     223  -138.40194   18.18073  -120.22121  -0.01403   140   % 16.9998
+   141.000     226  -139.27328   19.00680  -120.26649  -0.05929   141   % 17.1493
+   142.000     228  -139.98280   19.81934  -120.16346   0.04375   142   % 17.3040
+   143.000     230  -140.75808   20.51481  -120.24327  -0.03605   143   % 17.4629
+   144.000     232  -141.79989   21.51643  -120.28346  -0.07622   144   % 17.6248
+   145.000     234  -142.93542   22.66308  -120.27234  -0.06509   145   % 17.7904
+   146.000     235  -144.15487   23.79989  -120.35497  -0.14771   146   % 17.9599
+   147.000     237  -145.12892   24.91151  -120.21741  -0.01012   147   % 18.1338
+   148.000     239  -145.92931   25.71866  -120.21065  -0.00335   148   % 18.3124
+   149.000     240  -146.76417   26.50529  -120.25888  -0.05156   149   % 18.4948
+   150.000     242  -147.33176   27.15815  -120.17361   0.03373   150   % 18.6806
+   151.000     244  -147.74907   27.47540  -120.27368  -0.06632   151   % 18.8680
+   152.000     246  -147.81679   27.56611  -120.25068  -0.04331   152   % 19.0550
+   153.000     248  -147.37055   27.17817  -120.19238   0.01501   153   % 19.2399
+   154.000     250  -146.63449   26.44297  -120.19152   0.01589   154   % 19.4208
+   155.000     252  -145.64113   25.38604  -120.25509  -0.04766   155   % 19.5966
+   156.000     253  -144.48263   24.28476  -120.19787   0.00958   156   % 19.7667
+   157.000     255  -143.26165   23.04758  -120.21407  -0.00661   157   % 19.9316
+   158.000     256  -141.90757   21.69331  -120.21425  -0.00677   158   % 20.0923
+   159.000     258  -140.52647   20.28388  -120.24260  -0.03510   159   % 20.2498
+   160.000     259  -139.19923   18.97313  -120.22610  -0.01859   160   % 20.4054
+   161.000     260  -138.08763   17.86300  -120.22464  -0.01712   161   % 20.5600
+   162.000     261  -137.24336   17.05229  -120.19107   0.01646   162   % 20.7136
+   163.000     262  -136.73875   16.44760  -120.29115  -0.08361   163   % 20.8655
+   164.000     264  -136.38190   16.11443  -120.26747  -0.05992   164   % 21.0149
+   165.000     266  -136.16989   15.92291  -120.24699  -0.03942   165   % 21.1611
+   166.000     267  -136.13957   15.96491  -120.17466   0.03291   166   % 21.3032
+   167.000     268  -136.40280   16.22455  -120.17825   0.02934   167   % 21.4410
+   168.000     270  -137.01816   16.83911  -120.17905   0.02855   168   % 21.5745
+   169.000     271  -137.85500   17.67376  -120.18124   0.02637   169   % 21.7051
+   170.000     272  -138.76191   18.57729  -120.18462   0.02301   170   % 21.8343
+   171.000     274  -139.75081   19.51760  -120.23321  -0.02557   171   % 21.9637
+   172.000     275  -140.68378   20.57931  -120.10446   0.10319   172   % 22.0951
+   173.000     277  -141.84914   21.65739  -120.19175   0.01591   173   % 22.2291
+   174.000     278  -143.10105   22.91976  -120.18129   0.02639   174   % 22.3657
+   175.000     279  -144.28522   24.09163  -120.19359   0.01411   175   % 22.5044
+   176.000     281  -145.30944   25.04352  -120.26591  -0.05820   176   % 22.6441
+   177.000     283  -146.01756   25.81548  -120.20208   0.00565   177   % 22.7839
+   178.000     284  -146.54331   26.36452  -120.17879   0.02896   178   % 22.9230
+   179.000     286  -146.91388   26.69211  -120.22176  -0.01399   179   % 23.0613
+   180.000     288  -147.20084   26.97451  -120.22634  -0.01855   180   % 23.1988
+   181.000     290  -146.99831   26.85680  -120.14152   0.06629   181   % 23.3369
+   182.000     292  -146.47511   26.28168  -120.19342   0.01440   182   % 23.4764
+   183.000     294  -145.62222   25.35164  -120.27058  -0.06274   183   % 23.6186
+   184.000     296  -144.71252   24.47706  -120.23546  -0.02760   184   % 23.7642
+   185.000     297  -143.64815   23.53558  -120.11256   0.09532   185   % 23.9138
+   186.000     299  -142.98998   22.57771  -120.41226  -0.20437   186   % 24.0664
+   187.000     301  -141.88043   21.83750  -120.04293   0.16498   187   % 24.2213
+   188.000     303  -140.54832   20.35148  -120.19683   0.01109   188   % 24.3768
+   189.000     305  -139.52156   19.27281  -120.24875  -0.04081   189   % 24.5296
+   190.000     307  -138.32064   18.16502  -120.15562   0.05233   190   % 24.6801
+   191.000     309  -137.26836   17.23339  -120.03497   0.17299   191   % 24.8271
+   192.000     311  -136.26617   16.08464  -120.18153   0.02644   192   % 24.9706
+   193.000     314  -135.55723   15.36327  -120.19396   0.01403   193   % 25.1111
+   194.000     317  -134.75315   14.56580  -120.18735   0.02064   194   % 25.2511
+   195.000     319  -134.05823   13.85334  -120.20489   0.00311   195   % 25.3918
+   196.000     321  -133.67276   13.43963  -120.23313  -0.02512   196   % 25.5344
+   197.000     323  -133.83178   13.60452  -120.22726  -0.01924   197   % 25.6790
+   198.000     325  -134.49032   14.29046  -120.19986   0.00817   198   % 25.8256
+   199.000     327  -135.66249   15.35877  -120.30372  -0.09568   199   % 25.9727
+   200.000     329  -136.88438   16.71010  -120.17428   0.03378   200   % 26.1187
+   201.000     331  -138.16193   18.01537  -120.14657   0.06150   201   % 26.2619
+   202.000     333  -139.58649   19.36513  -120.22137  -0.01329   202   % 26.4006
+   203.000     336  -141.09684   20.90048  -120.19636   0.01173   203   % 26.5346
+   204.000     339  -142.46360   22.25599  -120.20761   0.00050   204   % 26.6650
+   205.000     342  -143.71853   23.38414  -120.33439  -0.12626   205   % 26.7932
+   206.000     344  -144.49456   24.33244  -120.16211   0.04603   206   % 26.9216
+   207.000     347  -144.85698   24.69617  -120.16080   0.04735   207   % 27.0522
+   208.000     349  -145.17121   24.93365  -120.23756  -0.02938   208   % 27.1864
+   209.000     351  -145.54528   25.26592  -120.27936  -0.07117   209   % 27.3253
+   210.000     353  -146.15143   25.79797  -120.35345  -0.14524   210   % 27.4685
+   211.000     355  -146.40737   26.27933  -120.12804   0.08019   211   % 27.6156
+   212.000     357  -146.58933   26.39236  -120.19696   0.01128   212   % 27.7644
+   213.000     360  -146.54177   26.25733  -120.28444  -0.07617   213   % 27.9133
+   214.000     362  -146.31862   26.11382  -120.20480   0.00349   214   % 28.0614
+   215.000     364  -146.03732   25.86829  -120.16903   0.03927   215   % 28.2083
+   216.000     367  -145.47419   25.30401  -120.17018   0.03814   216   % 28.3545
+   217.000     369  -144.84029   24.55435  -120.28594  -0.07761   217   % 28.5011
+   218.000     372  -143.74809   23.52027  -120.22783  -0.01947   218   % 28.6503
+   219.000     375  -142.16709   22.00554  -120.16156   0.04681   219   % 28.8039
+   220.000     377  -140.52334   20.29258  -120.23076  -0.02238   220   % 28.9627
+   221.000     379  -138.91649   18.71245  -120.20404   0.00436   221   % 29.1269
+   222.000     381  -137.66727   17.45493  -120.21233  -0.00393   222   % 29.2952
+   223.000     383  -136.39298   16.22590  -120.16708   0.04134   223   % 29.4663
+   224.000     385  -135.25301   15.04478  -120.20823   0.00020   224   % 29.6368
+   225.000     386  -134.52317   14.13522  -120.38796  -0.17952   225   % 29.8039
+   226.000     388  -133.99830   13.80039  -120.19791   0.01054   226   % 29.9660
+   227.000     389  -133.89602   13.70846  -120.18756   0.02090   227   % 30.1229
+   228.000     391  -134.15059   13.96216  -120.18843   0.02004   228   % 30.2736
+   229.000     393  -134.73773   14.47644  -120.26128  -0.05280   229   % 30.4193
+   230.000     395  -135.28148   15.08442  -120.19706   0.01143   230   % 30.5622
+   231.000     397  -135.87060   15.68395  -120.18665   0.02185   231   % 30.7044
+   232.000     399  -136.70361   16.48047  -120.22315  -0.01464   232   % 30.8471
+   233.000     400  -137.71572   17.56476  -120.15096   0.05757   233   % 30.9912
+   234.000     402  -139.00657   18.82365  -120.18292   0.02562   234   % 31.1360
+   235.000     404  -140.24763   20.09201  -120.15563   0.05292   235   % 31.2797
+   236.000     405  -141.45974   21.26635  -120.19340   0.01517   236   % 31.4201
+   237.000     407  -142.57653   22.40359  -120.17293   0.03565   237   % 31.5552
+   238.000     409  -143.74461   23.53020  -120.21441  -0.00582   238   % 31.6839
+   239.000     410  -144.99487   24.69415  -120.30072  -0.09211   239   % 31.8063
+   240.000     411  -146.22897   26.01307  -120.21590  -0.00726   240   % 31.9237
+   241.000     413  -147.04425   26.94305  -120.10120   0.10745   241   % 32.0389
+   242.000     418  -147.64321   27.44482  -120.19839   0.01027   242   % 32.1544
+   243.000     426  -147.17836   26.95632  -120.22204  -0.01335   243   % 32.2729
+   244.000     432  -146.40105   26.24986  -120.15119   0.05752   244   % 32.3963
+   245.000     437  -145.92493   25.72404  -120.20089   0.00784   245   % 32.5243
+   246.000     440  -145.48348   25.35990  -120.12358   0.08517   246   % 32.6563
+   247.000     444  -144.66537   24.45311  -120.21226  -0.00350   247   % 32.7903
+   248.000     448  -143.47889   23.31302  -120.16587   0.04291   248   % 32.9236
+   249.000     451  -142.10768   21.90955  -120.19813   0.01067   249   % 33.0536
+   250.000     454  -140.91429   20.60001  -120.31427  -0.10547   250   % 33.1794
+   251.000     456  -139.93894   19.69258  -120.24636  -0.03754   251   % 33.3016
+   252.000     459  -138.82591   18.64095  -120.18496   0.02387   252   % 33.4219
+   253.000     461  -137.92474   17.62759  -120.29715  -0.08831   253   % 33.5418
+   254.000     462  -136.90702   16.74322  -120.16380   0.04506   254   % 33.6641
+   255.000     464  -135.94601   15.91852  -120.02750   0.18137   255   % 33.7917
+   256.000     466  -135.57007   15.34839  -120.22168  -0.01280   256   % 33.9262
+   257.000     468  -135.28624   15.12732  -120.15892   0.04997   257   % 34.0687
+   258.000     469  -135.54405   15.30933  -120.23472  -0.02582   258   % 34.2173
+   259.000     471  -136.12222   15.80741  -120.31480  -0.10589   259   % 34.3700
+   260.000     473  -136.45926   16.34324  -120.11602   0.09291   260   % 34.5248
+   261.000     475  -137.16173   16.90650  -120.25523  -0.04630   261   % 34.6783
+   262.000     476  -138.16069   18.00137  -120.15931   0.04963   262   % 34.8291
+   263.000     478  -139.64666   19.32691  -120.31975  -0.11079   263   % 34.9776
+   264.000     479  -141.25914   21.09558  -120.16357   0.04541   264   % 35.1245
+   265.000     481  -142.85888   22.71528  -120.14360   0.06539   265   % 35.2724
+   266.000     484  -143.94069   23.76323  -120.17746   0.03154   266   % 35.4233
+   267.000     486  -144.84099   24.62801  -120.21298  -0.00396   267   % 35.5784
+   268.000     488  -145.73653   25.40986  -120.32666  -0.11762   268   % 35.7389
+   269.000     491  -146.38722   26.16135  -120.22587  -0.01681   269   % 35.9048
+   270.000     493  -146.84206   26.53271  -120.30935  -0.10028   270   % 36.0738
+   271.000     496  -146.67356   26.56389  -120.10967   0.09943   271   % 36.2426
+   272.000     498  -146.42550   26.06287  -120.36263  -0.15352   272   % 36.4071
+   273.000     500  -145.77737   25.71618  -120.06120   0.14793   273   % 36.5650
+   274.000     502  -145.27228   25.17373  -120.09854   0.11060   274   % 36.7148
+   275.000     504  -144.83615   24.53150  -120.30465  -0.09549   275   % 36.8562
+   276.000     506  -144.30412   24.12245  -120.18167   0.02751   276   % 36.9899
+   277.000     508  -143.98685   23.63530  -120.35155  -0.14235   277   % 37.1180
+   278.000     510  -143.44097   23.29160  -120.14937   0.05984   278   % 37.2435
+   279.000     512  -142.64198   22.41860  -120.22339  -0.01416   279   % 37.3689
+   280.000     515  -141.92936   21.70333  -120.22604  -0.01679   280   % 37.4949
+   281.000     517  -141.24747   20.99643  -120.25104  -0.04178   281   % 37.6215
+   282.000     520  -140.37910   20.14606  -120.23304  -0.02377   282   % 37.7471
+   283.000     523  -139.18374   18.97307  -120.21067  -0.00138   283   % 37.8690
+   284.000     526  -137.74932   17.62130  -120.12802   0.08128   284   % 37.9847
+   285.000     529  -136.37398   16.13423  -120.23975  -0.03044   285   % 38.0929
+   286.000     531  -135.25105   15.04370  -120.20734   0.00198   286   % 38.1936
+   287.000     533  -134.71402   14.45160  -120.26242  -0.05309   287   % 38.2884
+   288.000     535  -134.73545   14.45205  -120.28339  -0.07405   288   % 38.3802
+   289.000     536  -135.00519   14.86551  -120.13969   0.06967   289   % 38.4731
+   290.000     539  -135.52515   15.29625  -120.22890  -0.01954   290   % 38.5705
+   291.000     541  -136.28341   16.08608  -120.19733   0.01204   291   % 38.6757
+   292.000     543  -137.19938   17.00029  -120.19909   0.01030   292   % 38.7906
+   293.000     546  -138.19104   18.02659  -120.16445   0.04495   293   % 38.9151
+   294.000     549  -139.49644   19.25189  -120.24455  -0.03514   294   % 39.0468
+   295.000     551  -140.61446   20.34249  -120.27197  -0.06255   295   % 39.1836
+   296.000     554  -141.39824   21.23190  -120.16634   0.04310   296   % 39.3221
+   297.000     557  -142.20927   21.93995  -120.26932  -0.05987   297   % 39.4596
+   298.000     559  -143.08965   22.88608  -120.20357   0.00590   298   % 39.5949
+   299.000     561  -143.96479   23.89064  -120.07416   0.13533   299   % 39.7282
+   300.000     562  -145.28259   24.96729  -120.31530  -0.10580   300   % 39.8606
+
+
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+         0.04265         0.07313         0.17323
+        -0.03156         0.00572         0.02451
+        -0.00163         0.01851        -0.01141
+         0.00167         0.00236         0.00105
+         0.01399         0.00821        -0.00926
+         0.01554        -0.01816         0.02995
+        -0.04276        -0.09834        -0.23426
+        -0.00588         0.03273         0.02485
+         0.01290        -0.01146         0.03394
+        -0.00121         0.00200        -0.00024
+        -0.00096         0.00054         0.00139
+        -0.00119         0.00052         0.00169
+        -0.00017         0.00039         0.00204
+         0.00743        -0.00477        -0.00392
+        -0.03663        -0.04874        -0.15097
+        -0.02666         0.02038         0.00741
+        -0.01222         0.00228        -0.03687
+         0.00395        -0.00779         0.01960
+         0.00371        -0.00365        -0.03326
+         0.02364        -0.01511         0.02459
+        -0.00032         0.00084         0.00079
+ THE VIBRATIONAL FREQUENCY (  -747.35CM(-1)) IS TOO SMALL
+ FOR ONE QUANTUM TO BE USED
+ INSTEAD 0.3KCAL/MOLE WILL BE USED TO START THE IRC
+
+ TIME PRIORITY, INTERVAL = 1.00 FEMTOSECONDS
+
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.000       1  -120.50544    0.30000  -120.20544   0.00000     1   %  0.0000
+     1.000       1  -120.46660    0.28956  -120.17705   0.02839     2   %  0.0127
+     2.000       1  -120.46922    0.29068  -120.17855   0.02689     3   %  0.0258
+     3.000       1  -120.51330    0.30336  -120.20993  -0.00450     4   %  0.0395
+     4.000       2  -120.59882    0.32761  -120.27121  -0.06577     5   %  0.0536
+     5.000       3  -120.57833    0.46019  -120.11814   0.08730     6   %  0.0677
+     6.000       3  -120.62240    0.55653  -120.06587   0.13957     7   %  0.0841
+     7.000       4  -120.75003    0.54239  -120.20764  -0.00220     8   %  0.1031
+     8.000       4  -120.90426    0.64051  -120.26375  -0.05831     9   %  0.1235
+     9.000       5  -121.05640    0.90079  -120.15561   0.04983    10   %  0.1438
+    10.000       5  -121.29254    1.17352  -120.11903   0.08642    11   %  0.1682
+    11.000       6  -121.60316    1.38444  -120.21872  -0.01328    12   %  0.1969
+    12.000       6  -122.01683    1.75631  -120.26052  -0.05508    13   %  0.2288
+    13.000       7  -122.52344    2.32215  -120.20129   0.00415    14   %  0.2629
+    14.000       7  -123.15334    2.98289  -120.17044   0.03500    15   %  0.3025
+    15.000       8  -123.92877    3.72603  -120.20274   0.00271    16   %  0.3478
+    16.000       8  -124.78298    4.58910  -120.19388   0.01157    17   %  0.3985
+    17.000       9  -125.74825    5.64403  -120.10422   0.10124    18   %  0.4546
+    18.000       9  -126.72773    6.67503  -120.05270   0.15276    19   %  0.5157
+    20.000      11  -128.70453    8.59137  -120.11316   0.09231    20   %  0.6530
+    21.000      13  -129.42910    9.22916  -120.19994   0.00554    21   %  0.7275
+    22.000      14  -129.80657    9.60454  -120.20202   0.00347    22   %  0.8048
+    23.000      17  -129.73028    9.51708  -120.21320  -0.00771    23   %  0.8833
+    24.000      20  -129.16777    8.94907  -120.21870  -0.01320    24   %  0.9619
+    25.000      23  -128.04370    7.88093  -120.16277   0.04274    25   %  1.0397
+    26.000      26  -126.47041    6.28821  -120.18219   0.02332    26   %  1.1156
+    27.000      29  -125.08141    4.87736  -120.20405   0.00147    27   %  1.1878
+    28.000      32  -124.14783    3.95817  -120.18966   0.01586    28   %  1.2562
+    29.000      35  -123.84576    3.64074  -120.20502   0.00050    29   %  1.3202
+    30.000      37  -124.11160    3.94179  -120.16981   0.03571    30   %  1.3791
+    31.000      40  -124.91360    4.70889  -120.20471   0.00081    31   %  1.4319
+    32.000      44  -125.86148    5.68592  -120.17556   0.02997    32   %  1.4792
+    33.000      48  -126.72359    6.53707  -120.18652   0.01901    33   %  1.5219
+    34.000      52  -127.40790    7.10653  -120.30137  -0.09583    34   %  1.5615
+    35.000      55  -127.69922    7.48109  -120.21813  -0.01258    35   %  1.5994
+    36.000      58  -127.73071    7.49314  -120.23757  -0.03202    36   %  1.6369
+    37.000      61  -127.73768    7.53738  -120.20030   0.00526    37   %  1.6748
+    38.000      63  -127.70019    7.51455  -120.18564   0.01992    38   %  1.7143
+    39.000      66  -127.68075    7.47019  -120.21056  -0.00499    39   %  1.7562
+    40.000      68  -127.54868    7.31706  -120.23162  -0.02605    40   %  1.8010
+    41.000      71  -127.20876    7.01094  -120.19782   0.00775    41   %  1.8493
+    42.000      74  -126.68503    6.49687  -120.18817   0.01741    42   %  1.9015
+    43.000      77  -126.08991    5.88184  -120.20806  -0.00248    43   %  1.9583
+    44.000      79  -125.46689    5.26783  -120.19906   0.00653    44   %  2.0195
+    45.000      81  -124.99357    4.78166  -120.21191  -0.00632    45   %  2.0834
+    46.000      83  -124.69255    4.46108  -120.23147  -0.02588    46   %  2.1472
+    47.000      85  -124.61700    4.39308  -120.22392  -0.01832    47   %  2.2077
+    48.000      87  -124.72291    4.50710  -120.21581  -0.01021    48   %  2.2626
+    49.000      88  -125.01513    4.82481  -120.19032   0.01528    49   %  2.3102
+    50.000      90  -125.45928    5.27248  -120.18680   0.01881    50   %  2.3493
+    51.000      92  -126.09156    5.83174  -120.25982  -0.05421    51   %  2.3793
+    52.000      94  -126.66382    6.45317  -120.21065  -0.00504    52   %  2.4007
+    53.000      96  -126.91584    6.95918  -119.95667   0.24895    53   %  2.4144
+    54.000      99  -127.21935    7.02906  -120.19030   0.01533    54   %  2.4214
+    55.000     102  -127.27378    7.07282  -120.20097   0.00466    55   %  2.4227
+    56.000     104  -127.16712    6.96205  -120.20507   0.00056    56   %  2.4193
+    57.000     107  -126.93957    6.71957  -120.22000  -0.01436    57   %  2.4116
+    58.000     109  -126.73708    6.53813  -120.19896   0.00668    58   %  2.3999
+    59.000     111  -126.60950    6.36454  -120.24495  -0.03931    59   %  2.3852
+    60.000     113  -126.53794    6.40705  -120.13089   0.07476    60   %  2.3689
+    61.000     114  -126.71589    6.45982  -120.25607  -0.05041    61   %  2.3541
+    62.000     116  -127.01815    6.80479  -120.21336  -0.00770    62   %  2.3449
+    63.000     118  -127.41285    7.19635  -120.21650  -0.01083    63   %  2.3468
+    64.000     121  -127.85023    7.63906  -120.21117  -0.00550    64   %  2.3632
+    65.000     123  -128.22144    8.01842  -120.20302   0.00266    65   %  2.3916
+    66.000     126  -128.48633    8.29200  -120.19433   0.01135    66   %  2.4278
+    67.000     129  -128.64328    8.43303  -120.21025  -0.00456    67   %  2.4703
+    68.000     132  -128.58821    8.42547  -120.16274   0.04296    68   %  2.5202
+    69.000     134  -128.47896    8.28279  -120.19617   0.00953    69   %  2.5790
+    70.000     136  -128.27875    8.08696  -120.19178   0.01392    70   %  2.6481
+    71.000     138  -128.16093    7.97377  -120.18716   0.01855    71   %  2.7276
+    72.000     140  -128.25802    8.02216  -120.23587  -0.03015    72   %  2.8168
+    73.000     141  -128.41060    8.17137  -120.23923  -0.03351    73   %  2.9145
+    74.000     143  -128.63626    8.39818  -120.23808  -0.03235    74   %  3.0184
+    75.000     145  -128.79585    8.54525  -120.25061  -0.04487    75   %  3.1266
+    76.000     147  -128.60804    8.49914  -120.10890   0.09684    76   %  3.2362
+    77.000     149  -128.28149    8.06760  -120.21388  -0.00814    77   %  3.3440
+    78.000     152  -127.92625    7.72282  -120.20343   0.00232    78   %  3.4469
+    79.000     154  -127.55703    7.32295  -120.23408  -0.02832    79   %  3.5439
+    80.000     156  -127.13352    7.01236  -120.12116   0.08461    80   %  3.6334
+    81.000     157  -127.06150    6.77322  -120.28828  -0.08251    81   %  3.7144
+    82.000     159  -126.99421    6.80066  -120.19355   0.01222    82   %  3.7864
+    83.000     160  -127.11490    6.95866  -120.15624   0.04953    83   %  3.8487
+    84.000     162  -127.49505    7.28058  -120.21447  -0.00869    84   %  3.9004
+    85.000     163  -128.07957    7.90145  -120.17812   0.02767    85   %  3.9406
+    86.000     165  -128.79153    8.60331  -120.18822   0.01758    86   %  3.9695
+    87.000     167  -129.43904    9.25876  -120.18029   0.02551    87   %  3.9882
+    88.000     169  -129.93781    9.73862  -120.19918   0.00662    88   %  3.9989
+    89.000     171  -130.12031    9.89367  -120.22664  -0.02083    89   %  4.0063
+    90.000     173  -129.82864    9.58117  -120.24748  -0.04166    90   %  4.0191
+    91.000     175  -129.19828    8.98839  -120.20989  -0.00407    91   %  4.0498
+    92.000     177  -128.43449    8.25154  -120.18294   0.02289    92   %  4.1020
+    93.000     179  -127.66293    7.52029  -120.14264   0.06320    93   %  4.1644
+    94.000     180  -127.13370    6.99113  -120.14257   0.06327    94   %  4.2272
+    95.000     182  -126.86606    6.70583  -120.16024   0.04561    95   %  4.2862
+    96.000     183  -126.94045    6.75081  -120.18964   0.01621    96   %  4.3400
+    97.000     185  -127.37479    7.15687  -120.21792  -0.01207    97   %  4.3888
+    98.000     187  -128.05383    7.85627  -120.19756   0.00830    98   %  4.4344
+    99.000     189  -128.93379    8.72215  -120.21163  -0.00577    99   %  4.4795
+   100.000     192  -129.82050    9.65869  -120.16182   0.04405   100   %  4.5282
+   101.000     194  -130.54470   10.35565  -120.18905   0.01683   101   %  4.5866
+   102.000     197  -131.36894   11.00556  -120.36338  -0.15749   102   %  4.6617
+   103.000     199  -131.64810   11.44716  -120.20094   0.00496   103   %  4.7619
+   104.000     201  -131.73867   11.48179  -120.25688  -0.05098   104   %  4.8904
+   105.000     202  -131.40033   11.41363  -119.98670   0.21921   105   %  5.0449
+   106.000     204  -131.31615   11.02905  -120.28710  -0.08118   106   %  5.2182
+   107.000     206  -131.17899   11.06906  -120.10994   0.09599   107   %  5.4036
+   108.000     208  -130.88486   10.68504  -120.19983   0.00611   108   %  5.5973
+   109.000     210  -130.51923   10.29347  -120.22576  -0.01982   109   %  5.7925
+   110.000     213  -129.69211    9.64591  -120.04620   0.15975   110   %  5.9855
+   111.000     215  -129.14997    8.90873  -120.24124  -0.03528   111   %  6.1697
+   112.000     218  -128.60013    8.37851  -120.22161  -0.01565   112   %  6.3433
+   113.000     220  -128.51564    8.03741  -120.47822  -0.27226   113   %  6.5039
+   114.000     221  -128.21310    8.24762  -119.96548   0.24049   114   %  6.6503
+   115.000     223  -128.65666    8.27964  -120.37702  -0.17104   115   %  6.7807
+   116.000     225  -129.25874    9.02462  -120.23413  -0.02814   116   %  6.8940
+   117.000     226  -129.72052    9.55361  -120.16691   0.03908   117   %  6.9935
+   118.000     228  -130.35717   10.17673  -120.18044   0.02556   118   %  7.0803
+   119.000     230  -130.87091   10.64450  -120.22641  -0.02040   119   %  7.1596
+   120.000     232  -131.28734   11.04094  -120.24640  -0.04039   120   %  7.2368
+   121.000     234  -131.48216   11.24028  -120.24188  -0.03586   121   %  7.3177
+   122.000     236  -131.36031   11.15012  -120.21019  -0.00416   122   %  7.4045
+   123.000     239  -130.99542   10.78792  -120.20750  -0.00147   123   %  7.4951
+   124.000     241  -130.29590   10.11086  -120.18504   0.02101   124   %  7.5849
+   125.000     243  -129.48949    9.27735  -120.21214  -0.00609   125   %  7.6691
+   126.000     245  -128.73899    8.52106  -120.21793  -0.01188   126   %  7.7440
+   127.000     247  -128.34346    8.13160  -120.21186  -0.00580   127   %  7.8073
+   128.000     249  -128.41706    8.21490  -120.20216   0.00391   128   %  7.8587
+   129.000     251  -128.97571    8.73645  -120.23927  -0.03320   129   %  7.8997
+   130.000     252  -129.80499    9.57787  -120.22711  -0.02103   130   %  7.9331
+   131.000     254  -130.75587   10.44700  -120.30887  -0.10278   131   %  7.9636
+   132.000     257  -131.29501   11.05888  -120.23613  -0.03004   132   %  7.9970
+   133.000     259  -131.87742   11.60489  -120.27252  -0.06642   133   %  8.0388
+   134.000     261  -132.07390   12.00350  -120.07040   0.13571   134   %  8.0941
+   135.000     264  -131.68081   11.55722  -120.12359   0.08253   135   %  8.1652
+   136.000     266  -131.36054   11.08216  -120.27838  -0.07226   136   %  8.2504
+   137.000     268  -130.85752   10.62934  -120.22818  -0.02205   137   %  8.3474
+   138.000     270  -130.37417   10.17222  -120.20194   0.00420   138   %  8.4527
+   139.000     271  -129.91084    9.69429  -120.21655  -0.01040   139   %  8.5627
+   140.000     273  -129.42298    9.31972  -120.10326   0.10289   140   %  8.6734
+   141.000     274  -129.44777    9.24257  -120.20520   0.00096   141   %  8.7812
+   142.000     276  -129.77113    9.53909  -120.23204  -0.02587   142   %  8.8846
+   143.000     277  -130.27939   10.12935  -120.15004   0.05613   143   %  8.9826
+   144.000     279  -131.32591   11.09176  -120.23415  -0.02797   144   %  9.0746
+   145.000     282  -132.09749   11.87712  -120.22037  -0.01418   145   %  9.1622
+   146.000     285  -132.60559   12.39331  -120.21228  -0.00608   146   %  9.2456
+   147.000     287  -132.81581   12.83714  -119.97867   0.22754   147   %  9.3269
+   148.000     290  -132.87242   12.66837  -120.20405   0.00216   148   %  9.4090
+   149.000     292  -132.82125   12.61122  -120.21003  -0.00380   149   %  9.4957
+   150.000     294  -132.77366   12.53906  -120.23460  -0.02837   150   %  9.5909
+   151.000     296  -132.66043   12.35624  -120.30419  -0.09795   151   %  9.6976
+   152.000     297  -132.30610   12.28868  -120.01742   0.18883   152   %  9.8146
+   153.000     299  -131.93315   11.78676  -120.14639   0.05987   153   %  9.9391
+   154.000     301  -131.28009   11.15927  -120.12082   0.08545   154   % 10.0644
+   155.000     303  -130.69214   10.46954  -120.22260  -0.01633   155   % 10.1848
+   156.000     306  -130.39677   10.18200  -120.21477  -0.00849   156   % 10.2968
+   157.000     308  -129.98872    9.74679  -120.24193  -0.03564   157   % 10.3988
+   158.000     311  -129.83550    9.66575  -120.16975   0.03655   158   % 10.4888
+   159.000     313  -129.99298    9.79577  -120.19721   0.00909   159   % 10.5676
+   160.000     315  -130.34232   10.18290  -120.15942   0.04689   160   % 10.6372
+   161.000     316  -130.74412   10.74462  -119.99950   0.20681   161   % 10.7011
+   162.000     318  -131.35400   11.15759  -120.19641   0.00992   162   % 10.7628
+   163.000     320  -132.12115   11.78816  -120.33299  -0.12666   163   % 10.8265
+   164.000     321  -132.63911   12.39684  -120.24227  -0.03593   164   % 10.8958
+   165.000     323  -132.85414   12.67341  -120.18073   0.02562   165   % 10.9730
+   166.000     326  -132.90194   12.64511  -120.25684  -0.05048   166   % 11.0586
+   167.000     328  -132.78576   12.43189  -120.35387  -0.14750   167   % 11.1523
+   168.000     330  -131.73473   11.65445  -120.08029   0.12609   168   % 11.2528
+   169.000     332  -131.31216   10.98003  -120.33213  -0.12575   169   % 11.3560
+   170.000     334  -130.85028   10.58943  -120.26085  -0.05447   170   % 11.4618
+   171.000     336  -130.38158   10.19059  -120.19099   0.01541   171   % 11.5684
+   172.000     337  -130.18395    9.94457  -120.23937  -0.03297   172   % 11.6735
+   173.000     339  -130.24256   10.08054  -120.16202   0.04439   173   % 11.7756
+   174.000     340  -130.76652   10.53160  -120.23492  -0.02850   174   % 11.8739
+   175.000     342  -131.60723   11.41706  -120.19017   0.01625   175   % 11.9683
+   176.000     343  -132.74459   12.51377  -120.23082  -0.02439   176   % 12.0599
+   177.000     345  -133.88335   13.69235  -120.19100   0.01544   177   % 12.1508
+   178.000     347  -134.93100   14.67496  -120.25605  -0.04960   178   % 12.2429
+   179.000     350  -135.90336   15.63997  -120.26340  -0.05693   179   % 12.3387
+   180.000     352  -136.62501   16.49810  -120.12691   0.07957   180   % 12.4412
+   181.000     355  -137.81535   17.63311  -120.18224   0.02425   181   % 12.5526
+   182.000     357  -138.85386   18.67311  -120.18076   0.02574   182   % 12.6760
+   183.000     360  -140.91913   20.50334  -120.41579  -0.20928   183   % 12.8127
+   184.000     364  -144.17927   23.88666  -120.29260  -0.08608   184   % 12.9656
+   185.000     367  -149.58591   29.43060  -120.15531   0.05124   185   % 13.1378
+   186.000     371  -156.00618   35.84985  -120.15632   0.05025   186   % 13.3309
+   187.000     378  -158.78647   38.59118  -120.19530   0.01130   187   % 13.5383
+   188.000     388  -154.63883   34.41700  -120.22183  -0.01520   188   % 13.7399
+   189.000     398  -148.70473   28.54503  -120.15970   0.04694   189   % 13.9056
+   190.000     405  -152.96996   32.75605  -120.21391  -0.00725   190   % 14.0097
+   191.000     414  -165.95383   45.89525  -120.05857   0.14812   191   % 14.0584
+   192.000     424  -173.91501   53.63815  -120.27686  -0.07014   192   % 14.0830
+   193.000     434  -170.44477   50.16113  -120.28364  -0.07687   193   % 14.1178
+   194.000     441  -161.38578   41.13929  -120.24649  -0.03969   194   % 14.1842
+   195.000     447  -153.71911   33.42046  -120.29864  -0.09182   195   % 14.2856
+   196.000     451  -149.99898   29.88149  -120.11749   0.08936   196   % 14.4168
+   197.000     454  -152.09850   31.89416  -120.20433   0.00253   197   % 14.5728
+   198.000     458  -159.77179   39.55499  -120.21680  -0.00991   198   % 14.7554
+   199.000     464  -169.70648   49.54448  -120.16200   0.04492   199   % 14.9691
+   200.000     474  -172.71871   52.53930  -120.17941   0.02755   200   % 15.2085
+   201.000     484  -164.66255   44.36764  -120.29490  -0.08791   201   % 15.4472
+   202.000     494  -153.17265   32.96215  -120.21050  -0.00348   202   % 15.6471
+   203.000     502  -156.02838   35.80666  -120.22172  -0.01468   203   % 15.7712
+   204.000     512  -169.43586   49.20958  -120.22629  -0.01922   204   % 15.8240
+   205.000     522  -175.42283   55.17146  -120.25137  -0.04426   205   % 15.8463
+   206.000     532  -169.42772   49.24247  -120.18525   0.02189   206   % 15.8800
+   207.000     539  -158.93321   38.71037  -120.22284  -0.01566   207   % 15.9525
+   208.000     544  -149.89141   30.00146  -119.88995   0.31725   208   % 16.0686
+   209.000     548  -146.51680   26.28412  -120.23268  -0.02547   209   % 16.2171
+   210.000     552  -149.17125   28.90707  -120.26418  -0.05694   210   % 16.3894
+   211.000     555  -156.52321   36.32102  -120.20220   0.00506   211   % 16.5850
+   212.000     561  -165.36212   45.04336  -120.31876  -0.11148   212   % 16.8057
+   213.000     571  -167.54778   47.36230  -120.18547   0.02185   213   % 17.0465
+   214.000     581  -158.88158   38.66244  -120.21914  -0.01179   214   % 17.2858
+   215.000     591  -146.52608   25.97747  -120.54861  -0.34124   215   % 17.4935
+   216.000     600  -148.87955   28.65251  -120.22704  -0.01965   216   % 17.6472
+   217.000     610  -162.37844   42.13740  -120.24104  -0.03363   217   % 17.7626
+   218.000     620  -169.10934   49.06197  -120.04738   0.16007   218   % 17.8791
+   219.000     630  -164.84638   44.58483  -120.26155  -0.05407   219   % 18.0180
+   220.000     637  -155.44955   35.10232  -120.34723  -0.13973   220   % 18.1796
+   221.000     642  -148.30701   28.02350  -120.28351  -0.07599   221   % 18.3533
+   222.000     646  -145.80019   25.47144  -120.32875  -0.12120   222   % 18.5299
+   223.000     650  -147.40059   27.24031  -120.16028   0.04728   223   % 18.7040
+   224.000     652  -154.82439   34.66675  -120.15763   0.04995   224   % 18.8741
+   225.000     657  -164.10368   43.94647  -120.15721   0.05040   225   % 19.0453
+   226.000     665  -170.16853   50.01273  -120.15580   0.05185   226   % 19.2223
+   227.000     675  -166.20127   46.00673  -120.19454   0.01314   227   % 19.4084
+   228.000     685  -152.81185   32.62423  -120.18762   0.02009   228   % 19.5974
+   229.000     694  -146.09817   25.89068  -120.20749   0.00024   229   % 19.7769
+   230.000     703  -156.12227   35.87609  -120.24618  -0.03843   230   % 19.9449
+   231.000     713  -168.62403   48.41038  -120.21364  -0.00587   231   % 20.1128
+   232.000     723  -171.05949   50.91801  -120.14148   0.06633   232   % 20.2899
+   233.000     731  -164.45683   44.21517  -120.24166  -0.03381   233   % 20.4726
+   234.000     737  -156.62126   36.33886  -120.28240  -0.07453   234   % 20.6498
+   235.000     742  -152.13378   31.85685  -120.27693  -0.06903   235   % 20.8119
+   236.000     746  -152.86236   32.72573  -120.13663   0.07128   236   % 20.9530
+   237.000     749  -158.79448   38.65381  -120.14067   0.06727   237   % 21.0715
+   238.000     754  -168.28434   48.03336  -120.25098  -0.04301   238   % 21.1704
+   239.000     762  -177.33431   57.10137  -120.23294  -0.02493   239   % 21.2585
+   240.000     772  -177.77068   57.57958  -120.19110   0.01695   240   % 21.3495
+   241.000     782  -166.77528   46.62415  -120.15113   0.05696   241   % 21.4555
+   242.000     792  -154.48231   34.27086  -120.21145  -0.00334   242   % 21.5809
+   243.000     801  -159.80596   39.56181  -120.24415  -0.03601   243   % 21.7297
+   244.000     811  -171.62464   51.42707  -120.19756   0.01061   244   % 21.9038
+   245.000     821  -174.94860   54.74154  -120.20707   0.00114   245   % 22.1003
+   246.000     830  -168.45751   48.12179  -120.33572  -0.12747   246   % 22.3075
+   247.000     836  -158.45206   38.19547  -120.25660  -0.04832   247   % 22.5093
+   248.000     841  -149.75403   29.48207  -120.27197  -0.06367   248   % 22.6934
+   249.000     845  -146.12915   26.01696  -120.11219   0.09613   249   % 22.8515
+   250.000     849  -148.64732   28.63176  -120.01556   0.19277   250   % 22.9836
+   251.000     852  -154.55029   34.62924  -119.92105   0.28730   251   % 23.0937
+   252.000     856  -162.77559   42.64810  -120.12748   0.08090   252   % 23.1853
+   253.000     865  -167.16588   46.96699  -120.19889   0.00953   253   % 23.2707
+   254.000     875  -161.61999   41.31049  -120.30950  -0.10105   254   % 23.3666
+   255.000     885  -149.39835   29.20379  -120.19456   0.01391   255   % 23.4874
+   256.000     893  -145.24559   24.82822  -120.41738  -0.20889   256   % 23.6425
+   257.000     902  -154.64876   34.42871  -120.22005  -0.01154   257   % 23.8325
+   258.000     912  -163.97673   43.67388  -120.30285  -0.09431   258   % 24.0441
+   259.000     922  -163.63816   43.31188  -120.32627  -0.11770   259   % 24.2592
+   260.000     930  -155.70778   35.49245  -120.21533  -0.00674   260   % 24.4580
+   261.000     936  -147.50545   27.03105  -120.47439  -0.26578   261   % 24.6268
+   262.000     940  -142.30190   22.13317  -120.16873   0.03991   262   % 24.7611
+   263.000     944  -141.55455   21.36059  -120.19396   0.01468   263   % 24.8593
+   264.000     947  -145.46017   25.45302  -120.00716   0.20151   264   % 24.9221
+   265.000     951  -153.52465   33.31226  -120.21240  -0.00371   265   % 24.9522
+   266.000     957  -162.46057   42.11814  -120.34243  -0.13372   266   % 24.9565
+   267.000     967  -165.54103   45.42170  -120.11933   0.08942   267   % 24.9484
+   268.000     977  -158.94772   38.76428  -120.18344   0.02533   268   % 24.9461
+   269.000     987  -149.52458   29.32216  -120.20242   0.00638   269   % 24.9658
+   270.000     994  -151.02372   30.83711  -120.18661   0.02221   270   % 25.0171
+   271.000    1004  -162.22364   42.01820  -120.20544   0.00340   271   % 25.1008
+   272.000    1014  -169.32560   49.11010  -120.21550  -0.00663   272   % 25.2108
+   273.000    1023  -167.45798   47.25544  -120.20254   0.00637   273   % 25.3380
+   274.000    1029  -160.09782   39.91476  -120.18305   0.02588   274   % 25.4698
+   275.000    1034  -153.44442   33.22183  -120.22259  -0.01363   275   % 25.5951
+   276.000    1038  -150.06915   29.88707  -120.18208   0.02691   276   % 25.7077
+   277.000    1042  -151.15709   30.98066  -120.17643   0.03257   277   % 25.8055
+   278.000    1046  -156.07960   36.00229  -120.07732   0.13171   278   % 25.8893
+   279.000    1050  -164.26498   44.11881  -120.14617   0.06288   279   % 25.9630
+   280.000    1057  -170.79552   50.59821  -120.19731   0.01178   280   % 26.0357
+   281.000    1067  -169.74547   49.54239  -120.20308   0.00605   281   % 26.1204
+   282.000    1077  -159.97434   39.70787  -120.26648  -0.05732   282   % 26.2287
+   283.000    1087  -150.63088   30.41315  -120.21772  -0.00854   283   % 26.3680
+   284.000    1096  -158.16566   37.96098  -120.20468   0.00452   284   % 26.5438
+   285.000    1106  -170.28994   50.04681  -120.24313  -0.03390   285   % 26.7505
+   286.000    1116  -173.15843   52.92650  -120.23193  -0.02266   286   % 26.9758
+   287.000    1125  -166.21646   45.97851  -120.23795  -0.02865   287   % 27.2015
+   288.000    1132  -156.28841   36.14283  -120.14558   0.06375   288   % 27.4096
+   289.000    1137  -148.73735   28.49251  -120.24484  -0.03549   289   % 27.5876
+   290.000    1141  -146.80652   26.55719  -120.24933  -0.03996   290   % 27.7293
+   291.000    1144  -150.47655   30.34857  -120.12798   0.08141   291   % 27.8335
+   292.000    1148  -159.03844   38.79882  -120.23961  -0.03020   292   % 27.9025
+   293.000    1156  -166.40965   46.34373  -120.06592   0.14353   293   % 27.9463
+   294.000    1166  -164.53450   44.36086  -120.17364   0.03584   294   % 27.9820
+   295.000    1176  -151.68235   31.47594  -120.20640   0.00310   295   % 28.0287
+   296.000    1186  -139.73054   19.52070  -120.20984  -0.00032   296   % 28.1010
+   297.000    1194  -145.80901   25.59696  -120.21205  -0.00251   297   % 28.2066
+   298.000    1204  -158.87148   38.67359  -120.19789   0.01167   298   % 28.3392
+   299.000    1214  -163.42950   43.13927  -120.29023  -0.08064   299   % 28.4852
+   300.000    1224  -157.31230   37.06210  -120.25021  -0.04059   300   % 28.6280
+
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:            57.36 SECONDS
+
+ == MOPAC DONE ==

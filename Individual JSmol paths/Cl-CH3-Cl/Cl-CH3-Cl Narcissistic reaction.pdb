@@ -1,0 +1,12 @@
+HEADER  data-set: Cl-CH3-Cl Narcissistic reaction
+REMARK  MOPAC 2016, Version: 18.021W Date: Jan 21 2018 15:44
+REMARK   3   CH3 = Methyl group                                   res:     1
+REMARK   3    CL = Isolated element                               res:     2
+REMARK   3    CL = Isolated element                               res:     3
+HETATM    1  C   CH3 A   1       0.000   0.000  -0.000  1.00  0.10      PROT C 
+HETATM    2 1H   CH3 A   1       1.086   0.000  -0.000  1.00  0.16      PROT H 
+HETATM    3 2H   CH3 A   1      -0.543   0.940  -0.000  1.00  0.16      PROT H 
+HETATM    4 3H   CH3 A   1      -0.543  -0.940  -0.001  1.00  0.16      PROT H 
+HETATM    5 CL    CL B   2       0.000  -0.004   2.187  1.00 -0.79      PROTCL 
+HETATM    6 CL    CL C   3       0.000   0.003  -2.187  1.00 -0.79      PROTCL 
+END

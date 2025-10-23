@@ -1,0 +1,24 @@
+This reaction involves HNC isomerizing to HCN. A normal first step, shown here with HCN.mop and HNC.mop, is to optimize the geometries of the reactant and product.  
+
+In this particular case, both HNC and HCN are perfectly linear; this would confuse the transition state location routine LOCATE-TS, so to avoid that, both reactant and product are moved "by hand" in the direction of the transition state.  This is done by displacing the nitrogen atom in both HCN and HNC half an Angstrom in the "y" direction so as to make bent molecules.  To avoid the geometry optimizer from relaxing the molecules and making them linear once more, both molecules have had their bond-lengths shortened.  This puts a strong constraint on them so that they appear to be already on the slopes of the reaction barrier. These systems are named "HNC for TS.mop" and "HCN for TS.mop".
+
+Transition state location for the HNC - HCN system is unusual in that all atoms are involved in bond-making - bond-breaking.  This means that the usual transition state refinement, consisting of alternating energy minimization and gradient minimization, has been automatically replaced by gradient minimization only.
+
+The name of the data set for locating the transition state is "HCN-HNC.mop".  It uses the following keywords:
+
+GEO_DAT="HCN for TS.mop"  For this type of calculation, it is easier to have the reactants and products as separate files.
+GEO_REF="HNC for TS.mop"
+LOCATE-TS(C:100;SET=1)    Because the reaction is so simple, locating the region of the TS can be done in one step. SET 1 is essential here - there is no set 2 possible!
+OPT                       Transition state location requires all coordinates to be optimized; this is the easiest way to do that.
+
+Running "HCN-HNC.mop" generates several files.  The most important of these is the archive file "HCN-HNC.arc".  This file holds the transition state. Another interesting file the "HCN-HNC.out", the other files are useful if the transition state locator fails to run correctly.
+
+To verify that the transition state is correct, a FORCE calculation is run.  This is constructed from the ARC file, and is shown in "HCN-HNC Force.mop".
+
+To visualize the Intrinsic Reaction Coordinate, an IRC=1* calculation is run with HTML, and, to reduce the number of points generated, X-PRIORITY=0.05.  This is shown in "HCN-HNC_IRC.mop".
+
+If JSmol has been installed, the double-click on the HTML file generated when the IRC is run.  
+               
+
+
+  

@@ -1,0 +1,14 @@
+geo-ok GEO_REF="M:\Individual JSmol paths\Fulminic acid plus ethylene\Locate-ts Fulminic acid plus ethylene_30p0_first.mop"  locate-ts  HTML precise opt XYZ
+ Transition state for Fulminic acid plus ethylene <=> Fulminic acid plus ethyleneproduct
+
+  C(HETATM    1  C   HET A   1)   0.02091367 +1  -0.17452431 +1   0.00733708 +1
+  C(HETATM    2  C   HET A   1)   1.44728088 +1  -0.26261664 +1  -0.07159094 +1
+  O(HETATM    3  O   HET A   1)  -0.35244765 +1   1.73569350 +1  -0.24009190 +1
+  N(HETATM    4  N   HET A   1)   0.78482040 +1   2.10587780 +1  -0.03085855 +1
+  C(HETATM    5  C   HET A   1)   1.87279718 +1   1.68765043 +1   0.15751483 +1
+  H(HETATM    6 1HT1 HET A   1)  -0.45100227 +1  -0.34922024 +1   0.95407822 +1
+  H(HETATM    7 2HT1 HET A   1)  -0.57901470 +1  -0.37269278 +1  -0.84537686 +1
+  H(HETATM    8 1HT2 HET A   1)   1.89773164 +1  -0.48144666 +1  -1.01597503 +1
+  H(HETATM    9 2HT2 HET A   1)   2.01000898 +1  -0.60855078 +1   0.76283791 +1
+  H(HETATM   10  HT  HET A   1)   2.87775435 +1   1.84584741 +1   0.32259705 +1
+ 

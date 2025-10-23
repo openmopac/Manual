@@ -1,0 +1,347 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> An SCF Calculation</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>
+ An SCF Calculation
+</h1>Semiempirical calculations can be run on computers using readily available
+programs such as MOPAC. It is possible to use MOPAC for research without having
+any knowledge of its workings. This does not imply any failing on the part of
+the researcher; after all, it is possible to write extensive computer programs
+while having little knowledge of how a computer works. However, in order to
+more efficiently use MOPAC, a more than casual knowledge of the theory involved
+is desirable. In the following section the details of a very simple calculation
+will be described. This calculation can be carried out as a 'black box'
+calculation, but the following exercise may help to satisfy the intellectual
+curiosity of users of semiempirical methods regarding the mechanics of carrying
+out an SCF calculation.&nbsp;
+<p>
+The MNDO method will be used because it is the oldest of the "NDO"  methods.
+The CNDO/2 method is very similar, and the example we will look at will
+emphasize the similarity. The system to be examined is a regular hexagon of
+hydrogen atoms in which the H-H distance is 0.98316 &Aring;ngstrom. Of course, a
+regular hexagon of hydrogen atoms is not a stable system; the only reason we
+are using it here is to demonstrate the working of an SCF calculation. The
+optimized geometry was obtained by defining all bond lengths to be equal,
+constraining all bond angles to be 120 degrees and defining the system as being
+planar. We will need various reference data in order to follow <a name="BM14621">&nbsp;</a> the calculation. MOPAC contains a large data-set, BLOCK.F, of atomic
+and diatomic parameters for all the elements which have been parameterized. By
+reference to this source file we find that, for hydrogen:
+</p><p>
+&nbsp;</p><div align="center">
+<center>
+<table border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" style="border-collapse: collapse">
+<tr>
+<td>
+<p align="left">G<sub>ss</sub> = &lt;<i>&phi;<sub>s</sub>&phi;<sub>s</sub></i>|1/r|<i>&phi;<sub>s</sub>&phi;<sub>s</sub></i>&gt;</p></td>
+<td>
+<p align="left">&nbsp; =</p></td>
+<td>
+<p align="left">&nbsp; 12.848 eV</p></td>
+</tr>
+<tr>
+<td>
+<p align="left">U<sub>ss</sub> = &lt;<i>&phi;<sub>s</sub></i>|<i>H</i>|<i>&phi;<sub>s</sub></i>&gt;</p></td>
+<td>
+<p align="left">&nbsp; =</p></td>
+<td>
+<p align="left">&nbsp; -11.906276 eV</p></td>
+</tr>
+<tr>
+<td>
+<p align="left"><i>&xi;<sub>s</sub></i></p></td>
+<td>
+<p align="left">&nbsp; =</p></td>
+<td>
+<p align="left">&nbsp; 1.331967 Bohr</p></td>
+</tr>
+<tr>
+<td>
+<p align="left"><i><span class="b">&beta;</span><sub>s</sub></i></p></td>
+<td>
+<p align="left">&nbsp; =</p></td>
+<td>
+<p align="left">&nbsp; - 6.989064 eV</p></td>
+</tr>
+<tr>
+<td>
+<p align="left"><i>E<sub>atom</sub></i></p></td>
+<td>
+<p align="left">&nbsp; =</p></td>
+<td>
+<p align="left">&nbsp; 52.102 kcal/mol</p></td>
+</tr>
+</table>
+</center>
+</div>
+<p>
+<br clear="ALL"/>
+</p>
+<p></p>
+This exercise is designed to allow the reader to
+reproduce each step. All that is needed in order to follow
+the working is a hand calculator.
+<p>
+</p><div align="CENTER">
+Interatomic Distance Matrix (&Aring;) <br/>
+<table border="1" cellpadding="3">
+<tr valign="BASELINE"><td align="CENTER">Atom</td>
+<td align="CENTER">1</td>
+<td align="CENTER">2</td>
+<td align="CENTER">3</td>
+<td align="CENTER">4</td>
+<td align="CENTER">5</td>
+<td align="CENTER">6</td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">1</td>
+<td align="CENTER">0.0000</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">2</td>
+<td align="CENTER">0.9832</td>
+<td align="CENTER">0.0000</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">3</td>
+<td align="CENTER">1.7029</td>
+<td align="CENTER">0.9832</td>
+<td align="CENTER">0.0000</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">4</td>
+<td align="CENTER">1.9663</td>
+<td align="CENTER">1.7029</td>
+<td align="CENTER">0.9832</td>
+<td align="CENTER">0.0000</td>
+<td align="CENTER">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">5</td>
+<td align="CENTER">1.7029</td>
+<td align="CENTER">1.9663</td>
+<td align="CENTER">1.7029</td>
+<td align="CENTER">0.9832</td>
+<td align="CENTER">0.0000</td>
+<td align="CENTER">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="CENTER">6</td>
+<td align="CENTER">0.9832</td>
+<td align="CENTER">1.7029</td>
+<td align="CENTER">1.9663</td>
+<td align="CENTER">1.7029</td>
+<td align="CENTER">0.9832</td>
+<td align="CENTER">0.0000</td>
+</tr>
+</table></div>
+<p>
+The overlap integral of two Slater orbitals between two
+<a name="BM14638">&nbsp;</a><a name="BM14639">&nbsp;</a>
+hydrogen atoms is particularly simple:
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}&lt;\varphi\vert\varphi&gt; = (e^{-a})(\frac{a^2}{3}+a+1)
+\end{displaymath}" height="42" src="img995.gif" width="180"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+where
+<i>a</i> =<i> &xi;R/a<sub>o</sub></i>.
+<p>
+At the optimum H-H distance of 0.9831571&Aring;, this yields
+an overlap integral of 0.4643. The nearest-neighbor
+one-electron integral is thus
+</p><p>
+<br/></p><p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}H(1,2) = S_{1,2}(\beta_s + \beta_s)/2 = -3.2457 eV.
+\end{displaymath}" height="31" src="img997.gif" width="250"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+In general, overlap integrals are more complicated and also
+involve angular components, but the principles involved are
+the same. You may want to check other off-diagonal terms in
+the one-electron matrix, or you may accept the results given
+here.
+<p>&nbsp;</p>
+<p>
+</p><div align="CENTER">
+One-electron matrix (eV) <br/>
+<table border="1" cellpadding="3">
+<tr valign="BASELINE"><td align="RIGHT">Atom</td>
+<td align="RIGHT">1</td>
+<td align="RIGHT">2</td>
+<td align="RIGHT">3</td>
+<td align="RIGHT">4</td>
+<td align="RIGHT">5</td>
+<td align="RIGHT">6</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">1</td>
+<td align="RIGHT">-51.7124</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">2</td>
+<td align="RIGHT">-3.2457</td>
+<td align="RIGHT">-51.7124</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">3</td>
+<td align="RIGHT">-1.0970</td>
+<td align="RIGHT">-3.2457</td>
+<td align="RIGHT">-51.7124</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">4</td>
+<td align="RIGHT">-0.6992</td>
+<td align="RIGHT">-1.0970</td>
+<td align="RIGHT">-3.2457</td>
+<td align="RIGHT">-51.7124</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">5</td>
+<td align="RIGHT">-1.0970</td>
+<td align="RIGHT">-0.6992</td>
+<td align="RIGHT">-1.0970</td>
+<td align="RIGHT">-3.2457</td>
+<td align="RIGHT">-51.7124</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">6</td>
+<td align="RIGHT">-3.2457</td>
+<td align="RIGHT">-1.0970</td>
+<td align="RIGHT">-0.6992</td>
+<td align="RIGHT">-1.0970</td>
+<td align="RIGHT">-3.2457</td>
+<td align="RIGHT">-51.7124</td>
+</tr>
+</table></div>
+&nbsp;<p>On-diagonal one-electron integrals are more complicated than the off-diagonal
+terms. The one-electron energy of an electron in an atomic orbital is the sum
+of its kinetic energy and stabilization due to the positive nucleus of its own
+atom, U<sub><i>ss</i></sub> or U<sub><i>pp</i></sub>, plus the stabilization due to all the other nuclei
+in the system. Each electron on a hydrogen atom experiences a stabilization due
+to the five other unipositive nuclei in the system. Within semiempirical theory
+the electron-nuclear interaction is related to the electron-electron
+interaction via
+<br/></p>
+<p></p>
+<div align="CENTER">
+<img alt="\begin{displaymath}E_{e,n}=-Z_n&lt;\varphi_s\varphi_s\vert\varphi_s\varphi_s&gt;.
+\end{displaymath}" height="29" src="img998.gif" width="173"/>
+</div>
+<br clear="ALL"/>
+<p></p>
+Given the two-electron two-center integral matrix the calculation of the
+diagonal terms of the one-electron matrix is straightforward:
+<br/><p></p>
+<div align="CENTER">
+<i>H</i><sub><i>n</i>,<i>n</i></sub> = -11.9063 - 2(9.6585) - 2(7.0635) -6.3622 = -51.7124.
+</div>
+<br clear="ALL"/>
+<p></p>
+For interactions between an atomic orbital and a non-hydrogen atom there will
+be ten terms; these arise from all permutations of the basis set, <i>s</i>, <i>p</i><sub><i>x</i></sub>,
+<i>p</i><sub><i>y</i></sub>, <i>p</i><sub><i>z</i></sub> with the atomic orbital under the neglect of differential overlap
+approximation. The ten integrals are &lt;ii|<i>ss</i>&gt;, &lt;ii|<i>sp</i><sub><i>x</i></sub>&gt;,
+&lt;ii|<i>p</i><sub><i>x</i></sub><i>p</i><sub><i>x</i></sub>&gt;, &lt;ii|<i>sp</i><sub><i>y</i></sub>&gt;, &lt;ii|<i>p</i><sub><i>x</i></sub><i>p</i><sub><i>y</i></sub>&gt;,&lt;ii|<i>p</i><sub><i>y</i></sub><i>p</i><sub><i>y</i></sub>&gt;,
+&lt;ii|<i>sp</i><sub><i>z</i></sub>&gt;, &lt;ii|<i>p</i><sub><i>x</i></sub><i>p</i><sub><i>z</i></sub>&gt;, &lt;ii|<i>p</i><sub><i>y</i></sub><i>p</i><sub><i>z</i></sub>&gt;, and &lt;ii|<i>p</i><sub><i>z</i></sub><i>p</i><sub><i>z</i></sub>&gt;.
+<p>
+</p><div align="CENTER">
+Two-Electron Integrals (eV) <br/>
+<table border="1" cellpadding="3">
+<tr valign="BASELINE"><td align="RIGHT">Atom</td>
+<td align="RIGHT">1</td>
+<td align="RIGHT">2</td>
+<td align="RIGHT">3</td>
+<td align="RIGHT">4</td>
+<td align="RIGHT">5</td>
+<td align="RIGHT">6</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">1</td>
+<td align="RIGHT">12.8480</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">2</td>
+<td align="RIGHT">9.6585</td>
+<td align="RIGHT">12.8480</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">3</td>
+<td align="RIGHT">7.0635</td>
+<td align="RIGHT">9.6585</td>
+<td align="RIGHT">12.8480</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">4</td>
+<td align="RIGHT">6.3622</td>
+<td align="RIGHT">7.0732</td>
+<td align="RIGHT">9.6585</td>
+<td align="RIGHT">12.8480</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">5</td>
+<td align="RIGHT">7.0635</td>
+<td align="RIGHT">6.3622</td>
+<td align="RIGHT">7.0732</td>
+<td align="RIGHT">9.6585</td>
+<td align="RIGHT">12.8480</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+<tr valign="BASELINE"><td align="RIGHT">6</td>
+<td align="RIGHT">9.6585</td>
+<td align="RIGHT">7.0635</td>
+<td align="RIGHT">6.3622</td>
+<td align="RIGHT">7.0732</td>
+<td align="RIGHT">9.6585</td>
+<td align="RIGHT">12.8480</td>
+</tr>
+</table></div>
+</body>
+</html>

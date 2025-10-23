@@ -1,0 +1,231 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Description of file.log </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p><font face="Arial">(<a href="Modeling_proteins.html">Modeling proteins</a>)</font></p>
+<h1><font face="Arial">Description and use of &lt;file&gt;.log</font> </h1>
+<p>The log file summarizes the interesting features found in a protein.&nbsp; 
+Some, such as the hetero groups, are merely interesting, while others, such as 
+charged organic sites and unusually short hydrogen bonds, often indicate 
+problems.&nbsp; The following description of the type of entries in a log file 
+was generated from several proteins - most systems are much simpler!</p>
+<div style="position:relative">
+<table border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="1116">
+<tr>
+<td style="border-left-style: solid; border-left-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" width="640">
+<p align="center"><b>Entry in log file</b></p></td>
+<td style="border-right-style: none; border-right-width: medium; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1; border-bottom-style: solid; border-bottom-width: 1" width="466">
+<p align="center"><b>Description</b></p></td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1; border-top-style: solid; border-top-width: 1" width="640"><pre>START_RES=(4A-384-393 2002) CHAINS=(A) 0scf pdbout oldgeo</pre></td>
+<td style="border-right-style: none; border-right-width: medium; border-top-style: solid; border-top-width: 1" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1; border-top-style: solid; border-top-width: 1" valign="top" width="466">Keywords used</td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640"><pre>Empirical Formula: C3785 H7871 N1032 O2218 S37 Cd P4 Mo = 14949 atoms</pre></td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">Chemical formula</td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640"><pre>Hetero-group NAG = N-Acetyl-D-glucosamine            res:  405
+Hetero-group BMA = beta-D-Mannose                    res:  413
+Hetero-group FUC = Alpha-L-fucose                    res:  414
+Hetero-group PGE = Triethylene glycol                res:  415
+Hetero-group FUC = Alpha-L-fucose                    res:  416
+Hetero-group BGC = beta-D-Glucose                    res: 2002
+Hetero-group CD = Isolated element                   res: 2006
+Hetero-group HET = Not identified; C 10 N 5 O 4      res: 2008
+                  (Includes atom number: 5937)
+Hetero-group HET = Not identified; C 10 N 5 O 4      res: 2010
+                  (Includes atom number: 5984)
+Hetero-group MO = Isolated element                   res: 2011
+Hetero-group OH = Hydroxide ion                      res: 2012
+Hetero-group OH = Hydroxide ion                      res: 2013
+Hetero-group EPE = Hepes (C8 H18 N2 O4 S)            res: 2014</pre></td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">Hetero-groups are identified by a three letter alphanumeric symbol.
+    This block gives a simple description of each symbol used,
+    along with the residue involved.<p>When a hetero group is not recognized, 
+    the formula is given, along
+    with the atom number of an atom in the moiety.</p></td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640"><pre>Type Number of Lewis structural elements identified
+
+    SIGMA BONDS   14071
+    LONE PAIRS     5546
+    PI BONDS       1246</pre>
+&nbsp;</td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">This information is only useful for small systems.
+    When macromolecules are involved - ignore it.</td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640"><pre>  Number of filled levels from atoms and charge: 26191
+ Number of filled levels from Lewis structure:  26199
+
+          Type           Number of charged sites identified
+
+         Cation             9
+         Anion             25
+
+ SUM OF POSITIVE CHARGES   +9
+ SUM OF NEGATIVE CHARGES  -25
+</pre></td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">Simple proteins - ones without metal or halogen ions and without
+    errors in geometry - would have no charged sites.&nbsp; The presence
+    of charged sites indicates possible problems.</td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640"><pre>     One sulfate group was found. If un-ionized, this SO4 group contributes 
+    two positive and two negative charges<br/>
+    If ionized, this SO4 group contributes two positive and four negative 
+    charges<br/>
+    2 phosphate groups were found. Each un-ionized PO4 group contributes one 
+    positive and one negative charge<br/>
+    If ionized, each PO4 group contributes one positive and four negative 
+    charges</pre></td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">Because of the way Lewis structures are generated, sulfate and
+    phosphate groups always involve ions.&nbsp; To avoid making the output
+    look complicated, these ions are suppressed, and an advisory
+    message is printed</td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640">&nbsp;</td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">&nbsp;</td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640"><pre>                     UNUSUALLY SHORT HYDROGEN BOND DISTANCES
+
+  Hydrogen   R(H-A)  Atom A    R(H-B)  Atom B     R(A-B)      Loc-A      Loc-B
+    5196      1.49   O 2416     1.01   N 2529      2.49     ILE  96 C  ILE 109 C
+    5223      1.51   O 2512     1.01   N 2232      2.50     HIS  56 A  THR  60 A
+
+ </pre></td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">
+    Messages of this type often indicate an error.&nbsp; Use a GUI to examine 
+    the environment of the atoms involved.&nbsp; If the fault can be corrected 
+    by moving the atoms then wait until after the positions of the hydrogen 
+    atoms have been optimized before attempting to make changes.</td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640">&nbsp;</td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">&nbsp;</td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1" width="640"><pre>COMPUTED CHARGE ON SYSTEM: +3</pre></td>
+<td style="border-right-style: none; border-right-width: medium" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1" valign="top" width="466">The net charge should ideally be in the range +3 to -3.&nbsp; If outside 
+    that
+    range, consider using EPS=78.4 to handle the electrostatics.&nbsp; </td>
+</tr>
+<tr>
+<td style="border-left-style: solid; border-left-width: 1; border-bottom-style: solid; border-bottom-width: 1" width="640"><pre>== MOPAC DONE ==</pre></td>
+<td style="border-right-style: none; border-right-width: medium; border-bottom-style: solid; border-bottom-width: 1" valign="top" width="8">&nbsp;</td>
+<td style="border-left-style: none; border-left-width: medium; border-right-style: solid; border-right-width: 1; border-bottom-style: solid; border-bottom-width: 1" valign="top" width="466">
+    A user pacifier - this is printed to indicate the end of the log file.</td>
+</tr>
+</table>
+</div>
+<font face="Arial">
+<div style="float: right">
+<h3>Caveats, tips, and 
+advice</h3>
+<p>There is obviously a wide range of environments that occur in proteins.&nbsp; 
+As a guide to how to handle specific types, the following points might be 
+useful:</p>
+<p><b>Important:</b></p>
+<p class="MsoNormal">Check non-protein regions, in particular heme and related 
+prosthetic groups.&nbsp; In conjugated systems, the presence or absence of a 
+hydrogen atom can alter the electronic structure completely.</p>
+<p class="MsoNormal">Compare the sequence generated by <tt>PDBOUT</tt> to that 
+in the PDB file.&nbsp;&nbsp; If there are any differences, then carefully examine the 
+offending residue.&nbsp; </p>
+<p class="MsoNormal"><b>Advice:</b></p>
+<p class="MsoNormal">When metals are present, the "TOPOGRAPHY OF SYSTEM" will 
+likely be faulty if <tt><a href="pdbout.html">PDBOUT</a></tt> is used: metal atoms might be connected to ligand atoms, 
+but the ligand atom might not be connected to the metal.&nbsp; If this happens, 
+and you need to use the topography, run a job that does not imply that the 
+residue sequence is to be evaluated, i.e., avoid keywords such as <tt><a href="residues.html">RESIDUES</a></tt> or <tt>PDBOUT</tt>.&nbsp; A suitable  keyword for generating the charges is <a href="charges.html"><tt>CHARGES</tt></a>.</p>
+<p class="MsoNormal">The MOZYME function only allows closed-shell calculations, 
+therefore although closed-shell atoms, e.g., Fe<sup>2+</sup> can be run, 
+open-shell atoms, e.g., Fe<sup>3+</sup> cannot be run.&nbsp; This issue can 
+result in complications when changing oxidation states are involved.</p>
+<p class="MsoNormal">When metals are present, the "TOPOGRAPHY OF SYSTEM" will 
+likely be faulty if <tt>PDBOUT</tt> is used: metal atoms might be connected to ligand atoms, 
+but the ligand atom might not be connected to the metal.&nbsp; If this happens, 
+and you need to use the topography, run a job that does not imply that the 
+residue sequence is to be evaluated, i.e., avoid keywords such as <tt><a href="residues.html">RESIDUES</a></tt> or <tt>PDBOUT</tt>.&nbsp; A suitable  keyword for generating the charges is <a href="charges.html"><tt>CHARGES</tt></a>.</p>
+<p class="MsoNormal">When adding hydrogen atoms, do not use <tt>PDBOUT</tt> in 
+the first calculation. If&nbsp; <tt>PDBOUT</tt> is present in the first 
+calculation, then it will create a PDB file instead of an ARC file.&nbsp; 
+Because the second calculation generates a PDB file, any PDB file created by the 
+first calculation will be over-written.&nbsp; So the only effect of having&nbsp; <tt>PDBOUT</tt> 
+in the first calculation is to suppress the creation of an ARC file.</p>
+<p class="MsoNormal">If a problem is encountered with a PDB file, a useful 
+approach is to prepare a "clean" PDB file, one that uses only information from 
+the original PDB file.&nbsp; To prepare a "clean" PDB file, edit the X-ray PDB 
+file to add keywords&nbsp; <tt>0SCF PDBOUT NORES</tt> and run that file. Then 
+run a job using keywords <tt>0SCF PDBOUT</tt> only.&nbsp; Compare the PDB files 
+that are produced by these two runs.&nbsp; A useful comparison tool is
+<a href="http://www.grigsoft.com/download-windiff.htm">WINDIFF</a>.&nbsp; Any 
+differences need to be either explained or corrected.&nbsp; Common differences 
+are: </p>
+<ul>
+<li>
+<p class="MsoNormal">Atoms are missing from residues, resulting in their name 
+changing.&nbsp; This is usually not important. Important residues are almost 
+always correct.</p>
+</li>
+<li>
+<p class="MsoNormal">An "unknown" residue has a huge number of atoms.&nbsp; This 
+is most often caused by spurious close contacts giving rise to bonds.&nbsp; Use
+<a href="CVB.html"><tt>CVB</tt></a> to break unwanted bonds.</p>
+</li>
+<li>
+<p class="MsoNormal">Hetero groups should be numbered after the protein residue 
+numbers.&nbsp; If a hetero group has a number lower than the highest residue 
+number, change the hetero number in the original X-ray structure to a higher 
+value.</p>
+</li>
+</ul>
+<p><b>Less important:</b></p>
+<p>Check the log file for "COVALENT BOND" If present, this normally means that a hydrogen 
+atom is bridging between two heavy atoms.&nbsp; This almost always indicates a 
+fault in the structure. Before taking any action, however, examine the PDB file 
+to see what is involved.&nbsp; If the only fault is that the hydrogen atoms are 
+in the wrong place, i.e., they are attached to the correct atom, but have been 
+positioned near to another atom, causing a bridged hydrogen to exist, then 
+ignore the fault - it will be automatically corrected when the positions of the 
+hydrogen atoms are optimized.</p>
+<p class="MsoNormal">Protein end groups, particularly the carboxylate end, are often 
+faulty, e.g., -CO instead of COO.&nbsp; By default, -CO is converted to CHO; to 
+convert it to a carboxylic acid group, add an oxygen atom to the CO to form 
+COO.</p>
+</div></font></body>
+</html>

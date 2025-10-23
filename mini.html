@@ -1,0 +1,82 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>MINI </title>
+<style type="text/css">
+.auto-style1 {
+	font-size: larger;
+}
+</style>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>MINI</tt></h1>
+When very large molecules such as enzymes are modeled, the output can become 
+very large.&nbsp; To reduce this, use <tt>MINI</tt>.&nbsp; When <tt>MINI</tt> is 
+present, only atoms whose coordinates are flagged with a "2" will be printed.&nbsp; 
+During a run, atoms flagged with a "2" will be handled as if they were 
+flagged with a "1".&nbsp; That is, the flag "2" will indicate an atom that is 
+marked for optimization. For reaction paths, the reaction coordinate is normally "-1", if&nbsp; <tt>MINI</tt> 
+is present then the reaction coordinate can be "-1" or "-2" ("-2" is obviously 
+more likely). Although <tt>MINI</tt> works with all types of calculation, the main use 
+would be for calculations that involve reaction paths and IRC paths.&nbsp;<p>
+<tt>MINI</tt> 
+is also useful when animations are involved, for example mapping out a reaction 
+path or following an IRC or DRC.&nbsp;&nbsp; If <a href="html.html"><tt>HTML</tt></a> is 
+present, then a HTML document will be created that can be run using Firefox.&nbsp; If <tt><a href="graph.html">GRAPHF</a> </tt>is present in runs that 
+produce animations then a file, &lt;file&gt;.xyz, will be generated.&nbsp; This can 
+be visualized using Jmol.</p>
+<p>When <tt>MINI</tt> and <tt><a href="ts.html">TS</a></tt> are both present, a 
+transition state optimization calculation is run, and only atoms that are 
+flagged with the symbol "2" will be 
+printed; their positions will be changed during the optimization run. All nearby atoms that are to be moved during the optimization should be flagged with a 
+"1", these atoms will not be printed.&nbsp; More distant atoms should be flagged with "0" to 
+indicate that their positions are fixed (frozen); they will not be printed.</p>
+<p><tt>MINI</tt> and <a href="force.html"><tt>FORCETS</tt></a> can be used with 
+internal or Cartesian coordinates.&nbsp; There are two ways to run <tt>MINI</tt> 
+- <tt>FORCETS</tt> jobs:</p>
+<p>(A) Running <tt>MINI</tt> and <tt>FORCETS</tt> in one job; this is not 
+recommended for large systems. Use keywords <tt>HTML FORCETS <a href="irc.html">IRC</a> MINI</tt>&nbsp; 
+plus others, to suit.&nbsp; Set optimization flags to "2" for the atoms to be 
+used in <tt>FORCETS</tt>, and to "0" for all other atoms.&nbsp; </p>
+<p>(B) Running <tt>MINI</tt> and <tt>FORCETS</tt> in two jobs; this is the 
+recommended method for large systems.&nbsp; In the first job, use keywords <tt>
+FORCETS <a href="isotope.html">ISOTOPE</a></tt> 
+plus any others needed.&nbsp; Set optimization flags to "1" for the atoms to be 
+used in <tt>FORCETS</tt>, and to "0" for all other atoms.&nbsp; In a second job, use 
+keywords <tt>HTML FORCETS IRC MINI <a href="restart.html">RESTART</a></tt> plus others to suit. Use the 
+same geometry plus flags as in the first job.&nbsp; To add an atom to the set of 
+atoms printed, change its optimization flags from "0" to "2".&nbsp; This gives 
+increased flexibility in that the atoms used in the <tt>FORCETS</tt> calculation need to 
+be as few as possible, because the <tt>FORCETS</tt> calculation is CPU intensive, but 
+increasing the number of atoms printed in the <tt>IRC</tt> calculation only affects the 
+files generated.</p>
+<p>When <tt>MINI</tt> and <tt><a href="zero_scf.html">0SCF</a></tt> are both present 
+then a file, &lt;file&gt;.xyz, will 
+be generated.</p>
+<p> <tt>MINI</tt> is useful when locating transition states, in <tt>FORCETS</tt> 
+calculations, in following reaction paths, and in <a href="irc.html"><tt>IRC</tt></a> 
+and <a href="drc.html"><tt>DRC</tt></a> trajectories.</p>
+<p> If <tt><a href="pdbout.html">PDBOUT</a></tt> is present, a PDB file will also be written; this file will be 
+complete.&nbsp; So if a complete geometry is wanted, as well as the minimized 
+geometry, then add <tt>PDBOUT</tt>.&nbsp; </p>
+&nbsp;<p>&nbsp;</p>
+</body>
+</html>

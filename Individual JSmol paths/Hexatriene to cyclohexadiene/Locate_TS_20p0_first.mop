@@ -1,0 +1,18 @@
+geo-ok GEO_REF="M:\Individual JSmol paths\Hexatriene to cycloheadiene\Locate_TS_one_step_20p0_second.mop"  locate-ts(C:20;set=1) opt xyz HTML
+ Transition state for the reaction Cyclohexadiene <=> Hexatriene
+
+  C(HETATM    1  C   HET A   1)  -0.76904255 +1  -1.19633628 +1   0.36458708 +1
+  C(HETATM    2  C   HET A   1)   0.67862128 +1  -1.18048311 +1   0.25027471 +1
+  C(HETATM    3  C   HET A   1)   1.36165696 +1  -0.04448710 +1   0.25032119 +1
+  C(HETATM    4  C   HET A   1)   0.69646479 +1   1.24140492 +1   0.36348152 +1
+  C(HETATM    5  C   HET A   1)  -0.07351149 +1   1.81806234 +1  -0.55845819 +1
+  C(HETATM    6  C   HET A   1)  -1.64048449 +1  -0.79181013 +1  -0.55812226 +1
+  H(HETATM    7 1HT  HET A   1)  -1.12293979 +1  -1.72985311 +1   1.22709493 +1
+  H(HETATM    8 2HT1 HET A   1)   1.18007837 +1  -2.15303291 +1   0.23477587 +1
+  H(HETATM    9 3HT  HET A   1)   2.45572670 +1  -0.03125812 +1   0.23496147 +1
+  H(HETATM   10 4HT  HET A   1)   1.00383086 +1   1.80636201 +1   1.22391339 +1
+  H(HETATM   11 1HT1 HET A   1)  -0.29901713 +1   1.45121656 +1  -1.54305877 +1
+  H(HETATM   12 2HT2 HET A   1)  -0.63422331 +1   2.70042975 +1  -0.32221366 +1
+  H(HETATM   13 1HT2 HET A   1)  -1.42314517 +1  -0.42395831 +1  -1.54436286 +1
+  H(HETATM   14 2HT3 HET A   1)  -2.68271051 +1  -0.71082549 +1  -0.32133370 +1
+ 

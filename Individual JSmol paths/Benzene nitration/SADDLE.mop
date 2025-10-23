@@ -1,0 +1,4 @@
+GEO_dat="Locate-ts bias=10.0 second.arc" ++
+GEO_REF="Locate-ts bias=10.0 first.arc" ++
+saddle   HTML geo-ok
+ Move reactants and products near to the transition state

@@ -1,0 +1,15 @@
+*REMARK   3 HET = Not identified; C 3 H 5 N O        =    10 atoms res:    1
+ HTML precise geo-ok MOZYME
+ Transition state for Fulminic acid plus ethylene <=> Fulminic acid plus ethylene product
+(Bias=30.0 first)
+  C(HETATM    1  C1  HET A   1)  -0.21580406 +1   0.91862831 +1   0.01541643 +1
+  C(HETATM    2  C2  HET A   1)   1.28162973 +1   1.01402792 +1   0.30425242 +1
+  O(HETATM    3  O   HET B   1)  -0.73402287 +1   2.31738092 +1   0.19261099 +1
+  N(HETATM    4  N   HET B   1)   0.23671701 +1   3.09016217 +1   0.71004693 +1
+  C(HETATM    5  C3  HET B   1)   1.36230752 +1   2.47694274 +1   0.85374534 +1
+  H(HETATM    6 1H1  HET A   1)  -0.76475185 +1   0.28811331 +1   0.73164790 +1
+  H(HETATM    7 2H1  HET A   1)  -0.51288408 +1   0.68612489 +1  -1.00839543 +1
+  H(HETATM    8 1H2  HET A   1)   1.89996440 +1   0.88981828 +1  -0.60324156 +1
+  H(HETATM    9 2H2  HET A   1)   1.66337662 +1   0.30578923 +1   1.05362638 +1
+  H(HETATM   10  H3  HET B   1)   2.23847992 +1   2.87072456 +1   1.34938077 +1
+ 

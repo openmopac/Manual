@@ -1,0 +1,1 @@
+This system is best modeled using symmetry.  The alternative LOCATE-TS is included, but not used here.

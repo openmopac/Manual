@@ -1,0 +1,5 @@
+ START_RES=(1E 16F 150G 250C 298F-300 297G-299)  CHAINS=(EFGCFGEFGC) add-h html site=(salt,"[HIS]57:F.NE2"(0)) noopt opt-h mozyme output nocomments charge=-1 EPS=78.4
+ Adding hydrogen atoms to PDB file 8GCH, and ionizing various sites.
+
+           Empirical Formula: C1115 N302 O705 S16   =  2138 atoms
+ Hydrogen atom 1117 bonds to "ATOM   1107  NZ  LYS F  82 " and "HETATM 4155  O   HOH F 607 "

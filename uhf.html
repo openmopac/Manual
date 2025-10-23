@@ -1,0 +1,38 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>UHF </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>UHF</tt>
+</h1>
+        The unrestricted Hartree-Fock Hamiltonian is to be used.
+<p>This is the default for odd-electron (radical) systems because geometry optimization 
+using UHF runs faster than when <tt>RHF</tt> is used.&nbsp; This is because the open-shell RHF gradient
+calculation is relatively slow.</p>
+<p>If UHF methods are to be used on even electron systems, add keyword <tt>UHF</tt>.</p>
+<p>A limitation of the <tt>UHF</tt> method is that the resulting wavefunction is not
+spin quantized, that is, although &lt;S<sub>z</sub>&gt; has a&nbsp; well-defined
+value, e.g. 0, 1/2, 1, 3/2, etc., &lt;S<sup>2</sup>&gt; is normally not quantized.&nbsp;
+For a system with an &lt;S<sub>z</sub>&gt; of 1/2, the &lt;S<sup>2</sup>&gt; should be 3/4 =
+1/2*(1/2+1), but is usually higher.&nbsp; This is a consequence of spin
+contamination.&nbsp; Spin contamination is not present if <tt>UHF</tt> is not used.</p>
+</body>
+</html>

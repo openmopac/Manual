@@ -1,0 +1,835 @@
+
+          
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.324W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.324W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM6 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Nov 20 20:15:33 2015  *
+ *  PM6        - The PM6 Hamiltonian to be used
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "BROMINATION REACTANTS.ARC"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "BROMINATION PRODUCTS.ARC"
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *  XYZ        - CARTESIAN COORDINATE SYSTEM TO BE USED
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE IN A PROTEIN MECHANISM
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+geo_dat="Bromination reactants.arc" geo_ref="Bromination Products.arc" html locate-ts(C:1,3,10,20,30) OPT XYZ geo-ok pm6
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   3)    0.00000000  *   0.00000000  *   0.00000000  *
+     2       C(HETATM    2  C2  HET A   3)    1.40861578  *   0.00000000  *   0.00000000  *
+     3       C(HETATM    3  C3  HET A   3)    2.10936443  *   1.20851640  *   0.00000000  *
+     4       C(HETATM    4  C4  HET A   3)    1.41087454  *   2.42173910  *  -0.00762413  *
+     5       C(HETATM    5  C5  HET A   3)    0.01153543  *   2.43139577  *  -0.00923241  *
+     6       C(HETATM    6  C6  HET A   3)   -0.69392203  *   1.22562298  *  -0.00849383  *
+     7       H(HETATM    7  H1  HET A   3)   -0.54797862  *  -0.93942066  *  -0.12425225  *
+     8       H(HETATM    8  H2  HET A   3)    1.94839224  *  -0.94784239  *  -0.00116178  *
+     9       H(HETATM    9  H3  HET A   3)    3.19881842  *   1.20826231  *   0.00616866  *
+    10       H(HETATM   10  H4  HET A   3)    1.96083457  *   3.36342806  *  -0.00910018  *
+    11       H(HETATM   11  H5  HET A   3)   -0.52658766  *   3.37864283  *  -0.00920726  *
+    12       H(HETATM   12  H6  HET A   3)   -1.78474551  *   1.22446057  *  -0.01514477  *
+    13      Br(HETATM   13 BR1  HET A   4)   -0.10819116  *  -0.13918433  *   2.49659538  *
+    14      Br(HETATM   14 BR2  HET A   4)   -0.33284160  *  -0.51830623  *   4.80917276  *
+    15      Al(HETATM   15 AL    AL A   5)   -5.81543795  *   0.15547315  *  -1.89531943  *
+    16      Br(HETATM   16 BR1   AL A   5)   -6.67950881  *  -1.81119053  *  -1.34392782  *
+    17      Br(HETATM   17 BR2   AL A   5)   -7.12445213  *   1.92610236  *  -2.17510756  *
+    18      Br(HETATM   18 BR3   AL A   5)   -3.61717478  *   0.35464850  *  -2.17962653  *
+ 
+
+          By default, a restraining force of 3 kcal/mol/A^2 will be used
+ ----------------------------------------
+
+                 After docking
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   14 BR2  HET A   4)        4.03        4.03
+          (HETATM   13 BR1  HET A   4)        3.64        7.66
+          (HETATM   11  H5  HET A   3)        3.43       11.10
+          (HETATM   16 BR1   AL A   5)        3.19       14.28
+          (HETATM   12  H6  HET A   3)        2.32       16.60
+          (HETATM    9  H3  HET A   3)        2.11       18.71
+          (HETATM   10  H4  HET A   3)        1.59       20.31
+          (HETATM    6  C6  HET A   3)        1.54       21.85
+          (HETATM   18 BR3   AL A   5)        1.37       23.22
+          (HETATM    3  C3  HET A   3)        1.37       24.59
+          (HETATM    5  C5  HET A   3)        1.33       25.92
+          (HETATM    7  H1  HET A   3)        1.31       27.23
+          (HETATM   15 AL    AL A   5)        1.30       28.53
+          (HETATM    4  C4  HET A   3)        1.22       29.75
+          (HETATM    8  H2  HET A   3)        1.06       30.81
+          (HETATM    1  C1  HET A   3)        0.94       31.75
+          (HETATM   17 BR2   AL A   5)        0.86       32.61
+          (HETATM    2  C2  HET A   3)        0.83       33.43
+
+   Difference between data-set and GEO_REF:   33.43 = total,  1.8573 = Average,  2.1078 = RMS, in Angstroms
+
+    The rotated-translated reference geometry will be written to: 'G:\tm\Bromination Products.new'
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM6:
+ "Optimization of Parameters for Semiempirical Methods V: Modification of NDDO Approximations
+ and Application to 70 Elements", J. J. P. Stewart, J. Mol. Mod., 13, 1173-1213 (2007)
+ URL: http://www.springerlink.com/content/ar33482301010477/fulltext.pdf
+
+           Empirical Formula: C6 H6 Br5 Al  =    18 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+ Set 1: Atoms involved in covalent bond-breaking and bond-making            Connectivity of atoms
+
+                                                                             Data-set            Reference
+
+   1    Atom:   C     5  PDB Label: (HETATM    5  C5  HET A   3)           4     6    11        4     6    13
+   2    Atom:   H    11  PDB Label: (HETATM   11  H5  HET A   3)           5                   14
+   3    Atom:  Br    13  PDB Label: (HETATM   13 BR1  HET A   4)          14                    5
+   4    Atom:  Br    14  PDB Label: (HETATM   14 BR2  HET A   4)          13                   11
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+   1    Atom:   C     5  PDB Label: (HETATM    5  C5  HET A   3)
+   2    Atom:   H    11  PDB Label: (HETATM   11  H5  HET A   3)
+   3    Atom:  Br    13  PDB Label: (HETATM   13 BR1  HET A   4)
+   4    Atom:  Br    14  PDB Label: (HETATM   14 BR2  HET A   4)
+   5    Atom:   C     4  PDB Label: (HETATM    4  C4  HET A   3)
+   6    Atom:   C     6  PDB Label: (HETATM    6  C6  HET A   3)
+
+          Constraining constant: 1.00 Kcal/mol/Angstrom^2
+
+
+          Current value of GEO_REF constraint:                1.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   33.43  Angstroms
+
+          Heat of formation of the first geometry:          -82.654 Kcal/mol
+          Heat of formation of the second geometry:         -95.580 Kcal/mol
+          Contribution to heat of formation due to stress:  159.94  Kcal/mol
+          Gradient arising from first geometry:              35.72  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             35.70  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   176.49  degrees
+
+ CYCLE:     1 TIME:   0.141 TIME LEFT:  4.96W  GRAD.:    25.260 HEAT: -18.29238
+ CYCLE:     2 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    25.210 HEAT: -18.30194
+ CYCLE:     3 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:   115.566 HEAT: -21.93941
+ CYCLE:     4 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    61.142 HEAT: -26.20416
+ CYCLE:     5 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    20.533 HEAT: -26.49274
+ CYCLE:     6 TIME:   0.141 TIME LEFT:  4.96W  GRAD.:    16.892 HEAT: -26.15052
+ CYCLE:     7 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    31.430 HEAT: -27.67894
+ CYCLE:     8 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    37.499 HEAT: -29.55088
+ CYCLE:     9 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   116.115 HEAT: -31.67459
+ CYCLE:    10 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    25.982 HEAT: -34.61299
+ CYCLE:    11 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    18.985 HEAT: -34.83976
+ CYCLE:    12 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    26.151 HEAT: -35.82645
+ CYCLE:    13 TIME:   0.102 TIME LEFT:  4.96W  GRAD.:    29.000 HEAT: -37.14499
+ CYCLE:    14 TIME:   0.102 TIME LEFT:  4.96W  GRAD.:    69.197 HEAT: -38.48302
+ CYCLE:    15 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    19.289 HEAT: -40.01446
+ CYCLE:    16 TIME:   0.133 TIME LEFT:  4.96W  GRAD.:    19.429 HEAT: -40.24263
+ CYCLE:    17 TIME:   0.102 TIME LEFT:  4.96W  GRAD.:    22.460 HEAT: -40.95336
+ CYCLE:    18 TIME:   0.117 TIME LEFT:  4.96W  GRAD.:    55.286 HEAT: -41.48684
+ CYCLE:    19 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    15.312 HEAT: -42.34167
+ CYCLE:    20 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    10.636 HEAT: -42.55072
+ CYCLE:    21 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    15.529 HEAT: -42.82847
+ CYCLE:    22 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    22.496 HEAT: -43.36928
+ CYCLE:    23 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    38.210 HEAT: -44.31542
+ CYCLE:    24 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    25.484 HEAT: -45.42516
+ CYCLE:    25 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    21.950 HEAT: -46.18724
+ CYCLE:    26 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    26.175 HEAT: -46.73175
+ CYCLE:    27 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    27.187 HEAT: -47.27222
+ CYCLE:    28 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    19.732 HEAT: -47.75356
+ CYCLE:    29 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    27.995 HEAT: -48.09118
+ CYCLE:    30 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    12.459 HEAT: -48.31061
+ CYCLE:    31 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    10.863 HEAT: -48.36622
+ CYCLE:    32 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    12.509 HEAT: -48.42121
+ CYCLE:    33 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    26.238 HEAT: -48.42186
+ CYCLE:    34 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     9.547 HEAT: -48.58948
+ CYCLE:    35 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     6.406 HEAT: -48.61601
+ CYCLE:    36 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     7.853 HEAT: -48.63437
+ CYCLE:    37 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     7.234 HEAT: -48.65522
+ CYCLE:    38 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    25.626 HEAT: -48.50823
+ CYCLE:    39 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     6.001 HEAT: -48.75038
+ CYCLE:    40 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     4.864 HEAT: -48.74920
+ CYCLE:    41 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     6.817 HEAT: -48.74087
+ CYCLE:    42 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     8.657 HEAT: -48.74231
+ CYCLE:    43 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    13.553 HEAT: -48.65847
+ CYCLE:    44 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     7.214 HEAT: -48.81868
+ CYCLE:    45 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     6.437 HEAT: -48.87399
+ CYCLE:    46 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     7.003 HEAT: -48.88074
+ CYCLE:    47 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    15.681 HEAT: -48.88383
+ CYCLE:    48 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     6.476 HEAT: -49.01493
+ CYCLE:    49 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     4.643 HEAT: -49.02924
+ CYCLE:    50 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     4.818 HEAT: -49.05725
+ CYCLE:    51 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     5.032 HEAT: -49.09036
+ CYCLE:    52 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     9.636 HEAT: -49.17213
+ CYCLE:    53 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     7.711 HEAT: -49.30275
+ CYCLE:    54 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     5.318 HEAT: -49.46342
+ CYCLE:    55 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     7.888 HEAT: -49.55451
+ CYCLE:    56 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     9.278 HEAT: -49.65893
+ CYCLE:    57 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     9.260 HEAT: -49.76902
+ CYCLE:    58 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    11.220 HEAT: -49.90863
+ CYCLE:    59 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     9.823 HEAT: -50.07859
+ CYCLE:    60 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    10.913 HEAT: -50.25816
+ CYCLE:    61 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    11.191 HEAT: -50.46194
+ CYCLE:    62 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    12.384 HEAT: -50.69065
+ CYCLE:    63 TIME:   0.102 TIME LEFT:  4.96W  GRAD.:    19.617 HEAT: -50.88170
+ CYCLE:    64 TIME:   0.102 TIME LEFT:  4.96W  GRAD.:    22.186 HEAT: -50.72042
+ CYCLE:    65 TIME:   0.086 TIME LEFT:  4.96W  GRAD.:    15.469 HEAT: -51.08388
+ CYCLE:    66 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    80.411 HEAT: -50.06325
+ CYCLE:    67 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    13.062 HEAT: -51.29266
+ CYCLE:    68 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    79.554 HEAT: -50.07132
+ CYCLE:    69 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    52.489 HEAT: -50.97590
+ CYCLE:    70 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    41.670 HEAT: -51.13006
+ CYCLE:    71 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    26.236 HEAT: -51.02358
+ CYCLE:    72 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    82.638 HEAT: -50.89052
+ CYCLE:    73 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    46.909 HEAT: -50.33812
+ CYCLE:    74 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   248.179 HEAT: -44.03477
+ CYCLE:    75 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   178.724 HEAT: -45.93600
+ CYCLE:    76 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    19.753 HEAT: -51.39677
+ CYCLE:    77 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    32.546 HEAT: -50.88728
+ CYCLE:    78 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    10.642 HEAT: -51.44371
+ CYCLE:    79 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    11.039 HEAT: -51.44058
+ CYCLE:    80 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     5.410 HEAT: -51.51713
+ CYCLE:    81 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     4.277 HEAT: -51.52589
+ CYCLE:    82 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     4.909 HEAT: -51.58948
+ CYCLE:    83 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    15.237 HEAT: -51.55937
+ CYCLE:    84 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     5.725 HEAT: -51.55030
+ CYCLE:    85 TIME:   0.141 TIME LEFT:  4.96W  GRAD.:     4.149 HEAT: -51.50836
+ CYCLE:    86 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     5.428 HEAT: -51.48458
+ CYCLE:    87 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     8.100 HEAT: -51.45669
+ CYCLE:    88 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    11.913 HEAT: -51.38909
+ CYCLE:    89 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     6.238 HEAT: -51.35372
+ CYCLE:    90 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     3.421 HEAT: -51.35984
+
+     GRADIENT =  3.42136  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 1.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'G:\tm\Locate-TS_1p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 1.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_1p0_second.mop'
+
+
+          Job name:                                        'G:\tm\Locate-TS'
+          Current value of GEO_REF constraint:                1.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   27.82  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   11  H5  HET A   3)        3.72        3.72
+          (HETATM   13 BR1  HET A   4)        3.54        7.26
+          (HETATM   14 BR2  HET A   4)        2.97       10.22
+          (HETATM   16 BR1   AL A   5)        2.24       12.47
+          (HETATM    9  H3  HET A   3)        2.02       14.48
+          (HETATM   12  H6  HET A   3)        1.99       16.47
+          (HETATM   18 BR3   AL A   5)        1.67       18.14
+          (HETATM   10  H4  HET A   3)        1.28       19.43
+          (HETATM    3  C3  HET A   3)        1.22       20.65
+          (HETATM    6  C6  HET A   3)        1.20       21.84
+          (HETATM    7  H1  HET A   3)        1.08       22.92
+          (HETATM    8  H2  HET A   3)        1.07       24.00
+          (HETATM    5  C5  HET A   3)        0.87       24.87
+          (HETATM    4  C4  HET A   3)        0.87       25.74
+          (HETATM    2  C2  HET A   3)        0.68       26.43
+          (HETATM    1  C1  HET A   3)        0.63       27.05
+          (HETATM   15 AL    AL A   5)        0.39       27.45
+          (HETATM   17 BR2   AL A   5)        0.37       27.82
+
+          Heat of formation of the first geometry:          -80.203 Kcal/mol
+          Heat of formation of the second geometry:         -92.271 Kcal/mol
+          Contribution to heat of formation due to stress:  121.11  Kcal/mol
+          Gradient arising from first geometry:              15.70  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             15.94  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   170.75  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 1.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_1p0_average.mop'
+
+
+          Constraining constant: 3.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.188 TIME LEFT:  4.96W  GRAD.:    62.331 HEAT:  185.8369
+ CYCLE:     2 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    62.177 HEAT:  185.7782
+ CYCLE:     3 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   250.900 HEAT:  168.5117
+ CYCLE:     4 TIME:   0.141 TIME LEFT:  4.96W  GRAD.:   118.719 HEAT:  148.1244
+ CYCLE:     5 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    36.393 HEAT:  148.7836
+ CYCLE:     6 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    28.660 HEAT:  150.4443
+ CYCLE:     7 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    48.059 HEAT:  146.6554
+ CYCLE:     8 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    51.531 HEAT:  142.6011
+ CYCLE:     9 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:   145.094 HEAT:  137.7215
+ CYCLE:    10 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    30.655 HEAT:  133.9703
+ CYCLE:    11 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    23.195 HEAT:  133.7522
+ CYCLE:    12 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    28.828 HEAT:  132.4369
+ CYCLE:    13 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    36.457 HEAT:  130.9435
+ CYCLE:    14 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    37.505 HEAT:  128.8809
+ CYCLE:    15 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    22.265 HEAT:  127.4772
+ CYCLE:    16 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    23.389 HEAT:  126.7620
+ CYCLE:    17 TIME:   0.086 TIME LEFT:  4.96W  GRAD.:    25.550 HEAT:  126.1645
+ CYCLE:    18 TIME:   0.102 TIME LEFT:  4.96W  GRAD.:    32.392 HEAT:  125.5913
+ CYCLE:    19 TIME:   0.102 TIME LEFT:  4.96W  GRAD.:     9.066 HEAT:  125.0062
+ CYCLE:    20 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     8.229 HEAT:  125.0954
+ CYCLE:    21 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    10.768 HEAT:  124.9273
+ CYCLE:    22 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    19.514 HEAT:  124.5966
+ CYCLE:    23 TIME:   0.141 TIME LEFT:  4.96W  GRAD.:    15.445 HEAT:  124.1768
+ CYCLE:    24 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    11.733 HEAT:  123.7914
+ CYCLE:    25 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    16.332 HEAT:  123.2690
+ CYCLE:    26 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    14.574 HEAT:  122.9179
+ CYCLE:    27 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    13.205 HEAT:  122.6242
+ CYCLE:    28 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    24.762 HEAT:  122.4539
+ CYCLE:    29 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     8.560 HEAT:  122.5083
+ CYCLE:    30 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     7.580 HEAT:  122.5150
+ CYCLE:    31 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     9.165 HEAT:  122.5038
+ CYCLE:    32 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    11.005 HEAT:  122.4793
+ CYCLE:    33 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    20.478 HEAT:  122.5555
+ CYCLE:    34 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     6.406 HEAT:  122.3305
+ CYCLE:    35 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     5.889 HEAT:  122.3073
+ CYCLE:    36 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     6.963 HEAT:  122.3276
+ CYCLE:    37 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    21.560 HEAT:  122.5060
+ CYCLE:    38 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     8.139 HEAT:  122.2788
+ CYCLE:    39 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     5.588 HEAT:  122.3284
+ CYCLE:    40 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     6.853 HEAT:  122.3848
+ CYCLE:    41 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     8.069 HEAT:  122.4573
+ CYCLE:    42 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    19.847 HEAT:  122.7668
+ CYCLE:    43 TIME:   0.172 TIME LEFT:  4.96W  GRAD.:     4.293 HEAT:  122.1506
+ CYCLE:    44 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     3.734 HEAT:  122.2534
+
+     GRADIENT =  3.73401  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'G:\tm\Locate-TS_3p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_3p0_second.mop'
+
+
+          Job name:                                        'G:\tm\Locate-TS'
+          Current value of GEO_REF constraint:                3.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   24.24  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   11  H5  HET A   3)        3.50        3.50
+          (HETATM   13 BR1  HET A   4)        3.18        6.68
+          (HETATM   14 BR2  HET A   4)        2.12        8.81
+          (HETATM   16 BR1   AL A   5)        1.95       10.76
+          (HETATM   12  H6  HET A   3)        1.78       12.54
+          (HETATM    9  H3  HET A   3)        1.77       14.31
+          (HETATM   18 BR3   AL A   5)        1.68       15.99
+          (HETATM    6  C6  HET A   3)        1.08       17.07
+          (HETATM    3  C3  HET A   3)        1.06       18.13
+          (HETATM   10  H4  HET A   3)        1.01       19.14
+          (HETATM    7  H1  HET A   3)        1.01       20.15
+          (HETATM    8  H2  HET A   3)        0.97       21.13
+          (HETATM    5  C5  HET A   3)        0.68       21.81
+          (HETATM    4  C4  HET A   3)        0.65       22.46
+          (HETATM    2  C2  HET A   3)        0.59       23.05
+          (HETATM    1  C1  HET A   3)        0.58       23.63
+          (HETATM   17 BR2   AL A   5)        0.49       24.12
+          (HETATM   15 AL    AL A   5)        0.12       24.24
+
+          Heat of formation of the first geometry:          -71.718 Kcal/mol
+          Heat of formation of the second geometry:         -87.751 Kcal/mol
+          Contribution to heat of formation due to stress:  281.72  Kcal/mol
+          Gradient arising from first geometry:              41.19  Kcal/mol/Angstrom
+          Gradient arising from second geometry:             40.96  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   174.89  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_3p0_average.mop'
+
+
+          Constraining constant: 10.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.188 TIME LEFT:  4.96W  GRAD.:   183.695 HEAT:  765.5407
+ CYCLE:     2 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:   183.189 HEAT:  765.0281
+ CYCLE:     3 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   907.963 HEAT:  686.8980
+ CYCLE:     4 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   235.232 HEAT:  535.4899
+ CYCLE:     5 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:   110.776 HEAT:  541.3386
+ CYCLE:     6 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    74.264 HEAT:  544.7968
+ CYCLE:     7 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    99.656 HEAT:  523.2682
+ CYCLE:     8 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:   136.252 HEAT:  506.5416
+ CYCLE:     9 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    61.928 HEAT:  496.5920
+ CYCLE:    10 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    49.467 HEAT:  494.0507
+ CYCLE:    11 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    59.671 HEAT:  490.7777
+ CYCLE:    12 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    86.835 HEAT:  487.5151
+ CYCLE:    13 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    43.211 HEAT:  485.4342
+ CYCLE:    14 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    43.013 HEAT:  483.0977
+ CYCLE:    15 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    51.577 HEAT:  480.3911
+ CYCLE:    16 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    54.366 HEAT:  475.8620
+ CYCLE:    17 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   142.870 HEAT:  475.6688
+ CYCLE:    18 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    26.350 HEAT:  472.4142
+ CYCLE:    19 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    21.770 HEAT:  471.6623
+ CYCLE:    20 TIME:   0.102 TIME LEFT:  4.96W  GRAD.:    24.437 HEAT:  470.9174
+ CYCLE:    21 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    45.602 HEAT:  469.9337
+ CYCLE:    22 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    15.745 HEAT:  469.0169
+ CYCLE:    23 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    12.286 HEAT:  468.3381
+ CYCLE:    24 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    15.035 HEAT:  467.4196
+ CYCLE:    25 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    19.682 HEAT:  466.0102
+ CYCLE:    26 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    28.560 HEAT:  463.7990
+ CYCLE:    27 TIME:   0.141 TIME LEFT:  4.96W  GRAD.:    11.942 HEAT:  463.3993
+ CYCLE:    28 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    13.244 HEAT:  463.0918
+ CYCLE:    29 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    13.777 HEAT:  462.4358
+ CYCLE:    30 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    44.763 HEAT:  461.6218
+ CYCLE:    31 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     9.394 HEAT:  461.5187
+ CYCLE:    32 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     6.540 HEAT:  461.1567
+ CYCLE:    33 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     6.894 HEAT:  461.0063
+ CYCLE:    34 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     8.020 HEAT:  460.8222
+ CYCLE:    35 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    29.026 HEAT:  461.1477
+ CYCLE:    36 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     5.167 HEAT:  461.2140
+ CYCLE:    37 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     3.618 HEAT:  461.0681
+
+     GRADIENT =  3.61779  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'G:\tm\Locate-TS_10p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_10p0_second.mop'
+
+
+          Job name:                                        'G:\tm\Locate-TS'
+          Current value of GEO_REF constraint:               10.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   18.26  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   11  H5  HET A   3)        2.86        2.86
+          (HETATM   13 BR1  HET A   4)        2.28        5.14
+          (HETATM   16 BR1   AL A   5)        1.71        6.85
+          (HETATM   18 BR3   AL A   5)        1.41        8.26
+          (HETATM   14 BR2  HET A   4)        1.37        9.64
+          (HETATM   12  H6  HET A   3)        1.32       10.96
+          (HETATM    9  H3  HET A   3)        1.23       12.19
+          (HETATM    6  C6  HET A   3)        0.90       13.08
+          (HETATM    3  C3  HET A   3)        0.79       13.87
+          (HETATM    7  H1  HET A   3)        0.74       14.61
+          (HETATM    8  H2  HET A   3)        0.69       15.30
+          (HETATM   10  H4  HET A   3)        0.65       15.95
+          (HETATM    5  C5  HET A   3)        0.54       16.48
+          (HETATM    1  C1  HET A   3)        0.48       16.97
+          (HETATM    2  C2  HET A   3)        0.44       17.40
+          (HETATM    4  C4  HET A   3)        0.41       17.81
+          (HETATM   17 BR2   AL A   5)        0.40       18.21
+
+          Heat of formation of the first geometry:          -22.663 Kcal/mol
+          Heat of formation of the second geometry:         -63.125 Kcal/mol
+          Contribution to heat of formation due to stress:  546.86  Kcal/mol
+          Gradient arising from first geometry:             104.37  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            104.71  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   177.94  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_10p0_average.mop'
+
+
+          Constraining constant: 20.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.250 TIME LEFT:  4.96W  GRAD.:   279.137 HEAT:  931.2196
+ CYCLE:     2 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   278.091 HEAT:  930.0403
+ CYCLE:     3 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:   830.428 HEAT:  752.0677
+ CYCLE:     4 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:   465.996 HEAT:  569.1253
+ CYCLE:     5 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:   170.032 HEAT:  558.3035
+ CYCLE:     6 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    87.209 HEAT:  575.4023
+ CYCLE:     7 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    76.284 HEAT:  555.5438
+ CYCLE:     8 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:   127.572 HEAT:  538.3289
+ CYCLE:     9 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    47.272 HEAT:  537.6973
+ CYCLE:    10 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    42.891 HEAT:  541.4677
+ CYCLE:    11 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    51.597 HEAT:  540.1820
+ CYCLE:    12 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   141.038 HEAT:  539.7914
+ CYCLE:    13 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    38.328 HEAT:  536.3246
+ CYCLE:    14 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    28.146 HEAT:  533.5403
+ CYCLE:    15 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    32.421 HEAT:  529.7380
+ CYCLE:    16 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    34.997 HEAT:  526.2223
+ CYCLE:    17 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:   126.552 HEAT:  526.4993
+ CYCLE:    18 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    21.271 HEAT:  524.2063
+ CYCLE:    19 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    18.898 HEAT:  525.1535
+ CYCLE:    20 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    21.361 HEAT:  523.8072
+ CYCLE:    21 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    80.945 HEAT:  522.5343
+ CYCLE:    22 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    10.956 HEAT:  522.6599
+ CYCLE:    23 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     9.445 HEAT:  522.0311
+ CYCLE:    24 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     8.017 HEAT:  521.1894
+ CYCLE:    25 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    42.985 HEAT:  520.0973
+ CYCLE:    26 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     6.801 HEAT:  519.3986
+ CYCLE:    27 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     5.390 HEAT:  519.7685
+ CYCLE:    28 TIME:   0.086 TIME LEFT:  4.96W  GRAD.:     6.111 HEAT:  520.0247
+ CYCLE:    29 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:     7.276 HEAT:  520.6342
+ CYCLE:    30 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    17.094 HEAT:  520.9062
+ CYCLE:    31 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     5.603 HEAT:  520.6752
+ CYCLE:    32 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     3.006 HEAT:  520.6047
+
+     GRADIENT =  3.00585  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'G:\tm\Locate-TS_20p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_20p0_second.mop'
+
+
+          Job name:                                        'G:\tm\Locate-TS'
+          Current value of GEO_REF constraint:               20.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   12.55  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   11  H5  HET A   3)        2.26        2.26
+          (HETATM   13 BR1  HET A   4)        1.70        3.96
+          (HETATM   16 BR1   AL A   5)        1.30        5.26
+          (HETATM   18 BR3   AL A   5)        1.05        6.31
+          (HETATM   14 BR2  HET A   4)        1.00        7.30
+          (HETATM   12  H6  HET A   3)        0.75        8.05
+          (HETATM    9  H3  HET A   3)        0.68        8.73
+          (HETATM    6  C6  HET A   3)        0.62        9.35
+          (HETATM    3  C3  HET A   3)        0.52        9.87
+          (HETATM    7  H1  HET A   3)        0.41       10.28
+          (HETATM    8  H2  HET A   3)        0.39       10.68
+          (HETATM    5  C5  HET A   3)        0.38       11.06
+          (HETATM   10  H4  HET A   3)        0.33       11.39
+          (HETATM    1  C1  HET A   3)        0.33       11.72
+          (HETATM    2  C2  HET A   3)        0.29       12.01
+          (HETATM   17 BR2   AL A   5)        0.29       12.30
+          (HETATM    4  C4  HET A   3)        0.23       12.54
+
+          Heat of formation of the first geometry:          -13.387 Kcal/mol
+          Heat of formation of the second geometry:         -41.054 Kcal/mol
+          Contribution to heat of formation due to stress:  575.05  Kcal/mol
+          Gradient arising from first geometry:             152.54  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            152.07  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   179.05  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 20.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_20p0_average.mop'
+
+
+          Constraining constant: 30.00 Kcal/mol/Angstrom^2
+
+ CYCLE:     1 TIME:   0.281 TIME LEFT:  4.96W  GRAD.:   282.431 HEAT:  719.3132
+ CYCLE:     2 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:   281.104 HEAT:  718.0818
+ CYCLE:     3 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:   418.602 HEAT:  525.4971
+ CYCLE:     4 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:   923.657 HEAT:  499.4616
+ CYCLE:     5 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:   109.089 HEAT:  402.5851
+ CYCLE:     6 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    54.912 HEAT:  432.9849
+ CYCLE:     7 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    45.152 HEAT:  432.7679
+ CYCLE:     8 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    60.364 HEAT:  420.7274
+ CYCLE:     9 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:   108.543 HEAT:  417.7192
+ CYCLE:    10 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    32.069 HEAT:  416.9701
+ CYCLE:    11 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    22.082 HEAT:  418.3015
+ CYCLE:    12 TIME:   0.141 TIME LEFT:  4.96W  GRAD.:    28.049 HEAT:  418.8699
+ CYCLE:    13 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    30.248 HEAT:  417.2687
+ CYCLE:    14 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:    86.829 HEAT:  415.0741
+ CYCLE:    15 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    21.071 HEAT:  412.0785
+ CYCLE:    16 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    20.014 HEAT:  410.3580
+ CYCLE:    17 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    19.763 HEAT:  408.0725
+ CYCLE:    18 TIME:   0.109 TIME LEFT:  4.96W  GRAD.:    27.940 HEAT:  406.7101
+ CYCLE:    19 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:    29.832 HEAT:  406.0216
+ CYCLE:    20 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     9.169 HEAT:  406.3393
+ CYCLE:    21 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     9.236 HEAT:  406.0321
+ CYCLE:    22 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     7.510 HEAT:  405.6853
+ CYCLE:    23 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     9.753 HEAT:  405.7490
+ CYCLE:    24 TIME:   0.094 TIME LEFT:  4.96W  GRAD.:     9.732 HEAT:  405.8941
+ CYCLE:    25 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     5.799 HEAT:  405.7978
+ CYCLE:    26 TIME:   0.125 TIME LEFT:  4.96W  GRAD.:     3.859 HEAT:  405.6637
+
+     GRADIENT =  3.85895  IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'G:\tm\Locate-TS_30p0_first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_30p0_second.mop'
+
+
+          Job name:                                        'G:\tm\Locate-TS'
+          Current value of GEO_REF constraint:               30.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                    8.26  Angstroms
+
+              Atoms that move a lot
+                   Atom Label               Movement    Integral
+
+          (HETATM   11  H5  HET A   3)        1.85        1.85
+          (HETATM   13 BR1  HET A   4)        1.35        3.20
+          (HETATM   16 BR1   AL A   5)        0.85        4.06
+          (HETATM   14 BR2  HET A   4)        0.71        4.77
+          (HETATM   18 BR3   AL A   5)        0.68        5.45
+          (HETATM    6  C6  HET A   3)        0.38        5.82
+          (HETATM   12  H6  HET A   3)        0.34        6.16
+          (HETATM    3  C3  HET A   3)        0.32        6.48
+          (HETATM    9  H3  HET A   3)        0.32        6.80
+          (HETATM    5  C5  HET A   3)        0.25        7.05
+          (HETATM    8  H2  HET A   3)        0.19        7.24
+          (HETATM   17 BR2   AL A   5)        0.19        7.43
+          (HETATM    1  C1  HET A   3)        0.19        7.62
+          (HETATM    2  C2  HET A   3)        0.18        7.80
+          (HETATM    7  H1  HET A   3)        0.18        7.97
+          (HETATM   10  H4  HET A   3)        0.15        8.12
+          (HETATM    4  C4  HET A   3)        0.13        8.25
+
+          Heat of formation of the first geometry:          -13.999 Kcal/mol
+          Heat of formation of the second geometry:         -41.279 Kcal/mol
+          Contribution to heat of formation due to stress:  460.94  Kcal/mol
+          Gradient arising from first geometry:             166.92  Kcal/mol/Angstrom
+          Gradient arising from second geometry:            166.25  Kcal/mol/Angstrom
+          Angle between gradient vectors:                   178.83  degrees
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 30.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:\tm\Locate-TS_30p0_average.mop'
+
+
+ -------------------------------------------------------------------------------
+ GEO_REF="G:\tm\Locate-TS_30p0_first.mop" html locate-ts(C:1,3,10,20,30) OPT XYZ geo-ok pm6
+
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM6 CALCULATION
+                                                       MOPAC2012 (Version: 15.324W)
+                                                       Fri Nov 20 20:15:59 2015
+                                                       No. of days left = 365
+
+
+
+
+          FINAL H.O.F PLUS STRESS =        405.66369 KCAL/MOL =    1697.29687 KJ/MOL
+          FINAL STRESS            =        230.47085 KCAL/MOL =     964.29005 KJ/MOL
+          FINAL HEAT OF FORMATION =        175.19283 KCAL/MOL =     733.00682 KJ/MOL
+          TOTAL DISTORTION        =          4.13004 Angstroms
+          AVERAGE DISTORTION      =          0.22945 Angstroms per atom (all atoms)
+          RMS DISTORTION          =          0.32665 Angstroms per atom (all atoms)
+
+
+          TOTAL ENERGY            =      -2010.61175 EV
+          ELECTRONIC ENERGY       =      -9387.26465 EV
+          CORE-CORE REPULSION     =       7376.65290 EV
+
+          GRADIENT NORM           =          2.00381
+          NO. OF FILLED LEVELS    =         34
+          MOLECULAR WEIGHT        =        504.615
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+           Br    16   Br    14     9.62840
+           Br    17    H     8     7.78189
+           Br    16    H    10     4.27697
+
+
+          SCF CALCULATIONS        =         12
+ 
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+                                         Cartesian Gradients         Cartesian Coordinates          |Gradient|
+  Atom                                   X        Y        Z        X          Y          Z
+ 
+    1  C(HETATM    1  C1  HET A   3)    0.061    0.126   -0.141   -0.06246   -0.62982    0.30544       0.199
+    2  C(HETATM    2  C2  HET A   3)    0.235    0.284   -0.594    1.20822   -0.44731   -0.22011       0.699
+    3  C(HETATM    3  C3  HET A   3)   -0.147    0.158   -0.285    1.69625    0.84570   -0.42201       0.357
+    4  C(HETATM    4  C4  HET A   3)   -0.384    0.147    0.216    0.94473    1.97280   -0.08286       0.464
+    5  C(HETATM    5  C5  HET A   3)    0.383    0.083    0.097   -0.30204    1.77954    0.48737       0.404
+    6  C(HETATM    6  C6  HET A   3)    0.162   -0.628    0.104   -0.82152    0.48658    0.64086       0.657
+    7  H(HETATM    7  H1  HET A   3)    0.281    0.289   -0.276   -0.46365   -1.63361    0.44482       0.488
+    8  H(HETATM    8  H2  HET A   3)   -0.054    0.131    0.042    1.81236   -1.31878   -0.47320       0.148
+    9  H(HETATM    9  H3  HET A   3)    0.008    0.138    0.149    2.69587    0.97862   -0.84266       0.203
+   10  H(HETATM   10  H4  HET A   3)   -0.013    0.271    0.026    1.34297    2.97601   -0.23299       0.272
+   11  H(HETATM   11  H5  HET A   3)   -0.253   -0.175    0.165   -1.04096    2.29849    1.88909       0.349
+   12  H(HETATM   12  H6  HET A   3)   -0.165    0.289   -0.414   -1.82772    0.34868    1.05016       0.531
+   13 Br(HETATM   13 BR1  HET A   4)   -0.017   -0.335    0.419   -0.76441    2.88611    2.06536       0.536
+   14 Br(HETATM   14 BR2  HET A   4)   -0.248   -0.617    0.614   -0.23772    1.92177    4.47425       0.905
+   15 Al(HETATM   15 AL    AL A   5)    0.112   -0.235    0.041   -4.85389    0.52650   -2.38626       0.264
+   16 Br(HETATM   16 BR1   AL A   5)   -0.223   -0.293   -0.122   -5.43084   -1.50797   -2.87248       0.387
+   17 Br(HETATM   17 BR2   AL A   5)    0.280   -0.085   -0.144   -6.31421    2.18740   -2.49223       0.326
+   18 Br(HETATM   18 BR3   AL A   5)   -0.019    0.479    0.328   -2.75421    0.74802   -1.80093       0.581
+ 
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   3)   -0.06245866  *  -0.62981592  *   0.30543620  *
+     2       C(HETATM    2  C2  HET A   3)    1.20822395  *  -0.44731370  *  -0.22010927  *
+     3       C(HETATM    3  C3  HET A   3)    1.69625151  *   0.84569738  *  -0.42201067  *
+     4       C(HETATM    4  C4  HET A   3)    0.94472755  *   1.97280076  *  -0.08286120  *
+     5       C(HETATM    5  C5  HET A   3)   -0.30204055  *   1.77954492  *   0.48736703  *
+     6       C(HETATM    6  C6  HET A   3)   -0.82152160  *   0.48657914  *   0.64086485  *
+     7       H(HETATM    7  H1  HET A   3)   -0.46365459  *  -1.63361246  *   0.44482055  *
+     8       H(HETATM    8  H2  HET A   3)    1.81236136  *  -1.31878258  *  -0.47319832  *
+     9       H(HETATM    9  H3  HET A   3)    2.69587374  *   0.97861859  *  -0.84266274  *
+    10       H(HETATM   10  H4  HET A   3)    1.34297205  *   2.97600956  *  -0.23298509  *
+    11       H(HETATM   11  H5  HET A   3)   -1.04096299  *   2.29849332  *   1.88909360  *
+    12       H(HETATM   12  H6  HET A   3)   -1.82771524  *   0.34867712  *   1.05015986  *
+    13      Br(HETATM   13 BR1  HET A   4)   -0.76441032  *   2.88610543  *   2.06535879  *
+    14      Br(HETATM   14 BR2  HET A   4)   -0.23772145  *   1.92177409  *   4.47425422  *
+    15      Al(HETATM   15 AL    AL A   5)   -4.85389190  *   0.52649827  *  -2.38625954  *
+    16      Br(HETATM   16 BR1   AL A   5)   -5.43084486  *  -1.50797158  *  -2.87247705  *
+    17      Br(HETATM   17 BR2   AL A   5)   -6.31421186  *   2.18739766  *  -2.49223000  *
+    18      Br(HETATM   18 BR3   AL A   5)   -2.75421426  *   0.74801966  *  -1.80093265  *
+
+                             CARTESIAN COORDINATES
+
+   1    C       -0.062458659    -0.629815918     0.305436196
+   2    C        1.208223945    -0.447313705    -0.220109269
+   3    C        1.696251510     0.845697382    -0.422010670
+   4    C        0.944727550     1.972800758    -0.082861196
+   5    C       -0.302040550     1.779544918     0.487367030
+   6    C       -0.821521600     0.486579142     0.640864852
+   7    H       -0.463654590    -1.633612456     0.444820550
+   8    H        1.812361359    -1.318782576    -0.473198315
+   9    H        2.695873744     0.978618592    -0.842662740
+  10    H        1.342972054     2.976009560    -0.232985086
+  11    H       -1.040962986     2.298493320     1.889093595
+  12    H       -1.827715243     0.348677119     1.050159860
+  13   Br       -0.764410319     2.886105432     2.065358790
+  14   Br       -0.237721451     1.921774088     4.474254218
+  15   Al       -4.853891896     0.526498275    -2.386259543
+  16   Br       -5.430844859    -1.507971578    -2.872477048
+  17   Br       -6.314211863     2.187397659    -2.492229996
+  18   Br       -2.754214256     0.748019660    -1.800932646
+
+
+           Empirical Formula: C6 H6 Br5 Al  =    18 atoms
+
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1          C(HETATM    1  C1  HET A   3)          -0.106758        4.1068     1.10620     3.00055
+    2          C(HETATM    2  C2  HET A   3)          -0.137653        4.1377     1.10815     3.02950
+    3          C(HETATM    3  C3  HET A   3)          -0.121240        4.1212     1.10615     3.01509
+    4          C(HETATM    4  C4  HET A   3)          -0.139804        4.1398     1.10700     3.03280
+    5          C(HETATM    5  C5  HET A   3)           0.012745        3.9873     1.09572     2.89153
+    6          C(HETATM    6  C6  HET A   3)          -0.171848        4.1718     1.10824     3.06360
+    7          H(HETATM    7  H1  HET A   3)           0.157972        0.8420     0.84203
+    8          H(HETATM    8  H2  HET A   3)           0.156393        0.8436     0.84361
+    9          H(HETATM    9  H3  HET A   3)           0.155281        0.8447     0.84472
+   10          H(HETATM   10  H4  HET A   3)           0.171774        0.8282     0.82823
+   11          H(HETATM   11  H5  HET A   3)           0.262342        0.7377     0.73766
+   12          H(HETATM   12  H6  HET A   3)           0.171459        0.8285     0.82854
+   13         Br(HETATM   13 BR1  HET A   4)          -0.045036        7.0450     1.98363     5.05045     0.01096
+   14         Br(HETATM   14 BR2  HET A   4)          -0.361060        7.3611     1.98698     5.37017     0.00391
+   15         Al(HETATM   15 AL    AL A   5)           0.671456        2.3285     0.90695     1.36755     0.05404
+   16         Br(HETATM   16 BR1   AL A   5)          -0.225840        7.2258     1.98290     5.23823     0.00472
+   17         Br(HETATM   17 BR2   AL A   5)          -0.220753        7.2208     1.98356     5.23270     0.00450
+   18         Br(HETATM   18 BR3   AL A   5)          -0.229430        7.2294     1.98336     5.24021     0.00586
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.     0.127    -1.120    -5.961     6.067
+ HYBRID        -0.146     0.495     0.377     0.639
+ SUM           -0.019    -0.624    -5.585     5.620
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1  C(HETATM    1  C1  HET A   3)   1.10620   0.98295   1.05036   0.96725
+    2  C(HETATM    2  C2  HET A   3)   1.10815   1.01248   1.03003   0.98698
+    3  C(HETATM    3  C3  HET A   3)   1.10615   1.03896   0.96799   1.00813
+    4  C(HETATM    4  C4  HET A   3)   1.10700   0.97803   1.06820   0.98657
+    5  C(HETATM    5  C5  HET A   3)   1.09572   0.98786   0.89503   1.00864
+    6  C(HETATM    6  C6  HET A   3)   1.10824   1.05745   0.96684   1.03931
+    7  H(HETATM    7  H1  HET A   3)   0.84203
+    8  H(HETATM    8  H2  HET A   3)   0.84361
+    9  H(HETATM    9  H3  HET A   3)   0.84472
+   10  H(HETATM   10  H4  HET A   3)   0.82823
+   11  H(HETATM   11  H5  HET A   3)   0.73766
+   12  H(HETATM   12  H6  HET A   3)   0.82854
+   13 Br(HETATM   13 BR1  HET A   4)   1.98363   1.81049   1.53250   1.70746   0.00208   0.00168   0.00146   0.00365   0.00209
+   14 Br(HETATM   14 BR2  HET A   4)   1.98698   1.67549   1.95972   1.73496   0.00036   0.00177   0.00065   0.00073   0.00039
+   15 Al(HETATM   15 AL    AL A   5)   0.90695   0.51507   0.51665   0.33583   0.01377   0.00939   0.00773   0.00934   0.01381
+   16 Br(HETATM   16 BR1   AL A   5)   1.98290   1.94238   1.50801   1.78784   0.00139   0.00035   0.00036   0.00188   0.00074
+   17 Br(HETATM   17 BR2   AL A   5)   1.98356   1.65229   1.64645   1.93395   0.00073   0.00028   0.00084   0.00030   0.00234
+   18 Br(HETATM   18 BR3   AL A   5)   1.98336   1.49524   1.95254   1.79244   0.00164   0.00254   0.00052   0.00038   0.00079
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ *                                                                            *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:            26.16 SECONDS
+
+ == MOPAC DONE ==

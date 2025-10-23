@@ -1,0 +1,64 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>LEWIS </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center" dir="ltr">
+<tt>CHARGES</tt>
+</h1>
+<p align="left">When <tt>CHARGES</tt> is present, all ionized sites in the system will be identified and printed.&nbsp; 
+The run will then be stopped.&nbsp; This operation is useful during the 
+preparation of a data set, in that it is very easy for even experienced users to 
+have incorrect charges on large systems, particularly complicated organic 
+species such as enzymes and organometallics.</p>
+<p align="left">The method for identifying charged atoms is very powerful.&nbsp; 
+So although you might be quite certain that you have the charges correct, if 
+<tt>CHARGES</tt> indicates that you have made a mistake, please check the system using 
+the information printed.&nbsp; In 100% of the cases where users have complained 
+that MOPAC reported faulty charges, <tt>CHARGES</tt> identified errors in the user's structure.</p>
+<p align="left">In MOPAC, many common Lewis structures involve hypervalent systems 
+being represented as ions.&nbsp; Thus the sulfur atom in sulfuric acid would be represented as 
+S<sup>+</sup> and there would be a counter-charge of O<sup>-</sup>.&nbsp; Be aware that 
+during a geometry optimization "<a href="salt_bridges.html">salt bridges</a>" can 
+form, e.g. -COOH
+<sup>...</sup>&nbsp; H<sub>2</sub>N-&nbsp; can convert to -[COO]<sup>-</sup>
+<sup>...</sup>&nbsp; [H<sub>2</sub>N]<sup>+</sup>-. Such structures should <i>
+not</i> be regarded as faults. Also, metal ions might be reported as having an 
+unexpected charge, thus Zn with four oxygen atoms as ligands might be reported 
+as [Zn]<sup>2-</sup>. If this causes any concern, add keyword
+<a href="metal.html">METAL</a>, and all bonds to metal ions will be broken, so 
+for example Zn with four ligands would be reported as [Zn]<sup>2+</sup> and all 
+four ligands would each acquire a negative charge.</p>
+<p align="left">The choice of which nitrogen atoms in the heterocycle in 
+histidine have attached hydrogen atoms is often not immediately obvious.&nbsp; 
+But in many cases, the choice is important - the wrong choice will always result 
+in a high-energy structure, and be accompanied by severe rotation of the 
+heterocycle, as it tries to relieve the stress.&nbsp; <tt>CHARGES</tt> cannot 
+help with identifying the right choice.</p>
+<p>Related key-words:&nbsp; <tt><a href="lewis.html">LEWIS</a>, <a href="CVB.html">
+CVB</a>, <a href="metal.html">METAL</a>, <a href="vdwm.html">VDWM</a>,
+<a href="charge.html">CHARGE</a>, and <a href="mozyme.html">MOZYME</a></tt><br/>
+See also: <a href="Lewis_structures.html">Lewis Structures</a>,
+<a href="mozyme_introduction.html">MOZYME introduction</a></p><dl dir="ltr">
+<div align="left">
+<dt dir="ltr">&nbsp;</dt>
+</div>
+</dl></body>
+</html>

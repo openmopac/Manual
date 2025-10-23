@@ -1,0 +1,20 @@
+HEADER  data-set: Step_2_3
+REMARK  MOPAC 2012, Version: 15.309W Date: Nov 05 2015 12:08
+HETATM    1  C1  HET A   3      -0.077  -0.006  -0.044  1.00 -0.52      PROT C 
+HETATM    2  C2  HET A   3       1.288   0.217   0.531  1.00  0.79      PROT C 
+HETATM    3  O1  HET A   3       2.039   1.173   0.329  1.00 -0.79      PROT O 
+HETATM    4  O2  HET A   3       1.986  -1.163   0.445  1.00 -0.55      PROT O 
+HETATM    5  C3  HET A   3       3.381  -1.181   0.113  1.00  0.02      PROT C 
+HETATM    6  C4  HET A   3       3.741  -2.650  -0.029  1.00 -0.48      PROT C 
+HETATM    7 1H1  HET A   3      -0.028  -0.459  -1.045  1.00  0.19      PROT H 
+HETATM    8 2H1  HET A   3      -0.689  -0.676   0.582  1.00  0.19      PROT H 
+HETATM    9 3H1  HET A   3      -0.620   0.948  -0.141  1.00  0.19      PROT H 
+HETATM   10 1H3  HET A   3       3.496  -0.619  -0.831  1.00  0.14      PROT H 
+HETATM   11 2H3  HET A   3       3.946  -0.671   0.913  1.00  0.14      PROT H 
+HETATM   12 1H4  HET A   3       3.456  -3.228   0.860  1.00  0.16      PROT H 
+HETATM   13 2H4  HET A   3       3.242  -3.114  -0.889  1.00  0.16      PROT H 
+HETATM   14 3H4  HET A   3       4.823  -2.778  -0.169  1.00  0.17      PROT H 
+HETATM   15 1H   HOH A   5       1.706   0.447   2.623  1.00  0.38      PROT H 
+HETATM   16  O   HOH A   5       1.124  -0.101   2.050  1.00 -0.69      PROT O 
+HETATM   17 2H   HOH A   5       1.786  -1.211   1.733  1.00  0.48      PROT H 
+END

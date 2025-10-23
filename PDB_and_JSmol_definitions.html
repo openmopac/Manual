@@ -1,0 +1,97 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Internal Coordinate Definition</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+																																											   .auto-style2 {
+																																												   text-decoration: underline;
+																																											   }
+																																											   </style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2 class="auto-style1">Defining atom numbers by using PDB or JSmol labels.</h2>
+<p>Atom numbers are frequently used in MOPAC.&nbsp; Common examples are 
+defining connectivity for an atom's internal coordinates, and specifying individual atoms to be used by 
+using keywords such as <a href="CVB.html"><tt>CVB</tt></a>,
+<a href="site.html"><tt>SITE</tt></a>, <a href="setpi.html"><tt>SETPI</tt></a>, etc. 
+Atom numbers are easy to define - for any given atom, the atom number is the sum 
+of all previously defined atoms plus one, i.e., the order of occurrence of that 
+atom. Thus the sixth atom in a geometry would have atom number 6. For small 
+systems, identifying atom numbers is easy, but problems arise when large systems, 
+specifically proteins, are being modeled.&nbsp; Protein geometries are usually 
+defined using PDB format, or using MOPAC format where each atom is labeled with 
+the PDB atom-label.&nbsp; In systems with thousands of atoms, finding the atom 
+number is a tedious task. In the atom label there is an atom serial number; this 
+would be the same as the atom number provided there are no termination records, 
+"TER", defined earlier.&nbsp; If there are any "TER" records defined earlier, 
+each of these uses one serial number, so all subsequent atoms have atom serial 
+numbers that are different from the atom numbers.&nbsp; An even greater problem 
+occurs when atoms are added, deleted, or re-arranged.&nbsp; When this is done, 
+atom numbers that were once correct can become incorrect.</p>
+<p>To avoid problems associated with using atom numbers, individual atoms can be 
+referred to using their unique atom labels.&nbsp; Two types of label are 
+supported.</p>
+<h3>Use of PDB atom label</h3>
+<p>Typical PDB atom record label look like&nbsp; this:
+</p><pre>ATOM   1527 <span class="auto-style2"> <strong>NE1 TRP B 105</strong></span>      29.313  21.717   2.896  1.00  0.00      PROT N
+ATOM   1941 <span class="auto-style2"><strong>3HD2 LEU B 128</strong></span>      19.526  14.233  -0.364  1.00  0.00      PROT H  </pre>
+The unique part of an atom label is the section in <span class="auto-style2">
+<strong>bold underline</strong></span>.&nbsp; To convert this into a PDB label 
+for defining an atom number, enclose the text between parentheses, e.g., "NE1 
+TRP B 105" or "3HD2 LEU B 128"&nbsp; Spaces are not important, but make reading 
+the label easier.&nbsp;
+<h4>Example of an atom defined using internal coordinates, with the connectivity 
+defined using PDB labels</h4>
+<pre>   C(HETATM 2426  CB  THR B1157)  29.33911564 +1   9.49258665 +1 -14.71105717 +1
+  O(HETATM 2427  OG1 THR B1157)  1.208 1 127.2 1 180.0 1 "C ASP B 154" "CA ASP B 154" "N ASP B 154"
+  C(HETATM 2428  CG2 THR B1157)  25.89212447 +1  10.44808010 +1 -14.19622854 +1</pre>
+  Here, the coordinates of the atom with PDB label "<tt>HETATM 2427&nbsp; OG1 THR B1157</tt>" 
+are defined using three previously-defined atom that have PDB labels &nbsp;<tt>"C ASP B 154", "CA ASP B 154", 
+</tt>and<tt> "N ASP B 154".</tt><h3>
+Use of JSmol atom label</h3>
+<p>
+The starting point for using JSmol labels is to have a JSmol display of the 
+atoms of interest.&nbsp; If the cursor is hovered over an atom, a small display 
+appears, giving the atom-label in JSmol format, e.g. [TYR]7:B.CG #77. To convert 
+this into a label for defining an atom number, use all the text between the 
+open-square-bracket, "[", and the space before the "#" sign.&nbsp; In this 
+example, the label would be "[TYR]7:B.CG"&nbsp; When editing a data-set, 
+hovering over an atom will display the atom-label, without having to click on 
+the window.&nbsp; This allows editing to be done while simultaneously displaying 
+atom-labels in a JSmol window.&nbsp; This technique works for Windows and Linux 
+systems, but not for Mac systems.</p>
+<h4>Example of an atom defined using internal coordinates, with the connectivity 
+defined using JSmol labels</h4>
+<pre>   C(HETATM 2426  CB  THR B1157)  29.33911564 +1   9.49258665 +1 -14.71105717 +1
+  O(HETATM 2427  OG1 THR B1157)  1.208 1 127.2 1 180.0 1 "[ASP]154:B.C" "[ASP]154:B.CA" "[ASP]154:B.N"
+  C(HETATM 2428  CG2 THR B1157)  25.89212447 +1  10.44808010 +1 -14.19622854 +1</pre>
+  Here, the coordinates of the atom with PDB label "<tt>HETATM 2427&nbsp; OG1 THR B1157</tt>" 
+are defined using three previously-defined atom that have PDB labels &nbsp;<tt>"C ASP B 154", "CA ASP B 154", 
+</tt>and<tt> "N ASP B 154"</tt>.<br/><br/>Wildcards, represented by an 
+asterisk, can be used for both PDB and JSmol labels. This option saves typing 
+redundant information, thus&nbsp;"[***]154:B.C" or "[ASP]154:*.C" 
+or "CA *** * 154"&nbsp; When wildcards are present, only the first atom 
+that matches the label will be used.&nbsp;&nbsp;
+
+<p>&nbsp;</p>
+</body>
+</html>

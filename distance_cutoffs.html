@@ -1,0 +1,339 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage 12.0" name="Generator"/>
+<title>Distance Cutoffs.</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h3>Distance Cutoffs. </h3>
+In conventional SCF calculations, all interactions regardless of distance are
+calculated.  This is both impractical and unnecessary in LMO work. Impractical,
+because the storage required would rapidly become very large: the storage
+necessary for merely the two-electron two-center integrals of  a system of <i>M </i>non-hydrogen and <i>N</i> hydrogen atoms  would be 
+50<i>M</i>(<i>M-1</i>)<i> + </i>10<i>M*N + </i>1/2<i>N</i>(<i>N</i>-1) 
+<!-- MATH: $50M(M-1)+10M\times
+N+\frac{1}{2}N(N-1)$ -->
+&nbsp;array elements. Unnecessary, because many of the integrals
+would never be used in the LMO calculation, anyway.  Consider the electronic
+energy terms.  These all depend on the  density matrix elements.  If a density
+matrix element, 
+<!-- MATH: $P_{\lambda\sigma}$ -->
+<i>P<sub>&lambda;&sigma;</sub></i>
+is zero, then the associated  energy term
+is independent of 
+<!-- MATH: $H_{\lambda\sigma}$ -->
+<i>H<sub>&lambda;&sigma;</sub></i>
+and 
+<!-- MATH: $F_{\lambda\sigma}$ -->
+<i>F<sub>&lambda;&sigma;</sub></i>.
+Similarly, the
+Fock element 
+<!-- MATH: $F_{\lambda\sigma}$ -->
+<i>F<sub>&lambda;&sigma;</sub></i>
+depends on 
+<!-- MATH: $P_{\lambda\sigma}$ -->
+<i>P<sub>&lambda;&sigma;</sub></i>;
+therefore, if
+<!-- MATH: $P_{\lambda\sigma}$ -->
+<i>P<sub>&lambda;&sigma;</sub></i>
+is zero, then  
+<!-- MATH: $F_{\lambda\sigma}$ -->
+<i>F<sub>&lambda;&sigma;</sub></i>
+is independent of the
+value of the exchange integral &lt;<i>&lambda;&sigma;</i>|e<sup>2</sup>/r|<i>&lambda;&sigma;</i>&gt;.
+<p>&nbsp;</p><center>
+<caption><strong>Table 1:</strong>
+Bond-Orders <a name="bo"></a> in GLY-GLY-GLY-GLY</caption>
+<table border="1" cellpadding="3">
+<tr valign="BASELINE"><td align="LEFT">Bond to</td>
+<td align="RIGHT">Order</td>
+<td align="LEFT">Bond to</td>
+<td align="RIGHT">Order</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">C<sub>2</sub></td>
+<td align="RIGHT">1.017090</td>
+<td align="LEFT">C<sub>8</sub></td>
+<td align="RIGHT">0.000009</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">C<sub>3</sub></td>
+<td align="RIGHT">0.015249</td>
+<td align="LEFT">C<sub>9</sub></td>
+<td align="RIGHT">0.000001</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">N<sub>4</sub></td>
+<td align="RIGHT">0.004989</td>
+<td align="LEFT">N<sub>10</sub></td>
+<td align="RIGHT">0.000000</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">C<sub>5</sub></td>
+<td align="RIGHT">0.001219</td>
+<td align="LEFT">C<sub>11</sub></td>
+<td align="RIGHT">0.000000</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">C<sub>6</sub></td>
+<td align="RIGHT">0.000086</td>
+<td align="LEFT">C<sub>12</sub></td>
+<td align="RIGHT">0.000000</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">N<sub>7</sub></td>
+<td align="RIGHT">0.000031</td>
+<td align="LEFT">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+</tr>
+</table>
+<p>
+Bonds are between the terminal nitrogen and the backbone atoms.
+</p><p>
+GLY-GLY-GLY-GLY has the structure: H<sub>2</sub>N-CH<sub>2</sub>-CO-NH-CH<sub>2</sub>-CO-NH-CH<sub>2</sub>-CO-NH-CH<sub>2</sub>-COOH<!-- MATH: $\chem H_2N\!-\!CH_2\!-\!CO\!-\!NH\!-\!CH_2\!-\!CO\!-\!NH\!-\!CH_2\!-\!CO\!-\!NH\!-\!CH_2\!-\!COOH$ -->.
+<br/></p></center>
+<p>
+The bond-order is a measure of the electron density between two atoms.  
+&nbsp;<a href="#bo">Table 1</a> shows the bond-orders between the terminal nitrogen and the
+backbone atoms in the tetrapeptide GLY-GLY-GLY-GLY. <a name="cutofs">&nbsp;</a>  For atoms
+separated by more than 3 - 4 bonds, that is, by more than  5 - 7 &Aring;ngstroms,
+the bond-orders rapidly become very small.  Also, at such distances the overlap
+of two atomic orbitals becomes extremely   small.  Since  the one-electron
+interactions depend on the overlap
+</p><p align="center">
+<i>H<sub>&lambda;&sigma;</sub></i>&nbsp; = <i>S<sub>&lambda;&sigma;</sub></i> 
+(&beta;<sub>&lambda;</sub> + &beta;<sub>&sigma;</sub>)</p><p>where 
+<!-- MATH: $S_{\lambda\sigma}$ -->
+<i>S<sub>&lambda;&sigma;</sub></i>&nbsp;
+is the atomic orbital overlap, and 
+&beta;<sub>&lambda;</sub> and &beta;<sub>&sigma;</sub> are atomic orbital parameters, it follows that the
+one-electron interactions at distances greater than about 6-7 &Aring;ngstroms will
+also be vanishingly small. </p>
+<p>
+By calculating and storing only the one-electron integrals representing
+interactions of less than a given distance, a considerable saving in storage
+requirements can be achieved.
+</p><p>
+Unlike the one-electron integrals, the value of some two-electron two-center 
+integrals does not fall off rapidly with increasing distance.  The 100
+two-electron  integrals involving two atoms can be divided into five groups, as
+shown in &nbsp;<a href="#multipoles">Table 2</a>.  Some of these integrals, such as the 
+&lt;<i>pp</i>|<i>pp</i>&gt;&nbsp;
+integrals, can be expressed in terms of two multipoles, here a
+monopole and a quadrupole; however, for the purpose of this discussion the
+effect of the lower multipole--the monopole in this case--dominates.  
+</p><p>
+<br/>
+</p><div align="CENTER">
+<div align="CENTER">
+<a name="BM15180">&nbsp;</a>
+<table border="1" cellpadding="3">
+<caption><strong>Table 2:</strong> <a name="multipoles"></a>
+ Multipolar Representation of the Two Electron Two Center Integrals</caption>
+<tr valign="BASELINE"><td align="LEFT">Multipole</td>
+<td align="CENTER">Example</td>
+<td align="RIGHT">No.</td>
+<td align="CENTER" colspan="2">Distance Dependence</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">&nbsp;</td>
+<td align="CENTER">&nbsp;</td>
+<td align="RIGHT">&nbsp;</td>
+<td align="CENTER">Energy</td>
+<td align="CENTER">Gradient</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">Monopole</td>
+<td align="CENTER">
+<!-- MATH: $<\!ss|ss\!>$ -->
+&lt;<i>ss</i>|<i>ss</i>&gt;</td>
+<td align="RIGHT">16</td>
+<td align="CENTER"><i>r</i><sup>-1</sup></td>
+<td align="CENTER"><i>r</i><sup>-2</sup></td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">Dipole</td>
+<td align="CENTER">
+<!-- MATH: $<\!ss|sx\!>$ -->
+&lt;<i>ss</i>|<i>sx</i>&gt;</td>
+<td align="RIGHT">24</td>
+<td align="CENTER"><i>r</i><sup>-2</sup></td>
+<td align="CENTER"><i>r</i><sup>-3</sup></td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">Quadrupole</td>
+<td align="CENTER">
+<!-- MATH: $<\!ss|xy\!>$ -->
+&lt;<i>ss</i>|<i>xy</i>&gt;</td>
+<td align="RIGHT">33</td>
+<td align="CENTER"><i>r</i><sup>-3</sup></td>
+<td align="CENTER"><i>r</i><sup>-4</sup></td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">Octapole</td>
+<td align="CENTER">
+<!-- MATH: $<\!sx|xy\!>$ -->
+&lt;<i>sx</i>|<i>xy</i>&gt;</td>
+<td align="RIGHT">18</td>
+<td align="CENTER"><i>r</i><sup>-4</sup></td>
+<td align="CENTER"><i>r</i><sup>-5</sup></td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">Hexadecapole</td>
+<td align="CENTER">
+<!-- MATH: $<\!xy|xy\!>$ -->
+&lt;<i>xy</i>|<i>xy</i>&gt;</td>
+<td align="RIGHT">9</td>
+<td align="CENTER"><i>r</i><sup>-5</sup></td>
+<td align="CENTER"><i>r</i><sup>-6</sup></td>
+</tr>
+</table></div>
+</div>
+<br/>
+<p>
+At distances greater than about 5 or 6 &Aring;ngstroms, the behavior of these
+integrals becomes very simple.  Of the 100 integrals, 60 represent quadrupoles 
+or higher multipoles and have a negligible value.  The 16 monopole terms -
+representing simple electrostatic repulsion - are all composed of the same
+monopole term and various quadrupolar components, and can be set equal. The 24
+dipole terms can be expressed as a dipole interacting with either a simple
+monopole (an 
+<!-- MATH: $<\! ss|sx\!>$ -->
+&lt;<i>ss</i>|<i>sx</i>&gt;,
+for example), or a monopole plus quadrupole,
+e.g.,   
+<!-- MATH: $<\! xx|sx\!>$ -->
+&lt;<i>xx</i>|<i>sx</i>&gt;.
+Since the quadrupolar terms can be ignored, the 24
+dipolar terms can be represented by 6 simpler terms, of generic form  
+<!-- MATH: $<\!
+sp|ss\!>$ -->
+&lt;<i>sp</i>|<i>ss</i>&gt;
+and  
+<!-- MATH: $<\! ss|sp\!>$ -->
+&lt;<i>ss</i>|<i>sp</i>&gt;.
+Thus, out of the 100 integrals needed at small
+distances, only 7 are needed at larger distances. At still larger distances, 30
+&Aring;ngstroms or more, even the dipolar terms become negligible.  Therefore, at
+such large distances only the single monopole term, representing simple
+electrostatic repulsion, need be used.
+</p><p>
+Two-electron two-center integrals must therefore be represented in a different
+way from the one-electron two-center integrals.  As with the one-electron
+integrals, a cutoff distance can be specified.  For convenience, the
+one-electron and two-electron cutoff distances are set equal. As a result, all
+one- and two-electron  integrals which represent interactions between atoms
+that are separated by less than the cutoff distance would then be treated using
+standard NDDO approximations. The simplest electrostatic repulsion 
+(
+<!-- MATH: $<\!ss|ss\!>$ -->
+&lt;<i>ss</i>|<i>ss</i>&gt;)
+between electrons on atoms  that are separated by more than the
+cutoff distance is approximated by the conventional NDDO term
+</p><p align="center">
+<img alt="\begin{displaymath}&lt;\!\phi_{\lambda}\phi_{\lambda}\vert e^2/r_{AB}\vert\phi_{\si...
+... e^2/r_{BB}\vert\phi_{s}\phi_{s}\!&gt;})
+\right )^{\frac{1}{2}}}.
+\end{displaymath}" height="60" src="img1056.gif" width="463"/></p><p>
+<br clear="ALL"/></p>
+<p></p>
+<p>
+This was chosen in order to minimize the discontinuity at  the cutoff
+distance.  Similar NDDO approximations were used for the other dipolar terms.
+</p><p>
+In recognition of this fact, SCF calculations can be simplified considerably 
+by including only those NDDO terms which apply to atoms separated by less than
+a preset limit, and including only the electrostatic term for interactions
+between atoms separated by more than that limit.
+</p><p>
+The various cutoffs used have specific names and defaults.  These are summarized
+in &nbsp;<a href="#cutoff">Table 3</a>.
+<br/>
+</p><div align="CENTER">
+<div align="CENTER">
+<a name="BM15184">&nbsp;</a>
+<table border="1" cellpadding="3">
+<caption><strong><a name="cutoff"></a>Table 3:</strong>
+ Distance Cutoffs for Various Types of Interaction</caption>
+<tr valign="BASELINE"><td align="LEFT">Type</td>
+<td align="LEFT">Less than Cutoff</td>
+<td align="LEFT">Greater than Cutoff</td>
+<td align="LEFT">Cutoff Name</td>
+<td align="RIGHT">Default</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">Two electron</td>
+<td align="LEFT">All multipoles</td>
+<td align="LEFT">Dipole plus Monopole</td>
+<td align="LEFT"><tt>CUTOF2</tt></td>
+<td align="RIGHT">9.9&Aring;</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">Two electron</td>
+<td align="LEFT">Dipole plus Monopole</td>
+<td align="LEFT">Monopole</td>
+<td align="LEFT"><tt>CUTOF1</tt></td>
+<td align="RIGHT">10&Aring;</td>
+</tr>
+<tr valign="BASELINE"><td align="LEFT">One electron</td>
+<td align="LEFT">Overlap calculated</td>
+<td align="LEFT">Overlap not calculated</td>
+<td align="LEFT"><tt>CUTOFS</tt></td>
+<td align="RIGHT">7&Aring;</td>
+</tr>
+</table></div>
+</div>
+<br/>
+<p>
+By default, the cutoff distances are set sufficiently large that any  
+<!-- MATH: $\Delta
+H_f$ -->
+<span class="b">&Delta;</span>H<sub>f </sub>calculated using these values will agree with that obtained by using
+conventional methods  within 0.1 kcal/mol. <tt>CUTOF2</tt> can be reduced, under
+user control, to save computational time and to reduce the memory demand.  To
+avoid serious errors, <tt>CUTOF2</tt> should not be set below about 5&nbsp;&Aring;ngstroms.
+</p><p>
+Once <tt>CUTOF2</tt> is set, all one-electron integrals involving atoms separated
+by less than <tt>CUTOF2</tt> can be evaluated.  To save space, only those
+integrals which are evaluated are stored an an array. For the one-electron
+integral,  this array is called <i>H</i>.  All integrals relating to any pair of
+atoms are stored contiguously.  Given the starting address of an atom-pair, the
+sequence in which the integrals occur is determined only by the number of
+atomic orbitals on each atom. However, the order in which atom pairs are stored
+is not so simple.  The only way to find the starting address of any atom pair
+is to have that address stored in a new array.  This array is called
+<tt>IJBO</tt>, and has the following structure:
+</p><p>
+<tt>IJBO</tt> is a square array, of size <i>N</i> by <i>N</i>, where <i>N</i> is the
+number of atoms. The starting address of integral string for atoms 
+<i>A</i> and <i>B</i> is stored in array element IJBO(A,B).  If <img align="MIDDLE" alt="$A \ne B$" border="0" height="30" src="img1058.gif" width="42"/>,
+then the
+starting address is also stored in IJBO(B,A).  All pairs of atoms
+separated by more than <tt>CUTOF2</tt> do not have associated integral
+strings.  To recognize this, the relevant array elements in <tt>IJBO</tt>
+are set to '-1', and if the interatomic distance is greater than
+<tt>CUTOF1</tt> then the array element is set to '-2'. Zero cannot be
+used, because of <a href="LMO_storage.html">the way starting addresses are
+defined</a>.
+</p><p>
+To reiterate: All integrals involving atoms, <i>A</i> and <i>B</i>,  separated by  less
+than <tt>CUTOF2</tt> are stored, and the starting address of the integrals  is
+given by IJBO(A,B) and IJBO(B,A).  With the exception of some electrostatic
+terms, no integrals involving atoms separated by more than <tt>CUTOF2</tt> are
+calculated or stored.  The relevant array element in <tt>IJBO</tt> is set to
+`-1' or '-2'. 
+</p><p>
+To summarize:
+</p><p>
+There are three regions around each atom.  The sizes of these regions are
+determined by <tt>CUTOF2=<i>m</i>.<i>mm</i></tt> (default: <i>m</i>.<i>mm</i>=12) and
+<tt>CUTOF1=<i>n</i>.<i>nn</i></tt> (default <i>n</i>.<i>nn</i>=30). In the first region, 0.0 to <i>m</i>.<i>mm</i>&Aring;ngstroms, all  NDDO interactions are used.  Between <i>m</i>.<i>mm</i> and <i>n</i>.<i>nn</i> &Aring;
+ngstroms, only monopolar and dipolar electrostatic terms are used, and beyond
+<i>n</i>.<i>nn</i> &Aring;ngstroms, the only term considered is the monopolar electrostatic
+interaction.
+
+</p></body>
+</html>

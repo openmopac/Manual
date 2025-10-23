@@ -1,0 +1,107 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Dipole moments.</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Dipole moments.
+</h2>
+<p>MOPAC uses the IUPAC chemistry convention to define the direction of the 
+dipole, as being from the negative to the positive center, see:
+<a href="http://goldbook.iupac.org/html/E/E01929.html" rel="nofollow" shape="rect" target="_blank">
+http://goldbook.iupac.org/html/E/E01929.html</a>&nbsp; This is the same convention as 
+that used in Gaussian, and is the opposite of the physics convention.&nbsp; &nbsp;
+</p>
+For neutral systems, the dipole moment is calculated from the atomic charges
+and the lone-pairs as
+<p align="center"><img alt="\begin{displaymath}\mu_x = cC\sum_AQ_Ax_A + cCa_o2\sum_A P(s-p_x)_AD_1(A)
+\end{displaymath}" height="42" src="img512.gif" width="281"/></p>
+<p align="center"><img alt="\begin{displaymath}\mu_y = cC\sum_AQ_Ay_A + cCa_o2\sum_A P(s-p_y)_AD_1(A)
+\end{displaymath}" height="42" src="img513.gif" width="281"/></p>
+<p align="center"><img alt="\begin{displaymath}\mu_z = cC\sum_AQ_Az_A + cCa_o2\sum_A P(s-p_z)_AD_1(A)
+\end{displaymath}" height="42" src="img514.gif" width="279"/></p>
+<p align="center"><img alt="\begin{displaymath}\mu = \mu_x+\mu_y+\mu_z
+\end{displaymath}" height="29" src="img515.gif" width="106"/><br/></p>
+<p>Where <i>c</i> = speed of light, <i>C</i> = charge on the electron, and <i>a</i><sub><i>o</i></sub> = Bohr
+radius, or <i>cC</i> = 2.99792458*1.60217733 = 4.8032066,
+and <i>
+cCa<sub>0</sub></i>2 = 2.99792458*1.60217733 = 4.8032066*0.529177249*2.0 =
+5.0834948.. <a href="nddo2e2c.html#aa">
+<i>D</i><sub>1</sub>(<i>A</i>)</a> is defined elsewhere.</p>
+<p>&nbsp;</p>
+<p align="center"><b><font size="4">Conversion factors between Dipole units</font></b></p>
+<div align="center">
+<center>
+<table border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="1004">
+<tr>
+<td align="center" width="247">Quantity</td>
+<td align="center" width="177">Dipole as</td>
+<td align="center" width="120">Factor (units)</td>
+<td align="center" width="119">Factor(value)</td>
+<td align="center" width="147">System</td>
+</tr>
+<tr>
+<td align="center" width="247">1 electron*1 Angstrom</td>
+<td align="center" width="177">Debye (D)</td>
+<td align="center" width="120">cC</td>
+<td align="center" width="119">4.80320</td>
+<td align="center" width="147">esu</td>
+</tr>
+<tr>
+<td align="center" width="247">1 Debye (D)</td>
+<td align="center" width="177">Dipole Length (m)</td>
+<td align="center" width="120">1/(cC)</td>
+<td align="center" width="119">2.0819*10<sup>-11</sup></td>
+<td align="center" width="147">SI</td>
+</tr>
+</table>
+</center>
+</div>
+<p align="center">&nbsp;1 statvolt = 299.79 volts = c*10<sup>-6</sup> volts (c 
+in m/s)</p>
+<p>Formally, the dipole moment for an ion is undefined; however, it is convenient
+to set up a 'working definition.'  Consider a heteronuclear diatomic ion in a
+uniform electric field.  The ion will accelerate.  To compensate for this, it
+is convenient to consider the ion in an accelerating frame of reference.  The
+ion will  experience a torque which acts about the center of mass, in a manner
+similar to that of a polar molecule.  This allows us to define the dipole of an
+ion as the dipole the system would exhibit while accelerating in a uniform
+electric field.  To formalize this definition: </p>
+<p align="center">
+<img alt="\begin{displaymath}\mu_x = cC\sum_AQ_A(x_A-x_{cog}) + cCa_o2\sum_A P(s-p_x)_AD(A)
+\end{displaymath}" height="42" src="img518.gif" width="327"/></p><p align="center">
+<img alt="\begin{displaymath}\mu_y = cC\sum_AQ_A(y_A-y_{cog}) + cCa_o2\sum_A P(s-p_y)_AD(A)
+\end{displaymath}" height="42" src="img519.gif" width="327"/></p><p align="center">
+<img alt="\begin{displaymath}\mu_z = cC\sum_AQ_A(z_A-z_{cog}) + cCa_o2\sum_A P(s-p_z)_AD(A)
+\end{displaymath}" height="42" src="img520.gif" width="324"/></p><p align="center">
+<img alt="\begin{displaymath}\mu = \mu_x+\mu_y+\mu_z,
+\end{displaymath}" height="29" src="img521.gif" width="110"/><br/></p><p></p>
+<div align="CENTER">
+</div>
+<p>
+<br clear="ALL"/></p>
+<p></p>
+where <i>x</i><sub><i>cog</i></sub> is the <i>x</i>-coordinate of the center of gravity of the system
+<p align="center"><img alt="\begin{displaymath}x_{cog} = \sum_AM_Ax_A,
+\end{displaymath}" height="42" src="img522.gif" width="99"/><br clear="ALL"/></p>
+<p>and <i>y</i><sub><i>cog</i></sub> and <i>z</i><sub><i>cog</i></sub> have similar definitions.  This general expression
+will work for all discrete species, charged and uncharged, and is rotation and
+position invariant. </p>
+</body>
+</html>

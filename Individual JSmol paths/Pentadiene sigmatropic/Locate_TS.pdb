@@ -1,0 +1,18 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Pentadiene sigm
+REMARK  MOPAC 2016, Version: 21.151W
+REMARK  Date: Jun  1 2021 08:16
+REMARK  Heat of Formation = 61.732 Kcal/mol
+HETATM    1  C   HET A   1      -1.090  -1.042  -0.739  1.00 -0.49      PROT C 
+HETATM    2  H   HET A   1       0.403  -1.084  -0.783  1.00  0.27      PROT H 
+HETATM    3  C   HET A   1       1.325   0.027  -0.782  1.00 -0.49      PROT C 
+HETATM    4  C   HET A   1       0.938   0.672   0.402  1.00 -0.03      PROT C 
+HETATM    5  H   HET A   1      -1.057  -0.534  -1.699  1.00  0.16      PROT H 
+HETATM    6  H   HET A   1      -1.563  -2.015  -0.841  1.00  0.15      PROT H 
+HETATM    7  H   HET A   1      -2.081  -0.604   1.120  1.00  0.14      PROT H 
+HETATM    8  H   HET A   1      -0.621   1.250   1.763  1.00  0.15      PROT H 
+HETATM    9  H   HET A   1       1.708   1.071   1.070  1.00  0.14      PROT H 
+HETATM   10  H   HET A   1       0.884   0.302  -1.733  1.00  0.17      PROT H 
+HETATM   11  H   HET A   1       2.370  -0.246  -0.907  1.00  0.15      PROT H 
+HETATM   12  C   HET A   1      -1.273  -0.312   0.445  1.00 -0.03      PROT C 
+HETATM   13  C   HET A   1      -0.373   0.649   0.888  1.00 -0.29      PROT C 
+END

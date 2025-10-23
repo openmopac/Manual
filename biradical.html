@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>BIRADICAL </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<font size="5"><tt>
+<b>BIRADICAL</b></tt>
+<font size="2"></font></font></h1>
+<p>Note: <tt>BIRADICAL</tt><font size="2"> is a redundant keyword, and represents a particular configuration interaction calculation. Experienced users of </font><a href="Multi_Electron_Configuration_Interaction.html"><font size="2">MECI</font></a><font size="2"> can duplicate the effect of the keyword </font><tt>BIRADICAL</tt><font size="2"> by using the MECI keywords </font><a href="open.html"><font face="Courier New" size="2">OPEN(2,2)</font></a><font size="2"> and </font><a href="singlet.html"><font face="Courier New" size="2">SINGLET</font></a><font size="2">. </font></p>
+<tt></tt><p>BIRADICAL<font size="2"> is limited to restricted Hartree Fock systems, so </font><a href="uhf.html"><u><font color="#0000ff"><tt>UHF</tt></font></u></a><font size="2"> should not be present.</font></p>
+<p>For molecules which are believed to have biradicaloid character, the option exists to optimize the lowest singlet energy state which results from the mixing of four microstates. These microstates are, in order: the microstate arising from a one electron excitation from the HOMO to the LUMO (Microstate 1 in the&nbsp;Figure); the microstate resulting from the <a name="BM1603">&nbsp;</a> time-reversal operator acting on the parent microstate (Microstate 2); the microstate resulting from de-excitation from the formal LUMO to the HOMO (Microstate 3); and the microstate resulting from the single electron in the formal HOMO being excited 
+into the LUMO (Microstate 4). Microstates 1 and 2 mix to form a singlet state,(1/2)<sup>1/2</sup>(&Psi;<sub><font size="2">1</font></sub>-&Psi;<sub><font size="2">2</font></sub>)
+            , and a triplet state                                             (1/2)<sup>1/2</sup>(&Psi;<sub><font size="2">1</font></sub>+&Psi;<sub><font size="2">2</font></sub>). Microstates 3 and 4 are true singlet states. The singlet state arising from microstates 1 and 2 mixes with the (micro)states 3 and 4 to form three singlet states.
+</p><p><br/>
+</p><div align="CENTER"><a name="birad">&nbsp;</a><a name="BM3641"></a>&nbsp; 
+<strong><p>Figure:</p></strong> Configurations used in <tt>BIRADICAL</tt><font size="2"> Calculation</font>
+<table border="0" cellspacing="0" width="571">
+<tr><td valign="MIDDLE">
+<p></p><div align="CENTER"> <img alt="includegraphics{picbirad}" height="198" src="img102.gif" width="571"/></div></td>
+</tr>
+</table>
+</div><font size="2"><br/>
+A configuration interaction calculation is involved here. A biradical calculation done without C.I. at the RHF level would be meaningless.&nbsp; Either rotational invariance would be lost, as in the D<sub>2<i>d</i></sub> form of ethylene, or very artificial barriers to rotations would be found, such as in a methane molecule "orbiting" a D<sub>2<i>d </i></sub>ethylene. In both cases the inclusion of limited configuration interaction corrects the error. </font><tt>BIRADICAL</tt><font size="2"> should not be used if either the HOMO or LUMO is degenerate; in this case, the full manifold of HOMO *LUMO should be included in the C.I., using MECI options. The user should be aware of this situation. When the biradical calculation is performed correctly, the result is normally a net stabilization. However, if the first singlet excited state is much higher in energy than the closed-shell ground state, </font><tt>BIRADICAL </tt><font size="2">can lead to a destabilization. Abbreviation: </font><tt>BIR
+<address> </address></tt></body>
+</html>

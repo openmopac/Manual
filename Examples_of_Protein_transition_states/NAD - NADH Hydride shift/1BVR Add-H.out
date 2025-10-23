@@ -1,0 +1,142 @@
+ *******************************************************************************
+ ** Site#: 9602  E-mail support:    MrMOPAC@ATT.net    Version 17.214W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.214W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 378**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Aug 02 13:02:10 2017  *
+ *  START_RES  - STARTING RESIDUE NUMBERS DEFINED
+ *  Keyword:   START_RES=(2A 1301A) 
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "1BVR.PDB"
+ *  CHAINS     - PDB CHAIN LETTERS EXPLICITLY DEFINED
+ *  Keyword:   CHAINS=(A) 
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *  ADD-H      - ADD HYDROGEN ATOMS TO SATISFY VALENCE
+ *  SITE       - SET IONIZATION LEVELS OF IONIZABLE RESIDUES 
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *  OPT-H      - OPTIMIZE COORDINATES OF ATOMS OF TYPE H
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -5
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  GNORM=     - EXIT WHEN GRADIENT NORM DROPS BELOW   5.00    
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  NOCOMMENTS - SUPPRESS PDB COMMENTS
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+ START_RES=(2A 1301A) HTML OUTPUT MOZYME CHARGE=-5 gnorm=5 noopt opt-h  add-H site=(salt,"[THT]1302:A.C9"(+),"[NAD]1301:A.O1A"(-),"[NAD]1301:A.O1N"(-)) chains=(A) nocomments +
+geo_dat="1BVR.pdb"
+ Add hydrogen atoms to 1BVR
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1304 N356 O499 S11 P2  =  2172 atoms
+
+
+                RESIDUE SEQUENCE IN PROTEIN Chain: A
+
+             1     2     3     4     5     6     7     8     9    10
+        0         THR   GLY   LEU   LEU   ASP   GLY   LYS   ARG   ILE   
+       10   LEU   VAL   SER   GLY   ILE   ILE   THR   ASP   SER   SER   
+       20   ILE   ALA   PHE   HIS   ILE   ALA   ARG   VAL   ALA   GLN   
+       30   GLU   GLN   GLY   ALA   GLN   LEU   VAL   LEU   THR   GLY   
+       40   PHE   ASP   ARG   LEU   ARG   LEU   ILE   GLN   ARG   ILE   
+       50   THR   ASP   ARG   LEU   PRO   ALA   LYS   ALA   PRO   LEU   
+       60   LEU   GLU   LEU   ASP   VAL   GLN   ASN   GLU   GLU   HIS   
+       70   LEU   ALA   SER   LEU   ALA   GLY   ARG   VAL   THR   GLU   
+       80   ALA   ILE   GLY   ALA   GLY   ASN   LYS   LEU   ASP   GLY   
+       90   VAL   VAL   HIS   SER   ILE   GLY   PHE   MET   PRO   GLN   
+      100   THR   GLY   MET   GLY   ILE   ASN   PRO   PHE   PHE   ASP   
+      110   ALA   PRO   TYR   ALA   ASP   VAL   SER   LYS   GLY   ILE   
+      120   HIS   ILE   SER   ALA   TYR   SER   TYR   ALA   SER   MET   
+      130   ALA   LYS   ALA   LEU   LEU   PRO   ILE   MET   ASN   PRO   
+      140   GLY   GLY   SER   ILE   VAL   GLY   MET   ASP   PHE   ASP   
+      150   PRO   SER   ARG   ALA   MET   PRO   ALA   TYR   ASN   TRP   
+      160   MET   THR   VAL   ALA   LYS   SER   ALA   LEU   GLU   SER   
+      170   VAL   ASN   ARG   PHE   VAL   ALA   ARG   GLU   ALA   GLY   
+      180   LYS   TYR   GLY   VAL   ARG   SER   ASN   LEU   VAL   ALA   
+      190   ALA   GLY   PRO   ILE   ARG   THR   LEU   ALA   MET   SER   
+      200   ALA   ILE   VAL   GLY   GLY   ALA   LEU   GLY   GLU   GLU   
+      210   ALA   GLY   ALA   GLN   ILE   GLN   LEU   LEU   GLU   GLU   
+      220   GLY   TRP   ASP   GLN   ARG   ALA   PRO   ILE   GLY   TRP   
+      230   ASN   MET   LYS   ASP   ALA   THR   PRO   VAL   ALA   LYS   
+      240   THR   VAL   CYS   ALA   LEU   LEU   SER   ASP   TRP   LEU   
+      250   PRO   ALA   THR   THR   GLY   ASP   ILE   ILE   TYR   ALA   
+      260   ASP   GLY   GLY   ALA   HIS   THR   GLN   LEU   LEU   
+
+                RESIDUE SEQUENCE IN PROTEIN Chain: A
+
+        0   TGLLDGKRI LVSGIITDSS IAFHIARVAQ EQGAQLVLTG FDRLRLIQRI
+       50  TDRLPAKAPL LELDVQNEEH LASLAGRVTE AIGAGNKLDG VVHSIGFMPQ
+      100  TGMGINPFFD APYADVSKGI HISAYSYASM AKALLPIMNP GGSIVGMDFD
+      150  PSRAMPAYNW MTVAKSALES VNRFVAREAG KYGVRSNLVA AGPIRTLAMS
+      200  AIVGGALGEE AGAQIQLLEE GWDQRAPIGW NMKDATPVAK TVCALLSDWL
+      250  PATTGDIIYA DGGAHTQLL
+
+          HYDROGEN ATOMS ADDED
+
+
+                   Salt Bridges Found (Up to  4.0 Angstroms)
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (ATOM   2919  NE  ARG A 195)  A195(+)    (ATOM   3258  OE1 GLU A 219)  A219(-)      3.37
+      2  (ATOM     85  NZ  LYS A   8)    A8(+)    (ATOM   3697  OD1 ASP A 248)  A248(-)      3.52
+      3  (ATOM   2712  NZ  LYS A 181)  A181(+)    (ATOM   2678  OE1 GLU A 178)  A178(-)      3.87
+
+       Changes in Ionization caused by keyword SITE
+
+       Keyword: "SITE=(SALT,"[THT]1302:A.C9"(+),"[NAD]1301:A.O1A"(-),"[NAD]1301:A.O1N"(-))" =>  SITE=(A195(+),
+       A219(-),A8(+),A248(-),A181(+),A178(-),"[THT]1302:A.C9"(+),"[NAD]1301:A.O1A"(-),"[NAD]
+       1301:A.O1N"(-))
+
+      Hydrogen atoms added to     Hydrogen atoms deleted from
+
+  1       NZ  LYS A   8                 OE2 GLU A 178
+  2       NZ  LYS A 181                 OE2 GLU A 219
+  3       NH2 ARG A 195                 OD1 ASP A 248
+  4            -                        O1A NAD A1301
+  5            -                        O1N NAD A1301
+  6            -                        C9  THT A1302
+
+          Change in net ionization:  -2
+
+          CHARGES MODIFIED BY SITE COMMAND
+
+          GEOMETRY RESEQUENCED
+
+ ******************************************************************************
+ *                                                                            *
+ *     Error and normal termination messages reported in this calculation     *
+ *                                                                            *
+ * HYDROGEN ATOMS ADDED                                                       *
+ * CHARGES MODIFIED BY SITE COMMAND                                           *
+ * GEOMETRY RESEQUENCED                                                       *
+ * JOB ENDED NORMALLY                                                         *
+ *                                                                            *
+ ******************************************************************************
+
+
+
+ TOTAL JOB TIME:             0.00 SECONDS
+
+ == MOPAC DONE ==

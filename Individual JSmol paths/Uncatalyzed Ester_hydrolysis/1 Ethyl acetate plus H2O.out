@@ -1,0 +1,284 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.309W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.309W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Nov 05 12:06:17 2015  *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *******************************************************************************
+      eps=78.4  html
+      1 Ethyl acetate plus H2O
+
+  ATOM               CHEMICAL                 BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER               SYMBOL                  (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                                           NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C(HETATM    1  C1  HET A   3)    0.00000000       0.0000000       0.0000000   
+     2       C(HETATM    2  C2  HET A   3)    1.48093331  *    0.0000000       0.0000000        1     0     0
+     3       O(HETATM    3  O1  HET A   3)    1.21532323  *  126.8032008  *    0.0000000        2     1     0
+     4       O(HETATM    4  O2  HET A   3)    1.34394015  *  110.8761445  * -179.7429139  *     2     1     3
+     5       C(HETATM    5  C3  HET A   3)    1.44066943  *  118.5195273  *  176.2418141  *     4     2     1
+     6       C(HETATM    6  C4  HET A   3)    1.51681999  *  103.8492056  *  179.1698400  *     5     4     2
+     7       H(HETATM    7 1H1  HET A   3)    1.10598742  *  111.0326252  *   64.9229158  *     1     2     3
+     8       H(HETATM    8 2H1  HET A   3)    1.10294711  *  113.5527516  * -174.6651950  *     1     2     3
+     9       H(HETATM    9 3H1  HET A   3)    1.10527955  *  111.4107101  *  -53.6351958  *     1     2     3
+    10       H(HETATM   10 1H3  HET A   3)    1.10547190  *  107.9144572  *  -60.5633611  *     5     4     2
+    11       H(HETATM   11 2H3  HET A   3)    1.10364802  *  108.8255694  *   58.2271170  *     5     4     2
+    12       H(HETATM   12 1H4  HET A   3)    1.09806366  *  111.8710567  *  -60.8341519  *     6     5     4
+    13       H(HETATM   13 2H4  HET A   3)    1.09804418  *  111.8395531  *   59.3585677  *     6     5     4
+    14       H(HETATM   14 3H4  HET A   3)    1.09921325  *  110.8435837  *  179.1661682  *     6     5     4
+    15       O(HETATM   16  O   HOH A   4)    2.38152221  *  138.7731794  *  -90.5942726  *    11     5     4
+    16       H(HETATM   20 1H   HOH A   4)    0.96685313  *   67.3722067  *   45.2566063  *    15    11     5
+    17       H(HETATM   21 2H   HOH A   4)    0.96425394  *   95.2712138  *  -57.9630022  *    15    11     5
+ 
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C4 H10 O3  =    17 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS =   22
+
+      Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.584 HEAT: -179.3190
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    17.577 HEAT: -179.3960
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    41.017 HEAT: -179.7560
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    34.266 HEAT: -180.4522
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    25.923 HEAT: -180.6063
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.213 HEAT: -180.8110
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.876 HEAT: -180.9008
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.227 HEAT: -180.9846
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.722 HEAT: -181.0035
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.874 HEAT: -181.0272
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.362 HEAT: -181.0328
+ CYCLE:    12 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.340 HEAT: -181.0440
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.649 HEAT: -181.0716
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.952 HEAT: -181.0792
+ CYCLE:    15 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.900 HEAT: -181.0934
+ CYCLE:    16 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.485 HEAT: -181.0893
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.047 HEAT: -181.1089
+ CYCLE:    18 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.688 HEAT: -181.1218
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.443 HEAT: -181.1492
+ CYCLE:    20 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.959 HEAT: -181.1719
+ CYCLE:    21 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.946 HEAT: -181.2704
+ CYCLE:    22 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.988 HEAT: -181.3224
+ CYCLE:    23 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.409 HEAT: -181.3600
+ CYCLE:    24 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.402 HEAT: -181.3580
+ CYCLE:    25 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.795 HEAT: -181.3792
+ CYCLE:    26 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.898 HEAT: -181.3877
+ CYCLE:    27 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.936 HEAT: -181.4188
+
+     GRADIENT =  0.93590  IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+      eps=78.4  html
+      1 Ethyl acetate plus H2O
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2012 (Version: 15.309W)
+                                                       Thu Nov 05 12:06:17 2015
+                                                       No. of days left = 365
+
+
+
+
+          FINAL HEAT OF FORMATION =       -181.41878 KCAL/MOL =    -759.05618 KJ/MOL
+          VAN DER WAALS AREA      =        155.77 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =      -1513.82519 EV
+          ELECTRONIC ENERGY       =      -1720.60372 EV  POINT GROUP:     C1  
+          CORE-CORE REPULSION     =        206.77852 EV
+          DIELECTRIC ENERGY       =         -0.63732 EV
+          COSMO AREA              =        155.77 SQUARE ANGSTROMS
+          COSMO VOLUME            =        140.15 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.93590
+          IONIZATION POTENTIAL    =         11.522740 EV
+          HOMO LUMO ENERGIES (EV) =        -11.523  0.627
+          NO. OF FILLED LEVELS    =         22
+          MOLECULAR WEIGHT        =        106.121
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    14    H     9     6.35684
+            H    17    H     8     5.36642
+            H     7    H    12     2.54862
+
+
+          SCF CALCULATIONS        =         29
+ 
+          WALL-CLOCK TIME         =          0.328 SECONDS
+          COMPUTATION TIME        =          1.248 SECONDS
+
+
+
+
+  ATOM               CHEMICAL                 BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER               SYMBOL                  (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                                           NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C(HETATM    1  C1  HET A   3)    0.00000000       0.0000000       0.0000000   
+     2       C(HETATM    2  C2  HET A   3)    1.47979696  *    0.0000000       0.0000000        1     0     0
+     3       O(HETATM    3  O1  HET A   3)    1.21749878  *  126.3748977  *    0.0000000        2     1     0
+     4       O(HETATM    4  O2  HET A   3)    1.34114768  *  111.1774387  * -179.6246172  *     2     1     3
+     5       C(HETATM    5  C3  HET A   3)    1.44173274  *  118.6728832  * -179.6777113  *     4     2     1
+     6       C(HETATM    6  C4  HET A   3)    1.51611229  *  103.8288113  *  174.8186631  *     5     4     2
+     7       H(HETATM    7 1H1  HET A   3)    1.10698462  *  111.0637696  *   64.7833727  *     1     2     3
+     8       H(HETATM    8 2H1  HET A   3)    1.10365172  *  113.4997103  * -174.7474937  *     1     2     3
+     9       H(HETATM    9 3H1  HET A   3)    1.10633449  *  111.2859400  *  -53.7900324  *     1     2     3
+    10       H(HETATM   10 1H3  HET A   3)    1.10504196  *  107.7331407  *  -65.0271155  *     5     4     2
+    11       H(HETATM   11 2H3  HET A   3)    1.10450111  *  108.9305816  *   54.3008892  *     5     4     2
+    12       H(HETATM   12 1H4  HET A   3)    1.09837048  *  111.9087335  *  -60.6484033  *     6     5     4
+    13       H(HETATM   13 2H4  HET A   3)    1.09835666  *  111.9043455  *   59.5597665  *     6     5     4
+    14       H(HETATM   14 3H4  HET A   3)    1.09946731  *  110.8612776  *  179.3750647  *     6     5     4
+    15       O(HETATM   16  O   HOH A   4)    2.63013502  *  122.3992135  *  -93.6975819  *    11     5     4
+    16       H(HETATM   20 1H   HOH A   4)    0.96536356  *   56.6431134  *   56.1937742  *    15    11     5
+    17       H(HETATM   21 2H   HOH A   4)    0.96147407  *   95.1037799  *  -48.3285510  *    15    11     5
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.000000000     0.000000000     0.000000000
+   2    C        1.479796960     0.000000000     0.000000000
+   3    O        2.201854322     0.980273655     0.000000000
+   4    O        1.964296513    -1.250547945    -0.008193290
+   5    C        3.393691327    -1.438667991    -0.002310418
+   6    C        3.561031488    -2.940655753     0.118629742
+   7    H       -0.397857789     0.440108479    -0.934574045
+   8    H       -0.440074977    -1.007867196     0.092654445
+   9    H       -0.401624410     0.608976895     0.831757763
+  10    H        3.790357352    -1.033841481    -0.950935370
+  11    H        3.824022236    -0.888292199     0.853157001
+  12    H        3.115649771    -3.329428043     1.044323507
+  13    H        3.087365145    -3.474269356    -0.716405629
+  14    H        4.625204556    -3.216964180     0.122837676
+  15    O        4.745597362     1.565037233     0.630706502
+  16    H        3.845610505     1.312207103     0.389817766
+  17    H        5.271134048     1.388100787    -0.154746918
+
+
+           Empirical Formula: C4 H10 O3  =    17 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+                  EIGENVALUES  
+ -31.70690 -30.28853 -29.19767 -27.79097 -26.18930 -21.72536 -20.69174 -18.28048
+ -17.22330 -17.03422 -16.32153 -15.43410 -14.48626 -14.37316 -13.95397 -13.60290
+ -13.36741 -12.87575 -12.81176 -12.34335 -11.65628 -11.52274   0.62685   1.24224
+   2.98294   3.59111   3.99808   4.42588   4.87346   5.13127   5.16575   5.37226
+   5.54769   5.71413   5.77859   6.36821   6.81016   6.84267
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C(HETATM    1  C1  HET A   3)          -0.529782        4.5298     1.06164     3.46815
+    2          C(HETATM    2  C2  HET A   3)           0.710984        3.2890     1.11395     2.17507
+    3          O(HETATM    3  O1  HET A   3)          -0.661799        6.6618     1.86979     4.79201
+    4          O(HETATM    4  O2  HET A   3)          -0.446968        6.4470     1.86028     4.58669
+    5          C(HETATM    5  C3  HET A   3)           0.006827        3.9932     1.09541     2.89777
+    6          C(HETATM    6  C4  HET A   3)          -0.474378        4.4744     1.05505     3.41933
+    7          H(HETATM    7 1H1  HET A   3)           0.211914        0.7881     0.78809
+    8          H(HETATM    8 2H1  HET A   3)           0.201016        0.7990     0.79898
+    9          H(HETATM    9 3H1  HET A   3)           0.211276        0.7887     0.78872
+   10          H(HETATM   10 1H3  HET A   3)           0.144983        0.8550     0.85502
+   11          H(HETATM   11 2H3  HET A   3)           0.144070        0.8559     0.85593
+   12          H(HETATM   12 1H4  HET A   3)           0.165316        0.8347     0.83468
+   13          H(HETATM   13 2H4  HET A   3)           0.164817        0.8352     0.83518
+   14          H(HETATM   14 3H4  HET A   3)           0.173212        0.8268     0.82679
+   15          O(HETATM   16  O   HOH A   4)          -0.771607        6.7716     1.81218     4.95942
+   16          H(HETATM   20 1H   HOH A   4)           0.377008        0.6230     0.62299
+   17          H(HETATM   21 2H   HOH A   4)           0.373110        0.6269     0.62689
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -2.529    -4.027    -1.887     5.116
+ HYBRID         0.010    -0.043    -0.275     0.279
+ SUM           -2.519    -4.070    -2.162     5.252
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz   
+   C(HETATM    1  C1  HET A   3)   1.06164   1.00887   1.23207   1.22720
+   C(HETATM    2  C2  HET A   3)   1.11395   0.84966   0.72422   0.60119
+   O(HETATM    3  O1  HET A   3)   1.86979   1.68723   1.49675   1.60804
+   O(HETATM    4  O2  HET A   3)   1.86028   1.36159   1.39922   1.82588
+   C(HETATM    5  C3  HET A   3)   1.09541   0.73757   1.01208   1.14811
+   C(HETATM    6  C4  HET A   3)   1.05505   1.18849   1.03013   1.20071
+   H(HETATM    7 1H1  HET A   3)   0.78809
+   H(HETATM    8 2H1  HET A   3)   0.79898
+   H(HETATM    9 3H1  HET A   3)   0.78872
+   H(HETATM   10 1H3  HET A   3)   0.85502
+   H(HETATM   11 2H3  HET A   3)   0.85593
+   H(HETATM   12 1H4  HET A   3)   0.83468
+   H(HETATM   13 2H4  HET A   3)   0.83518
+   H(HETATM   14 3H4  HET A   3)   0.82679
+   O(HETATM   16  O   HOH A   4)   1.81218   1.44959   1.93853   1.57130
+   H(HETATM   20 1H   HOH A   4)   0.62299
+   H(HETATM   21 2H   HOH A   4)   0.62689
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.33 SECONDS
+
+ == MOPAC DONE ==

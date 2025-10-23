@@ -1,0 +1,41 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Solvation</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p>&nbsp;<font face="Arial">(<a href="Modeling_proteins.html">Modeling proteins</a>)</font></p>
+<h1>Solvation</h1>
+<p>A realistic model of a protein is essential for studying biochemical 
+processes.&nbsp; If solvation is not used, then electrostatic effects, in 
+particular those arising from ionized sites, on the surface of proteins would 
+not be handled properly.&nbsp; Adding implicit solvation by use of
+<a href="eps.html"><tt>EPS=78.4</tt></a> makes the computational model more realistic.&nbsp; 
+A realistic model is necessary because energy changes in biochemical processes 
+are often very small - in the order of zero to a few Kcal/mol - and phenomena 
+that depend on such small changes might not be reproduced properly if solvation 
+was not used.</p>
+<p>The cost, in terms of compute requirements, is not great, and the quality of 
+the model is improved significantly.&nbsp; Therefore, for all work involving 
+proteins, use implicit solvation.</p>
+<p>In the region of an active site, individual water molecules are important.&nbsp; 
+For this reason, explicit water molecules should be used, in addition to the use 
+of implicit solvation.</p>
+</body>
+</html>

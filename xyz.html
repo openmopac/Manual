@@ -1,0 +1,56 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>XYZ </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>XYZ</tt> </h1>
+<p>Regardless of the coordinate system used in defining the geometry, if <tt>XYZ</tt> is present, then all atoms will be converted to Cartesian coordinates, and the calculation will be run entirely in Cartesian coordinates. </p>
+<p>When a system involving several rings, or big rings, is optimized using
+internal coordinates, the geometry optimizers often have difficulty.&nbsp; This
+is because the effect of a small change in an angle can be a large change in the
+interatomic distance of two bonded atoms.&nbsp; This is particularly important
+in enzymes and other large molecules.&nbsp; This problem is completely solved if
+Cartesian coordinates are used.&nbsp; Therefore, if problems are encountered
+with geometry optimizations, particularly if internal coordinates are used,
+keyword <tt>XYZ</tt> should be used.</p>
+<p>Notes</p>
+<ul>
+<li>If&nbsp; <tt>XYZ</tt> is used, the optimization flags are not changed. 
+  Therefore, before running a system with&nbsp; <tt>XYZ</tt> all the 
+  optimization flags should be set to "1". For atoms 1, 2, and 3, the 
+  optimization flags are forced to 1 if all the other optimization flags are set 
+  to 1.&nbsp; To be safe, use <tt>XYZ</tt> with <tt><a href="zero_scf.html">0SCF</a></tt>, then 
+  edit the resulting ARC file to delete <tt>XYZ</tt> and set the 
+  optimization flags by hand.</li>
+<li>Be very careful if some atoms have optimization flags set to"0".&nbsp; If 
+  the geometry supplied is in internal coordinates, and an atom, say atom 10, 
+  has all three optimization flags set to "0", then that means "Do not change 
+  the bond length, angle, and dihedral of atom 10, with reference to the atoms 
+  used for the connectivity."&nbsp; The atom can still move if the atom it is 
+  attached to moves.&nbsp; If that atom is converted to Cartesian coordinates, 
+  the optimization flags will still be zero, but now the definition changes to 
+  "Do not change the Cartesian coordinates of atom 10."&nbsp; This is very 
+  different from the internal coordinate definition.</li>
+<li>Any dummy atoms are automatically deleted if&nbsp; <tt>XYZ</tt> is
+  present.&nbsp; Dummy atoms are only meaningful if internal coordinates are
+  used.&nbsp; </li>
+</ul>
+<p>See also <a href="int.html"><tt>INT</tt></a></p></body></html>

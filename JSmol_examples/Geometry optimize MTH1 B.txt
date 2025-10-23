@@ -1,0 +1,10 @@
+reset;center {26.698677419354834 11.30614516129032 -13.246967741935483}; rotate z 83.77; rotate y 111.3; rotate z -109.64; zoom 842.34; translate x 1.93; translate y -1.4; set rotationRadius 27.49;
+display 119, 120, 1157
+var use = {visible}; var sel = {selected};
+var z = 0; for (var i IN @sel){z = 3}
+if (z = 3); use = sel; end if;
+for (var x IN @use){select @x; var txt =  (x.temperature > 0 ? '+':'')+format('%1.2f',x.temperature ); label @txt; color label black;
+set labelOffset 0 0;}  select @sel; 
+measure ([8OG]1157:B.N1) ([ASP]120:B.OD1)
+measure ([8OG]1157:B.N2) ([ASP]120:B.OD2)
+measure ([8OG]1157:B.O6) ([ASP]119:B.OD1)

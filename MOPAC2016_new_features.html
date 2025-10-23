@@ -1,0 +1,211 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>New and improved features in MOPAC2016</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style2 {
+	margin-top: 8px;
+}
+.auto-style3 {
+	text-align: center;
+	margin-top: 8px;
+}
+</style>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+New Features and Improved Features in MOPAC2016 </h1>
+<p class="auto-style2">A new version of MOPAC will be released in early 2016; 
+this version will be named MOPAC2016.&nbsp; There will be increased focus on 
+biochemical applications, in particular in modeling proteins.&nbsp; Although 
+MOPAC2012 was able to model biomolecules efficiently, its use for this task was 
+limited by the difficulties involved in constructing data-sets.&nbsp; In 
+particular, there were only a small number of tools in MOPAC2012 for 
+manipulating PDB files or structures resulting from MOPAC calculations.</p>
+<p class="auto-style2">The new MOPAC2016 will have several new tools for 
+examining, comparing, and modifying macromolecules; some will be ready when 
+MOPAC2016 is released, others are still being written.&nbsp; These tools should 
+make research into biochemical processes using MOPAC much easier, and, in turn, 
+should result in a greater usage of the large compute engine in MOPAC.&nbsp; 
+Several worked examples were used during the development of these tools in order 
+to find weaknesses in the procedures.&nbsp; As a result, the new methods for 
+manipulating systems have become more robust and intuitive.</p>
+<p class="auto-style2">Here is a list of the more important new features and 
+functionalities in MOPAC</p>
+<p class="auto-style2">&nbsp;</p>
+<table align="center" style="width: 73%">
+<tr>
+<td class="auto-style1">
+<h3><strong>Functionality</strong></h3>
+</td>
+<td class="auto-style1">
+<p class="auto-style2">Example<sup>1</sup></p>
+</td>
+</tr>
+<tr>
+<td>
+<h3>Animations</h3>
+</td>
+<td class="auto-style1">
+<p class="auto-style2"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="auto-style2">Animations, using JSmol, can now show the Potential Energy 
+		Surface.&nbsp; This allows molecular vibrations, dynamic reaction 
+		coordinates (DRC) for reactions and dynamics, and intrinsic reaction 
+		coordinates (IRC) for reactions to be modeled.&nbsp; </p>
+</td>
+<td class="auto-style1">
+<p class="auto-style2">
+<a href="Individual%20JSmol%20paths/Animations.html">Animations</a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="auto-style2">Fractional atomic charges, when present, can be 
+		expressed as a number or as a circle.</p>
+</td>
+<td class="auto-style1">
+<p class="auto-style2">
+<a href="Individual%20JSmol%20paths/Acid-catalyzed%20Ester_hydrolysis/Hydrolysis_with_charges_IRC.html">
+		Acid catalyzed&nbsp; ester hydrolysis IRC</a><br/>
+<a href="Individual%20JSmol%20paths/Acid-catalyzed%20Ester_hydrolysis/Hydrolysis_with_charges_IRC.html">
+		Ethyl acetate</a> (Static)</p>
+</td>
+</tr>
+<tr>
+<td style="width: 195px">
+<h3>PDB Operations</h3>
+</td>
+<td class="auto-style1" style="width: 124px">
+<p class="auto-style2"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="auto-style2">Automatic conversion of a raw PDB file into a MOPAC data set. Any 
+		existing hydrogen atoms are removed and new hydrogen atoms added, then 
+		the atoms are re-sequenced to put them into standard PDB form.</p>
+</td>
+<td class="auto-style1" style="width: 124px">
+<p class="auto-style2"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="auto-style2">When hydrogen atoms 
+		added or deleted the system is re-sequenced so that the hydrogen atoms 
+		are in their correct place in the data-set.</p>
+</td>
+<td class="auto-style1" style="width: 124px">
+<p class="auto-style2"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="auto-style2">Automatic re-arrangement of atoms when 
+		comparing pairs of PDB structures.&nbsp; When two files that represent 
+		the same structure are compared, the atoms in the second file are 
+		re-arranged so as to minimize the RMS difference.&nbsp; An option exists 
+		to allow structures that have some, but not all, atoms in common to be 
+		compared.</p>
+</td>
+<td class="auto-style1" style="width: 124px">
+<p class="auto-style2"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="auto-style2">Three new metrics are provided when comparing structures.&nbsp; (1) 
+		Individual atoms that are in different positions in the two structures 
+		are identified along with the distance between the two positions. A 
+		maximum of 30 such atoms are reported. (2) Interatomic distances that 
+		are different in the two structures are printed.&nbsp; A maximum of 25 
+		distances are reported. (3) Hydrogen bonds present in one structure but 
+		not in the other, together with H-bond length and the energy, are 
+		printed.&nbsp; All such hydrogen bonds that are less than 3.0&nbsp;&Aring; 
+		and have a stabilization greater than 0.8 kcal.mol<sup>-1</sup> are 
+		printed.</p>
+<p class="auto-style2">New global properties for comparing structures 
+		are: (A) The total non-covalent energies. (B) The number of hydrogen 
+		bonds common to both systems. (C) The total, average, and RMS difference 
+		between the two geometries.</p>
+</td>
+<td class="auto-style1" style="width: 124px">
+<p class="auto-style2"></p>
+</td>
+</tr>
+<tr>
+<td>
+<p class="auto-style2">A JSmol web-page can be written that allows a 
+		detailed comparison to be made of pairs of structures.</p>
+</td>
+<td class="auto-style1" style="width: 124px">
+<p class="auto-style2"></p>
+</td>
+</tr>
+<tr>
+<td>Many hetero-groups are now automatically recognized.&nbsp; Options 
+		exist to allow any errors in heterogroup recognition to be corrected, 
+		and to allow heterogroups that are not recognized automatically to be 
+		defined.</td>
+<td class="auto-style1" style="width: 124px">
+<a href="Operations_on_Proteins/Aldohexoses/Aldohexoses.html">
+		Aldohexoses</a>
+<a href="Operations_on_Proteins/Aldohexoses/Aldohexoses.zip">Zip</a></td>
+</tr>
+<tr>
+<td>For a long time, editing macromolecular geometries has been 
+		difficult.&nbsp; New procedures have been developed that make this task easier.</td>
+<td class="auto-style1" style="width: 124px">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="auto-style1" style="width: 124px">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td class="auto-style1" style="width: 124px">&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p class="auto-style3">&nbsp;</p>
+</td>
+<td class="auto-style1" style="width: 124px">
+<p class="auto-style2"></p>
+</td>
+</tr>
+<tr>
+<td>
+		&nbsp;</td>
+<td class="auto-style1" style="width: 124px">
+		&nbsp;</td>
+</tr>
+</table>
+<p class="auto-style2">1: Before these graphics can be run on site,
+<a href="http://sourceforge.net/projects/jsmol/">JSmol</a> needs to be 
+installed, and the Browser must be set to <a href="README_for_JSmol.html">allow 
+JSmol to run</a>. These graphics were developed using Netscape.</p>
+</body>
+</html>

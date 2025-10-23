@@ -1,0 +1,24 @@
+HEADER  data-set: G:\tm\try
+REMARK  MOPAC 2012, Version: 15.324W Date: Nov 20 2015 20:08
+REMARK   3   HET = Not identified; C 6                            res:     3
+REMARK   3   HET = Not identified; BR2                            res:     4
+REMARK   3    AL = Covalently bound element                       res:     5
+HETATM    1  C1  HET A   3       0.000   0.000   0.000  1.00 -0.23      PROT C 
+HETATM    2  C2  HET A   3       1.409   0.000   0.000  1.00 -0.07      PROT C 
+HETATM    3  C3  HET A   3       2.109   1.209   0.000  1.00 -0.18      PROT C 
+HETATM    4  C4  HET A   3       1.411   2.422  -0.008  1.00 -0.07      PROT C 
+HETATM    5  C5  HET A   3       0.012   2.431  -0.009  1.00 -0.18      PROT C 
+HETATM    6  C6  HET A   3      -0.694   1.226  -0.008  1.00 -0.07      PROT C 
+HETATM    7  H1  HET A   3      -0.548  -0.939  -0.124  1.00  0.18      PROT H 
+HETATM    8  H2  HET A   3       1.948  -0.948  -0.001  1.00  0.15      PROT H 
+HETATM    9  H3  HET A   3       3.199   1.208   0.006  1.00  0.16      PROT H 
+HETATM   10  H4  HET A   3       1.961   3.363  -0.009  1.00  0.15      PROT H 
+HETATM   11  H5  HET A   3      -0.527   3.379  -0.009  1.00  0.16      PROT H 
+HETATM   12  H6  HET A   3      -1.785   1.224  -0.015  1.00  0.16      PROT H 
+HETATM   13 BR1  HET A   4      -0.108  -0.139   2.497  1.00  0.00      PROTBR 
+HETATM   14 BR2  HET A   4      -0.333  -0.518   4.809  1.00 -0.15      PROTBR 
+HETATM   15 AL    AL A   5      -5.815   0.155  -1.895  1.00  0.68      PROTAL 
+HETATM   16 BR1   AL A   5      -6.680  -1.811  -1.344  1.00 -0.22      PROTBR 
+HETATM   17 BR2   AL A   5      -7.124   1.926  -2.175  1.00 -0.22      PROTBR 
+HETATM   18 BR3   AL A   5      -3.617   0.355  -2.180  1.00 -0.24      PROTBR 
+END

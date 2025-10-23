@@ -1,0 +1,5 @@
+opt output  EPS=78.4 LOCATE-TS(C:4,30,40,60,80;set:1)  T=1W CHARGE=0 HTML mozyme +
+ GEO_DAT="KE07 Opt Reactants.arc" GEO_REF="KE07 Opt Products.arc"
+Locate Kemp Transition state
+
+

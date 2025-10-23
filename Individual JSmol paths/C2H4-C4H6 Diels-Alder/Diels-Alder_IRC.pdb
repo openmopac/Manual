@@ -1,0 +1,21 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/C2H4-C4H6 Diels
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 11 2021 08:40
+REMARK  Heat of Formation = 60.228 Kcal/mol
+HETATM    1  C1  HET A   1      -0.777  -1.180  -0.589  1.00 -0.25      PROT C 
+HETATM    2  C2  HET A   1       0.602  -1.178  -0.579  1.00 -0.17      PROT C 
+HETATM    3  C3  HET A   1       1.318   0.029  -0.586  1.00 -0.17      PROT C 
+HETATM    4  C4  HET A   1       0.660   1.240  -0.608  1.00 -0.25      PROT C 
+HETATM    5  C5  HET A   1      -0.436   1.068   1.209  1.00 -0.28      PROT C 
+HETATM    6  C6  HET A   1      -1.130  -0.126   1.224  1.00 -0.28      PROT C 
+HETATM    7 1H1  HET A   1      -1.351  -0.416  -1.098  1.00  0.15      PROT H 
+HETATM    8 2H1  HET A   1      -1.336  -2.090  -0.424  1.00  0.13      PROT H 
+HETATM    9 1H4  HET A   1       1.192   2.168  -0.453  1.00  0.13      PROT H 
+HETATM   10 2H4  HET A   1      -0.287   1.375  -1.116  1.00  0.15      PROT H 
+HETATM   11  H2  HET A   1       1.148  -2.105  -0.408  1.00  0.14      PROT H 
+HETATM   12  H3  HET A   1       2.394  -0.003  -0.418  1.00  0.14      PROT H 
+HETATM   13 1H6  HET A   1      -0.767  -0.971   1.793  1.00  0.14      PROT H 
+HETATM   14 2H6  HET A   1      -2.193  -0.157   1.027  1.00  0.14      PROT H 
+HETATM   15 1H5  HET A   1       0.482   1.185   1.770  1.00  0.14      PROT H 
+HETATM   16 2H5  HET A   1      -0.936   2.003   0.995  1.00  0.14      PROT H 
+END

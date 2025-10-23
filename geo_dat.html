@@ -1,0 +1,63 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>GEO_DAT=<i>text </i></title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>GEO_DAT="<i>text</i>"</tt> </h1>
+<font face="Arial"> <tt>GEO_DAT</tt> provides an alternative method for 
+supplying a geometry for a job.&nbsp;&nbsp;&nbsp;If more than one line of keywords is 
+supplied, then this keyword should be on the first line.
+
+<p>Ways to specify "<em>text</em>" :</p>
+<p><tt>GEO_DAT="CRAMBIN 1CBN X-ray.mop</tt>"<br/>
+<font face="Arial"> <tt>GEO_DAT</tt></font><tt>="CRAMBIN.arc</tt>" <br/>
+<font face="Arial"> <tt>GEO_DAT="CRAMBIN.pdb</tt>" 
+</font>
+<br/>
+<font face="Arial"> <tt>GEO_DAT</tt></font><tt>="./CRAMBIN.arc</tt>"<br/>
+<font face="Arial"> <tt>GEO_DAT</tt></font><tt>="../CRAMBIN.arc</tt>" <br/>
+<font face="Arial"> <tt>GEO_DAT="../<font face="Arial"><tt>../arc files/C</tt></font>RAMBIN.arc</tt>"
+</font>
+<br/>
+<font face="Arial"> <tt>GEO_DAT</tt></font><tt>="sub folder/CRAMBIN.arc</tt>"
+<br/>
+<font face="Arial"> <tt>GEO_DAT</tt></font><tt><font face="Arial"><tt>=</tt></font>"./sub 
+folder/CRAMBIN.arc</tt>"<br/>
+<font face="Arial"> <tt>GEO_DAT</tt></font><tt>="M:\data sets\CRAMBIN 1CBN X-ray.mop</tt>"<br/>
+<font face="Arial"> <tt>GEO_DAT</tt></font><tt>="/Users/jstewart/data_sets/CRAMBIN_1CBN_X-ray.mop</tt>"<br/>
+<font face="Arial"> <tt>GEO_DAT</tt></font><tt>="~/data_sets/CRAMBIN_1CBN_X-ray.mop</tt>"</p>
+<p>Only the geometry in the file specified by
+<font face="Arial"> <tt>GEO_DAT</tt> will be used, i.e., all keywords, comments, 
+etc., will be ignored.</font></p>
+<p>Warning: If
+<font face="Arial"> <tt>GEO_DAT</tt> refers to a file that has the same name as 
+the data-set, but with a different suffix, and the data-set generates a file 
+with that suffix, then the file referred to by <tt>GEO_DAT</tt> will be 
+over-written.&nbsp; For example, if <tt>GEO_DAT</tt> refers to test.arc, and the 
+data set name is test.mop, and the run would generate a file called test.arc, 
+then the original test.arc will be over-written.&nbsp; If test-mop is run again, 
+then different results might be obtained, because the file referred to by <tt>GEO_DAT</tt> 
+had changed.</font></p>
+<p>See also <a href="Locate-TS.html"><tt>LOCATE-TS</tt></a> and
+<a href="geo_ref.html"><tt>GEO_REF</tt></a></p>
+</font>
+</body>
+</html>

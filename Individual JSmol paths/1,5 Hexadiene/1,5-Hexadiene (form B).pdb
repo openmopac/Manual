@@ -1,0 +1,21 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/1,5 Hexadiene/1
+REMARK  MOPAC 2016, Version: 21.153W
+REMARK  Date: Jun  3 2021 14:06
+REMARK  Heat of Formation = 17.493 Kcal/mol
+HETATM    1  C   HET A   1       0.000   0.000   0.000  1.00 -0.10      PROT C 
+HETATM    2  C   HET A   1       1.496   0.000   0.000  1.00 -0.28      PROT C 
+HETATM    3  C   HET A   1       2.054   1.433   0.000  1.00 -0.28      PROT C 
+HETATM    4  C   HET A   1       1.691   2.156  -1.258  1.00 -0.10      PROT C 
+HETATM    5  C   HET A   1       1.242   3.411  -1.275  1.00 -0.35      PROT C 
+HETATM    6  C   HET A   1      -0.729  -0.814  -0.763  1.00 -0.35      PROT C 
+HETATM    7  H   HET A   1      -0.459   0.716   0.682  1.00  0.14      PROT H 
+HETATM    8  H   HET A   1       1.859  -0.542   0.900  1.00  0.15      PROT H 
+HETATM    9  H   HET A   1       1.901  -0.563  -0.865  1.00  0.15      PROT H 
+HETATM   10  H   HET A   1       1.696   1.978   0.896  1.00  0.15      PROT H 
+HETATM   11  H   HET A   1       3.161   1.403   0.097  1.00  0.15      PROT H 
+HETATM   12  H   HET A   1       1.825   1.580  -2.174  1.00  0.14      PROT H 
+HETATM   13  H   HET A   1       0.988   3.937  -2.181  1.00  0.15      PROT H 
+HETATM   14  H   HET A   1       1.088   4.009  -0.392  1.00  0.14      PROT H 
+HETATM   15  H   HET A   1      -1.807  -0.826  -0.757  1.00  0.15      PROT H 
+HETATM   16  H   HET A   1      -0.311  -1.528  -1.454  1.00  0.14      PROT H 
+END

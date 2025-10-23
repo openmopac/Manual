@@ -1,0 +1,5 @@
+       TS  HTML eps=78.4 GEO_DAT="Saddle_TS.arc"
+ Transition state for the reaction Benzene + NO2(+) <=> Nitrobenzene + H(+)
+
+oldgeo eps=78.4 IRC=-1* HTML X-priority=0.2 GNORM=0
+IRC for the reaction Benzene + NO2(+) <=> Nitrobenzene + H(+)

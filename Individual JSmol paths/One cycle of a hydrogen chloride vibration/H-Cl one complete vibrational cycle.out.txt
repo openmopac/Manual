@@ -1,0 +1,1893 @@
+ *******************************************************************************
+ ** Site#: 29624 E-mail support:    MrMOPAC@ATT.net    Version 18.305W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 18.305W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web-site: HTTP://OpenMOPAC.net.          **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              MNDO CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Nov 21 09:52:57 2018  *
+ *  MNDO       - The MNDO Hamiltonian to be used
+ *  RESIDUES   - DETERMINE THE SEQUENCE OF RESIDUES
+ *  IRC=N      - INTRINSIC REACTION COORDINATE  1 DEFINED
+ *  DRC        - DYNAMIC REACTION COORDINATE CALCULATION
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  BIGCYCLES= DO A MAXIMUM OF     1 BIG STEPS
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *  T-PRIOR    - TIME TAKES PRIORITY IN DRC
+ *******************************************************************************
+ IRC=1 DRC T-priority large bigcycles=1  mndo HTML
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       H          0.00000000      0.00000000      0.00000000   
+     2      Cl          1.34818168      0.00000000      0.00000000   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         H          0.0000      0.0000      0.0000
+     2        Cl          1.3482      0.0000      0.0000
+
+  H: (MNDO): M.J.S. DEWAR, W. THIEL, J. AM. CHEM. SOC., 99, 4899, (1977)
+ Cl: (MNDO): M.J.S.DEWAR, H.S.RZEPA, J. COMP. CHEM., 4, 158, (1983)
+
+           Empirical Formula: H Cl  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C*v 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+
+
+          HEAT OF FORMATION =     -15.263007 KCALS/MOLE
+
+
+          GRADIENT NORM =   0.03409
+
+          MOLECULAR WEIGHT =   36.46
+
+
+    FOR POINT-GROUP C*v  THERE ARE  84 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.02 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   2 TIME =     0.08 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:   3 TIME =     0.00 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:   4 TIME =     0.00 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:   5 TIME =     0.00 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:   6 TIME =     0.00 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.91
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+         0.97236        -0.00000        -0.00000
+        -0.02764         0.00000         0.00000
+ BY DEFAULT, ONE QUANTUM OF ENERGY, EQUIVALENT TO  3032.543 CM(-1)
+ WILL BE USED TO START THE DRC
+ THIS REPRESENTS AN ENERGY OF   8.67 KCALS/MOLE
+
+ TIME PRIORITY, INTERVAL = 0.10 FEMTOSECONDS
+
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.000       1   -15.26300    8.66855    -6.59445   0.00000     1   %  0.0000
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.31091    0.00000    0.00000     836542.8       -0.0       -0.0
+   2   Cl    0.03727    0.00000    0.00000     -23782.2        0.0        0.0
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1829       1AA*
+  Cl    1.348182  1    0.000000  0    0.000000  0   1  0  0   -0.1829       1AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.100       2   -15.23420    8.66834    -6.56586   0.02859     2   %  0.0086
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.30255    0.00000    0.00000     836532.8        0.3       18.9
+   2   Cl    0.03703   -0.00000   -0.00000     -23781.9       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1755       2AA*
+  Cl    1.339578  1    0.000000  0    0.000000  0   1  0  0   -0.1755       2AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.200       3   -15.14709    8.55373    -6.59336   0.00109     3   %  0.0172
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.29420    0.00000    0.00000     830984.2        0.2       12.0
+   2   Cl    0.03679   -0.00000   -0.00000     -23624.2       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1730       3AA*
+  Cl    1.330994  1    0.000000  0    0.000000  0   1  0  0   -0.1730       3AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.300       4   -15.00112    8.40745    -6.59367   0.00078     4   %  0.0257
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.28592    0.00000    0.00000     823848.7        0.1       11.2
+   2   Cl    0.03656   -0.00000   -0.00000     -23420.7       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1706       4AA*
+  Cl    1.322482  1    0.000000  0    0.000000  0   1  0  0   -0.1706       4AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.400       5   -14.79623    8.20248    -6.59374   0.00071     5   %  0.0341
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.27773    0.00000    0.00000     813744.8        0.2       11.4
+   2   Cl    0.03632   -0.00000   -0.00000     -23133.0       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1682       5AA*
+  Cl    1.314059  1    0.000000  0    0.000000  0   1  0  0   -0.1682       5AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.500       6   -14.53340    7.93954    -6.59386   0.00059     6   %  0.0424
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.26966    0.00000    0.00000     800595.9        0.2       11.5
+   2   Cl    0.03610   -0.00000   -0.00000     -22758.7       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1659       6AA*
+  Cl    1.305755  1    0.000000  0    0.000000  0   1  0  0   -0.1659       6AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.600       7   -14.21464    7.62063    -6.59400   0.00045     7   %  0.0506
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.26173    0.00000    0.00000     784353.0        0.2       11.6
+   2   Cl    0.03587   -0.00000   -0.00000     -22296.5       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1636       7AA*
+  Cl    1.297602  1    0.000000  0    0.000000  0   1  0  0   -0.1636       7AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.700       8   -13.84302    7.24886    -6.59416   0.00029     8   %  0.0585
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.25398    0.00000    0.00000     764981.7        0.2       11.7
+   2   Cl    0.03565   -0.00000   -0.00000     -21745.5       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1614       8AA*
+  Cl    1.289632  1    0.000000  0    0.000000  0   1  0  0   -0.1614       8AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.800       9   -13.42273    6.82840    -6.59433   0.00012     9   %  0.0663
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.24644    0.00000    0.00000     742464.5        0.2       11.7
+   2   Cl    0.03544   -0.00000   -0.00000     -21105.2       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1592       9AA*
+  Cl    1.281878  1    0.000000  0    0.000000  0   1  0  0   -0.1592       9AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     0.900      10   -12.95904    6.36452    -6.59451  -0.00006    10   %  0.0738
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.23914    0.00000    0.00000     716802.2        0.2       11.7
+   2   Cl    0.03523   -0.00000   -0.00000     -20375.6       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1572      10AA*
+  Cl    1.274372  1    0.000000  0    0.000000  0   1  0  0   -0.1572      10AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.000      11   -12.45830    5.86360    -6.59470  -0.00025    11   %  0.0810
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.23212    0.00000    0.00000     688016.1        0.2       11.7
+   2   Cl    0.03503   -0.00000   -0.00000     -19557.3       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1552      11AA*
+  Cl    1.267145  1    0.000000  0    0.000000  0   1  0  0   -0.1552      11AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.100      12   -11.92790    5.33301    -6.59489  -0.00043    12   %  0.0880
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.22539    0.00000    0.00000     656149.4        0.2       11.8
+   2   Cl    0.03484   -0.00000   -0.00000     -18651.5       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1534      12AA*
+  Cl    1.260231  1    0.000000  0    0.000000  0   1  0  0   -0.1534      12AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.200      13   -11.37614    4.78108    -6.59507  -0.00061    13   %  0.0945
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.21900    0.00000    0.00000     621268.1        0.2       11.8
+   2   Cl    0.03466   -0.00000   -0.00000     -17660.3       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1516      13AA*
+  Cl    1.253660  1    0.000000  0    0.000000  0   1  0  0   -0.1516      13AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.300      13   -10.81214    4.21691    -6.59524  -0.00078    14   %  0.1007
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.21298    0.00000    0.00000     583462.5        0.2       11.8
+   2   Cl    0.03448   -0.00000   -0.00000     -16586.0       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1516      14AA*
+  Cl    1.247462  1    0.000000  0    0.000000  0   1  0  0   -0.1516      14AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.400      15   -10.24566    3.65027    -6.59539  -0.00093    15   %  0.1065
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.20734    0.00000    0.00000     542847.6        0.2       11.9
+   2   Cl    0.03432   -0.00000   -0.00000     -15432.1       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1485      15AA*
+  Cl    1.241669  1    0.000000  0    0.000000  0   1  0  0   -0.1485      15AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.600      16    -9.14629    2.55067    -6.59562  -0.00117    16   %  0.1168
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.19736    0.00000    0.00000     453775.0        0.2       12.0
+   2   Cl    0.03404   -0.00000   -0.00000     -12901.7       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1472      16AA*
+  Cl    1.231402  1    0.000000  0    0.000000  0   1  0  0   -0.1472      16AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.700      17    -8.63427    2.03857    -6.59570  -0.00124    17   %  0.1212
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.19306    0.00000    0.00000     405672.1        0.2       12.1
+   2   Cl    0.03392   -0.00000   -0.00000     -11535.4       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1460      17AA*
+  Cl    1.226981  1    0.000000  0    0.000000  0   1  0  0   -0.1460      17AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.800      18    -8.16098    1.56524    -6.59574  -0.00128    18   %  0.1251
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.18926    0.00000    0.00000     355468.1        0.2       12.2
+   2   Cl    0.03381   -0.00000   -0.00000     -10109.5       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1450      18AA*
+  Cl    1.223066  1    0.000000  0    0.000000  0   1  0  0   -0.1450      18AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     1.900      19    -7.73603    1.14028    -6.59574  -0.00129    19   %  0.1285
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.18596    0.00000    0.00000     303398.7        0.2       12.3
+   2   Cl    0.03372   -0.00000   -0.00000      -8630.8       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1441      19AA*
+  Cl    1.219677  1    0.000000  0    0.000000  0   1  0  0   -0.1441      19AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.000      20    -7.36823    0.77251    -6.59572  -0.00126    20   %  0.1313
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.18319    0.00000    0.00000     249720.4        0.2       12.4
+   2   Cl    0.03364   -0.00000   -0.00000      -7106.4       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1434      20AA*
+  Cl    1.216832  1    0.000000  0    0.000000  0   1  0  0   -0.1434      20AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.100      21    -7.06532    0.46965    -6.59567  -0.00122    21   %  0.1336
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.18097    0.00000    0.00000     194707.8        0.2       12.5
+   2   Cl    0.03357   -0.00000   -0.00000      -5544.3       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1429      21AA*
+  Cl    1.214546  1    0.000000  0    0.000000  0   1  0  0   -0.1429      21AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.200      22    -6.83378    0.23817    -6.59561  -0.00116    22   %  0.1353
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.17931    0.00000    0.00000     138651.9        0.2       12.6
+   2   Cl    0.03353   -0.00000   -0.00000      -3952.6       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1426      22AA*
+  Cl    1.212832  1    0.000000  0    0.000000  0   1  0  0   -0.1426      22AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.300      23    -6.67859    0.08295    -6.59563  -0.00118    23   %  0.1365
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.17820    0.00000    0.00000      81830.9        0.2       12.8
+   2   Cl    0.03350   -0.00000   -0.00000      -2339.3       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1424      23AA*
+  Cl    1.211698  1    0.000000  0    0.000000  0   1  0  0   -0.1424      23AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.400      24    -6.60317    0.00687    -6.59629  -0.00184    24   %  0.1370
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.17767    0.00000    0.00000      24872.1        0.2       12.9
+   2   Cl    0.03348   -0.00000   -0.00000       -722.4       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1425      24AA*
+  Cl    1.211151  1    0.000000  0    0.000000  0   1  0  0   -0.1425      24AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.500      25    -6.60822    0.02459    -6.58362   0.01083    25   %  0.1370
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.17771    0.00000    0.00000     -40731.9        0.2       14.9
+   2   Cl    0.03348   -0.00000   -0.00000       1137.2       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1428      25AA*
+  Cl    1.211187  1    0.000000  0    0.000000  0   1  0  0   -0.1428      25AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.600      26    -6.70759    0.08463    -6.62296  -0.02850    26   %  0.1363
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.17841    0.00000    0.00000     -86737.5        0.2       14.0
+   2   Cl    0.03350   -0.00000   -0.00000       2444.3       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1434      26AA*
+  Cl    1.211907  1    0.000000  0    0.000000  0   1  0  0   -0.1434      26AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.700      27    -6.86959    0.30352    -6.56607   0.02839    27   %  0.1351
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.17956    0.00000    0.00000    -153160.5        0.2       14.6
+   2   Cl    0.03353   -0.00000   -0.00000       4327.8       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1441      27AA*
+  Cl    1.213091  1    0.000000  0    0.000000  0   1  0  0   -0.1441      27AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.800      28    -7.11549    0.54543    -6.57006   0.02439    28   %  0.1333
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.18134    0.00000    0.00000    -210531.6        0.2       15.0
+   2   Cl    0.03358   -0.00000   -0.00000       5955.4       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1450      28AA*
+  Cl    1.214920  1    0.000000  0    0.000000  0   1  0  0   -0.1450      28AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     2.900      29    -7.43900    0.82861    -6.61039  -0.01593    29   %  0.1308
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.18372    0.00000    0.00000    -258336.7        0.2       14.7
+   2   Cl    0.03365   -0.00000   -0.00000       7312.9       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1460      29AA*
+  Cl    1.217371  1    0.000000  0    0.000000  0   1  0  0   -0.1460      29AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.000      30    -7.81598    1.23129    -6.58470   0.00976    30   %  0.1279
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.18657    0.00000    0.00000    -315340.3        0.2       15.0
+   2   Cl    0.03373   -0.00000   -0.00000       8930.8       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1472      30AA*
+  Cl    1.220304  1    0.000000  0    0.000000  0   1  0  0   -0.1472      30AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.100      31    -8.25323    1.65626    -6.59697  -0.00252    31   %  0.1244
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.18999    0.00000    0.00000    -365635.8        0.2       15.1
+   2   Cl    0.03383   -0.00000   -0.00000      10359.2       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1485      31AA*
+  Cl    1.223814  1    0.000000  0    0.000000  0   1  0  0   -0.1485      31AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.200      32    -8.73504    2.14256    -6.59248   0.00197    32   %  0.1203
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.19389    0.00000    0.00000    -415894.1        0.2       15.3
+   2   Cl    0.03394   -0.00000   -0.00000      11786.1       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1500      32AA*
+  Cl    1.227832  1    0.000000  0    0.000000  0   1  0  0   -0.1500      32AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.300      33    -9.25409    2.66036    -6.59373   0.00073    33   %  0.1158
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.19829    0.00000    0.00000    -463433.2        0.2       15.4
+   2   Cl    0.03406   -0.00000   -0.00000      13136.0       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1516      33AA*
+  Cl    1.232357  1    0.000000  0    0.000000  0   1  0  0   -0.1516      33AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.400      34    -9.79944    3.20604    -6.59340   0.00105    34   %  0.1108
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.20316    0.00000    0.00000    -508751.2        0.2       15.6
+   2   Cl    0.03420   -0.00000   -0.00000      14422.8       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1533      34AA*
+  Cl    1.237358  1    0.000000  0    0.000000  0   1  0  0   -0.1533      34AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.500      35   -10.36081    3.76732    -6.59349   0.00097    35   %  0.1054
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.20846    0.00000    0.00000    -551492.9        0.2       15.7
+   2   Cl    0.03435   -0.00000   -0.00000      15636.6       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1552      35AA*
+  Cl    1.242812  1    0.000000  0    0.000000  0   1  0  0   -0.1552      35AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.600      36   -10.92774    4.33420    -6.59354   0.00092    36   %  0.0995
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.21418    0.00000    0.00000    -591535.5        0.2       15.8
+   2   Cl    0.03451   -0.00000   -0.00000      16773.8       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1571      36AA*
+  Cl    1.248692  1    0.000000  0    0.000000  0   1  0  0   -0.1571      36AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.700      37   -11.49011    4.89648    -6.59363   0.00083    37   %  0.0932
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.22028    0.00000    0.00000    -628738.8        0.2       16.0
+   2   Cl    0.03469   -0.00000   -0.00000      17830.5       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1592      37AA*
+  Cl    1.254969  1    0.000000  0    0.000000  0   1  0  0   -0.1592      37AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.800      38   -12.03828    5.44454    -6.59375   0.00071    38   %  0.0866
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.22674    0.00000    0.00000    -662995.0        0.2       16.1
+   2   Cl    0.03487   -0.00000   -0.00000      18803.5       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1613      38AA*
+  Cl    1.261613  1    0.000000  0    0.000000  0   1  0  0   -0.1613      38AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     3.900      39   -12.56330    5.96941    -6.59389   0.00057    39   %  0.0796
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.23353    0.00000    0.00001    -694219.8        0.2       16.2
+   2   Cl    0.03506   -0.00000   -0.00000      19690.5       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1635      39AA*
+  Cl    1.268595  1    0.000000  0    0.000000  0   1  0  0   -0.1635      39AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.000      40   -13.05704    6.46299    -6.59404   0.00041    40   %  0.0723
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.24062    0.00000    0.00001    -722352.6        0.2       16.3
+   2   Cl    0.03526   -0.00000   -0.00000      20489.8       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1658      40AA*
+  Cl    1.275881  1    0.000000  0    0.000000  0   1  0  0   -0.1658      40AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.100      41   -13.51233    6.91811    -6.59421   0.00025    41   %  0.0647
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.24797    0.00000    0.00001    -747355.6        0.2       16.4
+   2   Cl    0.03547   -0.00000   -0.00000      21200.3       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1682      41AA*
+  Cl    1.283441  1    0.000000  0    0.000000  0   1  0  0   -0.1682      41AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.200      42   -13.92304    7.32865    -6.59439   0.00007    42   %  0.0569
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.25555    0.00000    0.00001    -769212.5        0.2       16.5
+   2   Cl    0.03569   -0.00000   -0.00000      21821.5       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1706      42AA*
+  Cl    1.291242  1    0.000000  0    0.000000  0   1  0  0   -0.1706      42AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.300      43   -14.28412    7.68956    -6.59456  -0.00010    43   %  0.0489
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.26334    0.00000    0.00001    -787926.7        0.2       16.6
+   2   Cl    0.03591   -0.00000   -0.00000      22353.5       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1730      43AA*
+  Cl    1.299251  1    0.000000  0    0.000000  0   1  0  0   -0.1730      43AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.400      44   -14.59163    7.99690    -6.59473  -0.00027    44   %  0.0407
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.27130    0.00000    0.00001    -803519.8        0.2       16.7
+   2   Cl    0.03613   -0.00000   -0.00000      22796.9       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1754      44AA*
+  Cl    1.307437  1    0.000000  0    0.000000  0   1  0  0   -0.1754      44AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.500      45   -14.84272    8.24783    -6.59489  -0.00043    45   %  0.0324
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.27940    0.00000    0.00001    -816030.2        0.2       16.7
+   2   Cl    0.03636   -0.00000   -0.00000      23152.7       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1779      45AA*
+  Cl    1.315767  1    0.000000  0    0.000000  0   1  0  0   -0.1779      45AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.600      46   -15.03560    8.44057    -6.59503  -0.00057    46   %  0.0240
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.28761    0.00000    0.00001    -825510.5        0.2       16.8
+   2   Cl    0.03660   -0.00000   -0.00000      23422.6       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1804      46AA*
+  Cl    1.324210  1    0.000000  0    0.000000  0   1  0  0   -0.1804      46AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.700      47   -15.16950    8.57433    -6.59517  -0.00071    47   %  0.0154
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.29590    0.00000    0.00001    -832026.7        0.2       16.8
+   2   Cl    0.03683   -0.00000   -0.00000      23608.2       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1829      47AA*
+  Cl    1.332735  1    0.000000  0    0.000000  0   1  0  0   -0.1829      47AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.800      48   -15.24456    8.64927    -6.59528  -0.00082    48   %  0.0055
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.30424    0.00000    0.00001    -835655.6        0.2       16.8
+   2   Cl    0.03707   -0.00000   -0.00000      23711.9       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1853      48AA*
+  Cl    1.341312  1    0.000000  0    0.000000  0   1  0  0   -0.1853      48AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     4.900      49   -15.26179    8.66640    -6.59538  -0.00092    49   %  0.0018
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.31261    0.00000    0.00001    -836483.5        0.2       16.8
+   2   Cl    0.03731   -0.00000   -0.00000      23736.0       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1878      49AA*
+  Cl    1.349913  1    0.000000  0    0.000000  0   1  0  0   -0.1878      49AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.000      50   -15.22296    8.62750    -6.59546  -0.00100    50   %  0.0103
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.32096    0.00000    0.00001    -834604.3        0.2       16.8
+   2   Cl    0.03754   -0.00000   -0.00000      23683.2       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1902      50AA*
+  Cl    1.358507  1    0.000000  0    0.000000  0   1  0  0   -0.1902      50AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.100      51   -15.13051    8.53499    -6.59552  -0.00106    51   %  0.0189
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.32929    0.00000    0.00001    -830118.3        0.2       16.7
+   2   Cl    0.03778   -0.00000   -0.00000      23556.3       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1926      51AA*
+  Cl    1.367069  1    0.000000  0    0.000000  0   1  0  0   -0.1926      51AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.200      52   -14.98746    8.39189    -6.59557  -0.00110    52   %  0.0274
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.33756    0.00000    0.00001    -823130.4        0.2       16.7
+   2   Cl    0.03801   -0.00000   -0.00000      23358.3       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1950      52AA*
+  Cl    1.375572  1    0.000000  0    0.000000  0   1  0  0   -0.1950      52AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.300      53   -14.79727    8.20168    -6.59559  -0.00113    53   %  0.0358
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.34574    0.00000    0.00001    -813749.1        0.2       16.6
+   2   Cl    0.03825   -0.00000   -0.00000      23092.4       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1973      53AA*
+  Cl    1.383990  1    0.000000  0    0.000000  0   1  0  0   -0.1973      53AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.400      54   -14.56384    7.96823    -6.59561  -0.00114    54   %  0.0441
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.35382    0.00000    0.00001    -802084.9        0.2       16.6
+   2   Cl    0.03848   -0.00000   -0.00000      22761.5       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1996      54AA*
+  Cl    1.392300  1    0.000000  0    0.000000  0   1  0  0   -0.1996      54AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.500      55   -14.29131    7.69570    -6.59560  -0.00114    55   %  0.0523
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.36178    0.00000    0.00001    -788249.8        0.2       16.5
+   2   Cl    0.03870   -0.00000   -0.00000      22369.0       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2018      55AA*
+  Cl    1.400479  1    0.000000  0    0.000000  0   1  0  0   -0.2018      55AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.600      56   -13.98406    7.38847    -6.59559  -0.00112    56   %  0.0603
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.36958    0.00000    0.00001    -772355.9        0.2       16.4
+   2   Cl    0.03892   -0.00000   -0.00000      21917.9       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2039      56AA*
+  Cl    1.408505  1    0.000000  0    0.000000  0   1  0  0   -0.2039      56AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.700      57   -13.64663    7.05106    -6.59557  -0.00110    57   %  0.0682
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.37722    0.00000    0.00001    -754514.9        0.2       16.3
+   2   Cl    0.03914   -0.00000   -0.00000      21411.4       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2060      57AA*
+  Cl    1.416358  1    0.000000  0    0.000000  0   1  0  0   -0.2060      57AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.800      58   -13.28360    6.68806    -6.59553  -0.00106    58   %  0.0758
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.38467    0.00000    0.00001    -734837.2        0.2       16.1
+   2   Cl    0.03935   -0.00000   -0.00000      20852.8       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2081      58AA*
+  Cl    1.424017  1    0.000000  0    0.000000  0   1  0  0   -0.2081      58AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     5.900      59   -12.89957    6.30408    -6.59549  -0.00102    59   %  0.0833
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.39191    0.00000    0.00001    -713431.4        0.2       16.0
+   2   Cl    0.03956   -0.00000   -0.00000      20245.0       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2100      59AA*
+  Cl    1.431465  1    0.000000  0    0.000000  0   1  0  0   -0.2100      59AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.000      60   -12.49912    5.90368    -6.59545  -0.00098    60   %  0.0905
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.39893    0.00000    0.00001    -690403.9        0.2       15.9
+   2   Cl    0.03976   -0.00000   -0.00000      19591.1       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2119      60AA*
+  Cl    1.438685  1    0.000000  0    0.000000  0   1  0  0   -0.2119      60AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.100      61   -12.08674    5.49134    -6.59539  -0.00093    61   %  0.0975
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.40571    0.00000    0.00001    -665858.5        0.2       15.7
+   2   Cl    0.03995   -0.00000   -0.00000      18894.0       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2137      61AA*
+  Cl    1.445660  1    0.000000  0    0.000000  0   1  0  0   -0.2137      61AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.200      62   -11.66679    5.07145    -6.59534  -0.00087    62   %  0.1042
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.41224    0.00000    0.00001    -639896.0        0.2       15.5
+   2   Cl    0.04013   -0.00000   -0.00000      18156.6       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2154      62AA*
+  Cl    1.452375  1    0.000000  0    0.000000  0   1  0  0   -0.2154      62AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.300      63   -11.24350    4.64821    -6.59529  -0.00082    63   %  0.1106
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.41850    0.00000    0.00001    -612614.2        0.2       15.4
+   2   Cl    0.04031   -0.00000   -0.00000      17381.7       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2170      63AA*
+  Cl    1.458816  1    0.000000  0    0.000000  0   1  0  0   -0.2170      63AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.400      64   -10.82090    4.22567    -6.59523  -0.00076    64   %  0.1168
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.42449    0.00000    0.00001    -584107.6        0.2       15.2
+   2   Cl    0.04048   -0.00000   -0.00000      16571.9       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2186      64AA*
+  Cl    1.464970  1    0.000000  0    0.000000  0   1  0  0   -0.2186      64AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.500      65   -10.40284    3.80767    -6.59517  -0.00070    65   %  0.1226
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.43018    0.00000    0.00001    -554467.2        0.2       15.0
+   2   Cl    0.04064   -0.00000   -0.00000      15729.9       -0.0       -0.6
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2200      65AA*
+  Cl    1.470825  1    0.000000  0    0.000000  0   1  0  0   -0.2200      65AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.600      66    -9.99297    3.39785    -6.59512  -0.00065    66   %  0.1282
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.43557    0.00000    0.00001    -523781.0        0.2       14.8
+   2   Cl    0.04080   -0.00000   -0.00000      14858.1       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2214      66AA*
+  Cl    1.476370  1    0.000000  0    0.000000  0   1  0  0   -0.2214      66AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.700      67    -9.59469    2.99963    -6.59506  -0.00059    67   %  0.1334
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.44065    0.00000    0.00001    -492133.6        0.2       14.5
+   2   Cl    0.04094   -0.00000   -0.00000      13959.0       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2227      67AA*
+  Cl    1.481594  1    0.000000  0    0.000000  0   1  0  0   -0.2227      67AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.800      68    -9.21118    2.61616    -6.59502  -0.00055    68   %  0.1383
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.44541    0.00000    0.00001    -459604.5        0.2       14.3
+   2   Cl    0.04107   -0.00000   -0.00000      13034.8       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2240      68AA*
+  Cl    1.486488  1    0.000000  0    0.000000  0   1  0  0   -0.2240      68AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     6.900      69    -8.84544    2.25042    -6.59502  -0.00055    69   %  0.1429
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.44984    0.00000    0.00001    -426270.6        0.2       14.1
+   2   Cl    0.04120   -0.00000   -0.00000      12087.7       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2252      69AA*
+  Cl    1.491044  1    0.000000  0    0.000000  0   1  0  0   -0.2252      69AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.000      70    -8.50021    1.90517    -6.59504  -0.00057    70   %  0.1471
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.45394    0.00000    0.00001    -392209.7        0.2       13.8
+   2   Cl    0.04132   -0.00000   -0.00000      11120.0       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2263      70AA*
+  Cl    1.495253  1    0.000000  0    0.000000  0   1  0  0   -0.2263      70AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.100      70    -8.17785    1.58279    -6.59506  -0.00059    71   %  0.1509
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.45769    0.00000    0.00001    -357492.0        0.2       13.6
+   2   Cl    0.04142   -0.00000   -0.00000      10133.6       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2263      71AA*
+  Cl    1.499108  1    0.000000  0    0.000000  0   1  0  0   -0.2263      71AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.200      71    -7.88058    1.28551    -6.59507  -0.00060    72   %  0.1544
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.46108    0.00000    0.00001    -322186.8        0.2       13.3
+   2   Cl    0.04152   -0.00000   -0.00000       9130.6       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2273      72AA*
+  Cl    1.502603  1    0.000000  0    0.000000  0   1  0  0   -0.2273      72AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.300      72    -7.61054    1.01546    -6.59508  -0.00061    73   %  0.1576
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.46413    0.00000    0.00001    -286364.7        0.2       13.1
+   2   Cl    0.04161   -0.00000   -0.00000       8112.9       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2282      73AA*
+  Cl    1.505732  1    0.000000  0    0.000000  0   1  0  0   -0.2282      73AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.400      73    -7.36957    0.77448    -6.59509  -0.00062    74   %  0.1603
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.46681    0.00000    0.00001    -250093.6        0.2       12.8
+   2   Cl    0.04168   -0.00000   -0.00000       7082.5       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2290      74AA*
+  Cl    1.508491  1    0.000000  0    0.000000  0   1  0  0   -0.2290      74AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.500      74    -7.15925    0.56416    -6.59509  -0.00062    75   %  0.1627
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.46913    0.00000    0.00001    -213441.6        0.2       12.5
+   2   Cl    0.04175   -0.00000   -0.00000       6041.3       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2295      75AA*
+  Cl    1.510874  1    0.000000  0    0.000000  0   1  0  0   -0.2295      75AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.600      74    -6.98058    0.38549    -6.59509  -0.00062    76   %  0.1647
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47108    0.00000    0.00001    -176451.8        0.2       12.3
+   2   Cl    0.04180   -0.00000   -0.00000       4990.5       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2295      76AA*
+  Cl    1.512879  1    0.000000  0    0.000000  0   1  0  0   -0.2295      76AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.700      75    -6.83492    0.23982    -6.59509  -0.00062    77   %  0.1663
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47265    0.00000    0.00001    -139194.9        0.2       12.0
+   2   Cl    0.04185   -0.00000   -0.00000       3932.1       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2299      77AA*
+  Cl    1.514501  1    0.000000  0    0.000000  0   1  0  0   -0.2299      77AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.800      76    -6.72324    0.12813    -6.59511  -0.00064    78   %  0.1676
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47386    0.00000    0.00001    -101749.0        0.2       11.7
+   2   Cl    0.04188   -0.00000   -0.00000       2868.4       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2300      78AA*
+  Cl    1.515740  1    0.000000  0    0.000000  0   1  0  0   -0.2300      78AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     7.900      76    -6.64599    0.05085    -6.59514  -0.00067    79   %  0.1684
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47469    0.00000    0.00001     -64139.3        0.2       11.4
+   2   Cl    0.04190   -0.00000   -0.00000       1800.1       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2300      79AA*
+  Cl    1.516592  1    0.000000  0    0.000000  0   1  0  0   -0.2300      79AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.000      77    -6.60375    0.00654    -6.59722  -0.00275    80   %  0.1689
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47514    0.00000    0.00001     -27316.4        0.1       11.0
+   2   Cl    0.04192   -0.00000   -0.00000        754.3       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2298      80AA*
+  Cl    1.517058  1    0.000000  0    0.000000  0   1  0  0   -0.2298      80AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.100      77    -6.59680    0.00165    -6.59515  -0.00068    81   %  0.1690
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47522    0.00000    0.00001      11572.4        0.1       10.9
+   2   Cl    0.04192   -0.00000   -0.00000       -350.6       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2298      81AA*
+  Cl    1.517134  1    0.000000  0    0.000000  0   1  0  0   -0.2298      81AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.200      78    -6.62367    0.04794    -6.57573   0.01874    82   %  0.1687
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47493    0.00000    0.00001      57675.3        0.2       11.6
+   2   Cl    0.04191   -0.00000   -0.00000      -1662.1       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2292      82AA*
+  Cl    1.516839  1    0.000000  0    0.000000  0   1  0  0   -0.2292      82AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.300      79    -6.69331    0.09962    -6.59370   0.00078    83   %  0.1679
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47418    0.00000    0.00001      92100.6        0.2       11.3
+   2   Cl    0.04189   -0.00000   -0.00000      -2639.7       -0.0       -0.5
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2283      83AA*
+  Cl    1.516072  1    0.000000  0    0.000000  0   1  0  0   -0.2283      83AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.400      79    -6.80136    0.17283    -6.62852  -0.03405    84   %  0.1667
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47302    0.00000    0.00001     120232.3        0.1       10.3
+   2   Cl    0.04186   -0.00000   -0.00000      -3437.1       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2283      84AA*
+  Cl    1.514876  1    0.000000  0    0.000000  0   1  0  0   -0.2283      84AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.500      80    -6.93102    0.33808    -6.59294   0.00153    85   %  0.1653
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.47162    0.00000    0.00001     162974.1        0.1       10.1
+   2   Cl    0.04182   -0.00000   -0.00000      -4650.9       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2268      85AA*
+  Cl    1.513437  1    0.000000  0    0.000000  0   1  0  0   -0.2268      85AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.600      80    -7.09188    0.54206    -6.54982   0.04465    86   %  0.1635
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.46987    0.00000    0.00001     208166.9        0.1       10.2
+   2   Cl    0.04177   -0.00000   -0.00000      -5934.8       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2268      86AA*
+  Cl    1.511635  1    0.000000  0    0.000000  0   1  0  0   -0.2268      86AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.700      81    -7.29843    0.71398    -6.58444   0.01003    87   %  0.1611
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.46761    0.00000    0.00001     240833.5        0.1        9.8
+   2   Cl    0.04170   -0.00000   -0.00000      -6862.3       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2250      87AA*
+  Cl    1.509306  1    0.000000  0    0.000000  0   1  0  0   -0.2250      87AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.800      81    -7.53596    0.91359    -6.62237  -0.02789    88   %  0.1584
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.46497    0.00000    0.00001     271922.2        0.1        9.3
+   2   Cl    0.04163   -0.00000   -0.00000      -7744.6       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2250      88AA*
+  Cl    1.506594  1    0.000000  0    0.000000  0   1  0  0   -0.2250      88AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     8.900      82    -7.79511    1.19494    -6.60017  -0.00570    89   %  0.1554
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.46207    0.00000    0.00001     310068.7        0.1        9.0
+   2   Cl    0.04154   -0.00000   -0.00000      -8827.0       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2233      89AA*
+  Cl    1.503608  1    0.000000  0    0.000000  0   1  0  0   -0.2233      89AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.000      82    -8.08038    1.50479    -6.57559   0.01888    90   %  0.1521
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.45881    0.00000    0.00001     348289.8        0.1        8.8
+   2   Cl    0.04145   -0.00000   -0.00000      -9911.7       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2233      90AA*
+  Cl    1.500265  1    0.000000  0    0.000000  0   1  0  0   -0.2233      90AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.100      83    -8.39614    1.80967    -6.58647   0.00800    91   %  0.1483
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.45516    0.00000    0.00001     382257.5        0.1        8.4
+   2   Cl    0.04135   -0.00000   -0.00000     -10875.9       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2217      91AA*
+  Cl    1.496510  1    0.000000  0    0.000000  0   1  0  0   -0.2217      91AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.200      84    -8.73553    2.13599    -6.59954  -0.00507    92   %  0.1442
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.45116    0.00000    0.00001     415247.1        0.1        8.1
+   2   Cl    0.04123   -0.00000   -0.00000     -11812.5       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2201      92AA*
+  Cl    1.492394  1    0.000000  0    0.000000  0   1  0  0   -0.2201      92AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.300      84    -9.09502    2.50185    -6.59316   0.00131    93   %  0.1398
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.44684    0.00000    0.00001     449385.3        0.1        7.8
+   2   Cl    0.04111   -0.00000   -0.00000     -12782.0       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2201      93AA*
+  Cl    1.487950  1    0.000000  0    0.000000  0   1  0  0   -0.2201      93AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.400      85    -9.47345    2.87986    -6.59359   0.00088    94   %  0.1350
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.44218    0.00000    0.00001     482152.3        0.1        7.5
+   2   Cl    0.04098   -0.00000   -0.00000     -13712.7       -0.0       -0.4
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2186      94AA*
+  Cl    1.483159  1    0.000000  0    0.000000  0   1  0  0   -0.2186      94AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.500      86    -9.86755    3.27359    -6.59396   0.00051    95   %  0.1299
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.43720    0.00000    0.00001     514059.1        0.1        7.2
+   2   Cl    0.04084   -0.00000   -0.00000     -14619.2       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2171      95AA*
+  Cl    1.478035  1    0.000000  0    0.000000  0   1  0  0   -0.2171      95AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.600      87   -10.27426    3.68031    -6.59396   0.00052    96   %  0.1244
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.43190    0.00000    0.00001     545060.7        0.1        6.9
+   2   Cl    0.04069   -0.00000   -0.00000     -15499.9       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2154      96AA*
+  Cl    1.472588  1    0.000000  0    0.000000  0   1  0  0   -0.2154      96AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.700      88   -10.69026    4.09631    -6.59395   0.00052    97   %  0.1186
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.42630    0.00000    0.00001     575042.9        0.1        6.6
+   2   Cl    0.04053   -0.00000   -0.00000     -16351.7       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2137      97AA*
+  Cl    1.466827  1    0.000000  0    0.000000  0   1  0  0   -0.2137      97AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.800      89   -11.11195    4.51805    -6.59390   0.00057    98   %  0.1126
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.42041    0.00000    0.00001     603921.7        0.1        6.4
+   2   Cl    0.04036   -0.00000   -0.00000     -17172.1       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2119      98AA*
+  Cl    1.460764  1    0.000000  0    0.000000  0   1  0  0   -0.2119      98AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+     9.900      90   -11.53556    4.94172    -6.59385   0.00063    99   %  0.1062
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.41423    0.00000    0.00001     631604.0        0.1        6.1
+   2   Cl    0.04018   -0.00000   -0.00000     -17958.5       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2101      99AA*
+  Cl    1.454409  1    0.000000  0    0.000000  0   1  0  0   -0.2101      99AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.000      91   -11.95710    5.36331    -6.59379   0.00068   100   %  0.0996
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.40778    0.00000    0.00001     657996.1        0.1        5.8
+   2   Cl    0.04000   -0.00000   -0.00000     -18708.2       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2081     100AA*
+  Cl    1.447777  1    0.000000  0    0.000000  0   1  0  0   -0.2081     100AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.100      92   -12.37240    5.77866    -6.59374   0.00074   101   %  0.0927
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.40107    0.00000    0.00001     683001.0        0.1        5.6
+   2   Cl    0.03981   -0.00000   -0.00000     -19418.4       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2061     101AA*
+  Cl    1.440880  1    0.000000  0    0.000000  0   1  0  0   -0.2061     101AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.200      93   -12.77712    6.18344    -6.59368   0.00079   102   %  0.0856
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.39412    0.00000    0.00001     706518.9        0.1        5.4
+   2   Cl    0.03961   -0.00000   -0.00000     -20086.3       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2040     102AA*
+  Cl    1.433733  1    0.000000  0    0.000000  0   1  0  0   -0.2040     102AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.300      94   -13.16682    6.57320    -6.59363   0.00085   103   %  0.0782
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.38695    0.00000    0.00001     728446.7        0.1        5.2
+   2   Cl    0.03941   -0.00000   -0.00000     -20709.0       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.2018     103AA*
+  Cl    1.426353  1    0.000000  0    0.000000  0   1  0  0   -0.2018     103AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.400      95   -13.53694    6.94337    -6.59358   0.00090   104   %  0.0706
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.37956    0.00000    0.00001     748678.6        0.1        4.9
+   2   Cl    0.03920   -0.00000   -0.00000     -21283.5       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1996     104AA*
+  Cl    1.418756  1    0.000000  0    0.000000  0   1  0  0   -0.1996     104AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.500      96   -13.88288    7.28935    -6.59353   0.00095   105   %  0.0628
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.37198    0.00000    0.00001     767106.5        0.1        4.8
+   2   Cl    0.03898   -0.00000   -0.00000     -21806.6       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1973     105AA*
+  Cl    1.410959  1    0.000000  0    0.000000  0   1  0  0   -0.1973     105AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.600      97   -14.20003    7.60654    -6.59349   0.00099   106   %  0.0548
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.36422    0.00000    0.00001     783620.3        0.1        4.6
+   2   Cl    0.03876   -0.00000   -0.00000     -22275.4       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1950     106AA*
+  Cl    1.402983  1    0.000000  0    0.000000  0   1  0  0   -0.1950     106AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.700      98   -14.48383    7.89038    -6.59345   0.00103   107   %  0.0467
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.35631    0.00000    0.00001     798108.4        0.1        4.4
+   2   Cl    0.03854   -0.00000   -0.00000     -22686.5       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1927     107AA*
+  Cl    1.394848  1    0.000000  0    0.000000  0   1  0  0   -0.1927     107AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.800      99   -14.72986    8.13643    -6.59342   0.00105   108   %  0.0384
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.34827    0.00000    0.00001     810458.8        0.1        4.3
+   2   Cl    0.03831   -0.00000   -0.00000     -23036.8       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1903     108AA*
+  Cl    1.386575  1    0.000000  0    0.000000  0   1  0  0   -0.1903     108AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    10.900     100   -14.93386    8.34046    -6.59341   0.00107   109   %  0.0300
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.34011    0.00000    0.00001     820559.0        0.1        4.2
+   2   Cl    0.03808   -0.00000   -0.00000     -23323.2       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1878     109AA*
+  Cl    1.378186  1    0.000000  0    0.000000  0   1  0  0   -0.1878     109AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.000     101   -15.09188    8.49848    -6.59340   0.00108   110   %  0.0215
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.33186    0.00000    0.00001     828297.8        0.1        4.1
+   2   Cl    0.03784   -0.00000   -0.00000     -23542.5       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1854     110AA*
+  Cl    1.369705  1    0.000000  0    0.000000  0   1  0  0   -0.1854     110AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.100     102   -15.20029    8.60688    -6.59341   0.00107   111   %  0.0130
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.32355    0.00000    0.00001     833565.9        0.1        4.0
+   2   Cl    0.03760   -0.00000   -0.00000     -23691.5       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1829     111AA*
+  Cl    1.361157  1    0.000000  0    0.000000  0   1  0  0   -0.1829     111AB*
+
+
+ FEMTOSECONDS  POINT  POTENTIAL + KINETIC  =   TOTAL     ERROR    REF%   MOVEMENT
+    11.200     103   -15.25593    8.66249    -6.59344   0.00104   112   %  0.0023
+                CARTESIAN GEOMETRY           VELOCITY (IN CM/SEC)
+  ATOM        X          Y          Z                X          Y          Z
+   1    H   -1.31520    0.00000    0.00001     836256.9        0.1        4.0
+   2   Cl    0.03737   -0.00000   -0.00000     -23767.2       -0.0       -0.3
+
+
+          FINAL GEOMETRY OBTAINED                                 CHARGE
+ IRC=1 DRC T-PRIORITY LARGE BIGCYCLES=1  MNDO HTML RESIDUES CONTROL_no_MOZYME
+ One complete vibrational cycle in hydrogen chloride
+ (To see H-Cl distance, click on "Script" at the bottom.)
+   H    0.000000  0    0.000000  0    0.000000  0   0  0  0    0.1804     112AA*
+  Cl    1.352568  1    0.000000  0    0.000000  0   1  0  0   -0.1804     112AB*
+
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.39 SECONDS
+
+ == MOPAC DONE ==

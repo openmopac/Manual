@@ -1,0 +1,98 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>MEP=2 </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>MEP=2</tt> </h1>
+<p>The Orozco-Luque molecular electrostatic potential map for the Connolly surface is generated and printed. As with <tt>MEP=1</tt>, the output is written to <tt>&lt;filename&gt;.mep</tt> and <tt>&lt;filename&gt;.tab</tt>. </p>
+<p>In order to use <tt>MEP=2</tt>, extra data are needed at the end of the normal data-set. The extra data consist of one line of numbers, as defined in the Table. </p>
+<p></p><div align="CENTER"><div align="CENTER">Layout of data: A B C D <a name="BM3742">&nbsp;</a>
+<strong><p>Table:</p></strong> Extra Data Required by <tt>MEP=2</tt>
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p> Datum</p></td>
+<td valign="MIDDLE">
+<p>Value</p></td>
+<td valign="MIDDLE">
+<p>Name</p></td>
+<td valign="MIDDLE">
+<p>Description</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>A</p></td>
+<td valign="MIDDLE">
+<p>1.4</p></td>
+<td valign="MIDDLE">
+<p>SCALE</p></td>
+<td valign="MIDDLE">
+<p>Scale factor which determines the size of the surface. The radii of the spheres (centered on each atom) are determined by applying this factor to the van der Waals' radii.</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>B</p></td>
+<td valign="MIDDLE">
+<p>0.2</p></td>
+<td valign="MIDDLE">
+<p>SCINCR</p></td>
+<td valign="MIDDLE">
+<p>Separation (in &Aring;ngstroms) between surfaces</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>C</p></td>
+<td valign="MIDDLE">
+<p>0.5</p></td>
+<td valign="MIDDLE">
+<p>DEN</p></td>
+<td valign="MIDDLE">
+<p>Density of points on each surface</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>D</p></td>
+<td valign="MIDDLE">
+<p>1</p></td>
+<td valign="MIDDLE">
+<p>NSURF</p></td>
+<td valign="MIDDLE">
+<p>Number of surfaces</p></td>
+</tr>
+</table>
+<p></p></div></div>
+<p><br/>
+</p><div align="CENTER"><a name="mep2data">&nbsp;</a><a name="BM3741"></a>&nbsp; 
+<strong><p>Figure:</p></strong> Calculation of ESP Connolly Surface in Formaldehyde using the Orozco-Luque Model
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<p> </p>
+<pre>Line
+  *      1scf  AM1 mep=1
+  *  Formaldehyde  Electrostatic Potential on Connolly Surface
+  *
+  *   O    0.00000000  0    0.0000000  0    0.0000000  0    0    0    0
+  *   C    1.22732374  1    0.0000000  0    0.0000000  0    1    0    0
+  *   H    1.11047287  1  122.2253516  1    0.0000000  0    2    1    0
+  *   H    1.11048351  1  122.2158646  1  179.9998136  1    2    1    3
+  *
+  1   1.4 0.2 0.5 1</pre></td>
+</tr>
+</table>
+<p></p></div><br/>
+An example of a <tt>MEP=2</tt> data set is given in the&nbsp;Figure.
+</body>
+</html>

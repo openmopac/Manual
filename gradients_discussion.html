@@ -1,0 +1,54 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Gradients</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>Gradients </h1>
+<p>By "gradients" we generally mean "the derivative of the energy with respect to coordinates". The two most commonly used gradients are with respect to Cartesian coordinates, in which case the units are kcal/mol/&Aring;ngstrom, or with respect to internal coordinates, in which case the units are either kcal/mol/&Aring;ngstrom or kcal/mol/radian, depending on whether the coordinate is a distance (in which case it would be kcal/mol/&Aring;ngstrom) or an angle or dihedral (in which case it would be kcal/mol/radian). The particular gradient actually being used at any given point should be clear from the context. In all cases, the gradient can be regarded as the following derivative </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}g_i = frac{d(Delta H_f)}{dx_i}end{displaymath}" height="47" src="img1492.gif" width="81"/></div>
+<p>In discussion "gradient" will be reserved for the derivative with respect to coordinates flagged for optimization (internal or Cartesian), and "derivative" will be used for both gradients and terms which are used to calculate gradients, such as Cartesian derivatives which are used to calculate internal coordinate gradients. </p>
+<p>There are four very different ways to calculate gradients, although all four result in the same type of derivative. The four ways are: </p>
+<strong><dl>
+<dt>Frozen density matrix finite difference derivatives</dt></dl></strong>
+<dd>&nbsp; <br/>
+In these procedures, once an SCF has been achieved, the derivatives can be calculated using the density matrix from the SCF calculation. These methods can only be used with variationally optimized wavefunctions. </dd>
+<dt>
+<strong></strong></dt><br/>
+<dt>Analytical derivatives, using frozen density matrix approximation </dt>
+<dd>&nbsp; <br/>
+Not as fast as the first method, but more accurate. Useful when finite difference derivatives are suspected to be of insufficient accuracy. When analytical derivatives are wanted, specify <tt>ANALYT</tt>. Analytical derivatives cannot be used with non-variational finite difference derivatives. </dd>
+<dt>
+<strong></strong></dt><br/>
+<dt>Non-variational finite difference derivatives </dt>
+<dd>&nbsp; <br/>
+For non-variational <a name="BM20721">&nbsp;</a>wavefunctions (systems for which the electronic energy is modified after the SCF calculation is done, e.g. C.I. calculations), a sophisticated derivative routine in <tt>DERNVO</tt> calculates the effect on the derivative of the post-SCF energy terms. This method is used automatically in RHF C.I. calculations. If this method is <em>not</em> wanted, specify <tt>
+<a href="noanci.html">NOANCI</a></tt>. </dd>
+<dt>
+<strong></strong></dt><br/>
+<dt>Brute force gradients </dt>
+<dd>&nbsp; <br/>
+These should be avoided whenever possible. To calculate the gradient, a small change is made in the desired coordinate, then a full SCF is done, and the gradient calculated from </dd>
+<dd><div align="CENTER">
+<img alt="begin{displaymath}g_i = frac{Delta H_f-Delta H_f'}{x-x^{'}}.end{displaymath}" height="45" src="img1493.gif" width="108"/></div>
+<dd>These gradients are very slow, and are of poor accuracy, but sometimes they are the only way to obtain gradients. These derivatives cannot be used with variationally optimized wavefunctions, but can be used with non-variational wavefunctions by specifying <tt>NOANCI</tt>. </dd>
+<p>Note that <tt>ANALYT</tt> and <tt>NOANCI</tt> apply to two very different things: <tt>ANALYT</tt> applies to the derivatives using a frozen density matrix approximation, and uses true analytical methods. <tt>NOANCI</tt> prevents Liotard's C.I. derivative method being used. Of course <tt>NOANCI</tt> has no meaning for variationally optimized wavefunctions. </p>
+</dd></body>
+</html>

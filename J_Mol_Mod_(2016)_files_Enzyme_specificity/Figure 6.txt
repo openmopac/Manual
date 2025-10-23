@@ -1,0 +1,8 @@
+reset;center {20.986960000000003 11.550879999999998 -12.612120000000003}; rotate z 97.41; rotate y 140.07; rotate z -97.66; zoom 697.78; translate x -30.93; translate y 5.4; set rotationRadius 31.6;
+display  119, 120, 1157
+select  120:B.CG; label Asp120;   set labeloffset -10 20;  color label black; font label 20
+select -888
+measure off
+measure (120:B.OD1) (120:B.HD1)
+frame TITLE "Figure reconstructed "
+color background white

@@ -1,0 +1,110 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage 5.0" name="Generator"/>
+<title>Localized Molecular Orbitals: Storage Considerations</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h3>Localized Molecular Orbitals: Storage Considerations </h3>
+<p>When they are first made, the LMOs are highly compact functions. Each LMO consists of one or two atom labels and a set of 
+five to eighteen atomic orbital coefficients. However, as soon as the LMOs start to interact, mixing of the LMOs will occur, and the size of the LMOs will increase rapidly. This expansion must be allowed for. Later on, further mixing of the LMOs may result in the contribution to an atom to a certain LMO becoming negligible, in which case the atom can be deleted from the LMO. This results in the LMO becoming smaller. A mechanism must be constructed to allow the size of the LMOs to be changed. Because the occupied and unoccupied LMO sets are treated in a similar manner, only the storage of the occupied set will be described. Therefore, for the rest of this section, all reference to LMOs should be understood as applying to the occupied set only.&nbsp; </p>
+<p>Before going further, we need to spend a little time to understand how LMOs are stored. The atomic orbital coefficients of all LMOs are stored in a single REAL array, <tt>COCC</tt>. A second array, <tt>NCOCC</tt>, holds the starting location in <tt>COCC</tt> of each LMO. 
+<a name="starting-addresses"></a>For convenience, all starting locations are defined as the location immediately <em>before</em> the location of the first element of an array. The atom numbers (not the atomic numbers) used in all LMOs are stored in an INTEGER array, <tt>ICOCC</tt>, and a second INTEGER array, <tt>NNCF</tt>, holds the starting location in <tt>ICOCC</tt> of each LMO. Finally, the number of atoms in each LMO are stored in an array <tt>NCF</tt>. &nbsp;Figure 1 illustrates these arrays for methane. </p>
+<p>&nbsp;</p>
+<p><br/>
+</p><div align="CENTER">&nbsp;<a name="BM17125">&nbsp;</a>
+<p></p>
+<strong><p>Figure 1:<a name="store_slmo"></a></p></strong> Storage of Starting LMOs in Methane
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<p> </p><div align="CENTER">
+<img alt="begin{picture}(50,30)(0,-24)put(00, 02){makebox(2.7,2){1}makebox(2.7,2){2}......){2}framebox (2.7,2){2}framebox (2.7,2){2}framebox (2.7,2){2} }end{picture}" height="282" src="img1195.gif" width="575"/></div></td>
+</tr>
+</table>
+</div>
+<p>During the SCF calculation, the number of atoms in each LMO will increase. To allow for this, some space must be left between the end of one LMO and the start of the next LMO. The amount of space is determined by dividing all the unused space by the number of LMOs. If the size of the vector <tt>COCC</tt> is 40, and the size of <tt>ICOCC</tt> is 25, then the storage of the LMO vectors, after adjusting to allow for expansion, is as shown in &nbsp;Figure 2. </p>
+<p><br/>
+</p><div align="CENTER">&nbsp;<a name="BM17143">&nbsp;</a>
+<p></p>
+<strong><p>Figure 2:<a name="store_slmoe"></a></p></strong> Storage of Starting LMOs in Methane, Showing Space Available for Expansion
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<p> </p><div align="CENTER">
+<img alt="begin{picture}(50,30)(0,-24)put(00, 02){makebox(2.7,2){1}makebox(2.7,2){2}......){2}framebox (2.7,2){2}framebox (2.7,2){2}framebox (2.7,2){2} }end{picture}" height="257" src="img1196.gif" width="573"/></div></td>
+</tr>
+</table>
+</div>
+<p>After a few iterations, the number of atoms in each LMO will have increased. In general, this number will be less than the number of atoms in the system, but in the example we are using, every LMO will contain all the atoms. This is shown in &nbsp;Figure 3. For large systems, the number of atoms in any one LMO will vary. Very large LMOs may have 300 or more atoms, while small LMOs may have only 25 atoms. On average, LMOs will have about 150-200 atoms. </p>
+<p>For every array used in describing the occupied LMOs, there exists an equivalent array for the virtual LMOs. The&nbsp;Table gives the names of the arrays for the virtual LMOs. </p>
+<p><br/>
+</p><div align="CENTER">&nbsp;<a name="BM17161">&nbsp;</a>
+<p></p>
+<strong><p>Figure <a name="arrays"></a>3:<a name="store_slmoes"></a></p></strong> Storage of Iterating LMOs in Methane
+<table border="0" cellspacing="0" width="312">
+<tr><td valign="MIDDLE">
+<p> </p><div align="CENTER">
+<img alt="begin{picture}(50,30)(0,-24)put(00, 02){makebox(2.7,2){1}makebox(2.7,2){2}......){5}framebox (2.7,2){5}framebox (2.7,2){5}framebox (2.7,2){5} }end{picture}" height="257" src="img1197.gif" width="572"/></div></td>
+</tr>
+</table>
+</div>
+<p><br/>
+</p><div align="CENTER"><div align="CENTER"><a name="BM17162">&nbsp;</a>
+<p></p>
+<strong><p>Table:</p></strong> Names of Arrays Used to Represent LMOs
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p> Occupied</p></td>
+<td valign="MIDDLE">
+<p>Unoccupied</p></td>
+<td valign="MIDDLE">
+<p>Contents</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>NCF</p></td>
+<td valign="MIDDLE">
+<p>NCE</p></td>
+<td valign="MIDDLE">
+<p>Number of Atoms in LMO</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>NNCF</p></td>
+<td valign="MIDDLE">
+<p>NNCE</p></td>
+<td valign="MIDDLE">
+<p>Starting Address of Atoms</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>ICOCC</p></td>
+<td valign="MIDDLE">
+<p>ICVIR</p></td>
+<td valign="MIDDLE">
+<p>Atom Numbers</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>NCOCC</p></td>
+<td valign="MIDDLE">
+<p>NCVIR</p></td>
+<td valign="MIDDLE">
+<p>Starting Address of LMO</p></td>
+</tr>
+</table>
+<p></p></div></div>
+</body>
+</html>

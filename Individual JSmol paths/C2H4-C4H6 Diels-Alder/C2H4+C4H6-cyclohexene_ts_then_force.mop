@@ -1,0 +1,5 @@
+ geo_dat="C2H4+C4H6-cyclohexene Step 2.arc" ts html
+ Given a rough transition state, refine it using TS
+
+oldgeo force
+

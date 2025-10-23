@@ -1,0 +1,95 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Tools in MOPAC for use with Proteins</title>
+<style type="text/css">
+.auto-style1 {
+	font-family: Arial;
+	text-align: center;
+}
+																													.auto-style7 {
+																														margin-top: 6px;
+																													}
+																													.auto-style12 {
+																														margin-top: 6px;
+																														font-family: Arial;
+																													}
+																													.auto-style13 {
+	text-align: center;
+}
+																													</style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p class="auto-style7"><font face="Arial">(<a href="Modeling_proteins.html#Constructing">Modeling proteins</a>)</font></p>
+<p class="auto-style12">&nbsp;</p>
+<h1 class="auto-style1"><a name="Limitations_of_Modeling_Proteins">Limitations 
+of Modeling Proteins</a></h1>
+<p class="auto-style1"><a href="#Limitations_on_Sizes_of_Proteins">Limitations 
+on Sizes of Proteins</a> - <a href="#Limitations_on_Types_of_Proteins_">
+Limitations on Types of Proteins</a> 
+- </p>
+<h2><a name="Limitations_on_Sizes_of_Proteins">Limitations on Sizes of Proteins</a> (<a href="#Limitations_of_Modeling_Proteins">top</a>)</h2>
+<p>The CPU time required for preparing a starting model rises with the size of 
+the system.&nbsp; For</p><table style="float: left">
+<tr>
+<td class="auto-style13" colspan="2">Size of system</td>
+<td>Time </td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>Residues</td>
+<td>Atoms</td>
+<td>Opt-H</td>
+<td>Opt</td>
+</tr>
+<tr>
+<td>150</td>
+<td>2800</td>
+<td>7h</td>
+<td>1d</td>
+</tr>
+<tr>
+<td>250</td>
+<td>5300</td>
+<td>6h</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td><br/></td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<h2>&nbsp;</h2>
+<h2><a name="Limitations_on_Types_of_Proteins_">Limitations on Types of Proteins</a> (<a href="#Limitations_of_Modeling_Proteins">top</a>)</h2>
+<p>Most proteins can be modeled, but limitations or faults in the methods can 
+prevent various types of proteins from being modeled realistically.&nbsp; These 
+limitations are:</p>
+<ul>
+<li>Open shell systems are not allowed. This includes all proteins that have 
+	radicals, all photochemical reactions, and systems with open shell ions, 
+	such as [Fe<sup>III</sup>]<sup>3+</sup>, and [Co<sup>II</sup>]<sup>2+</sup>.</li>
+<li>The Fe<sub>4</sub>S<sub>4</sub> cluster geometry is not predicted well, 
+	so proteins containing this group should not be run.</li>
+</ul>
+</body>
+</html>

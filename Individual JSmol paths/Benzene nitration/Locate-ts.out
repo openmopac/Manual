@@ -1,0 +1,622 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.158W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.158W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Jun  8 10:06:27 2021  *
+ *  GEO-OK     - OVERRIDE INTERATOMIC DISTANCE AND OTHER SAFETY CHECKS
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "Nitrobenzene + H2SO4 + H2O.arc"
+ *  GEO_REF    - REFERENCE GEOMETRY IS IN FILE "Benzene + [NO2](+) +[HSO4](-) + H2O.arc"
+ *               (NO BIAS TOWARDS THE REFERENCE GEOMETRY WILL BE APPLIED)
+ *  RESIDUES   - DETERMINE THE SEQUENCE OF RESIDUES
+ *  LOCATE-TS  - LOCATE A TRANSITION STATE USING REACTANTS AND PRODUCTS
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+GEO_dat="Nitrobenzene + H2SO4 + H2O.arc" GEO_REF="Benzene + [NO2](+) +[HSO4](-) + H2O.arc" Locate_TS(C:3,10)   HTML geo-ok
+ Move the reactant and product nearer to the transition state
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C          0.30048000  *   1.74830000  *   0.87126000  *
+     2       C          1.57603000  *   1.51518000  *   0.34686000  *
+     3       C          2.07491000  *   2.39195000  *  -0.61075000  *
+     4       C          1.30509000  *   3.47412000  *  -1.04105000  *
+     5       C          0.02804000  *   3.68435000  *  -0.52319000  *
+     6       C         -0.48750000  *   2.81805000  *   0.43801000  *
+     7       N         -0.22410000  *   0.86067000  *   1.88978000  *
+     8       H          2.17055000  *   0.65761000  *   0.67773000  *
+     9       H          3.06683000  *   2.22714000  *  -1.03093000  *
+    10       H          1.70443000  *   4.15677000  *  -1.79242000  *
+    11       H         -0.57314000  *   4.52302000  *  -0.87314000  *
+    12       H         -1.49767000  *   2.95532000  *   0.83723000  *
+    13       O          0.23167000  *  -0.28624000  *   1.95761000  *
+    14       O         -1.06006000  *   1.27235000  *   2.66598000  *
+    15       O         -2.05722000  *   0.55231000  *   0.17582000  *
+    16       H          0.65215000  *  -1.03089000  *   0.50426000  *
+    17       H         -2.78689000  *   0.27768000  *   0.72816000  *
+    18       H         -1.83257000  *  -0.21461000  *  -0.35672000  *
+    19       S         -0.03279000  *  -2.59606000  *  -0.98439000  *
+    20       O         -0.33938000  *  -3.57015000  *   0.00966000  *
+    21       O         -1.39342000  *  -1.65002000  *  -1.22168000  *
+    22       O          0.41018000  *  -2.93078000  *  -2.30402000  *
+    23       O          0.91302000  *  -1.44035000  *  -0.36461000  *
+    24       H         -1.63026000  *  -1.47836000  *  -2.14625000  *
+ 
+
+                        After docking
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM   16  H1  HET A   1)  -0.375   1.554  -1.901        3.52         3.52
+            (HETATM   10  H4  HET A   1)   2.267   4.396   1.201        2.60         6.13
+            (HETATM    1  C1  HET A   1)   0.197   2.170  -1.206        2.21         8.34
+            (HETATM   14  O2  HET D   2)  -0.101   0.896   0.787        2.20        10.53
+            (HETATM    8  H2  HET A   1)   1.921   0.871  -1.253        2.08        12.62
+            (HETATM   12  H6  HET A   1)  -1.368   3.634  -0.965        1.98        14.59
+            (HETATM    2  C2  HET A   1)   1.493   1.795  -0.850        1.39        15.98
+            (HETATM    6  C6  HET A   1)  -0.358   3.340  -0.684        1.34        17.32
+            (HETATM   11  H5  HET A   1)  -0.044   5.053   0.584        1.29        18.62
+            (HETATM    4  C4  HET A   1)   1.684   3.765   0.533        1.29        19.90
+            (HETATM   15  O   HOH E   3)  -2.497  -0.064   0.797        1.17        21.08
+            (HETATM   24  H2  SO4 H   4)  -1.886  -1.943  -1.801        1.09        22.17
+            (HETATM   18 2H   HOH E   3)  -2.246  -0.743   0.116        1.08        23.24
+            (HETATM   17 1H   HOH E   3)  -3.395  -0.265   1.032        1.01        24.26
+            (HETATM    9  H3  HET A   1)   3.253   2.308   0.282        0.97        25.23
+            (HETATM   21  O2  SO4 H   4)  -1.629  -1.956  -0.880        0.90        26.13
+            (HETATM   23  O4  SO4 H   4)   0.458  -1.345   0.251        0.84        26.96
+            (HETATM    7  N   HET B   2)  -0.278   0.064   1.538        0.84        27.80
+            (HETATM   13  O1  HET D   2)  -0.466  -0.649   2.404        0.79        28.59
+            (HETATM   20  O1  SO4 H   4)  -0.138  -3.736   0.127        0.69        29.28
+            (HETATM   19  S   SO4 H   4)  -0.008  -2.496  -0.602        0.68        29.97
+            (HETATM   22  O3  SO4 H   4)   0.518  -2.504  -1.954        0.64        30.61
+            (HETATM    5  C5  HET A   1)   0.384   4.136   0.185        0.62        31.23
+            (HETATM    3  C3  HET A   1)   2.237   2.595   0.018        0.38        31.61
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+   Difference between GEO_DAT and GEO_REF: 31.609 = total,  1.3170 = Average,  1.5086 = RMS, in Angstroms
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C6 H9 N O7 S  =    24 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+ Set 1: Atoms involved in covalent bond-breaking and bond-making            Connectivity of atoms
+
+                                                                             Data-set            Reference
+                                     (PDB labels from GEO-REF)
+   1    Atom:   C     1  PDB Label: (HETATM    1  C1  HET A   1)           2     6     7        2     6    16
+   2    Atom:   N     7  PDB Label: (HETATM    7  N   HET B   1)           1    13    14       13    14
+   3    Atom:   H    16  PDB Label: (HETATM   16  H4  SO4 H   3)          23                    1
+   4    Atom:   O    23  PDB Label: (HETATM   23  O4  SO4 H   3)          16    19             19
+
+ Set 2 : Atoms involved in covalent bond-breaking and bond-making, plus nearest neighbors
+
+   1    Atom:   C     1  PDB Label: (HETATM    1  C1  HET A   1)
+   2    Atom:   N     7  PDB Label: (HETATM    7  N   HET B   1)
+   3    Atom:   H    16  PDB Label: (HETATM   16  H4  SO4 H   3)
+   4    Atom:   O    23  PDB Label: (HETATM   23  O4  SO4 H   3)
+   5    Atom:   C     2  PDB Label: (HETATM    2  C2  HET A   1)
+   6    Atom:   C     6  PDB Label: (HETATM    6  C6  HET A   1)
+   7    Atom:   O    13  PDB Label: (HETATM   13  O1  HET D   1)
+   8    Atom:   O    14  PDB Label: (HETATM   14  O2  HET D   1)
+   9    Atom:   S    19  PDB Label: (HETATM   19  S   SO4 H   3)
+
+          Current value of GEO_REF constraint:                  3.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                     31.61  Angstroms
+
+          Heat of formation of the first geometry:           -236.049 Kcal/mol
+          Heat of formation of the second geometry:          -187.729 Kcal/mol
+          Contribution to heat of formation due to stress:    327.742  Kcal/mol
+          Gradient arising from first geometry:                88.667  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               88.610  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     178.86  degrees
+
+ CYCLE:     1 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    62.651 HEAT: -96.03548
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    62.353 HEAT: -96.09430
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   138.899 HEAT: -110.2638
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   521.271 HEAT: -111.4271
+ CYCLE:     5 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    79.535 HEAT: -126.6003
+ CYCLE:     6 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    60.052 HEAT: -123.5029
+ CYCLE:     7 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    72.879 HEAT: -128.0469
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    62.381 HEAT: -132.6106
+ CYCLE:     9 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    95.727 HEAT: -137.4393
+ CYCLE:    10 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    47.669 HEAT: -142.0254
+ CYCLE:    11 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    34.685 HEAT: -142.5878
+ CYCLE:    12 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    29.595 HEAT: -142.7464
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    67.318 HEAT: -144.2795
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    54.353 HEAT: -147.8309
+ CYCLE:    15 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    49.225 HEAT: -151.9138
+ CYCLE:    16 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    58.342 HEAT: -156.0142
+ CYCLE:    17 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    61.042 HEAT: -159.5417
+ CYCLE:    18 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    37.731 HEAT: -161.2442
+ CYCLE:    19 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    29.303 HEAT: -161.4638
+ CYCLE:    20 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   100.624 HEAT: -161.0014
+ CYCLE:    21 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    36.383 HEAT: -161.9633
+ CYCLE:    22 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    23.490 HEAT: -162.8609
+ CYCLE:    23 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    24.650 HEAT: -163.4496
+ CYCLE:    24 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    17.603 HEAT: -164.3402
+ CYCLE:    25 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    28.253 HEAT: -164.2773
+ CYCLE:    26 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    15.412 HEAT: -164.0765
+ CYCLE:    27 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.431 HEAT: -164.0550
+ CYCLE:    28 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.293 HEAT: -164.0944
+ CYCLE:    29 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    12.301 HEAT: -164.1985
+ CYCLE:    30 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    13.389 HEAT: -164.3261
+ CYCLE:    31 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    12.364 HEAT: -164.4899
+ CYCLE:    32 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.134 HEAT: -164.6377
+ CYCLE:    33 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    12.359 HEAT: -164.7762
+ CYCLE:    34 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    14.178 HEAT: -164.9089
+ CYCLE:    35 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    52.276 HEAT: -165.1059
+ CYCLE:    36 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    11.066 HEAT: -165.5229
+ CYCLE:    37 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     7.911 HEAT: -165.4903
+ CYCLE:    38 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.188 HEAT: -165.6407
+ CYCLE:    39 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    11.878 HEAT: -165.8679
+ CYCLE:    40 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    19.324 HEAT: -166.1252
+ CYCLE:    41 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    15.043 HEAT: -166.5107
+ CYCLE:    42 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    15.929 HEAT: -166.8830
+ CYCLE:    43 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    15.175 HEAT: -167.2259
+ CYCLE:    44 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    13.238 HEAT: -167.5833
+ CYCLE:    45 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    15.530 HEAT: -167.4953
+ CYCLE:    46 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.843 HEAT: -167.4201
+ CYCLE:    47 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.035 HEAT: -167.6029
+ CYCLE:    48 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.609 HEAT: -167.8571
+ CYCLE:    49 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    25.577 HEAT: -167.9133
+ CYCLE:    50 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    20.584 HEAT: -168.1188
+ CYCLE:    51 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     6.192 HEAT: -168.1464
+ CYCLE:    52 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.187 HEAT: -168.1183
+ CYCLE:    53 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     5.916 HEAT: -168.1988
+ CYCLE:    54 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.961 HEAT: -168.3544
+ CYCLE:    55 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    16.929 HEAT: -168.5490
+ CYCLE:    56 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     5.595 HEAT: -168.6271
+ CYCLE:    57 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     4.132 HEAT: -168.6528
+ CYCLE:    58 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.050 HEAT: -168.7183
+ CYCLE:    59 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     5.862 HEAT: -168.7863
+ CYCLE:    60 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    20.181 HEAT: -168.8580
+ CYCLE:    61 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     3.941 HEAT: -168.9455
+
+     GRADIENT =  3.94149 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'G:/sulfate/Locate-ts bias=3.0 first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:/sulfate/Locate-ts bias=3.0 second.mop'
+
+
+          Job name: 'G:/sulfate/Locate-ts'
+
+          Current value of GEO_REF constraint:                  3.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   25.97  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM   16  H4  SO4 H   3)  -0.303   1.211  -1.668        2.89         2.89
+            (HETATM   10  H4  HET A   1)   2.343   4.210   1.219        2.52         5.41
+            (HETATM    1  C1  HET A   1)   0.258   1.909  -1.042        1.96         7.38
+            (HETATM   14  O2  HET D   1)  -0.180   0.997   0.956        1.91         9.29
+            (HETATM    8  H2  HET A   1)   1.988   0.603  -1.036        1.76        11.05
+            (HETATM   12  H6  HET A   1)  -1.336   3.354  -0.771        1.62        12.67
+            (HETATM    4  C4  HET A   1)   1.742   3.543   0.623        1.33        14.00
+            (HETATM   11  H5  HET A   1)  -0.000   4.831   0.654        1.25        15.25
+            (HETATM    2  C2  HET A   1)   1.558   1.546  -0.694        1.17        16.43
+            (HETATM    6  C6  HET A   1)  -0.309   3.082  -0.540        1.09        17.52
+            (HETATM    9  H3  HET A   1)   3.332   2.094   0.369        1.05        18.57
+            (HETATM   13  O1  HET D   1)  -0.540  -0.557   2.552        0.99        19.56
+            (HETATM   23  O4  SO4 H   3)   0.353  -1.094   0.052        0.75        20.31
+            (HETATM   24  H2  SO4 H   3)  -1.960  -1.628  -2.051        0.73        21.04
+            (HETATM    7  N   HET B   1)  -0.355   0.159   1.692        0.68        21.72
+            (HETATM    5  C5  HET A   1)   0.436   3.903   0.294        0.61        22.33
+            (HETATM   21  O2  SO4 H   3)  -1.713  -1.657  -1.126        0.56        22.89
+            (HETATM   22  O3  SO4 H   3)   0.419  -2.241  -2.179        0.55        23.44
+            (HETATM   19  S   SO4 H   3)  -0.109  -2.229  -0.826        0.51        23.95
+            (HETATM   20  O1  SO4 H   3)  -0.244  -3.471  -0.100        0.49        24.45
+            (HETATM    3  C3  HET A   1)   2.307   2.369   0.138        0.49        24.93
+            (HETATM   15  O   HOH E   2)  -2.474   0.269   0.567        0.42        25.35
+            (HETATM   18 2H   HOH E   2)  -2.223  -0.401  -0.122        0.32        25.67
+            (HETATM   17 1H   HOH E   2)  -3.371   0.071   0.797        0.29        25.97
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:           -229.593 Kcal/mol
+          Heat of formation of the second geometry:          -176.994 Kcal/mol
+          Contribution to heat of formation due to stress:    237.641  Kcal/mol
+          Gradient arising from first geometry:                37.500  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               38.041  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     173.56  degrees
+
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 3.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:/sulfate/Locate-ts bias=3.0 average.mop'
+
+ CYCLE:     1 TIME:   0.062 TIME LEFT:  2.00D  GRAD.:   162.937 HEAT:  374.5230
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   161.738 HEAT:  374.1173
+ CYCLE:     3 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   238.025 HEAT:  306.5167
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   773.709 HEAT:  270.1990
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   200.407 HEAT:  222.8830
+ CYCLE:     6 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   118.518 HEAT:  230.0969
+ CYCLE:     7 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   154.790 HEAT:  219.4933
+ CYCLE:     8 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   156.900 HEAT:  201.8124
+ CYCLE:     9 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   161.163 HEAT:  186.1187
+ CYCLE:    10 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    92.242 HEAT:  171.2491
+ CYCLE:    11 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    35.641 HEAT:  168.1668
+ CYCLE:    12 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    29.369 HEAT:  170.1525
+ CYCLE:    13 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    43.043 HEAT:  170.1206
+ CYCLE:    14 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    49.516 HEAT:  168.7554
+ CYCLE:    15 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    68.214 HEAT:  168.0945
+ CYCLE:    16 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    37.683 HEAT:  164.9595
+ CYCLE:    17 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    28.108 HEAT:  161.6587
+ CYCLE:    18 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    30.164 HEAT:  161.2747
+ CYCLE:    19 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    42.012 HEAT:  160.4581
+ CYCLE:    20 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    64.559 HEAT:  158.9091
+ CYCLE:    21 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    34.322 HEAT:  156.6437
+ CYCLE:    22 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    30.130 HEAT:  155.4638
+ CYCLE:    23 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    28.664 HEAT:  155.2462
+ CYCLE:    24 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    72.224 HEAT:  155.3870
+ CYCLE:    25 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    24.508 HEAT:  154.9283
+ CYCLE:    26 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    18.414 HEAT:  155.0404
+ CYCLE:    27 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    19.921 HEAT:  154.6580
+ CYCLE:    28 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    30.297 HEAT:  153.4938
+ CYCLE:    29 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    56.410 HEAT:  151.4212
+ CYCLE:    30 TIME:   0.062 TIME LEFT:  2.00D  GRAD.:    22.103 HEAT:  149.8354
+ CYCLE:    31 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    26.249 HEAT:  148.5468
+ CYCLE:    32 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    23.048 HEAT:  147.1551
+ CYCLE:    33 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:    30.847 HEAT:  144.8023
+ CYCLE:    34 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    91.109 HEAT:  144.4347
+ CYCLE:    35 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    28.909 HEAT:  144.7795
+ CYCLE:    36 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    19.186 HEAT:  143.7972
+ CYCLE:    37 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    22.924 HEAT:  143.9131
+ CYCLE:    38 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    61.252 HEAT:  144.3332
+ CYCLE:    39 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    19.011 HEAT:  143.7016
+ CYCLE:    40 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    18.274 HEAT:  143.3121
+ CYCLE:    41 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    29.268 HEAT:  142.1957
+ CYCLE:    42 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    64.129 HEAT:  141.8461
+ CYCLE:    43 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.959 HEAT:  141.7046
+ CYCLE:    44 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.657 HEAT:  141.7621
+ CYCLE:    45 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    21.411 HEAT:  141.2157
+ CYCLE:    46 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.057 HEAT:  140.8877
+ CYCLE:    47 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     7.322 HEAT:  140.8271
+ CYCLE:    48 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     7.648 HEAT:  140.6375
+ CYCLE:    49 TIME:   0.062 TIME LEFT:  2.00D  GRAD.:    19.431 HEAT:  140.1660
+ CYCLE:    50 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     7.397 HEAT:  139.8421
+ CYCLE:    51 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     6.343 HEAT:  139.5978
+ CYCLE:    52 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     6.947 HEAT:  139.3228
+ CYCLE:    53 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    21.396 HEAT:  138.8149
+ CYCLE:    54 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     6.862 HEAT:  138.4854
+ CYCLE:    55 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     6.735 HEAT:  138.4253
+ CYCLE:    56 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.673 HEAT:  138.4200
+ CYCLE:    57 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     9.627 HEAT:  138.3327
+ CYCLE:    58 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    29.041 HEAT:  138.6667
+ CYCLE:    59 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     7.266 HEAT:  138.5558
+ CYCLE:    60 TIME:   0.062 TIME LEFT:  2.00D  GRAD.:     5.012 HEAT:  138.3448
+ CYCLE:    61 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     7.064 HEAT:  138.2817
+ CYCLE:    62 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    13.257 HEAT:  138.5036
+ CYCLE:    63 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     7.656 HEAT:  138.7255
+ CYCLE:    64 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     5.025 HEAT:  138.8836
+ CYCLE:    65 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     6.305 HEAT:  139.0541
+ CYCLE:    66 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.874 HEAT:  139.2875
+ CYCLE:    67 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    11.819 HEAT:  139.5807
+ CYCLE:    68 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     6.846 HEAT:  139.6134
+ CYCLE:    69 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     6.039 HEAT:  139.5768
+ CYCLE:    70 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    12.101 HEAT:  139.5326
+ CYCLE:    71 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.180 HEAT:  139.4024
+ CYCLE:    72 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     4.718 HEAT:  139.1419
+ CYCLE:    73 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     4.131 HEAT:  138.8902
+ CYCLE:    74 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     5.412 HEAT:  138.6583
+ CYCLE:    75 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    21.331 HEAT:  138.2066
+ CYCLE:    76 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     3.915 HEAT:  137.9957
+
+     GRADIENT =  3.91485 IS LESS THAN CUTOFF =  4.00000
+
+
+
+          First geometry (derived from data-set) after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the reference geometry written to file:
+          'G:/sulfate/Locate-ts bias=10.0 first.mop'
+
+
+          Second geometry (derived from reference geometry)after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:/sulfate/Locate-ts bias=10.0 second.mop'
+
+
+          Job name: 'G:/sulfate/Locate-ts'
+
+          Current value of GEO_REF constraint:                 10.00  Kcal/mol/Angstrom^2
+          Distance between the geometries:                   20.11  Angstroms
+
+                     Atoms that move a lot
+
+                     Atom Label             GEO_REF Coordinates       Movement    Integral
+
+            (HETATM   10  H4  HET A   1)   2.505   4.233   1.116        1.99         1.99
+            (HETATM   16  H4  SO4 H   3)  -0.188   0.919  -1.252        1.93         3.93
+            (HETATM    1  C1  HET A   1)   0.370   1.722  -0.743        1.66         5.59
+            (HETATM   14  O2  HET D   1)  -0.243   0.970   1.172        1.60         7.19
+            (HETATM    8  H2  HET A   1)   2.118   0.414  -0.645        1.27         8.46
+            (HETATM   13  O1  HET D   1)  -0.582  -0.604   2.738        1.20         9.66
+            (HETATM    4  C4  HET A   1)   1.870   3.470   0.709        1.19        10.85
+            (HETATM   12  H6  HET A   1)  -1.279   3.127  -0.412        1.17        12.02
+            (HETATM   11  H5  HET A   1)   0.097   4.748   0.694        1.01        13.03
+            (HETATM    2  C2  HET A   1)   1.685   1.391  -0.425        0.95        13.98
+            (HETATM    9  H3  HET A   1)   3.502   2.047   0.445        0.87        14.85
+            (HETATM    6  C6  HET A   1)  -0.219   2.905  -0.295        0.87        15.72
+            (HETATM    7  N   HET B   1)  -0.409   0.127   1.890        0.60        16.32
+            (HETATM   23  O4  SO4 H   3)   0.160  -0.941  -0.316        0.58        16.90
+            (HETATM    5  C5  HET A   1)   0.545   3.794   0.435        0.57        17.47
+            (HETATM    3  C3  HET A   1)   2.452   2.280   0.300        0.49        17.96
+            (HETATM   24  H2  SO4 H   3)  -2.129  -1.348  -2.437        0.43        18.40
+            (HETATM   22  O3  SO4 H   3)   0.210  -2.075  -2.567        0.37        18.76
+            (HETATM   20  O1  SO4 H   3)  -0.468  -3.295  -0.488        0.36        19.12
+            (HETATM   21  O2  SO4 H   3)  -1.899  -1.413  -1.508        0.30        19.42
+            (HETATM   19  S   SO4 H   3)  -0.317  -2.053  -1.212        0.29        19.71
+            (HETATM   15  O   HOH E   2)  -2.501   0.436   0.345        0.17        19.88
+            (HETATM   17 1H   HOH E   2)  -3.397   0.236   0.576        0.16        20.04
+
+     Residues that move a lot and their (Movement in Angstroms, per atom)
+
+
+          Heat of formation of the first geometry:           -202.297 Kcal/mol
+          Heat of formation of the second geometry:          -144.942 Kcal/mol
+          Contribution to heat of formation due to stress:    485.236  Kcal/mol
+          Gradient arising from first geometry:                98.141  Kcal/mol/Angstrom
+          Gradient arising from second geometry:               98.105  Kcal/mol/Angstrom
+          Angle between gradient vectors:                     177.78  degrees
+
+
+          Average of first and second geometries after optimization subject to 
+          GEO_REF constraint of 10.0 Kcal/mol/Angstrom^2 towards the data-set geometry written to file:
+          'G:/sulfate/Locate-ts bias=10.0 average.mop'
+
+
+ -------------------------------------------------------------------------------
+ Locate_TS(C:3,10) HTML geo-ok
+ Move the reactant and product nearer to the transition state
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.158W)
+                                                       Tue Jun  8 10:06:32 2021
+                                                       No. of days remaining = 364
+
+
+
+
+          FINAL H.O.F PLUS STRESS =        137.99574 KCAL/MOL =     577.37418 KJ/MOL
+          FINAL STRESS            =        242.61787 KCAL/MOL =    1015.11315 KJ/MOL
+          FINAL HEAT OF FORMATION =       -104.62212 KCAL/MOL =    -437.73897 KJ/MOL
+          TOTAL DISTORTION        =         10.05451 Angstroms
+          AVERAGE DISTORTION      =          0.41894 Angstroms per atom (all atoms)
+          RMS DISTORTION          =          0.50272 Angstroms per atom (all atoms)
+
+
+          TOTAL ENERGY            =      -3282.62330 EV
+          ELECTRONIC ENERGY       =     -18002.10885 EV
+          CORE-CORE REPULSION     =      14719.48556 EV
+
+          GRADIENT NORM           =          2.46586 = 0.50334 PER ATOM
+          NO. OF FILLED LEVELS    =         43
+          MOLECULAR WEIGHT        =        239.1996
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            O    20    H    10     8.15951
+            H    17    H     9     5.71304
+            O    13    H    24     4.86009
+
+
+          SCF CALCULATIONS        =          6
+ 
+
+
+
+       FINAL  POINT  AND  DERIVATIVES
+
+                                         Cartesian Gradients         Cartesian Coordinates          |Gradient|
+  Atom                                   X        Y        Z        X          Y          Z
+ 
+    1  C(HETATM    1  C1  HET A   1)    0.094    0.226    0.092    0.40304    1.68155    0.08681       0.262
+    2  C(HETATM    2  C2  HET A   1)    0.022    0.249   -0.017    1.71928    1.39436    0.04594       0.250
+    3  C(HETATM    3  C3  HET A   1)    0.240    0.360    0.138    2.43643    2.33252    0.06126       0.454
+    5  C(HETATM    5  C5  HET A   1)   -0.056    0.134    0.060    0.47984    3.78566    0.15531       0.157
+    6  C(HETATM    6  C6  HET A   1)   -0.215    0.131    0.021   -0.24080    2.85060    0.13771       0.253
+    7  N(HETATM    7  N   HET B   1)    0.491    0.837   -0.762   -0.31554    0.40751    1.84243       1.234
+    8  H(HETATM    8  H2  HET A   1)    0.065    0.421    0.089    2.18709    0.42316   -0.01111       0.436
+    9  H(HETATM    9  H3  HET A   1)    0.242   -0.066   -0.080    3.48553    2.13426    0.01658       0.263
+   10  H(HETATM   10  H4  HET A   1)   -0.214   -0.141    0.236    2.41067    4.30902    0.12801       0.348
+   11  H(HETATM   11  H5  HET A   1)   -0.146   -0.011    0.303    0.00011    4.73250    0.19779       0.337
+   12  H(HETATM   12  H6  HET A   1)   -0.506   -0.136    0.164   -1.30604    3.02992    0.16177       0.549
+   13  O(HETATM   13  O1  HET D   1)    0.344   -0.509   -0.297   -0.20402   -0.54099    2.27854       0.682
+   14  O(HETATM   14  O2  HET D   1)   -0.081   -0.904    0.684   -0.67084    1.02134    1.84671       1.136
+   15  O(HETATM   15  O   HOH E   2)   -0.164   -0.192   -0.252   -2.51194    0.49333    0.28451       0.356
+   16  H(HETATM   16  H4  SO4 H   3)   -0.010   -0.072    0.458   -0.02147    0.20211   -0.62452       0.464
+   17  H(HETATM   17 1H   HOH E   2)   -0.112   -0.312   -0.271   -3.34708    0.24312    0.63526       0.428
+   18  H(HETATM   18 2H   HOH E   2)   -0.340   -0.332   -0.098   -2.27744   -0.18706   -0.37180       0.486
+   19  S(HETATM   19  S   SO4 H   3)    0.117   -0.091   -0.244   -0.36504   -2.08821   -1.34720       0.285
+   20  O(HETATM   20  O1  SO4 H   3)    0.468    0.210   -0.066   -0.62951   -3.23339   -0.54049       0.518
+   21  O(HETATM   21  O2  SO4 H   3)   -0.048   -0.143   -0.119   -1.84333   -1.30656   -1.59449       0.192
+   22  O(HETATM   22  O3  SO4 H   3)    0.223   -0.025    0.041    0.16467   -2.21305   -2.67828       0.228
+   23  O(HETATM   23  O4  SO4 H   3)   -0.270    0.472    0.138    0.32185   -0.95618   -0.55426       0.561
+   24  H(HETATM   24  H2  SO4 H   3)   -0.126   -0.110   -0.189   -2.05940   -1.15928   -2.51649       0.253
+ 
+
+              GRADIENTS FOR ALL GROUPS
+
+                Group       Gradient
+ 
+              HET    1        1.199
+              HET    1        1.234
+              HET    1        1.325
+              HOH    2        0.739
+              SO4    3        0.904
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)    0.40303609  *   1.68155365  *   0.08681274  *
+     2       C(HETATM    2  C2  HET A   1)    1.71927924  *   1.39435655  *   0.04594143  *
+     3       C(HETATM    3  C3  HET A   1)    2.43642912  *   2.33251952  *   0.06125972  *
+     4       C(HETATM    4  C4  HET A   1)    1.80573523  *   3.51573930  *   0.11780118  *
+     5       C(HETATM    5  C5  HET A   1)    0.47984321  *   3.78566423  *   0.15530563  *
+     6       C(HETATM    6  C6  HET A   1)   -0.24079821  *   2.85060256  *   0.13771206  *
+     7       N(HETATM    7  N   HET B   1)   -0.31553739  *   0.40750985  *   1.84242757  *
+     8       H(HETATM    8  H2  HET A   1)    2.18709313  *   0.42315910  *  -0.01110810  *
+     9       H(HETATM    9  H3  HET A   1)    3.48553045  *   2.13425592  *   0.01657881  *
+    10       H(HETATM   10  H4  HET A   1)    2.41067327  *   4.30901911  *   0.12801169  *
+    11       H(HETATM   11  H5  HET A   1)    0.00011418  *   4.73249566  *   0.19779434  *
+    12       H(HETATM   12  H6  HET A   1)   -1.30603543  *   3.02991613  *   0.16177042  *
+    13       O(HETATM   13  O1  HET D   1)   -0.20401960  *  -0.54099139  *   2.27853603  *
+    14       O(HETATM   14  O2  HET D   1)   -0.67083881  *   1.02133845  *   1.84670577  *
+    15       O(HETATM   15  O   HOH E   2)   -2.51193804  *   0.49333165  *   0.28450684  *
+    16       H(HETATM   16  H4  SO4 H   3)   -0.02146528  *   0.20211474  *  -0.62451962  *
+    17       H(HETATM   17 1H   HOH E   2)   -3.34707592  *   0.24311916  *   0.63525553  *
+    18       H(HETATM   18 2H   HOH E   2)   -2.27743847  *  -0.18705697  *  -0.37179879  *
+    19       S(HETATM   19  S   SO4 H   3)   -0.36503592  *  -2.08820863  *  -1.34719507  *
+    20       O(HETATM   20  O1  SO4 H   3)   -0.62950923  *  -3.23339159  *  -0.54049247  *
+    21       O(HETATM   21  O2  SO4 H   3)   -1.84332564  *  -1.30655926  *  -1.59449411  *
+    22       O(HETATM   22  O3  SO4 H   3)    0.16467078  *  -2.21305233  *  -2.67828076  *
+    23       O(HETATM   23  O4  SO4 H   3)    0.32185390  *  -0.95618147  *  -0.55425705  *
+    24       H(HETATM   24  H2  SO4 H   3)   -2.05939936  *  -1.15927576  *  -2.51648718  *
+
+                             CARTESIAN COORDINATES
+
+   1    C        0.403036086     1.681553646     0.086812740
+   2    C        1.719279236     1.394356552     0.045941427
+   3    C        2.436429122     2.332519521     0.061259722
+   4    C        1.805735234     3.515739296     0.117801179
+   5    C        0.479843212     3.785664226     0.155305627
+   6    C       -0.240798206     2.850602558     0.137712062
+   7    N       -0.315537389     0.407509847     1.842427573
+   8    H        2.187093133     0.423159099    -0.011108104
+   9    H        3.485530446     2.134255916     0.016578809
+  10    H        2.410673266     4.309019106     0.128011685
+  11    H        0.000114179     4.732495659     0.197794343
+  12    H       -1.306035432     3.029916125     0.161770418
+  13    O       -0.204019604    -0.540991388     2.278536030
+  14    O       -0.670838806     1.021338450     1.846705767
+  15    O       -2.511938036     0.493331654     0.284506839
+  16    H       -0.021465283     0.202114744    -0.624519618
+  17    H       -3.347075918     0.243119164     0.635255530
+  18    H       -2.277438468    -0.187056975    -0.371798793
+  19    S       -0.365035925    -2.088208632    -1.347195066
+  20    O       -0.629509227    -3.233391595    -0.540492474
+  21    O       -1.843325639    -1.306559256    -1.594494108
+  22    O        0.164670779    -2.213052333    -2.678280762
+  23    O        0.321853903    -0.956181468    -0.554257055
+  24    H       -2.059399359    -1.159275764    -2.516487180
+
+
+           Empirical Formula: C6 H9 N O7 S  =    24 atoms
+
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1          C(HETATM    1  C1  HET A   1)          -0.159608        4.1596     1.08971     3.06989
+    2          C(HETATM    2  C2  HET A   1)          -0.105487        4.1055     1.09471     3.01077
+    3          C(HETATM    3  C3  HET A   1)          -0.185337        4.1853     1.08423     3.10110
+    4          C(HETATM    4  C4  HET A   1)          -0.150266        4.1503     1.08220     3.06806
+    5          C(HETATM    5  C5  HET A   1)          -0.181193        4.1812     1.08239     3.09880
+    6          C(HETATM    6  C6  HET A   1)          -0.152079        4.1521     1.08703     3.06505
+    7          N(HETATM    7  N   HET B   1)           0.687132        4.3129     1.47003     2.84283
+    8          H(HETATM    8  H2  HET A   1)           0.190751        0.8092     0.80925
+    9          H(HETATM    9  H3  HET A   1)           0.156511        0.8435     0.84349
+   10          H(HETATM   10  H4  HET A   1)           0.149015        0.8510     0.85099
+   11          H(HETATM   11  H5  HET A   1)           0.153273        0.8467     0.84673
+   12          H(HETATM   12  H6  HET A   1)           0.156550        0.8435     0.84345
+   13          O(HETATM   13  O1  HET D   1)           0.024009        5.9760     1.92691     4.04908
+   14          O(HETATM   14  O2  HET D   1)           0.204047        5.7960     1.93230     3.86366
+   15          O(HETATM   15  O   HOH E   2)          -0.795833        6.7958     1.81508     4.98075
+   16          H(HETATM   16  H4  SO4 H   3)           0.179291        0.8207     0.82071
+   17          H(HETATM   17 1H   HOH E   2)           0.352910        0.6471     0.64709
+   18          H(HETATM   18 2H   HOH E   2)           0.412318        0.5877     0.58768
+   19          S(HETATM   19  S   SO4 H   3)           2.662867        3.3371     1.09457     1.77674     0.46582
+   20          O(HETATM   20  O1  SO4 H   3)          -0.932084        6.9321     1.89482     5.03727
+   21          O(HETATM   21  O2  SO4 H   3)          -0.937637        6.9376     1.84543     5.09221
+   22          O(HETATM   22  O3  SO4 H   3)          -0.959032        6.9590     1.89713     5.06190
+   23          O(HETATM   23  O4  SO4 H   3)          -1.154050        7.1540     1.90659     5.24746
+   24          H(HETATM   24  H2  SO4 H   3)           0.383932        0.6161     0.61607
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -1.739     6.474     9.903    11.959
+ HYBRID        -0.357     0.142    -0.252     0.459
+ SUM           -2.095     6.615     9.652    11.887
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1  C(HETATM    1  C1  HET A   1)   1.08971   1.02335   1.01748   1.02907
+    2  C(HETATM    2  C2  HET A   1)   1.09471   0.98861   1.05498   0.96719
+    3  C(HETATM    3  C3  HET A   1)   1.08423   1.07779   1.00264   1.02067
+    4  C(HETATM    4  C4  HET A   1)   1.08220   1.01353   1.02269   1.03184
+    5  C(HETATM    5  C5  HET A   1)   1.08239   1.00860   1.06279   1.02741
+    6  C(HETATM    6  C6  HET A   1)   1.08703   1.07455   0.99371   0.99679
+    7  N(HETATM    7  N   HET B   1)   1.47003   0.92914   0.96322   0.95047
+    8  H(HETATM    8  H2  HET A   1)   0.80925
+    9  H(HETATM    9  H3  HET A   1)   0.84349
+   10  H(HETATM   10  H4  HET A   1)   0.85099
+   11  H(HETATM   11  H5  HET A   1)   0.84673
+   12  H(HETATM   12  H6  HET A   1)   0.84345
+   13  O(HETATM   13  O1  HET D   1)   1.92691   1.56194   1.34788   1.13926
+   14  O(HETATM   14  O2  HET D   1)   1.93230   1.47978   1.13824   1.24564
+   15  O(HETATM   15  O   HOH E   2)   1.81508   1.49611   1.73206   1.75258
+   16  H(HETATM   16  H4  SO4 H   3)   0.82071
+   17  H(HETATM   17 1H   HOH E   2)   0.64709
+   18  H(HETATM   18 2H   HOH E   2)   0.58768
+   19  S(HETATM   19  S   SO4 H   3)   1.09457   0.56415   0.60091   0.61169   0.07542   0.07580   0.10845   0.14175   0.06440
+   20  O(HETATM   20  O1  SO4 H   3)   1.89482   1.82293   1.48764   1.72669
+   21  O(HETATM   21  O2  SO4 H   3)   1.84543   1.67203   1.92247   1.49771
+   22  O(HETATM   22  O3  SO4 H   3)   1.89713   1.78139   1.85963   1.42088
+   23  O(HETATM   23  O4  SO4 H   3)   1.90659   1.84491   1.65341   1.74915
+   24  H(HETATM   24  H2  SO4 H   3)   0.61607
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             4.62 SECONDS
+
+ == MOPAC DONE ==

@@ -1,0 +1,2012 @@
+ *******************************************************************************
+ ** Site#: 29054        For non-commercial use only    Version 18.025W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 18.025W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 365**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jan 25 10:26:47 2018  *
+ *  SYMMETRY   - SYMMETRY CONDITIONS TO BE IMPOSED
+ *  RESIDUES   - DETERMINE THE SEQUENCE OF RESIDUES
+ *  STEP       - STEP-SIZE IN PATH =   0.010
+ *  POINT      - NUMBER OF POINTS IN PATH = 40
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *******************************************************************************
+
+
+
+                    PARAMETER DEPENDENCE DATA
+
+        REFERENCE ATOM      FUNCTION NO.    DEPENDENT ATOM(S)
+            6                  1               7
+
+             DESCRIPTIONS OF THE FUNCTIONS USED
+   1      BOND LENGTH    IS SET EQUAL TO THE REFERENCE BOND LENGTH   
+ 
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C          0.00000000       0.0000000       0.0000000        0     0     0
+     2       C          1.40390000  *    0.0000000       0.0000000        1     0     0
+     3       C          1.40787600  *  108.8081630  *    0.0000000        2     1     0
+     4       C          1.40395700  *  108.8012380  *   -0.0086220  *     3     2     1
+     5       C          1.52080600  *  107.3494810  *  -18.5609710  *     4     3     2
+     6       C          1.90000000  +   96.2910520  *  -74.3110710  *     1     2     3
+     7       C          1.90000000      96.3000000  *   74.3000000  *     4     3     2
+     8       H          1.07008800  *  126.6057970  * -109.4200370  *     1     2     6
+     9       H          1.07176100  *  125.6462750  *  174.7561370  *     2     1     3
+    10       H          1.07169200  *  125.3109270  *  174.7797370  *     3     2     4
+    11       H          1.07001300  *  126.6023880  * -157.7044370  *     4     3     5
+    12       H          1.10842400  *  110.6952260  *  -88.6063830  *     5     4     3
+    13       H          1.09658500  *  115.1195460  * -120.4485030  *     5     4    12
+    14       H          1.07987500  *   91.9628420  *  122.8852290  *     6     1     7
+    15       H          1.07985800  *   94.7929890  *  113.6607090  *     6     1    14
+    16       H          1.08000100  *  121.1635840  * -103.6584890  *     7     6     1
+    17       H          1.07983500  *  121.4638850  * -156.0521350  *     7     6    16
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         C          0.0000      0.0000      0.0000
+     2         C          1.4039      0.0000      0.0000
+     3         C          1.8578      1.3327      0.0000
+     4         C          0.7456      2.1895     -0.0002
+     5         C         -0.4534      1.3761     -0.4624
+     6         C         -0.2082      0.5107      1.8182
+     7         C          0.2683      1.9120      1.8178
+     8         H         -0.6381     -0.8572     -0.0559
+     9         H          2.0285     -0.8673      0.0796
+    10         H          2.8819      1.6383      0.0797
+    11         H          0.7633      3.2579     -0.0562
+    12         H         -0.5460      1.4076     -1.5665
+    13         H         -1.4207      1.7055     -0.0645
+    14         H         -1.2616      0.2735      1.8028
+    15         H          0.4053     -0.2883      2.2072
+    16         H          1.2419      2.1714      2.2068
+    17         H         -0.4222      2.7421      1.8023
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C7 H10  =    17 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 19
+
+  ABOUT TO ENTER EF FROM PATHK
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   161.103 HEAT:  69.76314
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:   212.836 HEAT:  68.37811
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    78.832 HEAT:  65.78240
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    56.727 HEAT:  63.58927
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    86.041 HEAT:  61.72264
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    43.933 HEAT:  59.33649
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    80.575 HEAT:  58.15664
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.082 HEAT:  55.44936
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    30.463 HEAT:  53.93412
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    26.633 HEAT:  53.21287
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    19.990 HEAT:  52.96299
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.367 HEAT:  52.79044
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.317 HEAT:  52.69703
+ CYCLE:    14 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.440 HEAT:  52.63734
+ CYCLE:    15 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.128 HEAT:  52.62323
+ CYCLE:    16 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.335 HEAT:  52.61672
+ CYCLE:    17 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.131 HEAT:  52.61376
+ CYCLE:    18 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.575 HEAT:  52.61207
+
+     GRADIENT =  0.57525  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.90000       52.612073
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.47791975 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.35787142 +1  108.4864235 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.47762204 +1  108.5448993 +1   -0.1659191 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.53344814 +1  104.0505119 +1  -26.0243532 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.90000000 -1  100.3052998 +1  -72.8457965 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.90000000 +0  100.2189642 +1   73.1259988 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07176282 +1  122.2909213 +1 -119.1393073 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.06986169 +1  123.0601236 +1  177.1004059 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07017465 +1  128.3727118 +1  177.2399481 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07184824 +1  122.3062545 +1 -141.8029683 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10177782 +1  112.3198405 +1  -78.4811643 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09614846 +1  114.1397571 +1 -122.0812342 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08217716 +1  102.3070919 +1  121.5805963 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08217883 +1  103.2382678 +1  116.4115257 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08220289 +1  116.9253219 +1 -112.1591562 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08200886 +1  116.9466974 +1 -136.8929964 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.557 HEAT:  53.78011
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.980 HEAT:  53.77854
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.201 HEAT:  53.77489
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.313 HEAT:  53.77290
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.699 HEAT:  53.77105
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.201 HEAT:  53.77195
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.415 HEAT:  53.76649
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.862 HEAT:  53.76396
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.643 HEAT:  53.76242
+
+     GRADIENT =  0.64316  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.91000       53.762422
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.47546597 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.35858362 +1  108.5388726 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.47570161 +1  108.5101526 +1   -0.0236729 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.53297124 +1  104.1925223 +1  -25.9044220 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.91000000 -1  100.1232396 +1  -73.0656744 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.91000000 +0  100.1451683 +1   73.0793878 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07172577 +1  122.4404149 +1 -118.7773845 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07026970 +1  123.1000188 +1  177.1196916 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07016161 +1  128.3006861 +1  177.0532030 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07177159 +1  122.4370118 +1 -142.2643336 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10180159 +1  112.2593166 +1  -78.7910179 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09616522 +1  114.1633908 +1 -122.0608444 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08173075 +1  102.0506668 +1  121.5765547 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08186096 +1  103.0459088 +1  116.3855167 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08187253 +1  117.1101204 +1 -112.0462359 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08186259 +1  117.0604638 +1 -137.3149878 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.436 HEAT:  54.92534
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.474 HEAT:  54.92357
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.211 HEAT:  54.92005
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.661 HEAT:  54.91786
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.405 HEAT:  54.91604
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.497 HEAT:  54.90995
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.556 HEAT:  54.91081
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.457 HEAT:  54.90717
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.663 HEAT:  54.90559
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.538 HEAT:  54.90437
+
+     GRADIENT =  0.53797  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.92000       54.904374
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.47374100 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.35966411 +1  108.5711145 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.47363586 +1  108.5410513 +1    0.0345196 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.53214277 +1  104.2879648 +1  -25.6734087 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.92000000 -1   99.9140008 +1  -73.1724835 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.92000000 +0   99.9789959 +1   73.1056922 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07141192 +1  122.6237958 +1 -118.3863565 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07032132 +1  123.1499582 +1  177.0893241 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07028709 +1  128.2245730 +1  176.8845355 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07147361 +1  122.6109681 +1 -142.8041316 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10213817 +1  112.2087826 +1  -79.1548868 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09620484 +1  114.1898722 +1 -121.9889069 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08152452 +1  101.7067896 +1  121.6205215 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08159045 +1  102.7557258 +1  116.2834047 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08160952 +1  117.2791757 +1 -111.8183927 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08162101 +1  117.2176295 +1 -137.9312818 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.357 HEAT:  56.05567
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.350 HEAT:  56.05433
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.294 HEAT:  56.05045
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.183 HEAT:  56.04829
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.700 HEAT:  56.04738
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.376 HEAT:  56.04519
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.247 HEAT:  56.04314
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.274 HEAT:  56.03825
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.307 HEAT:  56.03591
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.004 HEAT:  56.03538
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.382 HEAT:  56.03496
+
+     GRADIENT =  0.38216  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.93000       56.034955
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.47173384 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.36043443 +1  108.5847569 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.47171052 +1  108.5660410 +1    0.0477736 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.53152300 +1  104.4130635 +1  -25.4128559 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.93000000 -1   99.7275929 +1  -73.2617160 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.93000000 +0   99.8118694 +1   73.1794527 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07118706 +1  122.7955439 +1 -118.0279730 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07041442 +1  123.2062277 +1  177.0184277 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07037924 +1  128.1417765 +1  176.7685066 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07124581 +1  122.7837936 +1 -143.3430956 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10236689 +1  112.1555035 +1  -79.5444746 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09628966 +1  114.2071976 +1 -121.9045914 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08130621 +1  101.3799136 +1  121.6757723 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08137035 +1  102.4775570 +1  116.1753394 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08138657 +1  117.4389541 +1 -111.5195759 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08139422 +1  117.3809591 +1 -138.5595717 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.837 HEAT:  57.17354
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     9.771 HEAT:  57.17198
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.429 HEAT:  57.16771
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.268 HEAT:  57.16526
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.183 HEAT:  57.16453
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.307 HEAT:  57.16174
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.972 HEAT:  57.15950
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.319 HEAT:  57.15510
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.116 HEAT:  57.15226
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.705 HEAT:  57.15169
+
+     GRADIENT =  0.70454  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.94000       57.151688
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.46943525 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.36158891 +1  108.6190349 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.46925075 +1  108.5783511 +1    0.0605368 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.53069675 +1  104.5303555 +1  -25.1611988 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.94000000 -1   99.5817526 +1  -73.3505134 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.94000000 +0   99.6569342 +1   73.2186811 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07094062 +1  122.9547230 +1 -117.6820417 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07052300 +1  123.2600884 +1  176.9452064 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07048074 +1  128.0640503 +1  176.6817428 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07099057 +1  122.9431840 +1 -143.8800932 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10266959 +1  112.1045177 +1  -79.9273043 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09633920 +1  114.2284866 +1 -121.8696221 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08102536 +1  101.0447683 +1  121.7168101 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08108631 +1  102.1825963 +1  116.0783184 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08110809 +1  117.5977853 +1 -111.2614846 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08113421 +1  117.5473502 +1 -139.1706090 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.835 HEAT:  58.27365
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.393 HEAT:  58.27255
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.476 HEAT:  58.26798
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.485 HEAT:  58.26565
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.840 HEAT:  58.26496
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.545 HEAT:  58.26008
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.180 HEAT:  58.25414
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.724 HEAT:  58.25365
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.764 HEAT:  58.25089
+
+     GRADIENT =  0.76419  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.95000       58.250886
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.46703050 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.36231088 +1  108.6253419 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.46718262 +1  108.5988937 +1    0.0776821 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.53013980 +1  104.6755314 +1  -24.8841031 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.95000000 -1   99.3903125 +1  -73.4368296 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.95000000 +0   99.5256360 +1   73.3052790 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07075923 +1  123.1213539 +1 -117.3301786 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07061945 +1  123.3216037 +1  176.8655400 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07056788 +1  127.9781637 +1  176.5907023 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07081725 +1  123.1091445 +1 -144.4400820 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10294869 +1  112.0564983 +1  -80.2909989 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09641886 +1  114.2527084 +1 -121.8157795 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08077436 +1  100.6982456 +1  121.7655498 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08084887 +1  101.8787357 +1  115.9776248 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08087969 +1  117.7623617 +1 -110.9838338 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08095235 +1  117.7153410 +1 -139.7838083 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.803 HEAT:  59.35401
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.622 HEAT:  59.35251
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.559 HEAT:  59.34823
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.035 HEAT:  59.34561
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.283 HEAT:  59.34536
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.001 HEAT:  59.33859
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.938 HEAT:  59.33833
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.220 HEAT:  59.33355
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.695 HEAT:  59.32967
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.411 HEAT:  59.32866
+
+     GRADIENT =  0.41124  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.96000       59.328660
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.46470700 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.36371844 +1  108.6572817 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.46465313 +1  108.6204464 +1    0.0789704 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52933511 +1  104.7931716 +1  -24.5988093 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.96000000 -1   99.2280712 +1  -73.5115157 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.96000000 +0   99.3232893 +1   73.3566951 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07051110 +1  123.3024198 +1 -116.9603358 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07071925 +1  123.3876634 +1  176.7715159 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07066884 +1  127.8847701 +1  176.4879683 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07057168 +1  123.2874898 +1 -145.0186339 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10322943 +1  111.9978499 +1  -80.7076066 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09645982 +1  114.2802391 +1 -121.7483835 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08059906 +1  100.3299893 +1  121.8228989 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08065027 +1  101.5620286 +1  115.8585693 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08068626 +1  117.9322715 +1 -110.6754618 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08071686 +1  117.8951802 +1 -140.4763265 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.682 HEAT:  60.40777
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.243 HEAT:  60.40658
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.570 HEAT:  60.40202
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.325 HEAT:  60.39941
+ CYCLE:     5 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     6.503 HEAT:  60.39901
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.401 HEAT:  60.39385
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.526 HEAT:  60.39313
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.848 HEAT:  60.38619
+ CYCLE:     9 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     1.628 HEAT:  60.38286
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.899 HEAT:  60.38200
+
+     GRADIENT =  0.89944  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.97000       60.382004
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.46213064 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.36515765 +1  108.6874944 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.46190481 +1  108.6377983 +1    0.0774660 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52857278 +1  104.9213820 +1  -24.2989449 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.97000000 -1   99.0542755 +1  -73.5836592 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.97000000 +0   99.1437166 +1   73.4139507 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07032322 +1  123.4843028 +1 -116.5728408 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07082689 +1  123.4608985 +1  176.6717992 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07077426 +1  127.7855928 +1  176.3849620 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07037253 +1  123.4701297 +1 -145.6373051 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10353090 +1  111.9372295 +1  -81.1373582 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09650499 +1  114.3083617 +1 -121.6822029 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08039099 +1   99.9418676 +1  121.8804496 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08045336 +1  101.2296789 +1  115.7361688 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08047889 +1  118.1108626 +1 -110.3532409 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08050435 +1  118.0835755 +1 -141.2055346 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.734 HEAT:  61.43226
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.779 HEAT:  61.43135
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.623 HEAT:  61.42646
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.472 HEAT:  61.42387
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.580 HEAT:  61.42420
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.399 HEAT:  61.41745
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.337 HEAT:  61.41040
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.878 HEAT:  61.40917
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.954 HEAT:  61.40628
+
+     GRADIENT =  0.95431  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.98000       61.406274
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.45929511 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.36616813 +1  108.6871863 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.45946955 +1  108.6580077 +1    0.0895281 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52807563 +1  105.0782276 +1  -23.9899046 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.98000000 -1   98.8516885 +1  -73.6573765 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.98000000 +0   99.0055456 +1   73.5137801 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07019160 +1  123.6623387 +1 -116.1882664 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07092052 +1  123.5394331 +1  176.5727560 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07086708 +1  127.6807632 +1  176.2840826 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07025804 +1  123.6482982 +1 -146.2578979 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10381311 +1  111.8814967 +1  -81.5344168 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09658245 +1  114.3394742 +1 -121.6190483 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08018782 +1   99.5500738 +1  121.9356080 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08026272 +1  100.8937413 +1  115.6215339 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08029444 +1  118.2908747 +1 -110.0330233 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08037731 +1  118.2685615 +1 -141.9007296 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     9.744 HEAT:  62.42551
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     9.843 HEAT:  62.42413
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.789 HEAT:  62.41955
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.960 HEAT:  62.41658
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.486 HEAT:  62.41172
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.553 HEAT:  62.40853
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.950 HEAT:  62.40685
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.600 HEAT:  62.39998
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.704 HEAT:  62.39711
+ CYCLE:    10 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     0.407 HEAT:  62.39598
+
+     GRADIENT =  0.40749  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.99000       62.395981
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.45646083 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.36795461 +1  108.7163923 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.45641321 +1  108.6800781 +1    0.0713717 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52735079 +1  105.2071362 +1  -23.6658827 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   1.99000000 -1   98.6846443 +1  -73.7252432 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   1.99000000 +0   98.7888175 +1   73.5651694 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06999828 +1  123.8731993 +1 -115.7763844 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07102983 +1  123.6352507 +1  176.4484321 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07097040 +1  127.5550381 +1  176.1647850 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07006265 +1  123.8556506 +1 -146.9224007 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10413708 +1  111.8046186 +1  -81.9811581 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09657821 +1  114.3827021 +1 -121.5426951 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.08006028 +1   99.0954268 +1  122.0042320 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08012222 +1  100.5122198 +1  115.4770412 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08016872 +1  118.4860404 +1 -109.6771678 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08019184 +1  118.4793501 +1 -142.7159210 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.425 HEAT:  63.37558
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    10.293 HEAT:  63.37452
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.766 HEAT:  63.36979
+ CYCLE:     4 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     3.015 HEAT:  63.36688
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.608 HEAT:  63.36248
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.456 HEAT:  63.36435
+ CYCLE:     7 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     4.201 HEAT:  63.35491
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.862 HEAT:  63.35378
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.265 HEAT:  63.34749
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.613 HEAT:  63.34682
+
+     GRADIENT =  0.61251  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.00000       63.346816
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.45350796 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.36973225 +1  108.7476125 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.45329828 +1  108.6970429 +1    0.0765222 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52665059 +1  105.3499430 +1  -23.3377483 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.00000000 -1   98.5076968 +1  -73.7878975 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.00000000 +0   98.6036649 +1   73.6180016 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06987341 +1  124.0623015 +1 -115.3622115 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07113114 +1  123.7277067 +1  176.3289609 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07107230 +1  127.4368438 +1  176.0496720 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06994179 +1  124.0442051 +1 -147.6007155 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10443529 +1  111.7399365 +1  -82.4331057 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09662107 +1  114.4192926 +1 -121.4734870 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07991714 +1   98.6677952 +1  122.0643887 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07997812 +1  100.1537745 +1  115.3437800 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08001543 +1  118.6756725 +1 -109.3078257 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.08003914 +1  118.6803872 +1 -143.5266677 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.276 HEAT:  64.28347
+ CYCLE:     2 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    10.656 HEAT:  64.28256
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.917 HEAT:  64.27753
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.125 HEAT:  64.27439
+ CYCLE:     5 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     5.006 HEAT:  64.26977
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.459 HEAT:  64.26612
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.856 HEAT:  64.26340
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.400 HEAT:  64.25653
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.705 HEAT:  64.25363
+ CYCLE:    10 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     0.718 HEAT:  64.25222
+
+     GRADIENT =  0.71808  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.01000       64.252220
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.45011035 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.37171503 +1  108.7637964 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.44993726 +1  108.7149712 +1    0.0676034 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52597901 +1  105.4988456 +1  -22.9868570 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.01000000 -1   98.3151193 +1  -73.8575208 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.01000000 +0   98.4195849 +1   73.6789008 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06975560 +1  124.2680492 +1 -114.9338049 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07122911 +1  123.8353800 +1  176.2075304 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07116994 +1  127.3019506 +1  175.9332179 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06982649 +1  124.2505820 +1 -148.3023472 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10477048 +1  111.6644581 +1  -82.8863540 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09663561 +1  114.4646016 +1 -121.4063826 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07978583 +1   98.1911267 +1  122.1307338 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07985669 +1   99.7575481 +1  115.2044209 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07989865 +1  118.8803312 +1 -108.9383052 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07992231 +1  118.8971668 +1 -144.3681231 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.129 HEAT:  65.13847
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.446 HEAT:  65.13757
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.962 HEAT:  65.13262
+ CYCLE:     4 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     2.933 HEAT:  65.12940
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.637 HEAT:  65.12501
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.349 HEAT:  65.12135
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.293 HEAT:  65.11848
+ CYCLE:     8 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     2.825 HEAT:  65.11053
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.619 HEAT:  65.10736
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.764 HEAT:  65.10545
+
+     GRADIENT =  0.76368  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.02000       65.105447
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.44656358 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.37389978 +1  108.7851039 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.44636750 +1  108.7288355 +1    0.0758453 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52532969 +1  105.6545777 +1  -22.6411784 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.02000000 -1   98.1344520 +1  -73.9206416 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.02000000 +0   98.2348123 +1   73.7295997 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06966259 +1  124.4703384 +1 -114.4905780 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07132574 +1  123.9483689 +1  176.0809727 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07126457 +1  127.1630832 +1  175.8122447 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06973558 +1  124.4518068 +1 -149.0326226 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10510597 +1  111.5908196 +1  -83.3500934 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09665847 +1  114.5120398 +1 -121.3397801 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07968112 +1   97.7115254 +1  122.1967045 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07974871 +1   99.3623826 +1  115.0621646 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07978982 +1  119.0816126 +1 -108.5536059 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07981888 +1  119.1128888 +1 -145.2362003 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.279 HEAT:  65.93589
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.833 HEAT:  65.93504
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.102 HEAT:  65.92972
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.032 HEAT:  65.92621
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.205 HEAT:  65.92155
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.052 HEAT:  65.91692
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.297 HEAT:  65.91492
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.932 HEAT:  65.90458
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.137 HEAT:  65.90123
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.819 HEAT:  65.89876
+
+     GRADIENT =  0.81917  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.03000       65.898756
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.44271001 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.37636104 +1  108.8024859 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.44252703 +1  108.7421984 +1    0.0818713 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52469857 +1  105.8181044 +1  -22.2751067 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.03000000 -1   97.9401418 +1  -73.9866093 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.03000000 +0   98.0485182 +1   73.7780496 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06960378 +1  124.6850723 +1 -114.0210839 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07142358 +1  124.0770667 +1  175.9484722 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07135516 +1  127.0107226 +1  175.6828319 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06967638 +1  124.6646259 +1 -149.8066285 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10545124 +1  111.5114042 +1  -83.8334085 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09667005 +1  114.5649186 +1 -121.2704485 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07960108 +1   97.1916333 +1  122.2666564 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07966639 +1   98.9371587 +1  114.9134966 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07971275 +1  119.2965696 +1 -108.1512442 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07974314 +1  119.3422025 +1 -146.1652031 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.289 HEAT:  66.66485
+ CYCLE:     2 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    10.946 HEAT:  66.66396
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.218 HEAT:  66.65845
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.025 HEAT:  66.65469
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.210 HEAT:  66.65025
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.392 HEAT:  66.64511
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.596 HEAT:  66.64380
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.192 HEAT:  66.63080
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.975 HEAT:  66.62737
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.875 HEAT:  66.62391
+
+     GRADIENT =  0.87457  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.04000       66.623908
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.43859167 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.37912020 +1  108.8196493 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.43838642 +1  108.7538248 +1    0.0928029 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52409436 +1  105.9892830 +1  -21.8984113 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.04000000 -1   97.7533138 +1  -74.0466191 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.04000000 +0   97.8591281 +1   73.8205399 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06956744 +1  124.9049439 +1 -113.5345360 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07150901 +1  124.2178989 +1  175.8115491 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07143524 +1  126.8471022 +1  175.5498820 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06963986 +1  124.8824897 +1 -150.6129261 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10581060 +1  111.4278251 +1  -84.3281696 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09667103 +1  114.6232121 +1 -121.2011230 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07953996 +1   96.6452651 +1  122.3370531 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07960987 +1   98.4960585 +1  114.7600498 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07965359 +1  119.5154264 +1 -107.7317004 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07969220 +1  119.5782039 +1 -147.1377099 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.462 HEAT:  67.31788
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    11.380 HEAT:  67.31703
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.346 HEAT:  67.31112
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.142 HEAT:  67.30704
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.924 HEAT:  67.30206
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.671 HEAT:  67.29543
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.491 HEAT:  67.29504
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.213 HEAT:  67.27926
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.326 HEAT:  67.27579
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.875 HEAT:  67.27162
+
+     GRADIENT =  0.87524  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.05000       67.271623
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.43413430 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.38223488 +1  108.8320292 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.43395807 +1  108.7633687 +1    0.1021705 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52352804 +1  106.1684637 +1  -21.4967301 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.05000000 -1   97.5495164 +1  -74.1085603 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.05000000 +0   97.6655004 +1   73.8646231 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06956557 +1  125.1393163 +1 -113.0086442 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07159270 +1  124.3799994 +1  175.6682209 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07151669 +1  126.6643179 +1  175.4098153 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06963919 +1  125.1139569 +1 -151.4855901 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10617423 +1  111.3359062 +1  -84.8518659 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09666384 +1  114.6897525 +1 -121.1249770 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07950912 +1   96.0500840 +1  122.4141227 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07958341 +1   98.0189046 +1  114.5985327 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07962775 +1  119.7482683 +1 -107.2786979 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07966664 +1  119.8297530 +1 -148.1931744 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.531 HEAT:  67.88349
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.481 HEAT:  67.88260
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.471 HEAT:  67.87648
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.744 HEAT:  67.87097
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.413 HEAT:  67.86781
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.012 HEAT:  67.85960
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.678 HEAT:  67.84801
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.069 HEAT:  67.84001
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.647 HEAT:  67.83520
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.130 HEAT:  67.83211
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.844 HEAT:  67.83159
+
+     GRADIENT =  0.84386  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.06000       67.831586
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.42924125 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.38560089 +1  108.8043550 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.42948604 +1  108.7894366 +1    0.0825599 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52316725 +1  106.3866368 +1  -21.0110327 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.06000000 -1   97.2797282 +1  -74.1435768 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.06000000 +0   97.4158566 +1   73.9909143 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06954880 +1  125.4218427 +1 -112.3728365 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07165402 +1  124.5858705 +1  175.4779893 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07159642 +1  126.4331866 +1  175.2386856 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06966379 +1  125.3968020 +1 -152.5698375 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10653103 +1  111.2259282 +1  -85.4820388 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09670539 +1  114.7689720 +1 -120.9715043 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07955999 +1   95.3281582 +1  122.5103142 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07963241 +1   97.4666243 +1  114.3942730 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07964924 +1  120.0176223 +1 -106.6615869 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07966143 +1  120.1254651 +1 -149.5500773 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.731 HEAT:  68.34605
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.857 HEAT:  68.34417
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.700 HEAT:  68.33818
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.060 HEAT:  68.33341
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.310 HEAT:  68.33173
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.955 HEAT:  68.32305
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.799 HEAT:  68.31254
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.511 HEAT:  68.30674
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.524 HEAT:  68.30181
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.072 HEAT:  68.29855
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.520 HEAT:  68.29823
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.142 HEAT:  68.29766
+ CYCLE:    13 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.214 HEAT:  68.29746
+
+     GRADIENT =  0.21411  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.07000       68.297463
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.42432756 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.38954538 +1  108.8137601 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.42435766 +1  108.8075943 +1    0.0487792 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52248633 +1  106.5664864 +1  -20.5175459 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.07000000 -1   97.0797605 +1  -74.1626062 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.07000000 +0   97.1520547 +1   74.0712798 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06958176 +1  125.6649054 +1 -111.8058528 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07167800 +1  124.7753704 +1  175.2988218 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07166003 +1  126.2221712 +1  175.1167753 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06963554 +1  125.6504317 +1 -153.5577025 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10694634 +1  111.1173159 +1  -86.1115725 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09672209 +1  114.8340447 +1 -120.8445206 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07959681 +1   94.6821303 +1  122.5946825 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07967133 +1   96.9685507 +1  114.2252459 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07967001 +1  120.2554509 +1 -106.0141886 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07962630 +1  120.3985283 +1 -150.8454010 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.876 HEAT:  68.71155
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.653 HEAT:  68.71021
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.703 HEAT:  68.70379
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.537 HEAT:  68.69759
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.790 HEAT:  68.69192
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.143 HEAT:  68.68494
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.023 HEAT:  68.68332
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.440 HEAT:  68.67294
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.724 HEAT:  68.66954
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.271 HEAT:  68.66514
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.721 HEAT:  68.66391
+
+     GRADIENT =  0.72138  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.08000       68.663889
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41948178 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.39377288 +1  108.8376823 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.41925488 +1  108.7947311 +1    0.0699341 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52207249 +1  106.7461766 +1  -20.1244477 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.08000000 -1   96.9062023 +1  -74.2045826 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.08000000 +0   97.0102078 +1   74.0796692 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06972574 +1  125.8995164 +1 -111.2384486 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07176246 +1  124.9832968 +1  175.1750668 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07167782 +1  126.0057522 +1  175.0083460 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06978420 +1  125.8807092 +1 -154.5025712 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10726717 +1  111.0170258 +1  -86.6387918 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09662231 +1  114.9186231 +1 -120.8101337 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07961112 +1   94.0157665 +1  122.6652526 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07970077 +1   96.4101923 +1  114.0833267 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07973911 +1  120.4934005 +1 -105.5907210 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07971471 +1  120.6652461 +1 -151.9551103 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.024 HEAT:  68.97879
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.698 HEAT:  68.97772
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.904 HEAT:  68.97044
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.583 HEAT:  68.96360
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.681 HEAT:  68.95817
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.632 HEAT:  68.95002
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.142 HEAT:  68.94982
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.637 HEAT:  68.93652
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.469 HEAT:  68.93240
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.744 HEAT:  68.92722
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.539 HEAT:  68.92580
+
+     GRADIENT =  0.53940  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.09000       68.925785
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.41436368 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.39807246 +1  108.8280860 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.41436697 +1  108.7951723 +1    0.0693330 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52170054 +1  106.9445643 +1  -19.6488863 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.09000000 -1   96.6890552 +1  -74.2693320 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.09000000 +0   96.8199154 +1   74.1196046 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06981456 +1  126.1439969 +1 -110.6351496 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07177832 +1  125.1984819 +1  175.0448695 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07171181 +1  125.7784123 +1  174.8888841 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06989769 +1  126.1196130 +1 -155.5131431 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10764677 +1  110.9120872 +1  -87.2130951 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09658879 +1  114.9975784 +1 -120.7191898 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07965631 +1   93.3235271 +1  122.7421079 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07977055 +1   95.8821106 +1  113.9339168 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07980159 +1  120.7241601 +1 -105.0548377 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07977150 +1  120.9239387 +1 -153.1971651 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.661 HEAT:  69.13725
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    13.571 HEAT:  69.13641
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.904 HEAT:  69.12856
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.747 HEAT:  69.12172
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.169 HEAT:  69.11605
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.811 HEAT:  69.10924
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.856 HEAT:  69.10664
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.275 HEAT:  69.09517
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.436 HEAT:  69.09081
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.884 HEAT:  69.08629
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.847 HEAT:  69.08514
+
+     GRADIENT =  0.84655  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.10000       69.085124
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40945563 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.40261528 +1  108.8286547 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.40924812 +1  108.7921835 +1    0.0736012 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52128088 +1  107.1242902 +1  -19.2101209 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.10000000 -1   96.4969447 +1  -74.3082732 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.10000000 +0   96.6154457 +1   74.1737208 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.06992083 +1  126.3680301 +1 -110.0332287 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07177484 +1  125.4176363 +1  174.9251130 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07170819 +1  125.5577725 +1  174.7960560 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.06997971 +1  126.3493498 +1 -156.5212194 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10799568 +1  110.8096334 +1  -87.8140677 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09655819 +1  115.0706484 +1 -120.6277026 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07971425 +1   92.6508305 +1  122.8090722 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07984399 +1   95.3609675 +1  113.8014199 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07986915 +1  120.9442491 +1 -104.5181436 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07981600 +1  121.1770426 +1 -154.4590712 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.160 HEAT:  69.19624
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     5.546 HEAT:  69.19284
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.051 HEAT:  69.18892
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.616 HEAT:  69.18297
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.816 HEAT:  69.17511
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.850 HEAT:  69.16636
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.493 HEAT:  69.16338
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.435 HEAT:  69.15508
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.274 HEAT:  69.15016
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.166 HEAT:  69.14736
+ CYCLE:    11 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.475 HEAT:  69.14675
+
+     GRADIENT =  0.47517  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.11000       69.146749
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40480665 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.40697465 +1  108.8183225 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.40486362 +1  108.7916729 +1    0.0788868 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52099590 +1  107.3158157 +1  -18.7328974 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.11000000 -1   96.2947195 +1  -74.3634801 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.11000000 +0   96.4033746 +1   74.2297962 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07000647 +1  126.5785904 +1 -109.4592869 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07176477 +1  125.6198566 +1  174.8237618 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07170920 +1  125.3483873 +1  174.7278352 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07008575 +1  126.5581664 +1 -157.5105615 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10832303 +1  110.7178158 +1  -88.4061138 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09657219 +1  115.1308471 +1 -120.5181331 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07978026 +1   92.0252643 +1  122.8688788 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07991581 +1   94.8699117 +1  113.6857640 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07993732 +1  121.1414962 +1 -103.9351998 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07985691 +1  121.4096442 +1 -155.6954606 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    12.353 HEAT:  69.16512
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     5.974 HEAT:  69.16123
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.048 HEAT:  69.15799
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.470 HEAT:  69.15313
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.850 HEAT:  69.14550
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.855 HEAT:  69.13617
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.261 HEAT:  69.13086
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.270 HEAT:  69.13072
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.813 HEAT:  69.12267
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.152 HEAT:  69.12134
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.641 HEAT:  69.12010
+
+     GRADIENT =  0.64108  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.12000       69.120103
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.40068736 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.41096330 +1  108.8106880 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.40078179 +1  108.7888494 +1    0.0673992 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52069390 +1  107.4758121 +1  -18.3107438 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.12000000 -1   96.1316098 +1  -74.4174918 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.12000000 +0   96.2302291 +1   74.2758937 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07007126 +1  126.7564578 +1 -108.9511030 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07175604 +1  125.8003600 +1  174.7589664 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07169600 +1  125.1655349 +1  174.6909211 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07014863 +1  126.7418464 +1 -158.3795987 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10860684 +1  110.6346633 +1  -88.9411512 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09657134 +1  115.1808015 +1 -120.4339671 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07979517 +1   91.4602293 +1  122.9199748 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07997211 +1   94.4148422 +1  113.5981913 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07998645 +1  121.3120062 +1 -103.4407502 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07986038 +1  121.6166045 +1 -156.7960568 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    13.701 HEAT:  69.05908
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     6.700 HEAT:  69.05478
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.941 HEAT:  69.05108
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.503 HEAT:  69.04594
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.660 HEAT:  69.03962
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.047 HEAT:  69.02895
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.229 HEAT:  69.02517
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.617 HEAT:  69.02511
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.141 HEAT:  69.01636
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.765 HEAT:  69.01549
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.477 HEAT:  69.01436
+
+     GRADIENT =  0.47673  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.13000       69.014360
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.39673639 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.41516789 +1  108.8024037 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.39684480 +1  108.7825320 +1    0.0623143 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52041626 +1  107.6311836 +1  -17.8712746 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.13000000 -1   95.9485737 +1  -74.4691884 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.13000000 +0   96.0349224 +1   74.3435864 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07015431 +1  126.9364092 +1 -108.4221895 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07172782 +1  125.9899440 +1  174.6978046 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07167681 +1  124.9786932 +1  174.6640666 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07023018 +1  126.9181221 +1 -159.2842296 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10888868 +1  110.5514946 +1  -89.5062073 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09657555 +1  115.2310456 +1 -120.3457914 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07982401 +1   90.8923421 +1  122.9676292 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08004122 +1   93.9584791 +1  113.5138566 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08005090 +1  121.4786406 +1 -102.9300808 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07988741 +1  121.8165633 +1 -157.9290469 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    14.571 HEAT:  68.87848
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     6.965 HEAT:  68.87390
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.477 HEAT:  68.87025
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.156 HEAT:  68.86670
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.373 HEAT:  68.86107
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.233 HEAT:  68.85255
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.713 HEAT:  68.85905
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.573 HEAT:  68.84446
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.376 HEAT:  68.84285
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.459 HEAT:  68.84081
+
+     GRADIENT =  0.45874  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.14000       68.840801
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.39330738 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.41902563 +1  108.8045357 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.39329004 +1  108.7696529 +1    0.0751338 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.52011785 +1  107.7618714 +1  -17.4965361 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.14000000 -1   95.7837625 +1  -74.5404350 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.14000000 +0   95.8868701 +1   74.3811824 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07025192 +1  127.0823312 +1 -107.9510935 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07170010 +1  126.1554021 +1  174.6714625 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07164689 +1  124.8191360 +1  174.6617455 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07031109 +1  127.0642022 +1 -160.0687882 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10914036 +1  110.4801867 +1  -90.0348390 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09655413 +1  115.2723899 +1 -120.2956827 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07980589 +1   90.3893118 +1  123.0092244 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08007650 +1   93.5510129 +1  113.4537175 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08009113 +1  121.6238060 +1 -102.5177886 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07991525 +1  121.9874097 +1 -158.9026703 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.197 HEAT:  68.64339
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.500 HEAT:  68.63886
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.173 HEAT:  68.63520
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.109 HEAT:  68.63193
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.092 HEAT:  68.62738
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.631 HEAT:  68.62074
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.364 HEAT:  68.61966
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.649 HEAT:  68.61367
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.193 HEAT:  68.61092
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.078 HEAT:  68.60890
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.348 HEAT:  68.60855
+
+     GRADIENT =  0.34776  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.15000       68.608553
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.39021926 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.42238894 +1  108.7924581 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.39026010 +1  108.7766606 +1    0.0787365 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51982837 +1  107.8821433 +1  -17.1120054 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.15000000 -1   95.5880766 +1  -74.5880506 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.15000000 +0   95.6763113 +1   74.4858977 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07025944 +1  127.2319403 +1 -107.4844155 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07166062 +1  126.3159377 +1  174.6626562 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07163084 +1  124.6607367 +1  174.6688021 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07032136 +1  127.2139374 +1 -160.8681961 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10938198 +1  110.4120750 +1  -90.5770787 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09658877 +1  115.3036606 +1 -120.1943800 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07983250 +1   89.8841979 +1  123.0402683 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08011436 +1   93.1571657 +1  113.4012757 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08012672 +1  121.7536345 +1 -102.0377929 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07988854 +1  122.1492199 +1 -159.9252500 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    16.338 HEAT:  68.35818
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.461 HEAT:  68.35331
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.021 HEAT:  68.34936
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.419 HEAT:  68.34617
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.440 HEAT:  68.34183
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.259 HEAT:  68.33969
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.972 HEAT:  68.33583
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.435 HEAT:  68.33110
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.746 HEAT:  68.32904
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.648 HEAT:  68.32777
+
+     GRADIENT =  0.64824  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.16000       68.327770
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.38746347 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.42556562 +1  108.7964344 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.38747334 +1  108.7636117 +1    0.0753239 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51957853 +1  107.9957484 +1  -16.7630106 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.16000000 -1   95.4486933 +1  -74.6710816 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.16000000 +0   95.5349023 +1   74.5217814 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07030786 +1  127.3441511 +1 -107.0874557 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07163580 +1  126.4410592 +1  174.6599982 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07159658 +1  124.5384383 +1  174.6877384 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07037856 +1  127.3240756 +1 -161.5308846 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10956663 +1  110.3596109 +1  -91.0482414 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09659431 +1  115.3244261 +1 -120.1524022 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07979752 +1   89.4885906 +1  123.0688712 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08012448 +1   92.8229900 +1  113.3647547 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08013784 +1  121.8638651 +1 -101.6789030 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07988528 +1  122.2819479 +1 -160.7456886 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    17.463 HEAT:  68.03580
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.409 HEAT:  68.03069
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.829 HEAT:  68.02655
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.962 HEAT:  68.02372
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.683 HEAT:  68.02269
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.758 HEAT:  68.01354
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.904 HEAT:  68.01387
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.888 HEAT:  68.00874
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.715 HEAT:  68.00693
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.394 HEAT:  68.00581
+
+     GRADIENT =  0.39352  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.17000       68.005811
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.38509259 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.42830432 +1  108.7956119 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.38514733 +1  108.7650410 +1    0.0941120 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51929010 +1  108.0950571 +1  -16.4242084 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.17000000 -1   95.2732950 +1  -74.7502348 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.17000000 +0   95.3514141 +1   74.5973018 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07030657 +1  127.4500901 +1 -106.6988714 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07160802 +1  126.5592538 +1  174.6815605 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07158230 +1  124.4243602 +1  174.7189032 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07038443 +1  127.4310389 +1 -162.1902790 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10974798 +1  110.3112733 +1  -91.5334084 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09663692 +1  115.3410483 +1 -120.0849938 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07977735 +1   89.0927786 +1  123.0900844 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08012192 +1   92.5031152 +1  113.3357097 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08013972 +1  121.9626621 +1 -101.2909044 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07984832 +1  122.4061612 +1 -161.5659223 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    18.108 HEAT:  67.67885
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    10.275 HEAT:  67.67372
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.797 HEAT:  67.66938
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.620 HEAT:  67.66675
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.935 HEAT:  67.66529
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.501 HEAT:  67.66144
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.153 HEAT:  67.65728
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.435 HEAT:  67.65292
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.567 HEAT:  67.65134
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.891 HEAT:  67.65025
+
+     GRADIENT =  0.89095  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.18000       67.650242
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.38265994 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.43109143 +1  108.7859847 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.38277926 +1  108.7641469 +1    0.0795652 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51900137 +1  108.1918259 +1  -16.0787348 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.18000000 -1   95.1019973 +1  -74.8229598 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.18000000 +0   95.1942352 +1   74.6803265 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07030813 +1  127.5522997 +1 -106.3094772 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07158054 +1  126.6733465 +1  174.7022327 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07155759 +1  124.3126914 +1  174.7549238 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07036688 +1  127.5342952 +1 -162.8458574 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.10993995 +1  110.2630000 +1  -92.0253703 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09666621 +1  115.3525279 +1 -120.0247243 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07973238 +1   88.7162485 +1  123.1168022 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08013862 +1   92.1882852 +1  113.3113639 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08014700 +1  122.0586862 +1 -100.9329788 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07979822 +1  122.5227056 +1 -162.3922124 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    19.263 HEAT:  67.29263
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.472 HEAT:  67.28756
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.731 HEAT:  67.28303
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.651 HEAT:  67.28109
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.486 HEAT:  67.27931
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.831 HEAT:  67.27684
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.855 HEAT:  67.27212
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.259 HEAT:  67.26902
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.846 HEAT:  67.26741
+
+     GRADIENT =  0.84556  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.19000       67.267401
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.38109023 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.43349595 +1  108.8069687 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.38097662 +1  108.7674802 +1    0.0729266 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51872356 +1  108.2637825 +1  -15.7356165 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.19000000 -1   94.9533032 +1  -74.9149554 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.19000000 +0   95.0560641 +1   74.7054051 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07034793 +1  127.6315493 +1 -105.9916280 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07156030 +1  126.7674626 +1  174.7287970 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07153338 +1  124.2223384 +1  174.7927523 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07040047 +1  127.6144464 +1 -163.3753197 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11003462 +1  110.2286020 +1  -92.4373884 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09669950 +1  115.3591150 +1 -119.9836969 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07969183 +1   88.4008659 +1  123.1309685 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08012879 +1   91.9281982 +1  113.2956824 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08013073 +1  122.1365392 +1 -100.6140490 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07978607 +1  122.6174624 +1 -163.0409419 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    19.371 HEAT:  66.88772
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    12.693 HEAT:  66.88309
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.783 HEAT:  66.87826
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.802 HEAT:  66.87684
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.428 HEAT:  66.87316
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.756 HEAT:  66.87872
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.052 HEAT:  66.86815
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.972 HEAT:  66.86581
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.451 HEAT:  66.86194
+
+     GRADIENT =  0.45149  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.20000       66.861933
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.37918853 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.43557618 +1  108.7933348 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.37918815 +1  108.7651251 +1    0.0797378 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51854134 +1  108.3569610 +1  -15.4497527 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.20000000 -1   94.8197211 +1  -74.9872155 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.20000000 +0   94.8976760 +1   74.8020537 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07032219 +1  127.7113897 +1 -105.6710819 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07154624 +1  126.8518856 +1  174.7633823 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07151387 +1  124.1375926 +1  174.8336765 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07035695 +1  127.6966344 +1 -163.9096514 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11022865 +1  110.1919229 +1  -92.8701810 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09673911 +1  115.3636431 +1 -119.9462552 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07963121 +1   88.1000027 +1  123.1494684 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08012327 +1   91.6637524 +1  113.2843875 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08013605 +1  122.2093189 +1 -100.3324987 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07972013 +1  122.7085366 +1 -163.7142023 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    20.235 HEAT:  66.46499
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    13.397 HEAT:  66.46015
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.856 HEAT:  66.45512
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.475 HEAT:  66.45395
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.800 HEAT:  66.45087
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.945 HEAT:  66.45458
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.886 HEAT:  66.44604
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.340 HEAT:  66.44116
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.735 HEAT:  66.43878
+
+     GRADIENT =  0.73469  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.21000       66.438779
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.37769706 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.43770948 +1  108.8070506 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.37750869 +1  108.7695879 +1    0.0807833 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51824421 +1  108.4193387 +1  -15.1396634 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.21000000 -1   94.6599811 +1  -75.0683187 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.21000000 +0   94.7382404 +1   74.8678463 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07031730 +1  127.7865762 +1 -105.3562500 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07153110 +1  126.9385268 +1  174.8038259 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07149342 +1  124.0548539 +1  174.8862875 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07034650 +1  127.7700722 +1 -164.4484291 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11032840 +1  110.1597769 +1  -93.3129179 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09677519 +1  115.3630283 +1 -119.8983000 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07959559 +1   87.7962550 +1  123.1641348 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08011504 +1   91.4053321 +1  113.2764448 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08012182 +1  122.2783897 +1 -100.0105350 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07967308 +1  122.7970149 +1 -164.3801156 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    20.692 HEAT:  66.02673
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    14.527 HEAT:  66.02219
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.961 HEAT:  66.01686
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.685 HEAT:  66.01644
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.330 HEAT:  66.01297
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.762 HEAT:  66.01863
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.855 HEAT:  66.00861
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.510 HEAT:  66.00525
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.643 HEAT:  66.00190
+
+     GRADIENT =  0.64257  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.22000       66.001896
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.37616112 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.43949460 +1  108.8024132 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.37607532 +1  108.7718080 +1    0.0835688 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51804802 +1  108.4899876 +1  -14.8550404 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.22000000 -1   94.5111119 +1  -75.1554389 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.22000000 +0   94.5860540 +1   74.9509888 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07028875 +1  127.8540933 +1 -105.0680820 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07151834 +1  127.0124523 +1  174.8506730 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07148707 +1  123.9803873 +1  174.9393622 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07031907 +1  127.8384349 +1 -164.9403221 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11044882 +1  110.1322417 +1  -93.7369998 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09682910 +1  115.3583457 +1 -119.8556070 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07954198 +1   87.5253384 +1  123.1747787 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08010007 +1   91.1698993 +1  113.2708801 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08011019 +1  122.3408860 +1  -99.7276401 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07961851 +1  122.8732175 +1 -164.9997396 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    21.207 HEAT:  65.57928
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    15.123 HEAT:  65.57475
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.037 HEAT:  65.56926
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.246 HEAT:  65.56920
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.272 HEAT:  65.56553
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.767 HEAT:  65.57336
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.388 HEAT:  65.56040
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.552 HEAT:  65.55792
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.638 HEAT:  65.55462
+
+     GRADIENT =  0.63768  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.23000       65.554618
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.37485765 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.44122280 +1  108.8081727 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.37473845 +1  108.7760303 +1    0.0854393 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51781610 +1  108.5509178 +1  -14.5676767 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.23000000 -1   94.3595457 +1  -75.2368941 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.23000000 +0   94.4313103 +1   75.0313040 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07026617 +1  127.9166977 +1 -104.7879013 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07150441 +1  127.0838275 +1  174.8996356 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07147455 +1  123.9108133 +1  174.9974084 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07030060 +1  127.9012054 +1 -165.4188354 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11054147 +1  110.1079940 +1  -94.1549751 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09687963 +1  115.3506401 +1 -119.8127027 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07949628 +1   87.2642392 +1  123.1836114 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08008825 +1   90.9435903 +1  113.2672127 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08009569 +1  122.3997521 +1  -99.4461647 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07956950 +1  122.9455740 +1 -165.5943092 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    21.799 HEAT:  65.12420
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    16.144 HEAT:  65.11985
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.195 HEAT:  65.11401
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.289 HEAT:  65.11456
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.926 HEAT:  65.11025
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.252 HEAT:  65.10974
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.857 HEAT:  65.10478
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.107 HEAT:  65.10140
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.576 HEAT:  65.09951
+
+     GRADIENT =  0.57551  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.24000       65.099506
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.37358257 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.44284579 +1  108.8123556 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.37350150 +1  108.7865469 +1    0.0826033 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51758913 +1  108.6139980 +1  -14.2516852 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.24000000 -1   94.1842057 +1  -75.3170856 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.24000000 +0   94.2677328 +1   75.1236151 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07024447 +1  127.9793359 +1 -104.5008230 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07148180 +1  127.1578375 +1  174.9568690 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07145621 +1  123.8386828 +1  175.0637732 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07027628 +1  127.9646462 +1 -165.9075982 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11059926 +1  110.0852135 +1  -94.5967525 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09695083 +1  115.3394750 +1 -119.7670365 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07944191 +1   86.9945115 +1  123.1935516 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08007867 +1   90.7088175 +1  113.2667114 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08008582 +1  122.4588689 +1  -99.1592813 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07951771 +1  123.0165524 +1 -166.2038328 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    22.505 HEAT:  64.66254
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    17.375 HEAT:  64.65837
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.461 HEAT:  64.65234
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    12.117 HEAT:  64.65400
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.913 HEAT:  64.64829
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.267 HEAT:  64.64997
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.813 HEAT:  64.64383
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.644 HEAT:  64.64235
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.495 HEAT:  64.63988
+
+     GRADIENT =  0.49473  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.25000       64.639879
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.37242093 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.44426955 +1  108.8115155 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.37242907 +1  108.7927914 +1    0.0791473 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51740394 +1  108.6677027 +1  -13.9817666 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.25000000 -1   94.0384295 +1  -75.3996621 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.25000000 +0   94.1195110 +1   75.2114238 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07021002 +1  128.0302375 +1 -104.2598089 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07147951 +1  127.2132773 +1  175.0097877 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07145705 +1  123.7819598 +1  175.1282658 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07023947 +1  128.0168596 +1 -166.3303678 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11068078 +1  110.0679620 +1  -94.9929845 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09700927 +1  115.3243071 +1 -119.7281538 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07939534 +1   86.7702538 +1  123.2016461 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08005957 +1   90.5147428 +1  113.2689333 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08006895 +1  122.5068139 +1  -98.9118386 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07946539 +1  123.0748468 +1 -166.7288046 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.196 HEAT:  64.20067
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    18.336 HEAT:  64.19658
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.656 HEAT:  64.19015
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    12.853 HEAT:  64.19219
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.813 HEAT:  64.18580
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.582 HEAT:  64.18813
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.733 HEAT:  64.18120
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.352 HEAT:  64.17975
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.553 HEAT:  64.17723
+
+     GRADIENT =  0.55308  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.26000       64.177233
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.37134451 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.44566994 +1  108.8169789 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.37135130 +1  108.7987885 +1    0.0800773 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51718549 +1  108.7201105 +1  -13.7068437 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.26000000 -1   93.8832637 +1  -75.4868909 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.26000000 +0   93.9652288 +1   75.2967078 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07018237 +1  128.0801678 +1 -104.0127241 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07146904 +1  127.2703830 +1  175.0701534 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07144673 +1  123.7251363 +1  175.1954492 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07021293 +1  128.0672513 +1 -166.7611341 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11074071 +1  110.0532631 +1  -95.4079621 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09707399 +1  115.3081413 +1 -119.6939702 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07934364 +1   86.5447106 +1  123.2083891 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08004101 +1   90.3163784 +1  113.2717682 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08005051 +1  122.5545980 +1  -98.6595703 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07941415 +1  123.1331026 +1 -167.2583287 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.691 HEAT:  63.73651
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    19.264 HEAT:  63.73267
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.852 HEAT:  63.72594
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    13.790 HEAT:  63.72865
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.569 HEAT:  63.72157
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     7.391 HEAT:  63.72423
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.549 HEAT:  63.71730
+ CYCLE:     8 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.229 HEAT:  63.71617
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.552 HEAT:  63.71358
+
+     GRADIENT =  0.55161  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.27000       63.713583
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.37034820 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.44694933 +1  108.8205767 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.37036586 +1  108.8058051 +1    0.0747127 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51698308 +1  108.7684669 +1  -13.4376885 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.27000000 -1   93.7292434 +1  -75.5714535 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.27000000 +0   93.8123362 +1   75.3878911 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07014812 +1  128.1265685 +1 -103.7747165 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07146159 +1  127.3223806 +1  175.1317858 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07144316 +1  123.6727671 +1  175.2636979 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07018101 +1  128.1142051 +1 -167.1754155 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11079678 +1  110.0405364 +1  -95.8146205 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09714325 +1  115.2894748 +1 -119.6591292 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07929410 +1   86.3316868 +1  123.2133341 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08002443 +1   90.1292894 +1  113.2754104 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08003155 +1  122.5990530 +1  -98.4210695 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07936087 +1  123.1861554 +1 -167.7699569 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    24.125 HEAT:  63.27312
+ CYCLE:     2 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:    20.070 HEAT:  63.26948
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.019 HEAT:  63.26247
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    14.470 HEAT:  63.26568
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.489 HEAT:  63.25812
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     7.274 HEAT:  63.26101
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.295 HEAT:  63.25402
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.856 HEAT:  63.25283
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.609 HEAT:  63.25039
+
+     GRADIENT =  0.60937  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.28000       63.250388
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.36940959 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.44814647 +1  108.8271768 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.36943570 +1  108.8125779 +1    0.0736674 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51678153 +1  108.8160308 +1  -13.1680845 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.28000000 -1   93.5715029 +1  -75.6577799 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.28000000 +0   93.6512599 +1   75.4815074 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07011549 +1  128.1709976 +1 -103.5429177 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07145732 +1  127.3718472 +1  175.1969850 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07143902 +1  123.6226319 +1  175.3365887 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07015016 +1  128.1591132 +1 -167.5843481 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11083985 +1  110.0305927 +1  -96.2299217 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09721803 +1  115.2677441 +1 -119.6242754 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07924463 +1   86.1236193 +1  123.2170020 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.08000626 +1   89.9465002 +1  113.2803659 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.08001414 +1  122.6413745 +1  -98.1806079 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07931104 +1  123.2373565 +1 -168.2721970 +1     7     6    16
+ 
+   6  1    7
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    24.611 HEAT:  62.81128
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    20.981 HEAT:  62.80791
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.230 HEAT:  62.80060
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.330 HEAT:  62.80443
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.224 HEAT:  62.79622
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.470 HEAT:  62.79864
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.172 HEAT:  62.79257
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.758 HEAT:  62.79141
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.628 HEAT:  62.78913
+
+     GRADIENT =  0.62809  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.29000       62.789126
+*REMARK   3   HET = Not identified; C 5                            res:     1
+*REMARK   3   HET = Not identified; C 2                            res:     2
+ symmetry step=0.01 points=40 html
+       Cyclopentadiene plus ethylene
+      Path to find the transition state
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.36855043 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  C(HETATM    3  C3  HET A   1)   1.44927918 +1  108.8333044 +1    0.0000000 +0     2     1     0
+  C(HETATM    4  C4  HET A   1)   1.36857223 +1  108.8197350 +1    0.0742361 +1     3     2     1
+  C(HETATM    5  C5  HET A   1)   1.51658557 +1  108.8594140 +1  -12.9063809 +1     4     3     2
+  C(HETATM    6  C1  HET B   2)   2.29000000 -1   93.4134747 +1  -75.7468998 +1     1     2     3
+  C(HETATM    7  C2  HET B   2)   2.29000000 +0   93.4893287 +1   75.5745851 +1     4     3     2
+  H(HETATM    8  H1  HET A   1)   1.07008480 +1  128.2118534 +1 -103.3240847 +1     1     2     6
+  H(HETATM    9  H2  HET A   1)   1.07145456 +1  127.4173698 +1  175.2669798 +1     2     1     3
+  H(HETATM   10  H3  HET A   1)   1.07143749 +1  123.5760379 +1  175.4108032 +1     3     2     4
+  H(HETATM   11  H4  HET A   1)   1.07011927 +1  128.1999945 +1 -167.9761399 +1     4     3     5
+  H(HETATM   12 1H5  HET A   1)   1.11087627 +1  110.0241672 +1  -96.6421210 +1     5     4     3
+  H(HETATM   13 2H5  HET A   1)   1.09729011 +1  115.2429766 +1 -119.5919105 +1     5     4    12
+  H(HETATM   14 1H1  HET B   2)   1.07919879 +1   85.9268358 +1  123.2206521 +1     6     1     7
+  H(HETATM   15 2H1  HET B   2)   1.07998955 +1   89.7721917 +1  113.2864322 +1     6     1    14
+  H(HETATM   16 1H2  HET B   2)   1.07999707 +1  122.6797280 +1  -97.9473547 +1     7     6     1
+  H(HETATM   17 2H2  HET B   2)   1.07926008 +1  123.2853410 +1 -168.7524689 +1     7     6    16
+ 
+   6  1    7
+ 
+
+                POINTS ON REACTION PATH 
+                AND CORRESPONDING HEATS
+
+
+       1.90000000       1.91000000       1.92000000       1.93000000       1.94000000       1.95000000       1.96000000       1.97000000
+      52.61207283      53.76242168      54.90437382      56.03495493      57.15168845      58.25088585      59.32865957      60.38200378
+       1.98000000       1.99000000       2.00000000       2.01000000       2.02000000       2.03000000       2.04000000       2.05000000
+      61.40627359      62.39598136      63.34681617      64.25222030      65.10544747      65.89875587      66.62390840      67.27162317
+       2.06000000       2.07000000       2.08000000       2.09000000       2.10000000       2.11000000       2.12000000       2.13000000
+      67.83158579      68.29746257      68.66388933      68.92578465      69.08512411      69.14674919      69.12010274      69.01436018
+       2.14000000       2.15000000       2.16000000       2.17000000       2.18000000       2.19000000       2.20000000       2.21000000
+      68.84080127      68.60855347      68.32776988      68.00581091      67.65024225      67.26740140      66.86193296      66.43877858
+       2.22000000       2.23000000       2.24000000       2.25000000       2.26000000       2.27000000       2.28000000       2.29000000
+      66.00189565      65.55461799      65.09950624      64.63987857      64.17723283      63.71358269      63.25038798      62.78912616
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             2.53 SECONDS
+
+ == MOPAC DONE ==

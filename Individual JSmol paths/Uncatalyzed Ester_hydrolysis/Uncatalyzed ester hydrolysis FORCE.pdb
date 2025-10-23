@@ -1,0 +1,20 @@
+HEADER  data-set: Uncatalyzed ester hydrolysis FORCE
+REMARK  MOPAC 2012, Version: 15.317W Date: Nov 16 2015 10:12
+HETATM    1  C1  HET A   3      -0.075  -0.007  -0.044  1.00 -0.52      PROT C 
+HETATM    2  C2  HET A   3       1.289   0.213   0.530  1.00  0.79      PROT C 
+HETATM    3  O1  HET A   3       2.037   1.171   0.332  1.00 -0.79      PROT O 
+HETATM    4  O2  HET A   3       1.986  -1.165   0.448  1.00 -0.55      PROT O 
+HETATM    5  C3  HET A   3       3.381  -1.182   0.114  1.00  0.02      PROT C 
+HETATM    6  C4  HET A   3       3.742  -2.649  -0.029  1.00 -0.48      PROT C 
+HETATM    7 1H1  HET A   3      -0.032  -0.460  -1.046  1.00  0.19      PROT H 
+HETATM    8 2H1  HET A   3      -0.685  -0.677   0.582  1.00  0.19      PROT H 
+HETATM    9 3H1  HET A   3      -0.619   0.945  -0.142  1.00  0.19      PROT H 
+HETATM   10 1H3  HET A   3       3.495  -0.620  -0.831  1.00  0.14      PROT H 
+HETATM   11 2H3  HET A   3       3.947  -0.672   0.912  1.00  0.14      PROT H 
+HETATM   12 1H4  HET A   3       3.457  -3.228   0.859  1.00  0.16      PROT H 
+HETATM   13 2H4  HET A   3       3.244  -3.114  -0.890  1.00  0.16      PROT H 
+HETATM   14 3H4  HET A   3       4.825  -2.777  -0.169  1.00  0.17      PROT H 
+HETATM   15 1H   HOH A   5       1.695   0.449   2.626  1.00  0.38      PROT H 
+HETATM   16  O   HOH A   5       1.122  -0.105   2.052  1.00 -0.69      PROT O 
+HETATM   17 2H   HOH A   5       1.796  -1.205   1.740  1.00  0.48      PROT H 
+END

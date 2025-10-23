@@ -1,0 +1,112 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>CHARGE=n </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>CHARGE=<i>n</i></tt> </h1>
+<p>When the system being studied is an ion, the charge, <i>n</i>, on the ion must be supplied by <tt>CHARGE=<i>n</i></tt>. For cations <i>n</i> can be 1, 2, 3, etc.; for anions -1 or -2 or -3, etc. Examples of various charged systems are given in the Table below.
+</p><h3> <a href="mozyme.html"><tt>MOZYME</tt></a>-specific definition of <tt>
+CHARGE:</tt></h3>
+<p>If <tt>CHARGE=<i>n</i></tt> is not present, the charge required by the 
+<a href="Lewis_structures.html">Lewis structure</a> will be used.&nbsp; In 
+general, it is safer to use <tt>CHARGE=<i>n</i></tt> because if a change is 
+accidentally made to the net charge, the error will be detected and the run 
+stopped.<br/>
+If <tt>CHARGE=<i>n</i></tt> is present, including <tt>CHARGE=0</tt>, that charge will be used, unless 
+it is in conflict with the Lewis structure, in which case the job will be 
+stopped.<br/>
+If both <a href="geo-ok.html"><tt>GEO-OK</tt></a> and <tt>CHARGE=<i>n</i></tt> 
+are 
+present, that charge will be used, unless it is in conflict with the Lewis 
+structure, in which case the charge required by the Lewis structure will be 
+used. (This is not a useful option; it is equivalent to <tt>CHARGE=<i>n</i></tt> 
+being absent)</p><p>In cases where the charge supplied is in conflict with that 
+required by the Lewis structure, the Lewis structure will be printed.&nbsp; 
+That, together with the printed charged sites, will allow the correct charge to 
+be determined.</p><p>To change the charge calculated by MOZYME use one or more of 
+the following keywords:</p><p><tt><a href="metal.html">METAL</a></tt> &nbsp;- Change the formal 
+charge of a 
+metal atom.<br/><tt><a href="setpi.html">SETPI</a></tt> &nbsp;- Change Lewis structure 
+by adding and deleting &pi;-bonds.<br/><tt><a href="CVB.html">CVB</a></tt> &nbsp;- Change the topography of the system 
+by making and deleting connectivities. 
+</p><p>&nbsp;</p><p><br/>
+</p><div align="CENTER">&nbsp;
+<strong><p>Table:</p></strong> Use of <tt>CHARGE=<i>n</i></tt>
+<p align="CENTER"></p><center><table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p>Ion</p></td>
+<td valign="MIDDLE">
+<p>Keyword</p></td>
+<td valign="MIDDLE">
+<p>Ion</p></td>
+<td valign="MIDDLE">
+<p>Keyword</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE">
+<p>&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>NH<sub>4</sub><sup>+</sup></p></td>
+<td valign="MIDDLE">
+<tt></tt><p>CHARGE=1</p></td>
+<td valign="MIDDLE">
+<p>CH<sub>3</sub>COO<sup>-</sup></p></td>
+<td valign="MIDDLE">
+<tt></tt><p>CHARGE=-1</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>C<sub>2</sub>H<sub>5</sub><sup>+</sup></p></td>
+<td valign="MIDDLE">
+<tt></tt><p>CHARGE=1</p></td>
+<td valign="MIDDLE">
+<p>(COO)<sup>=</sup></p></td>
+<td valign="MIDDLE">
+<tt></tt><p>CHARGE=-2</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>SO<sub>4</sub><sup>=</sup></p></td>
+<td valign="MIDDLE">
+<tt></tt><p>CHARGE=-2</p></td>
+<td valign="MIDDLE">
+<p>PO<sub>4</sub><sup>-3</sup></p></td>
+<td valign="MIDDLE">
+<tt></tt><p>CHARGE=-3</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p>HSO<sub>4</sub><sup>-</sup></p></td>
+<td valign="MIDDLE">
+<tt></tt><p>CHARGE=-1</p></td>
+<td valign="MIDDLE">
+<p>H<sub>2</sub>PO<sub>4</sub><sup>-</sup></p></td>
+<td valign="MIDDLE">
+<tt></tt><p>CHARGE=-1</p></td>
+</tr>
+</table>
+</center>
+<p align="CENTER"></p></div>
+</body>
+</html>

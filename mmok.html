@@ -1,0 +1,71 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>MMOK </title>
+<style type="text/css">
+																											 .auto-style1 {
+																												 text-align: center;
+																											 }
+																											 .auto-style2 {
+																												font-family: Symbol;
+																											 }
+																											 .auto-style3 {
+																												 text-align: left;
+																											 }
+																											 </style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>MMOK</tt> </h1>
+<p>Recently, July 2013, a Molecular Mechanics correction was added to RM1, PM6, and 
+PM7.&nbsp; MM corrections have been available for MNDO, AM1, and PM3 for a long 
+time.&nbsp; Because of the recent change to RM1, PM6, and PM7, keyword <tt>MMOK</tt> must 
+be used if the molecular mechanics correction is wanted.&nbsp; <tt>MMOK</tt> is only 
+needed if peptide bonds are present. Eventually <tt>MMOK</tt> will become 
+the default, and the keyword will become redundant.</p>
+<p>If the molecular mechanics correction is not wanted, then <a href="nomm.html">
+<tt>NOMM</tt></a> should be used. </p>
+<p>If the system contains a peptide linkage, then when a molecular mechanics correction 
+is made the barrier to rotation about the peptide bond is increased (to 14.00 kcal/mol in N-methyl acetamide). </p>
+<p class="auto-style3">The peptide linkage consists of the group -CO-NH-.&nbsp; 
+In 
+most instances the O=C-N-H torsion or dihedral angle is near to 180&deg; and in a 
+few instances the angle is roughly 0&deg;, in other words, most peptide bonds 
+are 
+more-or-less flat.&nbsp; In proteins, because of environmental effects, the 
+deviation of the angle from these ideal angles can be greater.&nbsp;&nbsp; The 
+most important deviations from planarity occur when a peptide bond changes from cis to trans or vice versa.&nbsp; During such reactions the torsion angle goes 
+through 90&deg;.&nbsp; In the case of N-methyl-acetamide, the barrier to 
+rotation has been calculated, using highly accurate ab-initio methods, to be 
+about 14 kcal/mol.&nbsp; Semiempirical methods predict a smaller barrier.&nbsp; 
+To correct this fault, a small molecular mechanics correction is added to the 
+calculated heat of formation; this correction has the form:</p>
+<p class="auto-style1"><span class="b">&Delta;</span>H<sub>f</sub>' =
+<span class="b">&Delta;</span>H<sub>f</sub> +c.sin(&theta;)<sup>2</sup></p>
+<p class="auto-style3">where c is a constant depending on the semiempirical 
+method, and <font face="symbol">f</font> is the O=C-N-H torsion angle.&nbsp; 
+Obviously, if the torsion angle is 180&deg; or 0&deg;, i.e., the default peptide bond 
+angle, then no correction will be made, but for all other angles there is an 
+energy penalty that biases the peptide bond towards planarity.</p>
+<p class="auto-style3">In practice, this MM correction to the peptide bond 
+produces an insignificant bias towards planarity in proteins, because most 
+peptide bonds in proteins are almost planar anyhow, and a significant change in 
+barrier heights when reactions involving twisting a peptide bond are modeled.</p>
+</body>
+</html>

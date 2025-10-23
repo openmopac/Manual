@@ -1,0 +1,3 @@
+#
+# Script for use with the HTML file "FORCE and IRC starting from LOCATE-TS.html"
+#

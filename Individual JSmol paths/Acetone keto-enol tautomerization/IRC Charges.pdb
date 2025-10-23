@@ -1,0 +1,2037 @@
+MODEL      1
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 5.828 Kcal/mol
+HETATM    1  C1  HET A   1      -2.017   0.001  -0.496  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.541   0.018  -0.502  1.00  0.43      PROT C
+HETATM    3  C3  HET A   1       0.256   1.100  -0.535  1.00 -0.60      PROT C
+HETATM    4  O   HET A   1       0.090  -1.181  -0.477  1.00 -0.56      PROT O
+HETATM    5 1H1  HET A   1      -2.422  -0.024  -1.526  1.00  0.20      PROT H
+HETATM    6 2H1  HET A   1      -2.441  -0.871   0.031  1.00  0.19      PROT H
+HETATM    7 3H1  HET A   1      -2.446   0.897  -0.014  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.639   0.734   0.608  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.117   2.109  -0.531  1.00  0.19      PROT H
+HETATM   10 2H3  HET A   1       1.350   1.059  -0.643  1.00  0.18      PROT H
+HETATM   11  O   HOH B   2       1.665   0.219   1.575  1.00 -0.41      PROT O
+HETATM   12 2H   HOH B   2       2.085  -0.679   1.331  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.527  -1.965  -0.459  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.448   0.684   2.041  1.00  0.44      PROT H
+END
+ENDMDL
+MODEL      2
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 5.567 Kcal/mol
+HETATM    1  C1  HET A   1      -2.017   0.002  -0.496  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.541   0.017  -0.501  1.00  0.43      PROT C
+HETATM    3  C3  HET A   1       0.257   1.099  -0.532  1.00 -0.60      PROT C
+HETATM    4  O   HET A   1       0.090  -1.181  -0.477  1.00 -0.56      PROT O
+HETATM    5 1H1  HET A   1      -2.421  -0.022  -1.526  1.00  0.20      PROT H
+HETATM    6 2H1  HET A   1      -2.442  -0.871   0.029  1.00  0.19      PROT H
+HETATM    7 3H1  HET A   1      -2.445   0.898  -0.014  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.626   0.740   0.608  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.115   2.109  -0.527  1.00  0.19      PROT H
+HETATM   10 2H3  HET A   1       1.351   1.058  -0.645  1.00  0.19      PROT H
+HETATM   11  O   HOH B   2       1.664   0.219   1.574  1.00 -0.42      PROT O
+HETATM   12 2H   HOH B   2       2.088  -0.673   1.322  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.528  -1.966  -0.459  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.447   0.688   2.035  1.00  0.44      PROT H
+END
+ENDMDL
+MODEL      3
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 5.749 Kcal/mol
+HETATM    1  C1  HET A   1      -2.016   0.003  -0.496  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.540   0.016  -0.501  1.00  0.44      PROT C
+HETATM    3  C3  HET A   1       0.259   1.098  -0.530  1.00 -0.60      PROT C
+HETATM    4  O   HET A   1       0.090  -1.182  -0.477  1.00 -0.56      PROT O
+HETATM    5 1H1  HET A   1      -2.420  -0.021  -1.527  1.00  0.20      PROT H
+HETATM    6 2H1  HET A   1      -2.442  -0.870   0.028  1.00  0.19      PROT H
+HETATM    7 3H1  HET A   1      -2.445   0.898  -0.014  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.613   0.746   0.607  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.113   2.108  -0.523  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.353   1.057  -0.648  1.00  0.19      PROT H
+HETATM   11  O   HOH B   2       1.663   0.219   1.573  1.00 -0.42      PROT O
+HETATM   12 2H   HOH B   2       2.091  -0.668   1.314  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.528  -1.966  -0.460  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.446   0.692   2.030  1.00  0.44      PROT H
+END
+ENDMDL
+MODEL      4
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 5.873 Kcal/mol
+HETATM    1  C1  HET A   1      -2.016   0.003  -0.496  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.540   0.016  -0.500  1.00  0.44      PROT C
+HETATM    3  C3  HET A   1       0.261   1.097  -0.528  1.00 -0.61      PROT C
+HETATM    4  O   HET A   1       0.089  -1.182  -0.477  1.00 -0.56      PROT O
+HETATM    5 1H1  HET A   1      -2.419  -0.019  -1.527  1.00  0.20      PROT H
+HETATM    6 2H1  HET A   1      -2.443  -0.870   0.027  1.00  0.19      PROT H
+HETATM    7 3H1  HET A   1      -2.444   0.899  -0.014  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.600   0.752   0.606  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.111   2.107  -0.520  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.355   1.055  -0.651  1.00  0.19      PROT H
+HETATM   11  O   HOH B   2       1.662   0.219   1.571  1.00 -0.42      PROT O
+HETATM   12 2H   HOH B   2       2.094  -0.664   1.306  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.529  -1.967  -0.460  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.444   0.695   2.025  1.00  0.44      PROT H
+END
+ENDMDL
+MODEL      5
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 6.007 Kcal/mol
+HETATM    1  C1  HET A   1      -2.015   0.004  -0.496  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.540   0.015  -0.499  1.00  0.44      PROT C
+HETATM    3  C3  HET A   1       0.262   1.096  -0.525  1.00 -0.61      PROT C
+HETATM    4  O   HET A   1       0.089  -1.182  -0.477  1.00 -0.56      PROT O
+HETATM    5 1H1  HET A   1      -2.418  -0.018  -1.528  1.00  0.20      PROT H
+HETATM    6 2H1  HET A   1      -2.444  -0.870   0.026  1.00  0.19      PROT H
+HETATM    7 3H1  HET A   1      -2.444   0.899  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.586   0.757   0.605  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.109   2.106  -0.517  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.356   1.054  -0.654  1.00  0.19      PROT H
+HETATM   11  O   HOH B   2       1.662   0.219   1.570  1.00 -0.43      PROT O
+HETATM   12 2H   HOH B   2       2.096  -0.659   1.298  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.529  -1.968  -0.461  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.443   0.699   2.020  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL      6
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 6.229 Kcal/mol
+HETATM    1  C1  HET A   1      -2.015   0.004  -0.496  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.539   0.015  -0.499  1.00  0.45      PROT C
+HETATM    3  C3  HET A   1       0.264   1.095  -0.523  1.00 -0.61      PROT C
+HETATM    4  O   HET A   1       0.088  -1.183  -0.477  1.00 -0.56      PROT O
+HETATM    5 1H1  HET A   1      -2.417  -0.016  -1.528  1.00  0.20      PROT H
+HETATM    6 2H1  HET A   1      -2.444  -0.869   0.025  1.00  0.19      PROT H
+HETATM    7 3H1  HET A   1      -2.443   0.900  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.572   0.763   0.604  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.107   2.106  -0.513  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.357   1.052  -0.658  1.00  0.19      PROT H
+HETATM   11  O   HOH B   2       1.661   0.220   1.569  1.00 -0.43      PROT O
+HETATM   12 2H   HOH B   2       2.100  -0.655   1.291  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.529  -1.968  -0.461  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.442   0.702   2.014  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL      7
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 6.439 Kcal/mol
+HETATM    1  C1  HET A   1      -2.014   0.004  -0.497  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.539   0.014  -0.498  1.00  0.45      PROT C
+HETATM    3  C3  HET A   1       0.266   1.094  -0.521  1.00 -0.62      PROT C
+HETATM    4  O   HET A   1       0.088  -1.183  -0.477  1.00 -0.56      PROT O
+HETATM    5 1H1  HET A   1      -2.416  -0.015  -1.528  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.445  -0.869   0.024  1.00  0.19      PROT H
+HETATM    7 3H1  HET A   1      -2.442   0.900  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.556   0.769   0.604  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.106   2.105  -0.510  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.359   1.051  -0.662  1.00  0.19      PROT H
+HETATM   11  O   HOH B   2       1.660   0.220   1.568  1.00 -0.44      PROT O
+HETATM   12 2H   HOH B   2       2.101  -0.651   1.283  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.529  -1.969  -0.461  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.441   0.705   2.007  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL      8
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 6.533 Kcal/mol
+HETATM    1  C1  HET A   1      -2.014   0.005  -0.497  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.539   0.013  -0.498  1.00  0.46      PROT C
+HETATM    3  C3  HET A   1       0.267   1.094  -0.518  1.00 -0.62      PROT C
+HETATM    4  O   HET A   1       0.088  -1.183  -0.477  1.00 -0.56      PROT O
+HETATM    5 1H1  HET A   1      -2.415  -0.014  -1.529  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.445  -0.869   0.023  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.442   0.900  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.541   0.774   0.602  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.104   2.105  -0.507  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.360   1.050  -0.666  1.00  0.20      PROT H
+HETATM   11  O   HOH B   2       1.659   0.220   1.567  1.00 -0.44      PROT O
+HETATM   12 2H   HOH B   2       2.102  -0.647   1.275  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.529  -1.970  -0.461  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.441   0.708   2.001  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL      9
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 6.689 Kcal/mol
+HETATM    1  C1  HET A   1      -2.013   0.005  -0.497  1.00 -0.53      PROT C
+HETATM    2  C2  HET A   1      -0.539   0.013  -0.498  1.00  0.46      PROT C
+HETATM    3  C3  HET A   1       0.269   1.093  -0.516  1.00 -0.62      PROT C
+HETATM    4  O   HET A   1       0.087  -1.183  -0.477  1.00 -0.55      PROT O
+HETATM    5 1H1  HET A   1      -2.415  -0.013  -1.529  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.446  -0.869   0.022  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.441   0.901  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.525   0.780   0.601  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.102   2.104  -0.505  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.362   1.049  -0.670  1.00  0.20      PROT H
+HETATM   11  O   HOH B   2       1.658   0.220   1.566  1.00 -0.45      PROT O
+HETATM   12 2H   HOH B   2       2.102  -0.643   1.267  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.529  -1.971  -0.459  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.440   0.711   1.995  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL     10
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 6.822 Kcal/mol
+HETATM    1  C1  HET A   1      -2.013   0.005  -0.497  1.00 -0.54      PROT C
+HETATM    2  C2  HET A   1      -0.539   0.012  -0.497  1.00  0.47      PROT C
+HETATM    3  C3  HET A   1       0.271   1.092  -0.514  1.00 -0.63      PROT C
+HETATM    4  O   HET A   1       0.087  -1.183  -0.477  1.00 -0.55      PROT O
+HETATM    5 1H1  HET A   1      -2.414  -0.012  -1.529  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.447  -0.868   0.021  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.441   0.901  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.511   0.784   0.599  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.101   2.103  -0.503  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.363   1.048  -0.674  1.00  0.20      PROT H
+HETATM   11  O   HOH B   2       1.658   0.220   1.565  1.00 -0.45      PROT O
+HETATM   12 2H   HOH B   2       2.103  -0.639   1.261  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.529  -1.971  -0.458  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.440   0.713   1.989  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL     11
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 6.947 Kcal/mol
+HETATM    1  C1  HET A   1      -2.013   0.006  -0.497  1.00 -0.54      PROT C
+HETATM    2  C2  HET A   1      -0.539   0.012  -0.497  1.00  0.47      PROT C
+HETATM    3  C3  HET A   1       0.273   1.091  -0.511  1.00 -0.63      PROT C
+HETATM    4  O   HET A   1       0.087  -1.183  -0.477  1.00 -0.55      PROT O
+HETATM    5 1H1  HET A   1      -2.413  -0.011  -1.530  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.447  -0.868   0.020  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.441   0.901  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.494   0.789   0.596  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.099   2.103  -0.500  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.365   1.046  -0.680  1.00  0.20      PROT H
+HETATM   11  O   HOH B   2       1.657   0.220   1.564  1.00 -0.46      PROT O
+HETATM   12 2H   HOH B   2       2.104  -0.635   1.254  1.00  0.43      PROT H
+HETATM   13  H   HOH B   2      -0.528  -1.972  -0.456  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.439   0.717   1.982  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL     12
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 7.046 Kcal/mol
+HETATM    1  C1  HET A   1      -2.012   0.006  -0.497  1.00 -0.54      PROT C
+HETATM    2  C2  HET A   1      -0.538   0.011  -0.497  1.00  0.48      PROT C
+HETATM    3  C3  HET A   1       0.275   1.090  -0.509  1.00 -0.64      PROT C
+HETATM    4  O   HET A   1       0.086  -1.182  -0.477  1.00 -0.55      PROT O
+HETATM    5 1H1  HET A   1      -2.413  -0.010  -1.530  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.448  -0.868   0.020  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.440   0.902  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.478   0.794   0.593  1.00  0.44      PROT H
+HETATM    9 1H3  HET A   1      -0.097   2.102  -0.499  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.366   1.045  -0.685  1.00  0.21      PROT H
+HETATM   11  O   HOH B   2       1.656   0.220   1.563  1.00 -0.47      PROT O
+HETATM   12 2H   HOH B   2       2.104  -0.631   1.247  1.00  0.42      PROT H
+HETATM   13  H   HOH B   2      -0.528  -1.973  -0.454  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.437   0.719   1.977  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL     13
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 7.145 Kcal/mol
+HETATM    1  C1  HET A   1      -2.012   0.006  -0.497  1.00 -0.54      PROT C
+HETATM    2  C2  HET A   1      -0.538   0.011  -0.497  1.00  0.48      PROT C
+HETATM    3  C3  HET A   1       0.277   1.090  -0.506  1.00 -0.64      PROT C
+HETATM    4  O   HET A   1       0.086  -1.182  -0.476  1.00 -0.55      PROT O
+HETATM    5 1H1  HET A   1      -2.412  -0.009  -1.530  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.449  -0.868   0.019  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.440   0.902  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.463   0.799   0.592  1.00  0.45      PROT H
+HETATM    9 1H3  HET A   1      -0.096   2.101  -0.498  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.367   1.044  -0.691  1.00  0.21      PROT H
+HETATM   11  O   HOH B   2       1.656   0.220   1.562  1.00 -0.48      PROT O
+HETATM   12 2H   HOH B   2       2.105  -0.628   1.240  1.00  0.42      PROT H
+HETATM   13  H   HOH B   2      -0.527  -1.974  -0.452  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.435   0.722   1.973  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL     14
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 7.144 Kcal/mol
+HETATM    1  C1  HET A   1      -2.012   0.006  -0.497  1.00 -0.54      PROT C
+HETATM    2  C2  HET A   1      -0.538   0.010  -0.497  1.00  0.49      PROT C
+HETATM    3  C3  HET A   1       0.277   1.090  -0.506  1.00 -0.65      PROT C
+HETATM    4  O   HET A   1       0.086  -1.182  -0.476  1.00 -0.55      PROT O
+HETATM    5 1H1  HET A   1      -2.412  -0.008  -1.530  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.449  -0.868   0.019  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.440   0.902  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.459   0.800   0.591  1.00  0.45      PROT H
+HETATM    9 1H3  HET A   1      -0.096   2.101  -0.498  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.367   1.044  -0.692  1.00  0.21      PROT H
+HETATM   11  O   HOH B   2       1.656   0.220   1.562  1.00 -0.48      PROT O
+HETATM   12 2H   HOH B   2       2.105  -0.627   1.238  1.00  0.42      PROT H
+HETATM   13  H   HOH B   2      -0.526  -1.974  -0.452  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.435   0.723   1.972  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL     15
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 7.205 Kcal/mol
+HETATM    1  C1  HET A   1      -2.012   0.006  -0.497  1.00 -0.54      PROT C
+HETATM    2  C2  HET A   1      -0.538   0.010  -0.497  1.00  0.49      PROT C
+HETATM    3  C3  HET A   1       0.278   1.089  -0.505  1.00 -0.65      PROT C
+HETATM    4  O   HET A   1       0.086  -1.182  -0.476  1.00 -0.55      PROT O
+HETATM    5 1H1  HET A   1      -2.411  -0.008  -1.530  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.449  -0.868   0.018  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.440   0.902  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.453   0.800   0.591  1.00  0.45      PROT H
+HETATM    9 1H3  HET A   1      -0.095   2.101  -0.498  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.368   1.043  -0.695  1.00  0.21      PROT H
+HETATM   11  O   HOH B   2       1.656   0.220   1.561  1.00 -0.48      PROT O
+HETATM   12 2H   HOH B   2       2.105  -0.625   1.235  1.00  0.42      PROT H
+HETATM   13  H   HOH B   2      -0.526  -1.975  -0.451  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.433   0.724   1.971  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL     16
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:02
+REMARK  Heat of Formation = 7.205 Kcal/mol
+HETATM    1  C1  HET A   1      -2.012   0.006  -0.497  1.00 -0.54      PROT C
+HETATM    2  C2  HET A   1      -0.538   0.010  -0.497  1.00  0.49      PROT C
+HETATM    3  C3  HET A   1       0.278   1.089  -0.505  1.00 -0.65      PROT C
+HETATM    4  O   HET A   1       0.086  -1.182  -0.476  1.00 -0.55      PROT O
+HETATM    5 1H1  HET A   1      -2.411  -0.008  -1.530  1.00  0.21      PROT H
+HETATM    6 2H1  HET A   1      -2.449  -0.868   0.018  1.00  0.20      PROT H
+HETATM    7 3H1  HET A   1      -2.440   0.902  -0.013  1.00  0.20      PROT H
+HETATM    8 1H   HET A   1       1.453   0.800   0.591  1.00  0.45      PROT H
+HETATM    9 1H3  HET A   1      -0.095   2.101  -0.498  1.00  0.20      PROT H
+HETATM   10 2H3  HET A   1       1.368   1.043  -0.695  1.00  0.21      PROT H
+HETATM   11  O   HOH B   2       1.656   0.220   1.561  1.00 -0.48      PROT O
+HETATM   12 2H   HOH B   2       2.105  -0.625   1.235  1.00  0.42      PROT H
+HETATM   13  H   HOH B   2      -0.526  -1.975  -0.451  1.00  0.40      PROT H
+HETATM   14 2H   HOH B   2       2.433   0.724   1.971  1.00  0.43      PROT H
+END
+ENDMDL
+MODEL     17
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 7.488 Kcal/mol
+HETATM    1  C1  HET A   1      -2.010   0.006  -0.497  1.00 -0.54      PROT C 
+HETATM    2  C2  HET A   1      -0.539   0.006  -0.497  1.00  0.52      PROT C 
+HETATM    3  C3  HET A   1       0.285   1.089  -0.497  1.00 -0.67      PROT C 
+HETATM    4  O   HET A   1       0.084  -1.181  -0.477  1.00 -0.53      PROT O 
+HETATM    5 1H1  HET A   1      -2.411  -0.007  -1.531  1.00  0.22      PROT H 
+HETATM    6 2H1  HET A   1      -2.451  -0.868   0.016  1.00  0.20      PROT H 
+HETATM    7 3H1  HET A   1      -2.439   0.903  -0.013  1.00  0.21      PROT H 
+HETATM    8 1H   HET A   1       1.381   0.832   0.553  1.00  0.45      PROT H 
+HETATM    9 1H3  HET A   1      -0.095   2.100  -0.498  1.00  0.21      PROT H 
+HETATM   10 2H3  HET A   1       1.372   1.043  -0.728  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.656   0.219   1.561  1.00 -0.54      PROT O 
+HETATM   12 2H   HOH B   2       2.103  -0.617   1.231  1.00  0.42      PROT H 
+HETATM   13  H   HOH B   2      -0.525  -1.979  -0.448  1.00  0.41      PROT H 
+HETATM   14 2H   HOH B   2       2.424   0.725   1.965  1.00  0.42      PROT H 
+END
+ENDMDL
+MODEL     18
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 7.175 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009   0.007  -0.497  1.00 -0.55      PROT C 
+HETATM    2  C2  HET A   1      -0.539   0.002  -0.497  1.00  0.56      PROT C 
+HETATM    3  C3  HET A   1       0.292   1.088  -0.489  1.00 -0.68      PROT C 
+HETATM    4  O   HET A   1       0.083  -1.179  -0.477  1.00 -0.52      PROT O 
+HETATM    5 1H1  HET A   1      -2.411  -0.006  -1.532  1.00  0.22      PROT H 
+HETATM    6 2H1  HET A   1      -2.453  -0.869   0.015  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.904  -0.014  1.00  0.21      PROT H 
+HETATM    8 1H   HET A   1       1.310   0.862   0.513  1.00  0.45      PROT H 
+HETATM    9 1H3  HET A   1      -0.094   2.099  -0.497  1.00  0.21      PROT H 
+HETATM   10 2H3  HET A   1       1.376   1.042  -0.762  1.00  0.25      PROT H 
+HETATM   11  O   HOH B   2       1.656   0.219   1.561  1.00 -0.60      PROT O 
+HETATM   12 2H   HOH B   2       2.100  -0.609   1.230  1.00  0.41      PROT H 
+HETATM   13  H   HOH B   2      -0.526  -1.982  -0.447  1.00  0.41      PROT H 
+HETATM   14 2H   HOH B   2       2.416   0.727   1.960  1.00  0.41      PROT H 
+END
+ENDMDL
+MODEL     19
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 7.175 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009   0.007  -0.497  1.00 -0.55      PROT C 
+HETATM    2  C2  HET A   1      -0.539   0.002  -0.497  1.00  0.56      PROT C 
+HETATM    3  C3  HET A   1       0.292   1.088  -0.489  1.00 -0.68      PROT C 
+HETATM    4  O   HET A   1       0.083  -1.179  -0.477  1.00 -0.52      PROT O 
+HETATM    5 1H1  HET A   1      -2.411  -0.006  -1.532  1.00  0.22      PROT H 
+HETATM    6 2H1  HET A   1      -2.453  -0.869   0.015  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.904  -0.014  1.00  0.21      PROT H 
+HETATM    8 1H   HET A   1       1.310   0.862   0.513  1.00  0.45      PROT H 
+HETATM    9 1H3  HET A   1      -0.094   2.099  -0.497  1.00  0.21      PROT H 
+HETATM   10 2H3  HET A   1       1.376   1.042  -0.762  1.00  0.25      PROT H 
+HETATM   11  O   HOH B   2       1.656   0.219   1.561  1.00 -0.60      PROT O 
+HETATM   12 2H   HOH B   2       2.100  -0.609   1.230  1.00  0.41      PROT H 
+HETATM   13  H   HOH B   2      -0.526  -1.982  -0.447  1.00  0.41      PROT H 
+HETATM   14 2H   HOH B   2       2.416   0.727   1.960  1.00  0.41      PROT H 
+END
+ENDMDL
+MODEL     20
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 7.118 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009   0.007  -0.497  1.00 -0.55      PROT C 
+HETATM    2  C2  HET A   1      -0.539   0.002  -0.497  1.00  0.56      PROT C 
+HETATM    3  C3  HET A   1       0.293   1.088  -0.488  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.083  -1.179  -0.477  1.00 -0.52      PROT O 
+HETATM    5 1H1  HET A   1      -2.412  -0.006  -1.532  1.00  0.22      PROT H 
+HETATM    6 2H1  HET A   1      -2.453  -0.868   0.015  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.904  -0.014  1.00  0.21      PROT H 
+HETATM    8 1H   HET A   1       1.306   0.866   0.509  1.00  0.45      PROT H 
+HETATM    9 1H3  HET A   1      -0.094   2.099  -0.497  1.00  0.21      PROT H 
+HETATM   10 2H3  HET A   1       1.375   1.042  -0.765  1.00  0.25      PROT H 
+HETATM   11  O   HOH B   2       1.657   0.219   1.561  1.00 -0.60      PROT O 
+HETATM   12 2H   HOH B   2       2.100  -0.609   1.231  1.00  0.41      PROT H 
+HETATM   13  H   HOH B   2      -0.526  -1.983  -0.448  1.00  0.41      PROT H 
+HETATM   14 2H   HOH B   2       2.416   0.727   1.960  1.00  0.41      PROT H 
+END
+ENDMDL
+MODEL     21
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 6.999 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009   0.006  -0.497  1.00 -0.55      PROT C 
+HETATM    2  C2  HET A   1      -0.540   0.001  -0.497  1.00  0.57      PROT C 
+HETATM    3  C3  HET A   1       0.293   1.088  -0.487  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.083  -1.179  -0.477  1.00 -0.51      PROT O 
+HETATM    5 1H1  HET A   1      -2.412  -0.006  -1.532  1.00  0.22      PROT H 
+HETATM    6 2H1  HET A   1      -2.454  -0.868   0.015  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.904  -0.014  1.00  0.21      PROT H 
+HETATM    8 1H   HET A   1       1.297   0.872   0.501  1.00  0.44      PROT H 
+HETATM    9 1H3  HET A   1      -0.094   2.099  -0.497  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.375   1.042  -0.771  1.00  0.25      PROT H 
+HETATM   11  O   HOH B   2       1.657   0.219   1.561  1.00 -0.61      PROT O 
+HETATM   12 2H   HOH B   2       2.099  -0.609   1.233  1.00  0.41      PROT H 
+HETATM   13  H   HOH B   2      -0.526  -1.983  -0.449  1.00  0.41      PROT H 
+HETATM   14 2H   HOH B   2       2.415   0.727   1.959  1.00  0.41      PROT H 
+END
+ENDMDL
+MODEL     22
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 6.746 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009   0.006  -0.497  1.00 -0.55      PROT C 
+HETATM    2  C2  HET A   1      -0.540  -0.000  -0.497  1.00  0.58      PROT C 
+HETATM    3  C3  HET A   1       0.295   1.088  -0.486  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.082  -1.179  -0.477  1.00 -0.51      PROT O 
+HETATM    5 1H1  HET A   1      -2.412  -0.005  -1.532  1.00  0.22      PROT H 
+HETATM    6 2H1  HET A   1      -2.454  -0.868   0.014  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.905  -0.014  1.00  0.21      PROT H 
+HETATM    8 1H   HET A   1       1.283   0.883   0.489  1.00  0.44      PROT H 
+HETATM    9 1H3  HET A   1      -0.095   2.099  -0.497  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.375   1.042  -0.782  1.00  0.26      PROT H 
+HETATM   11  O   HOH B   2       1.657   0.219   1.562  1.00 -0.63      PROT O 
+HETATM   12 2H   HOH B   2       2.098  -0.608   1.236  1.00  0.41      PROT H 
+HETATM   13  H   HOH B   2      -0.526  -1.984  -0.451  1.00  0.41      PROT H 
+HETATM   14 2H   HOH B   2       2.414   0.727   1.958  1.00  0.41      PROT H 
+END
+ENDMDL
+MODEL     23
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 6.424 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009   0.006  -0.497  1.00 -0.56      PROT C 
+HETATM    2  C2  HET A   1      -0.540  -0.001  -0.498  1.00  0.59      PROT C 
+HETATM    3  C3  HET A   1       0.297   1.089  -0.484  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.082  -1.178  -0.477  1.00 -0.50      PROT O 
+HETATM    5 1H1  HET A   1      -2.412  -0.005  -1.532  1.00  0.23      PROT H 
+HETATM    6 2H1  HET A   1      -2.455  -0.868   0.014  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.905  -0.015  1.00  0.21      PROT H 
+HETATM    8 1H   HET A   1       1.268   0.894   0.477  1.00  0.44      PROT H 
+HETATM    9 1H3  HET A   1      -0.096   2.099  -0.498  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.374   1.042  -0.794  1.00  0.26      PROT H 
+HETATM   11  O   HOH B   2       1.658   0.218   1.563  1.00 -0.64      PROT O 
+HETATM   12 2H   HOH B   2       2.097  -0.608   1.238  1.00  0.40      PROT H 
+HETATM   13  H   HOH B   2      -0.526  -1.986  -0.452  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.412   0.727   1.958  1.00  0.41      PROT H 
+END
+ENDMDL
+MODEL     24
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 5.993 Kcal/mol
+HETATM    1  C1  HET A   1      -2.008   0.006  -0.497  1.00 -0.56      PROT C 
+HETATM    2  C2  HET A   1      -0.541  -0.003  -0.498  1.00  0.60      PROT C 
+HETATM    3  C3  HET A   1       0.298   1.089  -0.483  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.082  -1.178  -0.478  1.00 -0.50      PROT O 
+HETATM    5 1H1  HET A   1      -2.413  -0.005  -1.533  1.00  0.23      PROT H 
+HETATM    6 2H1  HET A   1      -2.456  -0.868   0.014  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.905  -0.015  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.252   0.906   0.464  1.00  0.43      PROT H 
+HETATM    9 1H3  HET A   1      -0.097   2.099  -0.498  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.373   1.043  -0.808  1.00  0.27      PROT H 
+HETATM   11  O   HOH B   2       1.658   0.218   1.563  1.00 -0.65      PROT O 
+HETATM   12 2H   HOH B   2       2.096  -0.607   1.240  1.00  0.40      PROT H 
+HETATM   13  H   HOH B   2      -0.525  -1.987  -0.454  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.411   0.726   1.958  1.00  0.41      PROT H 
+END
+ENDMDL
+MODEL     25
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 5.608 Kcal/mol
+HETATM    1  C1  HET A   1      -2.008   0.006  -0.497  1.00 -0.56      PROT C 
+HETATM    2  C2  HET A   1      -0.541  -0.004  -0.498  1.00  0.61      PROT C 
+HETATM    3  C3  HET A   1       0.300   1.089  -0.481  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.081  -1.177  -0.478  1.00 -0.49      PROT O 
+HETATM    5 1H1  HET A   1      -2.413  -0.005  -1.533  1.00  0.23      PROT H 
+HETATM    6 2H1  HET A   1      -2.457  -0.868   0.014  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.905  -0.015  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.237   0.917   0.454  1.00  0.42      PROT H 
+HETATM    9 1H3  HET A   1      -0.098   2.099  -0.499  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.371   1.043  -0.821  1.00  0.27      PROT H 
+HETATM   11  O   HOH B   2       1.659   0.218   1.564  1.00 -0.66      PROT O 
+HETATM   12 2H   HOH B   2       2.095  -0.606   1.241  1.00  0.40      PROT H 
+HETATM   13  H   HOH B   2      -0.525  -1.988  -0.455  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.410   0.725   1.958  1.00  0.40      PROT H 
+END
+ENDMDL
+MODEL     26
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 5.109 Kcal/mol
+HETATM    1  C1  HET A   1      -2.008   0.006  -0.497  1.00 -0.56      PROT C 
+HETATM    2  C2  HET A   1      -0.542  -0.005  -0.498  1.00  0.61      PROT C 
+HETATM    3  C3  HET A   1       0.302   1.090  -0.480  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.081  -1.177  -0.478  1.00 -0.48      PROT O 
+HETATM    5 1H1  HET A   1      -2.413  -0.005  -1.533  1.00  0.23      PROT H 
+HETATM    6 2H1  HET A   1      -2.457  -0.868   0.013  1.00  0.21      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.906  -0.016  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.222   0.930   0.444  1.00  0.42      PROT H 
+HETATM    9 1H3  HET A   1      -0.099   2.099  -0.500  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.369   1.043  -0.836  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.660   0.217   1.565  1.00 -0.67      PROT O 
+HETATM   12 2H   HOH B   2       2.094  -0.605   1.243  1.00  0.40      PROT H 
+HETATM   13  H   HOH B   2      -0.525  -1.989  -0.456  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.409   0.725   1.958  1.00  0.40      PROT H 
+END
+ENDMDL
+MODEL     27
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 4.668 Kcal/mol
+HETATM    1  C1  HET A   1      -2.008   0.006  -0.497  1.00 -0.56      PROT C 
+HETATM    2  C2  HET A   1      -0.542  -0.007  -0.498  1.00  0.62      PROT C 
+HETATM    3  C3  HET A   1       0.303   1.090  -0.479  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.080  -1.177  -0.478  1.00 -0.48      PROT O 
+HETATM    5 1H1  HET A   1      -2.413  -0.005  -1.533  1.00  0.23      PROT H 
+HETATM    6 2H1  HET A   1      -2.458  -0.868   0.013  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.437   0.906  -0.016  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.208   0.942   0.436  1.00  0.41      PROT H 
+HETATM    9 1H3  HET A   1      -0.101   2.099  -0.501  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.366   1.043  -0.851  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.660   0.217   1.566  1.00 -0.68      PROT O 
+HETATM   12 2H   HOH B   2       2.094  -0.605   1.244  1.00  0.40      PROT H 
+HETATM   13  H   HOH B   2      -0.525  -1.990  -0.457  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.408   0.724   1.959  1.00  0.40      PROT H 
+END
+ENDMDL
+MODEL     28
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 4.144 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007   0.006  -0.497  1.00 -0.56      PROT C 
+HETATM    2  C2  HET A   1      -0.543  -0.008  -0.498  1.00  0.63      PROT C 
+HETATM    3  C3  HET A   1       0.305   1.090  -0.477  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.080  -1.176  -0.478  1.00 -0.47      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.005  -1.534  1.00  0.23      PROT H 
+HETATM    6 2H1  HET A   1      -2.459  -0.868   0.013  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.437   0.906  -0.016  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.193   0.955   0.430  1.00  0.40      PROT H 
+HETATM    9 1H3  HET A   1      -0.102   2.099  -0.502  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.361   1.044  -0.868  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.661   0.217   1.567  1.00 -0.69      PROT O 
+HETATM   12 2H   HOH B   2       2.093  -0.604   1.245  1.00  0.40      PROT H 
+HETATM   13  H   HOH B   2      -0.525  -1.992  -0.458  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.407   0.723   1.959  1.00  0.40      PROT H 
+END
+ENDMDL
+MODEL     29
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 3.631 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007   0.006  -0.497  1.00 -0.57      PROT C 
+HETATM    2  C2  HET A   1      -0.543  -0.009  -0.498  1.00  0.63      PROT C 
+HETATM    3  C3  HET A   1       0.307   1.091  -0.476  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.080  -1.176  -0.478  1.00 -0.47      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.005  -1.534  1.00  0.23      PROT H 
+HETATM    6 2H1  HET A   1      -2.460  -0.868   0.012  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.437   0.907  -0.017  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.179   0.967   0.425  1.00  0.40      PROT H 
+HETATM    9 1H3  HET A   1      -0.104   2.098  -0.504  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.357   1.044  -0.884  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.662   0.216   1.568  1.00 -0.70      PROT O 
+HETATM   12 2H   HOH B   2       2.092  -0.604   1.246  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.524  -1.993  -0.458  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.406   0.723   1.960  1.00  0.39      PROT H 
+END
+ENDMDL
+MODEL     30
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 3.071 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007   0.006  -0.497  1.00 -0.57      PROT C 
+HETATM    2  C2  HET A   1      -0.543  -0.011  -0.499  1.00  0.64      PROT C 
+HETATM    3  C3  HET A   1       0.308   1.092  -0.476  1.00 -0.69      PROT C 
+HETATM    4  O   HET A   1       0.079  -1.175  -0.478  1.00 -0.46      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.004  -1.534  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.461  -0.867   0.012  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.437   0.907  -0.017  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.165   0.980   0.422  1.00  0.39      PROT H 
+HETATM    9 1H3  HET A   1      -0.106   2.098  -0.506  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.351   1.045  -0.902  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.662   0.216   1.569  1.00 -0.70      PROT O 
+HETATM   12 2H   HOH B   2       2.092  -0.603   1.247  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.524  -1.994  -0.459  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.406   0.722   1.960  1.00  0.39      PROT H 
+END
+ENDMDL
+MODEL     31
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 2.573 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007   0.006  -0.497  1.00 -0.57      PROT C 
+HETATM    2  C2  HET A   1      -0.544  -0.012  -0.499  1.00  0.64      PROT C 
+HETATM    3  C3  HET A   1       0.310   1.092  -0.475  1.00 -0.68      PROT C 
+HETATM    4  O   HET A   1       0.079  -1.175  -0.479  1.00 -0.46      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.004  -1.534  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.462  -0.867   0.012  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.437   0.907  -0.018  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.153   0.991   0.420  1.00  0.38      PROT H 
+HETATM    9 1H3  HET A   1      -0.107   2.098  -0.508  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.345   1.045  -0.918  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.663   0.215   1.570  1.00 -0.71      PROT O 
+HETATM   12 2H   HOH B   2       2.091  -0.603   1.248  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.524  -1.995  -0.460  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.405   0.721   1.961  1.00  0.39      PROT H 
+END
+ENDMDL
+MODEL     32
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 2.001 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007   0.006  -0.497  1.00 -0.57      PROT C 
+HETATM    2  C2  HET A   1      -0.544  -0.013  -0.499  1.00  0.65      PROT C 
+HETATM    3  C3  HET A   1       0.312   1.093  -0.474  1.00 -0.68      PROT C 
+HETATM    4  O   HET A   1       0.078  -1.175  -0.479  1.00 -0.45      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.004  -1.534  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.463  -0.867   0.011  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.436   0.908  -0.018  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.140   1.004   0.419  1.00  0.37      PROT H 
+HETATM    9 1H3  HET A   1      -0.109   2.098  -0.510  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.338   1.045  -0.936  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.664   0.215   1.571  1.00 -0.71      PROT O 
+HETATM   12 2H   HOH B   2       2.091  -0.603   1.248  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.523  -1.996  -0.461  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.405   0.720   1.961  1.00  0.39      PROT H 
+END
+ENDMDL
+MODEL     33
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 1.440 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007   0.006  -0.497  1.00 -0.57      PROT C 
+HETATM    2  C2  HET A   1      -0.545  -0.015  -0.499  1.00  0.65      PROT C 
+HETATM    3  C3  HET A   1       0.313   1.093  -0.474  1.00 -0.68      PROT C 
+HETATM    4  O   HET A   1       0.078  -1.174  -0.479  1.00 -0.45      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.004  -1.535  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.464  -0.867   0.011  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.436   0.908  -0.018  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.127   1.015   0.419  1.00  0.37      PROT H 
+HETATM    9 1H3  HET A   1      -0.111   2.098  -0.512  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.330   1.045  -0.953  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.664   0.214   1.572  1.00 -0.71      PROT O 
+HETATM   12 2H   HOH B   2       2.091  -0.603   1.249  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.523  -1.997  -0.462  1.00  0.42      PROT H 
+HETATM   14 2H   HOH B   2       2.405   0.719   1.962  1.00  0.39      PROT H 
+END
+ENDMDL
+MODEL     34
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 0.856 Kcal/mol
+HETATM    1  C1  HET A   1      -2.006   0.006  -0.497  1.00 -0.57      PROT C 
+HETATM    2  C2  HET A   1      -0.545  -0.016  -0.499  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.315   1.094  -0.474  1.00 -0.67      PROT C 
+HETATM    4  O   HET A   1       0.078  -1.174  -0.479  1.00 -0.44      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.004  -1.535  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.465  -0.867   0.011  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.436   0.908  -0.019  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.115   1.027   0.421  1.00  0.36      PROT H 
+HETATM    9 1H3  HET A   1      -0.113   2.097  -0.515  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.322   1.046  -0.971  1.00  0.28      PROT H 
+HETATM   11  O   HOH B   2       1.665   0.213   1.573  1.00 -0.72      PROT O 
+HETATM   12 2H   HOH B   2       2.090  -0.602   1.249  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.522  -1.998  -0.462  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.405   0.719   1.963  1.00  0.39      PROT H 
+END
+ENDMDL
+MODEL     35
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = 0.251 Kcal/mol
+HETATM    1  C1  HET A   1      -2.006   0.006  -0.497  1.00 -0.57      PROT C 
+HETATM    2  C2  HET A   1      -0.545  -0.017  -0.499  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.317   1.095  -0.473  1.00 -0.67      PROT C 
+HETATM    4  O   HET A   1       0.077  -1.174  -0.479  1.00 -0.44      PROT O 
+HETATM    5 1H1  HET A   1      -2.415  -0.003  -1.535  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.466  -0.867   0.010  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.436   0.909  -0.019  1.00  0.22      PROT H 
+HETATM    8 1H   HET A   1       1.102   1.038   0.423  1.00  0.36      PROT H 
+HETATM    9 1H3  HET A   1      -0.116   2.097  -0.517  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.314   1.046  -0.989  1.00  0.27      PROT H 
+HETATM   11  O   HOH B   2       1.666   0.213   1.574  1.00 -0.72      PROT O 
+HETATM   12 2H   HOH B   2       2.090  -0.602   1.249  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.522  -1.999  -0.463  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.405   0.718   1.963  1.00  0.39      PROT H 
+END
+ENDMDL
+MODEL     36
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -0.341 Kcal/mol
+HETATM    1  C1  HET A   1      -2.006   0.006  -0.497  1.00 -0.57      PROT C 
+HETATM    2  C2  HET A   1      -0.545  -0.018  -0.498  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.318   1.096  -0.473  1.00 -0.66      PROT C 
+HETATM    4  O   HET A   1       0.077  -1.173  -0.479  1.00 -0.44      PROT O 
+HETATM    5 1H1  HET A   1      -2.415  -0.003  -1.535  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.467  -0.867   0.010  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.435   0.909  -0.019  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       1.090   1.050   0.426  1.00  0.35      PROT H 
+HETATM    9 1H3  HET A   1      -0.118   2.097  -0.520  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.305   1.046  -1.006  1.00  0.27      PROT H 
+HETATM   11  O   HOH B   2       1.666   0.212   1.576  1.00 -0.72      PROT O 
+HETATM   12 2H   HOH B   2       2.090  -0.602   1.249  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.521  -2.001  -0.464  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.405   0.717   1.964  1.00  0.39      PROT H 
+END
+ENDMDL
+MODEL     37
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -0.780 Kcal/mol
+HETATM    1  C1  HET A   1      -2.006   0.006  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.546  -0.019  -0.498  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.320   1.097  -0.473  1.00 -0.66      PROT C 
+HETATM    4  O   HET A   1       0.077  -1.173  -0.479  1.00 -0.43      PROT O 
+HETATM    5 1H1  HET A   1      -2.415  -0.003  -1.535  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.467  -0.867   0.009  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.435   0.909  -0.020  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       1.078   1.061   0.429  1.00  0.34      PROT H 
+HETATM    9 1H3  HET A   1      -0.120   2.096  -0.523  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.296   1.047  -1.023  1.00  0.27      PROT H 
+HETATM   11  O   HOH B   2       1.667   0.212   1.577  1.00 -0.72      PROT O 
+HETATM   12 2H   HOH B   2       2.089  -0.602   1.249  1.00  0.39      PROT H 
+HETATM   13  H   HOH B   2      -0.521  -2.002  -0.465  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.405   0.716   1.965  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     38
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -1.416 Kcal/mol
+HETATM    1  C1  HET A   1      -2.006   0.006  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.546  -0.021  -0.498  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.322   1.097  -0.473  1.00 -0.65      PROT C 
+HETATM    4  O   HET A   1       0.076  -1.173  -0.480  1.00 -0.43      PROT O 
+HETATM    5 1H1  HET A   1      -2.415  -0.002  -1.535  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.469  -0.866   0.009  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.435   0.910  -0.020  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       1.064   1.074   0.433  1.00  0.34      PROT H 
+HETATM    9 1H3  HET A   1      -0.123   2.096  -0.527  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.286   1.047  -1.042  1.00  0.27      PROT H 
+HETATM   11  O   HOH B   2       1.668   0.211   1.578  1.00 -0.72      PROT O 
+HETATM   12 2H   HOH B   2       2.089  -0.602   1.249  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.520  -2.003  -0.466  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.406   0.715   1.966  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     39
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -1.989 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.006  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.546  -0.022  -0.498  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.324   1.098  -0.474  1.00 -0.64      PROT C 
+HETATM    4  O   HET A   1       0.076  -1.172  -0.480  1.00 -0.42      PROT O 
+HETATM    5 1H1  HET A   1      -2.415  -0.002  -1.536  1.00  0.24      PROT H 
+HETATM    6 2H1  HET A   1      -2.470  -0.866   0.008  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.434   0.910  -0.021  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       1.051   1.085   0.437  1.00  0.33      PROT H 
+HETATM    9 1H3  HET A   1      -0.125   2.096  -0.531  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.276   1.047  -1.060  1.00  0.26      PROT H 
+HETATM   11  O   HOH B   2       1.669   0.210   1.580  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.088  -0.602   1.248  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.520  -2.004  -0.466  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.406   0.714   1.967  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     40
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -2.504 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.006  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.547  -0.023  -0.498  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.325   1.099  -0.474  1.00 -0.64      PROT C 
+HETATM    4  O   HET A   1       0.076  -1.172  -0.480  1.00 -0.42      PROT O 
+HETATM    5 1H1  HET A   1      -2.415  -0.002  -1.536  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.471  -0.866   0.008  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.434   0.910  -0.021  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       1.039   1.096   0.441  1.00  0.32      PROT H 
+HETATM    9 1H3  HET A   1      -0.128   2.095  -0.534  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.267   1.047  -1.075  1.00  0.26      PROT H 
+HETATM   11  O   HOH B   2       1.670   0.210   1.581  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.088  -0.602   1.248  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.519  -2.005  -0.467  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.407   0.713   1.968  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     41
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -3.006 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.006  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.547  -0.024  -0.498  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.326   1.100  -0.474  1.00 -0.63      PROT C 
+HETATM    4  O   HET A   1       0.075  -1.172  -0.480  1.00 -0.42      PROT O 
+HETATM    5 1H1  HET A   1      -2.415  -0.001  -1.536  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.472  -0.866   0.007  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.434   0.911  -0.021  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       1.028   1.106   0.445  1.00  0.32      PROT H 
+HETATM    9 1H3  HET A   1      -0.130   2.095  -0.538  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.258   1.048  -1.090  1.00  0.26      PROT H 
+HETATM   11  O   HOH B   2       1.670   0.209   1.582  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.088  -0.601   1.247  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.519  -2.006  -0.468  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.407   0.711   1.969  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     42
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -3.471 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.006  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.547  -0.025  -0.497  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.328   1.101  -0.475  1.00 -0.63      PROT C 
+HETATM    4  O   HET A   1       0.075  -1.172  -0.480  1.00 -0.42      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.001  -1.536  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.473  -0.866   0.007  1.00  0.22      PROT H 
+HETATM    7 3H1  HET A   1      -2.434   0.911  -0.022  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       1.016   1.117   0.449  1.00  0.32      PROT H 
+HETATM    9 1H3  HET A   1      -0.133   2.094  -0.542  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.249   1.048  -1.104  1.00  0.26      PROT H 
+HETATM   11  O   HOH B   2       1.671   0.208   1.583  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.087  -0.601   1.246  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.518  -2.007  -0.469  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.408   0.710   1.970  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     43
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -3.934 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.006  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.547  -0.026  -0.497  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.329   1.102  -0.475  1.00 -0.62      PROT C 
+HETATM    4  O   HET A   1       0.075  -1.172  -0.480  1.00 -0.41      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.001  -1.536  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.474  -0.866   0.006  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.433   0.911  -0.022  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       1.004   1.128   0.453  1.00  0.31      PROT H 
+HETATM    9 1H3  HET A   1      -0.136   2.094  -0.547  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.239   1.048  -1.119  1.00  0.25      PROT H 
+HETATM   11  O   HOH B   2       1.672   0.208   1.585  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.087  -0.601   1.245  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.518  -2.008  -0.470  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.409   0.709   1.972  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     44
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -4.226 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.006  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.547  -0.027  -0.497  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.330   1.103  -0.476  1.00 -0.61      PROT C 
+HETATM    4  O   HET A   1       0.075  -1.171  -0.481  1.00 -0.41      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.000  -1.536  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.475  -0.865   0.006  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.433   0.912  -0.022  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.994   1.137   0.457  1.00  0.31      PROT H 
+HETATM    9 1H3  HET A   1      -0.138   2.093  -0.551  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.231   1.048  -1.131  1.00  0.25      PROT H 
+HETATM   11  O   HOH B   2       1.673   0.207   1.586  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.086  -0.601   1.245  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.517  -2.008  -0.470  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.409   0.707   1.972  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     45
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -4.558 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.005  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.028  -0.496  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.331   1.104  -0.477  1.00 -0.61      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.481  1.00 -0.41      PROT O 
+HETATM    5 1H1  HET A   1      -2.414  -0.000  -1.537  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.476  -0.865   0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.432   0.912  -0.023  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.984   1.147   0.461  1.00  0.30      PROT H 
+HETATM    9 1H3  HET A   1      -0.141   2.093  -0.556  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.223   1.048  -1.143  1.00  0.25      PROT H 
+HETATM   11  O   HOH B   2       1.673   0.206   1.587  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.086  -0.601   1.244  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.517  -2.009  -0.471  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.410   0.706   1.973  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     46
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -5.016 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.005  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.029  -0.496  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.332   1.105  -0.478  1.00 -0.60      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.481  1.00 -0.41      PROT O 
+HETATM    5 1H1  HET A   1      -2.413   0.000  -1.537  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.477  -0.865   0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.432   0.912  -0.023  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.969   1.161   0.466  1.00  0.30      PROT H 
+HETATM    9 1H3  HET A   1      -0.146   2.092  -0.563  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.211   1.049  -1.160  1.00  0.24      PROT H 
+HETATM   11  O   HOH B   2       1.675   0.205   1.590  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.086  -0.601   1.242  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.516  -2.011  -0.472  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.412   0.704   1.975  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     47
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -5.415 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.005  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.030  -0.495  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.333   1.107  -0.479  1.00 -0.60      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.481  1.00 -0.40      PROT O 
+HETATM    5 1H1  HET A   1      -2.413   0.001  -1.537  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.478  -0.865   0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.431   0.913  -0.023  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.954   1.175   0.470  1.00  0.30      PROT H 
+HETATM    9 1H3  HET A   1      -0.150   2.092  -0.572  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.200   1.049  -1.175  1.00  0.24      PROT H 
+HETATM   11  O   HOH B   2       1.676   0.204   1.592  1.00 -0.73      PROT O 
+HETATM   12 2H   HOH B   2       2.085  -0.600   1.240  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.515  -2.012  -0.474  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.414   0.701   1.976  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     48
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -5.573 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.005  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.030  -0.495  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.334   1.108  -0.480  1.00 -0.59      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.481  1.00 -0.40      PROT O 
+HETATM    5 1H1  HET A   1      -2.413   0.001  -1.537  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.479  -0.865   0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.431   0.913  -0.023  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.949   1.180   0.471  1.00  0.29      PROT H 
+HETATM    9 1H3  HET A   1      -0.152   2.091  -0.575  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.197   1.049  -1.180  1.00  0.24      PROT H 
+HETATM   11  O   HOH B   2       1.676   0.203   1.593  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.085  -0.600   1.239  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.515  -2.012  -0.474  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.415   0.700   1.977  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     49
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -5.902 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.005  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.031  -0.494  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.334   1.109  -0.482  1.00 -0.59      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.482  1.00 -0.40      PROT O 
+HETATM    5 1H1  HET A   1      -2.412   0.002  -1.537  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.480  -0.864   0.003  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.431   0.913  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.936   1.194   0.475  1.00  0.29      PROT H 
+HETATM    9 1H3  HET A   1      -0.157   2.090  -0.584  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.187   1.049  -1.193  1.00  0.24      PROT H 
+HETATM   11  O   HOH B   2       1.678   0.202   1.595  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.084  -0.600   1.237  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.514  -2.013  -0.475  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.417   0.698   1.978  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     50
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -5.969 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.005  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.032  -0.494  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.334   1.110  -0.483  1.00 -0.59      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.482  1.00 -0.40      PROT O 
+HETATM    5 1H1  HET A   1      -2.412   0.002  -1.537  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.481  -0.864   0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.431   0.914  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.931   1.199   0.476  1.00  0.29      PROT H 
+HETATM    9 1H3  HET A   1      -0.159   2.090  -0.588  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.184   1.049  -1.197  1.00  0.24      PROT H 
+HETATM   11  O   HOH B   2       1.678   0.202   1.596  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.084  -0.600   1.236  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.514  -2.014  -0.476  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.418   0.696   1.979  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     51
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -6.128 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.005  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.033  -0.493  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.334   1.112  -0.485  1.00 -0.58      PROT C 
+HETATM    4  O   HET A   1       0.073  -1.171  -0.482  1.00 -0.40      PROT O 
+HETATM    5 1H1  HET A   1      -2.411   0.003  -1.538  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.483  -0.864   0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.430   0.914  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.918   1.213   0.478  1.00  0.29      PROT H 
+HETATM    9 1H3  HET A   1      -0.165   2.089  -0.601  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.175   1.049  -1.209  1.00  0.24      PROT H 
+HETATM   11  O   HOH B   2       1.680   0.200   1.599  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.084  -0.599   1.233  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.513  -2.014  -0.477  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.421   0.693   1.981  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     52
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -6.256 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.005  -0.497  1.00 -0.58      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.033  -0.492  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.334   1.113  -0.487  1.00 -0.58      PROT C 
+HETATM    4  O   HET A   1       0.073  -1.171  -0.482  1.00 -0.40      PROT O 
+HETATM    5 1H1  HET A   1      -2.411   0.003  -1.538  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.484  -0.864   0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.430   0.914  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.910   1.222   0.478  1.00  0.28      PROT H 
+HETATM    9 1H3  HET A   1      -0.169   2.088  -0.608  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.171   1.049  -1.214  1.00  0.24      PROT H 
+HETATM   11  O   HOH B   2       1.681   0.199   1.601  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.084  -0.599   1.231  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.513  -2.015  -0.478  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.423   0.691   1.982  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     53
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -6.464 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.005  -0.497  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.034  -0.492  1.00  0.67      PROT C 
+HETATM    3  C3  HET A   1       0.333   1.115  -0.489  1.00 -0.58      PROT C 
+HETATM    4  O   HET A   1       0.073  -1.171  -0.483  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.410   0.004  -1.538  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.485  -0.863   0.000  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.914  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.901   1.233   0.479  1.00  0.28      PROT H 
+HETATM    9 1H3  HET A   1      -0.174   2.087  -0.619  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.166   1.049  -1.221  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.682   0.198   1.604  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.083  -0.598   1.228  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.512  -2.015  -0.478  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.426   0.687   1.983  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     54
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -6.606 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.005  -0.496  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.034  -0.491  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.332   1.117  -0.491  1.00 -0.57      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.483  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.409   0.004  -1.538  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.486  -0.863  -0.000  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.915  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.894   1.242   0.479  1.00  0.28      PROT H 
+HETATM    9 1H3  HET A   1      -0.178   2.086  -0.628  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.164   1.049  -1.225  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.684   0.197   1.606  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.083  -0.598   1.225  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.512  -2.016  -0.479  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.429   0.685   1.984  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     55
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -6.759 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.005  -0.496  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.035  -0.490  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.331   1.118  -0.494  1.00 -0.57      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.483  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.408   0.005  -1.539  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.487  -0.863  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.915  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.886   1.251   0.478  1.00  0.28      PROT H 
+HETATM    9 1H3  HET A   1      -0.182   2.085  -0.639  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.161   1.049  -1.228  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.685   0.195   1.608  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.082  -0.597   1.222  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.511  -2.016  -0.480  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.432   0.682   1.985  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     56
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -6.973 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.005  -0.496  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.035  -0.489  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.329   1.121  -0.497  1.00 -0.57      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.483  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.407   0.006  -1.539  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.488  -0.863  -0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.915  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.876   1.264   0.477  1.00  0.28      PROT H 
+HETATM    9 1H3  HET A   1      -0.188   2.084  -0.654  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.159   1.049  -1.232  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.687   0.193   1.612  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.081  -0.596   1.218  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.511  -2.016  -0.480  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.436   0.677   1.986  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     57
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -7.071 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.005  -0.496  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.035  -0.489  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.328   1.122  -0.499  1.00 -0.57      PROT C 
+HETATM    4  O   HET A   1       0.074  -1.171  -0.484  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.406   0.006  -1.539  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.489  -0.863  -0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.915  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.870   1.271   0.476  1.00  0.28      PROT H 
+HETATM    9 1H3  HET A   1      -0.192   2.083  -0.664  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.158   1.048  -1.233  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.688   0.192   1.614  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.080  -0.595   1.215  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.510  -2.017  -0.480  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.439   0.674   1.987  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     58
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -7.234 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.005  -0.495  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.036  -0.489  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.326   1.124  -0.503  1.00 -0.57      PROT C 
+HETATM    4  O   HET A   1       0.075  -1.170  -0.484  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.406   0.007  -1.539  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.489  -0.863  -0.003  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.428   0.915  -0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.861   1.282   0.474  1.00  0.28      PROT H 
+HETATM    9 1H3  HET A   1      -0.197   2.082  -0.678  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.158   1.048  -1.235  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.690   0.190   1.618  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.079  -0.594   1.210  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.510  -2.017  -0.480  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.444   0.670   1.987  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     59
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -7.404 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.005  -0.495  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.036  -0.488  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.323   1.126  -0.507  1.00 -0.57      PROT C 
+HETATM    4  O   HET A   1       0.075  -1.170  -0.484  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.405   0.008  -1.539  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.490  -0.863  -0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.428   0.915  -0.023  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.852   1.293   0.472  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.203   2.081  -0.693  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.158   1.047  -1.235  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.692   0.188   1.622  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.077  -0.593   1.205  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.509  -2.017  -0.479  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.449   0.665   1.988  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     60
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -7.493 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.005  -0.495  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.036  -0.488  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.322   1.128  -0.509  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.075  -1.170  -0.484  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.404   0.009  -1.539  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.491  -0.863  -0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.428   0.914  -0.022  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.846   1.299   0.471  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.206   2.080  -0.703  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.158   1.046  -1.235  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.693   0.187   1.624  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.076  -0.592   1.202  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.508  -2.017  -0.479  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.452   0.662   1.988  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     61
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -7.591 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.005  -0.494  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.548  -0.036  -0.488  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.320   1.129  -0.513  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.076  -1.169  -0.484  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.404   0.010  -1.539  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.491  -0.864  -0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.428   0.914  -0.021  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.837   1.309   0.469  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.210   2.078  -0.717  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.159   1.045  -1.234  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.695   0.185   1.628  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.074  -0.591   1.196  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.508  -2.016  -0.478  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.457   0.658   1.988  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     62
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -7.693 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.004  -0.494  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.549  -0.036  -0.488  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.318   1.131  -0.515  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.076  -1.169  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.404   0.010  -1.538  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.492  -0.864  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.914  -0.021  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.830   1.316   0.468  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.213   2.077  -0.729  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.160   1.044  -1.234  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.696   0.184   1.631  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.072  -0.590   1.192  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.508  -2.016  -0.477  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.461   0.654   1.988  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     63
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -7.816 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.004  -0.493  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.549  -0.036  -0.488  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.316   1.132  -0.519  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.077  -1.168  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.404   0.011  -1.538  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.492  -0.865  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.913  -0.019  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.821   1.325   0.467  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.217   2.076  -0.743  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.162   1.042  -1.232  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.698   0.182   1.634  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.069  -0.589   1.187  1.00  0.38      PROT H 
+HETATM   13  H   HOH B   2      -0.507  -2.016  -0.475  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.467   0.650   1.987  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     64
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -7.958 Kcal/mol
+HETATM    1  C1  HET A   1      -2.003   0.004  -0.493  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.549  -0.036  -0.488  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.314   1.134  -0.521  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.078  -1.168  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.405   0.011  -1.537  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.492  -0.865  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.913  -0.018  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.814   1.331   0.466  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.219   2.075  -0.753  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.163   1.041  -1.231  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.699   0.180   1.637  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.067  -0.588   1.182  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.506  -2.016  -0.474  1.00  0.43      PROT H 
+HETATM   14 2H   HOH B   2       2.471   0.647   1.985  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     65
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.062 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.003  -0.492  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.549  -0.036  -0.489  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.312   1.135  -0.525  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.078  -1.167  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.405   0.012  -1.537  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.492  -0.866  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.912  -0.017  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.806   1.339   0.464  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.222   2.074  -0.766  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.166   1.040  -1.229  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.701   0.179   1.641  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.064  -0.586   1.177  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.505  -2.015  -0.472  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.476   0.643   1.984  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     66
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.175 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.003  -0.492  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.550  -0.035  -0.490  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.310   1.137  -0.528  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.079  -1.166  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.406   0.012  -1.536  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.492  -0.867  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.911  -0.015  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.797   1.347   0.463  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.224   2.072  -0.780  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.168   1.038  -1.226  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.703   0.177   1.644  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.060  -0.584   1.171  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.504  -2.015  -0.470  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.482   0.639   1.981  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     67
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.226 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.003  -0.491  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.550  -0.035  -0.490  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.309   1.137  -0.530  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.079  -1.166  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.407   0.012  -1.535  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.492  -0.867  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.910  -0.014  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.791   1.352   0.462  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.225   2.071  -0.789  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.170   1.037  -1.225  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.704   0.176   1.647  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.057  -0.583   1.167  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.503  -2.015  -0.469  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.485   0.636   1.979  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     68
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.325 Kcal/mol
+HETATM    1  C1  HET A   1      -2.004   0.002  -0.491  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.550  -0.035  -0.490  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.308   1.138  -0.532  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.080  -1.165  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.407   0.013  -1.535  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.492  -0.868  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.429   0.910  -0.013  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.786   1.356   0.461  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.226   2.070  -0.796  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.171   1.036  -1.223  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.705   0.175   1.648  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.055  -0.582   1.163  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.502  -2.015  -0.468  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.488   0.634   1.978  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     69
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.362 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.002  -0.491  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.550  -0.035  -0.491  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.307   1.139  -0.534  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.080  -1.165  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.408   0.013  -1.534  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.492  -0.869  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.430   0.909  -0.012  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.779   1.361   0.461  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.228   2.069  -0.805  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.173   1.035  -1.221  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.706   0.173   1.651  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.052  -0.581   1.159  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.501  -2.015  -0.466  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.492   0.631   1.975  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     70
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.462 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.002  -0.490  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.551  -0.035  -0.492  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.306   1.140  -0.537  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.081  -1.164  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.409   0.013  -1.533  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.491  -0.870  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.430   0.908  -0.011  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.771   1.368   0.460  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.229   2.068  -0.817  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.176   1.034  -1.218  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.707   0.172   1.654  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.047  -0.579   1.152  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.499  -2.014  -0.464  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.497   0.628   1.972  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     71
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.507 Kcal/mol
+HETATM    1  C1  HET A   1      -2.005   0.001  -0.490  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.551  -0.035  -0.493  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.304   1.141  -0.539  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.081  -1.163  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.410   0.014  -1.533  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.491  -0.871  -0.005  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.430   0.907  -0.009  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.764   1.374   0.459  1.00  0.27      PROT H 
+HETATM    9 1H3  HET A   1      -0.230   2.067  -0.827  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.178   1.032  -1.216  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.708   0.171   1.657  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.043  -0.577   1.147  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.498  -2.014  -0.462  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.502   0.625   1.969  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     72
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.602 Kcal/mol
+HETATM    1  C1  HET A   1      -2.006   0.000  -0.489  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.552  -0.034  -0.494  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.303   1.142  -0.542  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.082  -1.162  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.412   0.014  -1.531  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.491  -0.872  -0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.431   0.906  -0.007  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.753   1.382   0.458  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.231   2.065  -0.841  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.182   1.030  -1.212  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.710   0.169   1.661  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.036  -0.575   1.140  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.496  -2.014  -0.460  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.509   0.620   1.963  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     73
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.644 Kcal/mol
+HETATM    1  C1  HET A   1      -2.006  -0.000  -0.488  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.552  -0.034  -0.494  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.302   1.143  -0.544  1.00 -0.56      PROT C 
+HETATM    4  O   HET A   1       0.083  -1.161  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.413   0.014  -1.531  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.490  -0.873  -0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.431   0.905  -0.006  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.747   1.387   0.458  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.231   2.064  -0.849  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.184   1.029  -1.209  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.711   0.168   1.663  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       2.032  -0.574   1.136  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.495  -2.013  -0.458  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.512   0.618   1.960  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     74
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.702 Kcal/mol
+HETATM    1  C1  HET A   1      -2.006  -0.001  -0.488  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.553  -0.034  -0.495  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.301   1.144  -0.546  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.083  -1.160  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.415   0.014  -1.530  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.490  -0.874  -0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.431   0.904  -0.004  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.740   1.392   0.457  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.232   2.063  -0.859  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.186   1.028  -1.206  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.712   0.166   1.666  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       2.027  -0.572   1.131  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.493  -2.013  -0.456  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.517   0.615   1.956  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     75
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.738 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007  -0.001  -0.488  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.553  -0.034  -0.496  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.300   1.144  -0.548  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.084  -1.160  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.416   0.014  -1.529  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.490  -0.875  -0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.431   0.903  -0.003  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.736   1.396   0.456  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.232   2.062  -0.865  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.188   1.027  -1.204  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.713   0.166   1.668  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       2.024  -0.571   1.128  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.492  -2.013  -0.455  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.520   0.613   1.953  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     76
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.771 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007  -0.001  -0.487  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.553  -0.034  -0.496  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.299   1.145  -0.549  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.084  -1.159  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.417   0.015  -1.528  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.489  -0.876  -0.004  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.432   0.902  -0.002  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.730   1.400   0.456  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.232   2.061  -0.873  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.190   1.026  -1.202  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.714   0.165   1.670  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       2.019  -0.569   1.124  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.491  -2.013  -0.454  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.524   0.611   1.949  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     77
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.820 Kcal/mol
+HETATM    1  C1  HET A   1      -2.007  -0.002  -0.487  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.554  -0.033  -0.497  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.298   1.146  -0.551  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.085  -1.158  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.418   0.015  -1.528  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.489  -0.877  -0.003  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.432   0.901  -0.000  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.723   1.405   0.455  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.232   2.059  -0.882  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.192   1.024  -1.199  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.715   0.164   1.672  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       2.013  -0.568   1.119  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.489  -2.013  -0.452  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.528   0.608   1.943  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     78
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.885 Kcal/mol
+HETATM    1  C1  HET A   1      -2.008  -0.003  -0.486  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.554  -0.033  -0.498  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.298   1.146  -0.553  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.085  -1.157  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.420   0.015  -1.527  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.488  -0.878  -0.003  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.432   0.900   0.001  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.717   1.410   0.455  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.232   2.058  -0.890  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.194   1.023  -1.196  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.716   0.163   1.675  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       2.008  -0.566   1.115  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.488  -2.012  -0.451  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.532   0.606   1.939  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     79
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.919 Kcal/mol
+HETATM    1  C1  HET A   1      -2.008  -0.003  -0.486  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.554  -0.033  -0.499  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.297   1.147  -0.555  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.086  -1.157  -0.485  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.421   0.015  -1.526  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.488  -0.880  -0.003  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.433   0.899   0.002  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.711   1.414   0.454  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.232   2.057  -0.897  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.197   1.022  -1.193  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.717   0.162   1.677  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       2.003  -0.565   1.111  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.487  -2.012  -0.450  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.536   0.604   1.934  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     80
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.970 Kcal/mol
+HETATM    1  C1  HET A   1      -2.008  -0.004  -0.485  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.555  -0.033  -0.499  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.296   1.147  -0.557  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.086  -1.156  -0.486  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.422   0.015  -1.525  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.487  -0.881  -0.003  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.433   0.898   0.004  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.704   1.420   0.453  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.232   2.056  -0.907  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.199   1.021  -1.190  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.718   0.160   1.679  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.996  -0.563   1.106  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.485  -2.012  -0.449  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.540   0.602   1.927  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     81
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -8.999 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009  -0.004  -0.485  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.555  -0.032  -0.500  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.295   1.148  -0.559  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.087  -1.155  -0.486  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.424   0.015  -1.524  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.487  -0.882  -0.003  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.434   0.897   0.006  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.697   1.425   0.453  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.232   2.054  -0.916  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.202   1.019  -1.186  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.719   0.159   1.682  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.989  -0.562   1.102  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.483  -2.012  -0.447  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.545   0.600   1.921  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     82
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.023 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009  -0.005  -0.484  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.556  -0.032  -0.501  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.295   1.149  -0.560  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.087  -1.154  -0.486  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.425   0.015  -1.523  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.486  -0.883  -0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.434   0.896   0.007  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.691   1.429   0.452  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.231   2.053  -0.923  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.204   1.018  -1.183  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.720   0.159   1.684  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.983  -0.561   1.099  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.482  -2.011  -0.446  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.548   0.597   1.916  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     83
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.079 Kcal/mol
+HETATM    1  C1  HET A   1      -2.009  -0.005  -0.484  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.556  -0.032  -0.502  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.294   1.149  -0.562  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.088  -1.153  -0.486  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.426   0.015  -1.522  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.486  -0.885  -0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.434   0.895   0.009  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.684   1.434   0.451  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.231   2.052  -0.932  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.207   1.017  -1.180  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.721   0.158   1.687  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       1.975  -0.559   1.095  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.480  -2.011  -0.445  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.553   0.594   1.909  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     84
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.138 Kcal/mol
+HETATM    1  C1  HET A   1      -2.010  -0.006  -0.484  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.556  -0.031  -0.502  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.293   1.150  -0.563  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.089  -1.152  -0.486  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.428   0.015  -1.522  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.485  -0.886  -0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.435   0.894   0.010  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.679   1.438   0.451  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.231   2.050  -0.939  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.209   1.016  -1.177  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.721   0.157   1.689  1.00 -0.74      PROT O 
+HETATM   12 2H   HOH B   2       1.969  -0.558   1.092  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.479  -2.011  -0.444  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.556   0.592   1.904  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     85
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.230 Kcal/mol
+HETATM    1  C1  HET A   1      -2.010  -0.007  -0.483  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.557  -0.031  -0.503  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.292   1.150  -0.565  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.089  -1.152  -0.486  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.429   0.015  -1.521  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.485  -0.887  -0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.435   0.893   0.011  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.673   1.443   0.450  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.230   2.049  -0.947  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.211   1.014  -1.173  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.722   0.156   1.691  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.962  -0.557   1.088  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.478  -2.011  -0.443  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.560   0.588   1.899  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     86
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.259 Kcal/mol
+HETATM    1  C1  HET A   1      -2.010  -0.007  -0.483  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.557  -0.031  -0.504  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.292   1.151  -0.566  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.090  -1.151  -0.486  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.430   0.015  -1.520  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.484  -0.888  -0.002  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.435   0.891   0.013  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.666   1.447   0.449  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.230   2.048  -0.955  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.214   1.013  -1.170  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.723   0.155   1.693  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.954  -0.556   1.084  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.477  -2.010  -0.442  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.564   0.585   1.893  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     87
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.291 Kcal/mol
+HETATM    1  C1  HET A   1      -2.011  -0.008  -0.482  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.558  -0.031  -0.504  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.291   1.151  -0.568  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.090  -1.150  -0.486  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.431   0.015  -1.519  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.483  -0.889  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.436   0.890   0.014  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.659   1.452   0.449  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.229   2.046  -0.963  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.216   1.012  -1.166  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.724   0.154   1.695  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.945  -0.554   1.080  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.475  -2.010  -0.441  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.569   0.581   1.886  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     88
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.284 Kcal/mol
+HETATM    1  C1  HET A   1      -2.011  -0.009  -0.482  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.558  -0.030  -0.505  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.290   1.152  -0.569  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.091  -1.149  -0.487  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.433   0.015  -1.519  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.483  -0.891  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.436   0.889   0.015  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.654   1.456   0.448  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.229   2.045  -0.970  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.218   1.011  -1.163  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.725   0.154   1.697  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.938  -0.553   1.077  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.474  -2.010  -0.440  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.573   0.578   1.880  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     89
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.345 Kcal/mol
+HETATM    1  C1  HET A   1      -2.011  -0.009  -0.482  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.558  -0.030  -0.506  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.289   1.152  -0.571  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.091  -1.148  -0.487  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.434   0.015  -1.518  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.482  -0.892  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.437   0.888   0.017  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.648   1.461   0.447  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.228   2.044  -0.978  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.220   1.010  -1.160  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.726   0.153   1.699  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.930  -0.552   1.074  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.472  -2.010  -0.439  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.577   0.575   1.873  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     90
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.370 Kcal/mol
+HETATM    1  C1  HET A   1      -2.011  -0.010  -0.481  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.559  -0.030  -0.506  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.289   1.153  -0.572  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.092  -1.148  -0.487  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.435   0.015  -1.517  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.482  -0.893  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.437   0.887   0.018  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.642   1.465   0.446  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.227   2.042  -0.985  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.222   1.009  -1.156  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.727   0.152   1.702  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.921  -0.551   1.072  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.471  -2.009  -0.438  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.582   0.571   1.865  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     91
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.395 Kcal/mol
+HETATM    1  C1  HET A   1      -2.012  -0.010  -0.481  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.559  -0.030  -0.507  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.288   1.153  -0.573  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.092  -1.147  -0.487  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.436   0.014  -1.516  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.481  -0.894  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.885   0.019  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.635   1.470   0.446  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.227   2.040  -0.993  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.224   1.008  -1.152  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.728   0.151   1.704  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.911  -0.550   1.069  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.469  -2.009  -0.437  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.586   0.568   1.857  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     92
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.438 Kcal/mol
+HETATM    1  C1  HET A   1      -2.012  -0.011  -0.480  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.559  -0.029  -0.508  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.287   1.154  -0.575  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.093  -1.146  -0.487  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.438   0.014  -1.515  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.480  -0.896  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.438   0.884   0.021  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.629   1.475   0.445  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.226   2.039  -1.001  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.227   1.007  -1.149  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.729   0.151   1.706  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.902  -0.549   1.067  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.468  -2.009  -0.436  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.590   0.564   1.848  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     93
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.449 Kcal/mol
+HETATM    1  C1  HET A   1      -2.012  -0.012  -0.480  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.560  -0.029  -0.508  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.287   1.155  -0.576  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.093  -1.145  -0.488  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.438   0.014  -1.515  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.480  -0.897  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.439   0.883   0.022  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.624   1.479   0.444  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.226   2.038  -1.007  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.228   1.006  -1.146  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.730   0.150   1.708  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.894  -0.549   1.066  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.467  -2.009  -0.436  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.593   0.562   1.842  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     94
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.477 Kcal/mol
+HETATM    1  C1  HET A   1      -2.013  -0.013  -0.480  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.560  -0.029  -0.509  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.286   1.155  -0.577  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.094  -1.144  -0.488  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.440   0.014  -1.514  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.479  -0.899  -0.001  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.439   0.882   0.023  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.616   1.485   0.443  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.225   2.036  -1.016  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.231   1.005  -1.141  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.731   0.149   1.711  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.882  -0.548   1.064  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.465  -2.008  -0.435  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.598   0.558   1.831  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     95
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.481 Kcal/mol
+HETATM    1  C1  HET A   1      -2.013  -0.013  -0.479  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.560  -0.029  -0.509  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.285   1.156  -0.578  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.094  -1.144  -0.488  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.441   0.013  -1.513  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.479  -0.899  -0.000  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.439   0.881   0.024  1.00  0.23      PROT H 
+HETATM    8 1H   HET A   1       0.612   1.488   0.442  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.225   2.035  -1.020  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.232   1.005  -1.139  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.732   0.149   1.712  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.877  -0.548   1.063  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.464  -2.008  -0.435  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.600   0.556   1.826  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     96
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.700 Kcal/mol
+HETATM    1  C1  HET A   1      -2.013  -0.014  -0.479  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.561  -0.029  -0.510  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.285   1.156  -0.579  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.095  -1.143  -0.488  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.442   0.013  -1.513  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.478  -0.900  -0.000  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.440   0.880   0.025  1.00  0.24      PROT H 
+HETATM    8 1H   HET A   1       0.607   1.492   0.442  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.224   2.034  -1.026  1.00  0.22      PROT H 
+HETATM   10 2H3  HET A   1       1.234   1.004  -1.136  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.732   0.148   1.714  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.868  -0.549   1.062  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.463  -2.008  -0.434  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.603   0.552   1.818  1.00  0.38      PROT H 
+END
+ENDMDL
+MODEL     97
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Acetone keto-en
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 14 2021 14:03
+REMARK  Heat of Formation = -9.735 Kcal/mol
+HETATM    1  C1  HET A   1      -2.013  -0.014  -0.479  1.00 -0.59      PROT C 
+HETATM    2  C2  HET A   1      -0.561  -0.028  -0.511  1.00  0.66      PROT C 
+HETATM    3  C3  HET A   1       0.284   1.157  -0.580  1.00 -0.55      PROT C 
+HETATM    4  O   HET A   1       0.095  -1.143  -0.489  1.00 -0.39      PROT O 
+HETATM    5 1H1  HET A   1      -2.443   0.013  -1.512  1.00  0.25      PROT H 
+HETATM    6 2H1  HET A   1      -2.478  -0.902  -0.000  1.00  0.23      PROT H 
+HETATM    7 3H1  HET A   1      -2.440   0.879   0.026  1.00  0.24      PROT H 
+HETATM    8 1H   HET A   1       0.601   1.496   0.441  1.00  0.26      PROT H 
+HETATM    9 1H3  HET A   1      -0.223   2.032  -1.033  1.00  0.23      PROT H 
+HETATM   10 2H3  HET A   1       1.235   1.004  -1.132  1.00  0.23      PROT H 
+HETATM   11  O   HOH B   2       1.733   0.148   1.716  1.00 -0.75      PROT O 
+HETATM   12 2H   HOH B   2       1.859  -0.548   1.061  1.00  0.37      PROT H 
+HETATM   13  H   HOH B   2      -0.461  -2.008  -0.434  1.00  0.44      PROT H 
+HETATM   14 2H   HOH B   2       2.606   0.550   1.808  1.00  0.38      PROT H 
+END
+ENDMDL

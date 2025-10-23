@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+<TITLE>ZERO</TITLE>
+</HEAD>
+<body bgcolor=white>
+<h1 align="center">
+<TT>NOZERO ZERO</TT>
+</h1>
+        In a PDB file, when the first residue in a protein chain has a negative 
+number there is the possibility that a residue has the number zero.&nbsp; In 
+some PDB files, the residue following &quot;-1&quot; is &quot;1&quot;, not &quot;0&quot;.&nbsp; If this 
+situation occurs, and the original residue sequence has to be regenerated, 
+special action must be taken to ensure that the residue following &quot;-1&quot; is 
+correctly identified.&nbsp; If it should be &quot;0&quot;, then keyword <tt>ZERO</TT> must be 
+present, if it should be &quot;1&quot; then keyword <tt>NOZERO</TT> must be present.<p>These 
+keywords should not normally be used.&nbsp; They are only needed when the 
+special conditions just described are met. If these conditions are met, a 
+message explaining that one of these keywords must be selected and used in the 
+job.</p>
+</BODY>
+</HTML>

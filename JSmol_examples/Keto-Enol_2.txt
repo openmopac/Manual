@@ -1,0 +1,6 @@
+#
+#  Second script: define a bond between the hydroxyl hydrogen and a calroxylate oxygen,
+#  then optimize the position of the hydrogen atom
+#
+connect (atomno=2540) (atomno=897) single # Create a bond between hydrogen and carboxylate oxygen
+minimize SELECT (atomno=2540) 

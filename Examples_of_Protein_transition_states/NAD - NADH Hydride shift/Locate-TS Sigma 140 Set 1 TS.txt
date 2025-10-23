@@ -1,0 +1,6 @@
+reset;center {12.137 11.807 10.709}; rotate z 53.42; rotate y 53.18; rotate z -58.78; zoom 795.73; set rotationRadius 37.91;
+display 1301, 1302
+center 1301:A.H42N
+measure off
+measure (1301:A.C4N) (1301:A.H42N) 
+measure (1302:A.C9) (1301:A.H42N)

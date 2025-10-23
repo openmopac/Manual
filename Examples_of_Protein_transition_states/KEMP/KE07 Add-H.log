@@ -1,0 +1,6 @@
+ START_RES=(1A 254B)  CHAINS=(AB) HTML OUTPUT MOZYME CHARGE=0    gnorm=5 noopt opt-h cvb=("[LG1]254:B.N2":"[LG1]254:B.O3") add-H site=(salt,"[LG1]254:B.N2"(0)) +
+geo_dat="KE07 Add Chain Letters.pdb"
+ Add hydrogen atoms to KE07
+
+           Empirical Formula: C1262 H3 N338 O371 S5   =  1979 atoms
+ Hydrogen atom 3990 bonds to "HETATM 3977  N2  LG1 B 254 " and "HETATM 3978  O3  LG1 B 254 "

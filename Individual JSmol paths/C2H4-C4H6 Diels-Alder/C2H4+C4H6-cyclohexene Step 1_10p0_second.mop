@@ -1,0 +1,20 @@
+ GEO_REF="M:\Individual JSmol paths\C2H4-C4H6 Diels-Alder - Copy\C2H4+C4H6-cyclohexene Step 1_10p0_first.mop" opt geo-ok locate-ts(C:10)
+ Locate and refine the transition state for the C2H4 plus C4H6 => Cyclohexene Dies-Alder reaction
+ (Geometry data for reactant and products are in other files.)
+  C(HETATM    1  C   HET A   1)  -0.82825203 +1  -1.12296355 +1  -0.34038523 +1
+  C(HETATM    2  C   HET A   1)   0.64215901 +1  -1.14469204 +1  -0.58557076 +1
+  C(HETATM    3  C   HET A   1)   1.31679912 +1   0.00772185 +1  -0.57726453 +1
+  C(HETATM    4  C   HET A   1)   0.58238285 +1   1.27969166 +1  -0.31553779 +1
+  C(HETATM    5  C   HET A   1)  -0.35477220 +1   1.10032438 +1   0.91012745 +1
+  C(HETATM    6  C   HET A   1)  -1.13800108 +1  -0.23211511 +1   0.89537507 +1
+  H(HETATM    7 1HT1 HET A   1)  -1.35601215 +1  -0.71637949 +1  -1.23313027 +1
+  H(HETATM    8 2HT1 HET A   1)  -1.21957867 +1  -2.15290419 +1  -0.23119541 +1
+  H(HETATM    9 1HT2 HET A   1)   1.29168384 +1   2.12001728 +1  -0.18420457 +1
+  H(HETATM   10 2HT2 HET A   1)  -0.02859660 +1   1.56068113 +1  -1.20275048 +1
+  H(HETATM   11 1HT  HET A   1)   1.10554550 +1  -2.10989047 +1  -0.72311643 +1
+  H(HETATM   12 2HT  HET A   1)   2.38576420 +1   0.07615510 +1  -0.70418610 +1
+  H(HETATM   13 1HT3 HET A   1)  -0.90300406 +1  -0.80947604 +1   1.81076538 +1
+  H(HETATM   14 2HT3 HET A   1)  -2.22559386 +1  -0.03720999 +1   0.93487213 +1
+  H(HETATM   15 1HT4 HET A   1)   0.25809616 +1   1.16106686 +1   1.83019604 +1
+  H(HETATM   16 2HT4 HET A   1)  -1.05456747 +1   1.95588908 +1   0.96190899 +1
+ 

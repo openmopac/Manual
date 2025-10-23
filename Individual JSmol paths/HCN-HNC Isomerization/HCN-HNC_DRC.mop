@@ -1,0 +1,7 @@
+geo_dat="SADDLE HCN-HNC.arc" TS
+
+
+HTML IRC=1*  oldgeo DRC T-priority=0.5 cycles=200 
+  Dynamic reaction coordinate for HCN <=> HNC Reaction
+  
+

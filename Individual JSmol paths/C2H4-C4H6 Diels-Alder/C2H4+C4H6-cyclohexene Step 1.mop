@@ -1,0 +1,3 @@
+geo_dat="C2H4 plus C4H6.arc" geo_ref="Cyclohexene.arc" opt geo-ok locate-ts(C:10)
+Locate and refine the transition state for the C2H4 plus C4H6 => Cyclohexene Diels-Alder reaction
+(Geometry data for reactant and products are in other files.)

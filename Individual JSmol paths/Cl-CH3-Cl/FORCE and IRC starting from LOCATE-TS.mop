@@ -1,0 +1,9 @@
+geo_dat="locate_TS.arc.txt" ts eps=78.4 opt charge=-1
+Refine transition state for CH3Cl --- Cl(-) <=> Cl(-) --- CH3Cl 
+
+oldgeo FORCE isotope eps=78.4  charge=-1
+Transition state for CH3Cl --- Cl(-) <=> Cl(-) --- CH3Cl 
+
+oldgeo irc=1* restart eps=78.4 html charge=-1 x-priority=0.2
+
+

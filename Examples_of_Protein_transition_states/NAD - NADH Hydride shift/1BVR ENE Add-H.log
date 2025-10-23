@@ -1,0 +1,5 @@
+ START_RES=(2A 1301A) HTML OUTPUT MOZYME CHARGE=-5 gnorm=5 noopt opt-h  add-H site=(salt,"[NAD]1301:A.C4N"(+),"[NAD]1301:A.O1A"(-),"[NAD]1301:A.O1N"(-)) chains=(A) nocomments +
+geo_dat="1BVR.pdb"
+ Add hydrogen atoms to 1BVR ENE
+
+           Empirical Formula: C1304 N356 O499 S11 P2   =  2172 atoms

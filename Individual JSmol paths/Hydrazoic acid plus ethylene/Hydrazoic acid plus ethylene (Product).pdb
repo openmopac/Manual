@@ -1,0 +1,14 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Hydrazoic acid
+REMARK  MOPAC 2016, Version: 21.151W Date: Jun  2 2021 13:47
+REMARK   3 HET = Not identified; C 2 H 5 N 3        =    10 atoms res:    1
+HETATM    1  C1  HET A   1       0.000   0.000   0.000  1.00 -0.18      PROT C 
+HETATM    2  C2  HET A   1       1.557   0.000   0.000  1.00 -0.12      PROT C 
+HETATM    3  N1  HET A   1      -0.340   1.460   0.000  1.00 -0.27      PROT N 
+HETATM    4  N2  HET A   1       0.681   2.176   0.000  1.00  0.12      PROT N 
+HETATM    5  N3  HET A   1       1.829   1.463  -0.000  1.00 -0.52      PROT N 
+HETATM    6 1H1  HET A   1      -0.440  -0.475   0.895  1.00  0.16      PROT H 
+HETATM    7 1H2  HET A   1       1.988  -0.477  -0.899  1.00  0.15      PROT H 
+HETATM    8  H3  HET A   1       2.724   1.895   0.000  1.00  0.34      PROT H 
+HETATM    9 2H1  HET A   1      -0.440  -0.475  -0.895  1.00  0.16      PROT H 
+HETATM   10 2H2  HET A   1       1.988  -0.477   0.899  1.00  0.15      PROT H 
+END

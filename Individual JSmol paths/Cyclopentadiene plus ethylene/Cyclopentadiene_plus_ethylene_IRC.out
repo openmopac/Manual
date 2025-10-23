@@ -1,0 +1,509 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.153W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.153W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jun  3 09:42:02 2021  *
+ *  GEO_DAT    - DATA SET GEOMETRY IS IN FILE "Saddle_TS.arc"
+ *  TS         - USE EF ROUTINE FOR TS SEARCH
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  GNORM      - EXIT WHEN GRADIENT NORM DROPS BELOW 2.000
+ *******************************************************************************
+TS gnorm=2   geo_dat="Saddle_TS.arc"
+ Refine transition state for Cyclopentadiene + ethylene <=> bicyclo[2,2,1]heptene
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)   -0.47627560  *  -1.06514934  *  -0.55153938  *
+     2       C(HETATM    2  C2  HET A   1)    0.94233000  *  -1.06715432  *  -0.55298491  *
+     3       C(HETATM    3  C3  HET A   1)    1.39335144  *   0.25306274  *  -0.54984023  *
+     4       C(HETATM    4  C4  HET A   1)    0.26900848  *   1.11833492  *  -0.54517240  *
+     5       C(HETATM    5  C5  HET A   1)   -0.91954488  *   0.30683325  *  -1.03830850  *
+     6       C(HETATM    6  C1  HET B   2)   -0.71922360  *  -0.50705060  *   1.42819419  *
+     7       C(HETATM    7  C2  HET B   2)   -0.27739626  *   0.82881608  *   1.42751994  *
+     8       H(HETATM    8  H1  HET A   1)   -1.10403047  *  -1.92720262  *  -0.64554687  *
+     9       H(HETATM    9  H2  HET A   1)    1.55793230  *  -1.94080317  *  -0.46584471  *
+    10       H(HETATM   10  H3  HET A   1)    2.41406462  *   0.56688806  *  -0.46177697  *
+    11       H(HETATM   11  H4  HET A   1)    0.29934167  *   2.18447697  *  -0.63458601  *
+    12       H(HETATM   12 1H5  HET A   1)   -1.01716169  *   0.34410634  *  -2.13905308  *
+    13       H(HETATM   13 2H5  HET A   1)   -1.88433664  *   0.63506439  *  -0.63300991  *
+    14       H(HETATM   14 1H6  HET A   1)   -1.77244287  *  -0.74248249  *   1.43482479  *
+    15       H(HETATM   15 2H6  HET A   1)   -0.10392265  *  -1.28666118  *   1.85345621  *
+    16       H(HETATM   16 1H7  HET A   1)    0.67855458  *   1.09017356  *   1.85670899  *
+    17       H(HETATM   17 2H7  HET A   1)   -0.98365222  *   1.64565259  *   1.42841088  *
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C7 H10  =    17 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 19
+
+
+          Transition state refinement using EF
+
+          HESSIAN CALCULATED NUMERICALLY
+
+ CYCLE:     1 TIME:   0.219 TIME LEFT:  2.00D  GRAD.:    34.190 HEAT:  68.43428
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.271 HEAT:  69.15668
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.713 HEAT:  69.14838
+
+     GRADIENT =  0.71279 IS LESS THAN CUTOFF =  2.00000
+
+
+
+ -------------------------------------------------------------------------------
+ TS gnorm=2
+ Refine transition state for Cyclopentadiene + ethylene <=> bicyclo[2,2,1]heptene
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (TS).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 21.153W)
+                                                       Thu Jun  3 09:42:03 2021
+                                                       No. of days remaining = 364
+
+
+
+
+          FINAL HEAT OF FORMATION =         69.14838 KCAL/MOL =     289.31681 KJ/MOL
+
+
+          TOTAL ENERGY            =       -991.95666 EV
+          ELECTRONIC ENERGY       =      -4796.31252 EV  POINT GROUP:     Cs  
+          CORE-CORE REPULSION     =       3804.35586 EV
+          COSMO AREA              =        136.57 SQUARE ANGSTROMS
+          COSMO VOLUME            =        134.29 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.71279 = 0.17288 PER ATOM
+          IONIZATION POTENTIAL    =          8.910602 EV
+          HOMO LUMO ENERGIES (EV) =         -8.911  0.489
+          NO. OF FILLED LEVELS    =         19
+          MOLECULAR WEIGHT        =         94.1560
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    14    H    10     4.77282
+            H    16    H    12     4.39921
+            H     9    H    11     4.31609
+
+
+          SCF CALCULATIONS        =         55
+ 
+          WALL-CLOCK TIME         =          0.266 SECONDS
+          COMPUTATION TIME        =          1.016 SECONDS
+
+
+
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)   -0.46926267  *  -1.07006969  *  -0.56705058  *
+     2       C(HETATM    2  C2  HET A   1)    0.93469156  *  -1.06798055  *  -0.55171714  *
+     3       C(HETATM    3  C3  HET A   1)    1.38681277  *   0.26540876  *  -0.55126043  *
+     4       C(HETATM    4  C4  HET A   1)    0.27370128  *   1.12058292  *  -0.56621569  *
+     5       C(HETATM    5  C5  HET A   1)   -0.91881581  *   0.30397530  *  -1.03932320  *
+     6       C(HETATM    6  C1  HET B   2)   -0.72396855  *  -0.49699254  *   1.44905484  *
+     7       C(HETATM    7  C2  HET B   2)   -0.27555823  *   0.81638391  *   1.45137393  *
+     8       H(HETATM    8  H1  HET A   1)   -1.10589586  *  -1.92805571  *  -0.62684889  *
+     9       H(HETATM    9  H2  HET A   1)    1.55934473  *  -1.93421454  *  -0.46279885  *
+    10       H(HETATM   10  H3  HET A   1)    2.40954188  *   0.57261935  *  -0.46134875  *
+    11       H(HETATM   11  H4  HET A   1)    0.28960056  *   2.18890174  *  -0.62380466  *
+    12       H(HETATM   12 1H5  HET A   1)   -0.99768309  *   0.33083629  *  -2.14480899  *
+    13       H(HETATM   13 2H5  HET A   1)   -1.89154450  *   0.63347447  *  -0.65489925  *
+    14       H(HETATM   14 1H6  HET A   1)   -1.77744427  *  -0.73274851  *   1.42145183  *
+    15       H(HETATM   15 2H6  HET A   1)   -0.11612163  *  -1.29615375  *   1.84698811  *
+    16       H(HETATM   16 1H7  HET A   1)    0.69502314  *   1.07466851  *   1.84859307  *
+    17       H(HETATM   17 2H7  HET A   1)   -0.96442478  *   1.64740399  *   1.42691919  *
+
+                             CARTESIAN COORDINATES
+
+   1    C       -0.469262674    -1.070069687    -0.567050577
+   2    C        0.934691556    -1.067980552    -0.551717137
+   3    C        1.386812767     0.265408758    -0.551260432
+   4    C        0.273701284     1.120582921    -0.566215685
+   5    C       -0.918815811     0.303975303    -1.039323201
+   6    C       -0.723968555    -0.496992545     1.449054844
+   7    C       -0.275558232     0.816383913     1.451373933
+   8    H       -1.105895864    -1.928055710    -0.626848891
+   9    H        1.559344730    -1.934214535    -0.462798851
+  10    H        2.409541881     0.572619348    -0.461348748
+  11    H        0.289600563     2.188901745    -0.623804661
+  12    H       -0.997683085     0.330836286    -2.144808994
+  13    H       -1.891544498     0.633474471    -0.654899253
+  14    H       -1.777444270    -0.732748505     1.421451831
+  15    H       -0.116121627    -1.296153746     1.846988111
+  16    H        0.695023142     1.074668515     1.848593069
+  17    H       -0.964424781     1.647403993     1.426919190
+
+
+           Empirical Formula: C7 H10  =    17 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+                  EIGENVALUES  
+ -31.19944 -25.89177 -24.27577 -24.21830 -19.90772 -19.08254 -17.99373 -17.46303
+ -15.86578 -14.96502 -13.94031 -13.04712 -12.98104 -12.64851 -12.45734 -11.78390
+ -11.43765  -8.92065  -8.91060   0.48886   0.73272   2.46505   3.83679   4.31520
+   4.94890   5.43439   5.65560   5.77248   5.78771   6.01047   6.09109   6.25455
+   6.43708   6.51095   6.54120   6.63302   6.73515   6.76393
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          C(HETATM    1  C1  HET A   1)          -0.099228        4.0992     1.10843     2.99079
+    2          C(HETATM    2  C2  HET A   1)          -0.190480        4.1905     1.08725     3.10323
+    3          C(HETATM    3  C3  HET A   1)          -0.190166        4.1902     1.08722     3.10294
+    4          C(HETATM    4  C4  HET A   1)          -0.099320        4.0993     1.10836     2.99096
+    5          C(HETATM    5  C5  HET A   1)          -0.292891        4.2929     1.06591     3.22698
+    6          C(HETATM    6  C1  HET B   2)          -0.282832        4.2828     1.09638     3.18645
+    7          C(HETATM    7  C2  HET B   2)          -0.282864        4.2829     1.09645     3.18642
+    8          H(HETATM    8  H1  HET A   1)           0.138110        0.8619     0.86189
+    9          H(HETATM    9  H2  HET A   1)           0.148366        0.8516     0.85163
+   10          H(HETATM   10  H3  HET A   1)           0.148384        0.8516     0.85162
+   11          H(HETATM   11  H4  HET A   1)           0.138127        0.8619     0.86187
+   12          H(HETATM   12 1H5  HET A   1)           0.162129        0.8379     0.83787
+   13          H(HETATM   13 2H5  HET A   1)           0.153505        0.8465     0.84650
+   14          H(HETATM   14 1H6  HET A   1)           0.135462        0.8645     0.86454
+   15          H(HETATM   15 2H6  HET A   1)           0.139089        0.8609     0.86091
+   16          H(HETATM   16 1H7  HET A   1)           0.139101        0.8609     0.86090
+   17          H(HETATM   17 2H7  HET A   1)           0.135508        0.8645     0.86449
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      HET A   1       +0.017
+      HET B   2       -0.017
+ 
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.660     0.224    -0.248     0.740
+ HYBRID        -0.074     0.025    -0.052     0.094
+ SUM           -0.734     0.248    -0.301     0.831
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz   
+   C(HETATM    1  C1  HET A   1)   1.10843   1.01272   1.02037   0.95770
+   C(HETATM    2  C2  HET A   1)   1.08725   1.01412   1.04231   1.04680
+   C(HETATM    3  C3  HET A   1)   1.08722   1.05528   1.00120   1.04646
+   C(HETATM    4  C4  HET A   1)   1.10836   0.98381   1.04937   0.95778
+   C(HETATM    5  C5  HET A   1)   1.06591   1.08051   1.02052   1.12595
+   C(HETATM    6  C1  HET B   2)   1.09638   1.11920   1.04423   1.02302
+   C(HETATM    7  C2  HET B   2)   1.09645   1.12013   1.04325   1.02304
+   H(HETATM    8  H1  HET A   1)   0.86189
+   H(HETATM    9  H2  HET A   1)   0.85163
+   H(HETATM   10  H3  HET A   1)   0.85162
+   H(HETATM   11  H4  HET A   1)   0.86187
+   H(HETATM   12 1H5  HET A   1)   0.83787
+   H(HETATM   13 2H5  HET A   1)   0.84650
+   H(HETATM   14 1H6  HET A   1)   0.86454
+   H(HETATM   15 2H6  HET A   1)   0.86091
+   H(HETATM   16 1H7  HET A   1)   0.86090
+   H(HETATM   17 2H7  HET A   1)   0.86449
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.153W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.153W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Thu Jun  3 09:42:03 2021  *
+ *  IRC=N      - INTRINSIC REACTION COORDINATE  1 DEFINED
+ *  OLDGEO     - PREVIOUS GEOMETRY TO BE USED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *  X-PRIOR    - GEOMETRY CHANGES TAKE PRIORITY IN DRC
+ *******************************************************************************
+oldgeo   IRC=1* HTML X-priority=0.2
+ Reaction path for Cyclopentadiene + ethylene <=> bicyclo[2,2,1]heptene
+
+   ATOM                 CHEMICAL                   X               Y               Z
+  NUMBER                 SYMBOL               (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C(HETATM    1  C1  HET A   1)   -0.46926267  *  -1.07006969  *  -0.56705058  *
+     2       C(HETATM    2  C2  HET A   1)    0.93469156  *  -1.06798055  *  -0.55171714  *
+     3       C(HETATM    3  C3  HET A   1)    1.38681277  *   0.26540876  *  -0.55126043  *
+     4       C(HETATM    4  C4  HET A   1)    0.27370128  *   1.12058292  *  -0.56621569  *
+     5       C(HETATM    5  C5  HET A   1)   -0.91881581  *   0.30397530  *  -1.03932320  *
+     6       C(HETATM    6  C1  HET B   2)   -0.72396855  *  -0.49699254  *   1.44905484  *
+     7       C(HETATM    7  C2  HET B   2)   -0.27555823  *   0.81638391  *   1.45137393  *
+     8       H(HETATM    8  H1  HET A   1)   -1.10589586  *  -1.92805571  *  -0.62684889  *
+     9       H(HETATM    9  H2  HET A   1)    1.55934473  *  -1.93421454  *  -0.46279885  *
+    10       H(HETATM   10  H3  HET A   1)    2.40954188  *   0.57261935  *  -0.46134875  *
+    11       H(HETATM   11  H4  HET A   1)    0.28960056  *   2.18890174  *  -0.62380466  *
+    12       H(HETATM   12 1H5  HET A   1)   -0.99768309  *   0.33083629  *  -2.14480899  *
+    13       H(HETATM   13 2H5  HET A   1)   -1.89154450  *   0.63347447  *  -0.65489925  *
+    14       H(HETATM   14 1H6  HET A   1)   -1.77744427  *  -0.73274851  *   1.42145183  *
+    15       H(HETATM   15 2H6  HET A   1)   -0.11612163  *  -1.29615375  *   1.84698811  *
+    16       H(HETATM   16 1H7  HET A   1)    0.69502314  *   1.07466851  *   1.84859307  *
+    17       H(HETATM   17 2H7  HET A   1)   -0.96442478  *   1.64740399  *   1.42691919  *
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C7 H10  =    17 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   Cs  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 19
+
+
+
+          HEAT OF FORMATION =      69.148379 KCALS/MOLE
+
+
+          GRADIENT NORM =   0.67617
+
+          MOLECULAR WEIGHT =   94.16
+
+
+          ESTIMATED TIME TO COMPLETE CALCULATION =        0.00 SECONDS
+
+    FOR POINT-GROUP Cs   THERE ARE   2 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.02 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   2 TIME =     0.00 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   3 TIME =     0.02 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:   4 TIME =     0.00 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:   5 TIME =     0.00 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:   6 TIME =     0.02 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:   7                       INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:   8                       INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:   9                       INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  10                       INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  11                       INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  12                       INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  13 TIME =     0.00 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  14 TIME =     0.02 SECS, INTEGRAL =      0.06 TIME LEFT: 172799.94
+ STEP:  15 TIME =     0.00 SECS, INTEGRAL =      0.06 TIME LEFT: 172799.94
+ STEP:  16 TIME =     0.02 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:  17 TIME =     0.00 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:  18 TIME =     0.02 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:  19                       INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:  20                       INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:  21                       INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:  22 TIME =     0.02 SECS, INTEGRAL =      0.11 TIME LEFT: 172799.89
+ STEP:  23 TIME =     0.00 SECS, INTEGRAL =      0.11 TIME LEFT: 172799.89
+ STEP:  24 TIME =     0.02 SECS, INTEGRAL =      0.12 TIME LEFT: 172799.88
+ STEP:  25 TIME =     0.00 SECS, INTEGRAL =      0.12 TIME LEFT: 172799.88
+ STEP:  26 TIME =     0.02 SECS, INTEGRAL =      0.14 TIME LEFT: 172799.86
+ STEP:  27 TIME =     0.00 SECS, INTEGRAL =      0.14 TIME LEFT: 172799.86
+ STEP:  28                       INTEGRAL =      0.14 TIME LEFT: 172799.86
+ STEP:  29                       INTEGRAL =      0.14 TIME LEFT: 172799.86
+ STEP:  30                       INTEGRAL =      0.14 TIME LEFT: 172799.86
+ STEP:  31                       INTEGRAL =      0.14 TIME LEFT: 172799.86
+ STEP:  32                       INTEGRAL =      0.14 TIME LEFT: 172799.86
+ STEP:  33                       INTEGRAL =      0.14 TIME LEFT: 172799.86
+ STEP:  34 TIME =     0.02 SECS, INTEGRAL =      0.16 TIME LEFT: 172799.84
+ STEP:  35 TIME =     0.00 SECS, INTEGRAL =      0.16 TIME LEFT: 172799.84
+ STEP:  36 TIME =     0.02 SECS, INTEGRAL =      0.17 TIME LEFT: 172799.83
+ STEP:  37 TIME =     0.00 SECS, INTEGRAL =      0.17 TIME LEFT: 172799.83
+ STEP:  38 TIME =     0.02 SECS, INTEGRAL =      0.19 TIME LEFT: 172799.81
+ STEP:  39 TIME =     0.00 SECS, INTEGRAL =      0.19 TIME LEFT: 172799.81
+ STEP:  40 TIME =     0.02 SECS, INTEGRAL =      0.20 TIME LEFT: 172799.80
+ STEP:  41 TIME =     0.00 SECS, INTEGRAL =      0.20 TIME LEFT: 172799.80
+ STEP:  42 TIME =     0.02 SECS, INTEGRAL =      0.22 TIME LEFT: 172799.78
+ STEP:  43 TIME =     0.00 SECS, INTEGRAL =      0.22 TIME LEFT: 172799.78
+ STEP:  44 TIME =     0.02 SECS, INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  45 TIME =     0.00 SECS, INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  46                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  47                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  48                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  49                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  50                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+ STEP:  51                       INTEGRAL =      0.23 TIME LEFT: 172799.77
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+         0.03049        -0.02825        -0.11361
+        -0.03259        -0.01995        -0.00063
+        -0.01357         0.03567        -0.00058
+         0.04155         0.00414        -0.11367
+         0.01143        -0.00398        -0.00123
+        -0.00695         0.04413         0.11780
+        -0.03264        -0.03101         0.11751
+        -0.01734         0.00105         0.00298
+         0.00542         0.01024         0.04377
+        -0.00207        -0.01166         0.04354
+        -0.01439         0.00970         0.00272
+        -0.03453         0.01167        -0.00543
+         0.02706        -0.00939         0.03569
+         0.01165        -0.02149        -0.06152
+         0.01073        -0.01542        -0.03334
+         0.01805         0.00601        -0.03344
+         0.02253         0.01032        -0.06159
+
+ GEOMETRY PRIORITY, STEP = 0.2000 ANGSTROMS
+
+
+
+     POINT   POTENTIAL  +  ENERGY LOST   =   TOTAL      ERROR    REF%   MOVEMENT
+       1      69.14838      0.00000         69.14838   0.00000     1   %  0.0000
+      44      68.34828      0.64229         68.99057  -0.06998     2   %  0.2000
+     105      66.45263      2.52588         68.97851  -0.08205     3   %  0.3976
+     135      64.12189      4.85100         68.97289  -0.08767     4   %  0.5928
+     147      61.98011      6.99528         68.97539  -0.08517     5   %  0.7666
+     165      60.18544      8.79355         68.97899  -0.08157     6   %  0.9228
+     183      58.64505     10.33754         68.98258  -0.07797     7   %  1.0851
+     200      57.29426     11.69176         68.98602  -0.07454     8   %  1.2525
+     217      56.09193     12.89736         68.98928  -0.07127     9   %  1.4318
+     232      55.01072     13.98167         68.99239  -0.06817    10   %  1.6224
+     247      54.03151     14.96383         68.99533  -0.06522    11   %  1.8168
+     262      53.14027     15.85788         68.99814  -0.06241    12   %  2.0124
+     275      52.32637     16.67445         69.00083  -0.05973    13   %  2.2084
+     288      51.58125     17.42214         69.00339  -0.05717    14   %  2.4045
+     301      50.89799     18.10786         69.00585  -0.05471    15   %  2.6005
+     313      50.27096     18.73725         69.00821  -0.05235    16   %  2.7963
+     325      49.69533     19.31515         69.01048  -0.05008    17   %  2.9919
+     336      49.16708     19.84558         69.01266  -0.04789    18   %  3.1870
+     347      48.68268     20.33210         69.01478  -0.04578    19   %  3.3815
+     357      48.23910     20.77772         69.01682  -0.04373    20   %  3.5753
+     367      47.83366     21.18514         69.01880  -0.04175    21   %  3.7682
+     377      47.46531     21.55540         69.02071  -0.03984    22   %  3.9591
+     389      47.13298     21.89020         69.02318  -0.03738    23   %  4.1468
+     404      46.83306     22.19389         69.02695  -0.03360    24   %  4.3315
+     418      46.56309     22.46695         69.03004  -0.03051    25   %  4.5131
+     431      46.31980     22.71403         69.03383  -0.02673    26   %  4.6919
+     445      46.10227     22.93631         69.03858  -0.02197    27   %  4.8671
+     460      45.92052     23.12372         69.04424  -0.01631    28   %  5.0270
+     483      45.72873     23.33277         69.06150   0.00095    29   %  5.2108
+     502      45.57251     23.50621         69.07873   0.01817    30   %  5.3773
+     529      45.42748     23.67894         69.10642   0.04587    31   %  5.5441
+     548      45.30127     23.83139         69.13266   0.07210    32   %  5.7056
+     583      45.18564     24.01440         69.20004   0.13948    33   %  5.8687
+     622      45.07977     24.16284         69.24260   0.18205    34   %  6.0308
+     661      44.98597     24.31801         69.30398   0.24343    35   %  6.1910
+     708      44.89904     24.47684         69.37588   0.31532    36   %  6.3543
+     757      44.82069     24.61335         69.43404   0.37348    37   %  6.5184
+     809      44.75065     24.77896         69.52961   0.46905    38   %  6.6843
+     866      44.68485     24.94736         69.63221   0.57165    39   %  6.8579
+     927      44.62401     25.09202         69.71603   0.65548    40   %  7.0330
+     999      44.57429     25.26918         69.84347   0.78291    41   %  7.2009
+    1074      44.52616     25.42878         69.95494   0.89438    42   %  7.3706
+    1151      44.48257     25.61453         70.09710   1.03655    43   %  7.5353
+    1229      44.44375     25.76343         70.20719   1.14663    44   %  7.6929
+    1316      44.40717     25.92568         70.33285   1.27230    45   %  7.8437
+    1403      44.37360     26.10724         70.48084   1.42028    46   %  7.9896
+    1488      44.34253     26.31363         70.65616   1.59560    47   %  8.1306
+    1582      44.31376     26.49029         70.80405   1.74350    48   %  8.2643
+    1671      44.28742     26.64929         70.93671   1.87616    49   %  8.3877
+    1758      44.26255     26.82410         71.08665   2.02610    50   %  8.5056
+    1847      44.24328     26.98974         71.23302   2.17247    51   %  8.6254
+    1947      44.21493     27.15932         71.37426   2.31370    52   %  8.7351
+    2041      44.19135     27.30270         71.49405   2.43350    53   %  8.8498
+    2131      44.17163     27.44626         71.61789   2.55733    54   %  8.9538
+    2208      44.14922     27.59042         71.73964   2.67909    55   %  9.0685
+    2293      44.12656     27.74495         71.87151   2.81095    56   %  9.1872
+    2369      44.10578     27.86353         71.96932   2.90876    57   %  9.3039
+    2452      44.08324     28.02393         72.10718   3.04662    58   %  9.4368
+    2533      44.06186     28.12808         72.18993   3.12938    59   %  9.5712
+    2619      44.04117     28.25872         72.29990   3.23934    60   %  9.7106
+    2703      44.02146     28.39727         72.41874   3.35818    61   %  9.8539
+    2791      44.00308     28.53244         72.53552   3.47496    62   % 10.0003
+    2878      43.98614     28.65806         72.64420   3.58364    63   % 10.1509
+    3002      43.97154     28.80994         72.78148   3.72092    64   % 10.3012
+    3139      43.96016     29.00625         72.96641   3.90585    65   % 10.4545
+    3318      43.94818     29.27532         73.22350   4.16295    66   % 10.6137
+    3546      43.94030     29.64188         73.58219   4.52163    67   % 10.7736
+
+
+ IRC CALCULATION COMPLETE 
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+        -0.03049         0.02825         0.11361
+         0.03259         0.01995         0.00063
+         0.01357        -0.03567         0.00058
+        -0.04155        -0.00414         0.11367
+        -0.01143         0.00398         0.00123
+         0.00695        -0.04413        -0.11780
+         0.03264         0.03101        -0.11751
+         0.01734        -0.00105        -0.00298
+        -0.00542        -0.01024        -0.04377
+         0.00207         0.01166        -0.04354
+         0.01439        -0.00970        -0.00272
+         0.03453        -0.01167         0.00543
+        -0.02706         0.00939        -0.03569
+        -0.01165         0.02149         0.06152
+        -0.01073         0.01542         0.03334
+        -0.01805        -0.00601         0.03344
+        -0.02253        -0.01032         0.06159
+
+ GEOMETRY PRIORITY, STEP = 0.2000 ANGSTROMS
+
+
+
+     POINT   POTENTIAL  +  ENERGY LOST   =   TOTAL      ERROR    REF%   MOVEMENT
+       1      69.14838      0.00000         69.14838   0.00000     1   %  0.0000
+      46      68.24238      0.74069         68.98307  -0.07777     2   %  0.2000
+     120      65.57853      3.38947         68.96799  -0.09285     3   %  0.3998
+     176      61.46676      7.49012         68.95688  -0.10396     4   %  0.5994
+     213      56.37803     12.57153         68.94956  -0.11128     5   %  0.7980
+     234      50.82232     18.12360         68.94592  -0.11492     6   %  0.9916
+     247      45.09706     23.85219         68.94925  -0.11160     7   %  1.1822
+     274      39.69568     29.25921         68.95488  -0.10596     8   %  1.3636
+     309      34.82428     34.13770         68.96198  -0.09886     9   %  1.5400
+     351      30.68178     38.28846         68.97024  -0.09061    10   %  1.7140
+     397      27.44666     41.53275         68.97940  -0.08144    11   %  1.8878
+     446      25.26150     43.72757         68.98908  -0.07177    12   %  2.0622
+     493      24.15466     44.84369         68.99835  -0.06249    13   %  2.2368
+     530      23.86324     45.14168         69.00492  -0.05592    14   %  2.4037
+
+
+ IRC CALCULATION COMPLETE 
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:            18.44 SECONDS
+
+ == MOPAC DONE ==

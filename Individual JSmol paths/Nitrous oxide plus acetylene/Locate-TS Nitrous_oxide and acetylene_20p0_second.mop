@@ -1,0 +1,12 @@
+   GEO_REF="M:\Individual JSmol paths\Nitrous oxide plus acetylene\Locate-TS Nitrous_oxide and acetylene_20p0_first.mop" +
+Locate-TS(C:20) html GEO-OK OPT XYZ
+      Nitrous oxide and acetylene
+
+  C(HETATM    1  C   HET A   1)  -0.68661984 +1   0.78774128 +1  -0.00080956 +1
+  C(HETATM    2  C   HET A   1)   0.57026997 +1   1.34312267 +1  -0.00584945 +1
+  N(HETATM    3  N   HET A   1)  -1.60923404 +1   1.87637922 +1  -0.00302379 +1
+  N(HETATM    4  N   HET A   1)  -0.98477090 +1   2.96637396 +1  -0.00915295 +1
+  O(HETATM    5  O   HET A   1)   0.38559153 +1   2.73644115 +1  -0.01142988 +1
+  H(HETATM    6 1HT  HET A   1)  -1.09022339 +1  -0.19201967 +1   0.00320095 +1
+  H(HETATM    7 2HT  HET A   1)   1.58169698 +1   0.93584246 +1  -0.00590064 +1
+ 

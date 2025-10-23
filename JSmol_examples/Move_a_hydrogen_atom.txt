@@ -1,0 +1,32 @@
+#
+# Script for use with the HTML file "Move a hydrogen atom.html"
+#
+#  First hide all atoms, then display the two residues of interest
+#
+HIDE *
+display 10, 46
+#
+#  Rotate picture so it looks good
+#
+rotate best
+zoom 0
+delay 2
+#
+#   The hydrogen on the carboxylic acid group on Asn46 should be on
+#   the guanidine group of Arg10.  In the next step, the hydrogen atom will be moved.
+#
+#   Create a bond between the oxygen of Ser195 and the carbon of the Trp252-Thr253 peptide bond
+#
+connect (atomno=640) (atomno=130) single
+connect (atomno=640) (atomno=632) delete
+connect (atomno=640) (atomno=139) delete
+delay 2
+minimize SELECT (atomno=640) 
+delay 2
+console
+#
+# To edit the data-set, locate atom 640, and replace its coordinates with the new
+# coordinates of atom 640.  To get the new coordinates, click on atom 640, and see the
+# coordinates in the console window.
+
+

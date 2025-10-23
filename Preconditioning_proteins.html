@@ -1,0 +1,150 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Preconditioning Proteins) </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+Preconditioning Proteins </h1>
+<h2 align="left">
+Introduction</h2>
+<p align="left">
+The <a href="mozyme.html">MOZYME</a> function provides a very powerful tool for the study of proteins, in 
+particular globular proteins.&nbsp; Only systems that can be described with a 
+closed shell wavefunction can be modeled.&nbsp; In addition to proteins composed 
+only from the standard 20 residues, more complicated proteins, such as 
+bacteriorhodopsin, myoglobin, 
+cytochrome-P450, and hemoglobin can also be modeled.&nbsp; Organometallic 
+enzymes, particularly those involving the heme system, are normally regarded as 
+open shell, but their structures can apparently be represented with good 
+accuracy using the PM6 RHF method.&nbsp; No problems should occur 
+with even quite large systems: structures of systems of almost 10,000 atoms have 
+been optimized in a few CPU weeks.&nbsp; However, problems are likely to 
+occur in systems with significantly more than 10,000 atoms. </p>
+<p align="left">
+The most difficult operation in calculating protein structures involves 
+preparing the data set.&nbsp; None of the common sources of reference data for 
+protein geometries are suitable for use as a data set.&nbsp; This includes, in 
+particular, the <a href="http://www.rcsb.org/pdb/home/home.do">Protein Data Bank</a> 
+(the PDB). While all the proteins used in developing the MOZYME function were 
+obtained from the PDB, in every case extensive work had to be done in preparing 
+a data set that could be run using MOZYME.&nbsp; Common deficiencies or features 
+that make the raw PDB files unsuitable are:</p>
+<ul>
+<li>
+<p align="left">
+For most PDB entries, hydrogen atoms are missing.&nbsp; </p></li>
+<li>
+<p align="left">
+There might be positional disorder (groups of atoms can occupy two possible 
+conformations, and the PDB file records both)</p></li>
+<li>
+<p align="left">
+There might be structural disorder (different residues in the same position in 
+the sequence, e.g. ILE and LEU might both be present a fraction of the time in a 
+given position.)</p></li>
+<li>
+<p align="left">
+Residues might be missing.&nbsp; (These are usually only those residues on the 
+surface of a protein that are not involved in activity, and are not tightly 
+bound.)</p></li>
+<li>
+<p align="left">
+Exotic atoms might be present, e.g. Hg, Sm, or La.</p></li>
+</ul>
+<p align="left">
+All these features and faults must be addressed before a MOZYME run can be 
+started.</p>
+<h2 align="left">
+Recommended Sequence for Preconditioning a Protein Data Set</h2>
+<p align="left">
+1.
+Before starting, get a copy of the data set representing the protein of 
+interest; the PDB is an excellent source for such data files. </p>
+<p align="left">
+2.
+The first operation is to resolve positional and structural disorder.&nbsp; Most 
+GUIs that can handle PDB files will be able to do this when the data set is read 
+in.&nbsp; Look at the data set.&nbsp; If there are gaps in the residue sequence, 
+find out whether these represent genuine gaps or represent missing data.&nbsp; 
+Normally, gaps are not very important, and can safely be ignored. The rare case 
+is when there are one or more residues missing inside the protein - this 
+normally would require the missing residues to be replaced.</p>
+<p align="left">
+3.
+If necessary, add hydrogen atoms.&nbsp; Even if the protein already has hydrogen 
+atoms, quite often several of them are missing.&nbsp; During this operation, 
+several problems can occur. The commonest complications are:</p>
+<ul>
+<li>
+<p align="left">
+Too many or too few hydrogen atoms are added to a heavy atom resulting in the 
+wrong saturation.&nbsp; Thus if a phenyl group has excess hydrogen atoms, it 
+might be converted to a cyclohexane.</p></li>
+<li>
+<p align="left">
+Check hetero groups carefully.&nbsp; Thus heme should have the correct porphyrin 
+ring structure, and small hetero groups, such as carbon monoxide and molecular 
+oxygen, should not have "extra" hydrogen atoms.</p></li>
+</ul>
+<p align="left">
+4.
+Prepare a MOPAC data set; use Cartesian coordinates.&nbsp; In the first 
+run, use keywords <a href="zero_scf.html"><tt>0SCF</tt></a> and 
+<a href="pdbout.html"><tt>PDBOUT</tt></a> or <a href="html.html"><tt>HTML</tt></a>.&nbsp; 
+Inspect 
+the resulting structure using JSmol or other GUI.&nbsp; There should be no unknown residues.&nbsp; If 
+there are, and you're sure that they are correct, use keyword 
+<a href="xeno.html"><tt>XENO</tt></a> to re-define the 
+unknown residue or heterogroup. This step is 
+not essential, but if it's done then potential problems associated with the 
+unusual residue can be more rapidly located, if it's not done, the unknown residue 
+or heterogroup will be indicated as RES or UNK</p>
+<p align="left">
+5. Prepare a new data set.&nbsp;&nbsp; 
+Run this set using <tt><a href="cutoff.html">CUTOFF=6</a></tt>, <a href="gnorm.html"><tt>GNORM=30</tt></a>,
+<a href="nooptx.html"><tt>NOOPT</tt></a>, and <a href="opth.html"><tt>OPT-H</tt></a>.&nbsp; That will optimize the positions of 
+all the hydrogen atoms.</p>
+<p align="left">
+6. After the job has run, use the .arc file to make a new data set.&nbsp; Run 
+this new set with keywords <tt>0SCF </tt>and <tt>PDBOUT</tt>.&nbsp; Examine the resulting file to 
+see if any hydrogen atoms have migrated to form salt bridges.&nbsp; If they 
+have, examine the bridge to see if it is chemically sensible.</p>
+<p align="left">
+7. If everything is still okay, edit the data set to change all optimization 
+flags from 0 to 1, and re-run with keywords <tt>CUTOFF=6 GNORM=30 
+<a href="t=n.html">T=1w</a></tt> plus a <tt><a href="CVB.html">CVB</a> </tt>
+or <tt><a href="setpi.html">SETPI</a> </tt> keyword, if necessary. </p>
+<p align="left">
+8. If desired, add all the PDB preamble (everything in the PDB file from 
+"HEADER" to the line before the first atom) to the data set as comments.&nbsp; 
+Put an asterisk at the start of each comment to indicate that it is a comment.&nbsp; 
+If desired, add the keyword&nbsp; <tt>
+START_RES(<i>text</i>)</tt>.&nbsp; If the preamble, and <tt>
+START_RES(<i>text</i>)</tt> if necessary, is added, then when PDBOUT is used, 
+the resulting file will be almost indistinguishable from a regular PDB file. </p>
+<p align="left">
+9. Once the job finishes, edit the ARC file to make a new data set with 
+keywords&nbsp; <tt>GNORM=10 T=2w</tt> plus a <tt>CVB </tt>
+or <tt>SETPI </tt>as necessary, and re-run.</p>
+<p align="left">
+10. Edit the ARC file to make a preconditioned starting MOPAC data set.&nbsp; 
+This can be used for following a reaction path, finding a transition state, etc.&nbsp; </p>
+</body>
+</html>

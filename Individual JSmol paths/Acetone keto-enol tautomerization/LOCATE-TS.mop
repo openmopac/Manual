@@ -1,0 +1,4 @@
+geo_dat="Ene-Ol.arc" ++
+geo_ref="[Acetone-H](+) + H2O.arc" ++
+locate-ts(C:3,10,10)  html eps=78.4 charge=1
+Move reactants and products to the start of the reaction barrier

@@ -1,0 +1,394 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only    Version 17.004W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.004W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 352**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Jan 17 10:33:04 2017  *
+ *  START_RES- STARTING RESIDUE NUMBERS DEFINED
+ *  Keyword:   START_RES=(1E 16F 150G 250C 297G 298F 299G 300F) 
+ *  CHAIN      - PDB CHAIN LETTERS EXPLICITLY DEFINED
+ *  Keyword:   CHAINS=(EFGCGFGFEFGC) 
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -1
+ *
+ *
+ *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  1SCF       - DO 1 SCF AND THEN STOP 
+ *  T=         - A TIME OF      2.0 WEEKS   REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  GNORM=     - EXIT WHEN GRADIENT NORM DROPS BELOW  1.000    
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+output START_RES=(1E 16F 150G 250C 297G 298F 299G 300F)  CHAINS=(EFGCGFGFEFGC) T=2W  MOZYME EPS=78.4 GNORM=1 html  charge=-1 1SCF
+ Step 1. Hydrogen bond between Gly193 and Trp252 deleted.
+ (-NH- on Gly193 replaced by -O-)
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1115 H2448 N301 O705 S16  =  4585 atoms
+
+
+   Ion Atom No.           Label               Charge
+ 
+    1   N  144   (ATOM    144  N   SER E  11)   +1  (2.5 Angstroms from anion  O  214, Label: ATOM    214  OE2 GLU F  20)
+    2   N  148   (ATOM    148  N   ILE F  16)   +1  (2.6 Angstroms from anion  O 2726, Label: ATOM   2727  OD2 ASP G 194)
+    3   C 2141   (ATOM   2141  CZ  ARG G 154)   +1  (4.4 Angstroms from anion  O  229, Label: ATOM    229  OE2 GLU F  21)
+ 
+    1   O  214   (ATOM    214  OE2 GLU F  20)   -1  (2.5 Angstroms from cation  N  144, Label: ATOM    144  N   SER E  11)
+    2   O  229   (ATOM    229  OE2 GLU F  21)   -1  (4.4 Angstroms from cation  C 2141, Label: ATOM   2141  CZ  ARG G 154)
+    3   O 1445   (ATOM   1445  OD2 ASP F 102)   -1
+    4   O 2726   (ATOM   2727  OD2 ASP G 194)   -1  (2.6 Angstroms from cation  N  148, Label: ATOM    148  N   ILE F  16)
+
+          COMPUTED CHARGE ON SYSTEM: -1
+
+ -------------------------------------------------------------------------------
+output START_RES=(1E 16F 150G 250C 297G 298F 299G 300F)  CHAINS=(EFGCGFGFEFGC) T=2W  MOZYME EPS=78.4 GNORM=1 html  charge=-1 1SCF
+ Step 1. Hydrogen bond between Gly193 and Trp252 deleted.
+ (-NH- on Gly193 replaced by -O-)
+
+
+     1SCF WAS SPECIFIED, SO BFGS WAS NOT USED                 
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 17.004W)
+                                                       Tue Jan 17 10:45:23 2017
+                                                       No. of days remaining = 352
+
+
+
+
+          FINAL HEAT OF FORMATION =     -47932.11886 KCAL/MOL = -200547.98531 KJ/MOL
+          VAN DER WAALS AREA      =       7509.43 SQUARE ANGSTROMS
+
+
+          TOTAL ENERGY            =    -437484.27161 EV
+          ELECTRONIC ENERGY       =  -66829099.24795 EV
+          CORE-CORE REPULSION     =   66389081.44131 EV
+          DIELECTRIC ENERGY       =        -59.82253 EV
+          COSMO AREA              =       7509.43 SQUARE ANGSTROMS
+          COSMO VOLUME            =      35497.00 CUBIC ANGSTROMS
+
+          NO. OF FILLED LEVELS    =       6370
+          MOLECULAR WEIGHT        =      31868.1579
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            O  4292    O  3779    53.86500
+            O  4556    O  3526    48.19268
+            H  4140    H  4255    47.09590
+
+
+          SCF CALCULATIONS        =          1
+ 
+          WALL-CLOCK TIME         = 12 MINUTES AND 18.758 SECONDS
+          COMPUTATION TIME        = 16 MINUTES AND  3.400 SECONDS
+
+
+
+
+
+           Empirical Formula: C1115 H2448 N301 O705 S16  =  4585 atoms
+
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      CYS E   1       +0.103
+      GLY E   2       -0.084
+      VAL E   3       +0.018
+      PRO E   4       +0.071
+      ALA E   5       -0.010
+      ILE E   6       +0.069
+      GLN E   7       +0.031
+      PRO E   8       +0.011
+      VAL E   9       +0.035
+      LEU E  10       +0.254
+      SER E  11       +0.610  CATION
+      ILE F  16       +0.844  CATION
+      VAL F  17       +0.023
+      ASN F  18       +0.072
+      GLY F  19       +0.016
+      GLU F  20       -0.793  ANION
+      GLU F  21       -0.861  ANION
+      ALA F  22       +0.054
+      VAL F  23       +0.008
+      PRO F  24       +0.045
+      GLY F  25       -0.017
+      SER F  26       +0.055
+      TRP F  27       -0.063
+      PRO F  28       +0.059
+      TRP F  29       +0.017
+      GLN F  30       -0.025
+      VAL F  31       +0.032
+      SER F  32       +0.021
+      LEU F  33       -0.023
+      GLN F  34       +0.034
+      ASP F  35       -0.044
+      LYS F  36       +0.073
+      THR F  37       +0.011
+      GLY F  38       +0.035
+      PHE F  39       -0.003
+      HIS F  40       +0.023
+      PHE F  41       +0.020
+      CYS F  42       +0.009
+      GLY F  43       +0.063
+      GLY F  44       -0.022
+      SER F  45       -0.078
+      LEU F  46       +0.043
+      ILE F  47       -0.020
+      ASN F  48       +0.014
+      GLU F  49       +0.059
+      ASN F  50       -0.036
+      TRP F  51       +0.021
+      VAL F  52       +0.000
+      VAL F  53       -0.031
+      THR F  54       +0.026
+      ALA F  55       +0.013
+      ALA F  56       -0.037
+      HIS F  57       +0.060
+      CYS F  58       -0.110
+      GLY F  59       +0.048
+      VAL F  60       +0.058
+      THR F  61       -0.008
+      THR F  62       -0.047
+      SER F  63       +0.048
+      ASP F  64       -0.079
+      VAL F  65       +0.047
+      VAL F  66       +0.009
+      VAL F  67       +0.003
+      ALA F  68       +0.015
+      GLY F  69       -0.042
+      GLU F  70       +0.099
+      PHE F  71       +0.032
+      ASP F  72       -0.100
+      GLN F  73       -0.016
+      GLY F  74       +0.091
+      SER F  75       -0.033
+      SER F  76       +0.064
+      SER F  77       -0.044
+      GLU F  78       -0.059
+      LYS F  79       +0.135
+      ILE F  80       +0.077
+      GLN F  81       -0.035
+      LYS F  82       -0.040
+      LEU F  83       +0.080
+      LYS F  84       +0.114
+      ILE F  85       +0.035
+      ALA F  86       -0.024
+      LYS F  87       +0.024
+      VAL F  88       -0.026
+      PHE F  89       -0.013
+      LYS F  90       +0.101
+      ASN F  91       -0.039
+      SER F  92       +0.031
+      LYS F  93       -0.011
+      TYR F  94       -0.012
+      ASN F  95       +0.022
+      SER F  96       +0.009
+      LEU F  97       +0.090
+      THR F  98       -0.074
+      ILE F  99       +0.117
+      ASN F 100       -0.067
+      ASN F 101       -0.017
+      ASP F 102       -0.816  ANION
+      ILE F 103       -0.025
+      THR F 104       -0.036
+      LEU F 105       +0.025
+      LEU F 106       -0.004
+      LYS F 107       +0.000
+      LEU F 108       +0.070
+      SER F 109       -0.049
+      THR F 110       -0.006
+      ALA F 111       +0.021
+      ALA F 112       +0.034
+      SER F 113       -0.056
+      PHE F 114       +0.118
+      SER F 115       -0.019
+      GLN F 116       +0.026
+      THR F 117       -0.031
+      VAL F 118       +0.005
+      SER F 119       +0.061
+      ALA F 120       -0.037
+      VAL F 121       +0.049
+      CYS F 122       -0.050
+      LEU F 123       +0.012
+      PRO F 124       +0.067
+      SER F 125       -0.048
+      ALA F 126       +0.059
+      SER F 127       +0.040
+      ASP F 128       -0.160
+      ASP F 129       +0.069
+      PHE F 130       -0.012
+      ALA F 131       -0.004
+      ALA F 132       +0.072
+      GLY F 133       +0.029
+      THR F 134       +0.026
+      THR F 135       -0.059
+      CYS F 136       +0.034
+      VAL F 137       +0.009
+      THR F 138       -0.034
+      THR F 139       +0.042
+      GLY F 140       +0.007
+      TRP F 141       +0.049
+      GLY F 142       -0.053
+      LEU F 143       +0.074
+      THR F 144       -0.040
+      ARG F 145       +0.075
+      TYR F 146       +0.008
+      ASN G 150       -0.020
+      THR G 151       -0.034
+      PRO G 152       +0.165
+      ASP G 153       -0.082
+      ARG G 154       +1.014  CATION
+      LEU G 155       +0.048
+      GLN G 156       +0.037
+      GLN G 157       +0.022
+      ALA G 158       -0.028
+      SER G 159       -0.011
+      LEU G 160       +0.042
+      PRO G 161       +0.044
+      LEU G 162       +0.014
+      LEU G 163       -0.002
+      SER G 164       +0.042
+      ASN G 165       -0.016
+      THR G 166       +0.005
+      ASN G 167       +0.101
+      CYS G 168       -0.125
+      LYS G 169       +0.091
+      LYS G 170       +0.108
+      TYR G 171       -0.002
+      TRP G 172       -0.008
+      GLY G 173       +0.037
+      THR G 174       -0.012
+      LYS G 175       +0.062
+      ILE G 176       +0.006
+      LYS G 177       +0.081
+      ASP G 178       +0.010
+      ALA G 179       -0.001
+      MET G 180       +0.051
+      ILE G 181       +0.009
+      CYS G 182       +0.000
+      ALA G 183       -0.026
+      GLY G 184       +0.090
+      ALA G 185       -0.021
+      SER G 186       -0.003
+      GLY G 187       +0.009
+      VAL G 188       +0.038
+      SER G 189       -0.091
+      SER G 190       +0.044
+      CYS G 191       -0.067
+      MET G 192       +0.173
+      GLY G 193       -0.081
+      ASP G 194       -0.940  ANION
+      SER G 195       +0.046
+      GLY G 196       -0.015
+      GLY G 197       -0.023
+      PRO G 198       +0.078
+      LEU G 199       -0.038
+      VAL G 200       +0.017
+      CYS G 201       -0.055
+      LYS G 202       +0.140
+      LYS G 203       +0.028
+      ASN G 204       +0.018
+      GLY G 205       +0.031
+      ALA G 206       -0.026
+      TRP G 207       +0.026
+      THR G 208       -0.021
+      LEU G 209       +0.012
+      VAL G 210       -0.015
+      GLY G 211       +0.018
+      ILE G 212       -0.016
+      VAL G 213       +0.028
+      SER G 214       -0.083
+      TRP G 215       +0.090
+      GLY G 216       +0.009
+      SER G 217       -0.051
+      SER G 218       +0.074
+      THR G 219       +0.029
+      CYS G 220       +0.011
+      SER G 221       -0.023
+      THR G 222       +0.011
+      SER G 223       +0.019
+      THR G 224       +0.041
+      PRO G 225       -0.036
+      GLY G 226       -0.035
+      VAL G 227       +0.016
+      TYR G 228       +0.020
+      ALA G 229       -0.019
+      ARG G 230       +0.021
+      VAL G 231       -0.040
+      THR G 232       +0.025
+      ALA G 233       +0.003
+      LEU G 234       +0.035
+      VAL G 235       +0.018
+      ASN G 236       +0.008
+      TRP G 237       +0.029
+      VAL G 238       +0.029
+      GLN G 239       +0.002
+      GLN G 240       +0.091
+      THR G 241       -0.048
+      LEU G 242       +0.024
+      ALA G 243       +0.054
+      ALA G 244       +0.031
+      ASN G 245       -0.029
+      GLY C 250       +0.020
+      ALA C 251       +0.017
+      TRP C 252       +0.014
+      THR C 253       +0.027
+      LEU C 254       +0.004
+      SO4 G 297       -0.110
+      SO4 F 298       -0.018
+      SO4 G 299       -0.264
+      SO4 F 300       -0.026
+      HOH G 637       +0.136
+ 
+
+
+                   Salt Bridges Found
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (ATOM    144  N   SER E  11)   E11(+)    (ATOM    214  OE2 GLU F  20)   F20(-)      2.49
+      2  (ATOM   2142  NH1 ARG G 154)  G154(+)    (ATOM    228  OE1 GLU F  21)   F21(-)      2.57
+      3  (ATOM    148  N   ILE F  16)   F16(+)    (ATOM   2727  OD2 ASP G 194)  G194(-)      2.63
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.   192.413   172.572   323.894   414.381
+ HYBRID        26.618    26.371    37.961    53.339
+ SUM          219.032   198.943   361.855   467.432
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:           739.60 SECONDS
+
+ == MOPAC DONE ==

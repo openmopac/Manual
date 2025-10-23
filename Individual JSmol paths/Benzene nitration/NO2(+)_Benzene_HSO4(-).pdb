@@ -1,0 +1,24 @@
+HEADER  data-set: G:\test\NO2(+) Benzene HSO4(-)
+REMARK  MOPAC 2012, Version: 15.323W Date: Nov 19 2015 11:00
+HETATM    1  C   HET A   1       0.000   0.000   0.000  1.00 -0.13      PROT C 
+HETATM    2  C   HET A   1       1.394   0.000   0.000  1.00 -0.15      PROT C 
+HETATM    3  C   HET A   1       2.093   1.205   0.000  1.00 -0.18      PROT C 
+HETATM    4  C   HET A   1       1.394   2.412   0.006  1.00 -0.17      PROT C 
+HETATM    5  C   HET A   1       0.001   2.414   0.020  1.00 -0.17      PROT C 
+HETATM    6  C   HET A   1      -0.697   1.207   0.020  1.00 -0.14      PROT C 
+HETATM    7  N   HET A   1      -1.475  -2.076  -4.082  1.00  0.69      PROT N 
+HETATM    8  O   HET A   1      -2.156  -2.973  -4.034  1.00  0.17      PROT O 
+HETATM    9  O   HET A   1      -0.790  -1.177  -4.131  1.00  0.14      PROT O 
+HETATM   10  S   HET A   1      -1.150  -0.966   3.918  1.00  2.71      PROT S 
+HETATM   11  O   HET A   1      -2.163  -2.299   3.864  1.00 -0.90      PROT O 
+HETATM   12  O   HET A   1      -1.029  -0.718   5.377  1.00 -1.09      PROT O 
+HETATM   13  O   HET A   1       0.095  -1.440   3.288  1.00 -1.06      PROT O 
+HETATM   14  O   HET A   1      -1.893   0.078   3.191  1.00 -1.06      PROT O 
+HETATM   15  H   HET A   1      -0.543  -0.945  -0.012  1.00  0.16      PROT H 
+HETATM   16  H   HET A   1       1.933  -0.947   0.001  1.00  0.15      PROT H 
+HETATM   17  H   HET A   1       3.182   1.206  -0.006  1.00  0.16      PROT H 
+HETATM   18  H   HET A   1       1.941   3.355   0.000  1.00  0.16      PROT H 
+HETATM   19  H   HET A   1      -0.545   3.355   0.028  1.00  0.16      PROT H 
+HETATM   20  H   HET A   1      -1.786   1.205   0.036  1.00  0.16      PROT H 
+HETATM   21  H   HET A   1      -2.380  -2.646   2.986  1.00  0.41      PROT H 
+END

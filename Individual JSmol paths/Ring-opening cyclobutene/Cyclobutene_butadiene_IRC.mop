@@ -1,0 +1,14 @@
+geo_dat="Ring-opening cyclobutene A.arc" ++
+geo_ref="Ring-opening cyclobutene B.arc" ++
+saddle html 
+Ring-opening of Cyclobutene, transition state calculated using keyword "SADDLE"
+
+oldgeo TS opt
+
+
+oldgeo FORCE isotope
+
+
+oldgeo IRC=1* restart x-priority=0.1 html cycles=75
+
+Intrinsic reaction coordinate, starting from true transition state

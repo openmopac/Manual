@@ -1,0 +1,88 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Compare the geometries of two systems</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<p>(<a href="Modeling_proteins.html#If%20two%20or%20more">Modeling proteins</a>)</p>
+<h1>Comparing two proteins</h1>
+<p>Any two proteins can be compared using a utility within MOPAC.&nbsp; The 
+general form of the data set that allows two proteins to be compared consists of 
+two or three lines: keywords, title, and if wanted a comment line. A minimum set 
+of keywords would consist of <a href="geo_dat.html"><tt>
+GEO_DAT</tt></a>, <a href="geo_ref.html"><tt>GEO_REF</tt></a>, <tt>and
+<a href="compare.html">COMPARE</a></tt>. 
+A useful keyword to add is <a href="output.html"><tt>OUTPUT</tt></a>; this reduces the 
+size of the results, and allows the important material to be found more easily.&nbsp; 
+The results of a 
+comparison consist of a standard output file that gives a detailed description 
+of the relationship between the two proteins, their similarities and their 
+differences, a HTML web-page, a PDB file for each of the two proteins, and other 
+less-important files.&nbsp; Individual differences can be easily seen by opening 
+the JSmol HTML web-page and using the options provided.</p>
+<p>Some differences in the two systems can be tolerated, for example one system 
+might have residues missing that are present in the other system, or it might 
+have a different ligand non-covalently bonded to a site.&nbsp; Provided the 
+atoms common to both systems have the same PDB name (atom numbers are ignored), 
+they will be included in the comparison.</p>
+<p>Several types of comparison can 
+be done, among these are:</p>
+<h3>Comparing two steps in a reaction mechanism or two different optimizations</h3>
+<p>Systems of this type are easy to compare, they have the same atoms, charge, 
+and PDB atom labels.&nbsp; An example of such a data-set is:</p>
+<pre> compare output noreor ++ 
+  geo_dat="../All - new gradients, no PRECISE/23H 30-3.arc" ++
+  geo_ref="../All - new gradients, PRECISE/23H 30-3.arc" 
+ Comparison of the effect of using keyword "PRECISE" and not using it.</pre>
+Keyword "<a href="noreor.html"><tt>NOREOR</tt></a>" is useful here; it prevents the small changes in orientation that 
+are normally 
+made when systems are compared.&nbsp; For neatness, the data-set uses the "<a href="plusplus.html">++</a>" 
+option to split the keyword line into several lines, in this case three lines.<h3>Comparing two raw PDB files</h3>
+<p>Comparison of two closely-related structures can be illustrated using the 
+small protein Crambin, for which two high-resolution PDB entries 
+exist: 1EJG and 1CBN.&nbsp; These can be downloaded from the Protein Data Bank; 
+they have the default names 1EJG.pdb and 1CBN.pdb.&nbsp; Make up a data set, &quot;Compare 1EJG and 1CBN.mop&quot;, that 
+contains the two lines:</p><pre><a href="geo_dat.html">GEO_DAT</a>=&quot;1EJG.pdb" <a href="geo_ref.html">GEO_REF</a>=&quot;1CBN.pdb" <a href="compare.html">COMPARE</a> <a href="output.html">OUTPUT</a>
+Comparison of two PDB structures for Crambin </pre>
+<p>If this job is run, the two proteins will be compared. </p>
+<h3>Comparing two hydrogenated PDB files</h3>
+<p>When two or more PDB entries represent the same system, there is a natural 
+strong desire to compare the various structures.&nbsp; A good example is 
+provided by the small protein Crambin, for which two high-resolution PDB entries 
+exist: 1EJG and 1CBN. After hydrogenation and optimization of the hydrogen atom 
+positions, the two resulting ARC files can be compared using the following 
+data-set:</p>
+<pre> geo_dat="Crambin (1EJG).arc" ++
+ geo_ref="Crambin (1CBN).arc" ++
+ compare output
+ Compare the hydrogenated PDB files for two models of Crambin
+ </pre>
+<p>Examination of 1EJG and 
+1CBN reveals that 1CBN has a hetero-group, C<sub>2</sub>O, this moiety is missing in 
+1EJG.&nbsp; From the PDB remarks this entity is identified as ethanol, and 
+indeed 
+when 1CBN is hydrogenated (<a href="add-h.html"><tt>ADD-H</tt></a>) six 
+hydrogen atoms are added to it to form ethanol.&nbsp; Because of this, although 
+the heats of formation are present in the ARC files they should be ignored in 
+the results of the <tt>COMPARE</tt> job. </p>
+<p dir="ltr">&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

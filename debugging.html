@@ -1,0 +1,116 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Suggested procedure for locating bugs</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Suggested procedure for locating bugs
+</h2>
+Users are supplied with the source code for MOPAC, and,  while  the original
+code is fairly bug-free, after it has been modified there is a possibility that
+bugs may have been introduced.  In these  circumstances the  author  of  the
+changes  is obviously responsible for removing the offending bug, and the
+following  ideas  might  prove  useful  in  this context.
+<p>
+First of all, and most important, before any modifications are done a  back-up
+copy  of the standard MOPAC should be made.  This will prove invaluable in
+pinpointing deviations from the  standard  working.   This point  cannot  be
+over-emphasized--<em>make  a  back-up before modifying MOPAC!</em>
+</p><p>
+Clearly, a bug can occur almost  anywhere,  and  a  logical  search sequence is
+necessary in order to minimize the time taken to locate it.
+</p><p>
+If possible, perform the debugging with a small molecule, in  order to  save
+time  (debugging  is,  of  necessity,  time  consuming) and to minimize output.
+</p><p>
+The two sets of subroutines  in  MOPAC,  those  involved  with  the
+electronics  and  those  involved  in  the geometrics, are kept strictly
+separate, so the first question to be answered is which set contains the bug.
+If the heats of formation, derivatives, I.P.s, and charges, etc., are correct,
+the  bug  lies  in  the  geometrics;  if  faulty,  in  the electronics.
+</p><p>&nbsp;</p>
+<h3><a name="SECTION001712100000000000000">
+ Bugs discovered in the electronics subroutines</a>
+</h3>
+<p>Use formaldehyde for this test.  Use keywords <tt>1SCF</tt>, <tt>DEBUG</tt>, and
+any others necessary. </p>
+<p>
+The main steps are:
+</p><dl compact="">
+<dt>1.
+</dt><dd>Check  the  starting  one-electron  matrix  and   two-electron integral
+string, using the keyword <tt><a href="hcore.html">HCORE</a></tt>.  It is normally sufficient to verify
+that the two hydrogen atoms  are  equivalent,  and  that  the
+<span class="b">&pi;</span>
+system
+involves  only <i>p</i><sub><i>z</i></sub> on  oxygen  and carbon.  Note that numerical values are
+not checked, but only relative values.
+<p>
+If an error is found, use <tt><a href="moldat.html">MOLDAT</a></tt> to verify the  orbital  character, etc.
+</p><p>
+If faulty the error lies in <tt>READMO</tt>, <tt>GETGEO</tt> or <tt>MOLDAT</tt>.
+</p><p>
+Otherwise the error lies in <tt>HCORE</tt>, <tt>H1ELEC</tt> or <tt>ROTATE</tt>.
+</p><p>
+If the starting matrices are correct, go on to step (2).
+</p><p>
+</p></dd><dt>2.
+</dt><dd>Check the density or Fock matrix on every iteration,  with  the words
+<tt><a href="fock.html">FOCK</a></tt> or <tt><a href="density.html">DENSITY</a></tt>.  Check the equivalence of the  two hydrogen
+atoms, and the <span class="b">&pi;</span>
+system, as in (1).
+<p>
+If an error is found, check the first Fock matrix.  If faulty,  the bug  lies
+in ITER, probably in the Fock subroutines FOCK1 or FOCK2,  or in the (guessed)
+density matrix (MOLDAT).  An exception is  in  the  UHF closed-shell
+calculation,  where  a  small  asymmetry  is introduced to initiate the
+separation of the <span class="b">&alpha;</span>
+and <span class="b">&beta;</span>
+UHF wavefunctions.
+</p><p>
+If no error is found, check the second Fock matrix.  If faulty, the error lies
+in the density matrix DENSIT, or the diagonalization RSP.
+</p><p>
+If the Fock matrix is acceptable, check all the Fock matrices.   If the  error
+starts in iterations 2 to 4, the error probably lies in CNVG, if after that, in
+PULAY, if used.
+</p><p>
+If SCF is achieved, and the heat  of  formation  is  faulty,  check HELECT.
+If C.I. was used check MECI.
+</p><p>
+If the derivatives are faulty, use <tt><a href="dcart.html">DCART</a></tt> to  verify  the  Cartesian
+derivatives.   If  these  are  faulty, check DCART and DHC.  If they are
+correct,  or  not  calculated,  check  the   DERIV   finite   difference
+calculation.   If the wavefunction is non-variationally optimized, check
+DERNVO.
+</p><p>&nbsp;</p><h3><a name="SECTION001712200000000000000">Bugs discovered in the geometric subroutines</a> </h3>
+<p>If the geometric calculation is faulty, use <tt><a href="flepo.html">FLEPO</a></tt> or <tt>
+<a href="prnt.html">PRNT=5</a></tt> to monitor the optimization, <tt>
+<a href="deriv.html">DERIV</a></tt> may also be useful here. </p>
+<p>For the FORCE calculation, <tt><a href="dcart.html">DCART</a></tt> or <tt>DERIV</tt> are useful for variationally optimized functions, <tt>
+<a href="compfg.html">COMPFG</a></tt> for non-variationally optimized functions. </p>
+<p>For reaction paths, verify that FLEPO is working correctly; if so, then PATHS is faulty. </p>
+<p>For saddle-point calculations, verify that FLEPO is working correctly; if so, then REACT1 is faulty. </p>
+<p>Keep in mind the fact that MOPAC is a large calculation, and, while intended to be versatile, many combinations of options have not been tested. If a bug is found in the original code, please communicate details to Dr. James J. P. Stewart, Stewart Computational Chemistry, 15210 Paddington Circle, Colorado Springs, CO 80921-2512; E-mail: <a name="tex2html234"></a><a href="mailto:openmopac@gmail.com"><tt><font color="#0000ff"><u>openmopac@gmail.com</u></font></tt></a>. </p>
+<p>
+</p></dd><dt>&nbsp;</dt>
+</dl>
+<p>
+</p></body>
+</html>

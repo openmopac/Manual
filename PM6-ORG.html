@@ -1,0 +1,128 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>PM6-ORG</i></title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center" dir="ltr">
+<tt><font face="Times New Roman">PM6-ORG</font></tt><font face="Times New Roman">
+</font> </h1>
+
+
+<p align="left" dir="ltr">
+&nbsp;</p>
+<p align="left" dir="ltr">
+<font face="Times New Roman">PM6-ORG is a variant of PM6 that has been optimized for use in organic 
+chemistry, see
+<a href="https://link.springer.com/content/pdf/10.1007/s00894-023-05695-1.pdf" style="text-decoration: none">A 
+semiempirical method optimized for modeling proteins</a> and
+<a href="/PM6-ORG/index.html" style="text-decoration: none">Supplementary material</a>.&nbsp; It provides increased accuracy in three areas of organic 
+chemistry: heats of formation, non-covalent interactions, and protein 
+geometries. </font></p>
+<p align="left" dir="ltr">
+<font face="Times New Roman">Several faults in other semiempirical methods, 
+PM6, PM6-D3H4, PM7, etc., had limited their ability to model protein-ligand 
+interactions.&nbsp; These faults were corrected in PM6-ORG.</font></p>
+<h2 align="left" dir="ltr">
+<font face="Times New Roman">Problem with PM6-ORG that affects iodine atoms</font></h2>
+<p align="left" dir="ltr">
+<font face="Times New Roman">Although PM6-ORG represented a large improvement 
+over earlier methods, a severe fault was found almost two years after it was 
+published. Specifically <img border="0" src="PM6-OR1.jpg" align="right" width="373" height="178">some systems that contained 
+a sulfur atom in close proximity to an iodine atom gave nonsensical results. A 
+small system that illustrates this fault is the triatomic [SIH]<sup>+2</sup>. When 
+<a href="SIH%20Old%20iodine%20parameters.mop">this 
+system</a> was run using PM6-ORG, the heat of formation was -337.5 kcal.mol<sup>-1</sup>, 
+and the 
+&quot;d&quot; population of the iodine atom was 9.5 electrons, resulting in a net partial 
+atomic charge on iodine of -2.56.</font></p>
+<p align="left" dir="ltr">
+<font face="Times New Roman">To correct this fault, the parameters for iodine 
+were re-optimized and a bias was added to the Udd parameter of iodine to 
+increase its value. <a href="SIH%20Using%20the%20new%20iodine%20parameters.mop">This</a> resulted in&nbsp; the heat of formation of&nbsp; [SIH]<sup>+2</sup> 
+rising to +514.04 kcal.mol<sup>-1</sup> and the &quot;d&quot; population of iodine decreasing to 0.14 
+electrons.</font></p>
+<h2 align="left" dir="ltr">
+<font face="Times New Roman">New parameters for iodine</font></h2>
+<p align="left" dir="ltr">
+With the new parameters, the Average Unsigned Errors decreased slightly as shown 
+in the following Table:</p>
+<table border="1" cellspacing="1">
+  <tr>
+    <td colspan="5">
+    <p align="center"><b>Table of Average Unsigned Errors</b></td>
+  </tr>
+  <tr>
+    <td align="center">Property</td>
+    <td>Quantity</td>
+    <td>Original AUE</td>
+    <td>Revised AUE</td>
+    <td>No. in set</td>
+  </tr>
+  <tr>
+    <td align="center"><font face="Symbol">D</font>H<sub>f</sub></td>
+    <td align="center">Kcal/mol</td>
+    <td align="center">2.10</td>
+    <td align="center">1.89</td>
+    <td align="center">48</td>
+  </tr>
+  <tr>
+    <td align="center">Dipole</td>
+    <td align="center">Debye</td>
+    <td align="center">0.23</td>
+    <td align="center">0.15</td>
+    <td align="center">7</td>
+  </tr>
+  <tr>
+    <td align="center">I.P.</td>
+    <td align="center">eV</td>
+    <td align="center">0.20</td>
+    <td align="center">0.19</td>
+    <td align="center">12</td>
+  </tr>
+  <tr>
+    <td align="center">Bond length</td>
+    <td align="center">Angstroms</td>
+    <td align="center">0.027</td>
+    <td align="center">0.027</td>
+    <td align="center">24</td>
+  </tr>
+  <tr>
+    <td align="center">Bond angle</td>
+    <td align="center">Degrees</td>
+    <td align="center">1.23</td>
+    <td align="center">0.86</td>
+    <td align="center">9</td>
+  </tr>
+</table>
+<h2 align="left" dir="ltr">
+<font face="Times New Roman">Correcting the fault in iodine</font></h2>
+<p align="left">
+By default, the revised parameters for iodine will be 
+used in all copies of MOPAC after version 23.1.2.&nbsp; These parameters will not affect any systems that do not contain 
+at least one 
+ 
+iodine atom. An option to reverse the parameter values to those in the  PM6-ORG 
+publication has been provided. To use this option, add the keyword <b>
+EXTERNAL=&quot;Old iodine parameters.txt&quot;</b> and have the file <b>&quot;<a href="Old%20iodine%20parameters.txt">Old 
+iodine parameters.txt</a>&quot;</b> in the same folder. If this option is used, 
+the results for all systems will continue to be identical to those in the original paper.</p>
+</body>
+</html>

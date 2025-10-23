@@ -1,0 +1,7 @@
+measure off
+measure ALL (4.C2) (3.C1)
+measure ALL (4.C2) (4.C1)
+measure ALL (3.C3) (3.C2)
+reset;center {0.08750000000000013 0.03649999999999998 0.29000000000000004}; rotate z -155.89; rotate y 40.61; rotate z 148.61;
+animation mode palindrome
+animation on

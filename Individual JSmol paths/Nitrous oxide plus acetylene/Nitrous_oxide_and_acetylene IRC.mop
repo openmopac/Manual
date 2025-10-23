@@ -1,0 +1,5 @@
+TS gnorm=2   geo_dat="Saddle Nitrous oxide and acetylene.arc" 
+ Refine transition state for the reaction Nitrous oxide and acetylene <=> C2H2N2O
+ 
+oldgeo   IRC=1* HTML X-priority=0.1
+Reaction path for the reaction Nitrous oxide and acetylene <=> C2H2N2O

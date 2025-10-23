@@ -1,0 +1,116 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Choice of State to be Optimized</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">Choice of State to be Optimized </h1>
+<p>MECI can calculate a large number of states of various total spin. Two schemes are provided to allow a given state to be selected. First, <tt>
+<a href="root.html">ROOT=<i>n</i></a></tt> will, when used on its own, select the <i>n</i>'th state, irrespective of its total spin. By default, <i>n</i>=1. If <tt>ROOT=<i>n</i></tt> is used in conjunction with a keyword from the set
+<tt><a href="singlet.html">SINGLET</a>, <a href="doublet.html">DOUBLET</a>, <a href="triplet.html">TRIPLET</a>, <a href="quartet.html">QUARTET</a>,
+<a href="quintet.html">QUINTET</a>, <a href="sextet.html">SEXTET</a>, <a href="septet.html">SEPTET</a>, <a href="octet.html">OCTET</a></tt>,
+or <tt> <a href="nonet.html">NONET</a></tt>. , then the <i>n</i>'th root of that spin-state will be used. For example, <tt>ROOT=4</tt> and <tt>SINGLET</tt> will select the 4th singlet state. If there are two triplet states below the fourth singlet state then this will mean that the sixth state will be selected. </p>
+<p>Sometimes the energy required to form an excited state is wanted. By this we mean the energy of the excited state relative to the energy of the ground state, and not the heat of formation of the excited state. To calculate this quantity, the keywords <tt>
+<a href="precise.html">PRECISE</a>, <a href="gnorm.html">GNORM=0.01</a>,
+<a href="meci.html">MECI</a></tt> and <tt><a href="ci=n.html">C.I.=2</a></tt> should be used. For formaldehyde, these keywords would produce the output shown in the&nbsp;Figure.
+<br/>
+<br/>
+</p><div align="CENTER"> <div align="CENTER">&nbsp;<strong>Figure:</strong> Energies of Excited States<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p align="CENTER"> State</p></td>
+<td colspan="2" valign="MIDDLE">
+<p align="CENTER">Energy (eV)</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Q.N.</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Spin</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Symmetry</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Absolute</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Relative</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">-0.0049</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">0.0000</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Singlet</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">A1</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2.7109</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2.7158</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Triplet</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">A2</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">3.1029</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">3.1078</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Singlet</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">A2</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">7.8630</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">7.8679</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Singlet</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">A1</p></td>
+</tr>
+</table>
+<p></p></div></div><br/>
+This output can be read as follows: The first state (the one at -0.004891eV) is the new ground state. C.I. will lower the energy of the ground state, relative to the SCF ground state, and for formaldehyde this extra stabilization amounts to 0.0049 eV. The ground state is a singlet, and has A<sub>1</sub> symmetry. The second state is a triplet, with energy 2.7109eV above the SCF energy, or 2.7158eV above the ground state, and has A<sub>2</sub> symmetry. The third and fourth states are both singlets. 
+<p>Using the two keywords given, the system would optimize on the ground singlet state, and the bond orders and density matrix would reflect this. If the first excited singlet state were wanted, then the extra keywords <tt>ROOT=2</tt> and <tt>SINGLET</tt> would also be used. Alternatively, the single extra keyword <tt>ROOT=3</tt> could be used. If the first triplet state were wanted, then <tt>TRIPLET</tt> or <tt>ROOT=2</tt> (but not both!) could be used. </p>
+</body>
+</html>

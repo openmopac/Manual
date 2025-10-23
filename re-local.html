@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!--Converted with LaTeX2HTML 98.1 release (February 19th, 1998)
+originally by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others --><html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>RE-LOCAL </title>
+<meta content="RE-LOCAL " name="description"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!--Navigation Panel-->
+<h2 align="center">
+<tt>RE-LOCAL </tt>
+</h2>
+The LMOs used by <a href="mozyme.html"><tt>MOZYME</tt></a> in the SCF are not fully localized.  At the start they are,
+but as the SCF proceeds, they become increasingly delocalized.  At the end of
+a calculation, the LMOs may be 5 or 10 percent less than fully localized.
+ 
+To generate localized M.O.s of the type that MOPAC makes, <tt>RE-LOCAL</tt>
+should be used.
+<p> <tt>RE-LOCAL</tt>
+will give results slightly different to those from MOPAC because of two reasons:</p>
+<p>(1) Sets of LMOs that could be resolved into banana bonds or rabbit ears are 
+not resolved.&nbsp; This means that such LMOs are ill-defined, however this 
+would never be significant in reactions.</p>
+<p>(2) The unitary rotation of the occupied set will not allow atoms to be 
+created.&nbsp; So if one LMO has a specific atom that is not present in another 
+LMO, then rotation of the two LMOs will result in the loss of wavefunction in 
+the second LMO.&nbsp; This is also never important but in this case because the 
+loss only occurs in the tails of the LMOs.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+&nbsp;<p>&nbsp;</p>
+</body>
+</html>

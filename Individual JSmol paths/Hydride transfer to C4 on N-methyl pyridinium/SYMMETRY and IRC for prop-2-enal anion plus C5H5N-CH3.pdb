@@ -1,0 +1,29 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Hydride transfe
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun 11 2021 11:26
+REMARK  Heat of Formation = 31.965 Kcal/mol
+HETATM    1  O   HET A   1       0.000   0.000   0.000  1.00 -0.68      PROT O 
+HETATM    2  C   HET C   1       1.230   0.000   0.000  1.00  0.41      PROT C 
+HETATM    3  C2  HET K   1       2.026   1.188   0.000  1.00 -0.47      PROT C 
+HETATM    4  C1  HET K   1       1.472   2.438  -0.198  1.00 -0.15      PROT C 
+HETATM    5 3H1  HET K   1       1.547   2.693  -1.562  1.00  0.14      PROT H 
+HETATM    6  C4  HET D   2       0.025   2.567  -3.235  1.00 -0.33      PROT C 
+HETATM    7  H   HET C   1       1.735  -0.979   0.019  1.00  0.11      PROT H 
+HETATM    8  H2  HET K   1       3.099   1.073   0.094  1.00  0.16      PROT H 
+HETATM    9 1H1  HET K   1       2.040   3.343   0.035  1.00  0.16      PROT H 
+HETATM   10 2H1  HET K   1       0.389   2.569  -0.125  1.00  0.16      PROT H 
+HETATM   11  C   HET B   2      -0.751   1.460  -3.361  1.00  0.05      PROT C 
+HETATM   12  N   HET D   2      -0.196   0.188  -3.335  1.00 -0.30      PROT N 
+HETATM   13  C   HET F   2      -1.066  -0.985  -3.242  1.00 -0.26      PROT C 
+HETATM   14  C1  HET D   2       1.174   0.032  -3.199  1.00  0.06      PROT C 
+HETATM   15  C2  HET D   2       1.996   1.110  -3.080  1.00 -0.32      PROT C 
+HETATM   16  C3  HET D   2       1.448   2.456  -2.928  1.00 -0.12      PROT C 
+HETATM   17 1H   HET F   2      -1.221  -1.279  -2.186  1.00  0.17      PROT H 
+HETATM   18 2H   HET F   2      -2.056  -0.785  -3.691  1.00  0.17      PROT H 
+HETATM   19 3H   HET F   2      -0.627  -1.847  -3.779  1.00  0.17      PROT H 
+HETATM   20  H1  HET D   2       1.550  -0.999  -3.237  1.00  0.18      PROT H 
+HETATM   21  H2  HET D   2       3.074   0.992  -3.045  1.00  0.17      PROT H 
+HETATM   22  H3  HET D   2       2.085   3.286  -3.260  1.00  0.16      PROT H 
+HETATM   23  H   HET B   2      -1.834   1.508  -3.530  1.00  0.18      PROT H 
+HETATM   24  H4  HET D   2      -0.399   3.562  -3.331  1.00  0.17      PROT H 
+END

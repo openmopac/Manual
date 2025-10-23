@@ -1,0 +1,2 @@
+geo_dat="KE07.pdb" 0SCF RESIDUES0 PDBOUT XENO=(B254=LG1)
+Add chain letters to KE07 and do nothing else

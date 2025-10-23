@@ -1,0 +1,19 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/Formoazomethine
+REMARK  MOPAC 2016, Version: 21.153W Date: Jun  3 2021 08:56
+REMARK   3 HET = Not identified; C 2 H 4            =     6 atoms res:    1
+REMARK   3 HET = Not identified; C 2 H 5 N          =     8 atoms res:    2
+HETATM    1  C1  HET A   1       0.000   0.000   0.000  1.00 -0.27      PROT C 
+HETATM    2  C2  HET A   1       1.330   0.000   0.000  1.00 -0.29      PROT C 
+HETATM    3  C1  HET B   2      -0.996   3.250   0.000  1.00 -0.54      PROT C 
+HETATM    4  N   HET B   2       0.141   3.808  -0.388  1.00  0.13      PROT N 
+HETATM    5  C2  HET B   2       1.210   3.994   0.372  1.00 -0.54      PROT C 
+HETATM    6 1H1  HET A   1      -0.598   0.101   0.893  1.00  0.14      PROT H 
+HETATM    7 2H1  HET A   1      -0.598  -0.095  -0.894  1.00  0.14      PROT H 
+HETATM    8 1H2  HET A   1       1.929  -0.095  -0.892  1.00  0.14      PROT H 
+HETATM    9 2H2  HET A   1       1.926   0.103   0.895  1.00  0.14      PROT H 
+HETATM   10 1H1  HET B   2      -1.831   3.131  -0.659  1.00  0.16      PROT H 
+HETATM   11 2H1  HET B   2      -1.147   2.880   0.995  1.00  0.18      PROT H 
+HETATM   12  H   HET B   2       0.198   4.126  -1.358  1.00  0.26      PROT H 
+HETATM   13 1H2  HET B   2       1.245   3.696   1.402  1.00  0.18      PROT H 
+HETATM   14 2H2  HET B   2       2.104   4.450   0.001  1.00  0.16      PROT H 
+END

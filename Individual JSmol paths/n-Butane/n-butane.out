@@ -1,0 +1,2815 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.148W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.148W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sat May 29 10:53:27 2021  *
+ *  RESIDUES   - DETERMINE THE SEQUENCE OF RESIDUES
+ *  STEP       - STEP-SIZE IN PATH =  -5.000
+ *  POINT      - NUMBER OF POINTS IN PATH = 72
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *  GRAPH      - GENERATE FILE FOR GRAPHICS
+ *******************************************************************************
+step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       H          0.00000000       0.0000000       0.0000000        0     0     0
+     2       C          1.09467446  *    0.0000000       0.0000000        1     0     0
+     3       H          1.09468179  *  108.3060120  *    0.0000000        2     1     0
+     4       H          1.09451692  *  108.0828818  *  116.8640524  *     2     1     3
+     5       C          1.52032069  *  111.0009945  * -122.0973649  *     2     1     3
+     6       H          1.09624936  *  109.1543327  *  -61.3083930  *     5     2     1
+     7       H          1.09628873  *  109.1522025  * -178.1804455  *     5     2     1
+     8       C          1.52730534  *  111.4939851  *   60.2569333  *     5     2     1
+     9       H          1.09624936  *  109.8695164  *   58.8505531  *     8     5     2
+    10       H          1.09628873  *  109.8685080  *  -58.8539241  *     8     5     2
+    11       C          1.52032069  *  111.4939851  *  180.0000000  +     8     5     2
+    12       H          1.09451692  *  110.2642241  *  179.9978269  *    11     8     5
+    13       H          1.09468489  *  111.0061140  *   60.2600133  *    11     8     5
+    14       H          1.09467662  *  111.0029543  *  -60.2645782  *    11     8     5
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         H          0.0000      0.0000      0.0000
+     2         C          1.0947      0.0000      0.0000
+     3         H          1.4385      1.0393      0.0000
+     4         H          1.4344     -0.4702      0.9282
+     5         C          1.6395     -0.7542     -1.2024
+     6         H          1.3043     -1.7968     -1.1551
+     7         H          2.7348     -0.7633     -1.1551
+     8         C          1.1819     -0.1208     -2.5146
+     9         H          1.5171      0.9219     -2.5619
+    10         H          0.0867     -0.1116     -2.5619
+    11         C          1.7268     -0.8749     -3.7170
+    12         H          1.3870     -0.4048     -4.6452
+    13         H          1.3829     -1.9142     -3.7171
+    14         H          2.8214     -0.8748     -3.7171
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C4 H10  =    14 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C2h 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 13
+
+  ABOUT TO ENTER EF FROM PATHK
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    26.134 HEAT: -27.73416
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.212 HEAT: -28.15706
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.767 HEAT: -28.18565
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.563 HEAT: -28.20242
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.247 HEAT: -28.20613
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.523 HEAT: -28.20899
+
+     GRADIENT =  0.52330 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       180.00000      -28.208994
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09575405 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09546689 +1  107.6219106 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09534888 +1  107.6004440 +1  115.6020159 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52881965 +1  111.2487496 +1 -122.3175068 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10638333 +1  110.0323125 +1  -61.6768890 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10639933 +1  110.0468446 +1 -177.8699295 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53479463 +1  110.9973114 +1   60.2234639 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10641575 +1  109.9535151 +1   58.0646220 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10638994 +1  109.9547297 +1  -58.0573583 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52834672 +1  110.9609913 +1  180.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09564125 +1  111.2818947 +1  179.9916299 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09567194 +1  111.4934411 +1   60.0536889 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09568482 +1  111.4917401 +1  -60.0697558 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.308 HEAT: -27.68687
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.415 HEAT: -27.99647
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.993 HEAT: -28.16125
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.010 HEAT: -28.17083
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.074 HEAT: -28.18028
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.874 HEAT: -28.18247
+
+     GRADIENT =  0.87431 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       175.00000      -28.182470
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09556064 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09561873 +1  107.5524189 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09554647 +1  107.5041841 +1  115.4894254 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52880773 +1  111.3934331 +1 -122.4257918 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10595488 +1  110.0965159 +1  -61.8242892 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10639117 +1  109.9284484 +1 -178.0365802 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53517886 +1  111.0003699 +1   60.1400407 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10575449 +1  109.7561280 +1   53.3111816 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10659584 +1  110.0909169 +1  -62.8088989 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52881886 +1  110.9937126 +1  175.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09550602 +1  111.2455869 +1 -179.9939488 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09550063 +1  111.4193840 +1   60.0117756 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09577778 +1  111.4458533 +1  -60.0930928 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.521 HEAT: -27.60234
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     5.392 HEAT: -27.91487
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.184 HEAT: -28.08042
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.191 HEAT: -28.09180
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.125 HEAT: -28.10361
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.924 HEAT: -28.10606
+
+     GRADIENT =  0.92355 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       170.00000      -28.106065
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09559048 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09558759 +1  107.5690780 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09560278 +1  107.4722757 +1  115.4588719 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52874861 +1  111.3994907 +1 -122.4767953 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10573486 +1  110.1920352 +1  -62.0606959 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10660149 +1  109.8000792 +1 -178.2211507 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53543969 +1  111.0469236 +1   59.9916503 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10590808 +1  109.7633569 +1   48.4228392 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10643561 +1  110.1036850 +1  -67.6784267 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52883285 +1  111.0391189 +1  170.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09551712 +1  111.2472516 +1  179.9399742 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09551461 +1  111.4102808 +1   59.9426113 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09579395 +1  111.4584731 +1  -60.1697477 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.511 HEAT: -27.48378
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.486 HEAT: -27.79382
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.414 HEAT: -27.95827
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.228 HEAT: -27.97030
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.202 HEAT: -27.98202
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.915 HEAT: -27.98484
+
+     GRADIENT =  0.91525 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       165.00000      -27.984846
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09556855 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09559345 +1  107.5842658 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09563289 +1  107.4553968 +1  115.4494910 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52877300 +1  111.3872298 +1 -122.5031583 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10552333 +1  110.2591229 +1  -62.3756773 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10678560 +1  109.6732389 +1 -178.4548449 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53582089 +1  111.1091429 +1   59.7838392 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10617470 +1  109.7798813 +1   43.5801790 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10616403 +1  110.1175957 +1  -72.4944613 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52886237 +1  111.1094059 +1  165.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09552615 +1  111.2432984 +1  179.8234038 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09552688 +1  111.4041562 +1   59.8312844 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09579306 +1  111.4613560 +1  -60.2953886 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.594 HEAT: -27.31382
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.433 HEAT: -27.62983
+ CYCLE:     3 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     3.252 HEAT: -27.79892
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.247 HEAT: -27.81108
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.146 HEAT: -27.82407
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.950 HEAT: -27.82662
+
+     GRADIENT =  0.94986 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       160.00000      -27.826622
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09558673 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09556462 +1  107.6242851 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09566051 +1  107.4486302 +1  115.4465381 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52882019 +1  111.3937122 +1 -122.5263698 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10538876 +1  110.2981011 +1  -62.6943439 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10692127 +1  109.5462817 +1 -178.6569902 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53631043 +1  111.2067543 +1   59.5373959 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10619616 +1  109.8251974 +1   38.5931106 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10612447 +1  110.1204849 +1  -77.4437727 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52894941 +1  111.1902033 +1  160.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09553673 +1  111.2423210 +1  179.6875630 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09551918 +1  111.3977834 +1   59.6951178 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09582522 +1  111.4620101 +1  -60.4474845 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    10.540 HEAT: -27.13631
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.482 HEAT: -27.44678
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.416 HEAT: -27.61369
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.250 HEAT: -27.62607
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.126 HEAT: -27.63893
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.919 HEAT: -27.64155
+
+     GRADIENT =  0.91906 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       155.00000      -27.641552
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09558261 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09558025 +1  107.6381906 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09566226 +1  107.4432018 +1  115.4493801 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52888351 +1  111.3818024 +1 -122.5250111 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10525659 +1  110.3086206 +1  -63.0372147 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10702767 +1  109.4423274 +1 -178.8712335 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53688056 +1  111.3012112 +1   59.2864473 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10636047 +1  109.8702019 +1   33.6604070 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10594808 +1  110.1264032 +1  -82.3330388 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52901059 +1  111.2912609 +1  155.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09554684 +1  111.2389499 +1  179.5397509 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09552176 +1  111.3983552 +1   59.5553083 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09583445 +1  111.4551093 +1  -60.6066034 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.592 HEAT: -26.92623
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.518 HEAT: -27.24113
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.446 HEAT: -27.41251
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.288 HEAT: -27.42530
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.125 HEAT: -27.43882
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.914 HEAT: -27.44134
+
+     GRADIENT =  0.91378 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       150.00000      -27.441345
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09557049 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09560523 +1  107.6548452 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09566573 +1  107.4440984 +1  115.4521819 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52894506 +1  111.3881026 +1 -122.5182294 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10520344 +1  110.2868824 +1  -63.3547084 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10707564 +1  109.3581689 +1 -179.0438495 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53748712 +1  111.4132429 +1   59.0274856 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10638327 +1  109.9271587 +1   28.6437725 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10589904 +1  110.1278964 +1  -87.3010435 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52909235 +1  111.3957946 +1  150.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09555388 +1  111.2379564 +1  179.4069329 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09551048 +1  111.4010315 +1   59.4268952 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09585954 +1  111.4435661 +1  -60.7529907 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.586 HEAT: -26.72162
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.507 HEAT: -27.03647
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.437 HEAT: -27.20972
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.310 HEAT: -27.22272
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.122 HEAT: -27.23666
+ CYCLE:     6 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     0.897 HEAT: -27.23902
+
+     GRADIENT =  0.89679 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       145.00000      -27.239023
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09556144 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09563540 +1  107.6637243 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09565612 +1  107.4489642 +1  115.4583224 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52901157 +1  111.3995990 +1 -122.5004760 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10520760 +1  110.2377277 +1  -63.6211137 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10706645 +1  109.3017038 +1 -179.1636575 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53809217 +1  111.5268335 +1   58.7946967 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10635768 +1  109.9913373 +1   23.5809699 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10589744 +1  110.1227137 +1  -92.3118037 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52917415 +1  111.5008421 +1  145.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09555659 +1  111.2382141 +1  179.3051550 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09549359 +1  111.4071349 +1   59.3284034 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09588496 +1  111.4265165 +1  -60.8665378 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.567 HEAT: -26.52873
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.494 HEAT: -26.84314
+ CYCLE:     3 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     3.428 HEAT: -27.01826
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.332 HEAT: -27.03150
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.122 HEAT: -27.04574
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.884 HEAT: -27.04799
+
+     GRADIENT =  0.88394 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       140.00000      -27.047987
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09554624 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09567758 +1  107.6632612 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09563482 +1  107.4581403 +1  115.4672422 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52907512 +1  111.4153116 +1 -122.4691706 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10526639 +1  110.1642019 +1  -63.8166192 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10700536 +1  109.2769319 +1 -179.2205855 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53865225 +1  111.6337331 +1   58.6068914 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10628154 +1  110.0572099 +1   18.4790910 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10594673 +1  110.1114599 +1  -97.3616128 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52925072 +1  111.6002172 +1  140.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09555432 +1  111.2399437 +1  179.2489546 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09547086 +1  111.4165688 +1   59.2729461 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09591157 +1  111.4043078 +1  -60.9323831 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.543 HEAT: -26.35988
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.483 HEAT: -26.67394
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.422 HEAT: -26.85103
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.355 HEAT: -26.86455
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.123 HEAT: -26.87902
+ CYCLE:     6 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     0.876 HEAT: -26.88126
+
+     GRADIENT =  0.87586 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       135.00000      -26.881256
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09552556 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09573082 +1  107.6536326 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09560202 +1  107.4714922 +1  115.4789004 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52913044 +1  111.4337303 +1 -122.4253972 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10537537 +1  110.0712341 +1  -63.9266076 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10689945 +1  109.2853475 +1 -179.2094044 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53912509 +1  111.7270858 +1   58.4767688 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10615067 +1  110.1214339 +1   13.3420743 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10605410 +1  110.0931613 +1 -102.4500090 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52931830 +1  111.6873806 +1  135.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09554618 +1  111.2434203 +1  179.2482049 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09544239 +1  111.4286508 +1   59.2689425 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09594063 +1  111.3775634 +1  -60.9403638 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.519 HEAT: -26.22706
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.472 HEAT: -26.54077
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.414 HEAT: -26.71967
+ CYCLE:     4 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     2.374 HEAT: -26.73349
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.126 HEAT: -26.74813
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.880 HEAT: -26.75044
+
+     GRADIENT =  0.88010 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       130.00000      -26.750444
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09550093 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09579205 +1  107.6357810 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09555915 +1  107.4886194 +1  115.4929037 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52917448 +1  111.4536362 +1 -122.3727618 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10552817 +1  109.9649958 +1  -63.9427911 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10675745 +1  109.3262374 +1 -179.1301966 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53947391 +1  111.8016604 +1   58.4119879 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10596757 +1  110.1809261 +1    8.1761287 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10622058 +1  110.0670512 +1 -107.5742086 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52937409 +1  111.7564229 +1  130.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09553137 +1  111.2488576 +1  179.3076792 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09540889 +1  111.4424098 +1   59.3201273 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09597309 +1  111.3472376 +1  -60.8853598 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.498 HEAT: -26.13997
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.460 HEAT: -26.45318
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.401 HEAT: -26.63340
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.387 HEAT: -26.64748
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.132 HEAT: -26.66222
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.893 HEAT: -26.66469
+
+     GRADIENT =  0.89305 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       125.00000      -26.664691
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09547429 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09585737 +1  107.6110306 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09550856 +1  107.5087687 +1  115.5084907 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52920584 +1  111.4738834 +1 -122.3149534 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10571613 +1  109.8526788 +1  -63.8637404 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10658998 +1  109.3965687 +1 -178.9882459 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53967104 +1  111.8535147 +1   58.4163654 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10574554 +1  110.2321334 +1    2.9913364 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10643670 +1  110.0334134 +1 -112.7270812 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52941607 +1  111.8030554 +1  125.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09550941 +1  111.2562683 +1  179.4273257 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09537196 +1  111.4567580 +1   59.4261107 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09600888 +1  111.3146133 +1  -60.7669684 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.480 HEAT: -26.10473
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.447 HEAT: -26.41723
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.381 HEAT: -26.59805
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.389 HEAT: -26.61227
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.139 HEAT: -26.62706
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.910 HEAT: -26.62970
+
+     GRADIENT =  0.91042 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       120.00000      -26.629696
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09544778 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09592320 +1  107.5809990 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545282 +1  107.5309396 +1  115.5248638 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52922437 +1  111.4930873 +1 -122.2547901 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10592780 +1  109.7421827 +1  -63.6946830 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10640986 +1  109.4908767 +1 -178.7931695 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53970109 +1  111.8801494 +1   58.4903283 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10550567 +1  110.2710231 +1   -2.1986040 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10668477 +1  109.9939095 +1 -117.8970517 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52944341 +1  111.8252028 +1  120.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09548034 +1  111.2654222 +1  179.6028868 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09533408 +1  111.4705997 +1   59.5829685 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09604698 +1  111.2812437 +1  -60.5890266 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    10.466 HEAT: -26.12302
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.432 HEAT: -26.43463
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.353 HEAT: -26.61525
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.378 HEAT: -26.62946
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.145 HEAT: -26.64423
+ CYCLE:     6 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     0.928 HEAT: -26.64700
+
+     GRADIENT =  0.92834 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       115.00000      -26.647000
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09542378 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09598626 +1  107.5475571 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09539463 +1  107.5540224 +1  115.5413038 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52923113 +1  111.5096528 +1 -122.1949717 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10614915 +1  109.6414905 +1  -63.4468809 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10623187 +1  109.6014155 +1 -178.5576666 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53956306 +1  111.8813524 +1   58.6305960 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10527185 +1  110.2935749 +1   -7.3783793 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10694297 +1  109.9513616 +1 -123.0698397 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52945675 +1  111.8233003 +1  115.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09544489 +1  111.2758548 +1  179.8264371 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09529824 +1  111.4828353 +1   59.7836997 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09608566 +1  111.2489849 +1  -60.3591808 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.456 HEAT: -26.19174
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.414 HEAT: -26.50237
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.318 HEAT: -26.68201
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.355 HEAT: -26.69607
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.147 HEAT: -26.71071
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.943 HEAT: -26.71357
+
+     GRADIENT =  0.94325 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       110.00000      -26.713573
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09540480 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09604254 +1  107.5127302 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09533715 +1  107.5768249 +1  115.5569343 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52922827 +1  111.5219713 +1 -122.1389591 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10636478 +1  109.5577333 +1  -63.1369769 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10607171 +1  109.7187010 +1 -178.2964777 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53927063 +1  111.8600677 +1   58.8298320 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10506805 +1  110.2963337 +1  -12.5333221 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10718802 +1  109.9091015 +1 -128.2304570 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52945815 +1  111.8006477 +1  110.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09540455 +1  111.2868286 +1 -179.9132924 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09526775 +1  111.4923268 +1   60.0185695 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09612220 +1  111.2202033 +1  -60.0885542 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.449 HEAT: -26.30308
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.395 HEAT: -26.61268
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.275 HEAT: -26.79069
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.322 HEAT: -26.80447
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.144 HEAT: -26.81883
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.951 HEAT: -26.82172
+
+     GRADIENT =  0.95144 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       105.00000      -26.821719
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09539330 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09608647 +1  107.4786073 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09528441 +1  107.5980317 +1  115.5704330 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52921865 +1  111.5285704 +1 -122.0914743 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10656009 +1  109.4961464 +1  -62.7864334 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10594454 +1  109.8323316 +1 -178.0257851 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53885087 +1  111.8230300 +1   59.0761900 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10491695 +1  110.2766595 +1  -17.6512401 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10739751 +1  109.8701821 +1 -133.3647640 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52945065 +1  111.7639438 +1  105.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09536179 +1  111.2972393 +1 -179.6307990 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09524591 +1  111.4978763 +1   60.2752037 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09615226 +1  111.1980770 +1  -59.7916832 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.441 HEAT: -26.44472
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.373 HEAT: -26.75329
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.227 HEAT: -26.92914
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.281 HEAT: -26.94253
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.135 HEAT: -26.95647
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.949 HEAT: -26.95930
+
+     GRADIENT =  0.94932 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       100.00000      -26.959303
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09539119 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09611036 +1  107.4474149 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09524163 +1  107.6161505 +1  115.5798726 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52920492 +1  111.5282004 +1 -122.0586878 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10672391 +1  109.4591796 +1  -62.4211900 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10586372 +1  109.9318834 +1 -177.7631426 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53834148 +1  111.7811651 +1   59.3524803 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10483869 +1  110.2327148 +1  -22.7237855 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10755289 +1  109.8365798 +1 -138.4606322 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52943730 +1  111.7238206 +1  100.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09532014 +1  111.3055389 +1 -179.3440203 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09523544 +1  111.4982631 +1   60.5381986 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09616948 +1  111.1867270 +1  -59.4869643 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.430 HEAT: -26.60042
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.350 HEAT: -26.90798
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.189 HEAT: -27.08135
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.257 HEAT: -27.09437
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.117 HEAT: -27.10746
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.935 HEAT: -27.11031
+
+     GRADIENT =  0.93521 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        95.00000      -27.110306
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09538584 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09612039 +1  107.4184675 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09521310 +1  107.6291022 +1  115.5847462 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52919037 +1  111.5279466 +1 -122.0433669 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10685294 +1  109.4461412 +1  -62.0766733 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10583868 +1  110.0076789 +1 -177.5326231 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53778855 +1  111.7495756 +1   59.6268828 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10485656 +1  110.1611854 +1  -27.7458350 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10763440 +1  109.8114113 +1 -143.5077220 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52941745 +1  111.6945614 +1   95.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09528337 +1  111.3099203 +1 -179.0751773 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09523630 +1  111.4933106 +1   60.7872557 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09616695 +1  111.1896628 +1  -59.1986197 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.414 HEAT: -26.75110
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.326 HEAT: -27.05768
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.136 HEAT: -27.22854
+ CYCLE:     4 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     2.208 HEAT: -27.24108
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.097 HEAT: -27.25362
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.908 HEAT: -27.25621
+
+     GRADIENT =  0.90751 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        90.00000      -27.256215
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09540686 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09607492 +1  107.4017517 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09521142 +1  107.6356371 +1  115.5768149 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52916351 +1  111.5114656 +1 -122.0636245 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10694744 +1  109.4526313 +1  -61.7823434 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10587844 +1  110.0519598 +1 -177.3515730 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53723680 +1  111.7466795 +1   59.8806381 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10496226 +1  110.0670682 +1  -32.7237547 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10766256 +1  109.7857925 +1 -148.5038315 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52939480 +1  111.6949824 +1   90.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09525871 +1  111.3078940 +1 -178.8500220 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09525132 +1  111.4807256 +1   60.9999391 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09613669 +1  111.2132463 +1  -58.9537862 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.402 HEAT: -26.87704
+ CYCLE:     2 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     5.307 HEAT: -27.18288
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.087 HEAT: -27.35134
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.163 HEAT: -27.36342
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.075 HEAT: -27.37536
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.874 HEAT: -27.37769
+
+     GRADIENT =  0.87377 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        85.00000      -27.377693
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09543084 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09599039 +1  107.3995038 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09524140 +1  107.6329739 +1  115.5581788 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52912703 +1  111.4891730 +1 -122.1185598 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10701939 +1  109.4727936 +1  -61.5750975 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10598154 +1  110.0590140 +1 -177.2435684 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53673528 +1  111.7903451 +1   60.0739391 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10515842 +1  109.9497524 +1  -37.6628086 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10764417 +1  109.7582755 +1 -153.4468081 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52935884 +1  111.7429811 +1   85.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09525026 +1  111.2977580 +1 -178.6979131 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09527590 +1  111.4617943 +1   61.1473382 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09607817 +1  111.2578165 +1  -58.7867980 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.400 HEAT: -26.95997
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.296 HEAT: -27.26547
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.050 HEAT: -27.43199
+ CYCLE:     4 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     2.132 HEAT: -27.44372
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.062 HEAT: -27.45527
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.852 HEAT: -27.45743
+
+     GRADIENT =  0.85172 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        80.00000      -27.457434
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09545627 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09587258 +1  107.4162350 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09530833 +1  107.6191214 +1  115.5273508 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52906830 +1  111.4642611 +1 -122.2100387 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10708417 +1  109.5000203 +1  -61.4934823 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10614534 +1  110.0261634 +1 -177.2351408 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53632643 +1  111.8946144 +1   60.1665114 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10541429 +1  109.8147401 +1  -42.5783565 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10762121 +1  109.7211503 +1 -158.3445523 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52930075 +1  111.8530644 +1   80.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09526234 +1  111.2785234 +1 -178.6496182 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09530512 +1  111.4379645 +1   61.1981482 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09599961 +1  111.3210611 +1  -58.7339265 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.418 HEAT: -26.98713
+ CYCLE:     2 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     5.297 HEAT: -27.29264
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.030 HEAT: -27.45763
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.120 HEAT: -27.46925
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.075 HEAT: -27.48087
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.868 HEAT: -27.48306
+
+     GRADIENT =  0.86758 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        75.00000      -27.483057
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09547926 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09573713 +1  107.4560011 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09541277 +1  107.5927648 +1  115.4863245 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52897894 +1  111.4406340 +1 -122.3334788 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10715476 +1  109.5288152 +1  -61.5736887 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10636324 +1  109.9539288 +1 -177.3534710 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53604396 +1  112.0643448 +1   60.1188051 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10567755 +1  109.6713326 +1  -47.4893618 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10765130 +1  109.6659446 +1 -163.2112580 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52921177 +1  112.0312019 +1   75.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09529748 +1  111.2504789 +1 -178.7352848 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09533315 +1  111.4116068 +1   61.1204253 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09591672 +1  111.3967110 +1  -58.8303442 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.465 HEAT: -26.95319
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.307 HEAT: -27.25884
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.027 HEAT: -27.42250
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.128 HEAT: -27.43426
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.124 HEAT: -27.44662
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.946 HEAT: -27.44916
+
+     GRADIENT =  0.94618 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        70.00000      -27.449158
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09549825 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09560355 +1  107.5198544 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09554821 +1  107.5541829 +1  115.4401963 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52885830 +1  111.4204397 +1 -122.4765123 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10723507 +1  109.5558907 +1  -61.8463627 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10662715 +1  109.8461534 +1 -177.6246182 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53591058 +1  112.2920004 +1   59.8981857 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10589327 +1  109.5308099 +1  -52.4119624 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10778305 +1  109.5876964 +1 -168.0629810 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52908824 +1  112.2709671 +1   70.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09535545 +1  111.2154639 +1 -178.9825604 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09535582 +1  111.3855910 +1   60.8842047 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09584578 +1  111.4757429 +1  -59.1059806 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.545 HEAT: -26.86045
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.324 HEAT: -27.16611
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.040 HEAT: -27.32830
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.152 HEAT: -27.34045
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.207 HEAT: -27.35425
+ CYCLE:     6 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     1.090 HEAT: -27.35755
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.766 HEAT: -27.36131
+
+     GRADIENT =  0.76625 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        65.00000      -27.361313
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09546342 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09542499 +1  107.6076165 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09560619 +1  107.4923379 +1  115.4219464 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52890530 +1  111.3827292 +1 -122.6263558 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10704636 +1  109.5983360 +1  -62.5508363 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10681505 +1  109.6871051 +1 -178.3764829 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53616931 +1  112.5468394 +1   59.2505796 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10637811 +1  109.7656692 +1  -57.4237301 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10753347 +1  109.1284824 +1 -173.0055701 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52866895 +1  112.5569761 +1   65.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09539562 +1  111.1721790 +1 -179.7439829 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09546674 +1  111.3448460 +1   60.2199042 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09561371 +1  111.5668999 +1  -59.8431923 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.869 HEAT: -26.70538
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.594 HEAT: -27.02818
+ CYCLE:     3 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     2.771 HEAT: -27.19513
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.852 HEAT: -27.20482
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.206 HEAT: -27.21634
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.250 HEAT: -27.22009
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.142 HEAT: -27.22634
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.897 HEAT: -27.22882
+
+     GRADIENT =  0.89742 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        60.00000      -27.228818
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09550910 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09528466 +1  107.6942736 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09569609 +1  107.4615572 +1  115.4122820 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52882019 +1  111.3591981 +1 -122.7137894 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10701442 +1  109.6346870 +1  -63.7193537 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10706069 +1  109.5312762 +1 -179.4951125 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53639289 +1  112.8144480 +1   58.1684798 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10656747 +1  109.7346866 +1  -62.4709647 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10764478 +1  108.9771159 +1 -177.9523972 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52856462 +1  112.8284183 +1   60.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09547296 +1  111.1407789 +1  179.0798700 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09552677 +1  111.3298392 +1   59.0637787 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09554367 +1  111.6112232 +1  -61.0631776 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.804 HEAT: -26.54570
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.578 HEAT: -26.86058
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.715 HEAT: -27.02200
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.792 HEAT: -27.03121
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.209 HEAT: -27.04242
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.322 HEAT: -27.04661
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.346 HEAT: -27.05391
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.040 HEAT: -27.05719
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.644 HEAT: -27.07049
+ CYCLE:    10 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.518 HEAT: -27.07813
+ CYCLE:    11 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.164 HEAT: -27.09221
+ CYCLE:    12 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.247 HEAT: -27.10067
+
+     GRADIENT =  0.24682 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        55.00000      -27.100659
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09563203 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09553943 +1  107.5881791 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09547553 +1  107.6410373 +1  115.5237259 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52876963 +1  111.3133242 +1 -122.4268991 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10712289 +1  109.7232806 +1  -69.2416911 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10726845 +1  109.5297402 +1  175.0547340 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53645024 +1  112.8597730 +1   52.7868693 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10712610 +1  109.5610459 +1  -67.2219875 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10701723 +1  109.2404098 +1  177.2956087 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52896994 +1  112.7977079 +1   55.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09541101 +1  111.1710127 +1  173.0745256 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09557358 +1  111.3946628 +1   53.0193620 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09558799 +1  111.4512458 +1  -67.0775624 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.510 HEAT: -26.37947
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.506 HEAT: -26.69122
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.990 HEAT: -26.85623
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.957 HEAT: -26.86630
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.012 HEAT: -26.87640
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.816 HEAT: -26.87833
+
+     GRADIENT =  0.81643 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        50.00000      -26.878329
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09562680 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09557703 +1  107.5765786 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09559181 +1  107.5931843 +1  115.4457655 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52863716 +1  111.3555751 +1 -122.5258493 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10701530 +1  109.7349845 +1  -69.4216973 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10759282 +1  109.3261221 +1  174.9901584 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53694591 +1  113.1003955 +1   52.7623219 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10694655 +1  109.2310953 +1  -72.0438292 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10751272 +1  109.3327531 +1  172.6004634 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52874340 +1  113.1120080 +1   50.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09550839 +1  111.1436190 +1  173.0326310 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09557310 +1  111.3524455 +1   53.0033430 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09566948 +1  111.5344493 +1  -67.1552704 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.723 HEAT: -26.10420
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.493 HEAT: -26.41859
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.233 HEAT: -26.58415
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.200 HEAT: -26.59635
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.138 HEAT: -26.60887
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.870 HEAT: -26.61123
+
+     GRADIENT =  0.87048 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        45.00000      -26.611226
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09565395 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09558070 +1  107.6011894 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09568650 +1  107.5603555 +1  115.4246266 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52847674 +1  111.3688781 +1 -122.5939717 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10696143 +1  109.7461989 +1  -69.6195636 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10789289 +1  109.1658753 +1  174.9208664 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53760036 +1  113.3915923 +1   52.7257486 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10717603 +1  109.1196542 +1  -76.9762016 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10751174 +1  109.3021205 +1  167.7768515 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52860669 +1  113.4119787 +1   45.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09558941 +1  111.1122601 +1  172.9753355 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09562985 +1  111.3446257 +1   52.9925602 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09563323 +1  111.5728416 +1  -67.2308863 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.746 HEAT: -25.80062
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.472 HEAT: -26.11435
+ CYCLE:     3 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     3.243 HEAT: -26.27996
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.270 HEAT: -26.29259
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.174 HEAT: -26.30540
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.884 HEAT: -26.30792
+
+     GRADIENT =  0.88414 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        40.00000      -26.307917
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09567690 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09557482 +1  107.6126172 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09574780 +1  107.5438027 +1  115.4195665 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52837464 +1  111.3856222 +1 -122.6330293 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10689733 +1  109.7367916 +1  -69.7751523 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10813665 +1  109.0144800 +1  174.9075454 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53836489 +1  113.6883049 +1   52.7369035 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10738552 +1  109.0317006 +1  -81.9315419 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10748907 +1  109.2711129 +1  162.9346347 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52849292 +1  113.7124710 +1   40.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09566988 +1  111.0820539 +1  172.9618899 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09567337 +1  111.3493451 +1   53.0296871 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09559558 +1  111.6018601 +1  -67.2559854 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    10.758 HEAT: -25.47045
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.445 HEAT: -25.78432
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.232 HEAT: -25.95119
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.323 HEAT: -25.96434
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.155 HEAT: -25.97751
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.900 HEAT: -25.98029
+
+     GRADIENT =  0.90023 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        35.00000      -25.980286
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09570080 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09556724 +1  107.6078846 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09577961 +1  107.5405325 +1  115.4245370 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52830155 +1  111.4066118 +1 -122.6459871 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10683854 +1  109.7064414 +1  -69.8410499 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10833310 +1  108.8778780 +1  174.9938991 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53921362 +1  113.9840037 +1   52.8342198 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10751149 +1  108.9633056 +1  -86.9361851 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10751633 +1  109.2382426 +1  158.0439304 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52840067 +1  114.0095142 +1   35.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09575138 +1  111.0530225 +1  173.0322179 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09570071 +1  111.3634888 +1   53.1505964 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09556028 +1  111.6252582 +1  -67.1939369 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.738 HEAT: -25.13264
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.410 HEAT: -25.44514
+ CYCLE:     3 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     3.213 HEAT: -25.61285
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.336 HEAT: -25.62659
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.151 HEAT: -25.64044
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.926 HEAT: -25.64348
+
+     GRADIENT =  0.92637 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        30.00000      -25.643477
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09572535 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09555572 +1  107.5942194 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09578981 +1  107.5460037 +1  115.4351702 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52825188 +1  111.4248105 +1 -122.6414811 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10679826 +1  109.6512113 +1  -69.7866548 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10847401 +1  108.7637750 +1  175.2027650 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54010829 +1  114.2691566 +1   53.0361477 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10754030 +1  108.9168235 +1  -91.9893926 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10760826 +1  109.2001073 +1  153.1003945 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52832434 +1  114.2947840 +1   30.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09583133 +1  111.0258214 +1  173.2083020 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09570709 +1  111.3866989 +1   53.3727827 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09553202 +1  111.6415465 +1  -67.0267311 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    10.701 HEAT: -24.80404
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.382 HEAT: -25.11435
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.202 HEAT: -25.28266
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.342 HEAT: -25.29692
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.178 HEAT: -25.31174
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.980 HEAT: -25.31503
+
+     GRADIENT =  0.97974 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        25.00000      -25.315032
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09572718 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09555379 +1  107.5771439 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09579933 +1  107.5530148 +1  115.4434958 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52820879 +1  111.4498504 +1 -122.6303214 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10680664 +1  109.5675513 +1  -69.6071165 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10854705 +1  108.6803935 +1  175.5338984 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54098734 +1  114.5365229 +1   53.3339235 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10746410 +1  108.8878953 +1  -97.0863133 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10778333 +1  109.1587021 +1  148.1056648 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52826019 +1  114.5601053 +1   25.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09590803 +1  110.9998273 +1  173.4937208 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09568914 +1  111.4180487 +1   53.6951230 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09551819 +1  111.6498866 +1  -66.7543236 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.658 HEAT: -24.50278
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.360 HEAT: -24.81059
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.203 HEAT: -24.97936
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.355 HEAT: -24.99408
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.218 HEAT: -25.00991
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.040 HEAT: -25.01351
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.564 HEAT: -25.01612
+
+     GRADIENT =  0.56398 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        20.00000      -25.016124
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09569771 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09551211 +1  107.5584115 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09576318 +1  107.5608821 +1  115.4593611 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52817777 +1  111.4786195 +1 -122.6418497 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10683583 +1  109.4465379 +1  -69.1790688 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10840374 +1  108.6391557 +1  176.0682842 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54189117 +1  114.8011369 +1   53.8012890 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10750657 +1  109.0732726 +1 -102.2514896 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10767382 +1  108.9425851 +1  143.0277383 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52810569 +1  114.7995150 +1   20.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09595078 +1  110.9735665 +1  173.9428781 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09565433 +1  111.4482024 +1   54.2194621 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09541902 +1  111.6546117 +1  -66.2881447 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.721 HEAT: -24.23908
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.470 HEAT: -24.55399
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.048 HEAT: -24.72669
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.205 HEAT: -24.73992
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.231 HEAT: -24.75428
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.080 HEAT: -24.75788
+ CYCLE:     7 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     0.616 HEAT: -24.76104
+
+     GRADIENT =  0.61601 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        15.00000      -24.761041
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09564301 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09554347 +1  107.5485877 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09579280 +1  107.5569600 +1  115.4583324 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52811887 +1  111.5220360 +1 -122.6463316 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10698357 +1  109.3112730 +1  -68.6567391 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10830638 +1  108.6389813 +1  176.7123058 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54258433 +1  115.0077260 +1   54.3387039 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10734185 +1  109.0807442 +1 -107.3976871 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10789083 +1  108.8924713 +1  137.9571078 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52803783 +1  115.0011982 +1   15.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09600736 +1  110.9510246 +1  174.5059544 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09559622 +1  111.4894816 +1   54.8031945 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09543092 +1  111.6445031 +1  -65.7434379 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.705 HEAT: -24.04110
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.482 HEAT: -24.35615
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.052 HEAT: -24.53061
+ CYCLE:     4 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     2.204 HEAT: -24.54400
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.274 HEAT: -24.55908
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.112 HEAT: -24.56277
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.805 HEAT: -24.56656
+
+     GRADIENT =  0.80450 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        10.00000      -24.566562
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09558760 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09554492 +1  107.5461138 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09581636 +1  107.5490175 +1  115.4544350 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52804852 +1  111.5578806 +1 -122.6595132 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10720857 +1  109.1517476 +1  -67.9187265 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10804728 +1  108.6896828 +1  177.5332809 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54315388 +1  115.1797878 +1   55.0480080 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10724076 +1  109.2457128 +1 -112.6025024 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10795430 +1  108.7083894 +1  132.8035774 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52788587 +1  115.1566254 +1   10.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09603540 +1  110.9301759 +1  175.2177132 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09554683 +1  111.5231698 +1   55.5595744 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09538308 +1  111.6327042 +1  -65.0241239 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.829 HEAT: -23.91019
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.611 HEAT: -24.23331
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.929 HEAT: -24.41174
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.066 HEAT: -24.42383
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.288 HEAT: -24.43771
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.136 HEAT: -24.44124
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.894 HEAT: -24.44538
+
+     GRADIENT =  0.89357 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         5.00000      -24.445382
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09553612 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09560084 +1  107.5507483 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09584929 +1  107.5382294 +1  115.4556424 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52799220 +1  111.5944261 +1 -122.6600157 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10747013 +1  109.0037474 +1  -67.0813104 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10784612 +1  108.7694684 +1  178.4390658 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54348767 +1  115.2868964 +1   55.8300907 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10707976 +1  109.2803967 +1 -117.7871133 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10816671 +1  108.6484170 +1  127.6548932 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52781882 +1  115.2625704 +1    5.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09606590 +1  110.9159513 +1  176.0158987 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09550021 +1  111.5608258 +1   56.3680241 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09541011 +1  111.6096574 +1  -64.2391343 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.830 HEAT: -23.86590
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.636 HEAT: -24.19003
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.906 HEAT: -24.36976
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.040 HEAT: -24.38163
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.324 HEAT: -24.39553
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.159 HEAT: -24.39910
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.929 HEAT: -24.40360
+
+     GRADIENT =  0.92889 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.00000      -24.403599
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09549172 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09567316 +1  107.5541530 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09587121 +1  107.5283218 +1  115.4597810 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52794446 +1  111.6291467 +1 -122.6550371 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10773977 +1  108.8717197 +1  -66.1755133 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10765470 +1  108.8726038 +1  179.3802476 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54359699 +1  115.3397152 +1   56.6505296 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10695535 +1  109.2911063 +1 -122.9464422 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10834966 +1  108.6183950 +1  122.5120300 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52777455 +1  115.3155585 +1   -0.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09608216 +1  110.9070947 +1  176.8588708 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09546334 +1  111.5963738 +1   57.2158504 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09544903 +1  111.5800812 +1  -63.4069855 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.827 HEAT: -23.90118
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.653 HEAT: -24.22682
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.903 HEAT: -24.40817
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.037 HEAT: -24.42005
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.370 HEAT: -24.43425
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.188 HEAT: -24.43794
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.963 HEAT: -24.44287
+
+     GRADIENT =  0.96340 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -5.00000      -24.442866
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09545731 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09575317 +1  107.5541078 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09587741 +1  107.5208330 +1  115.4684795 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52791132 +1  111.6590802 +1 -122.6403677 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10800028 +1  108.7621758 +1  -65.2045965 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10747655 +1  108.9922121 +1 -179.6489443 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54348040 +1  115.3373009 +1   57.5212518 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10681821 +1  109.3019066 +1 -128.0939183 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10854547 +1  108.5949880 +1  117.3602597 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52774376 +1  115.3135634 +1   -5.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09608444 +1  110.9038299 +1  177.7504750 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09543431 +1  111.6268838 +1   58.1095231 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09549494 +1  111.5474908 +1  -62.5204855 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.841 HEAT: -24.01530
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.666 HEAT: -24.34257
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.894 HEAT: -24.52488
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.028 HEAT: -24.53672
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.413 HEAT: -24.55115
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.222 HEAT: -24.55499
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.016 HEAT: -24.56042
+ CYCLE:     8 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     0.696 HEAT: -24.56227
+
+     GRADIENT =  0.69559 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -10.00000      -24.562269
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09544437 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09580617 +1  107.5554948 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09587512 +1  107.5144891 +1  115.4727929 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52787915 +1  111.6850468 +1 -122.5980756 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10818367 +1  108.6880541 +1  -64.1539632 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10736984 +1  109.1115787 +1 -178.6367302 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54312657 +1  115.2733837 +1   58.4665332 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10689155 +1  109.2253109 +1 -133.2355473 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10857397 +1  108.6657065 +1  112.2084170 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52784614 +1  115.2537146 +1  -10.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09609151 +1  110.9076528 +1  178.7127057 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09546502 +1  111.6570627 +1   59.0587503 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09553110 +1  111.5093953 +1  -61.5662476 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.589 HEAT: -24.21610
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.551 HEAT: -24.53320
+ CYCLE:     3 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     2.908 HEAT: -24.71195
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.060 HEAT: -24.72408
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.463 HEAT: -24.73939
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.250 HEAT: -24.74344
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.030 HEAT: -24.74926
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.739 HEAT: -24.75121
+
+     GRADIENT =  0.73942 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -15.00000      -24.751212
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09543030 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09587011 +1  107.5478338 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09584908 +1  107.5109246 +1  115.4878719 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52787959 +1  111.7003356 +1 -122.5645314 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10835966 +1  108.6438647 +1  -63.0419128 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10723798 +1  109.2399952 +1 -177.5984711 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54260211 +1  115.1590779 +1   59.4798985 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10676789 +1  109.2435166 +1 -138.3295254 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10872159 +1  108.6571253 +1  107.0688682 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52785284 +1  115.1398497 +1  -15.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09606369 +1  110.9167405 +1  179.7284262 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09545296 +1  111.6730638 +1   60.0734678 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09556997 +1  111.4762361 +1  -60.5379467 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.626 HEAT: -24.46462
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.558 HEAT: -24.78303
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.874 HEAT: -24.96106
+ CYCLE:     4 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     2.030 HEAT: -24.97290
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.486 HEAT: -24.98796
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.273 HEAT: -24.99208
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.071 HEAT: -24.99832
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.779 HEAT: -25.00042
+
+     GRADIENT =  0.77867 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -20.00000      -25.000419
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09542505 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09592101 +1  107.5376308 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09581021 +1  107.5083497 +1  115.5068074 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52789690 +1  111.7054427 +1 -122.5255305 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10846777 +1  108.6409371 +1  -61.8773402 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10714388 +1  109.3614790 +1 -176.5381195 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54191890 +1  114.9895468 +1   60.5578034 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10663464 +1  109.2660162 +1 -143.3842541 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10884939 +1  108.6608229 +1  101.9478120 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52788216 +1  114.9706770 +1  -20.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09602069 +1  110.9324740 +1 -179.1995062 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09544382 +1  111.6799984 +1   61.1392302 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09560474 +1  111.4452193 +1  -59.4450801 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.674 HEAT: -24.76174
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.560 HEAT: -25.08107
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.831 HEAT: -25.25739
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.989 HEAT: -25.26878
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.484 HEAT: -25.28323
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.275 HEAT: -25.28728
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.074 HEAT: -25.29367
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.790 HEAT: -25.29579
+
+     GRADIENT =  0.78951 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -25.00000      -25.295787
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09542674 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09595303 +1  107.5259199 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09576141 +1  107.5059955 +1  115.5274790 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52793782 +1  111.7010381 +1 -122.4823840 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10849496 +1  108.6802444 +1  -60.7024845 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10708543 +1  109.4693142 +1 -175.4936193 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54111955 +1  114.7684812 +1   61.6616924 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10654140 +1  109.2832524 +1 -148.3826495 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10889334 +1  108.6912404 +1   96.8638884 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52793953 +1  114.7491457 +1  -25.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09596225 +1  110.9548119 +1 -178.1074535 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09544039 +1  111.6781375 +1   62.2192723 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09562912 +1  111.4165561 +1  -58.3239200 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.709 HEAT: -25.09039
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.555 HEAT: -25.41016
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.793 HEAT: -25.58441
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.948 HEAT: -25.59532
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.454 HEAT: -25.60891
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.249 HEAT: -25.61274
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.024 HEAT: -25.61885
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.760 HEAT: -25.62082
+
+     GRADIENT =  0.76026 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -30.00000      -25.620816
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09543414 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09596229 +1  107.5134057 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09570440 +1  107.5035915 +1  115.5483659 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52800659 +1  111.6877535 +1 -122.4367494 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10843709 +1  108.7585909 +1  -59.5751615 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10705488 +1  109.5591875 +1 -174.5168843 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.54025377 +1  114.5026535 +1   62.7350868 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10650183 +1  109.2918318 +1 -153.3210514 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10883098 +1  108.7545644 +1   91.8232974 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52802703 +1  114.4816628 +1  -30.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09588994 +1  110.9831061 +1 -177.0480825 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09544336 +1  111.6679690 +1   63.2605178 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09564111 +1  111.3911395 +1  -57.2285651 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.719 HEAT: -25.43274
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     5.541 HEAT: -25.75220
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.766 HEAT: -25.92427
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.912 HEAT: -25.93469
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.390 HEAT: -25.94732
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.193 HEAT: -25.95078
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.929 HEAT: -25.95615
+
+     GRADIENT =  0.92934 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -35.00000      -25.956148
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09543829 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09599840 +1  107.4953229 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09565131 +1  107.5030621 +1  115.5765430 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52809427 +1  111.6626586 +1 -122.4072155 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10833895 +1  108.8751306 +1  -58.5938851 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10706767 +1  109.6287023 +1 -173.6789488 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53935386 +1  114.2062091 +1   63.6782783 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10641134 +1  109.3531538 +1 -158.1618988 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10874923 +1  108.7895924 +1   86.8582127 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52802553 +1  114.1765052 +1  -35.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09579444 +1  111.0139175 +1 -176.1135093 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09541087 +1  111.6447655 +1   64.1799538 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09564125 +1  111.3736549 +1  -56.2392212 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.929 HEAT: -25.75452
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.636 HEAT: -26.08439
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.750 HEAT: -26.25902
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.860 HEAT: -26.26885
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.279 HEAT: -26.28013
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.116 HEAT: -26.28311
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.829 HEAT: -26.28749
+
+     GRADIENT =  0.82891 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -40.00000      -26.287491
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09545951 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09594883 +1  107.4849885 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09559027 +1  107.5002465 +1  115.5915587 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52818653 +1  111.6346792 +1 -122.3572791 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10812684 +1  109.0149225 +1  -57.7352560 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10707312 +1  109.6773395 +1 -172.9864556 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53850739 +1  113.8817392 +1   64.5231097 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10637965 +1  109.3642737 +1 -163.0299842 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10856832 +1  108.8994457 +1   81.8670512 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52818166 +1  113.8484208 +1  -40.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09570634 +1  111.0502537 +1 -175.2799838 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09542205 +1  111.6184861 +1   64.9826567 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09563494 +1  111.3614451 +1  -55.3641721 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    10.866 HEAT: -26.07590
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.595 HEAT: -26.40166
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.733 HEAT: -26.57243
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.820 HEAT: -26.58169
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.136 HEAT: -26.59172
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.003 HEAT: -26.59417
+ CYCLE:     7 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     0.666 HEAT: -26.59722
+
+     GRADIENT =  0.66642 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -45.00000      -26.597217
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09548935 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09586526 +1  107.4790367 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09553232 +1  107.4960787 +1  115.6012232 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52831407 +1  111.6014557 +1 -122.3140314 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10785593 +1  109.1703728 +1  -57.0670986 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10707247 +1  109.7059565 +1 -172.4820036 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53774775 +1  113.5465631 +1   65.1917471 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10637222 +1  109.3600562 +1 -167.8624985 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10831533 +1  109.0459474 +1   76.9096254 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52837047 +1  113.5104942 +1  -45.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09561581 +1  111.0886187 +1 -174.6160517 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09543583 +1  111.5866752 +1   65.6097214 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09562502 +1  111.3563012 +1  -54.6607440 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.758 HEAT: -26.36280
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.535 HEAT: -26.68260
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.741 HEAT: -26.84926
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.805 HEAT: -26.85815
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.016 HEAT: -26.86716
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.892 HEAT: -26.86918
+
+     GRADIENT =  0.89208 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -50.00000      -26.869178
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09546688 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09571604 +1  107.4655998 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09539425 +1  107.4958050 +1  115.6217925 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52859165 +1  111.5730042 +1 -122.2940399 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10744104 +1  109.2984202 +1  -56.7486037 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10688339 +1  109.7211198 +1 -172.3757047 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53727239 +1  113.2405677 +1   65.4651306 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10607586 +1  109.0317599 +1 -172.5248640 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10835178 +1  109.5123863 +1   72.1479095 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52873239 +1  113.2091044 +1  -50.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09555858 +1  111.1290547 +1 -174.2841226 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09537458 +1  111.5747066 +1   65.8475153 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09576698 +1  111.3444215 +1  -54.3602305 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.609 HEAT: -26.59666
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.367 HEAT: -26.90602
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.108 HEAT: -27.07013
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.133 HEAT: -27.08173
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.076 HEAT: -27.09392
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.877 HEAT: -27.09613
+
+     GRADIENT =  0.87720 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -55.00000      -27.096128
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09550217 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09562484 +1  107.4589427 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09534546 +1  107.4940106 +1  115.6280693 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52875730 +1  111.5213216 +1 -122.2935658 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10714469 +1  109.4639063 +1  -56.5989623 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10687234 +1  109.7138220 +1 -172.3467808 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53677107 +1  112.9221835 +1   65.6345039 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10617913 +1  109.0600847 +1 -177.3038651 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10796572 +1  109.6478614 +1   67.2444492 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52885840 +1  112.8932022 +1  -55.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09547076 +1  111.1642534 +1 -174.0999653 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09542315 +1  111.5307258 +1   65.9983505 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09572182 +1  111.3583007 +1  -54.1345345 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.553 HEAT: -26.77386
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.351 HEAT: -27.08180
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.120 HEAT: -27.24508
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.134 HEAT: -27.25654
+ CYCLE:     5 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     1.058 HEAT: -27.26825
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.846 HEAT: -27.27038
+
+     GRADIENT =  0.84603 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -60.00000      -27.270380
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09553953 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09553367 +1  107.4670755 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09532856 +1  107.4846999 +1  115.6256113 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52890410 +1  111.4686394 +1 -122.3080171 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10685968 +1  109.6219885 +1  -56.6080372 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10686354 +1  109.6922500 +1 -172.4417505 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53640866 +1  112.6227431 +1   65.6614467 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10630086 +1  109.0978250 +1  177.9246302 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10757043 +1  109.7793847 +1   62.3676450 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52896972 +1  112.6023519 +1  -60.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09539481 +1  111.1961559 +1 -174.0544240 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09546742 +1  111.4838022 +1   66.0084274 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09568829 +1  111.3782242 +1  -54.0534615 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.522 HEAT: -26.88896
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.348 HEAT: -27.19742
+ CYCLE:     3 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     3.128 HEAT: -27.36152
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.148 HEAT: -27.37312
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.074 HEAT: -27.38495
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.875 HEAT: -27.38728
+
+     GRADIENT =  0.87506 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -65.00000      -27.387280
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09558572 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09543780 +1  107.4887614 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09533314 +1  107.4702591 +1  115.6172689 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52902752 +1  111.4140617 +1 -122.3389876 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10658284 +1  109.7672133 +1  -56.7845755 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10684963 +1  109.6588041 +1 -172.6699462 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53622087 +1  112.3570427 +1   65.5367687 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10632490 +1  109.1445009 +1  173.1247183 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10727305 +1  109.9070558 +1   57.4790655 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52908034 +1  112.3455347 +1  -65.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09533466 +1  111.2247908 +1 -174.1568247 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09551143 +1  111.4317166 +1   65.8705849 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09566623 +1  111.4063163 +1  -54.1311054 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.511 HEAT: -26.94572
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.338 HEAT: -27.25421
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.128 HEAT: -27.41883
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.168 HEAT: -27.43075
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.111 HEAT: -27.44326
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.957 HEAT: -27.44609
+
+     GRADIENT =  0.95706 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -70.00000      -27.446088
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09564113 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09534352 +1  107.5224160 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09535519 +1  107.4531041 +1  115.6049677 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52912487 +1  111.3584985 +1 -122.3822723 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10632913 +1  109.8911802 +1  -57.1290563 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10682932 +1  109.6168288 +1 -173.0287482 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53621032 +1  112.1351645 +1   65.2584797 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10625221 +1  109.1994538 +1  168.2842279 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10708627 +1  110.0260159 +1   52.5692953 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52918418 +1  112.1316042 +1  -70.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09529319 +1  111.2494069 +1 -174.4092202 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09555808 +1  111.3763886 +1   65.5866917 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09565502 +1  111.4398872 +1  -54.3694611 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.517 HEAT: -26.94757
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.327 HEAT: -27.25548
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.125 HEAT: -27.42020
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.188 HEAT: -27.43255
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.165 HEAT: -27.44611
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.079 HEAT: -27.44966
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.724 HEAT: -27.45302
+
+     GRADIENT =  0.72426 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -75.00000      -27.453023
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09574407 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09524621 +1  107.5845980 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545586 +1  107.4303864 +1  115.5797063 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52908249 +1  111.3015120 +1 -122.4342532 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10613865 +1  110.0019781 +1  -57.8394713 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10696000 +1  109.5594574 +1 -173.6672120 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53626899 +1  111.9695063 +1   64.6426763 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10613470 +1  109.5211920 +1  163.2808494 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10684626 +1  109.9085315 +1   47.4987714 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52918104 +1  111.9338961 +1  -75.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09523790 +1  111.2685812 +1 -175.0084946 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09563705 +1  111.3016864 +1   65.0091551 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09552886 +1  111.4890884 +1  -54.9178420 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.610 HEAT: -26.90695
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.408 HEAT: -27.21786
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.880 HEAT: -27.38128
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.959 HEAT: -27.39174
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.148 HEAT: -27.40338
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.195 HEAT: -27.40714
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.973 HEAT: -27.41178
+
+     GRADIENT =  0.97285 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -80.00000      -27.411779
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09580359 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09519092 +1  107.6263744 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09548574 +1  107.4196488 +1  115.5705707 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52913949 +1  111.2544879 +1 -122.4746362 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10598788 +1  110.0583586 +1  -58.7162206 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10689812 +1  109.5186219 +1 -174.4879018 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53658992 +1  111.8540103 +1   63.8484003 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10573900 +1  109.6186223 +1  158.3260076 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10701089 +1  109.9755993 +1   42.5116131 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52924726 +1  111.8106446 +1  -80.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09523131 +1  111.2849562 +1 -175.7602373 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09567047 +1  111.2488973 +1   64.2431735 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09555328 +1  111.5231510 +1  -55.6754671 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.718 HEAT: -26.82586
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.426 HEAT: -27.13699
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.881 HEAT: -27.29936
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.979 HEAT: -27.30997
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.160 HEAT: -27.32148
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.262 HEAT: -27.32569
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.109 HEAT: -27.33078
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.960 HEAT: -27.33428
+
+     GRADIENT =  0.95984 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -85.00000      -27.334283
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09586649 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09519479 +1  107.6574506 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09553034 +1  107.4192584 +1  115.5586127 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52913955 +1  111.2182221 +1 -122.5039475 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10590873 +1  110.0743342 +1  -59.9920647 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10694323 +1  109.4873196 +1 -175.6579150 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53690966 +1  111.7842567 +1   62.6660862 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10606608 +1  109.8514694 +1  153.3154227 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10648848 +1  109.9140369 +1   37.4851761 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52922333 +1  111.7151434 +1  -85.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09521781 +1  111.2963837 +1 -176.8801326 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09581780 +1  111.1996647 +1   63.1659495 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09541025 +1  111.5452390 +1  -56.7626601 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    10.704 HEAT: -26.71500
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.530 HEAT: -27.03010
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.736 HEAT: -27.19606
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.818 HEAT: -27.20532
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.115 HEAT: -27.21513
+ CYCLE:     6 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     1.180 HEAT: -27.21853
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.109 HEAT: -27.22393
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.842 HEAT: -27.22615
+
+     GRADIENT =  0.84229 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -90.00000      -27.226149
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09591270 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09521218 +1  107.6646748 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09551081 +1  107.4372535 +1  115.5625167 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52917974 +1  111.1893368 +1 -122.4935963 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10582937 +1  110.0625763 +1  -61.1366402 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10686118 +1  109.4679414 +1 -176.7098739 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53742065 +1  111.7465380 +1   61.6119748 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10613880 +1  109.8605193 +1  148.3561517 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10631524 +1  110.0213002 +1   32.5412543 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52920024 +1  111.6910385 +1  -90.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09524294 +1  111.3010631 +1 -177.8937683 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09587617 +1  111.1757214 +1   62.1664795 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09540319 +1  111.5529538 +1  -57.7862339 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.661 HEAT: -26.58372
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.528 HEAT: -26.89919
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.780 HEAT: -27.06761
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.855 HEAT: -27.07707
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.108 HEAT: -27.08678
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.079 HEAT: -27.08963
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.808 HEAT: -27.09371
+
+     GRADIENT =  0.80806 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       -95.00000      -27.093708
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09593159 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09524062 +1  107.6661693 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09549698 +1  107.4523465 +1  115.5630744 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52920574 +1  111.1755774 +1 -122.4825792 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10579548 +1  110.0225484 +1  -61.9799468 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10672655 +1  109.4683521 +1 -177.4549648 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53799913 +1  111.7385645 +1   60.8520939 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10595882 +1  109.8521098 +1  143.4035044 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10635689 +1  110.1315901 +1   27.6046342 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52914256 +1  111.6959093 +1  -95.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09526007 +1  111.3027494 +1 -178.6183376 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09585406 +1  111.1633591 +1   61.4567884 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09544380 +1  111.5538217 +1  -58.5293720 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.764 HEAT: -26.43447
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.568 HEAT: -26.75592
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.874 HEAT: -26.92900
+ CYCLE:     4 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     1.933 HEAT: -26.93904
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.107 HEAT: -26.94901
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.996 HEAT: -26.95148
+
+     GRADIENT =  0.99613 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -100.00000      -26.951479
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09593147 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09525512 +1  107.6641916 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545076 +1  107.4602028 +1  115.5654237 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52929617 +1  111.1828804 +1 -122.4548956 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10577539 +1  109.9652528 +1  -62.3782153 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10646515 +1  109.4730666 +1 -177.7833382 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53857742 +1  111.7117447 +1   60.4586205 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10587563 +1  109.4940405 +1  138.4914278 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10654745 +1  110.5295181 +1   22.7489021 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52933520 +1  111.7523657 +1 -100.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09534861 +1  111.3035505 +1 -178.8977345 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09582373 +1  111.1880829 +1   61.1265811 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09561021 +1  111.5284161 +1  -58.8884889 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.517 HEAT: -26.30470
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.398 HEAT: -26.61559
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.251 HEAT: -26.79027
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.294 HEAT: -26.80370
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.199 HEAT: -26.81786
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.989 HEAT: -26.82055
+
+     GRADIENT =  0.98875 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -105.00000      -26.820551
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09593179 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09528794 +1  107.6654035 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545129 +1  107.4702897 +1  115.5625847 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52931265 +1  111.1886823 +1 -122.4461584 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10583549 +1  109.8775550 +1  -62.7211666 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10633203 +1  109.5089158 +1 -178.0254504 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53906780 +1  111.7366852 +1   60.1358202 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10570316 +1  109.5294502 +1  133.3737779 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10665540 +1  110.5686386 +1   17.6523249 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52932970 +1  111.7825947 +1 -105.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09539324 +1  111.2974028 +1 -179.1446042 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09582449 +1  111.1967629 +1   60.9002928 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09560397 +1  111.5271767 +1  -59.1559509 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.478 HEAT: -26.20239
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.391 HEAT: -26.51143
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.284 HEAT: -26.68653
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.334 HEAT: -26.70012
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.197 HEAT: -26.71405
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.963 HEAT: -26.71659
+
+     GRADIENT =  0.96336 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -110.00000      -26.716592
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09589031 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09535610 +1  107.6581198 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545570 +1  107.4770786 +1  115.5589208 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52933707 +1  111.2236773 +1 -122.4283255 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10596666 +1  109.7672453 +1  -62.9751393 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10616223 +1  109.5691049 +1 -178.1963646 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53944416 +1  111.7608994 +1   59.8567226 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10552957 +1  109.5733135 +1  128.2360947 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10677910 +1  110.5872803 +1   12.5323394 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52933875 +1  111.8068196 +1 -110.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09543139 +1  111.2899225 +1 -179.3127663 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09579870 +1  111.2190762 +1   60.7495448 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09561317 +1  111.5157963 +1  -59.3463138 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.453 HEAT: -26.13665
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     5.393 HEAT: -26.44522
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.300 HEAT: -26.62137
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.342 HEAT: -26.63504
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.180 HEAT: -26.64901
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.925 HEAT: -26.65137
+
+     GRADIENT =  0.92456 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -115.00000      -26.651366
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09586504 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09541370 +1  107.6460831 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545682 +1  107.4850679 +1  115.5525827 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52934492 +1  111.2526700 +1 -122.4113331 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10611772 +1  109.6509983 +1  -63.1158813 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10599936 +1  109.6486657 +1 -178.2818287 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53968499 +1  111.7788621 +1   59.6732884 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10537448 +1  109.6127125 +1  123.0946575 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10690223 +1  110.5906865 +1    7.4011079 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52933906 +1  111.8238971 +1 -115.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09546741 +1  111.2798953 +1 -179.3997340 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09576681 +1  111.2482492 +1   60.6795954 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09562285 +1  111.5025271 +1  -59.4529125 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.441 HEAT: -26.11522
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.405 HEAT: -26.42475
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.323 HEAT: -26.60271
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.357 HEAT: -26.61655
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.173 HEAT: -26.63078
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.906 HEAT: -26.63307
+
+     GRADIENT =  0.90589 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -120.00000      -26.633065
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09583087 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09547706 +1  107.6293180 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545548 +1  107.4938735 +1  115.5471100 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52934938 +1  111.2854981 +1 -122.3923654 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10629229 +1  109.5354712 +1  -63.1412045 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10582821 +1  109.7465474 +1 -178.2863871 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53977092 +1  111.7802874 +1   59.5703586 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10518036 +1  109.6534404 +1  117.9396234 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10707592 +1  110.5751309 +1    2.2427857 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52933699 +1  111.8213525 +1 -120.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09549982 +1  111.2698666 +1 -179.4080580 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09572819 +1  111.2808423 +1   60.6828208 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09564061 +1  111.4878948 +1  -59.4799870 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.436 HEAT: -26.14593
+ CYCLE:     2 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     5.410 HEAT: -26.45614
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.335 HEAT: -26.63499
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.366 HEAT: -26.64895
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.167 HEAT: -26.66340
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.901 HEAT: -26.66570
+
+     GRADIENT =  0.90102 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -125.00000      -26.665699
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09579556 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09553989 +1  107.6086760 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545286 +1  107.5028248 +1  115.5413830 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52934217 +1  111.3192687 +1 -122.3736795 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10647922 +1  109.4302372 +1  -63.0616572 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10566181 +1  109.8567667 +1 -178.2227205 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53968883 +1  111.7608252 +1   59.5420009 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10497125 +1  109.6932527 +1  112.7834064 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10727733 +1  110.5426793 +1   -2.9311027 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52932750 +1  111.7953360 +1 -125.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09552643 +1  111.2607665 +1 -179.3469841 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09568693 +1  111.3139682 +1   60.7497952 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09566314 +1  111.4728615 +1  -59.4353622 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.436 HEAT: -26.22868
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.408 HEAT: -26.53917
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.335 HEAT: -26.71789
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.368 HEAT: -26.73188
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.160 HEAT: -26.74646
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.905 HEAT: -26.74882
+
+     GRADIENT =  0.90483 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -130.00000      -26.748823
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09576023 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09559909 +1  107.5855230 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09544983 +1  107.5113747 +1  115.5355688 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52932039 +1  111.3520420 +1 -122.3558685 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10666284 +1  109.3444107 +1  -62.8935975 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10551209 +1  109.9718644 +1 -178.1070469 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53944227 +1  111.7184251 +1   59.5796545 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10476871 +1  109.7296161 +1  107.6394990 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10748250 +1  110.4964566 +1   -8.1064932 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52930600 +1  111.7448530 +1 -130.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09554589 +1  111.2532817 +1 -179.2288126 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09564552 +1  111.3453533 +1   60.8685243 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09568783 +1  111.4583292 +1  -59.3302955 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.438 HEAT: -26.35877
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.399 HEAT: -26.66915
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.314 HEAT: -26.84682
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.343 HEAT: -26.86064
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.153 HEAT: -26.87536
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.912 HEAT: -26.87774
+
+     GRADIENT =  0.91247 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -135.00000      -26.877744
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09573793 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09563647 +1  107.5646713 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545037 +1  107.5192124 +1  115.5272758 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52927693 +1  111.3747726 +1 -122.3439022 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10682387 +1  109.2855225 +1  -62.6533167 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10539413 +1  110.0837826 +1 -177.9518393 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53905425 +1  111.6541532 +1   59.6788249 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10458057 +1  109.7636024 +1  102.5189166 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10767772 +1  110.4376787 +1  -13.2706404 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52927464 +1  111.6706429 +1 -135.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09555769 +1  111.2481200 +1 -179.0679172 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09560751 +1  111.3720792 +1   61.0259186 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09571214 +1  111.4461719 +1  -59.1778828 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.445 HEAT: -26.52752
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.389 HEAT: -26.83759
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.291 HEAT: -27.01339
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.325 HEAT: -27.02695
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.142 HEAT: -27.04143
+ CYCLE:     6 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     0.918 HEAT: -27.04388
+
+     GRADIENT =  0.91787 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -140.00000      -27.043879
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09570474 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09567977 +1  107.5423715 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09544896 +1  107.5251281 +1  115.5221522 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52922359 +1  111.3993169 +1 -122.3304173 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10695403 +1  109.2592220 +1  -62.3702371 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10530823 +1  110.1842157 +1 -177.7820474 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53854588 +1  111.5700710 +1   59.8192907 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10445318 +1  109.7868005 +1   97.4365787 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10781896 +1  110.3764229 +1  -18.4041086 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52922667 +1  111.5785652 +1 -140.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09556186 +1  111.2450338 +1 -178.8807203 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09557221 +1  111.3951937 +1   61.2052335 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09573484 +1  111.4349040 +1  -58.9955087 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.448 HEAT: -26.72275
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.378 HEAT: -27.03234
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.269 HEAT: -27.20597
+ CYCLE:     4 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:     2.304 HEAT: -27.21918
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.130 HEAT: -27.23325
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.920 HEAT: -27.23576
+
+     GRADIENT =  0.91952 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -145.00000      -27.235756
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09567472 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09571305 +1  107.5215543 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545001 +1  107.5289197 +1  115.5161217 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52915315 +1  111.4186737 +1 -122.3218395 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10703762 +1  109.2680771 +1  -62.0718422 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10526768 +1  110.2659123 +1 -177.6162227 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53796088 +1  111.4726871 +1   59.9850737 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10438517 +1  109.8009861 +1   92.3986568 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10790041 +1  110.3149254 +1  -23.4976355 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52916485 +1  111.4734981 +1 -145.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09555918 +1  111.2441321 +1 -178.6848310 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09554157 +1  111.4130144 +1   61.3903769 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09575409 +1  111.4261673 +1  -58.8005065 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.451 HEAT: -26.93060
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.371 HEAT: -27.23980
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.249 HEAT: -27.41117
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.281 HEAT: -27.42393
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.119 HEAT: -27.43745
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.917 HEAT: -27.43998
+
+     GRADIENT =  0.91696 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -150.00000      -27.439983
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09564524 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09573629 +1  107.5037331 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09545480 +1  107.5299205 +1  115.5094407 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52907161 +1  111.4330663 +1 -122.3194511 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10706628 +1  109.3115045 +1  -61.7853046 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10527618 +1  110.3228146 +1 -177.4718721 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53734177 +1  111.3690983 +1   60.1582090 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10438639 +1  109.8052292 +1   87.4096571 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10791070 +1  110.2580800 +1  -28.5425290 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52909277 +1  111.3627746 +1 -150.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09555112 +1  111.2450027 +1 -178.4977052 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09551637 +1  111.4256057 +1   61.5648703 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09576900 +1  111.4203844 +1  -58.6110935 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.456 HEAT: -27.13625
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.372 HEAT: -27.44535
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.238 HEAT: -27.61469
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.261 HEAT: -27.62698
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.117 HEAT: -27.63988
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.913 HEAT: -27.64240
+
+     GRADIENT =  0.91272 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -155.00000      -27.642398
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09561629 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09574956 +1  107.4898679 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09546411 +1  107.5277754 +1  115.5019132 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52898471 +1  111.4429710 +1 -122.3241128 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10703665 +1  109.3861175 +1  -61.5360026 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10533436 +1  110.3508350 +1 -177.3641793 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53673263 +1  111.2667881 +1   60.3205430 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10445874 +1  109.7996829 +1   82.4690512 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10784759 +1  110.2097178 +1  -33.5353676 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52901670 +1  111.2543662 +1 -155.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09553979 +1  111.2470092 +1 -178.3356905 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09549726 +1  111.4333723 +1   61.7133253 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09577940 +1  111.4179388 +1  -58.4447987 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.464 HEAT: -27.32543
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.382 HEAT: -27.63482
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.240 HEAT: -27.80252
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.246 HEAT: -27.81438
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.131 HEAT: -27.82671
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.906 HEAT: -27.82918
+
+     GRADIENT =  0.90573 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -160.00000      -27.829182
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09558881 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09575323 +1  107.4807667 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09547798 +1  107.5225286 +1  115.4936752 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52889955 +1  111.4487129 +1 -122.3357005 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10694986 +1  109.4862889 +1  -61.3453694 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10543927 +1  110.3479715 +1 -177.3048030 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53617555 +1  111.1727282 +1   60.4554793 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10459813 +1  109.7857627 +1   77.5718942 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10771610 +1  110.1722014 +1  -38.4777934 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52894366 +1  111.1562124 +1 -160.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09552754 +1  111.2493767 +1 -178.2129530 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09548478 +1  111.4368079 +1   61.8226130 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09578543 +1  111.4190972 +1  -58.3170744 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.475 HEAT: -27.48538
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.401 HEAT: -27.79544
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.257 HEAT: -27.96200
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.238 HEAT: -27.97354
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.170 HEAT: -27.98541
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.904 HEAT: -27.98784
+
+     GRADIENT =  0.90370 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -165.00000      -27.987837
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09556435 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09574805 +1  107.4771487 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09549580 +1  107.5145944 +1  115.4851504 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52882373 +1  111.4503224 +1 -122.3535084 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10681123 +1  109.6048366 +1  -61.2294991 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10558481 +1  110.3142956 +1 -177.3011761 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53570778 +1  111.0929377 +1   60.5490492 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10479522 +1  109.7660889 +1   72.7098667 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10752704 +1  110.1463006 +1  -43.3757250 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52887970 +1  111.0754300 +1 -165.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09551654 +1  111.2513370 +1 -178.1405170 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09547901 +1  111.4364219 +1   61.8827629 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09578749 +1  111.4238676 +1  -58.2401481 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.490 HEAT: -27.60563
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.428 HEAT: -27.91670
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.288 HEAT: -28.08263
+ CYCLE:     4 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:     2.239 HEAT: -28.09402
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.235 HEAT: -28.10557
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.905 HEAT: -28.10802
+
+     GRADIENT =  0.90499 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -170.00000      -28.108019
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09554478 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09573492 +1  107.4796642 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09551678 +1  107.5046022 +1  115.4768084 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52876392 +1  111.4476853 +1 -122.3766185 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10662958 +1  109.7337073 +1  -61.1985428 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10576251 +1  110.2517611 +1 -177.3563133 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53535925 +1  111.0323712 +1   60.5904813 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10503619 +1  109.7442987 +1   67.8723733 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10729531 +1  110.1313084 +1  -48.2382856 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52882929 +1  111.0176009 +1 -170.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09550857 +1  111.2522747 +1 -178.1256363 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09547935 +1  111.4328176 +1   61.8874462 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09578640 +1  111.4318326 +1  -58.2223090 +1    11     8     5
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    10.510 HEAT: -27.67862
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.459 HEAT: -27.99098
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.332 HEAT: -28.15675
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.246 HEAT: -28.16820
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.313 HEAT: -28.17956
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.910 HEAT: -28.18215
+
+     GRADIENT =  0.90966 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :      -175.00000      -28.182151
+*REMARK   3 HET = Not identified; C 4 H 10           =    14 atoms res:    1
+ step=-5 points=72 graphf html
+ n-Butane, rotation about the C-C-C-C dihedral
+
+  H(HETATM    1 1H1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C1  HET A   1)   1.09553202 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 2H1  HET A   1)   1.09571437 +1  107.4888926 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 3H1  HET A   1)   1.09554051 +1  107.4932333 +1  115.4688214 +1     2     1     3
+  C(HETATM    5  C2  HET A   1)   1.52872430 +1  111.4406382 +1 -122.4039216 +1     2     1     3
+  H(HETATM    6 1H2  HET A   1)   1.10641609 +1  109.8646428 +1  -61.2565178 +1     5     2     1
+  H(HETATM    7 2H2  HET A   1)   1.10596302 +1  110.1638719 +1 -177.4688155 +1     5     2     1
+  C(HETATM    8  C3  HET A   1)   1.53515126 +1  110.9949061 +1   60.5727130 +1     5     2     1
+  H(HETATM    9 1H3  HET A   1)   1.10530258 +1  109.7248803 +1   63.0471909 +1     8     5     2
+  H(HETATM   10 2H3  HET A   1)   1.10703909 +1  110.1252107 +1  -53.0770984 +1     8     5     2
+  C(HETATM   11  C4  HET A   1)   1.52879537 +1  110.9862466 +1 -175.0000000 -1     8     5     2
+  H(HETATM   12 1H4  HET A   1)   1.09550474 +1  111.2518475 +1 -178.1715579 +1    11     8     5
+  H(HETATM   13 2H4  HET A   1)   1.09548446 +1  111.4267668 +1   61.8340528 +1    11     8     5
+  H(HETATM   14 3H4  HET A   1)   1.09578360 +1  111.4420634 +1  -58.2676496 +1    11     8     5
+ 
+
+                POINTS ON REACTION PATH 
+                AND CORRESPONDING HEATS
+
+
+     180.00000000     175.00000000     170.00000000     165.00000000     160.00000000     155.00000000     150.00000000     145.00000000
+     -28.20899351     -28.18246995     -28.10606490     -27.98484604     -27.82662186     -27.64155225     -27.44134534     -27.23902336
+     140.00000000     135.00000000     130.00000000     125.00000000     120.00000000     115.00000000     110.00000000     105.00000000
+     -27.04798669     -26.88125599     -26.75044421     -26.66469060     -26.62969585     -26.64700011     -26.71357288     -26.82171887
+     100.00000000      95.00000000      90.00000000      85.00000000      80.00000000      75.00000000      70.00000000      65.00000000
+     -26.95930327     -27.11030605     -27.25621485     -27.37769305     -27.45743432     -27.48305653     -27.44915823     -27.36131343
+      60.00000000      55.00000000      50.00000000      45.00000000      40.00000000      35.00000000      30.00000000      25.00000000
+     -27.22881832     -27.10065943     -26.87832940     -26.61122648     -26.30791741     -25.98028639     -25.64347704     -25.31503237
+      20.00000000      15.00000000      10.00000000       5.00000000      -0.00000000      -5.00000000     -10.00000000     -15.00000000
+     -25.01612362     -24.76104065     -24.56656194     -24.44538169     -24.40359868     -24.44286573     -24.56226874     -24.75121224
+     -20.00000000     -25.00000000     -30.00000000     -35.00000000     -40.00000000     -45.00000000     -50.00000000     -55.00000000
+     -25.00041905     -25.29578744     -25.62081582     -25.95614781     -26.28749145     -26.59721660     -26.86917794     -27.09612789
+     -60.00000000     -65.00000000     -70.00000000     -75.00000000     -80.00000000     -85.00000000     -90.00000000     -95.00000000
+     -27.27037973     -27.38727975     -27.44608808     -27.45302345     -27.41177868     -27.33428250     -27.22614900     -27.09370809
+    -100.00000000    -105.00000000    -110.00000000    -115.00000000    -120.00000000    -125.00000000    -130.00000000    -135.00000000
+     -26.95147949     -26.82055129     -26.71659176     -26.65136606     -26.63306520     -26.66569910     -26.74882254     -26.87774411
+    -140.00000000    -145.00000000    -150.00000000    -155.00000000    -160.00000000    -165.00000000    -170.00000000    -175.00000000
+     -27.04387851     -27.23575645     -27.43998293     -27.64239826     -27.82918164     -27.98783735     -28.10801851     -28.18215061
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             1.85 SECONDS
+
+ == MOPAC DONE ==

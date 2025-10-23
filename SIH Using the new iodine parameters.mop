@@ -1,0 +1,10 @@
+*
+* All results should look normal
+*
+ PM6-ORG CHARGE=2
+  Optimize structure for SIH using the new PM6-ORG parameters for iodine. The results should be those expected.
+
+  S(HETATM    9  S   IPH C   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  I(HETATM   10  I   IPH C   1)   1.89986116 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM   17 2H   IPH C   1)   1.76888693 +1  119.3259388 +1    0.0000000 +0     2     1     0
+ 

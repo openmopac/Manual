@@ -1,0 +1,29 @@
+HEADER  data-set: G:/sulfate/Nitrobenzene + H2SO4 + H2O
+REMARK  MOPAC 2016, Version: 21.158W
+REMARK  Date: Jun  8 2021 10:05
+REMARK  Heat of Formation = -236.050 Kcal/mol
+HETATM    1  C   HET A   1       0.300   1.748   0.871  1.00 -0.07      PROT C 
+HETATM    2  C   HET A   1       1.576   1.515   0.347  1.00 -0.08      PROT C 
+HETATM    3  C   HET A   1       2.075   2.392  -0.611  1.00 -0.17      PROT C 
+HETATM    4  C   HET A   1       1.305   3.474  -1.041  1.00 -0.09      PROT C 
+HETATM    5  C   HET A   1       0.028   3.684  -0.523  1.00 -0.18      PROT C 
+HETATM    6  C   HET A   1      -0.488   2.818   0.438  1.00 -0.05      PROT C 
+HETATM    7  N   HET A   1      -0.224   0.861   1.890  1.00  0.67      PROT N 
+HETATM    8  H   HET A   1       2.171   0.658   0.678  1.00  0.18      PROT H 
+HETATM    9  H   HET A   1       3.067   2.227  -1.031  1.00  0.16      PROT H 
+HETATM   10  H   HET A   1       1.704   4.157  -1.792  1.00  0.16      PROT H 
+HETATM   11  H   HET A   1      -0.573   4.523  -0.873  1.00  0.17      PROT H 
+HETATM   12  H   HET A   1      -1.498   2.955   0.837  1.00  0.19      PROT H 
+HETATM   13  O   HET A   1       0.232  -0.286   1.958  1.00 -0.49      PROT O 
+HETATM   14  O   HET A   1      -1.060   1.272   2.666  1.00 -0.35      PROT O 
+HETATM   15  O   HET A   1      -2.057   0.552   0.176  1.00 -0.73      PROT O 
+HETATM   16  H   HET A   1       0.652  -1.031   0.504  1.00  0.42      PROT H 
+HETATM   17  H   HET A   1      -2.787   0.278   0.728  1.00  0.34      PROT H 
+HETATM   18  H   HET A   1      -1.833  -0.215  -0.357  1.00  0.37      PROT H 
+HETATM   19  S   HET A   1      -0.033  -2.596  -0.984  1.00  2.60      PROT S 
+HETATM   20  O   HET A   1      -0.339  -3.570   0.010  1.00 -0.84      PROT O 
+HETATM   21  O   HET A   1      -1.393  -1.650  -1.222  1.00 -0.88      PROT O 
+HETATM   22  O   HET A   1       0.410  -2.931  -2.304  1.00 -0.88      PROT O 
+HETATM   23  O   HET A   1       0.913  -1.440  -0.365  1.00 -0.84      PROT O 
+HETATM   24  H   HET A   1      -1.630  -1.478  -2.146  1.00  0.40      PROT H 
+END

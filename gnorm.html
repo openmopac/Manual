@@ -1,0 +1,39 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>GNORM=n.nn </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>GNORM=<i>n</i>.<i>nn</i></tt> </h1>
+<p>The geometry optimization termination criteria (see
+<a href="Geometry_criteria.html">Criteria</a>) in both gradient minimization and energy minimization can be over-ridden by specifying a gradient norm requirement. For example, <tt>GNORM=20</tt> would allow the geometry optimization to exit as soon as the gradient norm dropped below 20.0 
+kcal/mol/<font face="Times New Roman">&Aring;ngstrom</font>, the default being 1.0. </p>
+<p>For proteins and solids, i.e., large systems, <tt>GNORM=10</tt> should be 
+used.&nbsp; Lower values might work, but there is an increased risk of the heat 
+of formation not decreasing, and all that happens is that CPU time is wasted.</p>
+<p>For small system high-precision work, <tt>GNORM=0.0</tt> is recommended. Unless <tt>
+<a href="let.html">LET</a></tt> is also used, the <tt>GNORM</tt> will be set to the larger of 0.01 and the specified <tt>GNORM</tt>. Results from <tt>GNORM=0.01</tt> are easily good enough for all high-precision work. </p>
+<p>N.b.: Do not confuse <tt>GNORM</tt>, the keyword, with GNORM, the value of the scalar of the calculated gradient. 
+The keyword <tt>GNORM</tt> defines the criterion for an optimized geometry,&nbsp; GNORM 
+is the value calculated during a geometry optimization, and is printed in the 
+output at the end of each cycle.&nbsp; When&nbsp; GNORM, drops below the level 
+set by <tt>GNORM=n.nn</tt>, the geometry optimization will terminate.</p>
+</body>
+</html>

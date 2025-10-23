@@ -1,0 +1,46 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Geometry Specification for Band Structure Calculations</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Geometry Specification for Band Structure Calculations
+</h2>
+Before electronic band structure calculations can be done, the sequence of
+atoms in the polymer must be supplied in a highly specific order.  For a simple
+polymer, the coordinates of all the atoms in the first fundamental unit cell
+are given.  These atoms can be in any order.  The next set of atoms defined are
+those for the next unit cell.  These atoms <em>must</em> be in the same order as
+the atoms in the first unit cell. For band structures at least two unit cells
+must be defined.  If more than two unit cells are defined, the atoms in the
+other  unit cells must be defined in the same order as those in the first unit
+cell.
+<p>
+For all polymer calculations <em>except</em> band structures, the order of
+atoms is not important. <a href="tv.html">An example of such a data set</a>
+is shown
+for
+polytetrahydrofuran.  When band structures are to be calculated,
+<a href="tv.html">the order of atoms is important</a>.
+</p><p>
+Because of the difficulty in generating data sets for band-structure work,
+program <tt>BZ</tt> was written.  Given a suitable data-set, BZ will generate a
+MOPAC data set which can then be used for the calculation of band structures.
+</p></body>
+</html>

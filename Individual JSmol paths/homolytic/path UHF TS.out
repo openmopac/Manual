@@ -1,0 +1,1108 @@
+ *******************************************************************************
+ ** Site#: 29624 E-mail support:    MrMOPAC@ATT.net    Version 19.179W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 19.179W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web-site: HTTP://OpenMOPAC.net.          **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Jul 12 13:18:03 2019  *
+ *  UHF        - UNRESTRICTED HARTREE-FOCK CALCULATION
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = -1
+ *
+ *
+ *
+ *  TS         - USE EF ROUTINE FOR TS SEARCH
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+ charge=-1 html TS UHF
+ Refine transition state derived from Model 4 of "path UHF reverse"
+
+  ATOM               CHEMICAL                 BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER               SYMBOL                  (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                                           NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       N(ATOM      1  N   GLY A   5)    1.41060527  *    5.2498823  *    0.6116363  *
+     2       C(ATOM      2  CW1 VAL A   1)    2.36422415  *    6.1666105  *    1.2792956  *
+     3       C(ATOM      3  CF1 VAL A   1)    1.84901242  *    4.9339867  *   -0.7530248  *
+     4       H(ATOM      4 1HW1 VAL A   1)    2.59946936  *    5.7598865  *    2.2854763  *
+     5       H(ATOM      5 2HW1 VAL A   1)    1.90988765  *    7.1685086  *    1.4354704  *
+     6       C(ATOM      6  CY1 VAL A   1)    3.60142108  *    6.2321303  *    0.3659654  *
+     7       C(ATOM      7  CC1 VAL A   1)    3.09820172  *    5.8051482  *   -1.0210445  *
+     8       H(ATOM      8  HF1 VAL A   1)    1.04517277  *    5.1546308  *   -1.5072133  *
+     9       C(ATOM      9  CC2 VAL A   1)    2.24236001  *    3.4590162  *   -0.9310178  *
+    10       H(ATOM     10 1HY1 VAL A   1)    4.39106058  *    5.5485240  *    0.7247690  *
+    11       H(ATOM     11 2HY1 VAL A   1)    4.04403295  *    7.2387816  *    0.3512826  *
+    12       H(ATOM     12 1HC1 VAL A   1)    3.86659831  *    5.2585440  *   -1.5943608  *
+    13       H(ATOM     13 2HC1 VAL A   1)    2.83204860  *    6.6821026  *   -1.6353060  *
+    14       O(ATOM     14  OY2 VAL A   1)    2.36571392  *    3.0089112  *   -2.0548848  *
+    15       N(ATOM     15  NC2 VAL A   1)    2.43596927  *    2.6795927  *    0.1776114  *
+    16       H(ATOM     16  HC2 VAL A   1)    2.41391498  *    3.0556854  *    1.1209663  *
+    17       C(ATOM     17  CA  TYR A   2)    2.88962068  *    1.2983374  *    0.0037143  *
+    18       H(ATOM     18  HA  TYR A   2)    2.23421846  *    0.8043287  *   -0.7748087  *
+    19       C(ATOM     19  CB  TYR A   2)    4.36230766  *    1.2339670  *   -0.4717855  *
+    20       C(ATOM     20  C   TYR A   2)    2.74696675  *    0.5951727  *    1.3709222  *
+    21       H(ATOM     21 1HB  TYR A   2)    4.43688818  *    1.7240608  *   -1.4685068  *
+    22       H(ATOM     22 2HB  TYR A   2)    5.00688236  *    1.8316380  *    0.1984012  *
+    23       C(ATOM     23  CG  TYR A   2)    4.80103593  *   -0.1924490  *   -0.5464239  *
+    24       O(ATOM     24  O   TYR A   2)    2.75195755  *    1.2152232  *    2.4164508  *
+    25       C(ATOM     25  CD1 TYR A   2)    5.74361289  *   -0.6868253  *    0.3608980  *
+    26       C(ATOM     26  CD2 TYR A   2)    4.20224196  *   -1.0541835  *   -1.4710161  *
+    27       H(ATOM     27  HD1 TYR A   2)    6.23914656  *   -0.0078349  *    1.0515109  *
+    28       C(ATOM     28  CE1 TYR A   2)    6.02656381  *   -2.0446938  *    0.4149964  *
+    29       C(ATOM     29  CE2 TYR A   2)    4.45833783  *   -2.4176789  *   -1.4240187  *
+    30       H(ATOM     30  HD2 TYR A   2)    3.51054605  *   -0.6587481  *   -2.2193105  *
+    31       H(ATOM     31  HE1 TYR A   2)    6.73505251  *   -2.4531400  *    1.1275934  *
+    32       C(ATOM     32  CZ  TYR A   2)    5.34216983  *   -2.9072294  *   -0.4530626  *
+    33       H(ATOM     33  HE2 TYR A   2)    3.98293280  *   -3.0974718  *   -2.1276289  *
+    34       O(ATOM     34  OH  TYR A   2)    5.59904088  *   -4.2208096  *   -0.3089151  *
+    35       H(ATOM     35  HH  TYR A   2)    4.84276446  *   -4.7900083  *   -0.6535135  *
+    36       N(ATOM     36  N   HIS A   3)    2.56613833  *   -0.7607411  *    1.2985402  *
+    37       H(ATOM     37  H   HIS A   3)    2.67270306  *   -1.2552461  *    0.4125268  *
+    38       C(ATOM     38  CA  HIS A   3)    2.34509025  *   -1.5890982  *    2.4890783  *
+    39       H(ATOM     39  HA  HIS A   3)    3.24558665  *   -1.5124876  *    3.1624413  *
+    40       C(ATOM     40  CB  HIS A   3)    1.09552922  *   -1.1483278  *    3.2929155  *
+    41       C(ATOM     41  C   HIS A   3)    2.20463433  *   -3.0700834  *    2.0565623  *
+    42       H(ATOM     42 1HB  HIS A   3)    1.02714288  *   -1.7553556  *    4.2225456  *
+    43       H(ATOM     43 2HB  HIS A   3)    1.23715253  *   -0.0959772  *    3.6357581  *
+    44       C(ATOM     44  CG  HIS A   3)   -0.14735478  *   -1.2696431  *    2.5040815  *
+    45       O(ATOM     45  O   HIS A   3)    2.78887253  *   -3.9475476  *    2.6465585  *
+    46       N(ATOM     46  ND1 HIS A   3)   -1.23155769  *   -2.0298709  *    2.9024413  *
+    47       C(ATOM     47  CD2 HIS A   3)   -0.38741143  *   -0.7871251  *    1.2064806  *
+    48       C(ATOM     48  CE1 HIS A   3)   -2.08175286  *   -2.0450732  *    1.8440734  *
+    49       N(ATOM     49  NE2 HIS A   3)   -1.59585806  *   -1.3179310  *    0.7688224  *
+    50       H(ATOM     50  HD2 HIS A   3)    0.20633129  *   -0.1327843  *    0.6018466  *
+    51       H(ATOM     51  HE1 HIS A   3)   -3.02039130  *   -2.5607478  *    1.8369007  *
+    52       N(ATOM     52  N   CYS A   4)    1.40478258  *   -3.3213896  *    0.9396224  *
+    53       H(ATOM     53  H   CYS A   4)    0.76904554  *   -2.5805744  *    0.6321051  *
+    54       C(ATOM     54  CA  CYS A   4)    1.07248199  *   -4.6111829  *    0.5452023  *
+    55       H(ATOM     55  HA  CYS A   4)    1.73176709  *   -5.4223977  *    0.8344130  *
+    56       C(ATOM     56  CB  CYS A   4)   -0.34192815  *   -4.8790559  *    0.1914146  *
+    57       C(ATOM     57  C   CYS A   4)    2.42300000  *  103.9479868  *  117.9821727  *    54    52    56
+    58       H(ATOM     58 1HB  CYS A   4)   -0.50793039  *   -5.9624341  *    0.0315167  *
+    59       H(ATOM     59 2HB  CYS A   4)   -1.00700148  *   -4.5730388  *    1.0280703  *
+    60       S(ATOM     60  SG  CYS A   4)   -0.92980965  *   -4.0479319  *   -1.3515870  *
+    61       O(ATOM     61  O   CYS A   4)    3.45361402  *   -5.4676308  *   -1.3430493  *
+    62       O(ATOM     62  OXT CYS A   4)    1.66366404  *   -4.7493135  *   -2.5065231  *
+    63       C(ATOM     63  C   GLY B   5)    0.08281776  *    5.2993995  *    1.0171055  *
+    64       C(ATOM     64  CA  GLY B   5)   -0.92463887  *    4.3006382  *    0.4420933  *
+    65       O(ATOM     65  O   GLY B   5)   -0.22275054  *    6.0237724  *    1.9427818  *
+    66       N(ATOM     66  N   CYS B   7)   -1.16345089  *    4.5330566  *   -0.9758274  *
+    67       H(ATOM     67 1HA  GLY B   5)   -1.87549277  *    4.3920990  *    1.0294835  *
+    68       H(ATOM     68 2HA  GLY B   5)   -0.54077209  *    3.2675625  *    0.6372608  *
+    69       H(ATOM     69  H   CYS B   7)   -1.51853761  *    5.4532834  *   -1.2180792  *
+    70       C(ATOM     70  C   CYS C   7)   -1.40671312  *    3.5113766  *   -1.8955501  *
+    71       C(ATOM     71  CA  CYS C   7)   -1.12339821  *    2.0512109  *   -1.5077720  *
+    72       O(ATOM     72  O   CYS C   7)   -1.73026705  *    3.8393578  *   -3.0162983  *
+    73       N(ATOM     73  N   HIS C   9)   -2.00111441  *    1.6323998  *   -0.4050330  *
+    74       H(ATOM     74  HA  CYS C   7)   -0.05131988  *    1.9800710  *   -1.1545847  *
+    75       C(ATOM     75  CB  CYS C   7)   -1.32554794  *    1.1495025  *   -2.7346709  *
+    76       H(ATOM     76  H   HIS C   9)   -1.69184221  *    0.7815845  *    0.0733051  *
+    77       H(ATOM     77 1HB  CYS C   7)   -2.38312979  *    1.1095479  *   -3.0353402  *
+    78       H(ATOM     78 2HB  CYS C   7)   -0.78707737  *    1.5814212  *   -3.6055382  *
+    79       S(ATOM     79  SG  CYS C   7)   -0.62198785  *   -0.5350323  *   -2.5130550  *
+    80       C(ATOM     80  C   HIS D   9)   -3.36086733  *    1.8752884  *   -0.4851764  *
+    81       C(ATOM     81  CA  HIS D   9)   -4.25010207  *    0.7700848  *    0.1268832  *
+    82       O(ATOM     82  O   HIS D   9)   -3.83234760  *    2.8426110  *   -1.0385230  *
+    83       N(ATOM     83  N   HET D   9)   -5.31972625  *    1.3804522  *    0.8903062  *
+    84       H(ATOM     84  HA  HIS D   9)   -3.64321405  *    0.0811750  *    0.7798421  *
+    85       C(ATOM     85  CB  HIS D   9)   -4.78645904  *   -0.0062200  *   -1.1115943  *
+    86       H(ATOM     86  H   HET D   9)   -5.75051921  *    2.2077025  *    0.4848620  *
+    87       H(ATOM     87 1HB  HIS D   9)   -5.78408047  *    0.3960083  *   -1.3958456  *
+    88       H(ATOM     88 2HB  HIS D   9)   -4.14919735  *    0.1998181  *   -2.0083806  *
+    89       C(ATOM     89  CG  HIS D   9)   -4.85375485  *   -1.4586731  *   -0.8724976  *
+    90       N(ATOM     90  ND1 HIS D   9)   -3.76232179  *   -2.3102900  *   -1.0624335  *
+    91       C(ATOM     91  CD2 HIS D   9)   -5.95738697  *   -2.2192158  *   -0.4858504  *
+    92       C(ATOM     92  CE1 HIS D   9)   -4.18865697  *   -3.5673024  *   -0.8096131  *
+    93       N(ATOM     93  NE2 HIS D   9)   -5.52911783  *   -3.5466967  *   -0.4494110  *
+    94       H(ATOM     94  HD2 HIS D   9)   -6.95605097  *   -1.9195301  *   -0.2489292  *
+    95       H(ATOM     95  HE1 HIS D   9)   -3.59775039  *   -4.4771469  *   -0.8844722  *
+    96       C(ATOM     96  C1  HET D   9)   -5.80461936  *    0.8868876  *    2.0910370  *
+    97       C(ATOM     97  C2  HET D   9)   -5.14953039  *   -0.3083192  *    2.7138423  *
+    98       H(ATOM     98 1H2  HET D   9)   -5.18238106  *   -1.1913006  *    2.0634843  *
+    99       H(ATOM     99 2H2  HET D   9)   -4.09212497  *   -0.1201150  *    2.9704099  *
+   100       H(ATOM    100 3H2  HET D   9)   -5.65587422  *   -0.5715909  *    3.6558991  *
+   101       O(ATOM    101  O   HET D   9)   -6.75385783  *    1.4601660  *    2.5918701  *
+   102      Zn(HETATM  102 ZN    ZN E  18)   -1.74713390  *   -1.8582030  *   -1.1354356  *
+   103       H(ATOM    103  HXT CYS A   4)    0.67299784  *   -4.3422515  *   -2.2781170  *
+   104       H(ATOM    104  HE2 HIS D   9)   -6.09417273  *   -4.3299058  *   -0.2141967  *
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C36 H44 N11 O10 S2 Zn  =   104 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+          UHF CALCULATION, NO. OF ALPHA ELECTRONS =  159
+                           NO. OF BETA  ELECTRONS =  159
+
+          Transition state refinement using EF
+
+          HESSIAN CALCULATED NUMERICALLY
+
+    2 of 312 steps completed
+    3 of 312 steps completed
+    5 of 312 steps completed
+    6 of 312 steps completed
+    7 of 312 steps completed
+    8 of 312 steps completed
+    9 of 312 steps completed
+   10 of 312 steps completed
+   11 of 312 steps completed
+   12 of 312 steps completed
+   13 of 312 steps completed
+   14 of 312 steps completed
+   15 of 312 steps completed
+   17 of 312 steps completed
+   18 of 312 steps completed
+   19 of 312 steps completed
+   20 of 312 steps completed
+   21 of 312 steps completed
+   22 of 312 steps completed
+   23 of 312 steps completed
+   24 of 312 steps completed
+   25 of 312 steps completed
+   26 of 312 steps completed
+   27 of 312 steps completed
+   28 of 312 steps completed
+   29 of 312 steps completed
+   30 of 312 steps completed
+   31 of 312 steps completed
+   33 of 312 steps completed
+   34 of 312 steps completed
+   35 of 312 steps completed
+   36 of 312 steps completed
+   37 of 312 steps completed
+   38 of 312 steps completed
+   39 of 312 steps completed
+   40 of 312 steps completed
+   41 of 312 steps completed
+   42 of 312 steps completed
+   43 of 312 steps completed
+   44 of 312 steps completed
+   45 of 312 steps completed
+   46 of 312 steps completed
+   48 of 312 steps completed
+   49 of 312 steps completed
+   50 of 312 steps completed
+   51 of 312 steps completed
+   52 of 312 steps completed
+   53 of 312 steps completed
+   54 of 312 steps completed
+   55 of 312 steps completed
+   56 of 312 steps completed
+   57 of 312 steps completed
+   58 of 312 steps completed
+   59 of 312 steps completed
+   60 of 312 steps completed
+   61 of 312 steps completed
+   62 of 312 steps completed
+   64 of 312 steps completed
+   65 of 312 steps completed
+   66 of 312 steps completed
+   67 of 312 steps completed
+   68 of 312 steps completed
+   69 of 312 steps completed
+   70 of 312 steps completed
+   71 of 312 steps completed
+   72 of 312 steps completed
+   73 of 312 steps completed
+   74 of 312 steps completed
+   75 of 312 steps completed
+   76 of 312 steps completed
+   77 of 312 steps completed
+   79 of 312 steps completed
+   80 of 312 steps completed
+   81 of 312 steps completed
+   82 of 312 steps completed
+   83 of 312 steps completed
+   84 of 312 steps completed
+   85 of 312 steps completed
+   86 of 312 steps completed
+   87 of 312 steps completed
+   88 of 312 steps completed
+   89 of 312 steps completed
+   90 of 312 steps completed
+   91 of 312 steps completed
+   92 of 312 steps completed
+   93 of 312 steps completed
+   95 of 312 steps completed
+   96 of 312 steps completed
+   97 of 312 steps completed
+   98 of 312 steps completed
+   99 of 312 steps completed
+  100 of 312 steps completed
+  101 of 312 steps completed
+  102 of 312 steps completed
+  103 of 312 steps completed
+  104 of 312 steps completed
+  105 of 312 steps completed
+  106 of 312 steps completed
+  107 of 312 steps completed
+  108 of 312 steps completed
+  109 of 312 steps completed
+  111 of 312 steps completed
+  112 of 312 steps completed
+  113 of 312 steps completed
+  114 of 312 steps completed
+  115 of 312 steps completed
+  116 of 312 steps completed
+  117 of 312 steps completed
+  118 of 312 steps completed
+  119 of 312 steps completed
+  120 of 312 steps completed
+  121 of 312 steps completed
+  122 of 312 steps completed
+  123 of 312 steps completed
+  124 of 312 steps completed
+  126 of 312 steps completed
+  127 of 312 steps completed
+  128 of 312 steps completed
+  129 of 312 steps completed
+  130 of 312 steps completed
+  131 of 312 steps completed
+  132 of 312 steps completed
+  133 of 312 steps completed
+  134 of 312 steps completed
+  135 of 312 steps completed
+  136 of 312 steps completed
+  137 of 312 steps completed
+  138 of 312 steps completed
+  139 of 312 steps completed
+  140 of 312 steps completed
+  142 of 312 steps completed
+  143 of 312 steps completed
+  144 of 312 steps completed
+  145 of 312 steps completed
+  146 of 312 steps completed
+  147 of 312 steps completed
+  148 of 312 steps completed
+  149 of 312 steps completed
+  150 of 312 steps completed
+  151 of 312 steps completed
+  152 of 312 steps completed
+  153 of 312 steps completed
+  154 of 312 steps completed
+  155 of 312 steps completed
+  157 of 312 steps completed
+  158 of 312 steps completed
+  159 of 312 steps completed
+  160 of 312 steps completed
+  161 of 312 steps completed
+  162 of 312 steps completed
+  163 of 312 steps completed
+  164 of 312 steps completed
+  165 of 312 steps completed
+  166 of 312 steps completed
+  167 of 312 steps completed
+  168 of 312 steps completed
+  169 of 312 steps completed
+  170 of 312 steps completed
+  171 of 312 steps completed
+  173 of 312 steps completed
+  174 of 312 steps completed
+  175 of 312 steps completed
+  176 of 312 steps completed
+  177 of 312 steps completed
+  178 of 312 steps completed
+  179 of 312 steps completed
+  180 of 312 steps completed
+  181 of 312 steps completed
+  182 of 312 steps completed
+  183 of 312 steps completed
+  184 of 312 steps completed
+  185 of 312 steps completed
+  186 of 312 steps completed
+  187 of 312 steps completed
+  189 of 312 steps completed
+  190 of 312 steps completed
+  191 of 312 steps completed
+  192 of 312 steps completed
+  193 of 312 steps completed
+  194 of 312 steps completed
+  195 of 312 steps completed
+  196 of 312 steps completed
+  197 of 312 steps completed
+  198 of 312 steps completed
+  199 of 312 steps completed
+  200 of 312 steps completed
+  201 of 312 steps completed
+  202 of 312 steps completed
+  204 of 312 steps completed
+  205 of 312 steps completed
+  206 of 312 steps completed
+  207 of 312 steps completed
+  208 of 312 steps completed
+  209 of 312 steps completed
+  210 of 312 steps completed
+  211 of 312 steps completed
+  212 of 312 steps completed
+  213 of 312 steps completed
+  214 of 312 steps completed
+  215 of 312 steps completed
+  216 of 312 steps completed
+  217 of 312 steps completed
+  218 of 312 steps completed
+  220 of 312 steps completed
+  221 of 312 steps completed
+  222 of 312 steps completed
+  223 of 312 steps completed
+  224 of 312 steps completed
+  225 of 312 steps completed
+  226 of 312 steps completed
+  227 of 312 steps completed
+  228 of 312 steps completed
+  229 of 312 steps completed
+  230 of 312 steps completed
+  232 of 312 steps completed
+  233 of 312 steps completed
+  236 of 312 steps completed
+  237 of 312 steps completed
+  240 of 312 steps completed
+ CYCLE:     1 TIME: 110.277 TIME LEFT:  2.00D  GRAD.:     1.950 HEAT: -436.7209
+ CYCLE:     2 TIME:   0.531 TIME LEFT:  2.00D  GRAD.:     1.416 HEAT: -436.6918
+ CYCLE:     3 TIME:   1.168 TIME LEFT:  2.00D  GRAD.:     0.537 HEAT: -436.6980
+
+     GRADIENT =  0.53711 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ charge=-1 html TS UHF
+ Refine transition state derived from Model 4 of "path UHF reverse"
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (TS).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 19.179W)
+                                                       Fri Jul 12 13:19:55 2019
+
+
+
+
+          FINAL HEAT OF FORMATION =       -436.69802 KCAL/MOL =   -1827.14450 KJ/MOL
+
+
+          TOTAL ENERGY            =     -10404.28981 EV
+          ELECTRONIC ENERGY       =    -140898.18979 EV  POINT GROUP:     C1  
+          CORE-CORE REPULSION     =     130493.89998 EV
+          COSMO AREA              =        605.77 SQUARE ANGSTROMS
+          COSMO VOLUME            =        983.92 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.53711 = 0.05267 PER ATOM
+          IONIZATION POTENTIAL    =          5.883759 EV
+          ALPHA SOMO LUMO (EV)    =         -5.884  1.278
+          BETA  SOMO LUMO (EV)    =         -5.886  1.278
+          NO. OF ALPHA ELECTRONS  =        159
+          NO. OF BETA  ELECTRONS  =        159
+          MOLECULAR WEIGHT        =        920.3113
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H   104    H    11    15.40017
+            O   101    O    34    13.39344
+            H    42    H    78     8.47298
+
+
+          SCF CALCULATIONS        =        318
+ 
+          WALL-CLOCK TIME         =  1 MINUTE AND 52.164 SECONDS
+          COMPUTATION TIME        =  7 MINUTES AND 14.790 SECONDS
+
+
+
+
+  ATOM               CHEMICAL                 BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER               SYMBOL                  (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                                           NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       N(ATOM      1  N   GLY A   5)    1.41665468  *    5.2483986  *    0.6090694  *
+     2       C(ATOM      2  CW1 VAL A   1)    2.37138496  *    6.1684986  *    1.2707968  *
+     3       C(ATOM      3  CF1 VAL A   1)    1.85001929  *    4.9305585  *   -0.7567549  *
+     4       H(ATOM      4 1HW1 VAL A   1)    2.61722359  *    5.7607347  *    2.2740199  *
+     5       H(ATOM      5 2HW1 VAL A   1)    1.91319463  *    7.1677608  *    1.4330915  *
+     6       C(ATOM      6  CY1 VAL A   1)    3.60098609  *    6.2428595  *    0.3478700  *
+     7       C(ATOM      7  CC1 VAL A   1)    3.09073972  *    5.8103862  *   -1.0349371  *
+     8       H(ATOM      8  HF1 VAL A   1)    1.04056215  *    5.1422259  *   -1.5075985  *
+     9       C(ATOM      9  CC2 VAL A   1)    2.25279945  *    3.4577182  *   -0.9318695  *
+    10       H(ATOM     10 1HY1 VAL A   1)    4.39905662  *    5.5663317  *    0.7013835  *
+    11       H(ATOM     11 2HY1 VAL A   1)    4.03519829  *    7.2531629  *    0.3286414  *
+    12       H(ATOM     12 1HC1 VAL A   1)    3.85877513  *    5.2686517  *   -1.6132973  *
+    13       H(ATOM     13 2HC1 VAL A   1)    2.81321953  *    6.6846477  *   -1.6481441  *
+    14       O(ATOM     14  OY2 VAL A   1)    2.38504688  *    3.0080706  *   -2.0549464  *
+    15       N(ATOM     15  NC2 VAL A   1)    2.44154429  *    2.6789153  *    0.1780352  *
+    16       H(ATOM     16  HC2 VAL A   1)    2.41517891  *    3.0553359  *    1.1211154  *
+    17       C(ATOM     17  CA  TYR A   2)    2.89761171  *    1.2981676  *    0.0068555  *
+    18       H(ATOM     18  HA  TYR A   2)    2.24762282  *    0.8039299  *   -0.7762099  *
+    19       C(ATOM     19  CB  TYR A   2)    4.37360094  *    1.2339693  *   -0.4585147  *
+    20       C(ATOM     20  C   TYR A   2)    2.74726907  *    0.5951027  *    1.3728856  *
+    21       H(ATOM     21 1HB  TYR A   2)    4.45637479  *    1.7279439  *   -1.4525125  *
+    22       H(ATOM     22 2HB  TYR A   2)    5.01444699  *    1.8275886  *    0.2186246  *
+    23       C(ATOM     23  CG  TYR A   2)    4.80912378  *   -0.1933072  *   -0.5356149  *
+    24       O(ATOM     24  O   TYR A   2)    2.75042037  *    1.2152083  *    2.4184421  *
+    25       C(ATOM     25  CD1 TYR A   2)    5.74400142  *   -0.6941997  *    0.3762060  *
+    26       C(ATOM     26  CD2 TYR A   2)    4.21321560  *   -1.0498279  *   -1.4667711  *
+    27       H(ATOM     27  HD1 TYR A   2)    6.23680298  *   -0.0193346  *    1.0731111  *
+    28       C(ATOM     28  CE1 TYR A   2)    6.02245420  *   -2.0530427  *    0.4266422  *
+    29       C(ATOM     29  CE2 TYR A   2)    4.46513186  *   -2.4142869  *   -1.4239308  *
+    30       H(ATOM     30  HD2 TYR A   2)    3.52728578  *   -0.6492410  *   -2.2176326  *
+    31       H(ATOM     31  HE1 TYR A   2)    6.72363662  *   -2.4668679  *    1.1432669  *
+    32       C(ATOM     32  CZ  TYR A   2)    5.34292856  *   -2.9100235  *   -0.4507510  *
+    33       H(ATOM     33  HE2 TYR A   2)    3.99087907  *   -3.0894890  *   -2.1325550  *
+    34       O(ATOM     34  OH  TYR A   2)    5.59929901  *   -4.2242058  *   -0.3131406  *
+    35       H(ATOM     35  HH  TYR A   2)    4.84898235  *   -4.7923487  *   -0.6717683  *
+    36       N(ATOM     36  N   HIS A   3)    2.56323712  *   -0.7603428  *    1.3003935  *
+    37       H(ATOM     37  H   HIS A   3)    2.66911165  *   -1.2556736  *    0.4149341  *
+    38       C(ATOM     38  CA  HIS A   3)    2.33927845  *   -1.5865348  *    2.4920510  *
+    39       H(ATOM     39  HA  HIS A   3)    3.23887552  *   -1.5096555  *    3.1667715  *
+    40       C(ATOM     40  CB  HIS A   3)    1.08962772  *   -1.1412915  *    3.2937344  *
+    41       C(ATOM     41  C   HIS A   3)    2.20001925  *   -3.0679050  *    2.0605524  *
+    42       H(ATOM     42 1HB  HIS A   3)    1.01946956  *   -1.7453879  *    4.2249538  *
+    43       H(ATOM     43 2HB  HIS A   3)    1.23344581  *   -0.0883272  *    3.6336666  *
+    44       C(ATOM     44  CG  HIS A   3)   -0.15309854  *   -1.2624196  *    2.5043011  *
+    45       O(ATOM     45  O   HIS A   3)    2.79245300  *   -3.9439285  *    2.6444519  *
+    46       N(ATOM     46  ND1 HIS A   3)   -1.23665264  *   -2.0240726  *    2.9016679  *
+    47       C(ATOM     47  CD2 HIS A   3)   -0.39214646  *   -0.7813048  *    1.2057762  *
+    48       C(ATOM     48  CE1 HIS A   3)   -2.08480353  *   -2.0424169  *    1.8417739  *
+    49       N(ATOM     49  NE2 HIS A   3)   -1.59836586  *   -1.3156350  *    0.7664302  *
+    50       H(ATOM     50  HD2 HIS A   3)    0.20170991  *   -0.1267149  *    0.6016153  *
+    51       H(ATOM     51  HE1 HIS A   3)   -3.02218388  *   -2.5603432  *    1.8334480  *
+    52       N(ATOM     52  N   CYS A   4)    1.39174315  *   -3.3198316  *    0.9499722  *
+    53       H(ATOM     53  H   CYS A   4)    0.75136336  *   -2.5800494  *    0.6492174  *
+    54       C(ATOM     54  CA  CYS A   4)    1.06031431  *   -4.6076518  *    0.5532584  *
+    55       H(ATOM     55  HA  CYS A   4)    1.73253006  *   -5.4167885  *    0.8128566  *
+    56       C(ATOM     56  CB  CYS A   4)   -0.35141106  *   -4.8749321  *    0.1939606  *
+    57       C(ATOM     57  C   CYS A   4)    2.47234748  *  104.0654530  *  118.0101951  *    54    52    56
+    58       H(ATOM     58 1HB  CYS A   4)   -0.51976871  *   -5.9581315  *    0.0372250  *
+    59       H(ATOM     59 2HB  CYS A   4)   -1.02179113  *   -4.5631396  *    1.0242399  *
+    60       S(ATOM     60  SG  CYS A   4)   -0.92220220  *   -4.0450508  *   -1.3567353  *
+    61       O(ATOM     61  O   CYS A   4)    3.47345361  *   -5.4779920  *   -1.3778081  *
+    62       O(ATOM     62  OXT CYS A   4)    1.66472734  *   -4.7665674  *   -2.5212674  *
+    63       C(ATOM     63  C   GLY B   5)    0.09004160  *    5.2979594  *    1.0185171  *
+    64       C(ATOM     64  CA  GLY B   5)   -0.91927754  *    4.2988915  *    0.4467924  *
+    65       O(ATOM     65  O   GLY B   5)   -0.21309889  *    6.0230767  *    1.9444006  *
+    66       N(ATOM     66  N   CYS B   7)   -1.16548639  *    4.5341856  *   -0.9694438  *
+    67       H(ATOM     67 1HA  GLY B   5)   -1.86721337  *    4.3885675  *    1.0393586  *
+    68       H(ATOM     68 2HA  GLY B   5)   -0.53374817  *    3.2657416  *    0.6379787  *
+    69       H(ATOM     69  H   CYS B   7)   -1.52011379  *    5.4553627  *   -1.2082857  *
+    70       C(ATOM     70  C   CYS C   7)   -1.41393932  *    3.5142847  *   -1.8897291  *
+    71       C(ATOM     71  CA  CYS C   7)   -1.13103011  *    2.0534696  *   -1.5045133  *
+    72       O(ATOM     72  O   CYS C   7)   -1.74149286  *    3.8442452  *   -3.0086787  *
+    73       N(ATOM     73  N   HIS C   9)   -2.00896758  *    1.6336167  *   -0.4023759  *
+    74       H(ATOM     74  HA  CYS C   7)   -0.05906764  *    1.9811824  *   -1.1511839  *
+    75       C(ATOM     75  CB  CYS C   7)   -1.33308052  *    1.1537279  *   -2.7329661  *
+    76       H(ATOM     76  H   HIS C   9)   -1.69925618  *    0.7828089  *    0.0754672  *
+    77       H(ATOM     77 1HB  CYS C   7)   -2.39086622  *    1.1127975  *   -3.0326962  *
+    78       H(ATOM     78 2HB  CYS C   7)   -0.79614330  *    1.5880263  *   -3.6035468  *
+    79       S(ATOM     79  SG  CYS C   7)   -0.62655667  *   -0.5300914  *   -2.5152607  *
+    80       C(ATOM     80  C   HIS D   9)   -3.36913326  *    1.8747130  *   -0.4828834  *
+    81       C(ATOM     81  CA  HIS D   9)   -4.25657163  *    0.7670718  *    0.1278819  *
+    82       O(ATOM     82  O   HIS D   9)   -3.84197452  *    2.8416571  *   -1.0356259  *
+    83       N(ATOM     83  N   HET D   9)   -5.32876711  *    1.3744897  *    0.8901143  *
+    84       H(ATOM     84  HA  HIS D   9)   -3.64879462  *    0.0795336  *    0.7812941  *
+    85       C(ATOM     85  CB  HIS D   9)   -4.78938317  *   -0.0101116  *   -1.1115366  *
+    86       H(ATOM     86  H   HET D   9)   -5.76243755  *    2.1997103  *    0.4833547  *
+    87       H(ATOM     87 1HB  HIS D   9)   -5.78730613  *    0.3901170  *   -1.3972658  *
+    88       H(ATOM     88 2HB  HIS D   9)   -4.15096627  *    0.1971437  *   -2.0072062  *
+    89       C(ATOM     89  CG  HIS D   9)   -4.85453259  *   -1.4629111  *   -0.8728907  *
+    90       N(ATOM     90  ND1 HIS D   9)   -3.76236965  *   -2.3133835  *   -1.0644508  *
+    91       C(ATOM     91  CD2 HIS D   9)   -5.95719953  *   -2.2248168  *   -0.4863320  *
+    92       C(ATOM     92  CE1 HIS D   9)   -4.18743261  *   -3.5710399  *   -0.8129623  *
+    93       N(ATOM     93  NE2 HIS D   9)   -5.52769883  *   -3.5520095  *   -0.4515880  *
+    94       H(ATOM     94  HD2 HIS D   9)   -6.95589672  *   -1.9262740  *   -0.2482536  *
+    95       H(ATOM     95  HE1 HIS D   9)   -3.59593171  *   -4.4800967  *   -0.8893063  *
+    96       C(ATOM     96  C1  HET D   9)   -5.81089408  *    0.8820111  *    2.0924248  *
+    97       C(ATOM     97  C2  HET D   9)   -5.15096631  *   -0.3090742  *    2.7176227  *
+    98       H(ATOM     98 1H2  HET D   9)   -5.18091179  *   -1.1938522  *    2.0695639  *
+    99       H(ATOM     99 2H2  HET D   9)   -4.09410244  *   -0.1164503  *    2.9731761  *
+   100       H(ATOM    100 3H2  HET D   9)   -5.65574203  *   -0.5719245  *    3.6607278  *
+   101       O(ATOM    101  O   HET D   9)   -6.76205246  *    1.4529546  *    2.5923120  *
+   102      Zn(HETATM  102 ZN    ZN E  18)   -1.74729057  *   -1.8578376  *   -1.1385713  *
+   103       H(ATOM    103  HXT CYS A   4)    0.67870454  *   -4.3516962  *   -2.2762871  *
+   104       H(ATOM    104  HE2 HIS D   9)   -6.09203086  *   -4.3359281  *   -0.2168416  *
+
+                             CARTESIAN COORDINATES
+
+   1    N        1.416654676     5.248398573     0.609069419
+   2    C        2.371384964     6.168498626     1.270796777
+   3    C        1.850019294     4.930558516    -0.756754871
+   4    H        2.617223587     5.760734691     2.274019872
+   5    H        1.913194626     7.167760816     1.433091472
+   6    C        3.600986094     6.242859508     0.347870033
+   7    C        3.090739718     5.810386171    -1.034937067
+   8    H        1.040562150     5.142225879    -1.507598505
+   9    C        2.252799450     3.457718165    -0.931869530
+  10    H        4.399056621     5.566331665     0.701383489
+  11    H        4.035198286     7.253162853     0.328641401
+  12    H        3.858775126     5.268651687    -1.613297271
+  13    H        2.813219533     6.684647679    -1.648144142
+  14    O        2.385046879     3.008070642    -2.054946355
+  15    N        2.441544293     2.678915326     0.178035195
+  16    H        2.415178908     3.055335925     1.121115435
+  17    C        2.897611711     1.298167556     0.006855532
+  18    H        2.247622823     0.803929879    -0.776209928
+  19    C        4.373600942     1.233969317    -0.458514680
+  20    C        2.747269072     0.595102748     1.372885580
+  21    H        4.456374794     1.727943912    -1.452512505
+  22    H        5.014446993     1.827588639     0.218624626
+  23    C        4.809123783    -0.193307202    -0.535614863
+  24    O        2.750420373     1.215208332     2.418442123
+  25    C        5.744001416    -0.694199684     0.376205950
+  26    C        4.213215602    -1.049827910    -1.466771051
+  27    H        6.236802977    -0.019334639     1.073111065
+  28    C        6.022454203    -2.053042744     0.426642212
+  29    C        4.465131862    -2.414286892    -1.423930797
+  30    H        3.527285784    -0.649241039    -2.217632648
+  31    H        6.723636621    -2.466867879     1.143266870
+  32    C        5.342928557    -2.910023522    -0.450750980
+  33    H        3.990879074    -3.089489011    -2.132554981
+  34    O        5.599299007    -4.224205757    -0.313140555
+  35    H        4.848982350    -4.792348694    -0.671768297
+  36    N        2.563237121    -0.760342781     1.300393476
+  37    H        2.669111649    -1.255673620     0.414934131
+  38    C        2.339278452    -1.586534843     2.492050976
+  39    H        3.238875523    -1.509655527     3.166771521
+  40    C        1.089627721    -1.141291533     3.293734422
+  41    C        2.200019249    -3.067905044     2.060552372
+  42    H        1.019469562    -1.745387901     4.224953772
+  43    H        1.233445810    -0.088327169     3.633666580
+  44    C       -0.153098537    -1.262419581     2.504301101
+  45    O        2.792453000    -3.943928492     2.644451859
+  46    N       -1.236652643    -2.024072550     2.901667947
+  47    C       -0.392146457    -0.781304751     1.205776190
+  48    C       -2.084803527    -2.042416932     1.841773896
+  49    N       -1.598365860    -1.315635021     0.766430153
+  50    H        0.201709909    -0.126714925     0.601615315
+  51    H       -3.022183881    -2.560343172     1.833448019
+  52    N        1.391743155    -3.319831595     0.949972170
+  53    H        0.751363356    -2.580049354     0.649217393
+  54    C        1.060314313    -4.607651846     0.553258416
+  55    H        1.732530060    -5.416788527     0.812856551
+  56    C       -0.351411059    -4.874932149     0.193960621
+  57    C        2.402910597    -4.970977743    -1.490740503
+  58    H       -0.519768712    -5.958131469     0.037225011
+  59    H       -1.021791125    -4.563139620     1.024239914
+  60    S       -0.922202202    -4.045050803    -1.356735277
+  61    O        3.473453608    -5.477991981    -1.377808093
+  62    O        1.664727337    -4.766567351    -2.521267413
+  63    C        0.090041602     5.297959352     1.018517082
+  64    C       -0.919277536     4.298891459     0.446792433
+  65    O       -0.213098888     6.023076679     1.944400570
+  66    N       -1.165486394     4.534185586    -0.969443833
+  67    H       -1.867213368     4.388567531     1.039358621
+  68    H       -0.533748169     3.265741644     0.637978687
+  69    H       -1.520113785     5.455362676    -1.208285669
+  70    C       -1.413939317     3.514284657    -1.889729072
+  71    C       -1.131030107     2.053469621    -1.504513328
+  72    O       -1.741492861     3.844245161    -3.008678720
+  73    N       -2.008967581     1.633616656    -0.402375921
+  74    H       -0.059067642     1.981182353    -1.151183894
+  75    C       -1.333080522     1.153727854    -2.732966149
+  76    H       -1.699256185     0.782808907     0.075467192
+  77    H       -2.390866222     1.112797456    -3.032696185
+  78    H       -0.796143300     1.588026328    -3.603546791
+  79    S       -0.626556672    -0.530091375    -2.515260720
+  80    C       -3.369133259     1.874712975    -0.482883428
+  81    C       -4.256571628     0.767071767     0.127881858
+  82    O       -3.841974525     2.841657060    -1.035625893
+  83    N       -5.328767111     1.374489653     0.890114316
+  84    H       -3.648794623     0.079533613     0.781294134
+  85    C       -4.789383167    -0.010111577    -1.111536616
+  86    H       -5.762437550     2.199710321     0.483354678
+  87    H       -5.787306134     0.390116952    -1.397265798
+  88    H       -4.150966268     0.197143713    -2.007206213
+  89    C       -4.854532587    -1.462911062    -0.872890659
+  90    N       -3.762369651    -2.313383490    -1.064450816
+  91    C       -5.957199534    -2.224816770    -0.486332040
+  92    C       -4.187432609    -3.571039870    -0.812962327
+  93    N       -5.527698827    -3.552009498    -0.451587955
+  94    H       -6.955896721    -1.926273979    -0.248253573
+  95    H       -3.595931712    -4.480096678    -0.889306262
+  96    C       -5.810894082     0.882011129     2.092424763
+  97    C       -5.150966308    -0.309074188     2.717622692
+  98    H       -5.180911787    -1.193852172     2.069563869
+  99    H       -4.094102440    -0.116450305     2.973176086
+ 100    H       -5.655742029    -0.571924513     3.660727757
+ 101    O       -6.762052457     1.452954643     2.592311999
+ 102   Zn       -1.747290570    -1.857837646    -1.138571259
+ 103    H        0.678704538    -4.351696179    -2.276287080
+ 104    H       -6.092030858    -4.335928126    -0.216841561
+
+
+           Empirical Formula: C36 H44 N11 O10 S2 Zn  =   104 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+          ALPHA EIGENVALUES  
+ -38.50197 -36.13124 -35.68745 -35.45925 -35.21231 -35.08818 -34.76472 -34.38486
+ -34.24605 -33.56364 -30.21981 -29.02087 -28.92813 -28.82368 -28.54804 -28.42366
+ -28.41534 -28.35741 -28.14841 -28.07751 -27.58606 -27.34921 -26.87632 -26.75116
+ -26.24765 -26.00323 -25.60781 -25.34519 -24.76188 -24.64265 -24.54911 -23.93512
+ -23.53658 -23.10028 -22.99888 -22.41329 -21.90821 -21.55786 -21.25032 -20.91807
+ -20.80544 -20.20987 -19.62982 -19.44464 -19.34875 -19.22573 -19.11869 -18.79583
+ -18.64341 -18.60635 -18.49498 -18.41949 -18.10687 -17.89204 -17.79376 -17.74562
+ -17.72075 -17.01423 -16.94402 -16.79785 -16.44647 -16.19447 -15.98718 -15.80798
+ -15.70567 -15.13661 -15.10383 -14.94516 -14.87259 -14.80562 -14.73265 -14.64675
+ -14.52514 -14.34350 -14.23908 -14.15661 -14.07474 -13.93695 -13.91405 -13.85262
+ -13.71006 -13.63178 -13.44472 -13.38560 -13.28523 -13.21136 -13.12864 -13.03265
+ -12.98368 -12.96008 -12.86986 -12.77559 -12.69004 -12.61570 -12.54772 -12.48676
+ -12.40286 -12.33493 -12.31304 -12.23050 -12.21297 -12.14816 -12.11753 -11.97993
+ -11.89284 -11.81851 -11.75324 -11.66650 -11.62128 -11.59851 -11.55082 -11.51794
+ -11.43295 -11.41009 -11.35605 -11.29791 -11.25596 -11.14875 -11.11614 -11.01800
+ -10.93998 -10.80343 -10.63933 -10.53278 -10.48817 -10.40711 -10.29943 -10.08826
+  -9.90659  -9.84079  -9.72702  -9.58750  -9.38077  -9.25985  -9.18229  -9.11136
+  -8.96975  -8.88499  -8.82209  -8.77024  -8.76429  -8.61442  -8.34442  -8.28400
+  -8.24304  -8.14528  -7.99734  -7.96874  -7.95024  -7.88730  -7.77152  -7.75700
+  -7.16415  -6.77433  -6.65205  -6.56013  -6.03646  -5.91768  -5.88376   1.27763
+   1.88938   1.97809   2.17742   2.35109   2.43548   2.46149   2.57591   2.66139
+   2.70345   2.71891   2.76862   2.78752   2.83187   2.87540   2.90850   2.98869
+   3.02774   3.04017   3.21795   3.23405   3.34424   3.48063   3.51472   3.54361
+   3.56571   3.60672   3.66142   3.82578   3.87527   3.96298   3.99430   4.17419
+   4.27882   4.40176   4.50378   4.52885   4.55480   4.56979   4.61801   4.77844
+   4.85571   4.94444   5.02610   5.03486   5.07475   5.12857   5.20321   5.21862
+   5.28460   5.40974   5.45494   5.52517   5.58221   5.59074   5.69987   5.71463
+   5.73619   5.88536   5.94171   5.95954   5.97732   6.09501   6.15790   6.25671
+   6.29920   6.30432   6.32681   6.33801   6.35668   6.36504   6.41263   6.46803
+   6.48809   6.57327   6.65333   6.65610   6.69854   6.73755   6.76418   6.81156
+   6.83934   6.87247   6.89624   6.90824   6.97212   6.97402   6.98623   7.06644
+   7.11006   7.15385   7.15715   7.17030   7.21743   7.24998   7.26689   7.29366
+   7.31077   7.32229   7.36289   7.40781   7.44023   7.44983   7.49717   7.53792
+   7.56158   7.61547   7.62353   7.69201   7.75088   7.78998   7.82170   7.84706
+   7.93276   8.01558   8.06161   8.14696   8.16095   8.19119   8.20360   8.25159
+   8.27312   8.32679   8.37522   8.38439   8.40690   8.44181   8.50766   8.53690
+   8.55261   8.61114   8.67180   8.71454   8.96530   8.99253
+
+
+           BETA EIGENVALUES 
+ -38.50175 -36.12207 -35.68655 -35.43681 -35.20836 -35.08561 -34.76019 -34.38456
+ -34.16675 -33.56323 -30.21882 -29.02141 -28.93820 -28.92811 -28.70892 -28.54471
+ -28.41649 -28.35762 -28.30126 -28.14197 -28.07348 -27.60957 -26.87633 -26.75223
+ -26.23374 -26.00174 -25.58569 -25.33476 -24.76130 -24.64256 -24.53647 -23.93579
+ -23.53653 -23.08565 -22.99330 -22.38612 -21.85737 -21.50129 -21.24910 -20.91673
+ -20.79383 -20.19273 -19.62325 -19.44491 -19.34561 -19.21781 -19.11840 -18.79349
+ -18.63330 -18.60379 -18.47933 -18.40748 -18.39754 -18.09655 -17.80890 -17.76565
+ -17.72218 -17.01227 -16.92755 -16.79071 -16.44519 -16.19362 -15.97988 -15.80438
+ -15.71822 -15.13339 -15.12163 -15.08340 -14.93772 -14.86733 -14.72982 -14.67978
+ -14.52732 -14.35064 -14.23832 -14.15558 -14.11925 -13.94502 -13.91480 -13.84972
+ -13.72899 -13.65042 -13.46132 -13.38376 -13.30220 -13.20987 -13.12128 -13.04655
+ -13.00772 -12.98188 -12.96199 -12.87939 -12.74477 -12.66803 -12.60924 -12.52046
+ -12.42865 -12.36604 -12.32315 -12.30564 -12.22305 -12.15752 -12.12917 -11.98029
+ -11.86503 -11.81075 -11.72850 -11.66216 -11.61471 -11.59564 -11.54627 -11.51019
+ -11.43299 -11.38893 -11.36265 -11.29886 -11.25905 -11.16813 -11.11589 -11.01766
+ -10.95611 -10.80521 -10.73824 -10.61862 -10.49976 -10.40807 -10.30001 -10.08816
+  -9.89063  -9.84673  -9.72038  -9.64483  -9.35373  -9.30750  -9.18035  -9.10503
+  -8.96962  -8.88388  -8.77849  -8.74002  -8.64339  -8.42604  -8.32640  -8.27753
+  -8.20142  -8.13693  -7.99330  -7.96854  -7.94932  -7.88716  -7.76767  -7.75590
+  -7.15640  -6.77511  -6.68024  -6.64214  -6.56613  -6.02831  -5.88624   1.27760
+   1.88840   1.90237   2.17769   2.35016   2.42477   2.43801   2.46197   2.58570
+   2.67067   2.70482   2.73678   2.76839   2.79073   2.83195   2.90845   2.99214
+   3.03822   3.21801   3.23067   3.28760   3.35946   3.48225   3.51485   3.54767
+   3.60368   3.62535   3.71659   3.82885   3.87792   3.98288   4.00637   4.05445
+   4.30984   4.48911   4.50930   4.52681   4.55492   4.61426   4.63542   4.77954
+   4.85628   4.94513   5.02680   5.03725   5.07472   5.10998   5.20322   5.21813
+   5.28458   5.38580   5.47094   5.49358   5.53357   5.58985   5.62853   5.72149
+   5.73380   5.88532   5.94117   5.95881   5.96628   6.09510   6.15872   6.26196
+   6.29947   6.30564   6.33167   6.35662   6.36252   6.41073   6.46750   6.48787
+   6.53387   6.58057   6.65432   6.65959   6.69954   6.73756   6.76555   6.81146
+   6.84046   6.87804   6.89517   6.95685   6.97371   6.98036   7.04921   7.06783
+   7.11003   7.14781   7.15505   7.16916   7.21825   7.24946   7.26903   7.29945
+   7.31872   7.33004   7.37149   7.40572   7.43986   7.48108   7.49610   7.52452
+   7.55421   7.57725   7.62353   7.64788   7.73669   7.81530   7.84646   7.86577
+   7.89481   7.93644   8.05967   8.16082   8.18940   8.20373   8.24409   8.25255
+   8.27318   8.30491   8.32824   8.37748   8.39266   8.40915   8.46627   8.51877
+   8.54803   8.61038   8.67264   8.72238   8.87439   9.03990
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.                 TYPE                        CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1          N(ATOM      1  N   GLY A   5)          -0.507982        5.5080     1.60645     3.90153
+    2          C(ATOM      2  CW1 VAL A   1)          -0.069071        4.0691     1.07140     2.99767
+    3          C(ATOM      3  CF1 VAL A   1)           0.012253        3.9877     1.08592     2.90183
+    4          H(ATOM      4 1HW1 VAL A   1)           0.149905        0.8501     0.85009
+    5          H(ATOM      5 2HW1 VAL A   1)           0.145695        0.8543     0.85431
+    6          C(ATOM      6  CY1 VAL A   1)          -0.294393        4.2944     1.06543     3.22896
+    7          C(ATOM      7  CC1 VAL A   1)          -0.286957        4.2870     1.06845     3.21851
+    8          H(ATOM      8  HF1 VAL A   1)           0.187487        0.8125     0.81251
+    9          C(ATOM      9  CC2 VAL A   1)           0.544326        3.4557     1.08999     2.36568
+   10          H(ATOM     10 1HY1 VAL A   1)           0.148524        0.8515     0.85148
+   11          H(ATOM     11 2HY1 VAL A   1)           0.139848        0.8602     0.86015
+   12          H(ATOM     12 1HC1 VAL A   1)           0.161977        0.8380     0.83802
+   13          H(ATOM     13 2HC1 VAL A   1)           0.146691        0.8533     0.85331
+   14          O(ATOM     14  OY2 VAL A   1)          -0.543038        6.5430     1.88174     4.66130
+   15          N(ATOM     15  NC2 VAL A   1)          -0.579310        5.5793     1.55924     4.02007
+   16          H(ATOM     16  HC2 VAL A   1)           0.345868        0.6541     0.65413
+   17          C(ATOM     17  CA  TYR A   2)           0.026726        3.9733     1.08598     2.88729
+   18          H(ATOM     18  HA  TYR A   2)           0.195359        0.8046     0.80464
+   19          C(ATOM     19  CB  TYR A   2)          -0.310373        4.3104     1.06233     3.24804
+   20          C(ATOM     20  C   TYR A   2)           0.569082        3.4309     1.08849     2.34243
+   21          H(ATOM     21 1HB  TYR A   2)           0.175618        0.8244     0.82438
+   22          H(ATOM     22 2HB  TYR A   2)           0.145963        0.8540     0.85404
+   23          C(ATOM     23  CG  TYR A   2)          -0.103180        4.1032     1.05731     3.04587
+   24          O(ATOM     24  O   TYR A   2)          -0.562608        6.5626     1.87956     4.68305
+   25          C(ATOM     25  CD1 TYR A   2)          -0.103585        4.1036     1.08452     3.01906
+   26          C(ATOM     26  CD2 TYR A   2)          -0.104571        4.1046     1.08647     3.01810
+   27          H(ATOM     27  HD1 TYR A   2)           0.139884        0.8601     0.86012
+   28          C(ATOM     28  CE1 TYR A   2)          -0.260039        4.2600     1.07632     3.18372
+   29          C(ATOM     29  CE2 TYR A   2)          -0.297413        4.2974     1.08098     3.21643
+   30          H(ATOM     30  HD2 TYR A   2)           0.169689        0.8303     0.83031
+   31          H(ATOM     31  HE1 TYR A   2)           0.165032        0.8350     0.83497
+   32          C(ATOM     32  CZ  TYR A   2)           0.325554        3.6744     1.07919     2.59526
+   33          H(ATOM     33  HE2 TYR A   2)           0.179078        0.8209     0.82092
+   34          O(ATOM     34  OH  TYR A   2)          -0.513633        6.5136     1.83756     4.67607
+   35          H(ATOM     35  HH  TYR A   2)           0.383839        0.6162     0.61616
+   36          N(ATOM     36  N   HIS A   3)          -0.593573        5.5936     1.56225     4.03132
+   37          H(ATOM     37  H   HIS A   3)           0.341282        0.6587     0.65872
+   38          C(ATOM     38  CA  HIS A   3)           0.027857        3.9721     1.08737     2.88477
+   39          H(ATOM     39  HA  HIS A   3)           0.173068        0.8269     0.82693
+   40          C(ATOM     40  CB  HIS A   3)          -0.298965        4.2990     1.05753     3.24143
+   41          C(ATOM     41  C   HIS A   3)           0.533461        3.4665     1.10272     2.36382
+   42          H(ATOM     42 1HB  HIS A   3)           0.171489        0.8285     0.82851
+   43          H(ATOM     43 2HB  HIS A   3)           0.189304        0.8107     0.81070
+   44          C(ATOM     44  CG  HIS A   3)           0.034230        3.9658     1.06438     2.90139
+   45          O(ATOM     45  O   HIS A   3)          -0.488264        6.4883     1.87863     4.60963
+   46          N(ATOM     46  ND1 HIS A   3)          -0.452405        5.4524     1.77184     3.68057
+   47          C(ATOM     47  CD2 HIS A   3)          -0.191416        4.1914     1.08737     3.10404
+   48          C(ATOM     48  CE1 HIS A   3)           0.024943        3.9751     1.08966     2.88540
+   49          N(ATOM     49  NE2 HIS A   3)          -0.484517        5.4845     1.67141     3.81310
+   50          H(ATOM     50  HD2 HIS A   3)           0.177651        0.8223     0.82235
+   51          H(ATOM     51  HE1 HIS A   3)           0.152112        0.8479     0.84789
+   52          N(ATOM     52  N   CYS A   4)          -0.497211        5.4972     1.55707     3.94015
+   53          H(ATOM     53  H   CYS A   4)           0.331870        0.6681     0.66813
+   54          C(ATOM     54  CA  CYS A   4)          -0.065428        4.0654     1.09772     2.96771
+   55          H(ATOM     55  HA  CYS A   4)           0.175439        0.8246     0.82456
+   56          C(ATOM     56  CB  CYS A   4)          -0.272297        4.2723     1.07280     3.19950
+   57          C(ATOM     57  C   CYS A   4)           0.581569        3.4184     1.34026     2.07817
+   58          H(ATOM     58 1HB  CYS A   4)           0.156942        0.8431     0.84306
+   59          H(ATOM     59 2HB  CYS A   4)           0.161195        0.8388     0.83881
+   60          S(ATOM     60  SG  CYS A   4)          -0.628091        6.6281     1.89353     4.65595     0.07862
+   61          O(ATOM     61  O   CYS A   4)          -0.559851        6.5599     1.85807     4.70178
+   62          O(ATOM     62  OXT CYS A   4)          -0.565165        6.5652     1.83772     4.72744
+   63          C(ATOM     63  C   GLY B   5)           0.551986        3.4480     1.10426     2.34375
+   64          C(ATOM     64  CA  GLY B   5)          -0.136814        4.1368     1.07510     3.06171
+   65          O(ATOM     65  O   GLY B   5)          -0.532221        6.5322     1.88037     4.65186
+   66          N(ATOM     66  N   CYS B   7)          -0.605025        5.6050     1.57614     4.02888
+   67          H(ATOM     67 1HA  GLY B   5)           0.179457        0.8205     0.82054
+   68          H(ATOM     68 2HA  GLY B   5)           0.195183        0.8048     0.80482
+   69          H(ATOM     69  H   CYS B   7)           0.313825        0.6862     0.68617
+   70          C(ATOM     70  C   CYS C   7)           0.576382        3.4236     1.10346     2.32016
+   71          C(ATOM     71  CA  CYS C   7)           0.032352        3.9676     1.08317     2.88448
+   72          O(ATOM     72  O   CYS C   7)          -0.519277        6.5193     1.87928     4.63999
+   73          N(ATOM     73  N   HIS C   9)          -0.597693        5.5977     1.59496     4.00273
+   74          H(ATOM     74  HA  CYS C   7)           0.188471        0.8115     0.81153
+   75          C(ATOM     75  CB  CYS C   7)          -0.291002        4.2910     1.08306     3.20794
+   76          H(ATOM     76  H   HIS C   9)           0.343890        0.6561     0.65611
+   77          H(ATOM     77 1HB  CYS C   7)           0.143086        0.8569     0.85691
+   78          H(ATOM     78 2HB  CYS C   7)           0.178520        0.8215     0.82148
+   79          S(ATOM     79  SG  CYS C   7)          -0.537421        6.5374     1.89254     4.56612     0.07876
+   80          C(ATOM     80  C   HIS D   9)           0.544048        3.4560     1.09776     2.35819
+   81          C(ATOM     81  CA  HIS D   9)           0.008094        3.9919     1.08457     2.90734
+   82          O(ATOM     82  O   HIS D   9)          -0.506503        6.5065     1.87962     4.62688
+   83          N(ATOM     83  N   HET D   9)          -0.609842        5.6098     1.56109     4.04875
+   84          H(ATOM     84  HA  HIS D   9)           0.194486        0.8055     0.80551
+   85          C(ATOM     85  CB  HIS D   9)          -0.304582        4.3046     1.06045     3.24413
+   86          H(ATOM     86  H   HET D   9)           0.333758        0.6662     0.66624
+   87          H(ATOM     87 1HB  HIS D   9)           0.176110        0.8239     0.82389
+   88          H(ATOM     88 2HB  HIS D   9)           0.190673        0.8093     0.80933
+   89          C(ATOM     89  CG  HIS D   9)           0.084866        3.9151     1.06735     2.84778
+   90          N(ATOM     90  ND1 HIS D   9)          -0.330199        5.3302     1.67610     3.65410
+   91          C(ATOM     91  CD2 HIS D   9)          -0.151951        4.1520     1.08640     3.06555
+   92          C(ATOM     92  CE1 HIS D   9)           0.111006        3.8890     1.10980     2.77920
+   93          N(ATOM     93  NE2 HIS D   9)          -0.331327        5.3313     1.51741     3.81392
+   94          H(ATOM     94  HD2 HIS D   9)           0.180279        0.8197     0.81972
+   95          H(ATOM     95  HE1 HIS D   9)           0.225725        0.7743     0.77428
+   96          C(ATOM     96  C1  HET D   9)           0.621738        3.3783     1.07683     2.30143
+   97          C(ATOM     97  C2  HET D   9)          -0.531042        4.5310     1.06255     3.46849
+   98          H(ATOM     98 1H2  HET D   9)           0.170176        0.8298     0.82982
+   99          H(ATOM     99 2H2  HET D   9)           0.197932        0.8021     0.80207
+  100          H(ATOM    100 3H2  HET D   9)           0.182452        0.8175     0.81755
+  101          O(ATOM    101  O   HET D   9)          -0.555742        6.5557     1.88111     4.67464
+  102         Zn(HETATM  102 ZN    ZN E  18)           0.810746        1.1893     0.77769     0.41156
+  103          H(ATOM    103  HXT CYS A   4)           0.434215        0.5658     0.56579
+  104          H(ATOM    104  HE2 HIS D   9)           0.313710        0.6863     0.68629
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      GLY A   5       -0.508  ANION
+      VAL A   1       +0.210
+      TYR A   2       +0.220
+      HIS A   3       -0.684  ANION
+      CYS A   4       -0.747  ANION
+      GLY B   5       +0.258
+      CYS B   7       -0.291
+      CYS C   7       -0.229
+      HIS C   9       -0.254
+      HIS D   9       +0.404
+      HET D   9       -0.191
+       ZN E  18       +0.811  CATION
+ 
+
+
+                   No Salt Bridges Found
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -5.006     1.804    -0.048     5.321
+ HYBRID        -2.044     0.294    -0.119     2.068
+ SUM           -7.049     2.098    -0.167     7.357
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+                   Atom                  s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+   N(ATOM      1  N   GLY A   5)   1.60645   1.15791   1.52326   1.22036
+   C(ATOM      2  CW1 VAL A   1)   1.07140   0.92273   1.04062   1.03432
+   C(ATOM      3  CF1 VAL A   1)   1.08592   1.04087   0.98783   0.87313
+   H(ATOM      4 1HW1 VAL A   1)   0.85009
+   H(ATOM      5 2HW1 VAL A   1)   0.85431
+   C(ATOM      6  CY1 VAL A   1)   1.06543   1.06336   1.15542   1.01019
+   C(ATOM      7  CC1 VAL A   1)   1.06845   1.06235   1.11345   1.04271
+   H(ATOM      8  HF1 VAL A   1)   0.81251
+   C(ATOM      9  CC2 VAL A   1)   1.08999   0.74075   0.84447   0.78046
+   H(ATOM     10 1HY1 VAL A   1)   0.85148
+   H(ATOM     11 2HY1 VAL A   1)   0.86015
+   H(ATOM     12 1HC1 VAL A   1)   0.83802
+   H(ATOM     13 2HC1 VAL A   1)   0.85331
+   O(ATOM     14  OY2 VAL A   1)   1.88174   1.57449   1.76308   1.32374
+   N(ATOM     15  NC2 VAL A   1)   1.55924   1.66144   1.17117   1.18745
+   H(ATOM     16  HC2 VAL A   1)   0.65413
+   C(ATOM     17  CA  TYR A   2)   1.08598   1.01460   0.83748   1.03522
+   H(ATOM     18  HA  TYR A   2)   0.80464
+   C(ATOM     19  CB  TYR A   2)   1.06233   1.02086   1.04937   1.17782
+   C(ATOM     20  C   TYR A   2)   1.08849   0.71435   0.76751   0.86057
+   H(ATOM     21 1HB  TYR A   2)   0.82438
+   H(ATOM     22 2HB  TYR A   2)   0.85404
+   C(ATOM     23  CG  TYR A   2)   1.05731   1.04270   0.96902   1.03415
+   O(ATOM     24  O   TYR A   2)   1.87956   1.57102   1.69523   1.41680
+   C(ATOM     25  CD1 TYR A   2)   1.08452   0.99315   1.01544   1.01048
+   C(ATOM     26  CD2 TYR A   2)   1.08647   1.01630   0.98553   1.01627
+   H(ATOM     27  HD1 TYR A   2)   0.86012
+   C(ATOM     28  CE1 TYR A   2)   1.07632   1.10394   0.99705   1.08273
+   C(ATOM     29  CE2 TYR A   2)   1.08098   1.09564   1.03918   1.08162
+   H(ATOM     30  HD2 TYR A   2)   0.83031
+   H(ATOM     31  HE1 TYR A   2)   0.83497
+   C(ATOM     32  CZ  TYR A   2)   1.07919   0.89759   0.78941   0.90826
+   H(ATOM     33  HE2 TYR A   2)   0.82092
+   O(ATOM     34  OH  TYR A   2)   1.83756   1.57120   1.27576   1.82911
+   H(ATOM     35  HH  TYR A   2)   0.61616
+   N(ATOM     36  N   HIS A   3)   1.56225   1.69524   1.14669   1.18939
+   H(ATOM     37  H   HIS A   3)   0.65872
+   C(ATOM     38  CA  HIS A   3)   1.08737   1.07040   0.90471   0.90966
+   H(ATOM     39  HA  HIS A   3)   0.82693
+   C(ATOM     40  CB  HIS A   3)   1.05753   0.97014   1.18628   1.08501
+   C(ATOM     41  C   HIS A   3)   1.10272   0.75867   0.86946   0.73569
+   H(ATOM     42 1HB  HIS A   3)   0.82851
+   H(ATOM     43 2HB  HIS A   3)   0.81070
+   C(ATOM     44  CG  HIS A   3)   1.06438   0.93268   1.00579   0.96292
+   O(ATOM     45  O   HIS A   3)   1.87863   1.50255   1.54532   1.56176
+   N(ATOM     46  ND1 HIS A   3)   1.77184   1.10829   1.24688   1.32540
+   C(ATOM     47  CD2 HIS A   3)   1.08737   0.95441   1.12433   1.02531
+   C(ATOM     48  CE1 HIS A   3)   1.08966   1.02219   1.01860   0.84461
+   N(ATOM     49  NE2 HIS A   3)   1.67141   1.21785   1.29623   1.29903
+   H(ATOM     50  HD2 HIS A   3)   0.82235
+   H(ATOM     51  HE1 HIS A   3)   0.84789
+   N(ATOM     52  N   CYS A   4)   1.55707   1.41171   1.17854   1.34989
+   H(ATOM     53  H   CYS A   4)   0.66813
+   C(ATOM     54  CA  CYS A   4)   1.09772   0.98740   0.89677   1.08354
+   H(ATOM     55  HA  CYS A   4)   0.82456
+   C(ATOM     56  CB  CYS A   4)   1.07280   1.04012   1.12333   1.03605
+   C(ATOM     57  C   CYS A   4)   1.34026   0.72382   0.59983   0.75452
+   H(ATOM     58 1HB  CYS A   4)   0.84306
+   H(ATOM     59 2HB  CYS A   4)   0.83881
+   S(ATOM     60  SG  CYS A   4)   1.89353   1.80337   1.64017   1.21241   0.00881   0.01931   0.02308   0.02186   0.00555
+   O(ATOM     61  O   CYS A   4)   1.85807   1.38559   1.57115   1.74504
+   O(ATOM     62  OXT CYS A   4)   1.83772   1.49868   1.76431   1.46445
+   C(ATOM     63  C   GLY B   5)   1.10426   0.77269   0.78644   0.78462
+   C(ATOM     64  CA  GLY B   5)   1.07510   1.09777   1.10668   0.85726
+   O(ATOM     65  O   GLY B   5)   1.88037   1.79984   1.47287   1.37915
+   N(ATOM     66  N   CYS B   7)   1.57614   1.68323   1.20627   1.13938
+   H(ATOM     67 1HA  GLY B   5)   0.82054
+   H(ATOM     68 2HA  GLY B   5)   0.80482
+   H(ATOM     69  H   CYS B   7)   0.68617
+   C(ATOM     70  C   CYS C   7)   1.10346   0.69731   0.84448   0.77837
+   C(ATOM     71  CA  CYS C   7)   1.08317   1.01935   0.95474   0.91039
+   O(ATOM     72  O   CYS C   7)   1.87928   1.50449   1.82165   1.31385
+   N(ATOM     73  N   HIS C   9)   1.59496   1.15201   1.46065   1.39007
+   H(ATOM     74  HA  CYS C   7)   0.81153
+   C(ATOM     75  CB  CYS C   7)   1.08306   1.15234   0.99820   1.05741
+   H(ATOM     76  H   HIS C   9)   0.65611
+   H(ATOM     77 1HB  CYS C   7)   0.85691
+   H(ATOM     78 2HB  CYS C   7)   0.82148
+   S(ATOM     79  SG  CYS C   7)   1.89254   1.63972   1.09529   1.83111   0.01868   0.00681   0.01553   0.01032   0.02742
+   C(ATOM     80  C   HIS D   9)   1.09776   0.79100   0.81811   0.74907
+   C(ATOM     81  CA  HIS D   9)   1.08457   0.92562   1.00790   0.97382
+   O(ATOM     82  O   HIS D   9)   1.87962   1.76150   1.37889   1.48649
+   N(ATOM     83  N   HET D   9)   1.56109   1.39502   1.37267   1.28106
+   H(ATOM     84  HA  HIS D   9)   0.80551
+   C(ATOM     85  CB  HIS D   9)   1.06045   1.18976   0.96906   1.08531
+   H(ATOM     86  H   HET D   9)   0.66624
+   H(ATOM     87 1HB  HIS D   9)   0.82389
+   H(ATOM     88 2HB  HIS D   9)   0.80933
+   C(ATOM     89  CG  HIS D   9)   1.06735   0.87621   0.95046   1.02111
+   N(ATOM     90  ND1 HIS D   9)   1.67610   1.29436   1.07720   1.28254
+   C(ATOM     91  CD2 HIS D   9)   1.08640   1.07734   0.83493   1.15328
+   C(ATOM     92  CE1 HIS D   9)   1.10980   0.81032   0.98142   0.98746
+   N(ATOM     93  NE2 HIS D   9)   1.51741   1.16874   1.14908   1.49610
+   H(ATOM     94  HD2 HIS D   9)   0.81972
+   H(ATOM     95  HE1 HIS D   9)   0.77428
+   C(ATOM     96  C1  HET D   9)   1.07683   0.76453   0.79699   0.73991
+   C(ATOM     97  C2  HET D   9)   1.06255   1.19061   1.10032   1.17756
+   H(ATOM     98 1H2  HET D   9)   0.82982
+   H(ATOM     99 2H2  HET D   9)   0.80207
+   H(ATOM    100 3H2  HET D   9)   0.81755
+   O(ATOM    101  O   HET D   9)   1.88111   1.36588   1.62764   1.68113
+  Zn(HETATM  102 ZN    ZN E  18)   0.77769   0.12438   0.11523   0.17195
+   H(ATOM    103  HXT CYS A   4)   0.56579
+   H(ATOM    104  HE2 HIS D   9)   0.68629
+
+
+                    (SZ)    =    0.000000
+                    (S**2)  =    0.927352
+
+
+          ATOMIC ORBITAL SPIN POPULATIONS
+
+    Atom   Total    s     px     py     pz   x^2-y^2  xz     z^2    yz     xy
+         Atomic
+    1  N -0.0000  0.000  0.000 -0.000 -0.000
+    2  C -0.0000 -0.000 -0.000 -0.000 -0.000
+    3  C  0.0000  0.000  0.000  0.000 -0.000
+    4  H  0.0000  0.000
+    5  H  0.0000  0.000
+    6  C -0.0000  0.000  0.000 -0.000 -0.000
+    7  C -0.0000 -0.000 -0.000 -0.000  0.000
+    8  H  0.0000  0.000
+    9  C  0.0000  0.000  0.000  0.000  0.000
+   10  H  0.0000  0.000
+   11  H  0.0000  0.000
+   12  H  0.0000  0.000
+   13  H  0.0000  0.000
+   14  O  0.0000  0.000  0.000 -0.000  0.000
+   15  N  0.0000  0.000 -0.000  0.000 -0.000
+   16  H -0.0000 -0.000
+   17  C  0.0001  0.000  0.000  0.000  0.000
+   18  H -0.0000 -0.000
+   19  C -0.0000 -0.000 -0.000 -0.000  0.000
+   20  C  0.0004  0.000 -0.000  0.000 -0.000
+   21  H  0.0000  0.000
+   22  H  0.0000  0.000
+   23  C  0.0000  0.000  0.000  0.000  0.000
+   24  O  0.0000  0.000 -0.000  0.000 -0.000
+   25  C -0.0000  0.000 -0.000  0.000 -0.000
+   26  C -0.0000 -0.000 -0.000 -0.000 -0.000
+   27  H  0.0000  0.000
+   28  C  0.0000  0.000  0.000  0.000  0.000
+   29  C -0.0001 -0.000 -0.000 -0.000 -0.000
+   30  H  0.0000  0.000
+   31  H -0.0000 -0.000
+   32  C -0.0001 -0.000 -0.000 -0.000 -0.000
+   33  H  0.0001  0.000
+   34  O  0.0009  0.000  0.001  0.000  0.000
+   35  H  0.0001  0.000
+   36  N  0.0003  0.000  0.000  0.000 -0.000
+   37  H -0.0001 -0.000
+   38  C  0.0009  0.000  0.000 -0.000  0.001
+   39  H  0.0010  0.001
+   40  C -0.0000  0.000  0.000 -0.000 -0.000
+   41  C  0.0320  0.006  0.034  0.001 -0.009
+   42  H -0.0000 -0.000
+   43  H -0.0002 -0.000
+   44  C -0.0001 -0.000 -0.000 -0.000 -0.000
+   45  O  0.0534  0.002  0.044  0.002  0.005
+   46  N  0.0002  0.000  0.000  0.000  0.000
+   47  C -0.0001 -0.000 -0.000 -0.000 -0.000
+   48  C -0.0001 -0.000 -0.000 -0.000 -0.000
+   49  N  0.0000 -0.000  0.000  0.000  0.000
+   50  H -0.0000 -0.000
+   51  H  0.0000  0.000
+   52  N  0.0507  0.008  0.036 -0.008  0.015
+   53  H -0.0023 -0.002
+   54  C  0.8129  0.034  0.106  0.036  0.637
+   55  H -0.0224 -0.022
+   56  C -0.0437 -0.006 -0.012 -0.006 -0.020
+   57  C -0.5183 -0.245 -0.056 -0.042 -0.175
+   58  H  0.0016  0.002
+   59  H  0.0215  0.021
+   60  S  0.0495  0.001  0.009  0.001  0.039 -0.000  0.000 -0.000 -0.000  0.000
+   61  O -0.2279 -0.003 -0.083 -0.038 -0.104
+   62  O -0.2227 -0.002 -0.005 -0.003 -0.212
+   63  C -0.0000 -0.000  0.000  0.000 -0.000
+   64  C  0.0000  0.000 -0.000  0.000  0.000
+   65  O  0.0000  0.000 -0.000  0.000 -0.000
+   66  N  0.0000 -0.000  0.000 -0.000  0.000
+   67  H  0.0000  0.000
+   68  H -0.0000 -0.000
+   69  H  0.0000  0.000
+   70  C  0.0000  0.000 -0.000  0.000  0.000
+   71  C -0.0000 -0.000  0.000 -0.000 -0.000
+   72  O -0.0000  0.000 -0.000 -0.000  0.000
+   73  N -0.0000 -0.000 -0.000 -0.000  0.000
+   74  H  0.0000  0.000
+   75  C  0.0000 -0.000 -0.000  0.000  0.000
+   76  H  0.0000  0.000
+   77  H  0.0000  0.000
+   78  H  0.0000  0.000
+   79  S  0.0007  0.000  0.001  0.000  0.000 -0.000  0.000  0.000 -0.000  0.000
+   80  C -0.0000  0.000 -0.000 -0.000 -0.000
+   81  C -0.0000 -0.000  0.000 -0.000 -0.000
+   82  O  0.0000 -0.000 -0.000  0.000  0.000
+   83  N -0.0000 -0.000 -0.000  0.000 -0.000
+   84  H  0.0000  0.000
+   85  C  0.0000 -0.000 -0.000  0.000  0.000
+   86  H  0.0000  0.000
+   87  H  0.0000  0.000
+   88  H  0.0000  0.000
+   89  C -0.0000  0.000  0.000  0.000 -0.000
+   90  N  0.0001  0.000  0.000  0.000  0.000
+   91  C  0.0000  0.000  0.000  0.000  0.000
+   92  C  0.0000  0.000  0.000  0.000 -0.000
+   93  N -0.0000 -0.000  0.000 -0.000 -0.000
+   94  H  0.0000  0.000
+   95  H -0.0000 -0.000
+   96  C  0.0000  0.000  0.000  0.000 -0.000
+   97  C -0.0000 -0.000 -0.000 -0.000 -0.000
+   98  H  0.0000  0.000
+   99  H  0.0000  0.000
+  100  H -0.0000 -0.000
+  101  O -0.0000  0.000 -0.000  0.000  0.000
+  102 Zn -0.0003 -0.000 -0.000 -0.000 -0.000
+  103  H  0.0120  0.012
+  104  H -0.0000 -0.000
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:           112.21 SECONDS
+
+ == MOPAC DONE ==

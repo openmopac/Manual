@@ -1,0 +1,170 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+<title>ADD-H</title>
+<style type="text/css">
+.auto-style1 {
+	text-align: left;
+}
+.auto-style2 {
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+.auto-style3 {
+	border-width: 0px;
+}
+.auto-style4 {
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+.auto-style5 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.auto-style6 {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.auto-style7 {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.auto-style8 {
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.auto-style9 {
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+.auto-style10 {
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+</style>
+</head>
+<body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+Hydrogenation of biologic macromolecules using MOPAC</h1>
+<p class="auto-style1">
+Two conditions are necessary for protein modeling: a computational chemistry 
+technique, and a realistic model. Most models are constructed from PDB files, 
+which normally do not include hydrogen atoms.&nbsp; Several methods are 
+available for adding hydrogen atoms, of which readily available methods are
+<a href="http://molprobity.biochem.duke.edu/">MolProbity</a>,
+<a href="http://www.csb.yale.edu/userguides/graphics/whatif/html/index.html">
+WHAT IF</a>,
+<a href="http://scbx.mssm.edu/mezeilab/molmod/gold_docs/gold.1.11.html">GOLD</a>,
+and
+<a href="http://zhanglab.ccmb.med.umich.edu/HAAD/">HAAD Online</a>.</p>
+<p class="auto-style1">
+So why have another hydrogenation routine?&nbsp; For computational chemistry 
+modeling work, a realistic model must comply with very strict rules, for 
+example:</p>
+<ul>
+<li>
+<p class="auto-style1">The model must be for the system of interest.&nbsp; 
+	Such systems might include metal ions and heterogroups such as heme and 
+	porphyrin.</p>
+</li>
+<li>
+<p class="auto-style1">Hydrogenation must be correct.&nbsp; Even one atom 
+	incorrectly hydrogenated could invalidate the model.</p>
+</li>
+<li>
+<p class="auto-style1">Selective protonation to form salt bridges, isolated 
+	ionized sites, etc., must be allowed.</p>
+</li>
+</ul>
+<p class="auto-style1">In MOPAC, hydrogenation is done in two steps.&nbsp; In 
+the first step, using keyword <a href="add-h.html"><tt>ADD-H</tt>,</a> hydrogen atoms are 
+added to neutralize as much of the system as possible.&nbsp; Moieties that 
+always exist as ions, for example sodium and calcium, are not hydrogenated.&nbsp; 
+This produces a well-defined starting point for the second step.</p>
+<p class="auto-style1">In the second step, keyword <a href="site.html"><tt>SITE</tt></a> 
+is used to form ionized sites.&nbsp; These are the salt bridges and individual 
+ionized residues and other species. </p>
+<p class="auto-style1">To minimize errors, both steps are normally done in one 
+job by having <tt>ADD-H</tt>, and one or more <tt>SITE</tt> keywords. </p>
+<p class="auto-style1">When hydrogen atoms are added to a system, they are not 
+well positioned.&nbsp; Before proceeding, therefore, a geometry optimization of 
+the hydrogen atoms needs to be performed.&nbsp; A recommended procedure for this 
+operation would be to include the <a href="charge.html"><tt>CHARGE</tt></a> keyword.&nbsp;&nbsp;&nbsp;If 
+the net charge on the system is known, then that should be used.&nbsp; Thus 
+simple proteins, hydrogenated using <tt>ADD-H SITE=(SALT)</tt>, should have a 
+charge of zero. If the calculated charge is different to that expected, examine 
+the output to locate the cause of the difference.&nbsp; Assigning the net charge 
+can be extremely tedious when large proteins are used.&nbsp; To simplify this 
+operation, a list of all charged sites is printed whenever an SCF calculation is 
+requested. When <tt>SITE</tt> is used, a list of the changes in charged sites is 
+printed, together with the net change in charge.&nbsp; </p>
+<p class="auto-style1">Non-zero net charges can exist when metal atoms, such as 
+Na and Ca, are present, also when complicated neutral heterogroups, such as 
+heme, are covalently bound to proteins.&nbsp; This most commonly occurs when Fe 
+of heme forms a bond with the sulfur atom of a cysteine residue.</p>
+<p class="auto-style1">MOZYME will not allow a system to be run where the net 
+charge defined by a keyword is different to that calculated by MOZYME.&nbsp; If 
+MOZYME does make a mistake, typically by picking the wrong resonance structure, the 
+fault can be corrected by keywords such as <a href="setpi.html"><tt>SETPI</tt></a> or, 
+less commonly, by <a href="CVB.html"><tt>CVB</tt></a>.</p>
+<p class="auto-style1">Protonation of 1D66</p>
+<table class="auto-style3">
+<tr>
+<td class="auto-style8">&nbsp;</td>
+<td class="auto-style9" colspan="4">Number of Hydrogen Atoms</td>
+</tr>
+<tr>
+<td class="auto-style2">Hydrogenation program</td>
+<td>Protein </td>
+<td class="auto-style10">Nucleic acid</td>
+<td class="auto-style10">Water</td>
+<td class="auto-style9">Total</td>
+</tr>
+<tr>
+<td class="auto-style2">MolProbity</td>
+<td>982</td>
+<td>427</td>
+<td>0</td>
+<td class="auto-style4">1409</td>
+</tr>
+<tr>
+<td class="auto-style2">WHAT IF</td>
+<td>1000</td>
+<td>423</td>
+<td>102</td>
+<td class="auto-style4">1525</td>
+</tr>
+<tr>
+<td class="auto-style5">MOPAC</td>
+<td class="auto-style6">990</td>
+<td class="auto-style6">427</td>
+<td class="auto-style6">102</td>
+<td class="auto-style7">1519</td>
+</tr>
+</table>
+<p class="auto-style1">&nbsp;</p>
+</body>
+</html>

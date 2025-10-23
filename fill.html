@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>FILL=n </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>FILL=<i>n</i></tt>
+</h1>
+The <i>n</i>'th M.O.  in an RHF calculation is constrained  to  be  filled.
+It  has no effect on a UHF calculation.  After the first iteration (NOTE:
+<a name="BM2074">&nbsp;</a>
+not after the first SCF calculation, but after the first iteration
+within the first SCF calculation) the <i>n</i>'th M.O. is stored, and, if
+occupied, no further action is taken at that time.  If unoccupied, then
+the  HOMO  and the <i>n</i>'th M.O.s are swapped around, so that the <i>n</i>'th
+M.O. is now filled.  In all subsequent iterations the M.O. nearest in
+character to the stored M.O.  is forced to be filled, and the stored
+M.O. replaced by that M.O.  This is necessitated by the fact that in
+a  reaction  a  particular M.O. may change its character
+considerably.  A useful procedure is to run <tt><a href="one_scf.html">1SCF</a></tt> and
+<tt><a href="denout.html">DENOUT</a></tt> first, in order to identify the M.O.s. The  complete
+job  is then  run  with <tt><a href="oldens.html">OLDENS</a></tt> and <tt>FILL=<i>nn</i></tt>, so that the
+eigenvectors at the first iteration are fully known.  As <tt>FILL</tt> is
+known to give difficulty at times, consider using using <tt>
+<a href="ci=n.html">C.I.=<i>n</i></a></tt>
+and <tt><a href="root.html">ROOT=<i>m</i></a></tt> instead.
+<p>
+<br/>
+</p></body>
+</html>

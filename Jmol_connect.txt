@@ -1,0 +1,17 @@
+select (*)[2737]
+connect (*)[3485]
+select add (*)[3485]
+wireframe 10
+connect HBOND
+select (*)[2742]
+connect (*)[3486]
+select add (*)[3486]
+wireframe 10
+connect HBOND
+select (*)[2742]
+connect (*)[2737]
+select add (*)[2737]
+wireframe 10
+connect HBOND
+
+

@@ -1,0 +1,60 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title> Considerations in Geometry Optimization</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2><a name="SECTION001274000000000000000">
+ Considerations in Geometry Optimization</a>
+</h2>
+The default settings in MOPAC are designed to allow most systems to be
+optimized in an efficient way.  Quite often, however, problems arise.  The
+following  notes are intended as background material for use when things go
+wrong.
+<h3><a name="SECTION001274100000000000000">
+ Overriding the default options</a>
+</h3>
+<p>In the EigenFollowing geometry optimization method, the geometry is changed on
+each cycle; if the
+<span class="b">&Delta;</span>H<sub>f
+</sub>&nbsp;decreases, the cycle is completed.  If it does
+not drop, the step-size is reduced, and the
+<span class="b">&Delta;</span>H<sub>f
+</sub>&nbsp;recalculated.  Only
+when the
+<span class="b">&Delta;</span>H<sub>f
+</sub>&nbsp;decreases, compared to the previous cycle, is the current
+cycle considered to be successful.  During the calculation, the confidence
+level or trust radius is continuously checked.  If this becomes too small, the
+calculation will be stopped.  This can readily happen if (a) the geometry was
+already almost  optimized; (b) a reaction path or grid calculation is being
+performed; (c) if the geometry is in internal coordinates and "big rings" are
+involved; or (d) if the  gradients are not correctly calculated (in a
+complicated C.I., for example). </p>
+<p>
+For cases (a) and (b), add <tt><a href="let.html">LET</a></tt> and <tt>
+<a href="ddmin.html">DDMIN=0</a></tt>.  In case (c) use
+either mixed coordinates or entirely Cartesian coordinates. Case (d) is
+difficult--if nothing else works, add <tt><a href="noanci.html">NOANCI</a></tt>; this will always cause
+the derivatives to be correctly calculated, but will also use a lot of time.
+</p><p>
+Adding <tt>LET</tt> and <tt>DDMIN=0</tt> is often very effective, particularly 
+when reaction paths are being calculated. The first geometry optimization might 
+take more cycles, but the resulting Hessian matrix is better tempered, and 
+subsequent steps are generally more efficient. </p></body></html>

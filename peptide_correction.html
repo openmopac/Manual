@@ -1,0 +1,139 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Correction to the Peptide Linkage</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2>Correction to the Peptide Linkage </h2>
+<p>The residues in peptides are joined together by peptide linkages, -HNCO-. These linkages are almost flat, and normally adopt a trans configuration, the hydrogen and oxygen atoms being on opposite sides of the C-N bond. Experimentally, the barrier to interconversion in N-methyl acetamide is about 14 kcal/mol, but all four methods within MOPAC predict a significantly lower barrier, PM3 giving the lowest value. </p>
+<p>The low barrier can be traced to the tendency of semiempirical methods to give pyramidal nitrogens. The degree to which pyramidalization of the nitrogen atom is preferred can be seen in the series of compounds given in the Table. </p>
+<p></p><div align="CENTER"><div align="CENTER"><a name="BM11234">&nbsp;</a>
+<strong><p>Table:</p></strong> Comparison of Observed and Calculated Pyramidalization of Nitrogen
+<table border="" cellpadding="3" cellspacing="1">
+<tr><td valign="MIDDLE">
+<p>Compound</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">MNDO</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">AM1</p></td>
+<td valign="TOP">
+<p align="CENTER">PM3</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">PM6</p></td>
+<td valign="TOP">
+<p align="CENTER">Exp</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p><a href="ref_data/nh3.mop">Ammonia</a></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Py</p></td>
+<td valign="TOP">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="TOP">
+<p align="CENTER">Py</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p><a href="ref_data/aniline.mop">Aniline</a></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Py</p></td>
+<td valign="TOP">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="TOP">
+<p align="CENTER">Py</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p><a href="ref_data/hconh2.mop">Formamide</a></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Flat</p></td>
+<td valign="TOP">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="TOP">
+<p align="CENTER">Flat</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p><a href="ref_data/ch3conh2.mop">Acetamide</a></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Flat</p></td>
+<td valign="TOP">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="TOP">
+<p align="CENTER">Flat</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p><a href="ref_data/hconhme.mop">N-methyl formamide</a></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Flat</p></td>
+<td valign="TOP">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="TOP">
+<p align="CENTER">Flat</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p><a href="ref_data/meconhme.mop">N-methyl acetamide</a></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Flat</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">Flat</p></td>
+<td valign="TOP">
+<p align="CENTER">Py</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="TOP">
+<p align="CENTER">Flat</p></td>
+</tr>
+<tr><td valign="MIDDLE">
+<p><i>k</i></p></td>
+<td valign="MIDDLE">
+<p align="CENTER">6.17</p></td>
+<td valign="MIDDLE">
+<p align="CENTER">3.32</p></td>
+<td valign="TOP">
+<p align="CENTER">7.19</p></td>
+<td valign="MIDDLE">
+&nbsp;</td>
+<td valign="TOP">&nbsp;</td>
+</tr>
+</table>
+<p></p></div></div>
+<p>To correct this, a molecular-mechanics correction has been applied. This consists of identifying the -R-HNCO- unit, and adding a torsion potential of form: </p>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}k sin ! ^{2} thetaend{displaymath}" height="25" src="img613.gif" width="42"/></div>
+<p>where <i><span class="b">&theta;</span></i> is the X-N-C-O angle, X=R or H, and <i>k</i> varies from method to method. Values of <i>k</i> in kcal/mol are also given in the Table. This has two effects: there is a force constraining the nitrogen to be planar, and the HNCO barrier in N-methyl acetamide is raised to 14.00 kcal/mol. When the MM correction is in place, the nitrogen atom for all methods for the last three compounds shown above is planar. The correction should be user-transparent. </p>
+</body>
+</html>

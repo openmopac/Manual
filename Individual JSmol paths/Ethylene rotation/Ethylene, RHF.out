@@ -1,0 +1,2479 @@
+ *******************************************************************************
+ ** Site#: 37037        For non-commercial use only           Version 21.178W **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 21.178W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 365**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Sun Jun 27 15:32:49 2021  *
+ *  SYMMETRY   - SYMMETRY CONDITIONS TO BE IMPOSED
+ *  STEP       - STEP-SIZE IN PATH =   2.000
+ *  POINT      - NUMBER OF POINTS IN PATH = 90
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *******************************************************************************
+
+
+
+                    PARAMETER DEPENDENCE DATA
+
+        REFERENCE ATOM      FUNCTION NO.    DEPENDENT ATOM(S)
+            3                  1               4    5    6
+            3                  2               4    5    6
+
+             DESCRIPTIONS OF THE FUNCTIONS USED
+   1      BOND LENGTH    IS SET EQUAL TO THE REFERENCE BOND LENGTH   
+   2      BOND ANGLE     IS SET EQUAL TO THE REFERENCE BOND ANGLE    
+ 
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  ATOM               CHEMICAL                 BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER               SYMBOL                  (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                                           NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       C(HETATM    1  C1  HET A   1)    0.00000000       0.0000000       0.0000000   
+     2       C(HETATM    2  C2  HET A   1)    1.32958102  *    0.0000000       0.0000000        1     0     0
+     3       H(HETATM    3 1H2  HET A   1)    1.07987472  *  123.6578309  *    0.0000000        2     1     0
+     4       H(HETATM    4 2H2  HET A   1)    1.07987472     123.6578309     180.0000000        2     1     3
+     5       H(HETATM    5 1H1  HET A   1)    1.07987472     123.6578309     180.0000000  +     1     2     3
+     6       H(HETATM    6 2H1  HET A   1)    1.07987472     123.6578309     180.0000000        1     2     5
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: C2 H4  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D2h 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 6
+
+  ABOUT TO ENTER EF FROM PATHK
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.29024 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       180.00000       13.855466
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.32958102 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07987472 +1  123.6578309 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.31523 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       182.00000       13.888149
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.32958102 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07987472 +1  123.6578309 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07987472 +0  123.6578309 +0 -178.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.39129 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       184.00000       13.986193
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.32958102 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07987472 +1  123.6578309 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07987472 +0  123.6578309 +0 -176.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.51994 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       186.00000       14.149588
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.32958102 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07987472 +1  123.6578309 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07987472 +0  123.6578309 +0 -174.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.70191 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       188.00000       14.378314
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.32958102 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07987472 +1  123.6578309 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07987472 +0  123.6578309 +0 -172.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.93735 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       190.00000       14.672344
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.32958102 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07987472 +1  123.6578309 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07987472 +0  123.6578309 +0 -170.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07987472 +0  123.6578309 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.226 HEAT:  15.03164
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.371 HEAT:  15.03164
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.314 HEAT:  15.03126
+
+     GRADIENT =  0.31375 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       192.00000       15.031257
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33031725 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07975046 +1  123.6376278 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07975046 +0  123.6376278 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07975046 +0  123.6376278 +0 -168.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07975046 +0  123.6376278 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.45876 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       194.00000       15.455543
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33031725 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07975046 +1  123.6376278 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07975046 +0  123.6376278 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07975046 +0  123.6376278 +0 -166.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07975046 +0  123.6376278 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.79604 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       196.00000       15.944965
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33031725 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07975046 +1  123.6376278 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07975046 +0  123.6376278 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07975046 +0  123.6376278 +0 -164.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07975046 +0  123.6376278 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.224 HEAT:  16.49946
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.650 HEAT:  16.49967
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.242 HEAT:  16.49912
+
+     GRADIENT =  0.24210 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       198.00000       16.499122
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33097091 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07976893 +1  123.6333694 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07976893 +0  123.6333694 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07976893 +0  123.6333694 +0 -162.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07976893 +0  123.6333694 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.50155 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       200.00000       17.118292
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33097091 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07976893 +1  123.6333694 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07976893 +0  123.6333694 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07976893 +0  123.6333694 +0 -160.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07976893 +0  123.6333694 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.031 HEAT:  17.80234
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.345 HEAT:  17.80246
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.216 HEAT:  17.80210
+
+     GRADIENT =  0.21567 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       202.00000       17.802098
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33154399 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07976559 +1  123.6257181 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07976559 +0  123.6257181 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07976559 +0  123.6257181 +0 -158.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07976559 +0  123.6257181 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.60338 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       204.00000       18.550595
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33154399 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07976559 +1  123.6257181 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07976559 +0  123.6257181 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07976559 +0  123.6257181 +0 -156.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07976559 +0  123.6257181 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.255 HEAT:  19.36374
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.568 HEAT:  19.36387
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.280 HEAT:  19.36337
+
+     GRADIENT =  0.27995 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       206.00000       19.363369
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33225702 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07972198 +1  123.6174428 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07972198 +0  123.6174428 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07972198 +0  123.6174428 +0 -154.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07972198 +0  123.6174428 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.73300 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       208.00000       20.240547
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33225702 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07972198 +1  123.6174428 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07972198 +0  123.6174428 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07972198 +0  123.6174428 +0 -152.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07972198 +0  123.6174428 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.490 HEAT:  21.18208
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.873 HEAT:  21.18228
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.328 HEAT:  21.18156
+
+     GRADIENT =  0.32844 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       210.00000       21.181559
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33310095 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07968127 +1  123.6087377 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07968127 +0  123.6087377 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07968127 +0  123.6087377 +0 -150.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07968127 +0  123.6087377 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.84329 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       212.00000       22.186620
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33310095 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07968127 +1  123.6087377 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07968127 +0  123.6087377 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07968127 +0  123.6087377 +0 -148.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07968127 +0  123.6087377 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.710 HEAT:  23.25568
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.138 HEAT:  23.25593
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.379 HEAT:  23.25499
+
+     GRADIENT =  0.37876 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       214.00000       23.254987
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33407424 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07963386 +1  123.5994086 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07963386 +0  123.5994086 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07963386 +0  123.5994086 +0 -146.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07963386 +0  123.5994086 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.96002 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       216.00000       24.386968
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33407424 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07963386 +1  123.5994086 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07963386 +0  123.5994086 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07963386 +0  123.5994086 +0 -144.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07963386 +0  123.5994086 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.940 HEAT:  25.58252
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.409 HEAT:  25.58282
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.432 HEAT:  25.58162
+
+     GRADIENT =  0.43203 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       218.00000       25.581622
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33518370 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07957857 +1  123.5897884 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07957857 +0  123.5897884 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07957857 +0  123.5897884 +0 -142.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07957857 +0  123.5897884 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.080 HEAT:  26.83937
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.517 HEAT:  26.83957
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.183 HEAT:  26.83911
+
+     GRADIENT =  0.18283 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       220.00000       26.839114
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33573640 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07966276 +1  123.5864414 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07966276 +0  123.5864414 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07966276 +0  123.5864414 +0 -140.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07966276 +0  123.5864414 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.084 HEAT:  28.15930
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.292 HEAT:  28.15936
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.252 HEAT:  28.15901
+
+     GRADIENT =  0.25203 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       222.00000       28.159009
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33637096 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07960813 +1  123.5803425 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07960813 +0  123.5803425 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07960813 +0  123.5803425 +0 -138.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07960813 +0  123.5803425 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.190 HEAT:  29.54123
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.472 HEAT:  29.54134
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.264 HEAT:  29.54089
+
+     GRADIENT =  0.26437 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       224.00000       29.540893
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33705328 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07957988 +1  123.5758225 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07957988 +0  123.5758225 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07957988 +0  123.5758225 +0 -136.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07957988 +0  123.5758225 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.239 HEAT:  30.98474
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.520 HEAT:  30.98485
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.277 HEAT:  30.98437
+
+     GRADIENT =  0.27740 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       226.00000       30.984373
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33776897 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07954780 +1  123.5707063 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07954780 +0  123.5707063 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07954780 +0  123.5707063 +0 -134.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07954780 +0  123.5707063 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.301 HEAT:  32.48943
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.587 HEAT:  32.48954
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.293 HEAT:  32.48902
+
+     GRADIENT =  0.29315 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       228.00000       32.489020
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33852396 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07951199 +1  123.5656890 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07951199 +0  123.5656890 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07951199 +0  123.5656890 +0 -132.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07951199 +0  123.5656890 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.365 HEAT:  34.05483
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.655 HEAT:  34.05495
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.309 HEAT:  34.05437
+
+     GRADIENT =  0.30903 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       230.00000       34.054373
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33931953 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07947325 +1  123.5606416 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07947325 +0  123.5606416 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07947325 +0  123.5606416 +0 -130.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07947325 +0  123.5606416 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.428 HEAT:  35.68044
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.723 HEAT:  35.68056
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.325 HEAT:  35.67994
+
+     GRADIENT =  0.32529 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       232.00000       35.679938
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34015658 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07943121 +1  123.5555705 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07943121 +0  123.5555705 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07943121 +0  123.5555705 +0 -128.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07943121 +0  123.5555705 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.493 HEAT:  37.36573
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.789 HEAT:  37.36586
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.342 HEAT:  37.36519
+
+     GRADIENT =  0.34206 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       234.00000       37.365187
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34103646 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07938557 +1  123.5504614 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07938557 +0  123.5504614 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07938557 +0  123.5504614 +0 -126.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07938557 +0  123.5504614 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.559 HEAT:  39.11015
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.855 HEAT:  39.11028
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.359 HEAT:  39.10955
+
+     GRADIENT =  0.35933 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       236.00000       39.109553
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34196055 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07933609 +1  123.5452955 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07933609 +0  123.5452955 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07933609 +0  123.5452955 +0 -124.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07933609 +0  123.5452955 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.626 HEAT:  40.91309
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.921 HEAT:  40.91321
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.377 HEAT:  40.91243
+
+     GRADIENT =  0.37713 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       238.00000       40.912434
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34293035 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07928247 +1  123.5400458 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07928247 +0  123.5400458 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07928247 +0  123.5400458 +0 -122.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07928247 +0  123.5400458 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.694 HEAT:  42.77390
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.986 HEAT:  42.77402
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.395 HEAT:  42.77319
+
+     GRADIENT =  0.39549 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       240.00000       42.773186
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34394746 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07922439 +1  123.5346784 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07922439 +0  123.5346784 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07922439 +0  123.5346784 +0 -120.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07922439 +0  123.5346784 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.762 HEAT:  44.69191
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.051 HEAT:  44.69201
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.414 HEAT:  44.69112
+
+     GRADIENT =  0.41443 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       242.00000       44.691124
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34501362 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07916153 +1  123.5291509 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07916153 +0  123.5291509 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07916153 +0  123.5291509 +0 -118.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07916153 +0  123.5291509 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.832 HEAT:  46.66637
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.114 HEAT:  46.66647
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.434 HEAT:  46.66552
+
+     GRADIENT =  0.43401 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       244.00000       46.665522
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34613070 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07909351 +1  123.5234120 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07909351 +0  123.5234120 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07909351 +0  123.5234120 +0 -116.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07909351 +0  123.5234120 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.903 HEAT:  48.69653
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.177 HEAT:  48.69661
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.454 HEAT:  48.69561
+
+     GRADIENT =  0.45424 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       246.00000       48.695605
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34730072 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07901996 +1  123.5174009 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07901996 +0  123.5174009 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07901996 +0  123.5174009 +0 -114.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07901996 +0  123.5174009 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.975 HEAT:  50.78155
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.239 HEAT:  50.78162
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.475 HEAT:  50.78055
+
+     GRADIENT =  0.47516 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       248.00000       50.780553
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34852586 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07894044 +1  123.5110463 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07894044 +0  123.5110463 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07894044 +0  123.5110463 +0 -112.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07894044 +0  123.5110463 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.048 HEAT:  52.92058
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.300 HEAT:  52.92062
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.497 HEAT:  52.91949
+
+     GRADIENT =  0.49682 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       250.00000       52.919494
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34980849 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07885452 +1  123.5042659 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07885452 +0  123.5042659 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07885452 +0  123.5042659 +0 -110.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07885452 +0  123.5042659 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.122 HEAT:  55.11268
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.360 HEAT:  55.11269
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.519 HEAT:  55.11150
+
+     GRADIENT =  0.51927 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       252.00000       55.111504
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35115117 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07876171 +1  123.4969653 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07876171 +0  123.4969653 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07876171 +0  123.4969653 +0 -108.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07876171 +0  123.4969653 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.197 HEAT:  57.35688
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.419 HEAT:  57.35685
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.543 HEAT:  57.35560
+
+     GRADIENT =  0.54255 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       254.00000       57.355605
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35255670 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07866147 +1  123.4890370 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07866147 +0  123.4890370 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07866147 +0  123.4890370 +0 -106.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07866147 +0  123.4890370 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.274 HEAT:  59.65214
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.477 HEAT:  59.65207
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.567 HEAT:  59.65076
+
+     GRADIENT =  0.56672 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       256.00000       59.650757
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35402809 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07855326 +1  123.4803596 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07855326 +0  123.4803596 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07855326 +0  123.4803596 +0 -104.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07855326 +0  123.4803596 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.352 HEAT:  61.99735
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.534 HEAT:  61.99723
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.592 HEAT:  61.99586
+
+     GRADIENT =  0.59183 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       258.00000       61.995860
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35556864 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07843644 +1  123.4707962 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07843644 +0  123.4707962 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07843644 +0  123.4707962 +0 -102.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07843644 +0  123.4707962 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.432 HEAT:  64.39136
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.590 HEAT:  64.39118
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.618 HEAT:  64.38975
+
+     GRADIENT =  0.61795 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       260.00000       64.389747
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35718195 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07831037 +1  123.4601938 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07831037 +0  123.4601938 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07831037 +0  123.4601938 +0 -100.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07831037 +0  123.4601938 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.513 HEAT:  66.83292
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.644 HEAT:  66.83267
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.645 HEAT:  66.83118
+
+     GRADIENT =  0.64516 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       262.00000       66.831179
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35887196 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07817433 +1  123.4483810 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07817433 +0  123.4483810 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07817433 +0  123.4483810 +0  -98.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07817433 +0  123.4483810 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.595 HEAT:  69.32072
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.697 HEAT:  69.32040
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.674 HEAT:  69.31884
+
+     GRADIENT =  0.67353 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       264.00000       69.318842
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.36064295 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07802755 +1  123.4351671 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07802755 +0  123.4351671 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07802755 +0  123.4351671 +0  -96.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07802755 +0  123.4351671 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.679 HEAT:  71.85337
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.749 HEAT:  71.85295
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.703 HEAT:  71.85134
+
+     GRADIENT =  0.70316 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       266.00000       71.851341
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.36249964 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07786918 +1  123.4203400 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07786918 +0  123.4203400 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07786918 +0  123.4203400 +0  -94.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07786918 +0  123.4203400 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.764 HEAT:  74.42939
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.800 HEAT:  74.42886
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.734 HEAT:  74.42719
+
+     GRADIENT =  0.73415 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       268.00000       74.427191
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.36444720 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07769832 +1  123.4036637 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07769832 +0  123.4036637 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07769832 +0  123.4036637 +0  -92.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07769832 +0  123.4036637 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    36.076 HEAT:  91.53244
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.836 HEAT:  90.76281
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.997 HEAT:  90.74354
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.317 HEAT:  90.71234
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :       270.00000       77.889203
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33782936 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.08277772 +1  125.7481683 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.08277772 +0  125.7481683 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.08277772 +0  125.7481683 +0  -90.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.08277772 +0  125.7481683 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    35.992 HEAT:  75.21133
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.932 HEAT:  74.45728
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.632 HEAT:  74.42994
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.539 HEAT:  74.42895
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.061 HEAT:  74.42706
+
+     GRADIENT =  0.06078 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       272.00000       74.427065
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.36428423 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07800705 +1  123.4001551 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07800705 +0  123.4001551 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07800705 +0  123.4001551 +0  -88.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07800705 +0  123.4001551 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.906 HEAT:  71.85398
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.298 HEAT:  71.85266
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.761 HEAT:  71.85134
+
+     GRADIENT =  0.76087 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       274.00000       71.851344
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.36224534 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07846333 +1  123.4144905 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07846333 +0  123.4144905 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07846333 +0  123.4144905 +0  -86.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07846333 +0  123.4144905 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.884 HEAT:  69.32117
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.054 HEAT:  69.32084
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.737 HEAT:  69.31886
+
+     GRADIENT =  0.73748 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       276.00000       69.318863
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.36030039 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07859610 +1  123.4256058 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07859610 +0  123.4256058 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07859610 +0  123.4256058 +0  -84.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07859610 +0  123.4256058 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.610 HEAT:  66.83306
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.814 HEAT:  66.83284
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.656 HEAT:  66.83118
+
+     GRADIENT =  0.65625 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       278.00000       66.831183
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35854610 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07869872 +1  123.4408199 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07869872 +0  123.4408199 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07869872 +0  123.4408199 +0  -82.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07869872 +0  123.4408199 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.512 HEAT:  64.39148
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.695 HEAT:  64.39128
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.636 HEAT:  64.38975
+
+     GRADIENT =  0.63554 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       280.00000       64.389752
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35687544 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07881619 +1  123.4535607 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07881619 +0  123.4535607 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07881619 +0  123.4535607 +0  -80.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07881619 +0  123.4535607 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.443 HEAT:  61.99748
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.660 HEAT:  61.99736
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.610 HEAT:  61.99587
+
+     GRADIENT =  0.60979 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       282.00000       61.995865
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35527446 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07892102 +1  123.4648534 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07892102 +0  123.4648534 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07892102 +0  123.4648534 +0  -78.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07892102 +0  123.4648534 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.361 HEAT:  59.65225
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.601 HEAT:  59.65219
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.583 HEAT:  59.65076
+
+     GRADIENT =  0.58308 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       284.00000       59.650762
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35374651 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07901675 +1  123.4751436 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07901675 +0  123.4751436 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07901675 +0  123.4751436 +0  -76.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07901675 +0  123.4751436 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.282 HEAT:  57.35699
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.540 HEAT:  57.35697
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.558 HEAT:  57.35561
+
+     GRADIENT =  0.55810 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       286.00000       57.355609
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35228729 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07910499 +1  123.4844873 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07910499 +0  123.4844873 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07910499 +0  123.4844873 +0  -74.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07910499 +0  123.4844873 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.204 HEAT:  55.11278
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.479 HEAT:  55.11280
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.534 HEAT:  55.11151
+
+     GRADIENT =  0.53408 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       288.00000       55.111508
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.35089328 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07918596 +1  123.4930310 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07918596 +0  123.4930310 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07918596 +0  123.4930310 +0  -72.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07918596 +0  123.4930310 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.128 HEAT:  52.92067
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.417 HEAT:  52.92073
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.511 HEAT:  52.91950
+
+     GRADIENT =  0.51093 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       290.00000       52.919497
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34956160 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07926021 +1  123.5009033 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07926021 +0  123.5009033 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07926021 +0  123.5009033 +0  -70.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07926021 +0  123.5009033 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.053 HEAT:  50.78164
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.355 HEAT:  50.78172
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.489 HEAT:  50.78056
+
+     GRADIENT =  0.48862 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       292.00000       50.780556
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34828951 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07932822 +1  123.5082139 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07932822 +0  123.5082139 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07932822 +0  123.5082139 +0  -68.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07932822 +0  123.5082139 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.979 HEAT:  48.69661
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.291 HEAT:  48.69671
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.467 HEAT:  48.69561
+
+     GRADIENT =  0.46711 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       294.00000       48.695608
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34707447 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07939045 +1  123.5150603 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07939045 +0  123.5150603 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07939045 +0  123.5150603 +0  -66.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07939045 +0  123.5150603 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.907 HEAT:  46.66645
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.226 HEAT:  46.66656
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.446 HEAT:  46.66552
+
+     GRADIENT =  0.44634 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       296.00000       46.665524
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34591416 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07944731 +1  123.5215272 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07944731 +0  123.5215272 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07944731 +0  123.5215272 +0  -64.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07944731 +0  123.5215272 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.836 HEAT:  44.69197
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.161 HEAT:  44.69210
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.426 HEAT:  44.69113
+
+     GRADIENT =  0.42627 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       298.00000       44.691127
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34480642 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07949919 +1  123.5276881 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07949919 +0  123.5276881 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07949919 +0  123.5276881 +0  -62.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07949919 +0  123.5276881 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.765 HEAT:  42.77397
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.095 HEAT:  42.77410
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.407 HEAT:  42.77319
+
+     GRADIENT =  0.40686 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       300.00000       42.773188
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34374926 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07954645 +1  123.5336057 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07954645 +0  123.5336057 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07954645 +0  123.5336057 +0  -60.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07954645 +0  123.5336057 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.696 HEAT:  40.91315
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.028 HEAT:  40.91329
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.388 HEAT:  40.91244
+
+     GRADIENT =  0.38807 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       302.00000       40.912435
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34274084 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07958943 +1  123.5393330 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07958943 +0  123.5393330 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07958943 +0  123.5393330 +0  -58.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07958943 +0  123.5393330 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.628 HEAT:  39.11021
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.961 HEAT:  39.11036
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.370 HEAT:  39.10955
+
+     GRADIENT =  0.36987 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       304.00000       39.109555
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34177945 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07962842 +1  123.5449136 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07962842 +0  123.5449136 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07962842 +0  123.5449136 +0  -56.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07962842 +0  123.5449136 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.561 HEAT:  37.36579
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.893 HEAT:  37.36593
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.352 HEAT:  37.36519
+
+     GRADIENT =  0.35223 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       306.00000       37.365188
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.34086350 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07966373 +1  123.5503829 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07966373 +0  123.5503829 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07966373 +0  123.5503829 +0  -54.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07966373 +0  123.5503829 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.495 HEAT:  35.68049
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.825 HEAT:  35.68063
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.335 HEAT:  35.67994
+
+     GRADIENT =  0.33511 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       308.00000       35.679940
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33999152 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07969563 +1  123.5557683 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07969563 +0  123.5557683 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07969563 +0  123.5557683 +0  -52.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07969563 +0  123.5557683 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.429 HEAT:  34.05487
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.756 HEAT:  34.05501
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.318 HEAT:  34.05437
+
+     GRADIENT =  0.31850 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       310.00000       34.054374
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33916215 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07972435 +1  123.5610902 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07972435 +0  123.5610902 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07972435 +0  123.5610902 +0  -50.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07972435 +0  123.5610902 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.365 HEAT:  32.48947
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.687 HEAT:  32.48961
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.302 HEAT:  32.48902
+
+     GRADIENT =  0.30236 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       312.00000       32.489021
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33837411 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07975015 +1  123.5663622 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07975015 +0  123.5663622 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07975015 +0  123.5663622 +0  -48.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07975015 +0  123.5663622 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.302 HEAT:  30.98478
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.618 HEAT:  30.98491
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.287 HEAT:  30.98437
+
+     GRADIENT =  0.28668 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       314.00000       30.984374
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33762622 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07977323 +1  123.5715921 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07977323 +0  123.5715921 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07977323 +0  123.5715921 +0  -46.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07977323 +0  123.5715921 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.239 HEAT:  29.54126
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.548 HEAT:  29.54139
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.271 HEAT:  29.54089
+
+     GRADIENT =  0.27142 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       316.00000       29.540894
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33691737 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07979380 +1  123.5767820 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07979380 +0  123.5767820 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07979380 +0  123.5767820 +0  -44.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07979380 +0  123.5767820 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.177 HEAT:  28.15934
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.479 HEAT:  28.15946
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.257 HEAT:  28.15901
+
+     GRADIENT =  0.25656 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       318.00000       28.159009
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33624655 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07981205 +1  123.5819293 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07981205 +0  123.5819293 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07981205 +0  123.5819293 +0  -42.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07981205 +0  123.5819293 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.117 HEAT:  26.83942
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.409 HEAT:  26.83953
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.242 HEAT:  26.83912
+
+     GRADIENT =  0.24209 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       320.00000       26.839119
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33561279 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07982816 +1  123.5870269 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07982816 +0  123.5870269 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07982816 +0  123.5870269 +0  -40.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07982816 +0  123.5870269 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.056 HEAT:  25.58186
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.338 HEAT:  25.58196
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.228 HEAT:  25.58159
+
+     GRADIENT =  0.22789 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       322.00000       25.581591
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33501569 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07984225 +1  123.5919869 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07984225 +0  123.5919869 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07984225 +0  123.5919869 +0  -38.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07984225 +0  123.5919869 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.99742 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       324.00000       24.387004
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33501569 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07984225 +1  123.5919869 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07984225 +0  123.5919869 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07984225 +0  123.5919869 +0  -36.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07984225 +0  123.5919869 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.947 HEAT:  23.25593
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.301 HEAT:  23.25612
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.457 HEAT:  23.25500
+
+     GRADIENT =  0.45657 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       326.00000       23.255000
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33388274 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07997026 +1  123.6035898 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07997026 +0  123.6035898 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07997026 +0  123.6035898 +0  -34.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07997026 +0  123.6035898 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.96733 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       328.00000       22.186662
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33388274 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07997026 +1  123.6035898 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07997026 +0  123.6035898 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07997026 +0  123.6035898 +0  -32.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07997026 +0  123.6035898 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.758 HEAT:  21.18228
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.320 HEAT:  21.18265
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.357 HEAT:  21.18156
+
+     GRADIENT =  0.35651 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       330.00000       21.181564
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33291999 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07995347 +1  123.6115631 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07995347 +0  123.6115631 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07995347 +0  123.6115631 +0  -30.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07995347 +0  123.6115631 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.77913 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       332.00000       20.240560
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33291999 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07995347 +1  123.6115631 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07995347 +0  123.6115631 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07995347 +0  123.6115631 +0  -28.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07995347 +0  123.6115631 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.469 HEAT:  19.36388
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.916 HEAT:  19.36411
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.305 HEAT:  19.36337
+
+     GRADIENT =  0.30534 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       334.00000       19.363373
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33210504 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07995538 +1  123.6207864 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07995538 +0  123.6207864 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07995538 +0  123.6207864 +0  -26.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07995538 +0  123.6207864 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.67207 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       336.00000       18.550611
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33210504 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07995538 +1  123.6207864 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07995538 +0  123.6207864 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07995538 +0  123.6207864 +0  -24.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07995538 +0  123.6207864 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.255 HEAT:  17.80247
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.650 HEAT:  17.80265
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.258 HEAT:  17.80210
+
+     GRADIENT =  0.25822 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       338.00000       17.802102
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33141352 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07995334 +1  123.6286013 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07995334 +0  123.6286013 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07995334 +0  123.6286013 +0  -22.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07995334 +0  123.6286013 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.56060 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       340.00000       17.118306
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33141352 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07995334 +1  123.6286013 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07995334 +0  123.6286013 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07995334 +0  123.6286013 +0  -20.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07995334 +0  123.6286013 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.038 HEAT:  16.49937
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.375 HEAT:  16.49950
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.211 HEAT:  16.49912
+
+     GRADIENT =  0.21118 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       342.00000       16.499118
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33084426 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07994740 +1  123.6354904 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07994740 +0  123.6354904 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07994740 +0  123.6354904 +0  -18.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07994740 +0  123.6354904 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.45045 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       344.00000       15.944870
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33084426 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07994740 +1  123.6354904 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07994740 +0  123.6354904 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07994740 +0  123.6354904 +0  -16.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07994740 +0  123.6354904 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.82474 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       346.00000       15.455666
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33084426 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07994740 +1  123.6354904 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07994740 +0  123.6354904 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07994740 +0  123.6354904 +0  -14.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07994740 +0  123.6354904 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.161 HEAT:  15.03157
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.479 HEAT:  15.03169
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.253 HEAT:  15.03125
+
+     GRADIENT =  0.25328 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       348.00000       15.031248
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33019154 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07997851 +1  123.6444914 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07997851 +0  123.6444914 +0  -12.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.35002 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       350.00000       14.672125
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33019154 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07997851 +1  123.6444914 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07997851 +0  123.6444914 +0  -10.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.54381 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       352.00000       14.378240
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33019154 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07997851 +1  123.6444914 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07997851 +0  123.6444914 +0   -8.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.71273 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       354.00000       14.149626
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33019154 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07997851 +1  123.6444914 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07997851 +0  123.6444914 +0   -6.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.83726 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       356.00000       13.986311
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33019154 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07997851 +1  123.6444914 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07997851 +0  123.6444914 +0   -4.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.91286 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :       358.00000       13.888315
+ SYMMETRY html step=2 points=90
+ Rotation of Ethylene, CH2 group rotated about the C-C axis.
+ (Keywords: SYMMETRY html step=2 points=90)
+  C(HETATM    1  C1  HET A   1)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+  C(HETATM    2  C2  HET A   1)   1.33019154 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  H(HETATM    3 1H2  HET A   1)   1.07997851 +1  123.6444914 +1    0.0000000 +0     2     1     0
+  H(HETATM    4 2H2  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     2     1     3
+  H(HETATM    5 1H1  HET A   1)   1.07997851 +0  123.6444914 +0   -2.0000000 -1     1     2     3
+  H(HETATM    6 2H1  HET A   1)   1.07997851 +0  123.6444914 +0  180.0000000 +0     1     2     5
+ 
+   3  1    4    5    6
+   3  2    4    5    6
+ 
+
+                POINTS ON REACTION PATH 
+                AND CORRESPONDING HEATS
+
+
+     180.00000000     182.00000000     184.00000000     186.00000000     188.00000000     190.00000000     192.00000000     194.00000000
+      13.85546592      13.88814864      13.98619303      14.14958773      14.37831363      14.67234373      15.03125663      15.45554296
+     196.00000000     198.00000000     200.00000000     202.00000000     204.00000000     206.00000000     208.00000000     210.00000000
+      15.94496487      16.49912180      17.11829192      17.80209752      18.55059496      19.36336934      20.24054714      21.18155925
+     212.00000000     214.00000000     216.00000000     218.00000000     220.00000000     222.00000000     224.00000000     226.00000000
+      22.18661958      23.25498700      24.38696797      25.58162247      26.83911378      28.15900865      29.54089291      30.98437273
+     228.00000000     230.00000000     232.00000000     234.00000000     236.00000000     238.00000000     240.00000000     242.00000000
+      32.48901976      34.05437299      35.67993832      37.36518678      39.10955301      40.91243363      42.77318559      44.69112436
+     244.00000000     246.00000000     248.00000000     250.00000000     252.00000000     254.00000000     256.00000000     258.00000000
+      46.66552201      48.69560517      50.78055282      52.91949385      55.11150440      57.35560499      59.65075725      61.99586037
+     260.00000000     262.00000000     264.00000000     266.00000000     268.00000000     270.00000000     272.00000000     274.00000000
+      64.38974706      66.83117909      69.31884225      71.85134072      74.42719059      77.88920319      74.42706458      71.85134425
+     276.00000000     278.00000000     280.00000000     282.00000000     284.00000000     286.00000000     288.00000000     290.00000000
+      69.31886340      66.83118332      64.38975200      61.99586533      59.65076157      57.35560888      55.11150792      52.91949704
+     292.00000000     294.00000000     296.00000000     298.00000000     300.00000000     302.00000000     304.00000000     306.00000000
+      50.78055571      48.69560780      46.66552439      44.69112652      42.77318756      40.91243542      39.10955464      37.36518827
+     308.00000000     310.00000000     312.00000000     314.00000000     316.00000000     318.00000000     320.00000000     322.00000000
+      35.67993967      34.05437422      32.48902089      30.98437379      29.54089366      28.15900929      26.83911888      25.58159140
+     324.00000000     326.00000000     328.00000000     330.00000000     332.00000000     334.00000000     336.00000000     338.00000000
+      24.38700381      23.25499997      22.18666192      21.18156382      20.24055999      19.36337290      18.55061112      17.80210197
+     340.00000000     342.00000000     344.00000000     346.00000000     348.00000000     350.00000000     352.00000000     354.00000000
+      17.11830621      16.49911842      15.94487008      15.45566559      15.03124828      14.67212550      14.37823953      14.14962567
+     356.00000000     358.00000000
+      13.98631098      13.88831458
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.61 SECONDS
+
+ == MOPAC DONE ==

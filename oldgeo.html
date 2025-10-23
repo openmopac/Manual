@@ -1,0 +1,42 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>OLDGEO </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>OLDGEO</tt>
+</h1>
+        If multiple geometries are to be run, and the  final  geometry  from
+   one  calculation  is  to  be  used  to start the next calculation, <tt>OLDGEO</tt>
+   should be specified.  Example:  If MNDO, AM1, and PM3 calculation,  were
+   to  be done on one system, for which only a rough geometry was available,
+   then after the MNDO calculation, the AM1 calculation could be done  using
+   the  optimized  MNDO  geometry  as  the  starting geometry, by specifying
+   <tt>OLDGEO</tt>.  After the AM1 calculation was done, then a PM3 calculation
+could also be done, starting with the old AM1 geometry, by again specifying
+<tt>OLDGEO</tt>.
+<p>When an <tt>OLDGEO</tt> calculation is started, none of the keywords from the 
+previous calculation are assumed to be present.&nbsp; Thus, if the first 
+calculation had keywords <tt><a href="pm3.html">PM3</a> <a href="root.html">ROOT=4</a>
+<a href="cis.html">CIS</a> <a href="ci=n.html">C.I.=4</a></tt>, none of these 
+keywords would be used by the <tt>OLDGEO</tt> calculation, unless they were 
+explicitly present in the <tt>OLDGEO</tt> keyword line.</p>
+</body>
+</html>

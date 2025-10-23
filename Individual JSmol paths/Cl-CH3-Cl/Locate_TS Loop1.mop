@@ -1,0 +1,10 @@
+ eo_ref="CH3Cl-Cl(-).arc.txt" charge=-1 eps=78.4 gnorm=1 charge=-1 HTML MOZYME
+ Transition state for CH3Cl --- Cl(-) <=> Cl(-) --- CH3Cl
+(Loop1)
+  C(HETATM    1  C   CH3 A   1)  -0.16534796 +1  -0.00107146 +1  -0.00045557 +1
+  H(HETATM    2 1H   CH3 A   1)  -0.16060833 +0   1.08397543 +0   0.00954581 +0
+  H(HETATM    3 2H   CH3 A   1)  -0.16148884 +0  -0.53480312 +0  -0.94524749 +0
+  H(HETATM    4 3H   CH3 A   1)  -0.16141918 +0  -0.55275350 +0   0.93392228 +0
+ Cl(HETATM    5 CL   CH3 A   1)  -2.33979697 +1   0.00108014 +1   0.00196308 +1
+ Cl(HETATM    6 CL   CH3 C   1)   2.01615281 +1   0.00067524 +1   0.00047648 +1
+ 

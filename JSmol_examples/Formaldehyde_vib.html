@@ -1,0 +1,49 @@
+<HTML><HEAD><TITLE> Formaldehyde H2C=O stretch</TITLE></HEAD>
+<!--
+ 
+   Start of JSmol script
+ 
+-->
+<meta charset="utf-8"> <script type="text/javascript" src="/jsmol/JSmol.min.js"></script>  
+<!-- <meta charset="utf-8"> <script type="text/javascript" src="JSmol.min.js"></script>  -->
+<script type="text/javascript">
+
+$(document).ready(function() {Info = {
+          width: 1000,
+          height: 1000,
+          color: "0xC0C0C0",
+          disableInitialConsole: true, 
+          addSelectionOptions: false,
+          j2sPath: "/jsmol/j2s",
+          
+          use: "HTML5", script: 
+           
+// Data set to be loaded
+ 
+"load \
+          'formaldehyde_vib.xyz'; \
+          set measurementUnits ANGSTROMS; \
+          hBonds calculate; \
+          connect 0.8  1.5 (hydrogen) (phosphorus) create; \
+          set zoomLarge false;" 
+} 
+$("#mydiv").html(Jmol.getAppletHtml("jmolApplet0",Info))}); 
+</script>
+<!--
+ 
+   End of JSmol script
+ 
+-->
+Back to <a href="MOPAC_JSmol.html">MOPAC-JSmol</a>
+<h1 align="center"> Formaldehyde C=O stretch vibration</h1>
+<BODY  BGCOLOR="#ffffff">
+<a href="javascript:Jmol.script(jmolApplet0,'if (lcenter);  lcenter = FALSE; else lcenter = TRUE; center {visible}; end if;')">Toggle center picture</a>  
+&nbsp; &nbsp; &nbsp; <a href="javascript:Jmol.script(jmolApplet0,'console;')">Console</a>   
+&nbsp; &nbsp; &nbsp; <a href="javascript:Jmol.script(jmolApplet0,'zoom 0; ')">Fit to screen</a> 
+&nbsp; &nbsp; &nbsp; <a href="javascript:Jmol.script(jmolApplet0,'display within(3,visible);')">Neighbors</a> 
+&nbsp; &nbsp; &nbsp; <a href="javascript:Jmol.script(jmolApplet0,'script Formaldehyde_vib.txt;')">Script
+</a>&nbsp; (Read file from: "<a href="Formaldehyde_vib.txt" target="_blank">Formaldehyde_vib.txt</a>")
+<BR>
+<span id=mydiv></span><a href="javascript:Jmol.script(jmolApplet0)"></a>
+</BODY>
+</HTML>

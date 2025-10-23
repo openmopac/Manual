@@ -1,0 +1,42 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>DENOUT </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>DENOUT, DENOUTF</tt> </h1>
+<p>In a MOPAC calculation, the density matrix at the end of the calculation is to be output in a form suitable for input in another job. If an automatic dump due to the time being exceeded occurs during the current run, 
+and <tt>DENOUT</tt> is present, then the density matrix will also be output. (see <tt>
+<a href="restart.html">RESTART</a></tt>).&nbsp; The density matrix file is 
+unformatted.&nbsp; To output the formatted file, use <tt>DENOUTF</tt>. </p>
+<p>In both formatted and unformatted density files, the layout of the data is: 
+Number of atomic orbitals, number of atoms, lower half triangle of density 
+matrix elements.&nbsp; When the density file is used in a subsequent 
+calculation, the number of atomic orbitals and number of atoms is compared with 
+that expected.&nbsp; If they are different, an error message is printed, and the 
+run is stopped.</p>
+<p>In a MOZYME calculation, the LMOs at the end of the calculation are to be output in a form suitable for input in another job. If an automatic dump due to the time being exceeded occurs during the current run, 
+and <tt>DENOUT</tt> is present, then the density matrix will also be output. (see <tt>RESTART</tt>).&nbsp; 
+The formatted option, <tt>DENOUTF,</tt> is not available .</p>
+<p>
+The opposite of <tt>DENOUT</tt> is <tt><a href="oldens.html">OLDENS</a></tt>
+</p>
+</body>
+</html>

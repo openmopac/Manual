@@ -1,0 +1,96 @@
+geo-ok GEO_REF="M:\Individual JSmol paths\Two cyclopentadienes\Locate_TS_20p0_first.mop"  locate-ts(C:20) opt xyz HTML
+ Transition state for 2 Cyclopentadiene <=> C10H12
+
+  C(HETATM    1  C   HET A   1)   0.16026840 +1  -1.29549866 +1   1.03716508 +1
+  C(HETATM    2  C   HET A   1)   1.57345813 +1  -1.27696131 +1   0.98937707 +1
+  C(HETATM    3  C   HET A   1)   2.00904270 +1   0.05960193 +1   0.99557427 +1
+  C(HETATM    4  C   HET A   1)   0.87904361 +1   0.91001771 +1   1.04590412 +1
+  C(HETATM    5  C   HET A   1)   0.35383785 +1   0.66329800 +1  -1.08513917 +1
+  C(HETATM    6  C   HET A   1)  -0.11088648 +1  -0.73220319 +1  -1.08888910 +1
+  C(HETATM    7  C   HET A   1)  -1.55932751 +1  -0.70081835 +1  -1.16358834 +1
+  C(HETATM    8  C   HET A   1)  -1.97362401 +1   0.56717280 +1  -1.20014469 +1
+  C(HETATM    9  C   HET A   1)  -0.84231868 +1   1.55124661 +1  -1.17456777 +1
+  C(HETATM   10  C   HET A   1)  -0.28323891 +1   0.06532610 +1   1.54449624 +1
+  H(HETATM   11 1HT  HET A   1)  -0.43380184 +1  -2.16530185 +1   1.21525221 +1
+  H(HETATM   12 2HT1 HET A   1)   2.18052830 +1  -2.14419287 +1   0.93212586 +1
+  H(HETATM   13 3HT  HET A   1)   3.01117428 +1   0.40178443 +1   0.94430862 +1
+  H(HETATM   14 4HT  HET A   1)   0.91564946 +1   1.95819792 +1   1.24003652 +1
+  H(HETATM   15 5HT  HET A   1)   1.27745061 +1   0.93012761 +1  -1.49867560 +1
+  H(HETATM   16 6HT  HET A   1)   0.47084447 +1  -1.49470084 +1  -1.51020177 +1
+  H(HETATM   17 7HT  HET A   1)  -2.13840349 +1  -1.60198983 +1  -1.17572814 +1
+  H(HETATM   18 8HT  HET A   1)  -2.97305836 +1   0.91401057 +1  -1.24245680 +1
+  H(HETATM   19 1HT1 HET A   1)  -0.89977479 +1   2.24343611 +1  -0.33989255 +1
+  H(HETATM   20 2HT2 HET A   1)  -0.82366215 +1   2.19422171 +1  -2.05678961 +1
+  H(HETATM   21 1HT2 HET A   1)  -1.22420637 +1   0.36696260 +1   1.12124537 +1
+  H(HETATM   22 2HT3 HET A   1)  -0.41908837 +1   0.10351752 +1   2.60876465 +1
+ 
+
+
+                     SUMMARY OF PM7 CALCULATION, Site No: 10005
+
+                                                       MOPAC2012 (Version: 15.310W)
+                                                       Fri Nov 06 15:58:50 2015
+                                                       No. of days left = 365
+
+           Empirical Formula: C10 H12  =    22 atoms
+
+geo-ok GEO_REF="M:\Individual JSmol paths\Two cyclopentadienes\Locate_TS_20p0_first.mop"  locate-ts(C:20) opt xyz HTML
+ Transition state for 2 Cyclopentadiene <=> C10H12
+
+
+
+     HERBERTS TEST WAS SATISFIED IN BFGS                      
+     SCF FIELD WAS ACHIEVED                                   
+
+
+
+          FINAL H.O.F PLUS STRESS =        241.85453 KCAL/MOL =    1011.91936 KJ/MOL
+          FINAL STRESS            =         55.07722 KCAL/MOL =     230.44311 KJ/MOL
+          HEAT OF FORMATION       =        186.77731 KCAL/MOL =     781.47626 KJ/MOL
+          TOTAL DISTORTION        =          3.19799 Angstroms
+          AVERAGE DISTORTION      =          0.14536 Angstroms per atom (all atoms)
+          RMS DISTORTION          =          0.17690 Angstroms per atom (all atoms)
+          TOTAL ENERGY            =      -1387.36113 EV
+          ELECTRONIC ENERGY       =      -7790.12709 EV
+          CORE-CORE REPULSION     =       6402.76596 EV
+          GRADIENT NORM           =          2.64242
+          DIPOLE                  =          1.14775 DEBYE   
+          NO. OF FILLED LEVELS    =         26
+          MOLECULAR WEIGHT        =        132.205
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H    18    H    12     6.37502
+            H    17    H    14     5.03246
+            H    15    H    22     4.49458
+          SCF CALCULATIONS        =          4
+
+
+          FINAL GEOMETRY OBTAINED
+geo-ok GEO_REF="M:\Individual JSmol paths\Two cyclopentadienes\Locate_TS_20p0_first.mop"  locate-ts(C:20) opt xyz HTML
+ Transition state for 2 Cyclopentadiene <=> C10H12
+
+  C(HETATM    1  C   HET A   1)   0.16026840 +1  -1.29549866 +1   1.03716508 +1
+  C(HETATM    2  C   HET A   1)   1.57345813 +1  -1.27696131 +1   0.98937707 +1
+  C(HETATM    3  C   HET A   1)   2.00904270 +1   0.05960193 +1   0.99557427 +1
+  C(HETATM    4  C   HET A   1)   0.87904361 +1   0.91001771 +1   1.04590412 +1
+  C(HETATM    5  C   HET A   1)   0.35383785 +1   0.66329800 +1  -1.08513917 +1
+  C(HETATM    6  C   HET A   1)  -0.11088648 +1  -0.73220319 +1  -1.08888910 +1
+  C(HETATM    7  C   HET A   1)  -1.55932751 +1  -0.70081835 +1  -1.16358834 +1
+  C(HETATM    8  C   HET A   1)  -1.97362401 +1   0.56717280 +1  -1.20014469 +1
+  C(HETATM    9  C   HET A   1)  -0.84231868 +1   1.55124661 +1  -1.17456777 +1
+  C(HETATM   10  C   HET A   1)  -0.28323891 +1   0.06532610 +1   1.54449624 +1
+  H(HETATM   11 1HT  HET A   1)  -0.43380184 +1  -2.16530185 +1   1.21525221 +1
+  H(HETATM   12 2HT1 HET A   1)   2.18052830 +1  -2.14419287 +1   0.93212586 +1
+  H(HETATM   13 3HT  HET A   1)   3.01117428 +1   0.40178443 +1   0.94430862 +1
+  H(HETATM   14 4HT  HET A   1)   0.91564946 +1   1.95819792 +1   1.24003652 +1
+  H(HETATM   15 5HT  HET A   1)   1.27745061 +1   0.93012761 +1  -1.49867560 +1
+  H(HETATM   16 6HT  HET A   1)   0.47084447 +1  -1.49470084 +1  -1.51020177 +1
+  H(HETATM   17 7HT  HET A   1)  -2.13840349 +1  -1.60198983 +1  -1.17572814 +1
+  H(HETATM   18 8HT  HET A   1)  -2.97305836 +1   0.91401057 +1  -1.24245680 +1
+  H(HETATM   19 1HT1 HET A   1)  -0.89977479 +1   2.24343611 +1  -0.33989255 +1
+  H(HETATM   20 2HT2 HET A   1)  -0.82366215 +1   2.19422171 +1  -2.05678961 +1
+  H(HETATM   21 1HT2 HET A   1)  -1.22420637 +1   0.36696260 +1   1.12124537 +1
+  H(HETATM   22 2HT3 HET A   1)  -0.41908837 +1   0.10351752 +1   2.60876465 +1
+ 

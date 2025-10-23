@@ -1,0 +1,147 @@
+ *******************************************************************************
+ ** Site#: 28262 E-mail support:    MrMOPAC@ATT.net    Version 17.277W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.277W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web-site: HTTP://OpenMOPAC.net.          **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Oct 04 10:56:05 2017  *
+ *  SETPI      - SOME OR ALL PI BONDS EXPLICITLY SET BY USER
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *  NOOPT      - DO NOT OPTIMIZE ANY COORDINATES
+ *  OPT-H      - OPTIMIZE COORDINATES OF ATOMS OF TYPE H
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -1
+ *
+ *
+ *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  T=         - A TIME OF      2.0 WEEKS   REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  GNORM=     - EXIT WHEN GRADIENT NORM DROPS BELOW   5.00    
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+HTML OUTPUT noopt opt-H setpi t=2W GNORM=5 charge=-1 MOZYME eps=78.4
+ Step 3 - Optimizing the positions of the hydrogen atoms
+
+ 
+
+               Keyword SETPI used, pi-bonds specified are:
+
+               Bond No.                   Atom               to              Atom
+                  1            "HETATM 2500  C6  8OG A1157"   -   "HETATM 2502  N1  8OG A1157"
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C817 H1514 N214 O382 S8 P  =  2936 atoms
+
+
+   Ion Atom No.           Label               Charge (Distances are between charged sites predicted by Lewis structure theory)
+ 
+    1   N  346   (ATOM    346  NZ  LYS A  23)   +1  (4.7 Angstroms from anion  O 2508, Label: HETATM 2509  OP1 8OG A1157)
+    2   N  368   (ATOM    368  NZ  LYS A  24)   +1  (2.8 Angstroms from anion  O 1470, Label: ATOM   1470  OE2 GLU A  97)
+    3   C  464   (ATOM    464  CZ  ARG A  31)   +1  (6.0 Angstroms from anion  O 2263, Label: ATOM   2263  OD2 ASP A 143)
+    4   C  737   (ATOM    737  CZ  ARG A  50)   +1  (3.3 Angstroms from anion  O  692, Label: ATOM    692  OE2 GLU A  46)
+    5   C  761   (ATOM    761  CZ  ARG A  51)   +1  (3.5 Angstroms from anion  O  644, Label: ATOM    644  OE2 GLU A  43)
+    6   C 1281   (ATOM   1281  CE1 HIS A  84)   +1  (3.3 Angstroms from anion  O 1251, Label: ATOM   1251  OD2 ASP A  82)
+    7   C 2116   (ATOM   2116  CE1 HIS A 134)   +1  (5.4 Angstroms from anion  O 2475, Label: ATOM   2475  OXT VAL A 156)
+    8   N 2181   (ATOM   2181  NZ  LYS A 138)   +1  (3.8 Angstroms from anion  O 2327, Label: ATOM   2327  OD2 ASP A 147)
+ 
+    1   O  644   (ATOM    644  OE2 GLU A  43)   -1  (3.5 Angstroms from cation  C  761, Label: ATOM    761  CZ  ARG A  51)
+    2   O  692   (ATOM    692  OE2 GLU A  46)   -1  (3.3 Angstroms from cation  C  737, Label: ATOM    737  CZ  ARG A  50)
+    3   O 1251   (ATOM   1251  OD2 ASP A  82)   -1  (3.3 Angstroms from cation  C 1281, Label: ATOM   1281  CE1 HIS A  84)
+    4   O 1470   (ATOM   1470  OE2 GLU A  97)   -1  (2.8 Angstroms from cation  N  368, Label: ATOM    368  NZ  LYS A  24)
+    5   O 2263   (ATOM   2263  OD2 ASP A 143)   -1  (6.0 Angstroms from cation  C  464, Label: ATOM    464  CZ  ARG A  31)
+    6   O 2327   (ATOM   2327  OD2 ASP A 147)   -1  (3.8 Angstroms from cation  N 2181, Label: ATOM   2181  NZ  LYS A 138)
+    7   O 2475   (ATOM   2475  OXT VAL A 156)   -1  (5.4 Angstroms from cation  C 2116, Label: ATOM   2116  CE1 HIS A 134)
+    8   O 2500   (HETATM 2501  O6  8OG A1157)   -1  (7.4 Angstroms from cation  C  464, Label: ATOM    464  CZ  ARG A  31)
+    9   O 2508   (HETATM 2509  OP1 8OG A1157)   -1  (4.7 Angstroms from cation  N  346, Label: ATOM    346  NZ  LYS A  23)
+
+          COMPUTED CHARGE ON SYSTEM: -1, THIS AGREES WITH THE CHARGE DEFINED BY KEYWORD "CHARGE"
+
+          Geometry optimization using L-BFGS
+ CYCLE:     1 TIME: 283.480 TIME LEFT:  2.00W  GRAD.:   770.358 HEAT: -20775.78
+ CYCLE:     2 TIME:  95.781 TIME LEFT:  2.00W  GRAD.:   767.596 HEAT: -20781.72
+ CYCLE:     3 TIME: 112.926 TIME LEFT:  2.00W  GRAD.:   439.732 HEAT: -21421.01
+ CYCLE:     4 TIME:  96.941 TIME LEFT:  2.00W  GRAD.:   207.908 HEAT: -21740.04
+ CYCLE:     5 TIME: 108.965 TIME LEFT:  2.00W  GRAD.:   171.821 HEAT: -21858.15
+ CYCLE:     6 TIME: 113.820 TIME LEFT:  2.00W  GRAD.:   179.655 HEAT: -21948.10
+ CYCLE:     7 TIME: 112.973 TIME LEFT:  2.00W  GRAD.:   153.310 HEAT: -22028.09
+ CYCLE:     8 TIME: 111.684 TIME LEFT:  2.00W  GRAD.:   176.352 HEAT: -22108.67
+ CYCLE:     9 TIME: 111.445 TIME LEFT:  2.00W  GRAD.:   146.027 HEAT: -22168.02
+ CYCLE:    10 TIME: 109.949 TIME LEFT:  2.00W  GRAD.:   126.341 HEAT: -22219.31
+ CYCLE:    11 TIME: 112.227 TIME LEFT:  2.00W  GRAD.:   139.556 HEAT: -22279.60
+ CYCLE:    12 TIME: 111.043 TIME LEFT:  2.00W  GRAD.:   166.581 HEAT: -22321.55
+ CYCLE:    13 TIME: 110.480 TIME LEFT:  2.00W  GRAD.:   170.023 HEAT: -22377.45
+ CYCLE:    14 TIME: 112.051 TIME LEFT:  2.00W  GRAD.:   174.854 HEAT: -22425.22
+ CYCLE:    15 TIME:  99.598 TIME LEFT:  2.00W  GRAD.:   113.342 HEAT: -22461.71
+ CYCLE:    16 TIME: 113.367 TIME LEFT:  2.00W  GRAD.:   114.778 HEAT: -22515.96
+ CYCLE:    17 TIME: 122.086 TIME LEFT:  2.00W  GRAD.:   168.666 HEAT: -22565.04
+ CYCLE:    18 TIME: 117.977 TIME LEFT:  2.00W  GRAD.:   145.110 HEAT: -22612.90
+ CYCLE:    19 TIME: 102.195 TIME LEFT:  2.00W  GRAD.:   110.576 HEAT: -22653.25
+ CYCLE:    20 TIME: 166.219 TIME LEFT:  2.00W  GRAD.:   218.709 HEAT: -22653.74
+ CYCLE:    21 TIME: 115.453 TIME LEFT:  2.00W  GRAD.:   108.153 HEAT: -22694.13
+ CYCLE:    22 TIME: 114.770 TIME LEFT:  2.00W  GRAD.:    68.944 HEAT: -22719.63
+ CYCLE:    23 TIME: 114.270 TIME LEFT:  2.00W  GRAD.:    98.247 HEAT: -22744.21
+ CYCLE:    24 TIME: 112.680 TIME LEFT:  2.00W  GRAD.:    92.543 HEAT: -22761.89
+ CYCLE:    25 TIME: 147.734 TIME LEFT:  1.99W  GRAD.:   122.518 HEAT: -22776.77
+ CYCLE:    26 TIME: 100.945 TIME LEFT:  1.99W  GRAD.:   117.479 HEAT: -22797.96
+ CYCLE:    27 TIME: 112.180 TIME LEFT:  1.99W  GRAD.:    84.328 HEAT: -22816.06
+ CYCLE:    28 TIME: 105.129 TIME LEFT:  1.99W  GRAD.:    76.297 HEAT: -22833.24
+ CYCLE:    29 TIME: 132.227 TIME LEFT:  1.99W  GRAD.:   114.241 HEAT: -22843.54
+ CYCLE:    30 TIME: 103.242 TIME LEFT:  1.99W  GRAD.:    67.976 HEAT: -22865.25
+ CYCLE:    31 TIME: 108.855 TIME LEFT:  1.99W  GRAD.:    55.515 HEAT: -22882.34
+ CYCLE:    32 TIME: 109.699 TIME LEFT:  1.99W  GRAD.:    66.405 HEAT: -22893.08
+ CYCLE:    33 TIME: 111.637 TIME LEFT:  1.99W  GRAD.:    52.797 HEAT: -22902.85
+ CYCLE:    34 TIME: 133.410 TIME LEFT:  1.99W  GRAD.:    93.923 HEAT: -22906.30
+ CYCLE:    35 TIME: 115.844 TIME LEFT:  1.99W  GRAD.:    50.249 HEAT: -22915.70
+ CYCLE:    36 TIME: 103.148 TIME LEFT:  1.99W  GRAD.:    39.943 HEAT: -22921.14
+ CYCLE:    37 TIME: 109.605 TIME LEFT:  1.99W  GRAD.:    65.414 HEAT: -22927.51
+ CYCLE:    38 TIME: 110.434 TIME LEFT:  1.99W  GRAD.:    54.805 HEAT: -22935.91
+ CYCLE:    39 TIME: 133.410 TIME LEFT:  1.99W  GRAD.:    60.177 HEAT: -22943.91
+ CYCLE:    40 TIME: 113.883 TIME LEFT:  1.99W  GRAD.:    52.907 HEAT: -22951.13
+ CYCLE:    41 TIME: 132.426 TIME LEFT:  1.99W  GRAD.:    49.251 HEAT: -22954.68
+ CYCLE:    42 TIME: 103.680 TIME LEFT:  1.99W  GRAD.:    29.801 HEAT: -22957.37
+ CYCLE:    43 TIME: 111.977 TIME LEFT:  1.99W  GRAD.:    32.087 HEAT: -22960.88
+ CYCLE:    44 TIME: 114.473 TIME LEFT:  1.99W  GRAD.:    33.774 HEAT: -22965.50
+ CYCLE:    45 TIME: 136.422 TIME LEFT:  1.99W  GRAD.:    43.477 HEAT: -22966.84
+ CYCLE:    46 TIME: 114.879 TIME LEFT:  1.99W  GRAD.:    27.085 HEAT: -22970.36
+ CYCLE:    47 TIME: 112.289 TIME LEFT:  1.99W  GRAD.:    26.929 HEAT: -22972.81
+ CYCLE:    48 TIME: 114.207 TIME LEFT:  1.99W  GRAD.:    28.409 HEAT: -22975.49
+ CYCLE:    49 TIME: 133.926 TIME LEFT:  1.99W  GRAD.:    48.492 HEAT: -22977.69
+ CYCLE:    50 TIME: 111.262 TIME LEFT:  1.99W  GRAD.:    45.452 HEAT: -22982.12
+ CYCLE:    51 TIME: 110.570 TIME LEFT:  1.99W  GRAD.:    41.825 HEAT: -22988.30
+ CYCLE:    52 TIME: 131.461 TIME LEFT:  1.99W  GRAD.:    62.548 HEAT: -22989.60
+ CYCLE:    53 TIME: 114.102 TIME LEFT:  1.99W  GRAD.:    55.803 HEAT: -22994.77
+ CYCLE:    54 TIME: 116.562 TIME LEFT:  1.99W  GRAD.:    29.313 HEAT: -23000.32
+ CYCLE:    55 TIME: 113.988 TIME LEFT:  1.99W  GRAD.:    30.686 HEAT: -23003.39
+ CYCLE:    56 TIME: 115.051 TIME LEFT:  1.99W  GRAD.:    31.162 HEAT: -23005.46
+ CYCLE:    57 TIME: 133.738 TIME LEFT:  1.99W  GRAD.:    39.730 HEAT: -23006.98
+ CYCLE:    58 TIME: 121.512 TIME LEFT:  1.99W  GRAD.:    41.048 HEAT: -23007.63
+ CYCLE:    59 TIME: 111.117 TIME LEFT:  1.99W  GRAD.:    30.545 HEAT: -23010.43
+ CYCLE:    60 TIME: 101.711 TIME LEFT:  1.99W  GRAD.:    17.395 HEAT: -23010.85
+ RESTART FILE WRITTEN,      TIME LEFT:  1.99W  GRAD.:    19.905 HEAT: -23010.95
+ CYCLE:    62 TIME: 114.098 TIME LEFT:  1.99W  GRAD.:    23.063 HEAT: -23012.85
+ CYCLE:    63 TIME: 114.723 TIME LEFT:  1.99W  GRAD.:    19.438 HEAT: -23014.06
+ CYCLE:    64 TIME: 117.719 TIME LEFT:  1.99W  GRAD.:    19.357 HEAT: -23015.31
+ CYCLE:    65 TIME: 109.465 TIME LEFT:  1.99W  GRAD.:    15.107 HEAT: -23015.32
+ CYCLE:    66 TIME: 115.594 TIME LEFT:  1.99W  GRAD.:    19.851 HEAT: -23015.90
+ CYCLE:    67 TIME: 102.867 TIME LEFT:  1.99W  GRAD.:    19.064 HEAT: -23016.47
+ CYCLE:    68 TIME: 114.008 TIME LEFT:  1.99W  GRAD.:    16.744 HEAT: -23017.14
+ CYCLE:    69 TIME: 104.551 TIME LEFT:  1.99W  GRAD.:    15.445 HEAT: -23017.48
+ CYCLE:    70 TIME: 114.379 TIME LEFT:  1.99W  GRAD.:    17.490 HEAT: -23018.41
+ CYCLE:    71 TIME: 125.062 TIME LEFT:  1.99W  GRAD.:    16.969 HEAT: -23019.79

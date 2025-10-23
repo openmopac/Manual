@@ -1,0 +1,6 @@
+geo_dat="Locate the transition state for the SN2 reaction Cl-CH3-F (-) using (LOCATE-TS).arc" ++
+TS  gnorm=2  charge=-1 opt
+ Refine transition state for F(-) --- CH3Cl <=> CH3F --- Cl(-)
+ 
+oldgeo  charge=-1 IRC=-1* HTML DRC T-priority=1 cycles=100
+Reaction path for F(-) --- CH3Cl <=> CH3F --- Cl(-)  

@@ -1,0 +1,8 @@
+#
+# Script for use with the HTML file "Chymotrypsin Step 2.html"
+# Data-set filename must not contain anything except alphanumerics and spaces
+# (Put JSmol commands on the lines after "HIDE *")
+#
+ HIDE *
+Display add 57, 102, 193, 194, 195, 250, 251, 252, 253, 647
+zoom 0

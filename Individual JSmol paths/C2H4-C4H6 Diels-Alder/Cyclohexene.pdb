@@ -1,0 +1,20 @@
+HEADER  data-set: M:/OpenMOPAC_NET/Manual/Individual JSmol paths/C2H4-C4H6 Diels
+REMARK  MOPAC 2016, Version: 21.148W Date: May 29 2021 10:58
+REMARK   3 HET = Not identified; C 6 H 10           =    16 atoms res:    1
+HETATM    1  C1  HET A   1      -0.855  -1.115  -0.315  1.00 -0.27      PROT C 
+HETATM    2  C2  HET A   1       0.599  -1.134  -0.658  1.00 -0.16      PROT C 
+HETATM    3  C3  HET A   1       1.281   0.016  -0.661  1.00 -0.16      PROT C 
+HETATM    4  C4  HET A   1       0.570   1.285  -0.317  1.00 -0.27      PROT C 
+HETATM    5  C5  HET A   1      -0.327   1.092   0.921  1.00 -0.26      PROT C 
+HETATM    6  C6  HET A   1      -1.116  -0.233   0.921  1.00 -0.26      PROT C 
+HETATM    7 1H1  HET A   1      -1.429  -0.721  -1.180  1.00  0.15      PROT H 
+HETATM    8 2H1  HET A   1      -1.244  -2.135  -0.134  1.00  0.14      PROT H 
+HETATM    9 1H4  HET A   1       1.281   2.112  -0.137  1.00  0.14      PROT H 
+HETATM   10 2H4  HET A   1      -0.053   1.601  -1.180  1.00  0.15      PROT H 
+HETATM   11  H2  HET A   1       1.040  -2.094  -0.895  1.00  0.14      PROT H 
+HETATM   12  H3  HET A   1       2.333   0.089  -0.903  1.00  0.14      PROT H 
+HETATM   13 1H6  HET A   1      -0.856  -0.809   1.830  1.00  0.13      PROT H 
+HETATM   14 2H6  HET A   1      -2.198  -0.023   0.995  1.00  0.13      PROT H 
+HETATM   15 1H5  HET A   1       0.305   1.136   1.828  1.00  0.13      PROT H 
+HETATM   16 2H5  HET A   1      -1.026   1.944   0.998  1.00  0.13      PROT H 
+END

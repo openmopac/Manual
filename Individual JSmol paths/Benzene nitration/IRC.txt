@@ -1,0 +1,13 @@
+#
+#          Notes on the nitration of benzene reaction.
+#
+# In this reaction, a NO2(+) cation attacks a benzene molecule to form a covalent bond between the nitrogen and a carbon atom.  The transition state involves the carbon and nitrogen atoms.  After the covalent bond has formed the energy of the system is much higher than it was before the reaction ocurred, suggesting that the reaction should not occur. However, the presence of the hydrogen sulfate anion causes the hydrogen attached to the carbon to spontaneously migrate from the carbon to one of the oxygen atoms on the sulfate, this resulting in a dramatic decrease in energy, and thus providing the driving force for the reaction.
+#
+#
+# Locating the transition state is difficult.  The profile of the activation barrier for the forward reaction is normal, but the reverse reaction, H2SO4 + nitrobenzene => transition state, is unusual in that the Potential Energy Surface (PES) has a very steep slope at the point where the proton is abstracted from the sulfuric acid molecule and starts to migrate to the carbon atom involved in the reaction.  This complicated structure makes it difficult to locate the transition state using LOCATE-TS or SADDLE.
+#
+#
+# The strategy used in locating this transition state uses the hypothetical intermediate in which both the hydrogen atom and the NO2 are attached to the reaction site carbon.  This system is hypothetical in that there is no stationary point in this region of the PES that can be used; at all points on the PES here the hydrogen atom experiences a force pulling it in the direction of the sulfate oxygen atom.  An unconstrained geometry optimization would result in the hydrogen migrating completely to the sulfate. To stop this from happening when preparing the "product", the hydrogen atom bond-length is fixed, arbitrarily at 1.2 Angstroms.  Geometry optimization then gives a perfectly good "product" structure.  
+#
+# This structure is then used in a normal SADDLE calculation, in which the reactant is [HSO4](-) + benzene + [NO2](-) and the product is the hypothetical intermediate.
+#

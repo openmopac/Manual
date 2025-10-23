@@ -1,0 +1,192 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>C.I.=n </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<tt><h1 align="center"><a name="SECTION007325000000000000000">C.I.=<i>n</i></a></h1></tt><a name="SECTION007325000000000000000"> </a>
+<p>When <tt>C.I.=<i>n</i></tt> is specified, the <i>n</i> M.O.s which 'bracket' the occupied-virtual energy levels will be used in a configuration interaction calculation. Thus, <tt>C.I.=2</tt> will include both the HOMO and the LUMO, while <tt>C.I.=1</tt> (implied for odd-electron systems) will only include the HOMO (This will do nothing<a name="BM1665">&nbsp;</a> for a closed-shell system, and leads to Dewar's half-electron correction [<a href="references.html#136">136</a>] for odd-electron systems). Users should be aware of the rapid increase in the size of the C.I. with increasing numbers of M.O.s being used. Normally, 
+configuration interaction (see the
+<a href="theory.html#Multi-Electron%20Configuration%20Interaction">MECI</a><tt>)</tt> is invoked if the keywords which imply a C.I. calculation are used (<a href="biradical.html"><font face="Courier New" size="2">BIRADICAL</font></a> or <a href="excited.html"><font face="Courier New" size="2">EXCITED</font></a>). Note that <tt>
+<a href="uhf.html" uhf.html=""><font color="#0000ff"><u>UHF</u></font></a></tt> should not be present.</p>
+<p>&nbsp;</p><div align="CENTER"><div align="CENTER">
+<strong><p><a name="nconfigs"></a>Table:</p></strong> Number of Configurations used in MECI
+<table border="" cellpadding="3" cellspacing="1" width="623">
+<tr><td valign="MIDDLE" width="12%">
+<p>&nbsp;</p></td>
+<td colspan="2" valign="MIDDLE" width="31%">
+<p align="CENTER">No. of Electrons</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">Configs</p></td>
+<td colspan="2" valign="MIDDLE" width="31%">
+<p align="CENTER">No. of Electrons</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">Configs</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<p>&nbsp;</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">Alpha</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">Beta</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">&nbsp;</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">Alpha</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">Beta</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">&nbsp;</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<tt></tt><p>C.I.=1</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">1</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">0</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">1</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<tt></tt><p>C.I.=2</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">4</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">0</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">2</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<tt></tt><p>C.I.=3</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">9</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">9</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<tt></tt><p>C.I.=4</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">36</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">1</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">24</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<tt></tt><p>C.I.=5</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">100</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">100</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<tt></tt><p>C.I.=6</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">400</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">2</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">300</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<tt></tt><p>C.I.=7</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">1225</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">1225</p></td>
+</tr>
+<tr><td valign="MIDDLE" width="12%">
+<tt></tt><p>C.I.=8<sup>*</sup></p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">4900</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">4</p></td>
+<td valign="MIDDLE" width="15%">
+<p align="CENTER">3</p></td>
+<td valign="MIDDLE" width="14%">
+<p align="RIGHT">3920</p></td>
+</tr>
+</table>
+<p><br/>
+*: Do not use unless other keywords are also used. See <tt>MICROS</tt>, and the discussion in&nbsp;<a href="meci_choice_of_state.html">Choice of State to be Optimized</a> . </p></div></div>
+<p>&nbsp;</p>
+<p><a name="BM1673">&nbsp;</a> If a change of spin is defined, then larger numbers of M.O.s can be used up to a maximum of 22. If more than 22 M.O.s are needed, then <tt>
+meci_C.F90</tt> would need to be changed. In <tt>meci_C.F90</tt>, increase the value of <tt>NMECI</tt> as necessary. Normally, a full C.I. is carried out, in which case the spin-states are exact eigenstates of the spin operators. For systems with more than the normal number of configurations (Table), the configurations of lowest energy will be used. See also <tt>MICROS </tt>and the keywords defining spin-states. </p>
+<p>Note that for any system, use of <tt>C.I.=5</tt> or higher normally implies the diagonalization of quite large matrices. As a geometry optimization using a C.I. requires the derivatives to be calculated using derivatives of the C.I. matrix, geometry optimization with large C.I.s will require more time than smaller C.I.s. </p>
+<p>If microstates are supplied, using <a href="micros.html"><font face="Courier New" size="2">MICROS</font></a>, 
+then the states used are precisely controlled.&nbsp; This requires more work, 
+because each microstate has to be explicitly defined, but it is very flexible 
+and much more certain than when other keywords such as <a href="cisdt.html"><font face="Courier New" size="2">CISDT</font></a><tt> 
+are used.</tt></p>
+<p>See also: <a href="open.html"><font face="Courier New" size="2">OPEN(<i>n</i><sub>1</sub>,<i>n</i><sub>2</sub>)</font></a><tt>, </tt><a href="ci=nm.html"><font face="Courier New" size="2">C.I.=(<i>n</i><sub>1</sub>,<i>n</i><sub>2</sub>)</font></a><tt>, </tt><a href="cis.html"><font face="Courier New" size="2">CIS</font></a><tt>, </tt><a href="cisd.html"><font face="Courier New" size="2">CISD</font></a><tt>, </tt><a href="peci.html"><font face="Courier New" size="2">PECI</font></a><tt>, </tt><a href="cisdt.html"><font face="Courier New" size="2">CISDT</font></a><tt>, </tt><a href="meci.html"><font face="Courier New" size="2">MECI</font></a>, <a href="root.html"><font face="Courier New" size="2">ROOT</font></a>, <a href="micros.html"><font face="Courier New" size="2">MICROS</font></a>, <font face="Courier New" size="2">
+<a href="meci_states_arising.html">STATES ARISING</a>, <a href="singlet.html">SINGLET</a></font>, <a href="doublet.html"><font face="Courier New" size="2">DOUBLET</font></a>, etc. </p>
+</body>
+</html>

@@ -1,0 +1,5 @@
+TS gnorm=2   geo_dat="Locate_TS.arc"
+ Refine transition state for Cyclobutadiene_1 <=> Cyclobutadiene_2
+ 
+oldgeo   IRC=-1* HTML X-priority=0.2
+Reaction path for Cyclobutadiene_1 <=> Cyclobutadiene_2  

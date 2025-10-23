@@ -1,0 +1,40 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>HESS=n </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>HESS=<i>n</i></tt> </h1>
+<p>In Baker's Eigenvector Following routine, options exist for deciding how to construct the initial Hessian matrix. The default is <tt>HESS=0</tt>. Options available are: </p>
+<tt><dl>
+<dd>HESS=0</dd></dl></tt>
+<dd>This is the default for geometry optimization (i.e., when <tt>EF</tt> is used). The initial Hessian is set equal to a diagonal matrix, with the diagonal terms set to 1000 kcal/mol/&Aring;<sup>2</sup> for bond-lengths, 500 kcal/mol/degrees<sup>2</sup> for angles, and 200 kcal/mol/degrees<sup>2</sup> for dihedrals. If Cartesian coordinates are used, all diagonal elements are set to 200 kcal/mol/&Aring;<sup>2</sup>. </dd>
+<dd>Do <em>not</em> specify <tt>HESS=0</tt> unless there is a good reason to do so. </dd>
+<tt><dd>HESS=1</dd></tt>
+<dd>This is the default for transition-state location (i.e., when <tt>
+<a href="ts.html">TS</a></tt> is used). The full Hessian matrix is constructed using single-sided derivatives, see
+<a href="Hessian_Matrix.html">Hessian Matrix</a>, using the same density matrix throughout the entire construction of the Hessian. </dd>
+<tt><dd>HESS=2</dd></tt>
+<dd>A rarely used option. The Hessian matrix from an earlier run can be used to start the current job. In order for this to work, there must be a one-to-one correspondence of parameters to be optimized. For example, if a geometry optimization using <tt>EF</tt> and <tt>
+<a href="am1.html">AM1</a></tt> were to be followed by a similar geometry optimization using <tt>EF</tt> and <tt>
+<a href="pm3.html">PM3</a></tt>, then the Hessian from the earlier calculation could be used to start the <tt>PM3</tt> job. (A simpler way of achieving this result is to use <tt>
+<a href="restart.html">RESTART</a></tt>, but note that this will also use the old geometry.) </dd>
+</body>
+</html>

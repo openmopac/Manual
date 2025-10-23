@@ -1,0 +1,5 @@
+LOCATE-TS(C:3,10,30;set=1) ++
+geo_dat="3 Acetic acid H3O(+) plus ethanol.arc" ++
+geo_ref="2 CH3-C(+)(H2O)(OH)-O-C2H5 plus H2O.arc" ++
+opt xyz charge=1 eps=78.4 gnorm=2   let noswap HTML GEO-OK
+Locate the transition state for the ester hydrolysis reaction

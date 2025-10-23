@@ -1,0 +1,33 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Option to allow only extrema to be output</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1><a name="SECTION0012195000000000000000">Option to allow only extrema to be output</a>
+</h1>
+<p>In the geometry specification, if an internal coordinate is marked for optimization then when that internal coordinate passes through an extremum a message will be printed and the geometry output. </p>
+<p>Difficulties can arise from the way internal coordinates are processed. The internal coordinates are generated from the Cartesian coordinates, so an internal coordinate supplied may have an entirely different meaning on output. In particular the connectivity may have changed. For obvious reasons dummy atoms should not be used in the supplied geometry specification. If there is any doubt about the internal coordinates or if the starting geometry contains dummy atoms then run a <tt>1SCF</tt> calculation specifying <tt>INT</tt>. This will produce an ARC file with the "ideal" numbering--the internal numbering system used by MOPAC. Use this ARC file to construct a data file suitable for the DRC or irc0.<a name="BM22597">&nbsp;</a><a name="BM22598"></a>&nbsp; </p>
+<p>Notes: </p>
+<dl>
+<dt>1. Any coordinates marked for optimization will result in only extrema being printed. </dt>
+<dt>2. If extrema are being printed then kinetic energy extrema will also be printed. </dt>
+</dl>
+</body>
+</html>

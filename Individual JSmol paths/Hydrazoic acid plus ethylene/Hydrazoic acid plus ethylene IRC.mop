@@ -1,0 +1,5 @@
+TS gnorm=2   geo_dat="Saddle Hydrazoic acid plus ethylene.arc"
+ Refine transition state for the reaction Hydrazoic acid plus ethylene <=> C2H5N3
+ 
+oldgeo   IRC=1* HTML X-priority=0.1
+Reaction path for the reaction Hydrazoic acid plus ethylene <=> C2H5N3

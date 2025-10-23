@@ -1,0 +1,19 @@
+HEADER  data-set: M:/Cambridge (paper)/Calculation of atom-specific solvation en
+REMARK  MOPAC, Version: unknown              Date: Sep  6 2024 09:27
+REMARK   3 HET = Not identified; C 3 H 7 N O        =    12 atoms res:    1
+HETATM    1  C1  HET A   1       0.226   0.028  -0.057  1.0  -2.69      PROT C 
+HETATM    2 1H1  HET A   1       1.267   0.044  -0.399  1.0   0.90      PROT H 
+HETATM    3 2H1  HET A   1       0.010  -1.002   0.261  1.0   1.02      PROT H 
+HETATM    4 3H1  HET A   1       0.167   0.670   0.833  1.0   1.02      PROT H 
+HETATM    5  C2  HET A   1      -0.779   0.469  -1.098  1.0   6.68      PROT C 
+HETATM    6  O   HET A   1      -1.944   0.771  -0.789  1.0  -7.99      PROT O 
+HETATM    7  N   HET A   1      -0.345   0.478  -2.374  1.0  -3.40      PROT N 
+HETATM    8  H   HET A   1       0.564   0.275  -2.589  1.0   2.41      PROT H 
+HETATM    9  C3  HET A   1      -1.166   0.905  -3.499  1.0  -0.13      PROT C 
+HETATM   10 1H3  HET A   1      -2.220   0.572  -3.423  1.0   0.78      PROT H 
+HETATM   11 2H3  HET A   1      -1.177   2.009  -3.606  1.0   0.68      PROT H 
+HETATM   12 3H3  HET A   1      -0.773   0.491  -4.449  1.0   0.74      PROT H 
+HETATM   13  O   HOH B   2      52.893   0.532  -2.378  1.0  -7.13      PROT O 
+HETATM   14 1H   HOH B   2      53.169   0.412  -3.279  1.0   3.57      PROT H 
+HETATM   15 2H   HOH B   2      53.568   1.046  -1.956  1.0   3.56      PROT H 
+END

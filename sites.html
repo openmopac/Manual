@@ -1,0 +1,113 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>SITES </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2 align="center">
+<tt>&nbsp;SITE=(text)</tt>
+</h2>
+<p>Quite often, after hydrogen atoms have been added to a protein, the 
+ionization state of various sites is not what is wanted.&nbsp; The ionization 
+state of various sites in a protein can be set by using <tt>SITE=(<i>text</i>)</tt>.&nbsp;&nbsp; 
+Two formats for <em>text</em> are supported, either format can be used, but they 
+cannot be mixed, that is, only one of the formats described below can be used in a given job.</p>
+<p>The first format allows individual residues to be ionized or de-ionized. In 
+this format, <em>text</em> has the form "Annn(q1[q2])[,Bmmm(q3[q4])]..." where "A" is the chain 
+letter, "nnn" is the residue number, and "q1" and "q2" are the charges, either +, 0, or -.&nbsp; 
+If residue 123 in chain B is an Arg, then, to ionize it, use <tt>SITE=(B123(+))</tt>. 
+If the first residue in that chain, i.e., the -NH<sub>2</sub> end, is also to be ionized, then use <tt>SITE=(B123(+),B1(+))</tt>. 
+If a carboxylic acid group, e.g. an Asp at residue site D234, should also be 
+ionized, then use&nbsp;<tt>SITE=(B123(+),B1(+),D234(-))</tt>. A 
+<a href="salt_bridges.html">salt bridge</a> can be 
+created using a construction of the form <tt>SITE=(A12(+),B34(-)). </tt>To de-ionize a 
+site use charge "(0)" thus if the sites just described were ionized, they could 
+then be de-ionized by using <tt>SITE=(B123(0),B1(0),D234(0)).</tt> If a residue 
+has two ionizable sites, such as a Lys at the start of a chain, or Asp at the 
+end of a chain, use two charges, to indicate the ionization state of each site, 
+e.g., <tt>SITE=(B1(++),B100(--))</tt>. No specific 
+tautomer is defined - if it's not the one wanted, make the change outside MOPAC.&nbsp; 
+Because atoms are added or removed, the job cannot continue.&nbsp; Edit the 
+resulting &lt;file&gt;.out, &lt;file&gt;.arc, or &lt;file&gt;.pdb to make a new data set.</p>
+<p>The second format applies to all residues with the specified groups.&nbsp; <i>
+Text</i> in this case can be one or more of the entries in the table below.&nbsp; 
+Entries should be separated by a comma or by a semicolon.&nbsp; </p>
+<p>To neutralize all sites in a protein, use <tt>SITE=(COOH,NH2,ARG,HIS)</tt>.&nbsp; To 
+ionize all sites, use <tt>SITE=(COO,NH3,ARG(+),His(+))</tt>. Serine, threonine, 
+and tyrosine 
+cannot be modified using this format.&nbsp; No specific 
+tautomer is defined - if it's not the one wanted, make the change outside MOPAC.&nbsp; 
+Because atoms are added or removed, the job cannot continue.&nbsp; Edit the 
+resulting &lt;file&gt;.out, &lt;file&gt;.arc, or &lt;file&gt;.pdb to make a new 
+data set.</p>
+<div align="center">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" fpstyle="1,011111100" style="border-top:1.5pt solid green; border-bottom:1.5pt solid green; border-left-style:none; border-right-style:none">
+<tr>
+<td style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">Text</td>
+<td style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">&nbsp;</td>
+<td style="border-left-style: none; border-right-style: none; border-top-style: none; border-bottom: .75pt solid green">Effect</td>
+</tr>
+<tr>
+<td style="border-style: none" valign="top">COOH</td>
+<td style="border-style: none" valign="top">&nbsp;</td>
+<td style="border-style: none" valign="top">Add a hydrogen atom to -COO groups</td>
+</tr>
+<tr>
+<td style="border-style: none" valign="top">COO</td>
+<td style="border-style: none" valign="top">&nbsp;</td>
+<td style="border-style: none" valign="top">Remove the hydrogen atom from -COOH groups</td>
+</tr>
+<tr>
+<td style="border-style: none" valign="top">NH3</td>
+<td style="border-style: none" valign="top">&nbsp;</td>
+<td style="border-style: none" valign="top">
+<p align="left">Add a hydrogen atom to -NH<sub>2</sub> groups</p></td>
+</tr>
+<tr>
+<td style="border-style: none" valign="top">NH2</td>
+<td style="border-style: none" valign="top">&nbsp;</td>
+<td style="border-style: none" valign="top">Remove a hydrogen atom from 
+	  -NH<sub>3</sub> groups</td>
+</tr>
+<tr>
+<td style="border-style: none" valign="top">Arg(+)</td>
+<td style="border-style: none" valign="top">&nbsp;</td>
+<td style="border-style: none" valign="top">Add a hydrogen atom to -Arg-</td>
+</tr>
+<tr>
+<td style="border-style: none" valign="top">Arg</td>
+<td style="border-style: none" valign="top">&nbsp;</td>
+<td style="border-style: none" valign="top">Remove a hydrogen atom from -Arg(+)-</td>
+</tr>
+<tr>
+<td style="border-style: none" valign="top">His(+)</td>
+<td style="border-style: none" valign="top">&nbsp;</td>
+<td style="border-style: none" valign="top">Add a hydrogen atom to -His-</td>
+</tr>
+<tr>
+<td style="border-style: none" valign="top">His</td>
+<td style="border-style: none" valign="top">&nbsp;</td>
+<td style="border-style: none" valign="top">Remove a hydrogen atom from -His(+)-</td>
+</tr>
+</table>
+</center>
+</div>
+</body>
+</html>

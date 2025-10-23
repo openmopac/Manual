@@ -1,0 +1,5 @@
+       TS  HTML eps=78.4 GEO_DAT="Saddle_TS.arc"
+ Refine the transition state for the reaction Benzene + NO2(+) <=> Nitrobenzene + H(+)
+
+oldgeo eps=78.4 IRC=-1* HTML T-priority=1 DRC cycles=300
+DRC for the reaction Benzene + NO2(+) <=> Nitrobenzene + H(+)

@@ -1,0 +1,37 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Docking Energy Calculation</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<b>
+Docking Energy Calculation</b></h1>
+<p align="left">
+Docking geometries and energies are best performed using other methods, for 
+example MM, but if you want to model docking using MOPAC, here is a starting 
+strategy:</p><p align="left">
+Geometry optimize the complex; let its Heat of Formation be 
+&Delta;H<sub>f</sub>(complex). Add keyword EPS=78.4 to mimic water solvent. Separate 
+the ligand from the protein by moving the ligand far away (e.g., by adding 100 
+&Aring;ngstroms to every "x" coordinate of the ligand atoms), and run the geometry 
+optimization again.&nbsp; Let the new HoF be &Delta;H<sub>f</sub>(separate). Then the interaction energy 
+is &Delta;H<sub>f</sub>(complex) - &Delta;H<sub>f</sub>(separate).<br/>
+</p></body>
+</html>

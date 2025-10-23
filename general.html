@@ -1,0 +1,49 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>General</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center"><a name="SECTION002300400000000000000">General</a> </h1>
+<p>For MOPAC2007 [<a href="references.html#MOPAC2009">147</a>]</p>
+<p>Fundamental constants are taken from the CODATA report&nbsp;[<a href="references.html#codata">71</a>]. A good introduction to MOPAC can be found in Tim Clark's book&nbsp;[<a href="references.html#tclark">131</a>]. </p>
+<strong><dl>
+<dt>Results</dt></dl></strong>
+<dd>&nbsp; <br/>
+The SCF M.O.s, which diagonalize the Fock matrix, can be localized&nbsp;[<a href="references.html#local">38</a>] to give M.O.s which can be identified with the conventional 
+picture of two-electron bonds and lone pairs. The localization scheme is faster at the semiempirical level than the Edmiston-Ruedenberg&nbsp;[<a href="references.html#edmrue">62</a>] or Boys&nbsp;[<a href="references.html#boys">61</a>] methods. Associated with each conventional M.O. is a bond-index&nbsp;[<a href="references.html#m_o_valency">23</a>], which represents the contribution to the bond-order matrix due to each M.O. Bond orders and valencies can be displayed by use of <tt>BONDS</tt>&nbsp;[<a href="references.html#bonds">15</a>]. Other phenomena relating to bonding can also be calculated&nbsp;[<a href="references.html#nrm85">24</a>,<a href="references.html#mrb86">25</a>,<a href="references.html#mb89">26</a>]. An alternative to the normal Coulson density matrix is the Mulliken&nbsp;[<a href="references.html#mullik1">41</a>]. Dipole moments for ions are coordinate system dependent, so by definition&nbsp;[<a href="references.html#dipoles_for_ions">132</a>],<a name="BM43274">&nbsp;</a> the center of mass is used. Higher terms, e.g., polarizability, and first and second hyperpolarizability, can be calculated&nbsp;[<a href="references.html#polar">47</a>] by <tt>POLAR</tt>. </dd><dd>Ionization potentials&nbsp;[<a href="references.html#koopmans">59</a>] can be corrected using Green's Functions&nbsp;[<a href="references.html#gf1">34</a>,<a href="references.html#gf2">35</a>,<a href="references.html#gf3">36</a>,<a href="references.html#gf4">33</a>,<a href="references.html#gf5">37</a>,<a href="references.html#gf6">32</a>] </dd>
+<strong><br/>
+&nbsp;<dt>Solvent and Electrostatics</dt></strong>
+<dd>&nbsp; <br/>
+Solvent phenomena can be studied. The COSMO technique&nbsp;[<a href="references.html#cosmo">30</a>], unlike the self-consistent reaction fields&nbsp;[<a href="references.html#scrf">74</a>], allows geometries to be optimized. Although the Miertus-Scrocco-Tomasi model&nbsp;[<a href="references.html#mst">75</a>,<a href="references.html#mt">76</a>] cannot optimize geometries, is more sophisticated in that it allows cavitation effects. This model has been modified&nbsp;[<a href="references.html#lno">77</a>,<a href="references.html#glo">78</a>,<a href="references.html#nol">79</a>,<a href="references.html#lbo">80</a>,<a href="references.html#obl">81</a>] to allow NDDO methods to be used. In this, optimized VdW radii&nbsp;[<a href="references.html#ojl">83</a>,<a href="references.html#blo">84</a>] are used to construct&nbsp;[<a href="references.html#pastb">82</a>] a cavity. </dd>
+<dd>The free energy of hydration is computed as the addition of three contributions:
+<br/>
+&nbsp;</dd>
+<dd>1. The electrostatic term, which is computed from the linear free energy response theory&nbsp;[<a href="references.html#mst">75</a>,<a href="references.html#mt">76</a>,<a href="references.html#lno">77</a>,<a href="references.html#glo">78</a>,<a href="references.html#nol">79</a>,<a href="references.html#lbo">80</a>,<a href="references.html#obl">81</a>].
+<br/>
+&nbsp;</dd>
+<dd>2. The cavitation contribution, which is computed from Pierotti's scaled particle theory&nbsp;[<a href="references.html#rap">85</a>].
+<br/>
+&nbsp;</dd>
+<dd>3. The van der Waals terms, which is computed using a linear relation with the solute accessible surface, and optimized "hardness" parameters&nbsp;[<a href="references.html#ojl">83</a>,<a href="references.html#blo">84</a>]. </dd>
+<p>In addition to the free energy of hydration a "solvent-adapted" wavefunction is obtained. Such a wavefunction can be used to determine changes in solute properties due to the solvent&nbsp;[<a href="references.html#lobg">86</a>,<a href="references.html#lo">87</a>,<a href="references.html#lo2">88</a>,<a href="references.html#lobg2">89</a>]. </p>
+<p>Electrostatic potentials can be used with the MST method both by deorthogonalizing the wavefunction&nbsp;[<a href="references.html#lio">90</a>,<a href="references.html#alo">91</a>,<a href="references.html#lo3">40</a>] and by keeping the wavefunction orthogonal&nbsp;[<a href="references.html#frr">92</a>,<a href="references.html#alo2">93</a>] </p>
+<p>Other ESP methods available are the Merz-Bessler technique&nbsp;[<a href="references.html#esp">31</a>] and the Ford-Wang procedure&nbsp;[<a href="references.html#pmep1">45</a>,<a href="references.html#pmep2">46</a>]. The Ford-Wang is much faster and more accurate than the Merz-Bessler method, but is limited to AM1 calculations on systems containing H, C, N, O, F, and Cl, only. </p>
+</body>
+</html>

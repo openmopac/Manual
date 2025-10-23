@@ -1,0 +1,31 @@
+#
+# Create a bond between the oxygen of Ser195 and the carbon of the Trp252-Thr253 peptide bond
+#
+connect (atomno=2737) (atomno=3485) single
+#
+# Create a bond between the hydrogen of Ser195 and the imidazole nitrogen of His57
+#
+connect (atomno=2742) (atomno=760) single
+#
+# Delete all hydrogen bonds (they mess up the geometry optimization)
+#
+select
+hBonds delete
+#
+# Delete the bond between the hydrogen and oxygen of Ser195
+#
+connect (atomno=2737) (atomno=2742) delete 
+#
+#  Optimize the geometry of Ser195
+#
+delay 2
+minimize SELECT (195) STEPS 100 
+select 195
+#
+#  Run the command "write PDB" in the JSmol console after the minimize has finished
+#
+#  The coordinates of the selected atoms will appear in the console.
+#  Copy them to the appropriate location.
+#
+
+     

@@ -1,0 +1,27 @@
+#
+# Script for use with the HTML file "Convert enol into keto.html"
+#
+#  First hide all atoms, then display the residue of interest
+#
+HIDE *
+display 29
+zoom 0
+delay 2
+#
+#   The phenolic hydrogen on Tyr29 is moved to the ortho carbon.
+#
+#   Create a bond between the hydrogen and the ortho carbon,
+#   and delete the bond from the hydrogen to the oxygen
+#
+connect (atomno=418) (atomno=406) single
+connect (atomno=418) (atomno=409) delete
+delay 2
+minimize SELECT (29) 
+select (29)
+#
+#  Run the command "write PDB" in the JSmol console
+#
+#  The coordinates of the selected atoms will appear in the console.
+#  Copy them to the appropriate location.
+#
+

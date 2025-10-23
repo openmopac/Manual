@@ -1,0 +1,1 @@
+animation mode palindrome 0 0;animation play

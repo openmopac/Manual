@@ -1,0 +1,102 @@
+ *******************************************************************************
+ ** Site#: 9602  E-mail support:    MrMOPAC@ATT.net    Version 17.214W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 17.214W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 376**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Aug 04 05:49:21 2017  *
+ *  START_RES  - STARTING RESIDUE NUMBERS DEFINED
+ *  Keyword:   START_RES=(1 254) 
+ *  CHAINS     - PDB CHAIN LETTERS EXPLICITLY DEFINED
+ *  Keyword:   CHAINS=(AB) 
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *  OPT        - OPTIMIZE COORDINATES OF ALL ATOMS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  RESTART    - CALCULATION RESTARTED
+ *  0SCF       - AFTER READING AND PRINTING DATA, STOP
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  USER-DEFINED EXPLICIT COVALENT BONDS:
+ *    CVB=("[LG1]254:B.N2":"[LG1]254:B.O3") 
+ *  GNORM=     - EXIT WHEN GRADIENT NORM DROPS BELOW   3.00    
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+CHAINS=(AB) START_RES=(1 254) HTML OUTPUT MOZYME CHARGE=0    gnorm=3 opt cvb=("[LG1]254:B.N2":"[LG1]254:B.O3") restart 0scf
+ Optimize the positions of all atoms in reactants for KE07
+
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C1262 H2014 N338 O371 S5  =  3990 atoms
+
+
+                RESIDUE SEQUENCE IN PROTEIN Chain: A
+
+             1     2     3     4     5     6     7     8     9    10
+        0   MET   LEU   ALA   LYS   ARG   ILE   ILE   ALA   ALA   LEU   
+       10   ILE   VAL   LYS   ASP   GLY   ARG   VAL   VAL   LYS   GLY   
+       20   SER   ASN   PHE   GLU   ASN   LEU   ARG   ASP   SER   GLY   
+       30   ASP   PRO   VAL   GLU   LEU   GLY   LYS   PHE   TYR   SER   
+       40   GLU   ILE   GLY   ILE   ASP   GLU   LEU   SER   PHE   TRP   
+       50   ASP   ILE   THR   ALA   SER   VAL   GLU   LYS   ARG   LYS   
+       60   THR   MET   LEU   GLU   LEU   VAL   GLU   LYS   VAL   ALA   
+       70   GLU   GLN   ILE   ASP   ILE   PRO   PHE   THR   VAL   GLY   
+       80   GLY   GLY   ILE   HIS   ASP   PHE   GLU   THR   ALA   SER   
+       90   GLU   LEU   ILE   LEU   ARG   GLY   ALA   ASP   LYS   VAL   
+      100   GLU   ILE   ASN   THR   ALA   ALA   VAL   GLU   ASN   PRO   
+      110   SER   LEU   ILE   THR   GLN   ILE   ALA   GLN   THR   PHE   
+      120   GLY   SER   GLN   ALA   VAL   VAL   VAL   TYR   ILE   ALA   
+      130   ALA   LYS   ARG   VAL   ASP   GLY   GLU   PHE   MET   VAL   
+      140   PHE   THR   TYR   SER   GLY   LYS   LYS   ASN   THR   GLY   
+      150   ILE   LEU   LEU   ARG   ASP   TRP   VAL   VAL   GLU   VAL   
+      160   GLU   LYS   ARG   GLY   ALA   GLY   GLU   ILE   VAL   LEU   
+      170   GLY   SER   ILE   ASP   ARG   LEU   GLY   THR   LYS   SER   
+      180   GLY   TYR   ASP   THR   GLU   MET   ILE   ARG   PHE   VAL   
+      190   ARG   PRO   LEU   THR   THR   LEU   PRO   ILE   ILE   ALA   
+      200   HIS   GLY   GLY   ALA   GLY   LYS   MET   GLU   HIS   PHE   
+      210   LEU   GLU   ALA   PHE   LEU   ALA   GLY   ALA   ASP   ALA   
+      220   ALA   LYS   ALA   ASN   SER   VAL   PHE   HIS   PHE   ARG   
+      230   GLU   ILE   ASP   VAL   ARG   GLU   LEU   LYS   GLU   TYR   
+      240   LEU   LYS   LYS   HIS   GLY   VAL   ASN   VAL   ARG   LEU   
+      250   GLU   GLY   LEU   
+
+                RESIDUE SEQUENCE IN PROTEIN Chain: A
+
+        0  MLAKRIIAAL IVKDGRVVKG SNFENLRDSG DPVELGKFYS EIGIDELSFW
+       50  DITASVEKRK TMLELVEKVA EQIDIPFTVG GGIHDFETAS ELILRGADKV
+      100  EINTAAVENP SLITQIAQTF GSQAVVVYIA AKRVDGEFMV FTYSGKKNTG
+      150  ILLRDWVVEV EKRGAGEIVL GSIDRLGTKS GYDTEMIRFV RPLTTLPIIA
+      200  HGGAGKMEHF LEAFLAGADA AKANSVFHFR EIDVRELKEY LKKHGVNVRL
+      250  EGL
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.95 SECONDS
+
+ == MOPAC DONE ==

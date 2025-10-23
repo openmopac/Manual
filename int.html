@@ -1,0 +1,58 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>INT </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>INT</tt>
+</h1>
+Regardless of what type of coordinates are used in the data set, <tt>INT</tt>
+will force all the coordinates to be internal coordinates.  Atom 1 is,
+by definition, always defined in Cartesian coordinates.
+<p>Notes</p>
+<ul>
+<li>If&nbsp; <tt>INT</tt> is used, the optimization flags are not changed.
+  Therefore, before running a system with&nbsp;<tt>INT</tt> all the
+  optimization flags should be set to "1", except for atoms 1, 2, and 3.
+  For atom 1, all optimization flags should be set to "0", for atom 2, the
+  second and third flags should be "0", and for atom 3 the third flag should be
+  "0".</li>
+<li>Be very careful if some atoms have optimization flags set to "0".&nbsp; If 
+  the geometry supplied is in Cartesian coordinates, and an atom, say atom 10, 
+  has all three optimization flags set to "0", then that means "Do not change 
+  the Cartesian coordinates of atom 10."&nbsp;&nbsp; If that atom is converted 
+  to internal coordinates, the optimization flags will still be zero, but now 
+  the definition changes to "Do not change the bond length, angle, and dihedral 
+  of atom 10, with reference to the atoms used for the connectivity."&nbsp; Now 
+  atom 10 will move if the atom it is attached to moves. This is fundamentally 
+  different from the Cartesian coordinate definition.</li>
+<li>Any dummy atoms are automatically deleted if <tt>INT</tt> is
+  present.&nbsp; This is because the first step in running <tt>INT</tt> is to
+  convert the system to Cartesian coordinates.&nbsp; This involved deleting any
+  dummy atoms.&nbsp; The next step involves conversion from Cartesian to
+  internal coordinates.</li>
+<li>&nbsp;<tt>INT</tt> is a rapid and efficient way of deleting atoms from a
+  molecule that is defined using internal coordinates.&nbsp; Re-label the atoms
+  to be deleted as dummy atoms, and run <tt>INT</tt> with <tt>
+<a href="zero_scf.html">0SCF</a>.</tt> </li>
+</ul>
+<p>See also <tt><a href="xyz.html">XYZ</a>.</tt></p>
+</body>
+</html>

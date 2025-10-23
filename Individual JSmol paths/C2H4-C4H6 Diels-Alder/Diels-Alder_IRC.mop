@@ -1,0 +1,11 @@
+ geo_dat="C2H4+C4H6-cyclohexene SADDLE.arc" ts html
+ Given a rough transition state, refine it using TS
+
+oldgeo force
+
+
+irc=1* html x-priority=0.2 oldgeo
+ Diels-Alder addition: C2H4+C4H6 => Cyclohexene
+
+
+

@@ -1,0 +1,45 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Point Group Theory</title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1>Point Group Theory </h1>
+<p>This Section is based on the original work of Peter Bischof in the UMNDO program, and made available to me by Dr David Danovich. </p>
+<p>Some point-group theory has been added to MOPAC. The main functionalities added are:&nbsp; </p>
+<ul>
+<li>'Normal' symmetry relationships are now automatically recognized if <tt>
+<a href="autosym.html">AUTOSYM</a></tt> is specified. </li>
+<li>The symmetry of the system is printed both at the start of the run and at the end. If the point-group changes, the change will be shown in the different point-group symbols. </li>
+<li>Molecular orbitals will be characterized by Irreducible Representation (I.R.). </li>
+<li>Normal coordinates generated in the vibrational calculation will be characterized by I.R. </li>
+<li>State functions will be characterized by I.R. </li>
+<li>All rotation groups up to order 8, except D<sub>8<i>d</i></sub>, are available. </li>
+<li>The cubic groups T, T<i><sub>h</sub></i>, T<i><sub>d</sub></i>, O, O<i><sub>h</sub></i>, I, and I<i><sub>h</sub></i> are available. </li>
+<li>The infinite groups C                             <img align="MIDDLE" alt="$_{infty v}$" height="29" src="img1377.gif" width="19"/>, D                             <img align="MIDDLE" alt="$_{infty h}$" height="29" src="img1378.gif" width="19"/>and R<sub>3</sub> are available. </li>
+<li>In <tt><a href="force.html">FORCE</a></tt> or vibrational frequency calculations, symmetry will be used to accelerate the calculation, thus a calculation of benzene would involve two atoms, a C and a H atom, to be calculated, rather than the normal 12 atoms. </li>
+<li>In vibrational frequency calculations, the Hessian or force matrix will be symmetrized. <a name="sym_force">&nbsp;</a> </li></ul>
+<dir>
+<dir>
+<p></p><div align="CENTER">
+<img alt="begin{displaymath}F_{ij}=frac{1}{h}sum_hR(h)^TF_{ij}'R(h)end{displaymath}" height="46" src="img1379.gif" width="149"/></div>
+<p align="left">This eliminates the normal small deviations from exact symmetry (<a href="force_constants.html">a qualification appears elsewhere</a>) . </p></dir>
+</dir>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>LET </title>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<tt>LET, LET(<i>nnn</i>)</tt> </h1>
+<p>As MOPAC evolves, the meaning of <tt>LET</tt> is changing.</p>
+<p>Now <tt>LET</tt> means essentially "I know what I'm doing, override safety checks".</p>
+<p>Currently, <tt>LET</tt> has the following meanings:</p>
+<dl>
+<dt>1.In a <tt><a href="force.html">FORCE</a></tt> calculation, it means that the supplied geometry is to be used, even if the gradients are large.</dt>
+<dt>2.<a name="BM2402">&nbsp;</a>In a geometry optimization, the specified <tt>
+<a href="gnorm.html">GNORM</a></tt> is to be used, even if it is less than 0.01.</dt>
+<dt>3.In a <tt><a href="polar.html">POLAR</a></tt> calculation, the molecule is to be orientated along its principal moments of inertia before the calculation starts. <tt>LET</tt> will prevent this step being done.</dt>
+<dt>4.In a EF calculation, allow the
+<span class="b">&Delta;</span>H<sub>f</sub> to rise. Obviously, the
+<span class="b">&Delta;</span>H<sub>f</sub> should decrease on every step, but 
+sometimes, particularly with very flat potential energy surfaces, motion in 
+response to the gradients might not result in a decrease in energy.&nbsp; By 
+using <tt>LET</tt>, small increases in
+<span class="b">&Delta;</span>H<sub>f</sub> are allowed.&nbsp; This will allow the 
+gradient minimum to be reached.&nbsp; This is a well-defined point, whereas the 
+minimum in energy is not, so in this case the use of <tt>LET</tt> is justified.&nbsp; 
+Note that the use of<tt> LET</tt> will not result in motion to a different 
+minimum.<br/>5. When comparing protein geometries, it means that hydrogen atoms 
+that would otherwise not be paired up, because they are on different residues, 
+are in fact paired up.<br/>6. In a <a href="Locate-TS.html"><tt>LOCATE-TS</tt></a> 
+calculation, do not perform a comparison of the reactants and products.&nbsp; 
+Useful only with small systems where the use of PDB labels can cause problems.<br/>
+7. In a <a href="lbfgs.html"><tt>LBFGS</tt></a> calculation, the default number of cycles used in identifying the 
+lowest-energy geometry is increased from 30 to 60.&nbsp; Other values can be set 
+using <tt>LET(<i>nnn</i>)</tt>, where "<i>nnn</i>" is the number of cycles to be used instead of 60.</dt>
+<dd></dd>
+</dl>
+</body>
+</html>

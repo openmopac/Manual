@@ -1,0 +1,96 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Microsoft FrontPage 12.0" name="Generator"/>
+<title>OUTPUT </title>
+<meta content="PDB " name="description"/>
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+</style>
+</head>
+<body bgcolor="#ffffff" link="#0000ff" vlink="#800080">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h2 class="auto-style1">
+<tt>OUTPUT</tt> </h2>
+<p>The size of the normal output file can become very large when large systems 
+are being used.&nbsp; This can make it difficult to find interesting 
+information. To reduce the amount of information printed to the output file, add 
+<tt>OUTPUT </tt>to the keyword list.&nbsp; </p>
+<p>To allow some blocks of data that would otherwise be suppressed by <tt>OUTPUT </tt>
+use <tt>OUTPUT</tt> followed by letters in parentheses,&nbsp; Allowed letters 
+are</p>
+<table align="center">
+<tr>
+<td class="auto-style1">Letter</td>
+<td class="auto-style1">Does not suppress</td>
+</tr>
+<tr>
+<td class="auto-style1">C</td>
+<td>Coordinates</td>
+</tr>
+<tr>
+<td class="auto-style1">F</td>
+<td>Force matrix (in a FORCE calculation)</td>
+</tr>
+<tr>
+<td class="auto-style1">G</td>
+<td>Gradients</td>
+</tr>
+<tr>
+<td class="auto-style1">N</td>
+<td>Normal coordinates (in a FORCE calculation)</td>
+</tr>
+<tr>
+<td class="auto-style1">O</td>
+<td>Orientation (in a FORCE calculation)</td>
+</tr>
+<tr>
+<td class="auto-style1">P</td>
+<td>Atomic Orbital Populations</td>
+</tr>
+<tr>
+<td class="auto-style1">Q</td>
+<td>Fractional atomic charges</td>
+</tr>
+<tr>
+<td class="auto-style1">T</td>
+<td>Topography (atom connectivity)</td>
+</tr>
+<tr>
+<td class="auto-style1">V</td>
+<td>Starting velocity of atoms in a DRC/IRC</td>
+</tr>
+<tr>
+<td class="auto-style1">X</td>
+<td>Cartesian coordinates</td>
+</tr>
+</table>
+<p>Thus, if fractional atomic charges are to be printed, but other voluminous 
+data suppressed, use <tt>OUTPUT(Q)</tt>.&nbsp; If atomic orbital 
+populations are also wanted, use <tt>OUTPUT(QP)</tt>. Note that <tt>OUTPUT</tt> 
+only suppresses output.&nbsp; If some data would not normally be printed, for 
+example, in a <a href="one_scf.html"><tt>1SCF</tt></a> calculation the gradients would 
+not be printed unless <a href="gradients.html"><tt>GRADIENTS</tt></a> was also present, 
+then adding 
+letters to the <tt>OUTPUT</tt> 
+keyword to not suppress the gradients would do nothing.&nbsp;&nbsp; </p>
+</body>
+</html>

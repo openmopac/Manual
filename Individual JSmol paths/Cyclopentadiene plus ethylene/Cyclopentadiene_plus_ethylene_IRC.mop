@@ -1,0 +1,5 @@
+TS gnorm=2   geo_dat="Saddle_TS.arc"
+ Refine transition state for Cyclopentadiene + ethylene <=> bicyclo[2,2,1]heptene
+ 
+oldgeo   IRC=1* HTML X-priority=0.2
+Reaction path for Cyclopentadiene + ethylene <=> bicyclo[2,2,1]heptene

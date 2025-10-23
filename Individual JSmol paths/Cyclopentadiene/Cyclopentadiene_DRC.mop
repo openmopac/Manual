@@ -1,0 +1,5 @@
+TS gnorm=2   geo_dat="Cyclopentadiene narcissistic reaction.arc"
+ Refine transition state for Cyclopentadiene_1 <=> Cyclopentadiene_2
+ 
+oldgeo   IRC=-1* DRC HTML T-priority=0.2 cycles=200 gnorm=0
+Reaction path for Cyclopentadiene_1 <=> Cyclopentadiene_2  

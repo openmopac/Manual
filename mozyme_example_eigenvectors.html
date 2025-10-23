@@ -1,0 +1,55 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Simple MOZYME example </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<b>
+MOZYME example: Print Eigenvectors</b></h1>
+<p align="left">
+The <a href="mozyme.html"><tt>MOZYME</tt></a> method uses localized molecular orbitals.&nbsp; When keyword 
+<a href="vectors.html"><tt>VECTORS</tt></a> 
+is used, MOZYME will print out the LMOs is a highly compressed form.&nbsp; If 
+eigenvectors are required, the occupied and virtual LMOs must be converted into 
+eigenvectors.&nbsp; The keywords for this are <a href="eigen.html"><tt>EIGEN</tt></a> and <tt>VECTORS</tt> or <tt>
+<a href="allvec.html">ALLVECS</a></tt>, if 
+all the eigenvectors are needed. Be careful if all the eigenvectors are 
+requested - the output can be large.</p><p align="left">
+Data-set: </p><pre><b> MOZYME Eigen Vectors
+Optimize the geometry of formic acid 
+
+   O    0.0  0    0.0 0    0.0 0   0  0  0
+   C    1.20 1    0.0 0    0.0 0   0  0  0
+   O    1.32 1  116.8 1    0.0 0   2  1  0
+   H    0.98 1  123.9 1    0.0 0   3  2  1
+   H    1.11 1  127.3 1  180.0 0   2  1  3    
+</b></pre>
+<p>To see the difference between the MOZYME eigenvectors and conventional, run 
+the data set with and without <tt>MOZYME</tt> and look at the eigenvectors in the output 
+file.&nbsp; In MOZYME, the occupied set of eigenvectors and eigenvalues are 
+printed, then the virtual set.&nbsp; This reflects the different methods of 
+generating them.</p>
+<p>Because the calculation of the eigenvectors involves matrix algebra, the 
+computational effort rises as the cube of the size of the system, and can 
+rapidly become very great.&nbsp; For this reason, do not request eigen vectors 
+unless absolutely necessary.</p>
+<p>&nbsp;</p>
+</body>
+</html>

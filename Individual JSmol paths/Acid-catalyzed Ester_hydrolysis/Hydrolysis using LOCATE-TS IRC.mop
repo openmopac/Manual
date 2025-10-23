@@ -1,0 +1,8 @@
+TS charge=1 eps=78.4   geo_dat="Locate-TS.arc" PDBOUT 
+Refine the transition state geometry
+
+oldgeo FORCE ISOTOPE eps=78.4 charge=1
+Verify transition state
+
+oldgeo irc=1* charge=1 eps=78.4  let HTML x-priority=0.05 precise 
+ IRC for Ester Hydrolysis Reaction 

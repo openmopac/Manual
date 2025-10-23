@@ -1,0 +1,3 @@
+measure all (@1) (@2)
+animation mode palindrome 0
+animation play

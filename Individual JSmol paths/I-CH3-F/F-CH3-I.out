@@ -1,0 +1,2732 @@
+ *******************************************************************************
+ ** Site#: 29054        For non-commercial use only    Version 18.025W 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 18.025W, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 364**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Jan 26 10:34:38 2018  *
+ *  SYMMETRY   - SYMMETRY CONDITIONS TO BE IMPOSED
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM =    -1
+ *
+ *
+ *
+ *  EPS= 78.40 - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  STEP       - STEP-SIZE IN PATH =   0.050
+ *  POINT      - NUMBER OF POINTS IN PATH = 70
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  HTML       - WRITE HTML SCRIPT TO GENERATE ANIMATION USING JSMOL
+ *             - TO DISPLAY IN PDB FORMAT, ADD "PDBOUT"
+ *******************************************************************************
+
+
+
+                    PARAMETER DEPENDENCE DATA
+
+        REFERENCE ATOM      FUNCTION NO.    DEPENDENT ATOM(S)
+            2                  1               3
+
+             DESCRIPTIONS OF THE FUNCTIONS USED
+   1      BOND LENGTH    IS SET EQUAL TO THE REFERENCE BOND LENGTH   
+ 
+  charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  ATOM               CHEMICAL                 BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER               SYMBOL                  (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                                           NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1       F(HETATM    1  F   HET B   2)    0.00000000       0.0000000       0.0000000   
+     2      XX(HETATM    2  C   HET B   2)    2.20306996  *    0.0000000       0.0000000        1     0     0
+     3       I(HETATM    3  I   HET B   2)    2.20306996     180.0000000       0.0000000        2     1     0
+     4       C(HETATM    3  C   HET B   2)   -1.00000000  +    0.0000000       0.0000000        2     1     3
+     5       H(HETATM    3 1H   HET B   2)    1.00000000  *   90.0000000  *    0.0000000  *     4     1     3
+     6       H(HETATM    3 2H   HET B   2)    1.00000000  *   90.0000000  *  120.0000000  *     4     1     3
+     7       H(HETATM    3 3H   HET B   2)    1.00000000  *   90.0000000  * -120.0000000  *     4     1     3
+ 
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C H3 F I  =     6 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C3v 
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 11
+
+  ABOUT TO ENTER EF FROM PATHK
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:  3519.853 HEAT:  919.4881
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1911.249 HEAT:  393.0330
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   935.812 HEAT:  66.93820
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   406.520 HEAT: -85.24806
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:   170.793 HEAT: -132.4143
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    66.895 HEAT: -144.6363
+ CYCLE:     7 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    17.558 HEAT: -148.0186
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    12.670 HEAT: -148.6679
+ CYCLE:     9 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.097 HEAT: -149.3431
+ CYCLE:    10 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.938 HEAT: -149.3739
+
+     GRADIENT =  0.93752  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -1.00000     -149.373969
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.14943705 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.14943705 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -1.00000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09380217 +1   71.2566849 +1   -0.0190795 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09385588 +1   71.2526610 +1  119.9741775 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09384361 +1   71.2456874 +1 -120.0201169 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    23.946 HEAT: -148.6488
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    12.187 HEAT: -149.0734
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.858 HEAT: -149.1199
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.933 HEAT: -149.1258
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.978 HEAT: -149.1227
+
+     GRADIENT =  0.97751  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.95000     -149.122747
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.09944939 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.09944939 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.95000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09357934 +1   71.4370827 +1   -0.0279895 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09362064 +1   71.4368060 +1  119.9579567 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09359675 +1   71.4241295 +1 -120.0265987 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.251 HEAT: -148.5187
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.048 HEAT: -148.9621
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.120 HEAT: -149.0708
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.161 HEAT: -149.0676
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.620 HEAT: -149.1838
+
+     GRADIENT =  0.62045  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.90000     -149.183824
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.04696164 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.04696164 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.90000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09434886 +1   71.1831105 +1   -0.0449707 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09431629 +1   71.1934628 +1  119.9311810 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09429696 +1   71.1797344 +1 -120.0399740 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.462 HEAT: -148.5054
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.770 HEAT: -148.9198
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.716 HEAT: -149.0156
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.830 HEAT: -149.0168
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.949 HEAT: -149.0178
+
+     GRADIENT =  0.94874  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.85000     -149.017790
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.99871054 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.99871054 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.85000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09359839 +1   71.3870927 +1   -0.0584557 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09355122 +1   71.3982776 +1  119.9200705 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09354663 +1   71.3816979 +1 -120.0566433 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    23.284 HEAT: -148.3544
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    12.031 HEAT: -148.7478
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.131 HEAT: -149.2012
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.154 HEAT: -149.2002
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.556 HEAT: -149.2028
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.831 HEAT: -149.1976
+
+     GRADIENT =  0.83148  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.80000     -149.197594
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.94803539 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.94803539 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.80000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09362305 +1   71.3309921 +1   -0.0754426 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09369510 +1   71.3369734 +1  119.9004643 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09366196 +1   71.3191748 +1 -120.0747148 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    23.325 HEAT: -148.4496
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.995 HEAT: -148.8356
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.069 HEAT: -148.9378
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.116 HEAT: -148.9433
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.588 HEAT: -148.9589
+
+     GRADIENT =  0.58836  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.75000     -148.958890
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.89580889 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.89580889 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.75000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09426593 +1   71.1207599 +1   -0.1100605 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09426830 +1   71.1304655 +1  119.8631293 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09423339 +1   71.1098279 +1 -120.0901449 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    23.443 HEAT: -148.3341
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.756 HEAT: -148.7324
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.747 HEAT: -148.8296
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.872 HEAT: -148.8312
+ CYCLE:     5 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     1.597 HEAT: -148.8278
+ CYCLE:     6 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     1.498 HEAT: -148.8273
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.70000     -148.831197
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.84912387 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.84912387 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.70000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09268890 +1   71.4886849 +1   -0.1246534 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09271146 +1   71.4973022 +1  119.8473585 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09268081 +1   71.4770118 +1 -120.1059044 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.089 HEAT: -148.2634
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.217 HEAT: -148.6614
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.438 HEAT: -148.7866
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.411 HEAT: -148.7914
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.703 HEAT: -148.7916
+ CYCLE:     6 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.897 HEAT: -148.7922
+
+     GRADIENT =  0.89671  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.65000     -148.792165
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.79693679 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.79693679 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.65000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09354538 +1   71.2436687 +1   -0.1520814 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09368697 +1   71.2501252 +1  119.8305844 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09351090 +1   71.2348743 +1 -120.1363481 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    23.301 HEAT: -147.9877
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.936 HEAT: -148.6070
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.052 HEAT: -148.6844
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.115 HEAT: -148.6904
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.520 HEAT: -148.7023
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.60000     -148.702262
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.74807671 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.74807671 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.60000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09309866 +1   71.3576257 +1   -0.1636840 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09312791 +1   71.3725666 +1  119.8067883 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09299823 +1   71.3581311 +1 -120.1503810 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    23.118 HEAT: -147.8780
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.045 HEAT: -148.4120
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.266 HEAT: -148.4974
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.661 HEAT: -148.5022
+ CYCLE:     5 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     2.465 HEAT: -148.5033
+ CYCLE:     6 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     2.419 HEAT: -148.5036
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.55000     -148.503594
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.69971327 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.69971327 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.55000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09244573 +1   71.5434077 +1   -0.1743465 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09246380 +1   71.5622347 +1  119.7948492 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09233551 +1   71.5490936 +1 -120.1588743 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    22.734 HEAT: -147.6912
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    12.137 HEAT: -148.2035
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.539 HEAT: -148.3046
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     3.335 HEAT: -148.3064
+ CYCLE:     5 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     3.268 HEAT: -148.3070
+ CYCLE:     6 TIME:   0.047 TIME LEFT:  2.00D  GRAD.:     3.234 HEAT: -148.3210
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.50000     -148.320964
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.65085166 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.65085166 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.50000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09177506 +1   71.7019451 +1   -0.1799758 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09176673 +1   71.7289575 +1  119.7764477 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09164303 +1   71.7148485 +1 -120.1469533 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    22.078 HEAT: -147.5345
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.968 HEAT: -147.9531
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.291 HEAT: -148.0630
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     5.920 HEAT: -148.0663
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.45000     -148.066258
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.61461400 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.61461400 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.45000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09117777 +1   71.8375905 +1   -0.1866695 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09118779 +1   71.8631604 +1  119.7878418 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09105883 +1   71.8487243 +1 -120.1565895 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    26.405 HEAT: -146.9104
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    14.611 HEAT: -147.5879
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.363 HEAT: -147.7772
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     4.232 HEAT: -147.7788
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.40000     -147.778796
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.55527292 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.55527292 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.40000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09089669 +1   72.0310917 +1   -0.1892769 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09090363 +1   72.0643446 +1  119.7682868 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09075400 +1   72.0499771 +1 -120.1497398 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    20.746 HEAT: -146.8724
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.373 HEAT: -147.3194
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.608 HEAT: -147.3653
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     8.379 HEAT: -147.3683
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.339 HEAT: -147.3689
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.35000     -147.368877
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.52750617 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.52750617 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.35000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09043532 +1   72.1394472 +1   -0.1944732 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09043638 +1   72.1715499 +1  119.7871639 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09029215 +1   72.1558037 +1 -120.1622416 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.020 TIME LEFT:  2.00D  GRAD.:    27.624 HEAT: -145.9995
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.364 HEAT: -146.6967
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.314 HEAT: -146.8056
+ CYCLE:     4 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     3.826 HEAT: -146.8115
+ CYCLE:     5 TIME:   0.027 TIME LEFT:  2.00D  GRAD.:     3.533 HEAT: -146.8149
+ CYCLE:     6 TIME:   0.031 TIME LEFT:  2.00D  GRAD.:     3.464 HEAT: -146.8156
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.30000     -146.815576
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.46569812 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.46569812 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.30000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09069622 +1   72.3747452 +1   -0.1902796 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09068581 +1   72.4111946 +1  119.7654698 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09057536 +1   72.3992061 +1 -120.1546661 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    19.723 HEAT: -145.6345
+ CYCLE:     2 TIME:   0.012 TIME LEFT:  2.00D  GRAD.:    10.458 HEAT: -146.0282
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.676 HEAT: -146.0735
+ CYCLE:     4 TIME:   0.035 TIME LEFT:  2.00D  GRAD.:     2.388 HEAT: -146.0752
+ CYCLE:     5 TIME:   0.027 TIME LEFT:  2.00D  GRAD.:     2.215 HEAT: -146.0760
+ CYCLE:     6 TIME:   0.051 TIME LEFT:  2.00D  GRAD.:     2.174 HEAT: -146.0761
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :        -0.25000     -146.076133
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.42365690 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.42365690 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.25000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09059709 +1   72.5267693 +1   -0.1942354 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09057449 +1   72.5597301 +1  119.7599809 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09050866 +1   72.5413316 +1 -120.1835952 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    19.110 HEAT: -144.6601
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.765 HEAT: -145.0417
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.894 HEAT: -145.0867
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.235 HEAT: -145.0875
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.639 HEAT: -145.0791
+
+     GRADIENT =  0.63876  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.20000     -145.079125
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.38426831 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.38426831 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.20000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09077160 +1   72.7768567 +1   -0.2270757 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09074202 +1   72.8109476 +1  119.7265947 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09067872 +1   72.7864999 +1 -120.2130431 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    18.159 HEAT: -143.6163
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.876 HEAT: -143.9806
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.079 HEAT: -144.0199
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.572 HEAT: -144.0127
+
+     GRADIENT =  0.57200  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.15000     -144.012653
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.35120811 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.35120811 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.15000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08962712 +1   73.4833126 +1   -0.2565160 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08957683 +1   73.5145201 +1  119.6943448 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08968798 +1   73.4842651 +1 -120.2391509 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    16.366 HEAT: -142.1345
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     8.018 HEAT: -142.3308
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.784 HEAT: -142.3676
+
+     GRADIENT =  0.78427  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.10000     -142.367610
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.32204972 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.32204972 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.10000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08844907 +1   74.3610043 +1   -0.2745248 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08840828 +1   74.3897779 +1  119.6715258 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08850642 +1   74.3536294 +1 -120.2425637 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    13.890 HEAT: -140.1123
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.880 HEAT: -140.2837
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.916 HEAT: -140.3244
+
+     GRADIENT =  0.91604  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :        -0.05000     -140.324418
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.29901054 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.29901054 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)  -0.05000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08774681 +1   75.3953703 +1   -0.2803942 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08769425 +1   75.4219183 +1  119.6906197 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08777193 +1   75.3823883 +1 -120.2588010 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.852 HEAT: -137.7252
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.217 HEAT: -138.2533
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.597 HEAT: -138.3069
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.319 HEAT: -138.3329
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.918 HEAT: -138.3380
+
+     GRADIENT =  0.91822  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.00000     -138.338000
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.28391851 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.28391851 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.00000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08711089 +1   76.8016602 +1   -0.2458174 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08731070 +1   76.7833327 +1  119.7425409 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08732198 +1   76.7522405 +1 -120.2477182 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    10.178 HEAT: -135.4087
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.864 HEAT: -135.5638
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.812 HEAT: -135.6350
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.779 HEAT: -135.6664
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.450 HEAT: -135.6761
+
+     TRUST RADIUS NOW LESS THAN  0.00010 OPTIMIZATION TERMINATING
+      THE GEOMETRY MAY NOT BE COMPLETELY OPTIMIZED
+      (TO CONTINUE, ADD 'LET DDMIN=0.0' TO THE KEYWORD LINE)
+
+          VARIABLE        FUNCTION
+ :         0.05000     -135.676081
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.27583371 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.27583371 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.05000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08619974 +1   78.1491128 +1   -0.2223299 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08636653 +1   78.1208541 +1  119.7673250 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08643044 +1   78.0924781 +1 -120.2188418 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.641 HEAT: -132.5012
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.867 HEAT: -132.5345
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.506 HEAT: -132.6588
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.612 HEAT: -132.6703
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.936 HEAT: -132.6780
+
+     GRADIENT =  0.93590  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.10000     -132.678041
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.27586358 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.27586358 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.10000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08568727 +1   80.1597113 +1   -0.2164882 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08559672 +1   80.1546523 +1  119.7699119 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08567172 +1   80.1484353 +1 -120.2240284 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.475 HEAT: -129.7435
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.469 HEAT: -129.9205
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.000 HEAT: -130.0977
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.331 HEAT: -130.1062
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.185 HEAT: -130.1153
+
+     GRADIENT =  0.18480  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.15000     -130.115265
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.28335906 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.28335906 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.15000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08510608 +1   82.0976323 +1   -0.2532481 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08499622 +1   82.0992998 +1  119.7712190 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08509137 +1   82.0981935 +1 -120.2515162 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.889 HEAT: -127.6395
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.910 HEAT: -127.8907
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.883 HEAT: -128.0676
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.278 HEAT: -128.0686
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.334 HEAT: -128.0666
+
+     GRADIENT =  0.33391  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.20000     -128.066584
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.29214917 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.29214917 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.20000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08498471 +1   84.1555522 +1   -0.2117861 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08499238 +1   84.1382146 +1  119.7686519 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08488852 +1   84.1529737 +1 -120.2536583 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    10.065 HEAT: -126.2783
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.964 HEAT: -126.4605
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.345 HEAT: -126.6411
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.954 HEAT: -126.6433
+
+     GRADIENT =  0.95392  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.25000     -126.643343
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.29577359 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.29577359 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.25000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08564612 +1   86.2660181 +1   -0.2395894 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08552028 +1   86.2459047 +1  119.7779878 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08556631 +1   86.2645070 +1 -120.2670293 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     9.703 HEAT: -125.8578
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.665 HEAT: -126.0993
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.565 HEAT: -126.2786
+
+     GRADIENT =  0.56518  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.30000     -126.278693
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.29575526 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.29575526 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.30000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08612018 +1   88.3187239 +1   -0.2913497 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08614346 +1   88.2980415 +1  119.7359752 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08610773 +1   88.3217576 +1 -120.2261622 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.854 HEAT: -126.4995
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     6.967 HEAT: -126.6561
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.624 HEAT: -126.7996
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.312 HEAT: -126.7992
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.715 HEAT: -126.8302
+
+     GRADIENT =  0.71467  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.35000     -126.830215
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.27638960 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.27638960 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.35000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08654320 +1   90.1100212 +1   -0.3155702 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08628779 +1   90.0922022 +1  119.7186907 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08671355 +1   90.1102738 +1 -120.3137879 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.290 HEAT: -128.2771
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     9.400 HEAT: -128.4722
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.336 HEAT: -128.5882
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.476 HEAT: -128.6002
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.508 HEAT: -128.7885
+
+     GRADIENT =  0.50795  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.40000     -128.788548
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.22616768 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.22616768 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.40000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.08808505 +1   92.3939578 +1   -0.3274708 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.08800088 +1   92.3847115 +1  119.6962969 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.08829922 +1   92.3908963 +1 -120.3353331 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    14.340 HEAT: -131.9457
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    11.718 HEAT: -132.1041
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     5.185 HEAT: -132.4393
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.659 HEAT: -132.4699
+ CYCLE:     5 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.070 HEAT: -132.4865
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.171 HEAT: -132.4846
+
+     GRADIENT =  0.17122  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.45000     -132.484552
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.16415876 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.16415876 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.45000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09121281 +1   94.8140567 +1   -0.3506818 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09112893 +1   94.8037972 +1  119.6756240 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09142191 +1   94.8089732 +1 -120.3490195 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.272 HEAT: -137.6228
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.509 HEAT: -137.9257
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.470 HEAT: -138.2489
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.456 HEAT: -138.2636
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.623 HEAT: -138.2662
+
+     GRADIENT =  0.62349  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.50000     -138.266222
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.12353143 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.12353143 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.50000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09422147 +1   97.1301213 +1   -0.3340070 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09418940 +1   97.1357676 +1  119.6688710 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09445744 +1   97.1331163 +1 -120.3472949 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    12.937 HEAT: -144.4529
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.581 HEAT: -144.6935
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.931 HEAT: -144.8636
+
+     GRADIENT =  0.93104  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.55000     -144.863707
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.10669143 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.10669143 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.55000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09683031 +1   99.3102707 +1   -0.3423971 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09680519 +1   99.3239983 +1  119.6678224 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09699204 +1   99.3230067 +1 -120.3335560 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    11.984 HEAT: -151.2424
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     6.137 HEAT: -151.4366
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.087 HEAT: -151.5340
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.817 HEAT: -151.5265
+
+     GRADIENT =  0.81743  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.60000     -151.526457
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.10952270 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.10952270 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.60000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09859401 +1  101.0230154 +1   -0.3514100 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09855864 +1  101.0362590 +1  119.6540098 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09875431 +1  101.0360206 +1 -120.3429355 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    18.385 HEAT: -157.3394
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.463 HEAT: -157.6214
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.849 HEAT: -157.6678
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     1.300 HEAT: -157.6842
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.292 HEAT: -157.6826
+
+     GRADIENT =  0.29202  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.65000     -157.682601
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.12330257 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.12330257 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.65000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.09981619 +1  102.6372347 +1   -0.3467430 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.09973212 +1  102.6424726 +1  119.6551903 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.09961922 +1  102.6308404 +1 -120.3287963 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.375 HEAT: -162.6192
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.329 HEAT: -162.9767
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.676 HEAT: -163.0063
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.649 HEAT: -163.0168
+
+     GRADIENT =  0.64930  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.70000     -163.016773
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.14684806 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.14684806 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.70000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10061653 +1  104.0019789 +1   -0.3161821 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10044653 +1  104.0056169 +1  119.6673035 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10039577 +1  103.9914719 +1 -120.3180835 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    35.264 HEAT: -166.9271
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     5.022 HEAT: -167.5931
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.439 HEAT: -167.6145
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.554 HEAT: -167.6213
+
+     GRADIENT =  0.55368  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.75000     -167.621315
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.17521220 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.17521220 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.75000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10136063 +1  105.1598079 +1   -0.3042954 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10119017 +1  105.1581724 +1  119.6718179 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10124089 +1  105.1519463 +1 -120.2794526 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    43.881 HEAT: -170.4542
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     8.286 HEAT: -171.3002
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.277 HEAT: -171.3302
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.966 HEAT: -171.3354
+
+     GRADIENT =  0.96608  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.80000     -171.335433
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.20932837 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.20932837 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.80000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10231895 +1  106.0378799 +1   -0.2965452 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10213026 +1  106.0362196 +1  119.6888192 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10215962 +1  106.0334715 +1 -120.2758158 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    50.496 HEAT: -173.1971
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    12.134 HEAT: -174.1718
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     2.481 HEAT: -174.2334
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.974 HEAT: -174.2380
+
+     GRADIENT =  0.97366  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.85000     -174.237974
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.24719235 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.24719235 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.85000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10306854 +1  106.8311736 +1   -0.2935708 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10286440 +1  106.8288533 +1  119.7264362 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10285393 +1  106.8291446 +1 -120.2793402 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    55.556 HEAT: -175.2638
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    15.660 HEAT: -176.3582
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.629 HEAT: -176.4555
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.796 HEAT: -176.4572
+
+     GRADIENT =  0.79586  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.90000     -176.457199
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.28769208 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.28769208 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.90000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10367806 +1  107.5085598 +1   -0.2781184 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10349751 +1  107.5045198 +1  119.7395793 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10349480 +1  107.5037352 +1 -120.2668477 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    59.767 HEAT: -176.7762
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    18.823 HEAT: -177.8838
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     2.834 HEAT: -178.0275
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.592 HEAT: -178.0292
+
+     GRADIENT =  0.59210  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.95000     -178.029235
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.33031267 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.33031267 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   0.95000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10420846 +1  108.0662106 +1   -0.2744162 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10401211 +1  108.0574469 +1  119.7428159 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10405987 +1  108.0624057 +1 -120.2567184 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    63.238 HEAT: -177.8011
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    21.437 HEAT: -179.0322
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.087 HEAT: -179.2123
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.397 HEAT: -179.2141
+
+     GRADIENT =  0.39664  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.00000     -179.214143
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.37470192 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.37470192 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.00000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10465708 +1  108.5111531 +1   -0.2729133 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10445873 +1  108.4994586 +1  119.7414218 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10461062 +1  108.5136100 +1 -120.2531312 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    66.024 HEAT: -178.5278
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    23.620 HEAT: -179.7778
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.396 HEAT: -180.0073
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.288 HEAT: -180.0113
+
+     GRADIENT =  0.28755  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.05000     -180.011337
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.42047498 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.42047498 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.05000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10500823 +1  108.8585723 +1   -0.2759097 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10481816 +1  108.8448391 +1  119.7370796 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10501750 +1  108.8593682 +1 -120.2503726 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    68.245 HEAT: -178.9552
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    25.293 HEAT: -180.2634
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.676 HEAT: -180.5257
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.327 HEAT: -180.5287
+
+     GRADIENT =  0.32674  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.10000     -180.528681
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.46740253 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.46740253 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.10000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10532130 +1  109.1193576 +1   -0.2785609 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10511811 +1  109.1057181 +1  119.7308383 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10532281 +1  109.1220202 +1 -120.2532414 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    69.922 HEAT: -179.2256
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    26.528 HEAT: -180.5689
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     3.910 HEAT: -180.8699
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.456 HEAT: -180.8750
+
+     GRADIENT =  0.45616  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.15000     -180.874970
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.51523960 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.51523960 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.15000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10557339 +1  109.3091319 +1   -0.2799001 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10537962 +1  109.2955842 +1  119.7274238 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10556913 +1  109.3133517 +1 -120.2550450 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    71.159 HEAT: -179.2147
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.365 HEAT: -180.6000
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.120 HEAT: -180.9087
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.591 HEAT: -180.9136
+
+     GRADIENT =  0.59075  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.20000     -180.913572
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.56378927 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.56378927 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.20000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10569449 +1  109.4361357 +1   -0.2802480 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10559408 +1  109.4275991 +1  119.7275264 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10579292 +1  109.4461561 +1 -120.2588806 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.048 HEAT: -179.2964
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.949 HEAT: -180.6896
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.267 HEAT: -181.0080
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.697 HEAT: -181.0156
+
+     GRADIENT =  0.69694  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.25000     -181.015573
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.61287642 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.61287642 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.25000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10583380 +1  109.5216646 +1   -0.2834493 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10575544 +1  109.5145181 +1  119.7267556 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10594177 +1  109.5337977 +1 -120.2629311 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.647 HEAT: -179.3334
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    28.287 HEAT: -180.7534
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.376 HEAT: -181.0890
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.787 HEAT: -181.0961
+
+     GRADIENT =  0.78699  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.30000     -181.096122
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.66236373 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.66236373 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.30000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10595016 +1  109.5741020 +1   -0.2852410 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10586628 +1  109.5670515 +1  119.7255043 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10605529 +1  109.5866712 +1 -120.2653060 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    73.015 HEAT: -179.3456
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    28.462 HEAT: -180.7568
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.459 HEAT: -181.0991
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.860 HEAT: -181.1086
+
+     GRADIENT =  0.85950  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.35000     -181.108587
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.71211999 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.71211999 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.35000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10603435 +1  109.5998741 +1   -0.2774270 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10595717 +1  109.5941695 +1  119.7246869 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10613067 +1  109.6120493 +1 -120.2762840 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    73.186 HEAT: -179.2644
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    28.494 HEAT: -180.6888
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.487 HEAT: -181.0317
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.912 HEAT: -181.0412
+
+     GRADIENT =  0.91183  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.40000     -181.041222
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.76206993 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.76206993 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.40000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10608072 +1  109.6060663 +1   -0.2846395 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10605061 +1  109.6014019 +1  119.7226430 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10614025 +1  109.6149767 +1 -120.2883309 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    73.303 HEAT: -179.2822
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    28.478 HEAT: -180.7203
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.506 HEAT: -181.0591
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.934 HEAT: -181.0694
+
+     GRADIENT =  0.93411  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.45000     -181.069382
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.81214921 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.81214921 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.45000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10612062 +1  109.6041489 +1   -0.2851070 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10609104 +1  109.5990180 +1  119.7186539 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10618144 +1  109.6105767 +1 -120.2962933 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    73.305 HEAT: -179.3321
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    28.399 HEAT: -180.7725
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.503 HEAT: -181.1070
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.944 HEAT: -181.1169
+
+     GRADIENT =  0.94418  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.50000     -181.116946
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.86228493 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.86228493 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.50000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10613817 +1  109.5970151 +1   -0.2910745 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10614927 +1  109.5927834 +1  119.7113439 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10621136 +1  109.6053949 +1 -120.3048348 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    73.245 HEAT: -179.3886
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    28.344 HEAT: -180.8322
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.486 HEAT: -181.1743
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.950 HEAT: -181.1863
+
+     GRADIENT =  0.95030  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.55000     -181.186309
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.91242423 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.91242423 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.55000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10618445 +1  109.5878377 +1   -0.2992248 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10617370 +1  109.5840444 +1  119.6968361 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10622793 +1  109.5968562 +1 -120.3116756 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    73.153 HEAT: -179.4860
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    28.274 HEAT: -180.9236
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.492 HEAT: -181.2608
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.961 HEAT: -181.2720
+
+     GRADIENT =  0.96075  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.60000     -181.271964
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   2.96251119 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   2.96251119 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.60000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10622701 +1  109.5773406 +1   -0.3114209 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10619899 +1  109.5709089 +1  119.6921453 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10624938 +1  109.5875270 +1 -120.3129447 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    73.145 HEAT: -179.5746
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    28.202 HEAT: -181.0026
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.473 HEAT: -181.3372
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.942 HEAT: -181.3474
+
+     GRADIENT =  0.94220  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.65000     -181.347412
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.01263112 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.01263112 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.65000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10625178 +1  109.5707271 +1   -0.3194375 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10623178 +1  109.5632267 +1  119.6903458 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10629823 +1  109.5795570 +1 -120.3178199 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    73.045 HEAT: -179.6415
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    28.122 HEAT: -181.0092
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.459 HEAT: -181.3510
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.934 HEAT: -181.4458
+
+     GRADIENT =  0.93366  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.70000     -181.445750
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.06269924 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.06269924 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.70000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10628022 +1  109.5676082 +1   -0.3248378 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10626558 +1  109.5595710 +1  119.6870501 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10633484 +1  109.5746362 +1 -120.3221105 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    73.001 HEAT: -179.6506
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    28.076 HEAT: -181.0956
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.455 HEAT: -181.4251
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.931 HEAT: -181.4388
+
+     GRADIENT =  0.93118  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.75000     -181.438831
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.11274401 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.11274401 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.75000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10632864 +1  109.5668302 +1   -0.3270020 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10630849 +1  109.5577840 +1  119.6822797 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10635979 +1  109.5714426 +1 -120.3263869 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    72.980 HEAT: -179.7378
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    28.039 HEAT: -181.0899
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.444 HEAT: -181.4212
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.922 HEAT: -181.4305
+
+     GRADIENT =  0.92173  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.80000     -181.430490
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.16279039 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.16279039 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.80000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10636237 +1  109.5683108 +1   -0.3314539 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10633238 +1  109.5585834 +1  119.6809117 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10640295 +1  109.5732007 +1 -120.3314312 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.945 HEAT: -179.7435
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.996 HEAT: -181.1821
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.436 HEAT: -181.5135
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.913 HEAT: -181.5236
+
+     GRADIENT =  0.91264  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.85000     -181.523637
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.21282472 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.21282472 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.85000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10639341 +1  109.5711699 +1   -0.3339157 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10635392 +1  109.5634833 +1  119.6772737 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10641848 +1  109.5776417 +1 -120.3368335 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.912 HEAT: -179.8183
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.940 HEAT: -181.2619
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.436 HEAT: -181.5898
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.917 HEAT: -181.6008
+
+     GRADIENT =  0.91742  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.90000     -181.600768
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.26285933 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.26285933 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.90000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10642986 +1  109.5725482 +1   -0.3378842 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10637515 +1  109.5663510 +1  119.6729957 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10645310 +1  109.5815595 +1 -120.3394303 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    72.900 HEAT: -179.9577
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.907 HEAT: -181.3697
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.417 HEAT: -181.7405
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.915 HEAT: -181.7502
+
+     GRADIENT =  0.91474  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.95000     -181.750155
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.31291579 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.31291579 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   1.95000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10647775 +1  109.5756703 +1   -0.3353207 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10637600 +1  109.5691006 +1  119.6696577 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10649967 +1  109.5859651 +1 -120.3377359 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    72.854 HEAT: -180.0719
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.852 HEAT: -181.5245
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.441 HEAT: -181.8424
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.934 HEAT: -181.8534
+
+     GRADIENT =  0.93414  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.00000     -181.853386
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.36293858 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.36293858 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.00000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10651347 +1  109.5765030 +1   -0.3347778 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10639299 +1  109.5706578 +1  119.6722252 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10653122 +1  109.5874370 +1 -120.3367580 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.856 HEAT: -180.1826
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.834 HEAT: -181.6316
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.422 HEAT: -181.9581
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.929 HEAT: -181.9680
+
+     GRADIENT =  0.92927  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.05000     -181.967984
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.41300558 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.41300558 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.05000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10651571 +1  109.5769906 +1   -0.3406283 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10642416 +1  109.5720186 +1  119.6696265 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10651469 +1  109.5876128 +1 -120.3340189 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.805 HEAT: -180.2974
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.767 HEAT: -181.6416
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.412 HEAT: -181.9663
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.928 HEAT: -181.9752
+
+     GRADIENT =  0.92806  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.10000     -181.975210
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.46305947 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.46305947 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.10000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10654628 +1  109.5774748 +1   -0.3479559 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10644186 +1  109.5738107 +1  119.6669027 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10652326 +1  109.5878048 +1 -120.3387710 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    72.755 HEAT: -180.3040
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.757 HEAT: -181.7563
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.396 HEAT: -182.0914
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.925 HEAT: -182.1022
+
+     GRADIENT =  0.92476  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.15000     -182.102201
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.51308489 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.51308489 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.15000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10657852 +1  109.5798274 +1   -0.3553251 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10644671 +1  109.5745600 +1  119.6582079 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10655869 +1  109.5879986 +1 -120.3472783 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    72.745 HEAT: -180.4248
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.781 HEAT: -181.8812
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.403 HEAT: -182.1699
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.920 HEAT: -182.1799
+
+     GRADIENT =  0.91985  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.20000     -182.179862
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.56308063 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.56308063 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.20000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10658740 +1  109.5821170 +1   -0.3643896 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10646651 +1  109.5765254 +1  119.6497938 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10658714 +1  109.5899555 +1 -120.3571190 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.685 HEAT: -180.4827
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.748 HEAT: -181.9147
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.402 HEAT: -182.2529
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.922 HEAT: -182.2533
+
+     GRADIENT =  0.92199  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.25000     -182.253291
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.61303899 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.61303899 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.25000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10651912 +1  109.5863915 +1   -0.3596652 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10652127 +1  109.5805754 +1  119.6517722 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10654811 +1  109.5924119 +1 -120.3534009 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    72.734 HEAT: -180.5627
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.768 HEAT: -182.0098
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.403 HEAT: -182.3403
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.917 HEAT: -182.3479
+
+     GRADIENT =  0.91697  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.30000     -182.347945
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.66301879 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.66301879 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.30000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10654372 +1  109.5924500 +1   -0.3559966 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10654734 +1  109.5849620 +1  119.6538968 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10652640 +1  109.5976539 +1 -120.3624395 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    72.743 HEAT: -180.6208
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.758 HEAT: -182.0479
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.410 HEAT: -182.3694
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.915 HEAT: -182.3816
+
+     GRADIENT =  0.91496  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.35000     -182.381551
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.71300757 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.71300757 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.35000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10654849 +1  109.5989983 +1   -0.3623866 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10654200 +1  109.5879915 +1  119.6501891 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10654925 +1  109.6019800 +1 -120.3589764 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    72.733 HEAT: -180.6984
+ CYCLE:     2 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    27.758 HEAT: -182.1239
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     4.403 HEAT: -182.4447
+ CYCLE:     4 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     0.903 HEAT: -182.4524
+
+     GRADIENT =  0.90287  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.40000     -182.452379
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.76298132 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.76298132 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.40000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10654168 +1  109.6046974 +1   -0.3714638 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10656238 +1  109.5983108 +1  119.6520341 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10655655 +1  109.6092370 +1 -120.3708725 +1     4     1     3
+ 
+   2  1    3
+ 
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:    72.704 HEAT: -180.7608
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    27.753 HEAT: -182.0962
+ CYCLE:     3 TIME:   0.016 TIME LEFT:  2.00D  GRAD.:     4.403 HEAT: -182.4224
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.916 HEAT: -182.4307
+
+     GRADIENT =  0.91630  IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         2.45000     -182.430660
+*
+*  In this example, the I-XX-F angle is defined as being 180 degrees.
+*  This angle was locked, to avoid rotation of the hydrogen atoms about the axis.
+*  If this constraint is removed, by setting the angle to 170 degrees and changin
+*  the optimization flag from "0" to "1", then the resulting energy plot will be
+*  the same, but the graphic will appear to jerk - this is because the system is
+*  discontinuously rotating.
+*
+ charge=-1 symmetry html  step=0.05 points=70 html eps=78.4
+ Locate the transition state for F(-) + CH3I => CH3F + I(-) using a symmetry-defined dummy atom
+
+  F(HETATM    1  F   HET B   2)   0.00000000 +0    0.0000000 +0    0.0000000 +0
+ XX(HETATM    2  C   HET B   2)   3.81293830 +1    0.0000000 +0    0.0000000 +0     1     0     0
+  I(HETATM    3  I   HET B   2)   3.81293830 +0  180.0000000 +0    0.0000000 +0     2     1     0
+  C(HETATM    3  C   HET B   2)   2.45000000 -1    0.0000000 +0    0.0000000 +0     2     1     3
+  H(HETATM    3 1H   HET B   2)   1.10654928 +1  109.6103484 +1   -0.3754946 +1     4     1     3
+  H(HETATM    3 2H   HET B   2)   1.10652929 +1  109.6046715 +1  119.6426480 +1     4     1     3
+  H(HETATM    3 3H   HET B   2)   1.10657799 +1  109.6150416 +1 -120.3682974 +1     4     1     3
+ 
+   2  1    3
+ 
+
+                POINTS ON REACTION PATH 
+                AND CORRESPONDING HEATS
+
+
+      -1.00000000      -0.95000000      -0.90000000      -0.85000000      -0.80000000      -0.75000000      -0.70000000      -0.65000000
+    -149.37396883    -149.12274665    -149.18382429    -149.01778974    -149.19759363    -148.95889031    -148.83119693    -148.79216515
+      -0.60000000      -0.55000000      -0.50000000      -0.45000000      -0.40000000      -0.35000000      -0.30000000      -0.25000000
+    -148.70226184    -148.50359417    -148.32096421    -148.06625753    -147.77879575    -147.36887670    -146.81557568    -146.07613277
+      -0.20000000      -0.15000000      -0.10000000      -0.05000000       0.00000000       0.05000000       0.10000000       0.15000000
+    -145.07912457    -144.01265342    -142.36761022    -140.32441821    -138.33800031    -135.67608091    -132.67804069    -130.11526471
+       0.20000000       0.25000000       0.30000000       0.35000000       0.40000000       0.45000000       0.50000000       0.55000000
+    -128.06658387    -126.64334323    -126.27869318    -126.83021455    -128.78854755    -132.48455216    -138.26622179    -144.86370718
+       0.60000000       0.65000000       0.70000000       0.75000000       0.80000000       0.85000000       0.90000000       0.95000000
+    -151.52645747    -157.68260133    -163.01677254    -167.62131477    -171.33543259    -174.23797443    -176.45719940    -178.02923461
+       1.00000000       1.05000000       1.10000000       1.15000000       1.20000000       1.25000000       1.30000000       1.35000000
+    -179.21414255    -180.01133730    -180.52868119    -180.87496973    -180.91357247    -181.01557298    -181.09612159    -181.10858699
+       1.40000000       1.45000000       1.50000000       1.55000000       1.60000000       1.65000000       1.70000000       1.75000000
+    -181.04122188    -181.06938152    -181.11694556    -181.18630949    -181.27196372    -181.34741216    -181.44575049    -181.43883091
+       1.80000000       1.85000000       1.90000000       1.95000000       2.00000000       2.05000000       2.10000000       2.15000000
+    -181.43049000    -181.52363702    -181.60076802    -181.75015538    -181.85338639    -181.96798443    -181.97521040    -182.10220074
+       2.20000000       2.25000000       2.30000000       2.35000000       2.40000000       2.45000000
+    -182.17986205    -182.25329149    -182.34794482    -182.38155125    -182.45237920    -182.43066019
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             3.64 SECONDS
+
+ == MOPAC DONE ==

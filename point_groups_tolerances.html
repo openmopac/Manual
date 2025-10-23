@@ -1,0 +1,52 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Tolerance</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1><a name="SECTION0012103500000000000000">
+Tolerance</a> for Identification of Point-Groups</h1>
+Normally, molecular geometries do not exactly correspond to the idealized
+point-group.  Thus benzene might have slightly different bond-lengths and
+angles.  Of course, symmetry could be used to prevent this, but in the
+discussion here we assume that the symmetry of the system is unknown.  To allow
+for these slight distortions, a small tolerance is built in to the tests for
+symmetry elements. This starts off at 0.1&Aring; , but may be tightened
+automatically if ambiguities are detected.  An example of such an ambiguity is
+found in <a href="ref_data/cyc7h7_cat.mop">tropylium</a>, C<sub>7</sub>H<sub>7</sub><sup>+</sup> ion, where the C-C distance is 1.4 &Aring;.
+Rotating the ring by 45 degrees (a C<sub>8</sub> operation) would place the atoms at a
+distance of only 0.18&Aring;  from equivalent positions.  C<sub>7</sub> and C<sub>8</sub> would
+thus  give almost identical results.  To resolve such ambiguities, when they
+arise, the tolerance is reduced, and the test re-run.
+<p>
+Even with this feature, some systems still resist classification.   A distorted
+geometry might have some, but not all, elements of a high point group.  Perhaps
+a distorted benzene has a C<sub>2</sub>(z) and a C<sub>3</sub>(z), but  not a C<sub>6</sub>(z),
+impossible in a real system.  As such it would appear to be different from all
+real point groups.  To accommodate such defects a descent in symmetry is
+carried out.  This consists of checking each point-group in turn, in order of
+decreasing symmetry.  Once all of the elements of a point group are satisfied,
+the system is assigned to that point group, even if the system contains more
+symmetry than the point group.
+</p><p>
+By these two devices, a variable tolerance and the descent in symmetry, most
+systems should be identified correctly, or at least as a sub-group of the full
+point group.
+</p></body>
+</html>

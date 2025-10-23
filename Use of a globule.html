@@ -1,0 +1,182 @@
+<HTML>
+<HEAD>
+<TITLE>Use of a globule</TITLE>
+                                                                                                                    <style type="text/css">
+																													.auto-style1 {
+																														text-align: center;
+																													}
+																													.auto-style2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+																													</style>
+                                                                                                                    </HEAD>
+<BODY LINK="#0000ff" VLINK="#800080" BGCOLOR="#ffffff">
+<p><font face="Arial">(<a href="Modeling_proteins.html#Intrinsic">Modeling proteins</a>)</font></p>
+<h1 class="auto-style1" ><a name="Top">The</a> Globule model of an enzyme</h1>
+<p class="auto-style1" ><font face="Arial"><a href="#General">General</a> -
+<a href="#The%20Globule%20model">Globule model</a> - <a href="#Description">
+Description of Globule</a> - <a href="#Construction">Construction of Globule 
+system</a> </font></p>
+<h3 class="auto-style2"><a name="General">General</a> (<a href="#Top">top</a>)</h3>
+<p class="auto-style2">Based on experience there is no doubt that modeling 
+entire proteins, particularly enzymes, is difficult.&nbsp; First, these systems are large, and the 
+computational effort required for many of the steps involved in modeling can 
+take a long time, often days to weeks.&nbsp; And even when a job ends quite 
+often a minor error is found, particularly in hydrogenation, and the job has to 
+be re-run.&nbsp;&nbsp; Second, given that differences in heats of formation are 
+frequently used in mapping out mechanisms a reliable calculation of the &Delta;H<sub>f </sub>is essential. But when entire enzymes 
+are used, quite often minor changes in the active site can result in  significant changes 
+far from the active site.&nbsp; This is a consequence of the geometry 
+optimization process - because this process works by minimizing the &Delta;H<sub>f</sub>, unavoidable errors in the original placement of hydrogen atoms, particularly 
+those in water molecules, can result in the hydrogen bond lattice being 
+sub-optimal.&nbsp; In principle, errors of this type could be corrected by simulated 
+annealing, but that is also difficult to do.</p>
+<p class="auto-style2">So in an attempt to simplify modeling of phenomena in 
+enzymes, a new approach has been designed.&nbsp; For convenience this is called 
+a Globule, as in, &quot;Can this simulation be modeled using a Globule?&quot;</p>
+<h3 class="auto-style2" dir="ltr"><a name="The Globule model">The Globule model</a> 
+(<a href="#Top">top</a>)</h3>
+<p class="auto-style2">A Globule is a model of an active site of an enzyme.&nbsp; 
+This model is large enough to allow docking of ligands and enzyme-catalyzed 
+reaction mechanisms to be explored. At the same time, computational modeling 
+experiments run much faster than if the full enzyme were to be used.&nbsp; </p>
+<p class="auto-style2" >Three important types of calculation can be done in the 
+active region:</p>
+<p class="auto-style2" >(1) Geometry optimization.&nbsp; This is an essential 
+step in all simulations.&nbsp; 
+Setting up and running geometry optimizations is straightforward and reliable, 
+however because these systems are quite large these jobs can take days  
+to run.</p>
+<p class="auto-style2" >(2) Transition state location.&nbsp; Essential for 
+modeling individual steps.&nbsp; Locating and refining transition state 
+geometries is not easy, and even with the Globule model the jobs are very 
+time-consuming, but there are many strategies that can be used.&nbsp; These 
+include following a reaction path, using symmetry when a reaction involves 
+simple bond-breaking - bond-making, and using transition-state location methods, 
+such as <a href="Locate-TS.html"><tt>LOCATE-TS</tt></a> and <a href="saddle.html"><tt>SADDLE</tt></a>. 
+Both of these methods use two data-sets, one on each side of the transition 
+state.&nbsp; </p>
+<p class="auto-style2" >(3) Reaction paths.&nbsp; Three types are supported, two 
+of these are the 
+Intrinsic Reaction Coordinate (<tt><a href="irc.html">IRC</a></tt>) and Dynamic Reaction Coordinate (<tt><a href="drc.html">DRC</a></tt>).&nbsp; 
+Both 
+start at the transition state and by moving in one direction along the reaction 
+coordinate, then in the other direction, the reaction path can be mapped out.&nbsp; 
+The third approach is the simple reaction path from stationary point to 
+stationary point.&nbsp; Sometimes following a reaction path can reveal a 
+possible intermediate that had not previously been suggested.</p>
+<h3 class="auto-style2"><a name="Description">Description</a> of Globule (<a href="#Top">top</a>)</h3>
+<p class="auto-style2">A Globule consists of two parts: </p>
+<p class="auto-style2">(1) The site of interest.&nbsp; This would normally be 
+defined by the ligand(s) non-covalently bound to the enzyme or a set of residues 
+that take part in a reaction mechanism.</p>
+<p class="auto-style2">(2) All atoms that are within 12 &Aring;ngstroms 
+of any ligand atom in the site of interest.
+<img border="1" src="Use%20of1.PNG" align="right" width="724" height="526"></p>
+<h3 class="auto-style2"><a name="Construction">Construction</a> of a starting 
+Globule system (<a href="#Top">top</a>)</h3>
+<p class="auto-style2">The assumption is made that the entire system is 
+available as a normal PDB file.&nbsp; At this point it is not necessary that the 
+system includes hydrogen atoms, in fact if they are present they will be 
+deleted in the first step.&nbsp; All that is needed is a file in PDB format that 
+contains the non-hydrogen atoms of enzyme, the ligand(s) and whatever small molecules, 
+e.g., oxygen 
+atoms of water molecules, are present.&nbsp; For the purposes of this discussion the 
+PDB file will be named 1ABC.pdb, and the ligands will be identified as having residue names 
+and numbers LIA-400 and LIB-401, and have the chain-letter K.</p>
+<h4 class="auto-style2">Step 1: Identify all atoms to be used.</h4>
+<p class="auto-style2">A MOPAC data-set, &quot;<b>Step-1.mop</b>&quot;, is constructed. This would have the 
+form:</p>
+<table border="1" cellspacing="1" >
+  <tr>
+    <td ><PRE>&nbsp;</pre>
+    <PRE><font size="4">    <a href="geo_dat.html">GEO_DAT</a>="1ABC.pdb" <a href="opt_label.html">OPT</a>(&quot;K 400"=12,&quot;K 401"=12) <a href="zero_scf.html">0SCF</a> <a href="html.html">HTML</a> <a href="output.html">OUTPUT</a>
+    Identify all atoms within 12 Angstroms of residues 400 and 401</font> </td></PRE>
+  </tr>
+</table>
+<p class="auto-style2">Keywords <tt>HTML</tt> and <tt>OUTPUT</TT> are not really necessary, but 
+they make working with these systems much easier.</p>
+<p class="auto-style2">When this job is run, it generates an ARC file that has 
+the optimization flags of 
+all atoms within 12 &Aring;ngstroms of any atom in either ligand set to &quot;+1&quot;&nbsp; 
+and the optimization flags of all other atoms set to &quot;+0&quot;.</p>
+<h4 class="auto-style2">Step 2: Isolate all atoms to be used.</h4>
+
+<p class="auto-style2">Isolating all the atoms to be used, 
+i.e., those with the flags &quot;+1&quot;, is not done using MOPAC, instead this 
+task is performed using applications that depend on which operating system is 
+being used.&nbsp; Commands of the 
+type:</p>
+<table border="1" cellspacing="1">
+  <tr>
+    <td>
+    <p align="center">Windows:</td>
+    <td><PRE><font size="4">
+    find &quot;+1&quot; Step-1.arc &gt; Step-2.txt</font> </td><pre></td></tr>
+  <tr>
+    <td>Linux and Mac:</td>
+    <td><PRE><font size="4">
+    grep +1 Step-1.arc &gt; Step-2.txt</font> </td><pre></pre></tr>
+</table>
+<p class="auto-style2">would likely be useful here. This operation is called Step 2, so for convenience the file-name Step-2.mop is not used, instead the data-set in the next step, which does use MOPAC, will be referred to as Step-3.mop.</p>
+<p class="auto-style2">Look at Step-2.txt and delete any lines that are bland or are clearly not atoms, i.e., are not PDB lines. At this point, the system does not look sensible.  Some atoms selected by <tt>OPT</TT> might be isolated from the rest of the system, some groups, such as phenyl rings, might have one or more atoms missing, and some residues might be incomplete. </p>
+<p class="auto-style2">There are two options for selecting the atoms that are to be included in the globule.</p>
+<p class="auto-style2"><u>Option 1:</u> Inspect the system, and delete all moieties at the surface of the globule that are not covalently bound to the protein.  This includes fragments of residues and water oxygen atoms that would be near the boundary.  These entities should be deleted because if they were not they would be converted into small molecules in the next step, and later on they might drift to form non-covalent bonds with the rest of the globule.</p>
+<p class="auto-style2"><u>Option 2:</u> Inspect the system, and identify all the residues present in the globule.  Edit either the original file 1ABC.pdb or the ARC file Step-1.arc to include all atoms in every residue in the globule.  Also include the water oxygen atoms that are inside the globule but not near to the boundary.  Flag all atoms for optimization. Name the resulting file &quot;Step-2.txt&quot;</p>
+<h4 class="auto-style2">Step 3: Hydrogenate the system.</h4><p class="auto-style2">Hydrogenation is done in two steps.  First, all atoms that can be hydrogenated are hydrogenated.  
+This gives rise to a system in which everything that can be neutral is in fact neutral, that is at this point there are no ionized residues or molecules.  The only atoms that would be ionized at this point are those that are always ionized, such as the alkali metal atoms.</p><p class="auto-style2">A data-set named &quot;<b>Step-3.mop</b>&quot; for this would have the following form:</p><table border="1" cellspacing="1">
+  <tr>
+    <td><PRE><font size="4">
+HTML <a href="add-h.html">ADD-H</a> GEO_DAT=&quot;Step-2.txt&quot; OUTPUT
+Simple hydrogenation of system in Step-2 - this gives the template hydrogenation for Step-4 to modify</font> </td>
+</table>
+<p class="auto-style2">As expected, this operation hydrogenates all the residues and ligands and other small molecules.  
+It also hydrogenates atoms that might have &quot;dangling valencies&quot; - atoms that were near to the 12 Ångstrom boundary and one or more atoms that were bonded to 
+them were outside the boundary and therefore excluded from the system. If any fragments described in step 2 were not deleted, these would give rise to some strange compounds such as ammonia, methane, formaldehyde, etc.  Although compounds of this type are normally not important and could be ignored, to prevent the possibility of these small molecules from drifting and possibly forming hydrogen bonds with the protein, thus changing the heat of formation of the system, it is important to delete all moieties of this type at this point.<br></p><h4 class="auto-style2">Step 4: Correct the hydrogenation.</h4>
+
+<p class="auto-style2">The default hydrogenation is almost never correct.  Each system has its own identifiable set of ionized sites, and individual hydrogen atoms should be added and 
+deleted so as to achieve the correct ionization.  In addition, sometimes a PDB file has a severe geometric error that causes the bond-order between two atoms to be wrongly assigned.  
+
+This kind of error must also be corrected by selectively adding or deleting hydrogen atoms.  Over the past decade the number of errors of this type in PDB files has dropped significantly, 
+but for older PDB files there is a real possibility of encountering errors of this type.</p><p class="auto-style2">Adjusting the hydrogenation is best done iteratively.  To begin with, a list of the sites that 
+should be ionized must be constructed.  Then using a data-set named &quot;<b>Step-4a.mop</b>&quot; of the type:</p><table border="1" cellspacing="1">
+  <tr>
+    <td><PRE><font size="4">
+HTML  GEO_DAT=&quot;Step-3.arc&quot; OUTPUT <a href="site.html">SITE=</a>(<i>text</i>)
+Adjust the hydrogenation from Step-3 to produce the starting geometry for optimizations</font> </td>
+</table>
+<p class="auto-style2">
+</p><p class="auto-style2">add and  delete hydrogen atoms using the keyword <TT>SITE</TT> to achieve the desired effect.  
+Each change is specified by an entry in &quot;<i><tt>text</TT></i>&quot; so, for example, if an oxygen atom on a phosphate group needed to be ionized, the keyword could be SITE=(&quot;[PO4]401:A.O2&quot;(-)) </p><p class="auto-style2" dir="ltr">Run Step-4a.mop.  
+This run does not generate a list of ionized sites, so make a second data-set named &quot;<b>Step-4b.mop</b>&quot; that has the following keywords:</p>
+</p><table border="1" cellspacing="1">
+  <tr>
+    <td><PRE><font size="4">
+HTML  GEO_DAT=&quot;Step-4a.arc&quot; OUTPUT <a href="charges.html">CHARGES</a>
+Identify all charged sites</font> </td>
+</table>
+<p class="auto-style2" dir="ltr"> Run Step-4b.mop and look at the list of charged sites in the output.  Also look at the geometry using a GUI.  Check that the hydrogenation and ionization are correct.  If there are any faults, edit Step-4.mop to correct them, and re-run Step-4a.mop and Step-4b.mop.</p><p class="auto-style2" dir="ltr">
+Only after the hydrogenation is correct should the move to Step 5 be made. </p><h4 class="auto-style2">Step 5: Optimize the positions of all atoms.</h4>
+<p class="auto-style2" >This job, &quot;<b>Step-5.mop</b>&quot;, requires a significant amount of CPU time, so specify a long time, three weeks are allowed in the example below.  In practice, the job will run in a much smaller time so this option simply means that it won't run out of time.  
+From here on all jobs will need <tt>MOZYME</tt>.  An important safety feature is to always use keyword <TT><a href="charge.html">CHARGE</a></TT>.  If, as often happens in complicated reactions, 
+the Lewis structure changes so that the computed net charge also changes resulting in the computed charge changing, the presence of this keyword would result in the user being alerted, then corrective action, typically using <tt><a href="CVB.html">CVB</a></tt> or <tt><a href="setpi.html">SETPI</a></tt>, can be taken to ensure that the net charge is reset to its original value.</p><p></p><table border="1" cellspacing="1">
+  <tr>
+    <td><PRE><font size="4">
+MOZYME CHARGE=<i>n</i> HTML T=3W GEO_DAT=&quot;Step-5.arc" <a href="eps.html">EPS</a>=78.4 <a href="let.html">LET(100)</a> <a href="one_scf.html">1SCF</a> 
+Starting geometry, with positions of all atoms optimized</font></td>
+</table>
+
+<pre></pre><p class="auto-style2">Before running this job check for errors. Compare the list of charged sites in the output file with the list of sites that should be ionized that was constructed for Step 4. Investigate any differences and take the appropriate action. </p><p class="auto-style2">Run this job then look at the output to verify that everything is okay.</p><p class="auto-style2">When everything looks good, replace the keyword <tt>1SCF</tt> with <tt>OUTPUT</tt>, 
+then run the job. it will likely take several days to run.  Sometimes salt bridges form spontaneously, if that occurs and the salt bridge looks correct then no action needs to be taken. </p>
+<h4 class="auto-style2">Step 6: Make the starting system.</h4>
+<p class="auto-style2">The result of the Step-5 job will be a good starting geometry for further work.  
+It's important to carefully save this geometry so that it can be used as the starting point for other jobs.  To do this, proceed as follows:</p>
+<p class="auto-style2" dir="ltr">Create a new folder named &quot;<a href="Recommended%20folder%20names.html">Starting model</a>&quot;, and move into it. Copy the ARC file from Step-5 into this new folder.  Give this file a descriptive name, e.g. &quot;Reactants 1SCF.mop&quot;.  Edit the data-set to run a single SCF calculation, e.g.: </p><table border="1" cellspacing="1">
+  <tr>
+    <td><PRE><font size="4">
+<a href="mozyme.html">MOZYME</a> <a href="charge.html">CHARGE</a>=<i>n</i> HTML 1SCF GEO_DAT=&quot;Step-5.arc&quot; <a href="gradients.html">GRADIENTS</a> OUTPUT  
+Starting model, one SCF</font></td>
+</table>
+
+<pre></pre><p class="auto-style2">then run that job.  Do not delete any of the files generated in this process because they are useful reference files for documenting the work and the ARC file will be useful in constructing other datasets.  If an error is found in this job, locate the cause in &quot;Preparing Starting Model&quot;, correct it, and copy the corrected ARC file into &quot;Starting model&quot; and re-run the job there.  This somewhat lengthy procedure is designed to ensure that folders containing important results do not get damaged by user-errors.</p></BODY>
+</HTML>

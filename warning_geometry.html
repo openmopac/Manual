@@ -1,0 +1,48 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>GRAPH </title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+WARNING -- GEOMETRY IS NOT AT A STATIONARY POINT</h1>
+<p>Normally when a geometry optimization is complete, the geometry is is at a 
+stationary point, that is, the forces acting on all atoms are below a preset 
+limit.&nbsp; There are three exceptions to this: (A) if some atoms are 
+constrained (frozen or fixed), (B) a very rare case that occurs when internal 
+coordinate gradients are small but the Cartesian derivatives are large, and (C) 
+there is a bug in MOPAC&nbsp; that causes the internal coordinates to be 
+artificially small (no instance of this has occurred to date)&nbsp; Whenever the 
+calculated gradient norm, "GRADIENT NORM" in the output and ARC files, is small 
+and the Cartesian gradient norm (not normally printed) is large, then the 
+warning message: "<font color="#FF0000">WARNING -- GEOMETRY IS NOT AT A STATIONARY POINT</font>" 
+will be printed.&nbsp; The action to take depends in which of the exception 
+cases (A), (B), or (C) has occurred.</p>
+<p>A:&nbsp; If some atoms are constrained, for example by one or more 
+optimization flags being set to zero, or by being a symmetry-dependent atom, 
+then there is a high probability that the warning will be printed.&nbsp; If the 
+constraints are intended, then do nothing - the warning can be ignored.&nbsp; If 
+the constraints are incorrect, then correct them and re-run.</p>
+<p>B: The simplest way to correct this error is to run the job in Cartesian 
+coordinates.&nbsp; To do this, add keywords OPT and XYZ.&nbsp; An alternative 
+would be to re-write the internal coordinates.&nbsp; To do this, use keywords 
+0SCF and INT.</p>
+<p>C: Please send the data set and output to openmopac|at|gmail.com</p>
+</body>
+</html>

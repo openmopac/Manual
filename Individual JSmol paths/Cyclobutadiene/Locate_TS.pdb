@@ -1,0 +1,14 @@
+HEADER  data-set: M:\Individual JSmol paths\Cyclobutadiene\Locate_TS
+REMARK  MOPAC 2012, Version: 15.310W Date: Nov 06 2015 10:46
+HETATM    1  C   HET A   1      -0.306  -0.798   0.920  1.00 -0.25      PROT C 
+HETATM    2 1HT  HET A   1       1.105  -0.938   1.073  1.00  0.29      PROT H 
+HETATM    3  C   HET A   1       0.589   0.388   0.942  1.00 -0.25      PROT C 
+HETATM    4  C   HET A   1       0.708   0.827  -0.398  1.00 -0.20      PROT C 
+HETATM    5 2HT  HET A   1      -0.800  -1.216   1.772  1.00  0.16      PROT H 
+HETATM    6 1HT  HET A   1      -1.324  -1.769  -0.780  1.00  0.15      PROT H 
+HETATM    7 2HT  HET A   1      -0.122   0.052  -2.291  1.00  0.15      PROT H 
+HETATM    8 3HT  HET A   1       1.268   1.679  -0.720  1.00  0.15      PROT H 
+HETATM    9 4HT  HET A   1       0.831   0.966   1.811  1.00  0.16      PROT H 
+HETATM   10  C   HET A   1      -0.669  -1.001  -0.431  1.00 -0.20      PROT C 
+HETATM   11  C   HET A   1      -0.039  -0.029  -1.224  1.00 -0.17      PROT C 
+END

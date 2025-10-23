@@ -1,0 +1,206 @@
+ *******************************************************************************
+ ** Site#: 10005        For non-commercial use only     Version 15.314W 64BITS**
+ *******************************************************************************
+ ** Cite this work as:                                                        **
+ **                                                                           **
+ ** (a) MOPAC2012, James J. P. Stewart, Stewart Computational Chemistry,      **
+ **  Version 15.314W web: HTTP://OpenMOPAC.net         Days remaining: 365    **
+ **                                                                           **
+ **                                 AND                                       **
+ **                                                                           **
+ ** (b) Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.     **
+ **                DOI: 10.1021/ct3004645.                                    **
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2012                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Nov 10 21:21:28 2015  *
+ *  IRC=N      - INTRINSIC REACTION COORDINATE  1 DEFINED
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY  7200.000 SECONDS
+ *  X-PRIOR    - GEOMETRY CHANGES TAKE PRIORITY IN DRC
+ *******************************************************************************
+      irc=1* X-priority=0.1 html
+     Fulminic acid plus ethylene
+      h=0 hr=ref
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       C          0.00000000      0.00000000      0.00000000   
+     2       C          1.32969200      0.00000000      0.00000000   
+     3       O         -0.85067367      3.83871641      0.00000000   
+     4       N          0.16045375      3.75137993      0.62011863   
+     5       C          1.14189700      3.67422092      1.22330297   
+     6       H         -0.59949998     -0.29954026      0.84689435   
+     7       H         -0.59895446      0.30041243     -0.84799891   
+     8       H          1.92756228      0.29768869     -0.84850775   
+     9       H          1.92832551     -0.30165680      0.84621643   
+    10       H          2.01620924      3.59649100      1.75906400   
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM         X         Y         Z
+
+     1         C        0.0000    0.0000    0.0000
+     2         C        1.3297    0.0000    0.0000
+     3         O       -0.8507    3.8387    0.0000
+     4         N        0.1605    3.7514    0.6201
+     5         C        1.1419    3.6742    1.2233
+     6         H       -0.5995   -0.2995    0.8469
+     7         H       -0.5990    0.3004   -0.8480
+     8         H        1.9276    0.2977   -0.8485
+     9         H        1.9283   -0.3017    0.8462
+    10         H        2.0162    3.5965    1.7591
+
+     ===================== shared-memory parallel CPU Section ======================
+     **                                                                           **
+     **  MOPAC calculations will run in shared-memory parallel CPUs               **
+     **                                                                           **
+     **  Number of Threads =  4                                                   **
+     **                                                                           **
+     **                                                                           **
+     **  For information on this work, see:                                       **
+     **                                                                           **
+     **  Maia, J.D.C., et al., J. Chem. Theory Comput. 2012, 8, 3072-3081.        **
+     **        DOI: 10.1021/ct3004645.                                            **
+     **                                                                           **
+     ===================== shared-memory parallel CPU Section ======================
+      
+
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s00894-012-1667-x
+
+           Empirical Formula: C3 H5 N O  =    10 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C1  
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS =   14
+
+
+
+          HEAT OF FORMATION =      37.123068 KCALS/MOLE
+
+
+          GRADIENT NORM =   0.09218
+
+          MOLECULAR WEIGHT =   71.08
+
+
+    FOR POINT-GROUP C1   THERE ARE   1 UNIQUE SYMMETRY FUNCTIONS.
+
+ STEP:   1 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   2 TIME =     0.00 SECS, INTEGRAL =      0.00 TIME LEFT: 172800.00
+ STEP:   3 TIME =     0.02 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   4 TIME =     0.00 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   5 TIME =     0.00 SECS, INTEGRAL =      0.02 TIME LEFT: 172799.98
+ STEP:   6 TIME =     0.02 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:   7 TIME =     0.00 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:   8 TIME =     0.00 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:   9 TIME =     0.00 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:  10 TIME =     0.00 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:  11 TIME =     0.00 SECS, INTEGRAL =      0.03 TIME LEFT: 172799.97
+ STEP:  12 TIME =     0.02 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  13 TIME =     0.00 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  14 TIME =     0.00 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  15 TIME =     0.00 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  16 TIME =     0.00 SECS, INTEGRAL =      0.05 TIME LEFT: 172799.95
+ STEP:  17 TIME =     0.02 SECS, INTEGRAL =      0.06 TIME LEFT: 172799.94
+ STEP:  18 TIME =     0.00 SECS, INTEGRAL =      0.06 TIME LEFT: 172799.94
+ STEP:  19 TIME =     0.00 SECS, INTEGRAL =      0.06 TIME LEFT: 172799.94
+ STEP:  20 TIME =     0.00 SECS, INTEGRAL =      0.06 TIME LEFT: 172799.94
+ STEP:  21 TIME =     0.00 SECS, INTEGRAL =      0.06 TIME LEFT: 172799.94
+ STEP:  22 TIME =     0.00 SECS, INTEGRAL =      0.06 TIME LEFT: 172799.94
+ STEP:  23 TIME =     0.02 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:  24 TIME =     0.00 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:  25 TIME =     0.00 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:  26 TIME =     0.00 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:  27 TIME =     0.00 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:  28 TIME =     0.00 SECS, INTEGRAL =      0.08 TIME LEFT: 172799.92
+ STEP:  29 TIME =     0.02 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.91
+ STEP:  30 TIME =     0.00 SECS, INTEGRAL =      0.09 TIME LEFT: 172799.91
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+         0.02741        -0.12232         0.01053
+         0.02740        -0.09894        -0.02903
+        -0.01123         0.11622         0.00126
+        -0.01782         0.07008         0.00541
+        -0.02550         0.02343         0.01204
+         0.05796        -0.12191         0.03219
+        -0.00335        -0.14289         0.02513
+        -0.00277        -0.09753        -0.04973
+         0.05748        -0.07798        -0.04286
+        -0.03253        -0.02087         0.01705
+
+ GEOMETRY PRIORITY, STEP = 0.1000 ANGSTROMS
+
+
+
+     POINT   POTENTIAL  +  ENERGY LOST   =   TOTAL      ERROR    REF%   MOVEMENT
+       1      37.12307      0.00000         37.12307   0.00000     1   %  0.0000
+       6      37.12329      0.00000         37.12329   0.00022     2   %  0.1000
+       9      37.12413      0.00000         37.12413   0.00106     3   %  0.2000
+      12      37.12559      0.00000         37.12559   0.00252     4   %  0.3003
+      17      37.17640      0.32263         37.49903   0.37345     5   %  0.3210
+      22      37.13066      1.64761         38.77828   1.65269     6   %  0.3220
+      30      37.12926      4.12265         41.25191   4.12632     7   %  0.3220
+      37      37.19344      6.33324         43.52668   6.40109     8   %  0.3213
+      44      37.12731      8.56850         45.69581   8.57022     9   %  0.3217
+
+
+           POTENTIAL ENERGY HAS STOPPED DROPPING
+
+           INITIAL VELOCITY IN DRC (Angstroms/Femtosecond)
+        -0.02741         0.12232        -0.01053
+        -0.02740         0.09894         0.02903
+         0.01123        -0.11622        -0.00126
+         0.01782        -0.07008        -0.00541
+         0.02550        -0.02343        -0.01204
+        -0.05796         0.12191        -0.03219
+         0.00335         0.14289        -0.02513
+         0.00277         0.09753         0.04973
+        -0.05748         0.07798         0.04286
+         0.03253         0.02087        -0.01705
+
+ GEOMETRY PRIORITY, STEP = 0.1000 ANGSTROMS
+
+
+
+     POINT   POTENTIAL  +  ENERGY LOST   =   TOTAL      ERROR    REF%   MOVEMENT
+       1      37.12307      0.00000         37.12307   0.00000     1   %  0.0000
+       6      37.12351      0.00000         37.12351   0.00044     2   %  0.1000
+       9      37.12436      0.00000         37.12436   0.00130     3   %  0.1829
+      13      37.12632      0.00000         37.12632   0.00338     4   %  0.3003
+      18      37.16939      0.26440         37.43378   0.30743     5   %  0.3253
+      24      37.20903      1.57327         38.78230   1.65594     6   %  0.3266
+      31      37.12722      3.79064         40.91786   3.79150     7   %  0.3227
+      38      37.24922      6.21377         43.46299   6.33663     8   %  0.3258
+      45      37.12900      8.65123         45.78023   8.65387     9   %  0.3213
+
+
+           POTENTIAL ENERGY HAS STOPPED DROPPING
+
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.27 SECONDS
+
+ == MOPAC DONE ==

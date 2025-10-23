@@ -1,0 +1,43 @@
+<html>
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTDKH6F');</script>
+<!-- End Google Tag Manager -->
+
+
+<title>Root Mean Square Difference</title>
+</head>
+<body bgcolor="white">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTDKH6F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<h1 align="center">
+<b>
+Root Mean Square Difference</b></h1>
+<p align="left">
+&nbsp;</p><p align="left">
+To calculate the RMS difference between two geometries, use the <tt>
+<a href="geo_ref.html">GEO_REF</a> </tt> keyword 
+and <tt><a href="zero_scf.html">0SCF</a></tt>.&nbsp; This 
+calculation is very fast, it typically only takes a few seconds of CPU time. For this type of calculation, a 
+convenient option is to also use <tt><a href="geo_dat.html">GEO_DAT</a></tt>, so the 
+data-set could be as short as one line(although three lines would allow the job 
+to have a title and comment).</p><p align="left">
+Caveats:</p><p align="left">
+Both systems must have the same number of atoms and the same empirical formula.</p><p align="left">
+If PDB information is present, this will be used, in which case every atom must 
+have a unique PDB label.&nbsp; Atom numbers in labels do <em>not</em> count in 
+determining the PDB label.</p><p align="left">
+If the RMS can be reduced by swapping pairs of atoms, this will be done.&nbsp; 
+To prevent swapping, add <tt><a href="noswap.html">NOSWAP</a></tt>.
+</p></body>
+</html>
