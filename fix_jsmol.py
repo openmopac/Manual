@@ -222,14 +222,14 @@ def merge_from_target(content_list, target_list):
 
 # build a local target dictionary
 target_dict = {}
-for (root, dirs, files) in os.walk('httpdocs'):
+for (root, dirs, files) in os.walk('J_Mol_Mod_(2025)_files_Prediction_of_enzyme_inhibition'):
     for file in files:
         file_path = os.path.join(root, file)
         file_key = path_to_key(root, file)
         target_dict[file_key] = file_path
 
 # loop over all subdirectories of the website
-for (root, dirs, files) in os.walk('httpdocs'):
+for (root, dirs, files) in os.walk('J_Mol_Mod_(2025)_files_Prediction_of_enzyme_inhibition'):
     # temporary skips
     if 'httpdocs/jsmol' in root:
         continue
@@ -248,13 +248,44 @@ for (root, dirs, files) in os.walk('httpdocs'):
                 with open(file_path, 'r', encoding='latin-1') as file_handle:
                     content = file_handle.read()
 
+            '''
             fix1 = r'jmolInitialize("java","JmolAppletSigned0.jar")'
-            fix2 = r'jarPath: "../../jsmol/java",'
-            find1 = r'"../../jsmol/'
+            fix2 = r'jarPath: "../jsmol/java",'
+            find1 = r'"../jsmol/'
             replace1 = r'"/jsmol/'
             content = content.replace(fix1,'')
             content = content.replace(fix2,'')
             content = content.replace(find1, replace1)
+            '''
+
+            gtag = '''
+<HEAD>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60EDW3Y6ET"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-60EDW3Y6ET');
+</script>'''
+            gtag2 = '''
+<HEAD>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60EDW3Y6ET"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-60EDW3Y6ET');
+</script>
+</HEAD>'''
+            if "<HEAD>" in content:
+                content = content.replace("<HEAD>",gtag)
+            else:
+#                print("no head:", file_path)
+                content = gtag2 + content
 
             # overwrite file with corrected content ...
             with open(file_path, 'w', encoding='utf-8') as file_handle:

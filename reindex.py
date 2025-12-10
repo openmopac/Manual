@@ -182,6 +182,8 @@ def fix_target(root, old_target, target_dict, file):
 #                if path[-4:] == '.txt':
 #                    print(f"cp stub.txt \"{os.path.join(root, old_target[1:-1])}\"")
                 print(f"ERROR: invalid target from rel in {root}/{file},", path)
+#                with open(path, 'w', encoding='utf-8') as file_handle:
+#                  file_handle.write("# stub")
                 return old_target
 #                exit()
 
@@ -222,14 +224,14 @@ def merge_from_target(content_list, target_list):
 
 # build a local target dictionary
 target_dict = {}
-for (root, dirs, files) in os.walk('httpdocs'):
+for (root, dirs, files) in os.walk('J_Mol_Mod_(2025)_files_Prediction_of_enzyme_inhibition'):
     for file in files:
         file_path = os.path.join(root, file)
         file_key = path_to_key(root, file)
         target_dict[file_key] = file_path
 
 # loop over all subdirectories of the website
-for (root, dirs, files) in os.walk('httpdocs'):
+for (root, dirs, files) in os.walk('J_Mol_Mod_(2025)_files_Prediction_of_enzyme_inhibition'):
     # temporary skips
 #    if root[:16] == r'httpdocs/PM6-ORG':
 #        continue
