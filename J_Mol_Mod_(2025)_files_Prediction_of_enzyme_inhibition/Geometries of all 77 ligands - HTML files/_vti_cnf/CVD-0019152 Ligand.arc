@@ -1,7 +1,0 @@
-vti_encoding:SR|utf8-nl
-vti_timelastmodified:TR|12 Feb 2024 19:08:54 -0000
-vti_extenderversion:SR|5.0.2.2623
-vti_lineageid:SR|{42ED6D79-409D-4099-B56E-0EE87E0F854F}
-vti_cacheddtm:TX|12 Feb 2024 19:08:54 -0000
-vti_filesize:IR|5069
-vti_backlinkinfo:VX|Manual/J_Mol_Mod_(2025)_files_Prediction_of_enzyme\\ inhibition\\ (IC50)/Geometries\\ of\\ all\\ 77\\ ligands\\ -\\ HTML\\ files/index.html

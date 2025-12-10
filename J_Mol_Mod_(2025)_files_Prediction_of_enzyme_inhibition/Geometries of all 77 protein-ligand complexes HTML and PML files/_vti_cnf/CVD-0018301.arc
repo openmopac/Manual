@@ -1,7 +1,0 @@
-vti_encoding:SR|utf8-nl
-vti_timelastmodified:TR|13 Feb 2024 03:43:36 -0000
-vti_extenderversion:SR|5.0.2.2623
-vti_lineageid:SR|{6F6E0257-B09C-41A7-AC30-37D583B5F960}
-vti_cacheddtm:TX|13 Feb 2024 03:43:36 -0000
-vti_filesize:IR|107631
-vti_backlinkinfo:VX|Manual/J_Mol_Mod_(2025)_files_Prediction_of_enzyme\\ inhibition\\ (IC50)/Geometries\\ of\\ all\\ 77\\ protein-ligand\\ complexes\\ HTML\\ and\\ PML\\ files/Index.html
