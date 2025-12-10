@@ -1,0 +1,7 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|20 Sep 2024 22:20:50 -0000
+vti_extenderversion:SR|5.0.2.2623
+vti_lineageid:SR|{1B4280FE-D852-4047-B1F1-10F02DF243F2}
+vti_cacheddtm:TX|20 Sep 2024 22:20:50 -0000
+vti_filesize:IR|62
+vti_backlinkinfo:VX|Manual/J_Mol_Mod_(2025)_files_Prediction_of_enzyme\\ inhibition\\ (IC50)/Protein\\ residue\\ -\\ ligand\\ interaction\\ contributions/CVD-0007756.html

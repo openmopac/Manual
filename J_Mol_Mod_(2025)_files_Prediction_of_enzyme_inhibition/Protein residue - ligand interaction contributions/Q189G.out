@@ -1,0 +1,250 @@
+ *******************************************************************************
+ **                                                                           **
+ **                              MOPAC                                        **
+ **                                                                           **
+ *******************************************************************************
+ **          Digital Object Identifier (DOI): 10.5281/zenodo.6511958          **
+ **    Visit the DOI location for information on how to cite this program.    **
+ *******************************************************************************
+
+                              PM6-ORG CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Fri Sep 20 19:19:00 2024  *
+ *  PM6-ORG    - The PM6-ORG Hamiltonian to be used
+ *  INVERT     - REVERSE ALL OPTIMIZATION FLAGS
+ *  MOZYME     - USE LOCALIZED M.O.s IN SOLVING THE SCF EQUATIONS
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = +2
+ *
+ *
+ *
+ *  EPS=78.4   - USE ANDREAS KLAMT'S COSMO IMPLICIT SOLVATION MODEL
+ *  LET        - OVERRIDE SOME SAFETY CHECKS
+ *  PRECISE    - TIGHTER CRITERIA TO BE USED
+ *  THREADS    - INACTIVE (THREAD CONTROLS DISABLED)
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  OUTPUT     - MINIMIZE OUTPUT
+ *  HTML       - WRITE HTML SCRIPT TO READ PDB FILE USING JSMOL
+ *******************************************************************************
+MOZYME  EPS=78.4 PRECISE HTML OUTPUT THREADS=1 PM6-ORG  CHARGE=2 invert let
+ Q189G
+
+ 
+
+ General Reference for PM6-ORG:
+ "A semiempirical method optimized for modeling proteins", J. J. P. Stewart and A. C. Stewart
+ Journal of Molecular Modeling (2023) 29:284 https://doi.org/10.1007/s00894-023-05695-1
+
+           Empirical Formula: C405 H643 N106 O125 S9 Cl  =  1289 atoms
+
+ 
+
+   Ion     <--------PDB Label------->   Charge     Distance        PDB label for Salt Bridge   Charge
+
+    1     (ATOM    111  NE  ARG A  40)   +1         2.63         (ATOM   1112  OD1 ASP A 187)   -1
+    2     (ATOM    813  NE2 HIS A 163)   +1         2.87         (ATOM    865  OE2 GLU A 166)   -1
+
+                 All other ions
+ 
+    1     (ATOM    616  NZ  LYS A 137)   +1
+    2     (ATOM    830  CE1 HIS A 164)   +1
+    3     (ATOM   1126  CZ  ARG A 188)   +1
+    4     (HETATM 1225  N   SER B   1)   +1
+ 
+    1     (ATOM    224  OE2 GLU A  47)   -1
+    2     (ATOM    238  OD2 ASP A  48)   -1
+
+          COMPUTED CHARGE ON SYSTEM: +2, THIS IS THE SAME AS THE CHARGE DEFINED IN THE DATA-SET.
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME: 980.930 TIME LEFT:  1.99D  GRAD.:   131.935 HEAT: -6741.297
+ CYCLE:     2 TIME:  46.000 TIME LEFT:  1.99D  GRAD.:   107.039 HEAT: -6761.762
+ CYCLE:     3 TIME: 367.203 TIME LEFT:  1.98D  GRAD.:    14.080 HEAT: -6777.802
+ CYCLE:     4 TIME: 312.297 TIME LEFT:  1.98D  GRAD.:     9.971 HEAT: -6778.173
+ CYCLE:     5 TIME: 200.828 TIME LEFT:  1.98D  GRAD.:     6.903 HEAT: -6778.491
+ CYCLE:     6 TIME:  61.844 TIME LEFT:  1.98D  GRAD.:     2.657 HEAT: -6778.608
+ CYCLE:     7 TIME:  83.680 TIME LEFT:  1.98D  GRAD.:     1.444 HEAT: -6778.617
+ CYCLE:     8 TIME:  99.961 TIME LEFT:  1.98D  GRAD.:     1.079 HEAT: -6778.622
+ CYCLE:     9 TIME:  64.836 TIME LEFT:  1.97D  GRAD.:     0.684 HEAT: -6778.627
+
+     GRADIENT =  0.68447 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ MOZYME  EPS=78.4 PRECISE HTML OUTPUT THREADS=1 PM6-ORG  CHARGE=2 invert let
+ Q189G
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM6-ORG CALCULATION
+                                                       MOPAC 
+                                                       Fri Sep 20 19:56:41 2024
+
+
+
+
+          FINAL HEAT OF FORMATION =      -6778.62571 KCAL/MOL =  -28361.76999 KJ/MOL
+          VAN DER WAALS AREA      =       3460.70 SQUARE ANGSTROMS
+
+
+
+          DIELECTRIC ENERGY       =        -29.25270 EV
+          COSMO AREA              =       3460.70 SQUARE ANGSTROMS
+          COSMO VOLUME            =      10660.18 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.68447          =       0.01906 PER ATOM
+          NO. OF FILLED LEVELS    =       1801
+          MOLECULAR WEIGHT        =       9321.1629
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H   564    H   320    38.05369
+            H  1066    H    43    29.87435
+            O   894    H   423    24.64198
+
+
+          SCF CALCULATIONS        =         10
+ 
+          WALL-CLOCK TIME         =         37 MINUTES AND 40.789 SECONDS
+          COMPUTATION TIME        =         11 MINUTES AND 17.719 SECONDS
+
+           Empirical Formula: C405 H643 N106 O125 S9 Cl  =  1289 atoms
+
+
+          NET CHARGE ON RESIDUES
+
+      Residue         Charge  Anion or
+                              Cation?
+      THR A  24       -0.063
+      THR A  25       +0.038
+      THR A  26       -0.013
+      LEU A  27       +0.000
+      ASN A  28       +0.021
+      CYS A  38       -0.003
+      PRO A  39       -0.048
+      ARG A  40       +0.968  CATION
+      HIS A  41       -0.029
+      VAL A  42       +0.049
+      ILE A  43       -0.008
+      CYS A  44       -0.057
+      THR A  45       -0.018
+      SER A  46       +0.000
+      GLU A  47       -0.958  ANION
+      ASP A  48       -0.935  ANION
+      MET A  49       -0.083
+      LEU A  50       +0.086
+      ASN A  51       -0.013
+      PRO A  52       +0.039
+      ASN A  53       -0.026
+      TYR A  54       +0.022
+      LEU A  57       -0.004
+      MET A  82       +0.002
+      ASN A  84       +0.028
+      CYS A  85       -0.108
+      VAL A  86       +0.053
+      LEU A  87       +0.029
+      VAL A 114       -0.009
+      LEU A 115       -0.022
+      ALA A 116       +0.006
+      CYS A 117       -0.040
+      TYR A 118       +0.093
+      ASN A 119       -0.040
+      SER A 123       -0.005
+      TYR A 126       -0.008
+      THR A 135       +0.034
+      ILE A 136       -0.015
+      LYS A 137       +0.978  CATION
+      GLY A 138       +0.032
+      SER A 139       -0.049
+      PHE A 140       -0.026
+      LEU A 141       +0.003
+      ASN A 142       +0.087
+      GLY A 143       -0.015
+      SER A 144       +0.012
+      CYS A 145       +0.009
+      GLY A 146       -0.003
+      SER A 147       -0.080
+      VAL A 148       +0.101
+      TYR A 161       +0.029
+      MET A 162       -0.098
+      HIS A 163       +1.031  CATION
+      HIS A 164       +0.927  CATION
+      MET A 165       -0.047
+      GLU A 166       -0.831  ANION
+      LEU A 167       +0.027
+      PRO A 168       -0.012
+      THR A 169       -0.015
+      GLY A 170       -0.034
+      VAL A 171       +0.021
+      HIS A 172       +0.016
+      ALA A 173       -0.023
+      GLY A 174       +0.010
+      THR A 175       +0.062
+      GLY A 179       -0.045
+      ASN A 180       +0.022
+      PHE A 181       +0.009
+      TYR A 182       +0.045
+      PRO A 184       +0.004
+      PHE A 185       -0.016
+      VAL A 186       -0.001
+      ASP A 187       -0.887  ANION
+      ARG A 188       +0.898  CATION
+      GLN A 189       +0.062
+      THR A 190       -0.089
+      ALA A 191       +0.050
+      GLN A 192       +0.033
+      DOD A 403       +0.003
+      DOD A 405       -0.011
+      DOD A 409       -0.001
+      DOD A 422       -0.053
+      DOD A 446       -0.012
+      DOD A 447       -0.024
+      DOD A 449       +0.004
+      DOD A 451       -0.003
+      SER B   1       +0.778  CATION
+      GLY B   2       +0.051
+      PHE B   3       +0.093
+      LIG C 452       +0.013
+ 
+
+
+                   Salt Bridges Found (Up to 8.0 Angstroms)
+
+     No.          Cationic site                            Anionic site                Dist. (Angstroms)
+
+      1  (HETATM 1215  N   SER B   1)    B1(+)    (ATOM    864  OE1 GLU A 166)  A166(-)      2.56
+      2  (ATOM    111  NE  ARG A  40)   A40(+)    (ATOM   1112  OD1 ASP A 187)  A187(-)      2.63
+      3  (ATOM    813  NE2 HIS A 163)  A163(+)    (ATOM    865  OE2 GLU A 166)  A166(-)      2.87
+      4  (ATOM    828  ND1 HIS A 164)  A164(+)    (ATOM   1113  OD2 ASP A 187)  A187(-)      5.52
+      5  (ATOM    616  NZ  LYS A 137)  A137(+)    (ATOM    864  OE1 GLU A 166)  A166(-)      5.90
+
+
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    26.897   111.746  -155.487   193.356
+ HYBRID         2.118     8.769    -2.474     9.354
+ SUM           29.015   120.515  -157.961   200.791
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:          2260.91 SECONDS
+
+ == MOPAC DONE ==

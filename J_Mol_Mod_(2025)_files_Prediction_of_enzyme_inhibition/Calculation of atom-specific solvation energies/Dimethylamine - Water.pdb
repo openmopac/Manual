@@ -1,0 +1,23 @@
+HEADER  data-set: M:/Cambridge (paper)/Calculation of atom-specific solvation en
+REMARK  MOPAC, Version: unknown              Date: Sep  6 2024 09:27
+USER    File generated on Thu Sep 14 12:31:15 2023
+USER    by CAChe Workspace, Fujitsu Limited, version 6.1.12.33
+HEADER  data-set: M:/Cambridge/Solvation/Dimethylamine - Water
+REMARK  MOPAC, Version: unknown
+REMARK  Date: Sep  7 2023 10:24
+REMARK  Heat of Formation = -74.762 Kcal/mol
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P1
+HETATM    1  O       A          -3.245  -0.638  -0.922  1.0  -8.10      PROT O 
+HETATM    2  C       A          -0.660   1.445   0.077  1.0  -0.68      PROT C 
+HETATM    3  N       A          -0.963   0.006   0.214  1.0  -3.36      PROT N 
+HETATM    4  C       A           0.075  -0.815  -0.444  1.0  -0.70      PROT C 
+HETATM    5  H       A          -2.410  -0.332  -0.470  1.0   3.74      PROT H 
+HETATM    6  H       A          -2.979  -1.287  -1.550  1.0   3.47      PROT H 
+HETATM    7  H       A           0.318   1.755   0.491  1.0   0.55      PROT H 
+HETATM    8  H       A          -0.676   1.754  -0.985  1.0   0.68      PROT H 
+HETATM    9  H       A          -1.434   2.038   0.598  1.0   0.67      PROT H 
+HETATM   10  H       A          -0.937  -0.205   1.165  1.0   1.81      PROT H 
+HETATM   11  H       A           0.098  -0.625  -1.533  1.0   0.68      PROT H 
+HETATM   12  H       A           1.102  -0.659  -0.064  1.0   0.56      PROT H 
+HETATM   13  H       A          -0.161  -1.887  -0.310  1.0   0.67      PROT H 
+END

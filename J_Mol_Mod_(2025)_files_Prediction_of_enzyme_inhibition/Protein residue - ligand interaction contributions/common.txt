@@ -1,0 +1,5 @@
+select (visible)
+label %[atomname]
+color label black
+set labelalignment center
+selectionhalos off

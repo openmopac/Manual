@@ -1,0 +1,47 @@
+HEADER  data-set: M:/Cambridge/Ligands only/CVD-0019154 Ligand
+REMARK  MOPAC, Version: unknown
+REMARK  Date: Jan 11 2024 10:04
+REMARK  Heat of Formation = 3.748 Kcal/mol
+HETATM    1 Cl1  LIG A   1      -1.649   1.734   7.351  1.0  -1.84      PROTCL 
+HETATM    2 C1   LIG A   1      -0.935   2.411   5.913  1.0   0.56      PROT C 
+HETATM    3 C2   LIG A   1       0.369   2.063   5.594  1.0  -0.64      PROT C 
+HETATM    4 C3   LIG A   1       0.927   2.613   4.440  1.0  -0.30      PROT C 
+HETATM    5 C4   LIG A   1       0.185   3.483   3.647  1.0  -0.69      PROT C 
+HETATM    6 C5   LIG A   1      -1.127   3.822   3.995  1.0   0.16      PROT C 
+HETATM    7 C6   LIG A   1      -1.903   4.780   3.139  1.0  -2.02      PROT C 
+HETATM    8 C7   LIG A   1      -1.398   6.193   3.417  1.0   6.83      PROT C 
+HETATM    9 O1   LIG A   1      -1.823   6.877   4.345  1.0  -7.26      PROT O 
+HETATM   10 N1   LIG A   1      -0.434   6.636   2.557  1.0  -3.65      PROT N 
+HETATM   11 C8   LIG A   1       0.263   7.844   2.733  1.0   0.52      PROT C 
+HETATM   12 C9   LIG A   1      -0.418   9.047   2.775  1.0   0.59      PROT C 
+HETATM   13 N2   LIG A   1       0.201  10.253   2.918  1.0  -3.66      PROT N 
+HETATM   14 C10  LIG A   1       1.516  10.272   3.013  1.0   1.25      PROT C 
+HETATM   15 C11  LIG A   1       2.328   9.097   2.987  1.0  -0.67      PROT C 
+HETATM   16 C12  LIG A   1       3.742   9.171   3.106  1.0  -0.47      PROT C 
+HETATM   17 C13  LIG A   1       4.490   8.017   3.096  1.0   1.07      PROT C 
+HETATM   18 C14  LIG A   1       3.847   6.751   2.969  1.0  -0.66      PROT C 
+HETATM   19 C15  LIG A   1       2.488   6.668   2.849  1.0  -0.61      PROT C 
+HETATM   20 C16  LIG A   1       1.691   7.847   2.851  1.0   0.05      PROT C 
+HETATM   21 N17  LIG A   1       5.910   8.159   3.220  1.0  -4.03      PROT N 
+HETATM   22 C18  LIG A   1      -1.701   3.279   5.146  1.0  -0.69      PROT C 
+HETATM   23  C71 LIG A   1       6.399   7.477   4.440  1.0  -0.21      PROT C 
+HETATM   24  C72 LIG A   1       6.594   7.626   2.019  1.0  -0.23      PROT C 
+HETATM   25  H1  LIG A   1       0.949   1.383   6.213  1.0   0.94      PROT H 
+HETATM   26  H12 LIG A   1       1.947   2.360   4.161  1.0   0.83      PROT H 
+HETATM   27  H3  LIG A   1       0.638   3.900   2.747  1.0   0.80      PROT H 
+HETATM   28  H1  LIG A   1      -2.990   4.739   3.344  1.0   1.13      PROT H 
+HETATM   29  H22 LIG A   1      -1.827   4.511   2.069  1.0   1.06      PROT H 
+HETATM   30  H4  LIG A   1      -0.078   6.048   1.881  1.0   2.51      PROT H 
+HETATM   31  H5  LIG A   1      -1.513   9.076   2.697  1.0   1.07      PROT H 
+HETATM   32  H0  LIG A   1       2.000  11.255   3.120  1.0   1.03      PROT H 
+HETATM   33  H2  LIG A   1       4.219  10.146   3.204  1.0   0.93      PROT H 
+HETATM   34  H4  LIG A   1       4.458   5.849   2.969  1.0   0.88      PROT H 
+HETATM   35  H5  LIG A   1       2.018   5.690   2.755  1.0   0.80      PROT H 
+HETATM   36  H8  LIG A   1      -2.722   3.531   5.429  1.0   1.01      PROT H 
+HETATM   37 H711 LIG A   1       7.480   7.670   4.566  1.0   0.64      PROT H 
+HETATM   38 H712 LIG A   1       5.897   7.882   5.339  1.0   0.67      PROT H 
+HETATM   39 H713 LIG A   1       6.264   6.378   4.455  1.0   0.50      PROT H 
+HETATM   40 H721 LIG A   1       7.679   7.826   2.089  1.0   0.64      PROT H 
+HETATM   41 H722 LIG A   1       6.476   6.537   1.851  1.0   0.50      PROT H 
+HETATM   42 H723 LIG A   1       6.235   8.138   1.106  1.0   0.65      PROT H 
+END

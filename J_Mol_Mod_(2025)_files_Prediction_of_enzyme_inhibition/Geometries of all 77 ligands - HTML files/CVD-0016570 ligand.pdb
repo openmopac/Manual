@@ -1,0 +1,42 @@
+HEADER  data-set: CVD-0016570 ligand
+REMARK  MOPAC, Version: unknown
+REMARK  Date: Oct 25 2023 14:55
+REMARK  Heat of Formation = -18.653 Kcal/mol
+HETATM    1  H   HET B 452       0.675   0.076  -0.238  1.0   0.82      PROT H 
+HETATM    2  C1  HET B 452       1.759   0.032  -0.167  1.0  -0.29      PROT C 
+HETATM    3  C2  HET B 452       2.494   1.214  -0.111  1.0  -0.69      PROT C 
+HETATM    4  C3  HET B 452       3.876   1.113  -0.019  1.0   0.66      PROT C 
+HETATM    5  C4  HET B 452       4.545  -0.101   0.026  1.0  -1.05      PROT C 
+HETATM    6  C5  HET B 452       3.794  -1.279  -0.044  1.0   0.33      PROT C 
+HETATM    7  C6  HET B 452       4.488  -2.610  -0.028  1.0  -1.99      PROT C 
+HETATM    8  C7  HET B 452       5.483  -2.650  -1.182  1.0   6.71      PROT C 
+HETATM    9  O   HET B 452       5.131  -2.708  -2.362  1.0  -7.40      PROT O 
+HETATM   10  N1  HET B 452       6.790  -2.499  -0.833  1.0  -3.65      PROT N 
+HETATM   11  C8  HET B 452       7.827  -2.436  -1.782  1.0  -0.63      PROT C 
+HETATM   12  C9  HET B 452       8.699  -3.524  -1.917  1.0   1.09      PROT C 
+HETATM   13  N2  HET B 452       9.734  -3.540  -2.767  1.0  -4.16      PROT N 
+HETATM   14  C10 HET B 452       9.922  -2.447  -3.532  1.0   1.11      PROT C 
+HETATM   15  C11 HET B 452       9.114  -1.316  -3.495  1.0  -1.40      PROT C 
+HETATM   16  C12 HET B 452       9.386  -0.162  -4.413  1.0  -0.70      PROT C 
+HETATM   17  C13 HET B 452       8.764   1.133  -3.878  1.0  -1.02      PROT C 
+HETATM   18  C14 HET B 452       7.310   0.881  -3.451  1.0   0.49      PROT C 
+HETATM   19  N3  HET B 452       7.273  -0.145  -2.402  1.0  -3.70      PROT N 
+HETATM   20  C15 HET B 452       8.022  -1.289  -2.594  1.0   1.94      PROT C 
+HETATM   21  C16 HET B 452       2.402  -1.204  -0.140  1.0  -0.56      PROT C 
+HETATM   22  H2  HET B 452       1.992   2.178  -0.141  1.0   0.94      PROT H 
+HETATM   23 Cl   HET B 452       4.822   2.574   0.027  1.0  -1.83      PROTCL 
+HETATM   24  H4  HET B 452       5.632  -0.132   0.112  1.0   0.91      PROT H 
+HETATM   25 1H6  HET B 452       3.781  -3.455  -0.139  1.0   1.15      PROT H 
+HETATM   26 2H6  HET B 452       4.961  -2.789   0.956  1.0   1.08      PROT H 
+HETATM   27  H1  HET B 452       7.075  -2.510   0.087  1.0   2.64      PROT H 
+HETATM   28  H9  HET B 452       8.547  -4.418  -1.296  1.0   1.03      PROT H 
+HETATM   29  H10 HET B 452      10.778  -2.487  -4.221  1.0   0.98      PROT H 
+HETATM   30 1H12 HET B 452       8.987  -0.394  -5.418  1.0   0.73      PROT H 
+HETATM   31 2H12 HET B 452      10.472  -0.018  -4.558  1.0   0.71      PROT H 
+HETATM   32 1H13 HET B 452       8.787   1.917  -4.652  1.0   0.72      PROT H 
+HETATM   33 2H13 HET B 452       9.351   1.528  -3.031  1.0   0.67      PROT H 
+HETATM   34 1H14 HET B 452       6.688   0.614  -4.337  1.0   0.62      PROT H 
+HETATM   35 2H14 HET B 452       6.868   1.815  -3.037  1.0   0.74      PROT H 
+HETATM   36 2H3  HET B 452       6.373  -0.299  -2.092  1.0   2.15      PROT H 
+HETATM   37  H16 HET B 452       1.807  -2.114  -0.194  1.0   0.88      PROT H 
+END
