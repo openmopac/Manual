@@ -35,7 +35,7 @@ BLOCKQUOTE.CITE {margin:0; padding-left:0.5em; border-left:2px solid;}
 <h1 align="center"><font face="Arial">Troubleshooting and<br/>
 Frequently Asked Questions</font></h1>
 <h4><font face="Arial">&nbsp;&nbsp;&nbsp; <a href="#MOPAC2012"><font color="#000000">
-MOPAC2016</font></a><br/>
+MOPAC</font></a><br/>
 &nbsp;&nbsp;&nbsp;
 <a href="#Downloading"><font color="#000000">Downloading, installing, and 
 getting started</font></a><br/>
@@ -44,17 +44,19 @@ getting started</font></a><br/>
 <a href="#types%20of%20calculations"><font color="#000000" face="Arial">How to do specific types of calculations</font></a><br/>
 <font face="Arial">&nbsp;&nbsp;&nbsp; <a href="#Faults%20in%20MOPAC">
 <font color="#000000">Faults in MOPAC</font></a></font></h4>
-<p><a name="MOPAC2012">MOPAC2016</a></p>
+<p><a name="MOPAC2012">MOPAC</a></p>
 <ul>
 <li><font face="Times New Roman"><a href="mopac2012.html">What is 
-  MOPAC2016?</a></font></li>
+  MOPAC?</a></font></li>
+<li><font face="Times New Roman"><a href="#related%20to%20MOPAC2016">How is 
+  open-source MOPAC related to MOPAC2016? </a></font></li>
 <li><font face="Times New Roman"><a href="#related%20to%20MOPAC2002">How is 
   MOPAC2016 related to MOPAC2012? </a></font></li>
-<li><a href="#network%20connectivity">Does MOPAC2016 use any network 
+<li><a href="#network%20connectivity">Does MOPAC use any network 
   connectivity? </a></li>
-<li><a href="#forms%20of%20MOPAC2012">What forms of MOPAC2016 manual are there?</a> </li>
+<li><a href="#forms%20of%20MOPAC2012">What forms of MOPAC manual are there?</a> </li>
 <li><a href="#parallel%20version">Are there plans to develop a parallel version 
-  of MOPAC2016?</a><br/>
+  of MOPAC?</a><br/>
 <br/>
 &nbsp;</li>
 </ul>
@@ -118,6 +120,10 @@ getting started</font></a><br/>
 <p>&nbsp;</p>
 <hr/>
 <p><b><font face="Arial">MOPAC2016</font></b></p>
+<p><font face="Arial">How is open-source MOPAC <a name="related to MOPAC2016">related to 
+MOPAC2016</a>?  </font></p>
+<p class="auto-style1">Open-source MOPAC is free to use for any purpose and has an application programming interface (API). <font face="Times New Roman">
+Other than that, open-source MOPAC is identical to MOPAC2016</font></p>
 <p><font face="Arial">How is MOPAC2016 <a name="related to MOPAC2002">related to 
 MOPAC2012</a>?  </font></p>
 <p class="auto-style1">MOPAC2016 has a robust editing capability for work with 
@@ -135,30 +141,31 @@ the Localized Molecular Orbital method for rapidly calculating the electronic
 structures of large molecules.&nbsp; MOPAC2007 did not contain MOZYME.<br/>
 MOPAC2002 can run MINDO/3, intersystem crossing, and the NDDO 
 method PM5. MOPAC2007 did not contain these functions.</font></p>
-<p dir="ltr"><font face="Arial">Does MOPAC2016 use any network connectivity? <br/>
+<p dir="ltr"><font face="Arial">Does MOPAC use any network connectivity? <br/>
 </font><font face="Times New Roman"><b><br/>
-</b>MOPAC2016 does not use any <a name="network connectivity">network 
+</b>MOPAC does not use any <a name="network connectivity">network 
 connectivity</a>.</font><br/>
 <br/>
 If you chose to make the executable available over a network, then you have 
 control of that functionality, but the program itself does not have any built-in 
 network functionality.<br/>
 <br/>
-MOPAC2016 is designed to be completely "clean" - it does not modify the Register 
+MOPAC is designed to be completely "clean" - it does not modify the Register 
 (in WINDOWS) or any parts of the kernel (in Linux or UNIX). This is because 
-MOPAC2016 is intended for use in a wide range of environments and many are very 
+MOPAC is intended for use in a wide range of environments and many are very 
 sensitive about security.</p>
 <p dir="ltr"><font face="Arial">What <a name="forms of MOPAC2012">forms of 
-MOPAC2016</a> manual are there? </font></p>
-<p dir="ltr">The MOPAC2016 Manual exists in only one&nbsp; form, the on-line 
+MOPAC</a> manual are there? </font></p>
+<p dir="ltr">The MOPAC Manual exists in only one&nbsp; form, the on-line 
 manual you are looking at just now.&nbsp; There are no PDF or hard-copy manuals.&nbsp; 
 This was a deliberate policy decision: Writing and maintaining more than one 
 manual would involve a lot of work, and the on-line manual should be sufficient 
 for most users.&nbsp; If you need hard copy - print the individual pages 
 involved.</p>
 <p><font face="Arial">Are there plans to develop a <a name="parallel version">
-parallel version</a> of MOPAC2016?</font></p>
-<p>Done!</p>
+parallel version</a> of MOPAC?</font></p>
+<p>MOPAC has limited shared-memory parallelism through its use of multithreaded BLAS and LAPACK libraries.
+If further parallelism is desired, then interested parties should contribute it to the open-source version of MOPAC.</p>
 <p><font face="Arial"><br/>
 <b>Downloading, installing and getting started</b></font></p>
 <p><font face="Arial">I'm completely <a name="new to MOPAC">new to MOPAC</a>, how do I get started?</font></p>
