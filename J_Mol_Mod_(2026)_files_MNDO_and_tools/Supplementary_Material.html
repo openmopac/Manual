@@ -1,0 +1,165 @@
+
+<!-- saved from url=(0110)http://openmopac.net/Manual/J_Mol_Mod_(2025)_files_Prediction_of_enzyme_inhibition/Supporting_Information.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>Supporting Information</title>
+<style>
+<!--
+h1
+	{margin-top:24.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:14.0pt;
+	font-family:"Cambria","serif";
+	}
+table.MsoTableGrid
+	{border:1.0pt solid windowtext;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif"}
+-->
+</style>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-60EDW3Y6ET"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-60EDW3Y6ET');
+</script>
+
+</head>
+<body><b><font size="4">Supporting Material for:</font></b><p>&nbsp;</p>
+<h1 style="margin-top:6.0pt;line-height:150%">
+<font size="5">Computational Chemistry Methods based on MNDO and Tools for 
+Improving their Accuracy</font></h1>
+<h1 style="line-height:200%">
+<font size="5">Journal of Molecular Modeling </font></h1>
+<h1 align="left" style="line-height: 200%">
+<span lang="EN-GB" style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">James J. P. Stewart</span><sup><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">a</span><span lang="EN-GB" style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">*</span></sup></h1>
+<p class="MsoNormal" align="left" style="text-align: center; line-height: 200%" dir="rtl">
+<i><sup>a<span lang="EN-GB"> &nbsp;</span></sup><span lang="EN-GB">Stewart Computational Chemistry, 15210 
+Paddington Circle, Colorado Springs, CO 80921,
+</span>USA</i></p>
+<p class="MsoNormal" align="center" style="line-height: 200%">*Corresponding 
+author: <a href="mailto:MrMOPAC@att.net">MrMOPAC@att.net</a> </p>
+<p align="left" style="line-height: 200%; text-align:left">
+      <span lang="EN-GB" style="line-height: 150%"><font size="4">&nbsp;</font></span><font size="4"><b><a href="http://openmopac.net/param%20manual/">On-line 
+      Documentation for PARAM</a> <br>
+</b></font><span style="line-height:150%"><font size="4">Overview of PARAM detailing keywords, usage 
+      strategies, etc.</font></span></p>
+<p align="left" style="line-height: 200%; text-align:left">
+      <font size="4"> <b>
+<a href="PARAM.zip">PARAM.zip</a></b>&nbsp; contains all the material for parameter optimization and surveys 
+to determine accuracy to be done. The main components are:</font></p>
+<ul>
+  <li>
+<p align="left" style="line-height: 200%"><font size="4">A utility &quot;files&quot; that 
+constructs a list of the reference data files in the order of the periodic 
+table.&nbsp; Thus the file for [H]<sup>+</sup> is first and Bi<sub>2</sub>I<sub>6</sub> 
+is last.</font></p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%"><font size="4">A utility &quot;select&quot; that 
+generates a sub-set of the reference file list created by &quot;files.&quot; Criteria for 
+the subset can be either the list of elements or the set of elements available 
+within each method.</font></p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%"><font size="4">A utility &quot;Set_up_Map&quot; 
+that constructs a HTML list of all reference data being used and a link to a 
+hypertext graphical representation of each datum.&nbsp; This graphical 
+representation requires that Jsmol and Firefox are installed.&nbsp; 
+</font> </p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%"><font size="4">A program &quot;Stats&quot; that 
+constructs HTML tables of reference heats of formation, dipole moments, 
+ionization potentials, and geometric reference data, and the errors in each 
+method for each datum. A second set of tables lists the same quantities but for 
+each element, instead of each datum.</font></p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%"><font size="4">The program MOPAC. To 
+avoid confusion, the particular version of MOPAC that was used in method 
+development is included.</font></p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%"><font size="4">The program PARAM, 
+together with several data-sets illustrating parameter optimization and surveys 
+of results.</font></p>
+  </li>
+</ul>
+<p align="left" style="line-height: 200%; text-align:left"><u><font size="4">
+Recommended procedure for setting up a starting environment</font></u></p>
+<ul>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">All method 
+development work should be done on a Windows 10 or 11 operating system.</p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">Create a folder with 
+an appropriate name, for example PARAM .&nbsp; This will be used to contain all 
+the material used in optimizing parameter values.</p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">Unzip the contents of 
+the ZIP file into the folder..</p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">Review the command 
+files.&nbsp; Each command file illustrates a specific action.</p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">Run the command file 
+&quot;Construct all.cmd&quot; This will set up a complete working environment for method 
+development.Time required:&nbsp; ~15 hours.</p>
+  </li>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">Before proceeding 
+further, carefully examine the new files and verify that the contents make 
+sense.</p>
+  </li>
+</ul>
+<p align="left" style="line-height: 200%; text-align:left"><u><font size="4">
+Parameter optimization</font></u></p>
+<p align="left" style="line-height: 200%; text-align:left">A single command, 
+&quot;Method-development - Improve PM6-ORG.cmd&quot;, will run the parameter optimization 
+process.&nbsp; The example given uses 3306 reference data, and optimizes 318 
+parameters. Once started, it would run for many days, even weeks.&nbsp; 
+Once started, the rate of convergence of the parameters can be monitored, and 
+when appropriate, the job should be killed.&nbsp; As soon as the job is understood, this command 
+should be modified to use the current project.</p>
+
+<p align="left" style="line-height: 200%; text-align:left"><u><font size="4">
+Caveats</font> </u></p>
+
+<ul>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">The main collection 
+of reference data, ,i.e., the set &quot;Data Normal&quot;, has not been curated, and 
+should be regarded as being of limited reliability.&nbsp; Warnings such as 
+&quot;Deadly error detected ...&quot; and &quot;ALL CONVERGERS ...&quot; when all of &quot;Data Normal&quot; 
+is used can be ignored.</p>
+
+  </li>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">Conversely, the 
+reference data files in the data-sets used in method development, i.e., those 
+mentioned in PM6-ORG.dat such as &quot;core.txt&quot;, have been curated.&nbsp; This was a 
+necessary step in order to ensure that the values of the parameters could be 
+optimized correctly. Errors that were ignored when all of &quot;Data Normal&quot; was used 
+should <i>not</i> be ignored when method development is being done.</p>
+
+  </li>
+  <li>
+<p align="left" style="line-height: 200%; text-align:left">In method 
+development, individual data that take a long time, 100 or more seconds, to 
+calculate should be deleted unless they are deemed necessary for the new method. </p>
+
+  </li>
+</ul>
+
+</body></html>
