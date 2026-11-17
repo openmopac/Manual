@@ -54,7 +54,9 @@ using JSmol with MOPAC can be downloaded from the
 <a href="https://sourceforge.net/projects/jmol/files/latest/download?source=files" target="_parent">
 latest Jmol distribution</a>. This involves downloading a 
 file with a name like "Jmol-14.0.13-binary.zip" Open the ZIP file, and select jsmol.zip.&nbsp; Extract the folder in jsmol.zip. By default, JSmol will be put 
-into a folder called "jsmol".&nbsp; Then follow the instructions in the
+into a folder called "jsmol".&nbsp; Put this "jsmol" folder in a folder that is 
+above the folders where you run MOPAC, for example "C:\Users\you\MOPAC\jsmol"; one 
+copy serves all your calculations.&nbsp; For more detail, see the
 <a href="/guides/jsmol/">Jmol/JSmol guide</a>.&nbsp; </p>
 <p>Prepare a MOPAC data set for the protein.&nbsp; The name of the data set will 
 be used for both the HTML file and for the PDB file that MOPAC will make. For 
@@ -64,9 +66,19 @@ text line, should have the title of the web-page, e.g. "Chymotrypsin"&nbsp; Run
 "test.mop" using MOPAC, this will create some files, including "test.html" and "test.pdb"&nbsp; 
 At this point, have a quick look at these files using a text editor, they should 
 look like a normal HTML and a normal PDB file.</p>
-<p>Copy the files "test.html" and "test.pdb" into the folder 
-"jsmol", then open "test.html" 
-using a local web server.&nbsp; 
+<p>Keep "test.html" and "test.pdb" together in a folder anywhere below the 
+folder that holds "jsmol", for example "C:\Users\you\MOPAC\Chymotrypsin".&nbsp; 
+Modern web browsers will not display JSmol in a web-page opened directly from 
+disk, so "test.html" must be opened through a local web server.&nbsp; The easiest 
+way is to use the MOPAC JSmol launcher, which is included in the MOPAC installer 
+for releases after 23.2.5 and can also be downloaded from 
+<a href="https://github.com/openmopac/mopac/tree/main/jsmol-launcher">GitHub</a>: on Windows, drag "test.html" onto 
+"Open_MOPAC_HTML.cmd" in the "jsmol-launcher\windows" folder 
+(or choose that file in "Open with"); on macOS and Linux, run 
+"jsmol-launcher/unix/open-mopac-html.sh test.html".&nbsp; The launcher finds 
+the "jsmol" folder, starts a local web server, and opens the web-page in the 
+default browser.&nbsp; The <a href="/guides/jsmol/">Jmol/JSmol guide</a> also 
+describes how to start a local web server by hand.</p>
 <h3>Displaying parts of the protein</h3>
 <p>The first JSmol picture is that of the entire protein.&nbsp; This is too 
 complicated to be of any use, so click on "Toggle display all" - this will 
